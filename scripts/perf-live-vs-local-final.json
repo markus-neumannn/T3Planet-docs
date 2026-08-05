@@ -1,0 +1,42 @@
+{
+  "live_home": {
+    "ttfb": 274,
+    "fcp": 1408,
+    "dcl": 1489,
+    "reqs": 20,
+    "xferKB": 301
+  },
+  "live_ai": {
+    "ttfb": 424,
+    "fcp": 672,
+    "dcl": 432,
+    "reqs": 5,
+    "xferKB": 2
+  },
+  "live_nav_to_ai_ms": 851,
+  "live_nav_install_ms": 408,
+  "local_ai_warm": {
+    "ttfb": 5492,
+    "fcp": 5816,
+    "dcl": 5967,
+    "reqs": 83,
+    "xferKB": 2
+  },
+  "local_home_warm": {
+    "ttfb": 6249,
+    "fcp": 6432,
+    "dcl": 6678,
+    "reqs": 80,
+    "xferKB": 2
+  },
+  "local_spa_ms": [
+    6177,
+    6405,
+    9071
+  ],
+  "local_html_kb": 777,
+  "html_transfer": {
+    "local_ai_kb": 722,
+    "live_home_kb": 98
+  }
+}

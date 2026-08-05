@@ -1,0 +1,31 @@
+{
+  "live_home": {
+    "ttfb": 141,
+    "fcp": 992,
+    "dcl": 1029,
+    "reqs": 20,
+    "xferKB": 301,
+    "wall": 1882
+  },
+  "live_ai": {
+    "ttfb": 298,
+    "fcp": 552,
+    "dcl": 314,
+    "reqs": 6,
+    "xferKB": 2,
+    "wall": 1124
+  },
+  "live_nav_ms": 5005,
+  "local_ai_warm": {
+    "ttfb": 11855,
+    "fcp": 12052,
+    "dcl": 12189,
+    "reqs": 85,
+    "xferKB": 2,
+    "wall": 13076
+  },
+  "local_spa_hops_ms": [
+    7332,
+    28636
+  ]
+}

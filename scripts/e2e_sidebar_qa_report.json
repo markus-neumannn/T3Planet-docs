@@ -1,0 +1,956 @@
+{
+  "checks": [
+    {
+      "suite": "routes-en",
+      "test": "route",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "routes-en",
+      "test": "route",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "routes-en",
+      "test": "route",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "routes-en",
+      "test": "route",
+      "detail": "/EXTKarma/Index",
+      "passed": true
+    },
+    {
+      "suite": "routes-en",
+      "test": "route",
+      "detail": "/License/Index",
+      "passed": true
+    },
+    {
+      "suite": "routes-de",
+      "test": "route",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "routes-de",
+      "test": "route",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "routes-de",
+      "test": "route",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "routes-de",
+      "test": "route",
+      "detail": "/de/EXTKarma/Index",
+      "passed": true
+    },
+    {
+      "suite": "routes-de",
+      "test": "route",
+      "detail": "/de/License/Index",
+      "passed": true
+    },
+    {
+      "suite": "a11y",
+      "test": "keyboard-nav",
+      "detail": "/AIFoundation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "active-state-light-1920",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "chevron-visible-light-1920",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "parent-chevron-light-1920",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "legacy-ui-light-1920",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "overflow-light-1920",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "active-state-light-1920",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "chevron-visible-light-1920",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "parent-chevron-light-1920",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "child-chevron-light-1920",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "legacy-ui-light-1920",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "overflow-light-1920",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "active-state-light-1920",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "chevron-visible-light-1920",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "parent-chevron-light-1920",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "child-chevron-light-1920",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "legacy-ui-light-1920",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop",
+      "test": "overflow-light-1920",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "active-state-dark-1920",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "chevron-visible-dark-1920",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "parent-chevron-dark-1920",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "legacy-ui-dark-1920",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "overflow-dark-1920",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "active-state-dark-1920",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "chevron-visible-dark-1920",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "parent-chevron-dark-1920",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "child-chevron-dark-1920",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "legacy-ui-dark-1920",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "overflow-dark-1920",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "active-state-dark-1920",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "chevron-visible-dark-1920",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "parent-chevron-dark-1920",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "child-chevron-dark-1920",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "legacy-ui-dark-1920",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-large_desktop-dark",
+      "test": "overflow-dark-1920",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "active-state-light-1440",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "chevron-visible-light-1440",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "parent-chevron-light-1440",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "legacy-ui-light-1440",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "overflow-light-1440",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "active-state-light-1440",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "chevron-visible-light-1440",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "parent-chevron-light-1440",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "child-chevron-light-1440",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "legacy-ui-light-1440",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "overflow-light-1440",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "active-state-light-1440",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "chevron-visible-light-1440",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "parent-chevron-light-1440",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "child-chevron-light-1440",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "legacy-ui-light-1440",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop",
+      "test": "overflow-light-1440",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "active-state-dark-1440",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "chevron-visible-dark-1440",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "parent-chevron-dark-1440",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "legacy-ui-dark-1440",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "overflow-dark-1440",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "active-state-dark-1440",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "chevron-visible-dark-1440",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "parent-chevron-dark-1440",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "child-chevron-dark-1440",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "legacy-ui-dark-1440",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "overflow-dark-1440",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "active-state-dark-1440",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "chevron-visible-dark-1440",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "parent-chevron-dark-1440",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "child-chevron-dark-1440",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "legacy-ui-dark-1440",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-laptop-dark",
+      "test": "overflow-dark-1440",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "active-state-light-768",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "chevron-visible-light-768",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "parent-chevron-light-768",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "legacy-ui-light-768",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "overflow-light-768",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "active-state-light-768",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "chevron-visible-light-768",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "parent-chevron-light-768",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "child-chevron-light-768",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "legacy-ui-light-768",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "overflow-light-768",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "active-state-light-768",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "chevron-visible-light-768",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "parent-chevron-light-768",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "child-chevron-light-768",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "legacy-ui-light-768",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet",
+      "test": "overflow-light-768",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "active-state-dark-768",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "chevron-visible-dark-768",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "parent-chevron-dark-768",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "legacy-ui-dark-768",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "overflow-dark-768",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "active-state-dark-768",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "chevron-visible-dark-768",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "parent-chevron-dark-768",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "child-chevron-dark-768",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "legacy-ui-dark-768",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "overflow-dark-768",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "active-state-dark-768",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "chevron-visible-dark-768",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "parent-chevron-dark-768",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "child-chevron-dark-768",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "legacy-ui-dark-768",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-tablet-dark",
+      "test": "overflow-dark-768",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "active-state-light-390",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "chevron-visible-light-390",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "parent-chevron-light-390",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "legacy-ui-light-390",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "overflow-light-390",
+      "detail": "/",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "active-state-light-390",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "chevron-visible-light-390",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "parent-chevron-light-390",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "child-chevron-light-390",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "legacy-ui-light-390",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "overflow-light-390",
+      "detail": "/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "active-state-light-390",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "chevron-visible-light-390",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "parent-chevron-light-390",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "child-chevron-light-390",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "legacy-ui-light-390",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile",
+      "test": "overflow-light-390",
+      "detail": "/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "active-state-dark-390",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "chevron-visible-dark-390",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "parent-chevron-dark-390",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "legacy-ui-dark-390",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "overflow-dark-390",
+      "detail": "/de/index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "active-state-dark-390",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "chevron-visible-dark-390",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "parent-chevron-dark-390",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "child-chevron-dark-390",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "legacy-ui-dark-390",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "overflow-dark-390",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "active-state-dark-390",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "chevron-visible-dark-390",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "parent-chevron-dark-390",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "child-chevron-dark-390",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "legacy-ui-dark-390",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "viewport-mobile-dark",
+      "test": "overflow-dark-390",
+      "detail": "/de/ExtNsT3AA/UpdateVersion/Index",
+      "passed": true
+    },
+    {
+      "suite": "interaction",
+      "test": "section-collapse",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "suite": "interaction",
+      "test": "nested-collapse",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "suite": "responsive",
+      "test": "mobile-lang",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "suite": "responsive",
+      "test": "mobile-drawer",
+      "detail": "open=False",
+      "passed": true
+    },
+    {
+      "suite": "i18n",
+      "test": "lang-switch-de",
+      "detail": "/de/ExtNsT3AI/Installation/Index",
+      "passed": true
+    },
+    {
+      "suite": "i18n",
+      "test": "de-mobile-layout",
+      "detail": "overflow=0",
+      "passed": true
+    },
+    {
+      "suite": "theme",
+      "test": "dark-section-icons",
+      "detail": "5",
+      "passed": true
+    },
+    {
+      "suite": "theme",
+      "test": "dark-chevrons",
+      "detail": "1",
+      "passed": true
+    },
+    {
+      "suite": "theme",
+      "test": "light-section-icons",
+      "detail": "5",
+      "passed": true
+    },
+    {
+      "suite": "persistence",
+      "test": "refresh",
+      "detail": "Installation",
+      "passed": true
+    },
+    {
+      "suite": "routes",
+      "test": "404",
+      "detail": "status=404",
+      "passed": true
+    }
+  ],
+  "issues": [],
+  "passed": true,
+  "check_count": 158,
+  "issue_count": 0
+}

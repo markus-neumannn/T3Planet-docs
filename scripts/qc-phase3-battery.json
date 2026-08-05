@@ -1,0 +1,91 @@
+{
+  "defects": [],
+  "checks": {
+    "mintignore": {
+      "docs": true,
+      "de": true,
+      "Live-docs": true,
+      "scripts": true
+    },
+    "sample_html": {
+      "/": {
+        "status": 200,
+        "has_Search_setIndex": false,
+        "html_bytes": 724612
+      },
+      "/AIFoundation/Introduction/Index": {
+        "status": 200,
+        "has_Search_setIndex": false,
+        "html_bytes": 697575
+      },
+      "/ExtNsT3AI/SEO/Index": {
+        "status": 200,
+        "has_Search_setIndex": false,
+        "html_bytes": 735711
+      },
+      "/License/Index": {
+        "status": 200,
+        "has_Search_setIndex": false,
+        "html_bytes": 673891
+      },
+      "/AllExtensions/Index": {
+        "status": 200,
+        "has_Search_setIndex": false,
+        "html_bytes": 763490
+      }
+    },
+    "nav_smoke": {
+      "sampled": 85,
+      "ok": 85,
+      "fail": []
+    },
+    "redirects_count": 1381,
+    "legacy_redirects": [
+      {
+        "path": "/AIUniverse/Index",
+        "status": 200,
+        "final": "http://127.0.0.1:3000/AIFoundation/Index"
+      },
+      {
+        "path": "/AIUniverse/Introduction/Index",
+        "status": 200,
+        "final": "http://127.0.0.1:3000/AIFoundation/Introduction/Index"
+      },
+      {
+        "path": "/de/",
+        "status": 200,
+        "final": "http://127.0.0.1:3000/"
+      },
+      {
+        "path": "/de/ExtNsT3AI/Index",
+        "status": 200,
+        "final": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+      }
+    ],
+    "content_sample": {
+      "product_roots": 1,
+      "deep_sampled": 66,
+      "issues": [],
+      "issue_count": 0
+    },
+    "t3_docs_js": {
+      "prefetch": true,
+      "aiuniverse": true,
+      "lazy_iframe": true
+    },
+    "css_guards": {
+      "responsive_hardening": true,
+      "footer_redesign": true,
+      "no_desktop_fixed_sidebar_comment": true
+    },
+    "supademo_gaps": 0,
+    "parity_audit": {
+      "missing_count": 0,
+      "content_defect_pages": 0,
+      "broken_images": 0,
+      "broken_links": 0
+    }
+  },
+  "verdict": "PASS",
+  "high_defect_count": 0
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "home-desktop",
+    "url": "http://127.0.0.1:3000/",
+    "w": 1440,
+    "h": 900,
+    "hOverflow": 0,
+    "fonts": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-sys",
+    "titleText": "Welcome to T3Planet Docs",
+    "titleSize": "36px",
+    "cardOverflow": 0,
+    "navLabels": [
+      "AI Universe",
+      "Templates",
+      "Extensions",
+      "T3Planet",
+      "Support",
+      "Get Started",
+      "Get Started"
+    ],
+    "hasInter": true,
+    "hasJakarta": false
+  },
+  {
+    "name": "home-mobile",
+    "url": "http://127.0.0.1:3000/",
+    "w": 390,
+    "h": 844,
+    "hOverflow": 35,
+    "fonts": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-sys",
+    "titleText": "Welcome to T3Planet Docs",
+    "titleSize": "28px",
+    "cardOverflow": 0,
+    "navLabels": [
+      "AI Universe",
+      "Templates",
+      "Extensions",
+      "T3Planet",
+      "Support",
+      "Get Started",
+      "Get Started"
+    ],
+    "hasInter": true,
+    "hasJakarta": false
+  },
+  {
+    "name": "home-320",
+    "url": "http://127.0.0.1:3000/",
+    "w": 320,
+    "h": 568,
+    "hOverflow": 35,
+    "fonts": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-sys",
+    "titleText": "Welcome to T3Planet Docs",
+    "titleSize": "28px",
+    "cardOverflow": 0,
+    "navLabels": [
+      "AI Universe",
+      "Templates",
+      "Extensions",
+      "T3Planet",
+      "Support",
+      "Get Started",
+      "Get Started"
+    ],
+    "hasInter": true,
+    "hasJakarta": false
+  },
+  {
+    "name": "install-desktop",
+    "url": "http://127.0.0.1:3000/AIFoundation/Installation/Index",
+    "w": 1440,
+    "h": 900,
+    "hOverflow": 0,
+    "fonts": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-sys",
+    "titleText": "Installation",
+    "titleSize": "36px",
+    "cardOverflow": 0,
+    "navLabels": [
+      "AI Universe",
+      "Templates",
+      "Extensions",
+      "T3Planet",
+      "Support",
+      "Get Started",
+      "Get Started"
+    ],
+    "hasInter": true,
+    "hasJakarta": false
+  },
+  {
+    "name": "install-mobile",
+    "url": "http://127.0.0.1:3000/AIFoundation/Installation/Index",
+    "w": 390,
+    "h": 844,
+    "hOverflow": 54,
+    "fonts": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-sys",
+    "titleText": "Installation",
+    "titleSize": "28px",
+    "cardOverflow": 0,
+    "navLabels": [
+      "AI Universe",
+      "Templates",
+      "Extensions",
+      "T3Planet",
+      "Support",
+      "Get Started",
+      "Get Started"
+    ],
+    "hasInter": true,
+    "hasJakarta": false
+  },
+  {
+    "name": "hub-desktop",
+    "url": "http://127.0.0.1:3000/AllExtensions/Index",
+    "w": 1440,
+    "h": 900,
+    "hOverflow": 0,
+    "fonts": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-sys",
+    "titleText": "All TYPO3 Extensions",
+    "titleSize": "36px",
+    "cardOverflow": 0,
+    "navLabels": [
+      "AI Universe",
+      "Templates",
+      "Extensions",
+      "T3Planet",
+      "Support",
+      "Get Started",
+      "Get Started"
+    ],
+    "hasInter": true,
+    "hasJakarta": false
+  }
+]

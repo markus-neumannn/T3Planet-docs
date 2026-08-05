@@ -1,0 +1,150 @@
+{
+  "mint": {
+    "coldish": [
+      {
+        "name": "home",
+        "path": "/",
+        "domcontentloaded_ms": 1323,
+        "networkidle_ms": 9337,
+        "cold": true
+      },
+      {
+        "name": "AIFoundation",
+        "path": "/AIFoundation/Index",
+        "domcontentloaded_ms": 3541,
+        "networkidle_ms": 11545,
+        "cold": false
+      },
+      {
+        "name": "AIFoundation_deep",
+        "path": "/AIFoundation/Configuration/Dashboard/Index",
+        "domcontentloaded_ms": 3416,
+        "networkidle_ms": 11431,
+        "cold": false
+      },
+      {
+        "name": "License",
+        "path": "/License/Index",
+        "domcontentloaded_ms": 3562,
+        "networkidle_ms": 11569,
+        "cold": false
+      }
+    ],
+    "warm": [
+      {
+        "name": "home",
+        "path": "/",
+        "domcontentloaded_ms": 3015,
+        "warm": true
+      },
+      {
+        "name": "AIFoundation",
+        "path": "/AIFoundation/Index",
+        "domcontentloaded_ms": 3173,
+        "warm": true
+      },
+      {
+        "name": "AIFoundation_deep",
+        "path": "/AIFoundation/Configuration/Dashboard/Index",
+        "domcontentloaded_ms": 1840,
+        "warm": true
+      },
+      {
+        "name": "License",
+        "path": "/License/Index",
+        "domcontentloaded_ms": 3597,
+        "warm": true
+      }
+    ]
+  },
+  "live": {
+    "coldish": [
+      {
+        "name": "home",
+        "path": "/",
+        "domcontentloaded_ms": 1249,
+        "networkidle_ms": 2159,
+        "cold": true
+      },
+      {
+        "name": "AIFoundation",
+        "path": "/ExtNsT3AF/Index.html",
+        "domcontentloaded_ms": 314,
+        "networkidle_ms": 1246,
+        "cold": false
+      },
+      {
+        "name": "AIFoundation_deep",
+        "path": "/ExtNsT3AF/Configuration/Dashboard/Index.html",
+        "domcontentloaded_ms": 79,
+        "networkidle_ms": 2201,
+        "cold": false
+      },
+      {
+        "name": "License",
+        "path": "/License/Index.html",
+        "domcontentloaded_ms": 355,
+        "networkidle_ms": 1263,
+        "cold": false
+      }
+    ],
+    "warm": [
+      {
+        "name": "home",
+        "path": "/",
+        "domcontentloaded_ms": 14,
+        "warm": true
+      },
+      {
+        "name": "AIFoundation",
+        "path": "/ExtNsT3AF/Index.html",
+        "domcontentloaded_ms": 28,
+        "warm": true
+      },
+      {
+        "name": "AIFoundation_deep",
+        "path": "/ExtNsT3AF/Configuration/Dashboard/Index.html",
+        "domcontentloaded_ms": 19,
+        "warm": true
+      },
+      {
+        "name": "License",
+        "path": "/License/Index.html",
+        "domcontentloaded_ms": 27,
+        "warm": true
+      }
+    ]
+  },
+  "html_sizes": {
+    "home": {
+      "bytes": 724612,
+      "has_Search_setIndex": false
+    },
+    "AIFoundation": {
+      "bytes": 721403,
+      "has_Search_setIndex": false
+    },
+    "AIFoundation_deep": {
+      "bytes": 686904,
+      "has_Search_setIndex": false
+    },
+    "License": {
+      "bytes": 673891,
+      "has_Search_setIndex": false
+    }
+  },
+  "redirect_smoke": [
+    {
+      "from": "/AIUniverse/Index",
+      "final": "http://127.0.0.1:3000/AIFoundation/Index",
+      "ok": true
+    },
+    {
+      "from": "/de/",
+      "final": "http://127.0.0.1:3000/",
+      "ok": true
+    }
+  ],
+  "lan": "http://192.168.0.113:3000/",
+  "localhost": "http://127.0.0.1:3000/"
+}

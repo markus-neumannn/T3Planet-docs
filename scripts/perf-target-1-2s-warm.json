@@ -1,0 +1,65 @@
+{
+  "/": {
+    "ttfb_med": 4249,
+    "dcl_med": 4503,
+    "fcp_med": 4372,
+    "xfer": 1005,
+    "icons": 30,
+    "iconMax": 361,
+    "target_1_2s": false
+  },
+  "/AIFoundation/Index": {
+    "ttfb_med": 4687,
+    "dcl_med": 4902,
+    "fcp_med": 4772,
+    "xfer": 1005,
+    "icons": 35,
+    "iconMax": 637,
+    "target_1_2s": false
+  },
+  "/ExtNsLazyload/Configuration/Index": {
+    "ttfb_med": 5915,
+    "dcl_med": 6205,
+    "fcp_med": 6020,
+    "xfer": 622,
+    "icons": 5,
+    "iconMax": 380,
+    "target_1_2s": false
+  },
+  "/AllExtensions/Index": {
+    "ttfb_med": 1797,
+    "dcl_med": 2104,
+    "fcp_med": 1948,
+    "xfer": 1005,
+    "icons": 59,
+    "iconMax": 468,
+    "target_1_2s": false
+  },
+  "/License/Index": {
+    "ttfb_med": 4505,
+    "dcl_med": 4933,
+    "fcp_med": 4588,
+    "xfer": 1005,
+    "icons": 10,
+    "iconMax": 343,
+    "target_1_2s": false
+  },
+  "/ExtNsT3AA/Index": {
+    "ttfb_med": 4757,
+    "dcl_med": 5184,
+    "fcp_med": 4992,
+    "xfer": 990,
+    "icons": 30,
+    "iconMax": 617,
+    "target_1_2s": false
+  },
+  "spa_hops_ms": [
+    3673,
+    7446
+  ],
+  "mobile_warm": {
+    "dcl": 6441,
+    "fcp": 6076,
+    "ttfb": 5893
+  }
+}

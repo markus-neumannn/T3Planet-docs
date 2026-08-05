@@ -1,0 +1,154 @@
+{
+  "nav_recheck": [
+    {
+      "route": "/License/ExtendTrial/Index",
+      "attempt": 1,
+      "status": 200,
+      "soft404": false,
+      "ms": 1070,
+      "len": 8000
+    },
+    {
+      "route": "/License/ExtendTrial/Index",
+      "attempt": 2,
+      "status": 200,
+      "soft404": false,
+      "ms": 443,
+      "len": 8000
+    },
+    {
+      "route": "/License/ExtendTrial/Index",
+      "attempt": 3,
+      "status": 200,
+      "soft404": false,
+      "ms": 447,
+      "len": 8000
+    },
+    {
+      "route": "/License/GenerateLicenseKey/Index",
+      "attempt": 1,
+      "status": 200,
+      "soft404": false,
+      "ms": 422,
+      "len": 8000
+    },
+    {
+      "route": "/License/GenerateLicenseKey/Index",
+      "attempt": 2,
+      "status": 200,
+      "soft404": false,
+      "ms": 415,
+      "len": 8000
+    },
+    {
+      "route": "/License/GenerateLicenseKey/Index",
+      "attempt": 3,
+      "status": 200,
+      "soft404": false,
+      "ms": 408,
+      "len": 8000
+    }
+  ],
+  "search_recheck": [
+    {
+      "attempt": 1,
+      "opened_via": "click:#search-bar-entry",
+      "focused": {
+        "ok": true,
+        "ph": "",
+        "tag": "INPUT"
+      },
+      "typed_ok": true,
+      "ok": true,
+      "state": {
+        "hasDialog": true,
+        "inputs": [
+          {
+            "ph": "",
+            "val": "license",
+            "vis": true
+          }
+        ],
+        "hasLicenseWord": true,
+        "hasResultsHint": true
+      }
+    },
+    {
+      "attempt": 2,
+      "opened_via": "click:#search-bar-entry",
+      "focused": {
+        "ok": true,
+        "ph": "",
+        "tag": "INPUT"
+      },
+      "typed_ok": true,
+      "ok": true,
+      "state": {
+        "hasDialog": true,
+        "inputs": [
+          {
+            "ph": "",
+            "val": "license",
+            "vis": true
+          }
+        ],
+        "hasLicenseWord": true,
+        "hasResultsHint": true
+      }
+    },
+    {
+      "attempt": 3,
+      "opened_via": "click:#search-bar-entry",
+      "focused": {
+        "ok": true,
+        "ph": "",
+        "tag": "INPUT"
+      },
+      "typed_ok": true,
+      "ok": true,
+      "state": {
+        "hasDialog": true,
+        "inputs": [
+          {
+            "ph": "",
+            "val": "license",
+            "vis": true
+          }
+        ],
+        "hasLicenseWord": true,
+        "hasResultsHint": true
+      }
+    }
+  ],
+  "image_recheck": [
+    {
+      "attempt": 1,
+      "broken": []
+    },
+    {
+      "attempt": 2,
+      "broken": [
+        {
+          "src": "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png",
+          "nw": 0,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "broken": [
+        {
+          "src": "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png",
+          "nw": 0,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "decisions": {
+    "BUG-PERF-001": "KEEP",
+    "BUG-PERF-003": "DROP_AS_FP",
+    "BUG-PERF-006": "DROP_AS_FP_TIMEOUT"
+  }
+}

@@ -1,0 +1,674 @@
+[
+  {
+    "live": "ExtNsT3AF/Configuration/AIContext/Index.html",
+    "mint": "AIFoundation/Configuration/AIContext/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIFeatures/Index.html",
+    "mint": "AIFoundation/Configuration/AIFeatures/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIPermissions/Index.html",
+    "mint": "AIFoundation/Configuration/GovernanceAndAccess/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIPrompts/Index.html",
+    "mint": "AIFoundation/Configuration/AIPrompts/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIProviders/Index.html",
+    "mint": "AIFoundation/Configuration/AIProviders/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIUsageAndLogs/Index.html",
+    "mint": "AIFoundation/Configuration/AIUsageAndLogs/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/Dashboard/Index.html",
+    "mint": "AIFoundation/Configuration/Dashboard/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/Index.html",
+    "mint": "AIFoundation/Configuration/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/Architecture/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/Architecture/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/CustomAccessCatalogs/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/CustomFeatureCards/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/CustomMcpTools/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/CustomPromptCatalogs/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomProviders/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/CustomProviders/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/ExtensionIntegration/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/FeatureProviderOverrides/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/Index.html",
+    "mint": "AIFoundation/DeveloperGuide/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/HelpfulLinks/Index.html",
+    "mint": "AIFoundation/HelpfulLinks/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Index.html",
+    "mint": "AIFoundation/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Installation/Index.html",
+    "mint": "AIFoundation/Installation/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Integrations/Index.html",
+    "mint": "AIFoundation/Integrations/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Integrations/MCPServer/Index.html",
+    "mint": "AIFoundation/Integrations/MCPServer/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Integrations/MCPTesting/Index.html",
+    "mint": "AIFoundation/Integrations/MCPTesting/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Integrations/MCPTools/Index.html",
+    "mint": "AIFoundation/Integrations/MCPTools/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Introduction/Index.html",
+    "mint": "AIFoundation/Introduction/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Support/Index.html",
+    "mint": "AIFoundation/Support/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Troubleshooting/FAQ/Index.html",
+    "mint": "AIFoundation/Troubleshooting/FAQ/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Troubleshooting/Index.html",
+    "mint": "AIFoundation/Troubleshooting/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Troubleshooting/KnownProblems/Index.html",
+    "mint": "AIFoundation/Troubleshooting/KnownProblems/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/UserGuide/Index.html",
+    "mint": "AIFoundation/UserGuide/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index.html",
+    "mint": "AIFoundation/UserGuide/RolesAndDailyUse/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AI/AISettings/Index.html",
+    "mint": "ExtNsT3AI/AISettings/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Appendix/Index.html",
+    "mint": "ExtNsT3AI/Appendix/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/BuyNow.html",
+    "mint": "ExtNsT3AI/BuyNow.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Content/Index.html",
+    "mint": "ExtNsT3AI/Content/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/FAQ/Index.html",
+    "mint": "ExtNsT3AI/FAQ/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Index.html",
+    "mint": "ExtNsT3AI/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Installation/Index.html",
+    "mint": "ExtNsT3AI/Installation/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Introduction/Index.html",
+    "mint": "ExtNsT3AI/Introduction/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/KnownProblems/Index.html",
+    "mint": "ExtNsT3AI/KnownProblems/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Media/Index.html",
+    "mint": "ExtNsT3AI/Media/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Pages/Index.html",
+    "mint": "ExtNsT3AI/Pages/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Prompts/Index.html",
+    "mint": "ExtNsT3AI/Prompts/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/ReInstallEverything/Index.html",
+    "mint": "ExtNsT3AI/ReInstallEverything/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/SEO/Index.html",
+    "mint": "ExtNsT3AI/SEO/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Screenshots/Index.html",
+    "mint": "ExtNsT3AI/Screenshots/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Support.html",
+    "mint": "ExtNsT3AI/Support.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/SystemRequirements/Index.html",
+    "mint": "ExtNsT3AI/SystemRequirements/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/Translation/Index.html",
+    "mint": "ExtNsT3AI/Translation/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/UpdateGuide/Index.html",
+    "mint": "ExtNsT3AI/UpdateGuide/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/UpdateVersion/Index.html",
+    "mint": "ExtNsT3AI/UpdateVersion/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/UpgradeGuide/Index.html",
+    "mint": "ExtNsT3AI/UpgradeGuide/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AI/VideoTutorials/Index.html",
+    "mint": "ExtNsT3AI/VideoTutorials/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "ExtNsT3AC/BuyNow.html",
+    "mint": "ExtNsT3AC/BuyNow.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/Configuration/Index.html",
+    "mint": "ExtNsT3AC/Configuration/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/CustomLLMSupport/Index.html",
+    "mint": "ExtNsT3AC/CustomLLMSupport/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.html",
+    "mint": "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index.html",
+    "mint": "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/AILogs/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/AILogs/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/AIStatistics/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/AIStatistics/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/Chatbot/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/Chatbot/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/Dashboard/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/Dashboard/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/DataSource/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/DataSource/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/TrainingCenter/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/TrainingCenter/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/Index.html",
+    "mint": "ExtNsT3AC/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/Installation/Index.html",
+    "mint": "ExtNsT3AC/Installation/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/Introduction/Index.html",
+    "mint": "ExtNsT3AC/Introduction/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/KnownProblems/Index.html",
+    "mint": "ExtNsT3AC/KnownProblems/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/ReInstallEverything/Index.html",
+    "mint": "ExtNsT3AC/ReInstallEverything/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/Screenshots/Index.html",
+    "mint": "ExtNsT3AC/Screenshots/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/Support.html",
+    "mint": "ExtNsT3AC/Support.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/UpdateGuide/Index.html",
+    "mint": "ExtNsT3AC/UpdateGuide/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AC/UpdateVersion/Index.html",
+    "mint": "ExtNsT3AC/UpdateVersion/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AS/BasicAuthentication/Index.html",
+    "mint": "ExtNsT3AS/BasicAuthentication/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/BuyNow.html",
+    "mint": "ExtNsT3AS/BuyNow.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/Configuration/Index.html",
+    "mint": "ExtNsT3AS/Configuration/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/CustomLLMSupport/Index.html",
+    "mint": "ExtNsT3AS/CustomLLMSupport/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.html",
+    "mint": "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index.html",
+    "mint": "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/DatabaseChunking/Index.html",
+    "mint": "ExtNsT3AS/DatabaseChunking/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/FrontendPlugin/Index.html",
+    "mint": "ExtNsT3AS/FrontendPlugin/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/Index.html",
+    "mint": "ExtNsT3AS/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/Installation/Index.html",
+    "mint": "ExtNsT3AS/Installation/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/Introduction/Index.html",
+    "mint": "ExtNsT3AS/Introduction/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/KnownProblems/Index.html",
+    "mint": "ExtNsT3AS/KnownProblems/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/PerformanceConfiguration/Index.html",
+    "mint": "ExtNsT3AS/PerformanceConfiguration/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/ReInstallEverything/Index.html",
+    "mint": "ExtNsT3AS/ReInstallEverything/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/Screenshots/Index.html",
+    "mint": "ExtNsT3AS/Screenshots/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/Support.html",
+    "mint": "ExtNsT3AS/Support.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index.html",
+    "mint": "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/UpdateGuide/Index.html",
+    "mint": "ExtNsT3AS/UpdateGuide/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AS/UpdateVersion/Index.html",
+    "mint": "ExtNsT3AS/UpdateVersion/Index.md",
+    "product": "ExtNsT3AS",
+    "key": "ExtNsT3AS"
+  },
+  {
+    "live": "ExtNsT3AA/AIAudioGenerator/Index.html",
+    "mint": "ExtNsT3AA/AIAudioGenerator/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/AIFilemeta/Index.html",
+    "mint": "ExtNsT3AA/AIFilemeta/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/BuyNow.html",
+    "mint": "ExtNsT3AA/BuyNow.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.html",
+    "mint": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/Configuration/Index.html",
+    "mint": "ExtNsT3AA/Configuration/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/Index.html",
+    "mint": "ExtNsT3AA/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/Installation/Index.html",
+    "mint": "ExtNsT3AA/Installation/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/Introduction/Index.html",
+    "mint": "ExtNsT3AA/Introduction/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/KnownProblems/Index.html",
+    "mint": "ExtNsT3AA/KnownProblems/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/ReInstallEverything/Index.html",
+    "mint": "ExtNsT3AA/ReInstallEverything/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/Screenshots/Index.html",
+    "mint": "ExtNsT3AA/Screenshots/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/SimplifiedText/Index.html",
+    "mint": "ExtNsT3AA/SimplifiedText/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/SpeedCoreWebVitals/Index.html",
+    "mint": "ExtNsT3AA/SpeedCoreWebVitals/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/Support.html",
+    "mint": "ExtNsT3AA/Support.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/SystemRequirements/Index.html",
+    "mint": "ExtNsT3AA/SystemRequirements/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/T3AAVoiceover/Index.html",
+    "mint": "ExtNsT3AA/T3AAVoiceover/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/UpdateGuide/Index.html",
+    "mint": "ExtNsT3AA/UpdateGuide/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  },
+  {
+    "live": "ExtNsT3AA/UpdateVersion/Index.html",
+    "mint": "ExtNsT3AA/UpdateVersion/Index.md",
+    "product": "ExtNsT3AA",
+    "key": "ExtNsT3AA"
+  }
+]

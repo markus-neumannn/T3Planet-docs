@@ -1,0 +1,267 @@
+{
+  "products": {
+    "T3AF": {
+      "live": 43,
+      "missing_pages": [],
+      "gap_pages": 41,
+      "sample_gaps": [
+        {
+          "page": "ExtNsT3AF/AIContext/Index.html",
+          "mint": "AIFoundation/AIContext/Index.md",
+          "missing": [
+            "ai context"
+          ],
+          "live": 9,
+          "mint_n": 8
+        },
+        {
+          "page": "ExtNsT3AF/AIFeatures/Index.html",
+          "mint": "AIFoundation/AIFeatures/Index.md",
+          "missing": [
+            "ai features"
+          ],
+          "live": 9,
+          "mint_n": 8
+        },
+        {
+          "page": "ExtNsT3AF/AIPrompts/Index.html",
+          "mint": "AIFoundation/AIPrompts/Index.md",
+          "missing": [
+            "ai prompts"
+          ],
+          "live": 10,
+          "mint_n": 9
+        },
+        {
+          "page": "ExtNsT3AF/AIProviders/Index.html",
+          "mint": "AIFoundation/AIProviders/Index.md",
+          "missing": [
+            "ai providers"
+          ],
+          "live": 10,
+          "mint_n": 9
+        },
+        {
+          "page": "ExtNsT3AF/AIUsageAndLogs/Index.html",
+          "mint": "AIFoundation/AIUsageAndLogs/Index.md",
+          "missing": [
+            "ai usage & logs"
+          ],
+          "live": 10,
+          "mint_n": 9
+        }
+      ]
+    },
+    "T3AI": {
+      "live": 22,
+      "missing_pages": [],
+      "gap_pages": 18,
+      "sample_gaps": [
+        {
+          "page": "ExtNsT3AI/AISettings/Index.html",
+          "mint": "ExtNsT3AI/AISettings/Index.md",
+          "missing": [
+            "t3ai features",
+            "overview",
+            "key capabilities",
+            "basic workflow"
+          ],
+          "live": 5,
+          "mint_n": 32
+        },
+        {
+          "page": "ExtNsT3AI/Appendix/Index.html",
+          "mint": "ExtNsT3AI/Appendix/Index.md",
+          "missing": [
+            "appendix"
+          ],
+          "live": 1,
+          "mint_n": 0
+        },
+        {
+          "page": "ExtNsT3AI/Content/Index.html",
+          "mint": "ExtNsT3AI/Content/Index.md",
+          "missing": [
+            "content"
+          ],
+          "live": 14,
+          "mint_n": 13
+        },
+        {
+          "page": "ExtNsT3AI/Index.html",
+          "mint": "ExtNsT3AI/Index.md",
+          "missing": [
+            "ext:nst3ai"
+          ],
+          "live": 1,
+          "mint_n": 0
+        },
+        {
+          "page": "ExtNsT3AI/Installation/Index.html",
+          "mint": "ExtNsT3AI/Installation/Index.md",
+          "missing": [
+            "installation"
+          ],
+          "live": 12,
+          "mint_n": 11
+        }
+      ]
+    },
+    "T3AC": {
+      "live": 22,
+      "missing_pages": [],
+      "gap_pages": 21,
+      "sample_gaps": [
+        {
+          "page": "ExtNsT3AC/Configuration/Index.html",
+          "mint": "ExtNsT3AC/Configuration/Index.md",
+          "missing": [
+            "configuration"
+          ],
+          "live": 7,
+          "mint_n": 6
+        },
+        {
+          "page": "ExtNsT3AC/CustomLLMSupport/Index.html",
+          "mint": "ExtNsT3AC/CustomLLMSupport/Index.md",
+          "missing": [
+            "custom llm support"
+          ],
+          "live": 1,
+          "mint_n": 0
+        },
+        {
+          "page": "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.html",
+          "mint": "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.md",
+          "missing": [
+            "t3ac hosting policy for custom llm"
+          ],
+          "live": 4,
+          "mint_n": 3
+        },
+        {
+          "page": "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index.html",
+          "mint": "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index.md",
+          "missing": [
+            "t3ac - prerequisites custom llm"
+          ],
+          "live": 13,
+          "mint_n": 12
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/AILogs/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/AILogs/Index.md",
+          "missing": [
+            "ailogs"
+          ],
+          "live": 3,
+          "mint_n": 2
+        }
+      ]
+    },
+    "T3AS": {
+      "live": 18,
+      "missing_pages": [],
+      "gap_pages": 17,
+      "sample_gaps": [
+        {
+          "page": "ExtNsT3AS/Configuration/Index.html",
+          "mint": "ExtNsT3AS/Configuration/Index.md",
+          "missing": [
+            "configuration"
+          ],
+          "live": 27,
+          "mint_n": 26
+        },
+        {
+          "page": "ExtNsT3AS/CustomLLMSupport/Index.html",
+          "mint": "ExtNsT3AS/CustomLLMSupport/Index.md",
+          "missing": [
+            "custom llm support"
+          ],
+          "live": 1,
+          "mint_n": 0
+        },
+        {
+          "page": "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.html",
+          "mint": "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.md",
+          "missing": [
+            "t3as hosting policy for custom llm"
+          ],
+          "live": 4,
+          "mint_n": 3
+        },
+        {
+          "page": "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index.html",
+          "mint": "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index.md",
+          "missing": [
+            "t3as - prerequisites custom llm"
+          ],
+          "live": 13,
+          "mint_n": 12
+        },
+        {
+          "page": "ExtNsT3AS/DatabaseChunking/Index.html",
+          "mint": "ExtNsT3AS/DatabaseChunking/Index.md",
+          "missing": [
+            "configurable chunk size for embedded data"
+          ],
+          "live": 6,
+          "mint_n": 5
+        }
+      ]
+    },
+    "T3AA": {
+      "live": 18,
+      "missing_pages": [],
+      "gap_pages": 16,
+      "sample_gaps": [
+        {
+          "page": "ExtNsT3AA/AIAudioGenerator/Index.html",
+          "mint": "ExtNsT3AA/AIAudioGenerator/Index.md",
+          "missing": [
+            "ai audio generator"
+          ],
+          "live": 3,
+          "mint_n": 2
+        },
+        {
+          "page": "ExtNsT3AA/AIFilemeta/Index.html",
+          "mint": "ExtNsT3AA/AIFilemeta/Index.md",
+          "missing": [
+            "ai filemeta"
+          ],
+          "live": 6,
+          "mint_n": 5
+        },
+        {
+          "page": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.html",
+          "mint": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.md",
+          "missing": [
+            "ckeditor accessibility check using t3aa"
+          ],
+          "live": 1,
+          "mint_n": 0
+        },
+        {
+          "page": "ExtNsT3AA/Configuration/Index.html",
+          "mint": "ExtNsT3AA/Configuration/Index.md",
+          "missing": [
+            "configuration"
+          ],
+          "live": 10,
+          "mint_n": 9
+        },
+        {
+          "page": "ExtNsT3AA/Index.html",
+          "mint": "ExtNsT3AA/Index.md",
+          "missing": [
+            "ext:nst3aa"
+          ],
+          "live": 1,
+          "mint_n": 0
+        }
+      ]
+    }
+  }
+}

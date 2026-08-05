@@ -1,0 +1,491 @@
+{
+  "updated_pages": 18,
+  "inserted_embeds": 47,
+  "results": [
+    {
+      "rst": "EXTBootstrap/FlexFormtoContentBlockMigration/Index",
+      "mint": "EXTBootstrap/FlexFormtoContentBlockMigration/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "EXTKarma/ContentBlockElements/Index",
+      "mint": "EXTKarma/ContentBlockElements/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "EXTKarma/Customization/Index",
+      "mint": "EXTKarma/Customization/Index.md",
+      "status": "updated",
+      "inserted": 2,
+      "missing_before": [
+        "cmmeyy37n3rxnnr99ch0v9hqs",
+        "cmmf0792y3waynr99pdtajlei"
+      ]
+    },
+    {
+      "rst": "EXTKarma/EditorGuide/Index",
+      "mint": "EXTKarma/EditorGuide/Index.md",
+      "status": "ok",
+      "rst_embeds": 6
+    },
+    {
+      "rst": "EXTKarma/GlobalSettingsConfiguration/Index",
+      "mint": "EXTKarma/GlobalSettingsConfiguration/Index.md",
+      "status": "ok",
+      "rst_embeds": 3
+    },
+    {
+      "rst": "EXTKarma/SEO/Index",
+      "mint": "EXTKarma/SEO/Index.md",
+      "status": "ok",
+      "rst_embeds": 5
+    },
+    {
+      "rst": "EXTKarma/SpeedPerformance/Index",
+      "mint": "EXTKarma/SpeedPerformance/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "EXTKarma/TemplatesLayouts/Index",
+      "mint": "EXTKarma/TemplatesLayouts/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "EXTKarma/UpgradeGuideForContainer/Index",
+      "mint": "EXTKarma/UpgradeGuideForContainer/Index.md",
+      "status": "ok",
+      "rst_embeds": 2
+    },
+    {
+      "rst": "ExtNitsanMaintenance/Configuration/Index",
+      "mint": "ExtNitsanMaintenance/Configuration/Index.md",
+      "status": "ok",
+      "rst_embeds": 2
+    },
+    {
+      "rst": "ExtNsPersonio/UpdateVersion/Index",
+      "mint": "ExtNsPersonio/UpdateVersion/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AA/AIAudioGenerator/Index",
+      "mint": "ExtNsT3AA/AIAudioGenerator/Index.md",
+      "status": "updated",
+      "inserted": 2,
+      "missing_before": [
+        "cmraov52q15ozqmhxzbdsxf7a",
+        "cmram4jch0zcbqmhxk0m25nvu"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AA/AIFilemeta/Index",
+      "mint": "ExtNsT3AA/AIFilemeta/Index.md",
+      "status": "updated",
+      "inserted": 3,
+      "missing_before": [
+        "cmraryza91hd3qmhxpq8887qs",
+        "cmraru0z91h11qmhxwzq9omc7",
+        "cmras49y91hl2qmhxltv9w9d6"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+      "mint": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AA/Configuration/Index",
+      "mint": "ExtNsT3AA/Configuration/Index.md",
+      "status": "updated",
+      "inserted": 5,
+      "missing_before": [
+        "cmral44e20xqkqmhxbcch9g65",
+        "cmrborirv0dr9qmo5w1fothof",
+        "cmrascwby1i72qmhxfeue5to5",
+        "cmrase4m61ib5qmhxmxn7g5j8",
+        "cmral5ln50xu7qmhx0cqoj5mu"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AA/SimplifiedText/Index",
+      "mint": "ExtNsT3AA/SimplifiedText/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AA/SpeedCoreWebVitals/Index",
+      "mint": "ExtNsT3AA/SpeedCoreWebVitals/Index.md",
+      "status": "updated",
+      "inserted": 1,
+      "missing_before": [
+        "cmral0kaf0xl0qmhxbkapwh0q"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AA/T3AAVoiceover/Index",
+      "mint": "ExtNsT3AA/T3AAVoiceover/Index.md",
+      "status": "updated",
+      "inserted": 3,
+      "missing_before": [
+        "cmrapcuhh17atqmhxhxh0i79l",
+        "cmrapfm8c17ngqmhxpuzr9t66",
+        "cmrap6idu16mpqmhxipbc4qvl"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AB/AIBuilder/Index",
+      "mint": "ExtNsT3AB/AIBuilder/Index.md",
+      "status": "ok",
+      "rst_embeds": 2
+    },
+    {
+      "rst": "ExtNsT3AB/AIContentBlock/Index",
+      "mint": "ExtNsT3AB/AIContentBlock/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AB/AIForm/Index",
+      "mint": "ExtNsT3AB/AIForm/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AB/Configuration/Index",
+      "mint": "ExtNsT3AB/Configuration/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AB/Forms/Index",
+      "mint": "ExtNsT3AB/Forms/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AB/T3ABAIBuilder/Index",
+      "mint": "ExtNsT3AB/T3ABAIBuilder/Index.md",
+      "status": "ok",
+      "rst_embeds": 2
+    },
+    {
+      "rst": "ExtNsT3AB/T3ABContentBlocks/Index",
+      "mint": "ExtNsT3AB/T3ABContentBlocks/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AC/Configuration/Index",
+      "mint": "ExtNsT3AC/Configuration/Index.md",
+      "status": "updated",
+      "inserted": 2,
+      "missing_before": [
+        "cmrabse4l0btvqmhx59tvn83q",
+        "cmrabygkm0chzqmhx3nanm13o"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AC/FeatureGuide/AILogs/Index",
+      "mint": "ExtNsT3AC/FeatureGuide/AILogs/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AC/FeatureGuide/AIStatistics/Index",
+      "mint": "ExtNsT3AC/FeatureGuide/AIStatistics/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AC/FeatureGuide/Chatbot/Index",
+      "mint": "ExtNsT3AC/FeatureGuide/Chatbot/Index.md",
+      "status": "ok",
+      "rst_embeds": 2
+    },
+    {
+      "rst": "ExtNsT3AC/FeatureGuide/Dashboard/Index",
+      "mint": "ExtNsT3AC/FeatureGuide/Dashboard/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AC/FeatureGuide/DataSource/Index",
+      "mint": "ExtNsT3AC/FeatureGuide/DataSource/Index.md",
+      "status": "ok",
+      "rst_embeds": 2
+    },
+    {
+      "rst": "ExtNsT3AC/FeatureGuide/TrainingCenter/Index",
+      "mint": "ExtNsT3AC/FeatureGuide/TrainingCenter/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index",
+      "mint": "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AC/Screenshots/Index",
+      "mint": "ExtNsT3AC/Screenshots/Index.md",
+      "status": "updated",
+      "inserted": 1,
+      "missing_before": [
+        null
+      ]
+    },
+    {
+      "rst": "ExtNsT3AF/Configuration/AIContext/Index",
+      "mint": "AIFoundation/Configuration/AIContext/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AF/Configuration/AIPermissions/Index",
+      "mint": "AIFoundation/Configuration/AIPermissions/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AF/Configuration/AIProviders/Index",
+      "mint": "AIFoundation/Configuration/AIProviders/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+      "mint": "AIFoundation/Configuration/AIUsageAndLogs/Index.md",
+      "status": "ok",
+      "rst_embeds": 3
+    },
+    {
+      "rst": "ExtNsT3AF/Configuration/Dashboard/Index",
+      "mint": "AIFoundation/Configuration/Dashboard/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AF/Installation/Index",
+      "mint": "AIFoundation/Installation/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AF/Integrations/MCPServer/Index",
+      "mint": "AIFoundation/Integrations/MCPServer/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AF/Integrations/MCPTools/Index",
+      "mint": "AIFoundation/Integrations/MCPTools/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtNsT3AF/Introduction/Index",
+      "mint": "AIFoundation/Introduction/Index.md",
+      "status": "ok",
+      "rst_embeds": 6
+    },
+    {
+      "rst": "ExtNsT3AI/AISettings/Index",
+      "mint": "ExtNsT3AI/AISettings/Index.md",
+      "status": "updated",
+      "inserted": 1,
+      "missing_before": [
+        "cmrbpsdl20frlqmo521y5if8m"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AI/Pages/Index",
+      "mint": "ExtNsT3AI/Pages/Index.md",
+      "status": "updated",
+      "inserted": 1,
+      "missing_before": [
+        "cmr94376n1yy8qm3akt7qcya0"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AI/SEO/Index",
+      "mint": "ExtNsT3AI/SEO/Index.md",
+      "status": "updated",
+      "inserted": 6,
+      "missing_before": [
+        "cmranl2rf12m9qmhxqwmx41z4",
+        "cmq7sizd80nqcqml6hobhev7r",
+        "cmrc2khs118r3qmo5stu972a6",
+        "cmrc2s2uw19cnqmo5qdlz7g7h",
+        "cmr95u4pt21q0qm3agmdu390p",
+        "cmpkvewkb2mhxqms9l3b4ikuh"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AI/Translation/Index",
+      "mint": "ExtNsT3AI/Translation/Index.md",
+      "status": "updated",
+      "inserted": 2,
+      "missing_before": [
+        "cmmj3g9hy27jqzdh1s0clods6",
+        "cmoclot811hxfs2tq5kqtysxw"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AS/Configuration/Index",
+      "mint": "ExtNsT3AS/Configuration/Index.md",
+      "status": "updated",
+      "inserted": 11,
+      "missing_before": [
+        "cmraj97pg0ryeqmhxt1yypwta",
+        "cmrajbhax0s8yqmhxoq4ikjrv",
+        "cmrajdte10somqmhxdf258tv8",
+        "cmrakildl0wh8qmhx97rf9642",
+        "cmrajhhoo0t19qmhxcu9sljuu",
+        "cmrajjqug0tgfqmhx211jb110",
+        "cmrakgchz0w9qqmhxlikxe9ac",
+        "cmrajs4hd0uedqmhxgmcj85tr",
+        "cmrajqtof0u80qmhxjqczjqef",
+        "cmrbog9to0dl9qmo5dmb8bj0m",
+        "cmrahnqkz0pajqmhx62he9g8r"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AS/FrontendPlugin/Index",
+      "mint": "ExtNsT3AS/FrontendPlugin/Index.md",
+      "status": "updated",
+      "inserted": 1,
+      "missing_before": [
+        "cmrak5f4u0vicqmhxqgs1cufg"
+      ]
+    },
+    {
+      "rst": "ExtNsT3AS/Screenshots/Index",
+      "mint": "ExtNsT3AS/Screenshots/Index.md",
+      "status": "updated",
+      "inserted": 3,
+      "missing_before": [
+        null,
+        "cmrajjqug0tgfqmhx211jb110",
+        "cmrak5f4u0vicqmhxqgs1cufg"
+      ]
+    },
+    {
+      "rst": "ExtNsWpMigration/Configuration/Index",
+      "mint": "ExtNsWpMigration/Configuration/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtRTECKEditorPack/AccessibilityFeatures/Index",
+      "mint": "ExtRTECKEditorPack/AccessibilityFeatures/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtRTECKEditorPack/CKEditorAI/Index",
+      "mint": "ExtRTECKEditorPack/CKEditorAI/Index.md",
+      "status": "ok",
+      "rst_embeds": 2
+    },
+    {
+      "rst": "ExtRTECKEditorPack/HowPresetsWork/Index",
+      "mint": "ExtRTECKEditorPack/HowPresetsWork/Index.md",
+      "status": "ok",
+      "rst_embeds": 5
+    },
+    {
+      "rst": "ExtRTECKEditorPack/PremiumFeatures/Index",
+      "mint": "ExtRTECKEditorPack/PremiumFeatures/Index.md",
+      "status": "ok",
+      "rst_embeds": 5
+    },
+    {
+      "rst": "ExtRTECKEditorPack/PremiumPack/Index",
+      "mint": "ExtRTECKEditorPack/PremiumPack/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtRTECKEditorPack/QuickInstallation/Index",
+      "mint": "ExtRTECKEditorPack/QuickInstallation/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "ExtRTECKEditorPack/SystemRequirements/Index",
+      "mint": "ExtRTECKEditorPack/SystemRequirements/Index.md",
+      "status": "updated",
+      "inserted": 1,
+      "missing_before": [
+        null
+      ]
+    },
+    {
+      "rst": "License/ExtendTrial/Index",
+      "mint": "License/ExtendTrial/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "License/GenerateLicenseKey/Index",
+      "mint": "License/GenerateLicenseKey/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "License/LicenseActivation/Index",
+      "mint": "License/LicenseActivation/Index.md",
+      "status": "updated",
+      "inserted": 1,
+      "missing_before": [
+        null
+      ]
+    },
+    {
+      "rst": "License/LicenseDeActivation/Index",
+      "mint": "License/LicenseDeActivation/Index.md",
+      "status": "updated",
+      "inserted": 1,
+      "missing_before": [
+        "cmn4aw73y0ooaz3qm7owt0691"
+      ]
+    },
+    {
+      "rst": "License/LicenseManager/Index",
+      "mint": "License/LicenseManager/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "License/OtherProducts/Index",
+      "mint": "License/OtherProducts/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "License/RegisterAndManageDomains/Index",
+      "mint": "License/RegisterAndManageDomains/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "License/RenewPurchase/Index",
+      "mint": "License/RenewPurchase/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    },
+    {
+      "rst": "License/UpdateVersion/CheckNewVersion/Index",
+      "mint": "License/UpdateVersion/CheckNewVersion/Index.md",
+      "status": "ok",
+      "rst_embeds": 1
+    }
+  ]
+}

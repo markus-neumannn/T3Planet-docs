@@ -1,0 +1,1014 @@
+{
+  "console": [
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=d_iDNCpMYRC-RSPNAAAF' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 403 ()",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=BRRw8wT-tk1yIHEGAAAH' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/AllExtensions/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/AllTemplates/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=7SECkqsdwn9c6N1nAAAK' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/License/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 403 ()",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 403 ()",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=JjaIAisKpKferYICAAAM' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=inlrWB4yISPfS1mXAAAO' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/47df9ba1c7236d3b-s.p.0cqfp9mgbqxvb.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/7ddd198311ba7843-s.p.11f_0f-25f9yg.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/c875c6f5d3e977ac-s.p.0g_ng0t~d_b9n.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/a218039a3287bcfd-s.p.17-1enzs_j91b.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/f30fd2e485acf1bc-s.p.0_qs2mjxez25z.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/8e6fa89aa22d24ec-s.p.0uvzar8hswo3p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/d273130dc90e6d8b-s.p.0s1pn3e5a51cy.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/522cd826f2dc0be6-s.p.0n2990xzhyidg.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/47fe1b7cd6e6ed85-s.p.0~mcdl10zdfb3.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/345c85a432359eed-s.p.0az0.9544w3d6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/8e451580e5e95631-s.p.0put2--9ix-3p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/4b766aa38fdaaae3-s.p.0cbnlo4n.czwi.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/e2334d715941921e-s.p.12skym0rqknxy.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/9be384ea93fe3f49-s.p.05qlfybzfat._.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/e8f2fbee2754df70-s.p.0fzkl03jw-sdz.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/07454f8ad8aaac57-s.p.0tqkxa-w3pk~c.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/ef7be03ed7e60a63-s.p.14o~5h-2n.9~4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/fa0520225c6f3d07-s.p.0_88erakuzr64.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/370b336b43118e10-s.p.04mv4d3vqkns7.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/a0ab0fb90bbc850b-s.p.160~_l7z.rdpu.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/248e1dc0efc99276-s.p.0ft7o6kv5bp14.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/331b0216806d5ee2-s.p.150zgj~509b2v.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/cf514f5d0007dafa-s.p.0lok5zj4ubzox.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/18f5b9c080a5da0a-s.p.153d2a-8zc4kz.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/ce62453a442c7f35-s.p.0333ktddfbsxy.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/713e82fa9fe87496-s.p.08fj0~_8shb3u.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://cdn.supademo.com/v3.17.71/_next/static/media/9346dec8b3acbbe6-s.p.0p--30l3tls2z.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=AafibwFlf8KIubKmAAAQ' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/EXTAvatar/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=ASRfcstLSBSCg-qzAAAS' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 403 ()",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=CIuRvMCD9XYfKuEzAAAU' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 403 ()",
+      "url": "http://127.0.0.1:3000/ExtNsT3AA/Index"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=c4ZW9DroNZU9Y4gwAAAW' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "warning",
+      "text": "Connected to Socket.io",
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "type": "error",
+      "text": "WebSocket connection to 'ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket&sid=Tg-eXaT3xcvz625YAAAY' failed: Error during WebSocket handshake: Unexpected response code: 400",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/house.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/book-open.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/life-buoy.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/sparkles.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/puzzle.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/layout-template.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/rocket.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+      "url": "http://127.0.0.1:3000/?search=T3AI"
+    }
+  ],
+  "pageerrors": [
+    {
+      "error": "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
+      "url": "http://127.0.0.1:3000/AllTemplates/Index"
+    }
+  ],
+  "nav": [
+    {
+      "test": "logo_home",
+      "url": "http://127.0.0.1:3000/",
+      "wall_s": 0.75,
+      "ok": true
+    },
+    {
+      "test": "header_links_sample",
+      "links": [
+        {
+          "href": "/",
+          "text": "T3Planet Docs home page"
+        },
+        {
+          "href": "/AIFoundationExtensions/Index",
+          "text": "AI Universe"
+        },
+        {
+          "href": "/AllTemplates/Index",
+          "text": "Templates"
+        },
+        {
+          "href": "/AllExtensions/Index",
+          "text": "Extensions"
+        },
+        {
+          "href": "https://t3planet.de/en/",
+          "text": "T3Planet"
+        },
+        {
+          "href": "https://t3planet.de/en/support",
+          "text": "Support"
+        },
+        {
+          "href": "/License/Index",
+          "text": "Get Started"
+        },
+        {
+          "href": "/License/Index",
+          "text": "Get Started"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "/AIFoundationExtensions/Index",
+          "text": "AI Universe Extensions"
+        },
+        {
+          "href": "/AllTemplates/Index",
+          "text": "TYPO3 Templates & Themes"
+        },
+        {
+          "href": "/AllExtensions/Index",
+          "text": "TYPO3 Extensions"
+        },
+        {
+          "href": "#welcome-to-t3planet-docs",
+          "text": "Welcome to T3Planet Docs"
+        },
+        {
+          "href": "#typo3-ai-solutions",
+          "text": "TYPO3 AI solutions"
+        },
+        {
+          "href": "#typo3-themes",
+          "text": "TYPO3 themes"
+        },
+        {
+          "href": "#popular-typo3-extensions",
+          "text": "Popular TYPO3 extensions"
+        },
+        {
+          "href": "#frequently-referenced-guides",
+          "text": "Frequently referenced guides"
+        },
+        {
+          "href": "#frequently-needed-guides",
+          "text": "Frequently needed guides"
+        },
+        {
+          "href": "#need-help",
+          "text": "Need help?"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        }
+      ]
+    },
+    {
+      "test": "prev_next",
+      "links": []
+    }
+  ],
+  "search": [
+    {
+      "opened": true,
+      "typed": true,
+      "results": {
+        "count": 8,
+        "sample": [
+          "AI Universe",
+          "Templates",
+          "Extensions",
+          "T3Planet",
+          "Support",
+          "Get Started",
+          "Get Started",
+          "Home"
+        ]
+      }
+    }
+  ],
+  "responsive": [
+    {
+      "viewport": "desktop",
+      "w": 1440,
+      "h": 900,
+      "metrics": {
+        "overflowX": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "bodyLen": 3872
+      },
+      "menu_opened": false,
+      "pageerrors": []
+    },
+    {
+      "viewport": "laptop",
+      "w": 1280,
+      "h": 800,
+      "metrics": {
+        "overflowX": false,
+        "scrollWidth": 1280,
+        "clientWidth": 1280,
+        "bodyLen": 3872
+      },
+      "menu_opened": false,
+      "pageerrors": []
+    },
+    {
+      "viewport": "tablet",
+      "w": 768,
+      "h": 1024,
+      "metrics": {
+        "overflowX": false,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "bodyLen": 2656
+      },
+      "menu_opened": false,
+      "pageerrors": []
+    },
+    {
+      "viewport": "mobile",
+      "w": 390,
+      "h": 844,
+      "metrics": {
+        "overflowX": false,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "bodyLen": 2656
+      },
+      "menu_opened": false,
+      "pageerrors": []
+    }
+  ],
+  "components": [
+    {
+      "test": "theme_toggle",
+      "error": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label*=theme i]\").first\n    - locator resolved to <button tabindex=\"0\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\" id=\"theme-preference-menu-trigger\" aria-label=\"Change theme preference\" data-component-name=\"theme-preference-menu\" data-testid=\"theme-preference-menu-trigger\" data-component-part=\"theme-preference-menu-trigger\" class=\"group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text-gray-950/50 dark:text-white/50 group-hover:text-gray-950/70 dark:group-hover:text-white/70 theme-preference-menu-trigger group p\u2026>\u2026</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-open=\"\" role=\"presentation\" class=\"fixed inset-0 z-40 overflow-y-auto p-4 sm:p-6 md:p-12\">\u2026</div> from <div id=\"_r_2o_\" data-base-ui-portal=\"\">\u2026</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-open=\"\" role=\"presentation\" class=\"fixed inset-0 z-40 overflow-y-auto p-4 sm:p-6 md:p-12\">\u2026</div> from <div id=\"_r_2o_\" data-base-ui-portal=\"\">\u2026</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    6 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-open=\"\" role=\"presentation\" class=\"fixed inset-0 z-40 overflow-y-auto p-4 sm:p-6 md:p-12\">\u2026</div> from <div id=\"_r_2o_\" data-base-ui-portal=\"\">\u2026</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
+    },
+    {
+      "test": "copy_code",
+      "ok": true
+    },
+    {
+      "test": "firefox_smoke",
+      "code": 200,
+      "title": "AI Foundation - T3Planet Docs",
+      "body": 2429
+    },
+    {
+      "test": "webkit_smoke",
+      "code": 200,
+      "title": "License, Installation & Updates - T3Planet Docs",
+      "body": 2356
+    }
+  ],
+  "perf": [
+    {
+      "path": "/",
+      "code": 200,
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "body_len": 3872,
+      "h1": "Welcome to T3Planet Docs",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": true,
+      "metrics": {
+        "ttfb": 21,
+        "dcl": 2714,
+        "fcp": 2576
+      },
+      "wall_s": 3.67
+    },
+    {
+      "path": "/AIFoundation/Index",
+      "code": 200,
+      "title": "AI Foundation - T3Planet Docs",
+      "body_len": 2482,
+      "h1": "AI Foundation",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": true,
+      "metrics": {
+        "ttfb": 40,
+        "dcl": 139,
+        "fcp": 136
+      },
+      "wall_s": 0.96
+    },
+    {
+      "path": "/AllExtensions/Index",
+      "code": 200,
+      "title": "All TYPO3 Extensions - T3Planet Docs",
+      "body_len": 3733,
+      "h1": "All TYPO3 Extensions",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": true,
+      "metrics": {
+        "ttfb": 7630,
+        "dcl": 7758,
+        "fcp": 7708
+      },
+      "wall_s": 8.6
+    },
+    {
+      "path": "/AllTemplates/Index",
+      "code": 200,
+      "title": "TYPO3 Templates & Themes - T3Planet Docs",
+      "body_len": 3168,
+      "h1": "TYPO3 Templates & Themes",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": true,
+      "metrics": {
+        "ttfb": 14189,
+        "dcl": 14300,
+        "fcp": 14292
+      },
+      "wall_s": 15.17
+    },
+    {
+      "path": "/License/Index",
+      "code": 200,
+      "title": "License, Installation & Updates - T3Planet Docs",
+      "body_len": 2439,
+      "h1": "License, Installation & Updates",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": false,
+      "metrics": {
+        "ttfb": 141,
+        "dcl": 368,
+        "fcp": 240
+      },
+      "wall_s": 1.21
+    },
+    {
+      "path": "/ExtNsT3AA/Index",
+      "code": 200,
+      "title": "T3AA \u2014 TYPO3 AI Accessibility - T3Planet Docs",
+      "body_len": 2679,
+      "h1": "T3AA \u2014 TYPO3 AI Accessibility",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": true,
+      "metrics": {
+        "ttfb": 10885,
+        "dcl": 11073,
+        "fcp": 10992
+      },
+      "wall_s": 11.93
+    },
+    {
+      "path": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+      "code": 200,
+      "title": "CKEditor Accessibility Check using T3AA - T3Planet Docs",
+      "body_len": 2791,
+      "h1": "CKEditor Accessibility Check using T3AA",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": false,
+      "metrics": {
+        "ttfb": 9440,
+        "dcl": 9519,
+        "fcp": 9528
+      },
+      "wall_s": 10.44
+    },
+    {
+      "path": "/EXTAvatar/Index",
+      "code": 200,
+      "title": "T3 Avatar - T3Planet Docs",
+      "body_len": 3100,
+      "h1": "T3 Avatar",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": true,
+      "metrics": {
+        "ttfb": 23537,
+        "dcl": 23773,
+        "fcp": 23704
+      },
+      "wall_s": 24.71
+    },
+    {
+      "path": "/ExtNsT3AI/Index",
+      "code": 200,
+      "title": "T3AI \u2014 TYPO3 AI Extension - T3Planet Docs",
+      "body_len": 2613,
+      "h1": "T3AI \u2014 TYPO3 AI Extension",
+      "broken_imgs": [],
+      "sidebar": true,
+      "logo": {
+        "href": "/",
+        "ok": true
+      },
+      "toc": true,
+      "metrics": {
+        "ttfb": 12397,
+        "dcl": 12486,
+        "fcp": 12480
+      },
+      "wall_s": 13.3
+    }
+  ]
+}

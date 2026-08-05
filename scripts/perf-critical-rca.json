@@ -1,0 +1,160 @@
+{
+  "warm": {
+    "/": {
+      "ttfb": 4753,
+      "fcp": 4864,
+      "dcl": 4982,
+      "xfer": 1004,
+      "reqs": 79,
+      "share": 95,
+      "groups": {
+        "mintlify_chunks": {
+          "count": 38,
+          "transfer": 1023586,
+          "maxDur": 199,
+          "kb": 1000
+        },
+        "custom": {
+          "count": 2,
+          "transfer": 3270,
+          "maxDur": 15,
+          "kb": 3
+        },
+        "other": {
+          "count": 6,
+          "transfer": 1666,
+          "maxDur": 483,
+          "kb": 2
+        },
+        "icons_cdn": {
+          "count": 33,
+          "transfer": 0,
+          "maxDur": 389,
+          "kb": 0
+        }
+      },
+      "ok": false
+    },
+    "/AIFoundation/Index": {
+      "ttfb": 5011,
+      "fcp": 5162,
+      "dcl": 5300,
+      "xfer": 1004,
+      "reqs": 84,
+      "share": 95,
+      "groups": {
+        "mintlify_chunks": {
+          "count": 38,
+          "transfer": 1023586,
+          "maxDur": 251,
+          "kb": 1000
+        },
+        "custom": {
+          "count": 2,
+          "transfer": 3270,
+          "maxDur": 48,
+          "kb": 3
+        },
+        "other": {
+          "count": 6,
+          "transfer": 1666,
+          "maxDur": 368,
+          "kb": 2
+        },
+        "icons_cdn": {
+          "count": 38,
+          "transfer": 0,
+          "maxDur": 657,
+          "kb": 0
+        }
+      },
+      "ok": false
+    },
+    "/AllExtensions/Index": {
+      "ttfb": 4701,
+      "fcp": 4826,
+      "dcl": 5009,
+      "xfer": 1004,
+      "reqs": 109,
+      "share": 94,
+      "groups": {
+        "mintlify_chunks": {
+          "count": 38,
+          "transfer": 1023586,
+          "maxDur": 179,
+          "kb": 1000
+        },
+        "custom": {
+          "count": 2,
+          "transfer": 3270,
+          "maxDur": 26,
+          "kb": 3
+        },
+        "other": {
+          "count": 6,
+          "transfer": 1666,
+          "maxDur": 378,
+          "kb": 2
+        },
+        "icons_cdn": {
+          "count": 63,
+          "transfer": 0,
+          "maxDur": 743,
+          "kb": 0
+        }
+      },
+      "ok": false
+    },
+    "/ExtNsLazyload/Configuration/Index": {
+      "ttfb": 3739,
+      "fcp": 3840,
+      "dcl": 3913,
+      "xfer": 1167,
+      "reqs": 63,
+      "share": 95,
+      "groups": {
+        "mintlify_chunks": {
+          "count": 39,
+          "transfer": 1028979,
+          "maxDur": 162,
+          "kb": 1005
+        },
+        "custom": {
+          "count": 2,
+          "transfer": 3270,
+          "maxDur": 13,
+          "kb": 3
+        },
+        "images": {
+          "count": 2,
+          "transfer": 160626,
+          "maxDur": 16,
+          "kb": 157
+        },
+        "other": {
+          "count": 6,
+          "transfer": 1666,
+          "maxDur": 486,
+          "kb": 2
+        },
+        "icons_cdn": {
+          "count": 14,
+          "transfer": 0,
+          "maxDur": 336,
+          "kb": 0
+        }
+      },
+      "ok": false
+    }
+  },
+  "spa": {
+    "hops": [
+      3550,
+      5656,
+      -7270
+    ],
+    "median": 3550,
+    "under300": false
+  },
+  "cold_first": {}
+}

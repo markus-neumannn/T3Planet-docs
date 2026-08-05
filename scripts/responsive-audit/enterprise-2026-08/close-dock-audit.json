@@ -1,0 +1,58 @@
+[
+  {
+    "vp": "390",
+    "opened": true,
+    "ok": true,
+    "closeL": 8,
+    "closeR": 40,
+    "closeW": 32,
+    "navL": 48,
+    "gap": 8,
+    "docked": true,
+    "strandedLeft": false,
+    "overlapsDrawer": false,
+    "overlapsLogo": false
+  },
+  {
+    "vp": "430",
+    "opened": true,
+    "ok": true,
+    "closeL": 8,
+    "closeR": 40,
+    "closeW": 32,
+    "navL": 48,
+    "gap": 8,
+    "docked": true,
+    "strandedLeft": false,
+    "overlapsDrawer": false,
+    "overlapsLogo": false
+  },
+  {
+    "vp": "681",
+    "opened": true,
+    "ok": true,
+    "closeL": 253,
+    "closeR": 293,
+    "closeW": 40,
+    "navL": 305,
+    "gap": 12,
+    "docked": true,
+    "strandedLeft": false,
+    "overlapsDrawer": false,
+    "overlapsLogo": false
+  },
+  {
+    "vp": "768",
+    "opened": true,
+    "ok": true,
+    "closeL": 332,
+    "closeR": 372,
+    "closeW": 40,
+    "navL": 384,
+    "gap": 12,
+    "docked": true,
+    "strandedLeft": false,
+    "overlapsDrawer": false,
+    "overlapsLogo": false
+  }
+]

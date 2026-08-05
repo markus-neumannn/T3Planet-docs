@@ -1,0 +1,5894 @@
+{
+  "generatedAt": "2026-07-27T11:50:05.354Z",
+  "mintBase": "http://127.0.0.1:3000",
+  "liveBase": "https://docs.t3planet.de/en/latest/",
+  "browsers": {
+    "chromium": [
+      {
+        "label": "home@m-320",
+        "vw": 320,
+        "vh": 568,
+        "scrollW": 320,
+        "clientW": 320,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 12,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "card block font-normal group relative my-2 ring-2 ring-transparent rounded-2xl b",
+                "id": "",
+                "right": 340,
+                "width": 152,
+                "overflowX": "hidden"
+              },
+              {
+                "tag": "div",
+                "cls": "px-6 py-5 relative",
+                "id": "",
+                "right": 339,
+                "width": 150,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "card block font-normal group relative my-2 ring-2 ring-transparent rounded-2xl b",
+                "id": "",
+                "right": 340,
+                "width": 152,
+                "overflowX": "hidden"
+              },
+              {
+                "tag": "div",
+                "cls": "px-6 py-5 relative",
+                "id": "",
+                "right": 339,
+                "width": 150,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "card block font-normal group relative my-2 ring-2 ring-transparent rounded-2xl b",
+                "id": "",
+                "right": 340,
+                "width": 152,
+                "overflowX": "hidden"
+              },
+              {
+                "tag": "div",
+                "cls": "px-6 py-5 relative",
+                "id": "",
+                "right": 339,
+                "width": 150,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "card block font-normal group relative my-2 ring-2 ring-transparent rounded-2xl b",
+                "id": "",
+                "right": 340,
+                "width": 152,
+                "overflowX": "hidden"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          },
+          {
+            "type": "card_overflow",
+            "severity": "high",
+            "count": 11
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "m-320",
+          "w": 320,
+          "h": 568
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@m-360",
+        "vw": 360,
+        "vh": 640,
+        "scrollW": 360,
+        "clientW": 360,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "m-360",
+          "w": 360,
+          "h": 640
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@m-375",
+        "vw": 375,
+        "vh": 667,
+        "scrollW": 375,
+        "clientW": 375,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "m-375",
+          "w": 375,
+          "h": 667
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@m-390",
+        "vw": 390,
+        "vh": 844,
+        "scrollW": 390,
+        "clientW": 390,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "m-390",
+          "w": 390,
+          "h": 844
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@m-412",
+        "vw": 412,
+        "vh": 915,
+        "scrollW": 412,
+        "clientW": 412,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "m-412",
+          "w": 412,
+          "h": 915
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@m-430",
+        "vw": 430,
+        "vh": 932,
+        "scrollW": 430,
+        "clientW": 430,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "m-430",
+          "w": 430,
+          "h": 932
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@m-480",
+        "vw": 480,
+        "vh": 800,
+        "scrollW": 480,
+        "clientW": 480,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "m-480",
+          "w": 480,
+          "h": 800
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@t-768",
+        "vw": 768,
+        "vh": 1024,
+        "scrollW": 768,
+        "clientW": 768,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "t-768",
+          "w": 768,
+          "h": 1024
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@t-820",
+        "vw": 820,
+        "vh": 1180,
+        "scrollW": 820,
+        "clientW": 820,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "t-820",
+          "w": 820,
+          "h": 1180
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@t-834",
+        "vw": 834,
+        "vh": 1194,
+        "scrollW": 834,
+        "clientW": 834,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "t-834",
+          "w": 834,
+          "h": 1194
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@t-1024",
+        "vw": 1024,
+        "vh": 768,
+        "scrollW": 1024,
+        "clientW": 1024,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "div",
+                "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+                "id": "",
+                "right": 1077,
+                "width": 846,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "nav",
+                "cls": "text-sm",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "ul",
+                "cls": "flex space-x-6 items-center",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "li",
+                "cls": "whitespace-nowrap hidden lg:flex",
+                "id": "topbar-cta-button",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "a",
+                "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "flex items-center",
+                "id": "",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "button",
+                "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+                "id": "theme-preference-menu-trigger",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "hidden"
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "t-1024",
+          "w": 1024,
+          "h": 768
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@l-1280",
+        "vw": 1280,
+        "vh": 720,
+        "scrollW": 1280,
+        "clientW": 1280,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "l-1280",
+          "w": 1280,
+          "h": 720
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@l-1366",
+        "vw": 1366,
+        "vh": 768,
+        "scrollW": 1366,
+        "clientW": 1366,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "l-1366",
+          "w": 1366,
+          "h": 768
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@l-1440",
+        "vw": 1440,
+        "vh": 900,
+        "scrollW": 1440,
+        "clientW": 1440,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "l-1440",
+          "w": 1440,
+          "h": 900
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@l-1536",
+        "vw": 1536,
+        "vh": 864,
+        "scrollW": 1536,
+        "clientW": 1536,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "l-1536",
+          "w": 1536,
+          "h": 864
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@d-1600",
+        "vw": 1600,
+        "vh": 900,
+        "scrollW": 1600,
+        "clientW": 1600,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "d-1600",
+          "w": 1600,
+          "h": 900
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@d-1920",
+        "vw": 1920,
+        "vh": 1080,
+        "scrollW": 1920,
+        "clientW": 1920,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "d-1920",
+          "w": 1920,
+          "h": 1080
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@d-2560",
+        "vw": 2560,
+        "vh": 1440,
+        "scrollW": 2560,
+        "clientW": 2560,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "d-2560",
+          "w": 2560,
+          "h": 1440
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "home@d-3840",
+        "vw": 3840,
+        "vh": 2160,
+        "scrollW": 3840,
+        "clientW": 3840,
+        "hOverflow": 0,
+        "title": "Welcome to T3Planet Docs - T3Planet Docs",
+        "issues": [],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "home",
+        "viewport": {
+          "name": "d-3840",
+          "w": 3840,
+          "h": 2160
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "hub-ext@m-320",
+        "vw": 320,
+        "vh": 568,
+        "scrollW": 320,
+        "clientW": 320,
+        "hOverflow": 0,
+        "title": "All TYPO3 Extensions - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 12,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 323,
+                "width": 246,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 323,
+                "width": 246,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 323,
+                "width": 246,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 323,
+                "width": 246,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 323,
+                "width": 246,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 323,
+                "width": 246,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 323,
+                "width": 246,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "hub-ext",
+        "viewport": {
+          "name": "m-320",
+          "w": 320,
+          "h": 568
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "hub-ext@m-360",
+        "vw": 360,
+        "vh": 640,
+        "scrollW": 360,
+        "clientW": 360,
+        "hOverflow": 0,
+        "title": "All TYPO3 Extensions - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 12,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 363,
+                "width": 286,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 363,
+                "width": 286,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 363,
+                "width": 286,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 363,
+                "width": 286,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 363,
+                "width": 286,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 363,
+                "width": 286,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 363,
+                "width": 286,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "hub-ext",
+        "viewport": {
+          "name": "m-360",
+          "w": 360,
+          "h": 640
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "hub-ext@m-375",
+        "vw": 375,
+        "vh": 667,
+        "scrollW": 375,
+        "clientW": 375,
+        "hOverflow": 0,
+        "title": "All TYPO3 Extensions - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 12,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 378,
+                "width": 301,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 378,
+                "width": 301,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 378,
+                "width": 301,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 378,
+                "width": 301,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 378,
+                "width": 301,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 378,
+                "width": 301,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 378,
+                "width": 301,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "hub-ext",
+        "viewport": {
+          "name": "m-375",
+          "w": 375,
+          "h": 667
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "hub-ext@m-390",
+        "vw": 390,
+        "vh": 844,
+        "scrollW": 390,
+        "clientW": 390,
+        "hOverflow": 0,
+        "title": "All TYPO3 Extensions - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 12,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 393,
+                "width": 316,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 393,
+                "width": 316,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 393,
+                "width": 316,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 393,
+                "width": 316,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 393,
+                "width": 316,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 393,
+                "width": 316,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 393,
+                "width": 316,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "hub-ext",
+        "viewport": {
+          "name": "m-390",
+          "w": 390,
+          "h": 844
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "hub-ext@m-412",
+        "vw": 412,
+        "vh": 915,
+        "scrollW": 412,
+        "clientW": 412,
+        "hOverflow": 0,
+        "title": "All TYPO3 Extensions - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 12,
+            "samples": [
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 415,
+                "width": 338,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 415,
+                "width": 338,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 415,
+                "width": 338,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 415,
+                "width": 338,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 415,
+                "width": 338,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 415,
+                "width": 338,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 415,
+                "width": 338,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 415,
+                "width": 338,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "hub-ext",
+        "viewport": {
+          "name": "m-412",
+          "w": 412,
+          "h": 915
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "hub-ext@m-430",
+        "vw": 430,
+        "vh": 932,
+        "scrollW": 430,
+        "clientW": 430,
+        "hOverflow": 0,
+        "title": "All TYPO3 Extensions - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 12,
+            "samples": [
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 433,
+                "width": 356,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 433,
+                "width": 356,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 433,
+                "width": 356,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 433,
+                "width": 356,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 433,
+                "width": 356,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 433,
+                "width": 356,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 433,
+                "width": 356,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 433,
+                "width": 356,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "hub-ext",
+        "viewport": {
+          "name": "m-430",
+          "w": 430,
+          "h": 932
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "hub-ext@m-480",
+        "vw": 480,
+        "vh": 800,
+        "scrollW": 480,
+        "clientW": 480,
+        "hOverflow": 0,
+        "title": "All TYPO3 Extensions - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 12,
+            "samples": [
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 483,
+                "width": 406,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 483,
+                "width": 406,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 483,
+                "width": 406,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 483,
+                "width": 406,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 483,
+                "width": 406,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 483,
+                "width": 406,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 483,
+                "width": 406,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "t3-extension-meta",
+                "id": "",
+                "right": 483,
+                "width": 406,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 36
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "hub-ext",
+        "viewport": {
+          "name": "m-480",
+          "w": 480,
+          "h": 800
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "hub-ext@t-1024",
+        "vw": 1024,
+        "vh": 768,
+        "scrollW": 1024,
+        "clientW": 1024,
+        "hOverflow": 0,
+        "title": "All TYPO3 Extensions - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "div",
+                "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+                "id": "",
+                "right": 1077,
+                "width": 846,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "nav",
+                "cls": "text-sm",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "ul",
+                "cls": "flex space-x-6 items-center",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "li",
+                "cls": "whitespace-nowrap hidden lg:flex",
+                "id": "topbar-cta-button",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "a",
+                "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "flex items-center",
+                "id": "",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "button",
+                "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+                "id": "theme-preference-menu-trigger",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "hidden"
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "hub-ext",
+        "viewport": {
+          "name": "t-1024",
+          "w": 1024,
+          "h": 768
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-install@m-320",
+        "vw": 320,
+        "vh": 568,
+        "scrollW": 320,
+        "clientW": 320,
+        "hOverflow": 0,
+        "title": "Installation - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 7,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 29
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-install",
+        "viewport": {
+          "name": "m-320",
+          "w": 320,
+          "h": 568
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-install@m-360",
+        "vw": 360,
+        "vh": 640,
+        "scrollW": 360,
+        "clientW": 360,
+        "hOverflow": 0,
+        "title": "Installation - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 7,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 29
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-install",
+        "viewport": {
+          "name": "m-360",
+          "w": 360,
+          "h": 640
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-install@m-375",
+        "vw": 375,
+        "vh": 667,
+        "scrollW": 375,
+        "clientW": 375,
+        "hOverflow": 0,
+        "title": "Installation - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 7,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 29
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-install",
+        "viewport": {
+          "name": "m-375",
+          "w": 375,
+          "h": 667
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-install@m-390",
+        "vw": 390,
+        "vh": 844,
+        "scrollW": 390,
+        "clientW": 390,
+        "hOverflow": 0,
+        "title": "Installation - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 29
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 26,
+                "h": 26
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-install",
+        "viewport": {
+          "name": "m-390",
+          "w": 390,
+          "h": 844
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-install@m-412",
+        "vw": 412,
+        "vh": 915,
+        "scrollW": 412,
+        "clientW": 412,
+        "hOverflow": 0,
+        "title": "Installation - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 29
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 26,
+                "h": 26
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-install",
+        "viewport": {
+          "name": "m-412",
+          "w": 412,
+          "h": 915
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-install@m-430",
+        "vw": 430,
+        "vh": 932,
+        "scrollW": 430,
+        "clientW": 430,
+        "hOverflow": 0,
+        "title": "Installation - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 29
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 26,
+                "h": 26
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-install",
+        "viewport": {
+          "name": "m-430",
+          "w": 430,
+          "h": 932
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-install@m-480",
+        "vw": 480,
+        "vh": 800,
+        "scrollW": 480,
+        "clientW": 480,
+        "hOverflow": 0,
+        "title": "Installation - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "​",
+                "w": 40,
+                "h": 29
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 26,
+                "h": 26
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-install",
+        "viewport": {
+          "name": "m-480",
+          "w": 480,
+          "h": 800
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-install@t-1024",
+        "vw": 1024,
+        "vh": 768,
+        "scrollW": 1024,
+        "clientW": 1024,
+        "hOverflow": 0,
+        "title": "Installation - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "div",
+                "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+                "id": "",
+                "right": 1077,
+                "width": 846,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "nav",
+                "cls": "text-sm",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "ul",
+                "cls": "flex space-x-6 items-center",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "li",
+                "cls": "whitespace-nowrap hidden lg:flex",
+                "id": "topbar-cta-button",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "a",
+                "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "flex items-center",
+                "id": "",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "button",
+                "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+                "id": "theme-preference-menu-trigger",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "hidden"
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-install",
+        "viewport": {
+          "name": "t-1024",
+          "w": 1024,
+          "h": 768
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-providers@m-320",
+        "vw": 320,
+        "vh": 568,
+        "scrollW": 320,
+        "clientW": 320,
+        "hOverflow": 0,
+        "title": "AI Providers - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Configuration",
+                "w": 92,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-providers",
+        "viewport": {
+          "name": "m-320",
+          "w": 320,
+          "h": 568
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-providers@m-360",
+        "vw": 360,
+        "vh": 640,
+        "scrollW": 360,
+        "clientW": 360,
+        "hOverflow": 0,
+        "title": "AI Providers - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Configuration",
+                "w": 92,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-providers",
+        "viewport": {
+          "name": "m-360",
+          "w": 360,
+          "h": 640
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-providers@m-375",
+        "vw": 375,
+        "vh": 667,
+        "scrollW": 375,
+        "clientW": 375,
+        "hOverflow": 0,
+        "title": "AI Providers - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Configuration",
+                "w": 92,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-providers",
+        "viewport": {
+          "name": "m-375",
+          "w": 375,
+          "h": 667
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-providers@m-390",
+        "vw": 390,
+        "vh": 844,
+        "scrollW": 390,
+        "clientW": 390,
+        "hOverflow": 0,
+        "title": "AI Providers - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Configuration",
+                "w": 92,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-providers",
+        "viewport": {
+          "name": "m-390",
+          "w": 390,
+          "h": 844
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-providers@m-412",
+        "vw": 412,
+        "vh": 915,
+        "scrollW": 412,
+        "clientW": 412,
+        "hOverflow": 0,
+        "title": "AI Providers - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 5,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Configuration",
+                "w": 92,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-providers",
+        "viewport": {
+          "name": "m-412",
+          "w": 412,
+          "h": 915
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-providers@m-430",
+        "vw": 430,
+        "vh": 932,
+        "scrollW": 430,
+        "clientW": 430,
+        "hOverflow": 0,
+        "title": "AI Providers - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 7,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "Configuration",
+                "w": 92,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-providers",
+        "viewport": {
+          "name": "m-430",
+          "w": 430,
+          "h": 932
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-providers@m-480",
+        "vw": 480,
+        "vh": 800,
+        "scrollW": 480,
+        "clientW": 480,
+        "hOverflow": 0,
+        "title": "AI Providers - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 7,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "AI Foundation",
+                "w": 91,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "Configuration",
+                "w": 92,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-providers",
+        "viewport": {
+          "name": "m-480",
+          "w": 480,
+          "h": 800
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "af-providers@t-1024",
+        "vw": 1024,
+        "vh": 768,
+        "scrollW": 1024,
+        "clientW": 1024,
+        "hOverflow": 0,
+        "title": "AI Providers - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "div",
+                "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+                "id": "",
+                "right": 1077,
+                "width": 846,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "nav",
+                "cls": "text-sm",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "ul",
+                "cls": "flex space-x-6 items-center",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "li",
+                "cls": "whitespace-nowrap hidden lg:flex",
+                "id": "topbar-cta-button",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "a",
+                "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "flex items-center",
+                "id": "",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "button",
+                "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+                "id": "theme-preference-menu-trigger",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "hidden"
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "af-providers",
+        "viewport": {
+          "name": "t-1024",
+          "w": 1024,
+          "h": 768
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "t3ai@m-320",
+        "vw": 320,
+        "vh": 568,
+        "scrollW": 320,
+        "clientW": 320,
+        "hOverflow": 0,
+        "title": "EXT:ns_t3ai - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 6,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "T3AI",
+                "w": 28,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "t3ai",
+        "viewport": {
+          "name": "m-320",
+          "w": 320,
+          "h": 568
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "t3ai@m-360",
+        "vw": 360,
+        "vh": 640,
+        "scrollW": 360,
+        "clientW": 360,
+        "hOverflow": 0,
+        "title": "EXT:ns_t3ai - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "T3AI",
+                "w": 28,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "Introduction",
+                "w": 94,
+                "h": 22
+              },
+              {
+                "tag": "A",
+                "text": "EXT:ns_t3ai",
+                "w": 88,
+                "h": 22
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "t3ai",
+        "viewport": {
+          "name": "m-360",
+          "w": 360,
+          "h": 640
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "t3ai@m-375",
+        "vw": 375,
+        "vh": 667,
+        "scrollW": 375,
+        "clientW": 375,
+        "hOverflow": 0,
+        "title": "EXT:ns_t3ai - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 9,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "T3AI",
+                "w": 28,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "Introduction",
+                "w": 94,
+                "h": 22
+              },
+              {
+                "tag": "A",
+                "text": "EXT:ns_t3ai",
+                "w": 88,
+                "h": 22
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "t3ai",
+        "viewport": {
+          "name": "m-375",
+          "w": 375,
+          "h": 667
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "t3ai@m-390",
+        "vw": 390,
+        "vh": 844,
+        "scrollW": 390,
+        "clientW": 390,
+        "hOverflow": 0,
+        "title": "EXT:ns_t3ai - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 14,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "T3AI",
+                "w": 28,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "Introduction",
+                "w": 94,
+                "h": 22
+              },
+              {
+                "tag": "A",
+                "text": "EXT:ns_t3ai",
+                "w": 88,
+                "h": 22
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "t3ai",
+        "viewport": {
+          "name": "m-390",
+          "w": 390,
+          "h": 844
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "t3ai@m-412",
+        "vw": 412,
+        "vh": 915,
+        "scrollW": 412,
+        "clientW": 412,
+        "hOverflow": 0,
+        "title": "EXT:ns_t3ai - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "medium",
+            "count": 16,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "T3AI",
+                "w": 28,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "Introduction",
+                "w": 94,
+                "h": 22
+              },
+              {
+                "tag": "A",
+                "text": "EXT:ns_t3ai",
+                "w": 88,
+                "h": 22
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "t3ai",
+        "viewport": {
+          "name": "m-412",
+          "w": 412,
+          "h": 915
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "t3ai@m-430",
+        "vw": 430,
+        "vh": 932,
+        "scrollW": 430,
+        "clientW": 430,
+        "hOverflow": 0,
+        "title": "EXT:ns_t3ai - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "medium",
+            "count": 17,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "T3AI",
+                "w": 28,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "Introduction",
+                "w": 94,
+                "h": 22
+              },
+              {
+                "tag": "A",
+                "text": "EXT:ns_t3ai",
+                "w": 88,
+                "h": 22
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "t3ai",
+        "viewport": {
+          "name": "m-430",
+          "w": 430,
+          "h": 932
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "t3ai@m-480",
+        "vw": 480,
+        "vh": 800,
+        "scrollW": 480,
+        "clientW": 480,
+        "hOverflow": 0,
+        "title": "EXT:ns_t3ai - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 13,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "AI Universe Extensions",
+                "w": 147,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "T3AI",
+                "w": 28,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "Introduction",
+                "w": 94,
+                "h": 22
+              },
+              {
+                "tag": "A",
+                "text": "EXT:ns_t3ai",
+                "w": 88,
+                "h": 22
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "t3ai",
+        "viewport": {
+          "name": "m-480",
+          "w": 480,
+          "h": 800
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "t3ai@t-1024",
+        "vw": 1024,
+        "vh": 768,
+        "scrollW": 1024,
+        "clientW": 1024,
+        "hOverflow": 0,
+        "title": "EXT:ns_t3ai - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "div",
+                "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+                "id": "",
+                "right": 1077,
+                "width": 846,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "nav",
+                "cls": "text-sm",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "ul",
+                "cls": "flex space-x-6 items-center",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "li",
+                "cls": "whitespace-nowrap hidden lg:flex",
+                "id": "topbar-cta-button",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "a",
+                "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "flex items-center",
+                "id": "",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "button",
+                "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+                "id": "theme-preference-menu-trigger",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "hidden"
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "t3ai",
+        "viewport": {
+          "name": "t-1024",
+          "w": 1024,
+          "h": 768
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "license@m-320",
+        "vw": 320,
+        "vh": 568,
+        "scrollW": 320,
+        "clientW": 320,
+        "hOverflow": 0,
+        "title": "License, Installation & Updates - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 6,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Get Started",
+                "w": 78,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "License & Installation",
+                "w": 139,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "license",
+        "viewport": {
+          "name": "m-320",
+          "w": 320,
+          "h": 568
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "license@m-360",
+        "vw": 360,
+        "vh": 640,
+        "scrollW": 360,
+        "clientW": 360,
+        "hOverflow": 0,
+        "title": "License, Installation & Updates - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 6,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Get Started",
+                "w": 78,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "License & Installation",
+                "w": 139,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "license",
+        "viewport": {
+          "name": "m-360",
+          "w": 360,
+          "h": 640
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "license@m-375",
+        "vw": 375,
+        "vh": 667,
+        "scrollW": 375,
+        "clientW": 375,
+        "hOverflow": 0,
+        "title": "License, Installation & Updates - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 7,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Get Started",
+                "w": 78,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "License & Installation",
+                "w": 139,
+                "h": 20
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 24,
+                "h": 24
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "license",
+        "viewport": {
+          "name": "m-375",
+          "w": 375,
+          "h": 667
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "license@m-390",
+        "vw": 390,
+        "vh": 844,
+        "scrollW": 390,
+        "clientW": 390,
+        "hOverflow": 0,
+        "title": "License, Installation & Updates - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 1,
+            "samples": [
+              {
+                "tag": "a",
+                "cls": "",
+                "id": "",
+                "right": 399,
+                "width": 62,
+                "overflowX": "visible"
+              }
+            ]
+          },
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 6,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Get Started",
+                "w": 78,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "License & Installation",
+                "w": 139,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "license",
+        "viewport": {
+          "name": "m-390",
+          "w": 390,
+          "h": 844
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "license@m-412",
+        "vw": 412,
+        "vh": 915,
+        "scrollW": 412,
+        "clientW": 412,
+        "hOverflow": 0,
+        "title": "License, Installation & Updates - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 6,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Get Started",
+                "w": 78,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "License & Installation",
+                "w": 139,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "license",
+        "viewport": {
+          "name": "m-412",
+          "w": 412,
+          "h": 915
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "license@m-430",
+        "vw": 430,
+        "vh": 932,
+        "scrollW": 430,
+        "clientW": 430,
+        "hOverflow": 0,
+        "title": "License, Installation & Updates - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 6,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Get Started",
+                "w": 78,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "License & Installation",
+                "w": 139,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "license",
+        "viewport": {
+          "name": "m-430",
+          "w": 430,
+          "h": 932
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "license@m-480",
+        "vw": 480,
+        "vh": 800,
+        "scrollW": 480,
+        "clientW": 480,
+        "hOverflow": 0,
+        "title": "License, Installation & Updates - T3Planet Docs",
+        "issues": [
+          {
+            "type": "small_touch_targets",
+            "severity": "low",
+            "count": 6,
+            "samples": [
+              {
+                "tag": "A",
+                "text": "/llms.txt",
+                "w": 62,
+                "h": 21
+              },
+              {
+                "tag": "A",
+                "text": "T3Planet Docs home page",
+                "w": 121,
+                "h": 28
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Search...",
+                "w": 32,
+                "h": 32
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "w": 20,
+                "h": 28
+              },
+              {
+                "tag": "A",
+                "text": "Get Started",
+                "w": 78,
+                "h": 20
+              },
+              {
+                "tag": "A",
+                "text": "License & Installation",
+                "w": 139,
+                "h": 20
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "license",
+        "viewport": {
+          "name": "m-480",
+          "w": 480,
+          "h": 800
+        },
+        "browser": "chromium"
+      },
+      {
+        "label": "license@t-1024",
+        "vw": 1024,
+        "vh": 768,
+        "scrollW": 1024,
+        "clientW": 1024,
+        "hOverflow": 0,
+        "title": "License, Installation & Updates - T3Planet Docs",
+        "issues": [
+          {
+            "type": "overflow_elements",
+            "severity": "high",
+            "count": 8,
+            "samples": [
+              {
+                "tag": "div",
+                "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+                "id": "",
+                "right": 1077,
+                "width": 846,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "nav",
+                "cls": "text-sm",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "ul",
+                "cls": "flex space-x-6 items-center",
+                "id": "",
+                "right": 1029,
+                "width": 798,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "li",
+                "cls": "whitespace-nowrap hidden lg:flex",
+                "id": "topbar-cta-button",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "a",
+                "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "span",
+                "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+                "id": "",
+                "right": 1029,
+                "width": 114,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "div",
+                "cls": "flex items-center",
+                "id": "",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "visible"
+              },
+              {
+                "tag": "button",
+                "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+                "id": "theme-preference-menu-trigger",
+                "right": 1077,
+                "width": 32,
+                "overflowX": "hidden"
+              }
+            ]
+          }
+        ],
+        "hasSidebarBtn": false,
+        "hasSearch": true,
+        "page": "license",
+        "viewport": {
+          "name": "t-1024",
+          "w": 1024,
+          "h": 768
+        },
+        "browser": "chromium"
+      }
+    ],
+    "firefox": [
+      {
+        "error": "launch_failed: Error: browserType.launch: Executable doesn't exist at /Users/nitsan/Library/Caches/ms-playwright/firefox-1538/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════"
+      }
+    ],
+    "webkit": [
+      {
+        "error": "launch_failed: Error: browserType.launch: Executable doesn't exist at /Users/nitsan/Library/Caches/ms-playwright/webkit-2336/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Play"
+      }
+    ]
+  },
+  "interactions": {
+    "m-375": {
+      "viewport": "m-375",
+      "sidebar": {
+        "ok": false,
+        "reason": "no_button",
+        "visible": false,
+        "ms": 413
+      },
+      "search": {
+        "ok": false,
+        "openMs": 305
+      }
+    },
+    "m-390": {
+      "viewport": "m-390",
+      "sidebar": {
+        "ok": false,
+        "reason": "no_button",
+        "visible": false,
+        "ms": 406
+      },
+      "search": {
+        "ok": false,
+        "openMs": 305
+      }
+    },
+    "m-430": {
+      "viewport": "m-430",
+      "sidebar": {
+        "ok": false,
+        "reason": "no_button",
+        "visible": false,
+        "ms": 406
+      },
+      "search": {
+        "ok": false,
+        "openMs": 305
+      }
+    }
+  },
+  "summary": {
+    "high": 34,
+    "medium": 2,
+    "low": 40,
+    "passCombos": 81,
+    "failCombos": 33
+  },
+  "liveCompare": [
+    {
+      "page": "home",
+      "viewport": "m-390",
+      "mint": {
+        "hOverflow": 0,
+        "issueTypes": [
+          "overflow_elements",
+          "small_touch_targets"
+        ],
+        "issueCount": 2
+      },
+      "live": {
+        "hOverflow": 0,
+        "issueTypes": [
+          "header_too_tall",
+          "small_touch_targets"
+        ],
+        "issueCount": 2
+      }
+    },
+    {
+      "page": "af-install",
+      "viewport": "m-390",
+      "mint": {
+        "hOverflow": 0,
+        "issueTypes": [
+          "overflow_elements",
+          "small_touch_targets"
+        ],
+        "issueCount": 2
+      },
+      "live": {
+        "hOverflow": 0,
+        "issueTypes": [
+          "header_too_tall",
+          "small_touch_targets"
+        ],
+        "issueCount": 2
+      }
+    },
+    {
+      "page": "home",
+      "viewport": "d-1920",
+      "mint": {
+        "hOverflow": 0,
+        "issueTypes": [],
+        "issueCount": 0
+      },
+      "live": {
+        "hOverflow": 0,
+        "issueTypes": [],
+        "issueCount": 0
+      }
+    },
+    {
+      "page": "af-install",
+      "viewport": "d-1920",
+      "mint": {
+        "hOverflow": 0,
+        "issueTypes": [],
+        "issueCount": 0
+      },
+      "live": {
+        "hOverflow": 0,
+        "issueTypes": [],
+        "issueCount": 0
+      }
+    }
+  ],
+  "highIssues": [
+    {
+      "browser": "chromium",
+      "page": "home",
+      "viewport": "m-320",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 12,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "card block font-normal group relative my-2 ring-2 ring-transparent rounded-2xl b",
+            "id": "",
+            "right": 340,
+            "width": 152,
+            "overflowX": "hidden"
+          },
+          {
+            "tag": "div",
+            "cls": "px-6 py-5 relative",
+            "id": "",
+            "right": 339,
+            "width": 150,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "card block font-normal group relative my-2 ring-2 ring-transparent rounded-2xl b",
+            "id": "",
+            "right": 340,
+            "width": 152,
+            "overflowX": "hidden"
+          },
+          {
+            "tag": "div",
+            "cls": "px-6 py-5 relative",
+            "id": "",
+            "right": 339,
+            "width": 150,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "card block font-normal group relative my-2 ring-2 ring-transparent rounded-2xl b",
+            "id": "",
+            "right": 340,
+            "width": 152,
+            "overflowX": "hidden"
+          },
+          {
+            "tag": "div",
+            "cls": "px-6 py-5 relative",
+            "id": "",
+            "right": 339,
+            "width": 150,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "card block font-normal group relative my-2 ring-2 ring-transparent rounded-2xl b",
+            "id": "",
+            "right": 340,
+            "width": 152,
+            "overflowX": "hidden"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "home",
+      "viewport": "m-320",
+      "issue": {
+        "type": "card_overflow",
+        "severity": "high",
+        "count": 11
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "home",
+      "viewport": "m-360",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "home",
+      "viewport": "m-375",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "home",
+      "viewport": "m-390",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "home",
+      "viewport": "t-1024",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 8,
+        "samples": [
+          {
+            "tag": "div",
+            "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+            "id": "",
+            "right": 1077,
+            "width": 846,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "nav",
+            "cls": "text-sm",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "ul",
+            "cls": "flex space-x-6 items-center",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "li",
+            "cls": "whitespace-nowrap hidden lg:flex",
+            "id": "topbar-cta-button",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "a",
+            "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "flex items-center",
+            "id": "",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "button",
+            "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+            "id": "theme-preference-menu-trigger",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "hidden"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "hub-ext",
+      "viewport": "m-320",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 12,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 323,
+            "width": 246,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 323,
+            "width": 246,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 323,
+            "width": 246,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 323,
+            "width": 246,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 323,
+            "width": 246,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 323,
+            "width": 246,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 323,
+            "width": 246,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "hub-ext",
+      "viewport": "m-360",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 12,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 363,
+            "width": 286,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 363,
+            "width": 286,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 363,
+            "width": 286,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 363,
+            "width": 286,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 363,
+            "width": 286,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 363,
+            "width": 286,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 363,
+            "width": 286,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "hub-ext",
+      "viewport": "m-375",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 12,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 378,
+            "width": 301,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 378,
+            "width": 301,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 378,
+            "width": 301,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 378,
+            "width": 301,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 378,
+            "width": 301,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 378,
+            "width": 301,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 378,
+            "width": 301,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "hub-ext",
+      "viewport": "m-390",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 12,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 393,
+            "width": 316,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 393,
+            "width": 316,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 393,
+            "width": 316,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 393,
+            "width": 316,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 393,
+            "width": 316,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 393,
+            "width": 316,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 393,
+            "width": 316,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "hub-ext",
+      "viewport": "m-412",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 12,
+        "samples": [
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 415,
+            "width": 338,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 415,
+            "width": 338,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 415,
+            "width": 338,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 415,
+            "width": 338,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 415,
+            "width": 338,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 415,
+            "width": 338,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 415,
+            "width": 338,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 415,
+            "width": 338,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "hub-ext",
+      "viewport": "m-430",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 12,
+        "samples": [
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 433,
+            "width": 356,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 433,
+            "width": 356,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 433,
+            "width": 356,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 433,
+            "width": 356,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 433,
+            "width": 356,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 433,
+            "width": 356,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 433,
+            "width": 356,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 433,
+            "width": 356,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "hub-ext",
+      "viewport": "m-480",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 12,
+        "samples": [
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 483,
+            "width": 406,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 483,
+            "width": 406,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 483,
+            "width": 406,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 483,
+            "width": 406,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 483,
+            "width": 406,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 483,
+            "width": 406,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 483,
+            "width": 406,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "t3-extension-meta",
+            "id": "",
+            "right": 483,
+            "width": 406,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "hub-ext",
+      "viewport": "t-1024",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 8,
+        "samples": [
+          {
+            "tag": "div",
+            "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+            "id": "",
+            "right": 1077,
+            "width": 846,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "nav",
+            "cls": "text-sm",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "ul",
+            "cls": "flex space-x-6 items-center",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "li",
+            "cls": "whitespace-nowrap hidden lg:flex",
+            "id": "topbar-cta-button",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "a",
+            "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "flex items-center",
+            "id": "",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "button",
+            "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+            "id": "theme-preference-menu-trigger",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "hidden"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-install",
+      "viewport": "m-320",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-install",
+      "viewport": "m-360",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-install",
+      "viewport": "m-375",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-install",
+      "viewport": "m-390",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-install",
+      "viewport": "t-1024",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 8,
+        "samples": [
+          {
+            "tag": "div",
+            "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+            "id": "",
+            "right": 1077,
+            "width": 846,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "nav",
+            "cls": "text-sm",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "ul",
+            "cls": "flex space-x-6 items-center",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "li",
+            "cls": "whitespace-nowrap hidden lg:flex",
+            "id": "topbar-cta-button",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "a",
+            "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "flex items-center",
+            "id": "",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "button",
+            "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+            "id": "theme-preference-menu-trigger",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "hidden"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-providers",
+      "viewport": "m-320",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-providers",
+      "viewport": "m-360",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-providers",
+      "viewport": "m-375",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-providers",
+      "viewport": "m-390",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "af-providers",
+      "viewport": "t-1024",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 8,
+        "samples": [
+          {
+            "tag": "div",
+            "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+            "id": "",
+            "right": 1077,
+            "width": 846,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "nav",
+            "cls": "text-sm",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "ul",
+            "cls": "flex space-x-6 items-center",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "li",
+            "cls": "whitespace-nowrap hidden lg:flex",
+            "id": "topbar-cta-button",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "a",
+            "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "flex items-center",
+            "id": "",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "button",
+            "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+            "id": "theme-preference-menu-trigger",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "hidden"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "t3ai",
+      "viewport": "m-320",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "t3ai",
+      "viewport": "m-360",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "t3ai",
+      "viewport": "m-375",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "t3ai",
+      "viewport": "m-390",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "t3ai",
+      "viewport": "t-1024",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 8,
+        "samples": [
+          {
+            "tag": "div",
+            "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+            "id": "",
+            "right": 1077,
+            "width": 846,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "nav",
+            "cls": "text-sm",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "ul",
+            "cls": "flex space-x-6 items-center",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "li",
+            "cls": "whitespace-nowrap hidden lg:flex",
+            "id": "topbar-cta-button",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "a",
+            "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "flex items-center",
+            "id": "",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "button",
+            "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+            "id": "theme-preference-menu-trigger",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "hidden"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "license",
+      "viewport": "m-320",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "license",
+      "viewport": "m-360",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "license",
+      "viewport": "m-375",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "license",
+      "viewport": "m-390",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 1,
+        "samples": [
+          {
+            "tag": "a",
+            "cls": "",
+            "id": "",
+            "right": 399,
+            "width": 62,
+            "overflowX": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "browser": "chromium",
+      "page": "license",
+      "viewport": "t-1024",
+      "issue": {
+        "type": "overflow_elements",
+        "severity": "high",
+        "count": 8,
+        "samples": [
+          {
+            "tag": "div",
+            "cls": "flex-1 relative hidden lg:flex items-center ml-auto justify-end space-x-4",
+            "id": "",
+            "right": 1077,
+            "width": 846,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "nav",
+            "cls": "text-sm",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "ul",
+            "cls": "flex space-x-6 items-center",
+            "id": "",
+            "right": 1029,
+            "width": 798,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "li",
+            "cls": "whitespace-nowrap hidden lg:flex",
+            "id": "topbar-cta-button",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "a",
+            "cls": "group pl-3 pr-2 py-2 relative inline-flex items-center text-sm font-medium",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "span",
+            "cls": "absolute inset-0 bg-primary-dark rounded-xl group-hover:opacity-[0.9]",
+            "id": "",
+            "right": 1029,
+            "width": 114,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "div",
+            "cls": "flex items-center",
+            "id": "",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "visible"
+          },
+          {
+            "tag": "button",
+            "cls": "group disabled:pointer-events-none rounded-lg overflow-hidden gap-1 text-sm text",
+            "id": "theme-preference-menu-trigger",
+            "right": 1077,
+            "width": 32,
+            "overflowX": "hidden"
+          }
+        ]
+      }
+    }
+  ]
+}

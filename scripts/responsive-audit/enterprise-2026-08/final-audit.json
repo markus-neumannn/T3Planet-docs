@@ -1,0 +1,1365 @@
+{
+  "summary": {
+    "checks": 70,
+    "issues": {},
+    "drawers": 24,
+    "theme_cropped": 0,
+    "shots": [
+      "scripts/responsive-audit/enterprise-2026-08/after-m320-home.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m320-ai-foundation.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m320-t3ab.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m360-home.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m360-ai-foundation.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m360-t3ab.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m375-home.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m375-ai-foundation.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m375-t3ab.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m390-home.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m390-ai-foundation.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m390-t3ab.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m412-home.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m412-ai-foundation.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m412-t3ab.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m430-home.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m430-ai-foundation.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-m430-t3ab.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-t768-home.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-t768-ai-foundation.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-t768-t3ab.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-t820-home.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-t820-ai-foundation.png",
+      "scripts/responsive-audit/enterprise-2026-08/after-t820-t3ab.png"
+    ]
+  },
+  "drawer_home": [
+    {
+      "viewport": "m320",
+      "w": 320,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 304,
+        "gapLeft": 16,
+        "theme": {
+          "w": 94,
+          "h": 32,
+          "pad": 39,
+          "cropped": false,
+          "opt": 27,
+          "svg": 23
+        },
+        "linkFs": "13px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 320,
+      "sw": 320
+    },
+    {
+      "viewport": "m360",
+      "w": 360,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 324,
+        "gapLeft": 36,
+        "theme": {
+          "w": 94,
+          "h": 32,
+          "pad": 39,
+          "cropped": false,
+          "opt": 27,
+          "svg": 23
+        },
+        "linkFs": "13px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 360,
+      "sw": 360
+    },
+    {
+      "viewport": "m375",
+      "w": 375,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 339,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 375,
+      "sw": 375
+    },
+    {
+      "viewport": "m390",
+      "w": 390,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 354,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 390,
+      "sw": 390
+    },
+    {
+      "viewport": "m412",
+      "w": 412,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 376,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 412,
+      "sw": 412
+    },
+    {
+      "viewport": "m430",
+      "w": 430,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 376,
+        "gapLeft": 54,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 430,
+      "sw": 430
+    },
+    {
+      "viewport": "t768",
+      "w": 768,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 384,
+        "gapLeft": 384,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 46,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14.4px",
+        "linkH": 44,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 768,
+      "sw": 768
+    },
+    {
+      "viewport": "t820",
+      "w": 820,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 384,
+        "gapLeft": 436,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 46,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14.4px",
+        "linkH": 44,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 820,
+      "sw": 820
+    }
+  ],
+  "dark": {
+    "issues": [],
+    "drawer": {
+      "w": 376,
+      "gapLeft": 54,
+      "theme": {
+        "w": 104,
+        "h": 34,
+        "pad": 42,
+        "cropped": false,
+        "opt": 30,
+        "svg": 23
+      },
+      "linkFs": "14px",
+      "linkH": 42,
+      "headerFs": "11px"
+    },
+    "topH": 56,
+    "cw": 430,
+    "sw": 430
+  },
+  "results": [
+    {
+      "viewport": "m320",
+      "w": 320,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 304,
+        "gapLeft": 16,
+        "theme": {
+          "w": 94,
+          "h": 32,
+          "pad": 39,
+          "cropped": false,
+          "opt": 27,
+          "svg": 23
+        },
+        "linkFs": "13px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 320,
+      "sw": 320
+    },
+    {
+      "viewport": "m320",
+      "w": 320,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 320,
+      "sw": 320
+    },
+    {
+      "viewport": "m320",
+      "w": 320,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": {
+        "w": 304,
+        "gapLeft": 16,
+        "theme": {
+          "w": 94,
+          "h": 32,
+          "pad": 39,
+          "cropped": false,
+          "opt": 27,
+          "svg": 23
+        },
+        "linkFs": "13px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 320,
+      "sw": 320
+    },
+    {
+      "viewport": "m320",
+      "w": 320,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 320,
+      "sw": 320
+    },
+    {
+      "viewport": "m320",
+      "w": 320,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": {
+        "w": 304,
+        "gapLeft": 16,
+        "theme": {
+          "w": 94,
+          "h": 32,
+          "pad": 39,
+          "cropped": false,
+          "opt": 27,
+          "svg": 23
+        },
+        "linkFs": "13px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 320,
+      "sw": 320
+    },
+    {
+      "viewport": "m320",
+      "w": 320,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 320,
+      "sw": 320
+    },
+    {
+      "viewport": "m320",
+      "w": 320,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 320,
+      "sw": 320
+    },
+    {
+      "viewport": "m360",
+      "w": 360,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 324,
+        "gapLeft": 36,
+        "theme": {
+          "w": 94,
+          "h": 32,
+          "pad": 39,
+          "cropped": false,
+          "opt": 27,
+          "svg": 23
+        },
+        "linkFs": "13px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 360,
+      "sw": 360
+    },
+    {
+      "viewport": "m360",
+      "w": 360,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 360,
+      "sw": 360
+    },
+    {
+      "viewport": "m360",
+      "w": 360,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": {
+        "w": 324,
+        "gapLeft": 36,
+        "theme": {
+          "w": 94,
+          "h": 32,
+          "pad": 39,
+          "cropped": false,
+          "opt": 27,
+          "svg": 23
+        },
+        "linkFs": "13px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 360,
+      "sw": 360
+    },
+    {
+      "viewport": "m360",
+      "w": 360,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 360,
+      "sw": 360
+    },
+    {
+      "viewport": "m360",
+      "w": 360,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": {
+        "w": 324,
+        "gapLeft": 36,
+        "theme": {
+          "w": 94,
+          "h": 32,
+          "pad": 39,
+          "cropped": false,
+          "opt": 27,
+          "svg": 23
+        },
+        "linkFs": "13px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 360,
+      "sw": 360
+    },
+    {
+      "viewport": "m360",
+      "w": 360,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 360,
+      "sw": 360
+    },
+    {
+      "viewport": "m360",
+      "w": 360,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 360,
+      "sw": 360
+    },
+    {
+      "viewport": "m375",
+      "w": 375,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 339,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 375,
+      "sw": 375
+    },
+    {
+      "viewport": "m375",
+      "w": 375,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 375,
+      "sw": 375
+    },
+    {
+      "viewport": "m375",
+      "w": 375,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": {
+        "w": 339,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 375,
+      "sw": 375
+    },
+    {
+      "viewport": "m375",
+      "w": 375,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 375,
+      "sw": 375
+    },
+    {
+      "viewport": "m375",
+      "w": 375,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": {
+        "w": 339,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 375,
+      "sw": 375
+    },
+    {
+      "viewport": "m375",
+      "w": 375,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 375,
+      "sw": 375
+    },
+    {
+      "viewport": "m375",
+      "w": 375,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 375,
+      "sw": 375
+    },
+    {
+      "viewport": "m390",
+      "w": 390,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 354,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 390,
+      "sw": 390
+    },
+    {
+      "viewport": "m390",
+      "w": 390,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 390,
+      "sw": 390
+    },
+    {
+      "viewport": "m390",
+      "w": 390,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": {
+        "w": 354,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 390,
+      "sw": 390
+    },
+    {
+      "viewport": "m390",
+      "w": 390,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 390,
+      "sw": 390
+    },
+    {
+      "viewport": "m390",
+      "w": 390,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": {
+        "w": 354,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 390,
+      "sw": 390
+    },
+    {
+      "viewport": "m390",
+      "w": 390,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 390,
+      "sw": 390
+    },
+    {
+      "viewport": "m390",
+      "w": 390,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 390,
+      "sw": 390
+    },
+    {
+      "viewport": "m412",
+      "w": 412,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 376,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 412,
+      "sw": 412
+    },
+    {
+      "viewport": "m412",
+      "w": 412,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 412,
+      "sw": 412
+    },
+    {
+      "viewport": "m412",
+      "w": 412,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": {
+        "w": 376,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 412,
+      "sw": 412
+    },
+    {
+      "viewport": "m412",
+      "w": 412,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 412,
+      "sw": 412
+    },
+    {
+      "viewport": "m412",
+      "w": 412,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": {
+        "w": 376,
+        "gapLeft": 36,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 412,
+      "sw": 412
+    },
+    {
+      "viewport": "m412",
+      "w": 412,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 412,
+      "sw": 412
+    },
+    {
+      "viewport": "m412",
+      "w": 412,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 412,
+      "sw": 412
+    },
+    {
+      "viewport": "m430",
+      "w": 430,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 376,
+        "gapLeft": 54,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 430,
+      "sw": 430
+    },
+    {
+      "viewport": "m430",
+      "w": 430,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 430,
+      "sw": 430
+    },
+    {
+      "viewport": "m430",
+      "w": 430,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": {
+        "w": 376,
+        "gapLeft": 54,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 430,
+      "sw": 430
+    },
+    {
+      "viewport": "m430",
+      "w": 430,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 430,
+      "sw": 430
+    },
+    {
+      "viewport": "m430",
+      "w": 430,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": {
+        "w": 376,
+        "gapLeft": 54,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 42,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14px",
+        "linkH": 42,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 430,
+      "sw": 430
+    },
+    {
+      "viewport": "m430",
+      "w": 430,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 430,
+      "sw": 430
+    },
+    {
+      "viewport": "m430",
+      "w": 430,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 430,
+      "sw": 430
+    },
+    {
+      "viewport": "t768",
+      "w": 768,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 384,
+        "gapLeft": 384,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 46,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14.4px",
+        "linkH": 44,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 768,
+      "sw": 768
+    },
+    {
+      "viewport": "t768",
+      "w": 768,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 768,
+      "sw": 768
+    },
+    {
+      "viewport": "t768",
+      "w": 768,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": {
+        "w": 384,
+        "gapLeft": 384,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 46,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14.4px",
+        "linkH": 44,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 768,
+      "sw": 768
+    },
+    {
+      "viewport": "t768",
+      "w": 768,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 768,
+      "sw": 768
+    },
+    {
+      "viewport": "t768",
+      "w": 768,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": {
+        "w": 384,
+        "gapLeft": 384,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 46,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14.4px",
+        "linkH": 44,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 768,
+      "sw": 768
+    },
+    {
+      "viewport": "t768",
+      "w": 768,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 768,
+      "sw": 768
+    },
+    {
+      "viewport": "t768",
+      "w": 768,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 768,
+      "sw": 768
+    },
+    {
+      "viewport": "t820",
+      "w": 820,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": {
+        "w": 384,
+        "gapLeft": 436,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 46,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14.4px",
+        "linkH": 44,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 820,
+      "sw": 820
+    },
+    {
+      "viewport": "t820",
+      "w": 820,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 820,
+      "sw": 820
+    },
+    {
+      "viewport": "t820",
+      "w": 820,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": {
+        "w": 384,
+        "gapLeft": 436,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 46,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14.4px",
+        "linkH": 44,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 820,
+      "sw": 820
+    },
+    {
+      "viewport": "t820",
+      "w": 820,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 820,
+      "sw": 820
+    },
+    {
+      "viewport": "t820",
+      "w": 820,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": {
+        "w": 384,
+        "gapLeft": 436,
+        "theme": {
+          "w": 104,
+          "h": 34,
+          "pad": 46,
+          "cropped": false,
+          "opt": 30,
+          "svg": 23
+        },
+        "linkFs": "14.4px",
+        "linkH": 44,
+        "headerFs": "11px"
+      },
+      "topH": 56,
+      "cw": 820,
+      "sw": 820
+    },
+    {
+      "viewport": "t820",
+      "w": 820,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 820,
+      "sw": 820
+    },
+    {
+      "viewport": "t820",
+      "w": 820,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 56,
+      "cw": 820,
+      "sw": 820
+    },
+    {
+      "viewport": "d1280",
+      "w": 1280,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1280,
+      "sw": 1280
+    },
+    {
+      "viewport": "d1280",
+      "w": 1280,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1280,
+      "sw": 1280
+    },
+    {
+      "viewport": "d1280",
+      "w": 1280,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1280,
+      "sw": 1280
+    },
+    {
+      "viewport": "d1280",
+      "w": 1280,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1280,
+      "sw": 1280
+    },
+    {
+      "viewport": "d1280",
+      "w": 1280,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1280,
+      "sw": 1280
+    },
+    {
+      "viewport": "d1280",
+      "w": 1280,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1280,
+      "sw": 1280
+    },
+    {
+      "viewport": "d1280",
+      "w": 1280,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1280,
+      "sw": 1280
+    },
+    {
+      "viewport": "d1440",
+      "w": 1440,
+      "page": "home",
+      "path": "/",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1440,
+      "sw": 1440
+    },
+    {
+      "viewport": "d1440",
+      "w": 1440,
+      "page": "all-ext",
+      "path": "/AllExtensions/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1440,
+      "sw": 1440
+    },
+    {
+      "viewport": "d1440",
+      "w": 1440,
+      "page": "ai-foundation",
+      "path": "/AIFoundation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1440,
+      "sw": 1440
+    },
+    {
+      "viewport": "d1440",
+      "w": 1440,
+      "page": "ai-install",
+      "path": "/AIFoundation/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1440,
+      "sw": 1440
+    },
+    {
+      "viewport": "d1440",
+      "w": 1440,
+      "page": "t3ab",
+      "path": "/ExtNsT3AB/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1440,
+      "sw": 1440
+    },
+    {
+      "viewport": "d1440",
+      "w": 1440,
+      "page": "license",
+      "path": "/License/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1440,
+      "sw": 1440
+    },
+    {
+      "viewport": "d1440",
+      "w": 1440,
+      "page": "avatar",
+      "path": "/EXTAvatar/Installation/Index",
+      "issues": [],
+      "drawer": null,
+      "topH": 64,
+      "cw": 1440,
+      "sw": 1440
+    }
+  ]
+}

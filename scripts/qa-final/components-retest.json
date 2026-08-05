@@ -1,0 +1,174 @@
+{
+  "pagination": {
+    "found": [
+      {
+        "sel": "a[rel=next]",
+        "href": "/AIFoundation/Installation/Index",
+        "text": "Installation"
+      },
+      {
+        "sel": "a[rel=prev]",
+        "href": "/AIFoundation/Index",
+        "text": "AI Foundation"
+      },
+      {
+        "sel": "footer a",
+        "href": "/",
+        "text": "T3Planet Docs home page"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en",
+        "text": "website"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://x.com/t3planetde",
+        "text": "x"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://www.linkedin.com/company/t3planet",
+        "text": "linkedin"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://www.youtube.com/@t3planet",
+        "text": "youtube"
+      },
+      {
+        "sel": "footer a",
+        "href": "/AIFoundationExtensions/Index",
+        "text": "AI Universe"
+      },
+      {
+        "sel": "footer a",
+        "href": "/AllTemplates/Index",
+        "text": "Templates & Themes"
+      },
+      {
+        "sel": "footer a",
+        "href": "/AllExtensions/Index",
+        "text": "TYPO3 Extensions"
+      },
+      {
+        "sel": "footer a",
+        "href": "/License/Index",
+        "text": "License & Get Started"
+      },
+      {
+        "sel": "footer a",
+        "href": "/AIFoundation/Index",
+        "text": "AI Foundation"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en/typo3-extensions",
+        "text": "All Extensions"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en/typo3-templates",
+        "text": "All Templates"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en",
+        "text": "T3Planet Website"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en/support",
+        "text": "Support"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en/faq",
+        "text": "FAQ"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en/blog",
+        "text": "Blog"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en/contact",
+        "text": "Contact"
+      },
+      {
+        "sel": "footer a",
+        "href": "https://t3planet.de/en",
+        "text": "website"
+      }
+    ],
+    "named": []
+  },
+  "theme": {
+    "cls": "inter_1d81deff-module__CYM0aG__variable papermono_89c757f2-module__6aS5zq__variable t3-sidebar-ready t3-ai-docs twoslash-dark dark",
+    "theme": null,
+    "colorScheme": "dark"
+  },
+  "search": {
+    "dialog": true,
+    "itemCount": 0,
+    "items": []
+  },
+  "mobile_buttons": [
+    {
+      "aria": "Open search",
+      "text": "Search...",
+      "testid": null,
+      "id": "search-bar-entry-mobile"
+    },
+    {
+      "aria": "More actions",
+      "text": "",
+      "testid": null,
+      "id": ""
+    },
+    {
+      "aria": null,
+      "text": "Navigation\nHome\nWelcome to T3Planet Docs",
+      "testid": null,
+      "id": ""
+    },
+    {
+      "aria": "Search documentation...",
+      "text": "Search documentation\u2026\n\u2318K",
+      "testid": null,
+      "id": ""
+    },
+    {
+      "aria": "Send message",
+      "text": "",
+      "testid": null,
+      "id": ""
+    },
+    {
+      "aria": "Switch to system theme",
+      "text": "",
+      "testid": "mode-switch-system",
+      "id": ""
+    },
+    {
+      "aria": "Switch to light theme",
+      "text": "",
+      "testid": "mode-switch-light",
+      "id": ""
+    },
+    {
+      "aria": "Switch to dark theme",
+      "text": "",
+      "testid": "mode-switch-dark",
+      "id": ""
+    }
+  ],
+  "mobile_nav": {
+    "clicked": false,
+    "sidebarVisible": {
+      "display": "block",
+      "width": 0
+    }
+  }
+}

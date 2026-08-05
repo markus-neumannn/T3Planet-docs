@@ -1,0 +1,93 @@
+/**
+ * T3Planet Docs — product dropdown icons (performance-optimized).
+ */
+(function () {
+  "use strict";
+
+  var rafPending = false;
+
+  function getActiveDropdownItem() {
+    return document.querySelector('a.nav-dropdown-item[aria-current="location"]');
+  }
+
+  function syncDropdownIcons() {
+    var items = document.querySelectorAll("a.nav-dropdown-item");
+    for (var i = 0; i < items.length; i++) {
+      var item = items[i];
+      var icon = item.querySelector(".nav-dropdown-item-icon");
+      if (!icon) continue;
+      var isActive = item.getAttribute("aria-current") === "location";
+      icon.style.display = isActive ? "" : "none";
+      item.classList.toggle("t3-dropdown-active", isActive);
+    }
+
+    var trigger = document.querySelector("button.nav-dropdown-trigger");
+    if (trigger) {
+      var triggerIcons = trigger.querySelectorAll(".nav-dropdown-item-icon");
+      if (triggerIcons.length > 1) {
+        for (var j = 0; j < triggerIcons.length; j++) {
+          triggerIcons[j].style.display = j === 0 ? "" : "none";
+        }
+      }
+    }
+  }
+
+  function scheduleSync() {
+    if (rafPending) return;
+    rafPending = true;
+    requestAnimationFrame(function () {
+      rafPending = false;
+      syncDropdownIcons();
+    });
+  }
+
+  function applyStoredTheme() {
+    try {
+      var scheme = localStorage.getItem("mintlify-color-scheme");
+      if (scheme === "dark") {
+        document.documentElement.classList.add("dark");
+      } else if (scheme === "light") {
+        document.documentElement.classList.remove("dark");
+      }
+    } catch (e) {
+      /* ignore */
+    }
+  }
+
+  function observeNavbar() {
+    var navbar = document.getElementById("navbar");
+    if (!navbar) {
+      scheduleSync();
+      return;
+    }
+    new MutationObserver(scheduleSync).observe(navbar, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ["aria-current", "class", "data-state"],
+    });
+    scheduleSync();
+  }
+
+  applyStoredTheme();
+
+  function init() {
+    observeNavbar();
+    window.addEventListener("popstate", scheduleSync);
+    document.addEventListener(
+      "click",
+      function (e) {
+        if (e.target.closest("a[href]")) {
+          setTimeout(scheduleSync, 80);
+        }
+      },
+      true
+    );
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();

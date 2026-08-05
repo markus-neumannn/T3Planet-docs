@@ -1,0 +1,173 @@
+{
+  "total_en_pages": 703,
+  "total_products": 70,
+  "nav_pages": 703,
+  "nav_missing_md": [],
+  "redirects": 1305,
+  "legacy_docs_links_remaining": 0,
+  "legacy_samples": [],
+  "rst_missing_pages": [
+    "EXTAyu/Localization/Installationt3ayu_reactjs.zip",
+    "EXTReva/Localization/Installationt3reva_reactjs.zip",
+    "EXTShiva/Localization/Installationt3shiva_reactjs.zip",
+    "history",
+    "index",
+    "readme"
+  ],
+  "products_with_core_gaps": 12,
+  "gaps_sample": {
+    "EXTShop": {
+      "missing_sections": [
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 8
+    },
+    "ExtNsCacheWebhook": {
+      "missing_sections": [
+        "features",
+        "upgrade",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "upgrade"
+      ],
+      "page_count": 6
+    },
+    "ExtNsFAQ": {
+      "missing_sections": [
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 10
+    },
+    "ExtNsFeedback": {
+      "missing_sections": [
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 9
+    },
+    "ExtNsGallery": {
+      "missing_sections": [
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 15
+    },
+    "ExtNsGoogleDocs": {
+      "missing_sections": [
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 10
+    },
+    "ExtNsGoogleSiteKit": {
+      "missing_sections": [
+        "configuration",
+        "features"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 11
+    },
+    "ExtNsHubspot": {
+      "missing_sections": [
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 8
+    },
+    "ExtNsPublicationComment": {
+      "missing_sections": [
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 7
+    },
+    "ExtNsRevolutionSlider": {
+      "missing_sections": [
+        "installation",
+        "configuration",
+        "features"
+      ],
+      "core_missing": [
+        "installation",
+        "configuration"
+      ],
+      "page_count": 24
+    },
+    "ExtNsTimeLine": {
+      "missing_sections": [
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "configuration"
+      ],
+      "page_count": 7
+    },
+    "License": {
+      "missing_sections": [
+        "installation",
+        "configuration",
+        "features",
+        "troubleshooting"
+      ],
+      "core_missing": [
+        "installation",
+        "configuration"
+      ],
+      "page_count": 19
+    }
+  },
+  "ai_products": [
+    "ExtNsT3AI",
+    "ExtNsT3AC",
+    "ExtNsT3AS",
+    "ExtNsT3AL",
+    "ExtNsT3AA",
+    "ExtNsT3AB"
+  ],
+  "template_products": [
+    "ExtThemes",
+    "EXTKarma",
+    "EXTAvatar",
+    "EXTAyu",
+    "EXTBootstrap",
+    "EXTReactBootstrap",
+    "EXTReva",
+    "EXTShiva",
+    "EXTShop"
+  ]
+}

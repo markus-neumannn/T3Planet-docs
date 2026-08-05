@@ -1,0 +1,175 @@
+{
+  "summary": {
+    "base_url": "http://127.0.0.1:3000",
+    "route_count": 732,
+    "http_ok": 730,
+    "http_ms_median": 3633,
+    "broken_internal_links": 0,
+    "missing_images": 0,
+    "spa_ms_median": 5575,
+    "spa_ms_max": 6535,
+    "console_error_count": 9,
+    "ui_issue_count": 0
+  },
+  "markdown_audit": {
+    "broken_internal_links": 0,
+    "broken_link_samples": [],
+    "missing_images": 0,
+    "missing_image_samples": []
+  },
+  "http_failures": [
+    {
+      "path": "/visual-regression/README",
+      "status": 0,
+      "ms": 7513,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "/visual-regression/VISUAL_REGRESSION_REPORT",
+      "status": 0,
+      "ms": 7531,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "http_slowest": [
+    {
+      "path": "/ExtThemes/TemplatesLayouts/Index",
+      "status": 200,
+      "ms": 18226,
+      "ok": true
+    },
+    {
+      "path": "/ExtThemes/Installation/Index",
+      "status": 200,
+      "ms": 18063,
+      "ok": true
+    },
+    {
+      "path": "/ExtThemes/Introduction/Index",
+      "status": 200,
+      "ms": 18044,
+      "ok": true
+    },
+    {
+      "path": "/ExtThemes/SpeedPerformance/Index",
+      "status": 200,
+      "ms": 18018,
+      "ok": true
+    },
+    {
+      "path": "/ExtThemes/UpgradeGuide/Index",
+      "status": 200,
+      "ms": 17689,
+      "ok": true
+    },
+    {
+      "path": "/ExtThemes/Localization/Index",
+      "status": 200,
+      "ms": 17266,
+      "ok": true
+    },
+    {
+      "path": "/ExtThemes/SEO/Index",
+      "status": 200,
+      "ms": 17242,
+      "ok": true
+    },
+    {
+      "path": "/License/ExtendTrial/Index",
+      "status": 200,
+      "ms": 11971,
+      "ok": true
+    },
+    {
+      "path": "/ExtThemes/Index",
+      "status": 200,
+      "ms": 10643,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AB/Screenshots/Index",
+      "status": 200,
+      "ms": 10398,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AB/UpdateGuide/Index",
+      "status": 200,
+      "ms": 10382,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AB/Introduction/Index",
+      "status": 200,
+      "ms": 10375,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AB/Support",
+      "status": 200,
+      "ms": 10315,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AB/UpdateVersion/Index",
+      "status": 200,
+      "ms": 10313,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AB/T3ABAIBuilder/Index",
+      "status": 200,
+      "ms": 10245,
+      "ok": true
+    }
+  ],
+  "spa_navigation": [
+    {
+      "from": "/",
+      "to": "/AllTemplates/Index",
+      "ms": 6535
+    },
+    {
+      "from": "/AllTemplates/Index",
+      "to": "/AllExtensions/Index",
+      "ms": 5626
+    },
+    {
+      "from": "/License/Index",
+      "to": "/License/Introduction/Index",
+      "ms": 5524
+    },
+    {
+      "from": "/License/Introduction/Index",
+      "to": "/License/GenerateLicenseKey/Index",
+      "ms": 2201
+    },
+    {
+      "from": "/License/GenerateLicenseKey/Index",
+      "to": "/License/LicenseManager/Index",
+      "ms": 3029
+    },
+    {
+      "from": "/ExtNsT3AI/Index",
+      "to": "/ExtNsT3AI/Introduction/Index",
+      "ms": 6419
+    }
+  ],
+  "spa_ms_median": 5575,
+  "spa_ms_max": 6535,
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()"
+  ],
+  "console_error_count": 9,
+  "ui_issues": []
+}

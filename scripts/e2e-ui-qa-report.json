@@ -1,0 +1,84 @@
+{
+  "pages": [
+    {
+      "route": "AIFoundation/Introduction/Index",
+      "status": 200,
+      "ok": true,
+      "broken": [],
+      "overflow": false,
+      "title": "Introduction - T3Planet Docs"
+    },
+    {
+      "route": "AIFoundation/MCPTesting/Index",
+      "status": 200,
+      "ok": true,
+      "broken": [],
+      "overflow": false,
+      "title": "MCP Server \u2014 Testing guide - T3Planet Docs"
+    },
+    {
+      "route": "AIFoundation/DeveloperGuide/Index",
+      "status": 200,
+      "ok": true,
+      "broken": [],
+      "overflow": false,
+      "title": "Developer Guide - T3Planet Docs"
+    },
+    {
+      "route": "ExtNsT3AI/Installation/Index",
+      "status": 200,
+      "ok": true,
+      "broken": [],
+      "overflow": false,
+      "title": "Installation - T3Planet Docs"
+    },
+    {
+      "route": "ExtNsT3AC/FeatureGuide/Chatbot/Index",
+      "status": 200,
+      "ok": true,
+      "broken": [],
+      "overflow": false,
+      "title": "Chabot Features - T3Planet Docs"
+    },
+    {
+      "route": "ExtNsT3AS/FrontendPlugin/Index",
+      "status": 200,
+      "ok": true,
+      "broken": [],
+      "overflow": false,
+      "title": "T3AS Search Plugin - T3Planet Docs"
+    },
+    {
+      "route": "ExtNsT3AA/UpdateGuide/Index",
+      "status": 200,
+      "ok": true,
+      "broken": [],
+      "overflow": false,
+      "title": "Update Guide - T3Planet Docs"
+    }
+  ],
+  "responsive": [
+    {
+      "viewport": "desktop",
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "overflow": false
+    },
+    {
+      "viewport": "mobile",
+      "overflow": false
+    }
+  ],
+  "search_input_found": false,
+  "console_errors": [],
+  "summary": {
+    "pages_ok": 7,
+    "pages_total": 7,
+    "overflow_pages": [],
+    "responsive_overflow": [],
+    "search_ok": false,
+    "console_n": 0
+  }
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "port": 3001,
+    "label": "raw-mint",
+    "before": "Ask Assistant\n\nUse the up and down arrow keys to select a result, Enter to open it, and Escape to close search.",
+    "needs_login": false,
+    "after": "Ask Assistant\nAsk Assistant\nCan you tell me about T3AI?\nResults: 0\nSelect\nOpen\nClose\n\nUse the up and down arrow keys to select a result, Enter to open it, and Escape to close search.",
+    "result_count_hint": true,
+    "after_license": "Ask Assistant\nAsk Assistant\nCan you tell me about License?\nResults: 0\nSelect\nOpen\nClose\n\nUse the up and down arrow keys to select a result, Enter to open it, and Escape to close search.",
+    "reqs": [
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/api/user",
+        "status": 200,
+        "body": "{\"user\":null}"
+      },
+      {
+        "url": "https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/search.svg",
+        "status": 200,
+        "body": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m21 21-4.34-4.34\"/><circle cx=\"11\" cy=\"11\" r=\"8\"/></svg>"
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/api-public/search/nitsan-81630f36",
+        "status": 200,
+        "body": "{\"results\":[]}"
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3001/_mintlify/api-public/search/nitsan-81630f36",
+        "status": 200,
+        "body": "{\"results\":[]}"
+      }
+    ]
+  },
+  {
+    "port": 3000,
+    "label": "cache-proxy",
+    "before": "Ask Assistant\n\nUse the up and down arrow keys to select a result, Enter to open it, and Escape to close search.",
+    "needs_login": false,
+    "after": "Ask Assistant\nAsk Assistant\nCan you tell me about T3AI?\nResults: 0\nSelect\nOpen\nClose\n\nUse the up and down arrow keys to select a result, Enter to open it, and Escape to close search.",
+    "result_count_hint": true,
+    "after_license": "Ask Assistant\nAsk Assistant\nCan you tell me about License?\nResults: 0\nSelect\nOpen\nClose\n\nUse the up and down arrow keys to select a result, Enter to open it, and Escape to close search.",
+    "reqs": [
+      {
+        "url": "http://127.0.0.1:3000/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/_mintlify/api/user",
+        "status": 200,
+        "body": "{\"user\":null}"
+      },
+      {
+        "url": "https://d3gk2c5xim1je2.cloudfront.net/lucide/v1.16.0/search.svg",
+        "status": 200,
+        "body": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m21 21-4.34-4.34\"/><circle cx=\"11\" cy=\"11\" r=\"8\"/></svg>"
+      },
+      {
+        "url": "http://127.0.0.1:3000/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/_mintlify/api-public/search/nitsan-81630f36",
+        "status": 200,
+        "body": "{\"results\":[]}"
+      },
+      {
+        "url": "http://127.0.0.1:3000/_mintlify/assistant/siteconfig",
+        "status": 502,
+        "body": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/_mintlify/api-public/search/nitsan-81630f36",
+        "status": 200,
+        "body": "{\"results\":[]}"
+      }
+    ]
+  }
+]

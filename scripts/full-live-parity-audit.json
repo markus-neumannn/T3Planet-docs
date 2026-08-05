@@ -1,0 +1,850 @@
+{
+  "live_pages": 730,
+  "crawl_errors": [],
+  "missing_count": 21,
+  "thin_count": 0,
+  "by_product": {
+    "ExtNsT3AF": {
+      "live": 31,
+      "missing_count": 19,
+      "thin_count": 0,
+      "ok": 12,
+      "missing": [
+        {
+          "live": "ExtNsT3AF/Configuration/AIContext/Index.html",
+          "mint": "AIFoundation/Configuration/AIContext/Index.md",
+          "title": "AI Context",
+          "words": 190
+        },
+        {
+          "live": "ExtNsT3AF/Configuration/AIFeatures/Index.html",
+          "mint": "AIFoundation/Configuration/AIFeatures/Index.md",
+          "title": "AI Features",
+          "words": 305
+        },
+        {
+          "live": "ExtNsT3AF/Configuration/AIPermissions/Index.html",
+          "mint": "AIFoundation/Configuration/AIPermissions/Index.md",
+          "title": "AI Permissions",
+          "words": 608
+        },
+        {
+          "live": "ExtNsT3AF/Configuration/AIPrompts/Index.html",
+          "mint": "AIFoundation/Configuration/AIPrompts/Index.md",
+          "title": "AI Prompts",
+          "words": 258
+        },
+        {
+          "live": "ExtNsT3AF/Configuration/AIProviders/Index.html",
+          "mint": "AIFoundation/Configuration/AIProviders/Index.md",
+          "title": "AI Providers",
+          "words": 607
+        },
+        {
+          "live": "ExtNsT3AF/Configuration/AIUsageAndLogs/Index.html",
+          "mint": "AIFoundation/Configuration/AIUsageAndLogs/Index.md",
+          "title": "AI Usage & Logs",
+          "words": 275
+        },
+        {
+          "live": "ExtNsT3AF/Configuration/Dashboard/Index.html",
+          "mint": "AIFoundation/Configuration/Dashboard/Index.md",
+          "title": "Dashboard",
+          "words": 209
+        },
+        {
+          "live": "ExtNsT3AF/DeveloperGuide/Architecture/Index.html",
+          "mint": "AIFoundation/DeveloperGuide/Architecture/Index.md",
+          "title": "Architecture",
+          "words": 158
+        },
+        {
+          "live": "ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index.html",
+          "mint": "AIFoundation/DeveloperGuide/CustomAccessCatalogs/Index.md",
+          "title": "Custom Access Catalogs",
+          "words": 593
+        },
+        {
+          "live": "ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index.html",
+          "mint": "AIFoundation/DeveloperGuide/CustomFeatureCards/Index.md",
+          "title": "Custom Feature Cards",
+          "words": 390
+        },
+        {
+          "live": "ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index.html",
+          "mint": "AIFoundation/DeveloperGuide/CustomPromptCatalogs/Index.md",
+          "title": "Custom Prompt Catalogs",
+          "words": 436
+        },
+        {
+          "live": "ExtNsT3AF/Integrations/Index.html",
+          "mint": "AIFoundation/Integrations/Index.md",
+          "title": "Integrations",
+          "words": 17
+        },
+        {
+          "live": "ExtNsT3AF/Integrations/MCPServer/Index.html",
+          "mint": "AIFoundation/Integrations/MCPServer/Index.md",
+          "title": "MCP Server",
+          "words": 502
+        },
+        {
+          "live": "ExtNsT3AF/Integrations/MCPTesting/Index.html",
+          "mint": "AIFoundation/Integrations/MCPTesting/Index.md",
+          "title": "MCP Server \u2014 Testing guide",
+          "words": 2114
+        },
+        {
+          "live": "ExtNsT3AF/Integrations/MCPTools/Index.html",
+          "mint": "AIFoundation/Integrations/MCPTools/Index.md",
+          "title": "MCP Tools",
+          "words": 330
+        },
+        {
+          "live": "ExtNsT3AF/Troubleshooting/FAQ/Index.html",
+          "mint": "AIFoundation/Troubleshooting/FAQ/Index.md",
+          "title": "FAQ",
+          "words": 206
+        },
+        {
+          "live": "ExtNsT3AF/Troubleshooting/KnownProblems/Index.html",
+          "mint": "AIFoundation/Troubleshooting/KnownProblems/Index.md",
+          "title": "Known Problems",
+          "words": 291
+        },
+        {
+          "live": "ExtNsT3AF/UserGuide/Index.html",
+          "mint": "AIFoundation/UserGuide/Index.md",
+          "title": "User Guide",
+          "words": 14
+        },
+        {
+          "live": "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index.html",
+          "mint": "AIFoundation/UserGuide/RolesAndDailyUse/Index.md",
+          "title": "Roles and Daily Use",
+          "words": 199
+        }
+      ],
+      "thin": []
+    },
+    "ExtNsFriendlyCaptcha": {
+      "live": 9,
+      "missing_count": 1,
+      "thin_count": 0,
+      "ok": 8,
+      "missing": [
+        {
+          "live": "ExtNsFriendlyCaptcha/FAQ.html",
+          "mint": "ExtNsFriendlyCaptcha/FAQ/Index.md",
+          "title": "FAQ",
+          "words": 112
+        }
+      ],
+      "thin": []
+    },
+    "ExtNsT3AS": {
+      "live": 19,
+      "missing_count": 1,
+      "thin_count": 0,
+      "ok": 18,
+      "missing": [
+        {
+          "live": "ExtNsT3AS/BasicAuthentication/Index.html",
+          "mint": "ExtNsT3AS/BasicAuthentication/Index.md",
+          "title": "Basic Authentication Support",
+          "words": 43
+        }
+      ],
+      "thin": []
+    },
+    "EXTAvatar": {
+      "live": 14,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 14,
+      "missing": [],
+      "thin": []
+    },
+    "EXTAyu": {
+      "live": 13,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 13,
+      "missing": [],
+      "thin": []
+    },
+    "EXTBootstrap": {
+      "live": 15,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 15,
+      "missing": [],
+      "thin": []
+    },
+    "EXTKarma": {
+      "live": 17,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 17,
+      "missing": [],
+      "thin": []
+    },
+    "EXTNsZohoCrm": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "EXTReactBootstrap": {
+      "live": 12,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 12,
+      "missing": [],
+      "thin": []
+    },
+    "EXTReva": {
+      "live": 13,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 13,
+      "missing": [],
+      "thin": []
+    },
+    "EXTShiva": {
+      "live": 13,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 13,
+      "missing": [],
+      "thin": []
+    },
+    "EXTShop": {
+      "live": 8,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 8,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNitsanHellobar": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNitsanMaintenance": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsAllChat": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsAllLightbox": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsAllSliders": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsBackup": {
+      "live": 12,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 12,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsCacheWebhook": {
+      "live": 6,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 6,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsCloudflare": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsComments": {
+      "live": 10,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 10,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsCookieYes": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsCookiebot": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsCookiesHint": {
+      "live": 8,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 8,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsDisqusComment": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsEvent": {
+      "live": 10,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 10,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsExtCompatibility": {
+      "live": 8,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 8,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsFAQ": {
+      "live": 10,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 10,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsFacebookComment": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsFeedback": {
+      "live": 9,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 9,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsGallery": {
+      "live": 15,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 15,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsGoogleDocs": {
+      "live": 10,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 10,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsGoogleMap": {
+      "live": 10,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 10,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsGoogleSiteKit": {
+      "live": 11,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 11,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsGridtoContainer": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsGuestbook": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsHelpDesk": {
+      "live": 13,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 13,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsHubspot": {
+      "live": 8,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 8,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsInstagram": {
+      "live": 8,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 8,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsLazyload": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsNewsAdvancedSearch": {
+      "live": 9,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 9,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsNewsComments": {
+      "live": 11,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 11,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsNewsSlickSlider": {
+      "live": 8,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 8,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsNewsSlider": {
+      "live": 12,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 12,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsOpenStreetMap": {
+      "live": 10,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 10,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsPWA": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsPersonio": {
+      "live": 8,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 8,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsProtectSite": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsPublicationComment": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsRevolutionSlider": {
+      "live": 24,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 24,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsSharethis": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsSnow": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsSocialLogin": {
+      "live": 11,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 11,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsStatcounter": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsT3AA": {
+      "live": 18,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 18,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsT3AB": {
+      "live": 13,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 13,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsT3AC": {
+      "live": 22,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 22,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsT3AI": {
+      "live": 22,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 22,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsT3AL": {
+      "live": 18,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 18,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsTimeLine": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsTwitter": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsWhatsapp": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsWpMigration": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsYoutube": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtNsZoho": {
+      "live": 7,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 7,
+      "missing": [],
+      "thin": []
+    },
+    "ExtRTECKEditorPack": {
+      "live": 15,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 15,
+      "missing": [],
+      "thin": []
+    },
+    "ExtThemes": {
+      "live": 15,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 15,
+      "missing": [],
+      "thin": []
+    },
+    "License": {
+      "live": 19,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 19,
+      "missing": [],
+      "thin": []
+    },
+    "ROOT": {
+      "live": 1,
+      "missing_count": 0,
+      "thin_count": 0,
+      "ok": 1,
+      "missing": [],
+      "thin": []
+    }
+  },
+  "missing_all": [
+    {
+      "live": "ExtNsFriendlyCaptcha/FAQ.html",
+      "mint": "ExtNsFriendlyCaptcha/FAQ/Index.md",
+      "title": "FAQ",
+      "words": 112
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/AIContext/Index.html",
+      "mint": "AIFoundation/Configuration/AIContext/Index.md",
+      "title": "AI Context",
+      "words": 190
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/AIFeatures/Index.html",
+      "mint": "AIFoundation/Configuration/AIFeatures/Index.md",
+      "title": "AI Features",
+      "words": 305
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/AIPermissions/Index.html",
+      "mint": "AIFoundation/Configuration/AIPermissions/Index.md",
+      "title": "AI Permissions",
+      "words": 608
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/AIPrompts/Index.html",
+      "mint": "AIFoundation/Configuration/AIPrompts/Index.md",
+      "title": "AI Prompts",
+      "words": 258
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/AIProviders/Index.html",
+      "mint": "AIFoundation/Configuration/AIProviders/Index.md",
+      "title": "AI Providers",
+      "words": 607
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/AIUsageAndLogs/Index.html",
+      "mint": "AIFoundation/Configuration/AIUsageAndLogs/Index.md",
+      "title": "AI Usage & Logs",
+      "words": 275
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/Dashboard/Index.html",
+      "mint": "AIFoundation/Configuration/Dashboard/Index.md",
+      "title": "Dashboard",
+      "words": 209
+    },
+    {
+      "live": "ExtNsT3AF/DeveloperGuide/Architecture/Index.html",
+      "mint": "AIFoundation/DeveloperGuide/Architecture/Index.md",
+      "title": "Architecture",
+      "words": 158
+    },
+    {
+      "live": "ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index.html",
+      "mint": "AIFoundation/DeveloperGuide/CustomAccessCatalogs/Index.md",
+      "title": "Custom Access Catalogs",
+      "words": 593
+    },
+    {
+      "live": "ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index.html",
+      "mint": "AIFoundation/DeveloperGuide/CustomFeatureCards/Index.md",
+      "title": "Custom Feature Cards",
+      "words": 390
+    },
+    {
+      "live": "ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index.html",
+      "mint": "AIFoundation/DeveloperGuide/CustomPromptCatalogs/Index.md",
+      "title": "Custom Prompt Catalogs",
+      "words": 436
+    },
+    {
+      "live": "ExtNsT3AF/Integrations/Index.html",
+      "mint": "AIFoundation/Integrations/Index.md",
+      "title": "Integrations",
+      "words": 17
+    },
+    {
+      "live": "ExtNsT3AF/Integrations/MCPServer/Index.html",
+      "mint": "AIFoundation/Integrations/MCPServer/Index.md",
+      "title": "MCP Server",
+      "words": 502
+    },
+    {
+      "live": "ExtNsT3AF/Integrations/MCPTesting/Index.html",
+      "mint": "AIFoundation/Integrations/MCPTesting/Index.md",
+      "title": "MCP Server \u2014 Testing guide",
+      "words": 2114
+    },
+    {
+      "live": "ExtNsT3AF/Integrations/MCPTools/Index.html",
+      "mint": "AIFoundation/Integrations/MCPTools/Index.md",
+      "title": "MCP Tools",
+      "words": 330
+    },
+    {
+      "live": "ExtNsT3AF/Troubleshooting/FAQ/Index.html",
+      "mint": "AIFoundation/Troubleshooting/FAQ/Index.md",
+      "title": "FAQ",
+      "words": 206
+    },
+    {
+      "live": "ExtNsT3AF/Troubleshooting/KnownProblems/Index.html",
+      "mint": "AIFoundation/Troubleshooting/KnownProblems/Index.md",
+      "title": "Known Problems",
+      "words": 291
+    },
+    {
+      "live": "ExtNsT3AF/UserGuide/Index.html",
+      "mint": "AIFoundation/UserGuide/Index.md",
+      "title": "User Guide",
+      "words": 14
+    },
+    {
+      "live": "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index.html",
+      "mint": "AIFoundation/UserGuide/RolesAndDailyUse/Index.md",
+      "title": "Roles and Daily Use",
+      "words": 199
+    },
+    {
+      "live": "ExtNsT3AS/BasicAuthentication/Index.html",
+      "mint": "ExtNsT3AS/BasicAuthentication/Index.md",
+      "title": "Basic Authentication Support",
+      "words": 43
+    }
+  ],
+  "thin_all": [],
+  "live_pages_sample": [
+    "index.html",
+    "ExtNsStatcounter/Configuration/Index.html",
+    "EXTAyu/UpdateVersion/Index.html",
+    "EXTReactBootstrap/HelpSupport/Index.html",
+    "ExtNsComments/BuyNow.html",
+    "EXTAyu/HelpSupport/Index.html",
+    "ExtNsLazyload/Index.html",
+    "ExtNsTwitter/UpdateVersion/Index.html",
+    "ExtNsPWA/Configuration/Index.html",
+    "ExtNsAllLightbox/Introduction/Index.html",
+    "ExtNsHubspot/FreeVersionConfiguration/Index.html",
+    "ExtNsDisqusComment/Index.html",
+    "EXTShiva/Localization/Index.html",
+    "ExtNsGuestbook/Introduction/Index.html",
+    "ExtNsTwitter/Index.html",
+    "ExtNsComments/UpdateVersion/Index.html",
+    "EXTKarma/UpgradeV13xToV14x/Index.html",
+    "ExtNsT3AL/VideoTutorials/Index.html",
+    "ExtNsT3AI/SEO/Index.html",
+    "ExtNsT3AB/BuyNow.html",
+    "ExtNsFAQ/NSFaqBackendModule/Index.html",
+    "ExtNsHubspot/Installation/Index.html",
+    "ExtNsFacebookComment/UpdateVersion/Index.html",
+    "ExtNsT3AA/BuyNow.html",
+    "ExtNsCacheWebhook/Installation/Index.html",
+    "EXTShiva/HelpSupport/Index.html",
+    "ExtNsT3AL/SeamlessXLIFFImport&Export/Index.html",
+    "ExtNsNewsComments/BuyNow.html",
+    "ExtNsT3AS/BuyNow.html",
+    "ExtNsT3AS/Index.html"
+  ]
+}

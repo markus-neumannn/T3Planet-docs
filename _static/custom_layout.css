@@ -1,0 +1,34 @@
+/*
+ * RTD legacy embed styles only — scoped selectors, no global Mintlify overrides.
+ * Global rules removed to improve Mintlify page load and navigation performance.
+ */
+
+.rst-content a,
+.rst-content a:link,
+.rst-content a:visited,
+.rst-content a:hover,
+.rst-content a:active,
+.wy-menu a,
+.wy-menu a:link,
+.wy-menu a:visited,
+.wy-menu a:hover,
+.wy-menu a:active {
+  color: #333333;
+}
+
+.rst-content h1,
+.rst-content h2,
+.rst-content h3,
+.rst-content h4,
+.rst-content h5,
+.rst-content h6 {
+  color: #333333 !important;
+}
+
+.wy-nav-side {
+  background: #F5F8FB;
+}
+
+.wy-menu-vertical li.toctree-l1.current a {
+  background: #e8f0fe;
+}

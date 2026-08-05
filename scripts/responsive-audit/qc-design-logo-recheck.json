@@ -1,0 +1,470 @@
+{
+  "logo_samples": {
+    "home_1440": [
+      {
+        "w": 120,
+        "h": 28,
+        "alt": "light logo"
+      },
+      {
+        "w": 120,
+        "h": 28,
+        "alt": "dark logo"
+      }
+    ],
+    "home_1440_dark": [
+      {
+        "w": 120,
+        "h": 28,
+        "alt": "light logo"
+      },
+      {
+        "w": 120,
+        "h": 28,
+        "alt": "dark logo"
+      }
+    ]
+  },
+  "checks": 50,
+  "issue_entries": 20,
+  "type_counts": {
+    "navbar-too-tall": 20
+  },
+  "high": [
+    {
+      "viewport": "320",
+      "path": "/",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/AllExtensions/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/AllTemplates/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/AIFoundation/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/AIFoundation/Introduction/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/ExtNsT3AI/SEO/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/License/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "path": "/ExtRTECKEditorPack/PremiumPack/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/AllExtensions/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/AllTemplates/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/AIFoundation/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/AIFoundation/Introduction/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/ExtNsT3AI/SEO/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/License/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "path": "/ExtRTECKEditorPack/PremiumPack/Index",
+      "issues": [
+        {
+          "type": "navbar-too-tall",
+          "h": 120
+        }
+      ],
+      "logo": [
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "light logo"
+        },
+        {
+          "w": 103,
+          "h": 24,
+          "alt": "dark logo"
+        }
+      ]
+    }
+  ]
+}

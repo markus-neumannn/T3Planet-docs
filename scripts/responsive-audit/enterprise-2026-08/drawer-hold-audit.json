@@ -1,0 +1,422 @@
+[
+  {
+    "vp": "320",
+    "opened": true,
+    "issues": [
+      {
+        "type": "close-overlaps-navbar-logo"
+      },
+      {
+        "type": "close-not-in-left-gap",
+        "closeL": 12,
+        "navL": 16
+      }
+    ],
+    "holding": true,
+    "navOpen": true,
+    "hold": {
+      "t": 64,
+      "l": 0,
+      "r": 320,
+      "b": 568,
+      "w": 320,
+      "h": 504,
+      "z": "30",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "nav": {
+      "t": 0,
+      "l": 16,
+      "r": 320,
+      "b": 568,
+      "w": 304,
+      "h": 568,
+      "z": "81",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "close": {
+      "t": 16,
+      "l": 12,
+      "r": 56,
+      "b": 60,
+      "w": 44,
+      "h": 44,
+      "z": "90",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "logo": {
+      "t": 17,
+      "l": 16,
+      "r": 110,
+      "b": 39,
+      "w": 94,
+      "h": 22,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "dLogo": {
+      "t": 44,
+      "l": 57,
+      "r": 156,
+      "b": 67,
+      "w": 99,
+      "h": 23,
+      "z": "auto",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "strip": {
+      "t": 56,
+      "l": 0,
+      "r": 320,
+      "b": 119,
+      "w": 320,
+      "h": 63,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    }
+  },
+  {
+    "vp": "390",
+    "opened": true,
+    "issues": [
+      {
+        "type": "close-overlaps-navbar-logo"
+      }
+    ],
+    "holding": true,
+    "navOpen": true,
+    "hold": {
+      "t": 64,
+      "l": 0,
+      "r": 390,
+      "b": 844,
+      "w": 390,
+      "h": 780,
+      "z": "30",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "nav": {
+      "t": 0,
+      "l": 36,
+      "r": 390,
+      "b": 844,
+      "w": 354,
+      "h": 844,
+      "z": "81",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "close": {
+      "t": 16,
+      "l": 12,
+      "r": 56,
+      "b": 60,
+      "w": 44,
+      "h": 44,
+      "z": "90",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "logo": {
+      "t": 17,
+      "l": 16,
+      "r": 110,
+      "b": 39,
+      "w": 94,
+      "h": 22,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "dLogo": {
+      "t": 44,
+      "l": 80,
+      "r": 180,
+      "b": 67,
+      "w": 99,
+      "h": 23,
+      "z": "auto",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "strip": {
+      "t": 56,
+      "l": 0,
+      "r": 390,
+      "b": 119,
+      "w": 390,
+      "h": 63,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    }
+  },
+  {
+    "vp": "430",
+    "opened": true,
+    "issues": [
+      {
+        "type": "close-overlaps-navbar-logo"
+      }
+    ],
+    "holding": true,
+    "navOpen": true,
+    "hold": {
+      "t": 64,
+      "l": 0,
+      "r": 430,
+      "b": 932,
+      "w": 430,
+      "h": 868,
+      "z": "30",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "nav": {
+      "t": 0,
+      "l": 54,
+      "r": 430,
+      "b": 932,
+      "w": 376,
+      "h": 932,
+      "z": "81",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "close": {
+      "t": 16,
+      "l": 12,
+      "r": 56,
+      "b": 60,
+      "w": 44,
+      "h": 44,
+      "z": "90",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "logo": {
+      "t": 17,
+      "l": 16,
+      "r": 110,
+      "b": 39,
+      "w": 94,
+      "h": 22,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "dLogo": {
+      "t": 44,
+      "l": 98,
+      "r": 198,
+      "b": 67,
+      "w": 99,
+      "h": 23,
+      "z": "auto",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "strip": {
+      "t": 56,
+      "l": 0,
+      "r": 430,
+      "b": 119,
+      "w": 430,
+      "h": 63,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    }
+  },
+  {
+    "vp": "681",
+    "opened": true,
+    "issues": [
+      {
+        "type": "close-overlaps-navbar-logo"
+      }
+    ],
+    "holding": true,
+    "navOpen": true,
+    "hold": {
+      "t": 64,
+      "l": 0,
+      "r": 681,
+      "b": 900,
+      "w": 681,
+      "h": 836,
+      "z": "30",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "nav": {
+      "t": 0,
+      "l": 305,
+      "r": 681,
+      "b": 900,
+      "w": 376,
+      "h": 900,
+      "z": "81",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "close": {
+      "t": 16,
+      "l": 12,
+      "r": 56,
+      "b": 60,
+      "w": 44,
+      "h": 44,
+      "z": "90",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "logo": {
+      "t": 17,
+      "l": 16,
+      "r": 110,
+      "b": 39,
+      "w": 94,
+      "h": 22,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "dLogo": {
+      "t": 44,
+      "l": 349,
+      "r": 449,
+      "b": 67,
+      "w": 99,
+      "h": 23,
+      "z": "auto",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "strip": {
+      "t": 56,
+      "l": 0,
+      "r": 681,
+      "b": 119,
+      "w": 681,
+      "h": 63,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    }
+  },
+  {
+    "vp": "768",
+    "opened": true,
+    "issues": [
+      {
+        "type": "close-overlaps-navbar-logo"
+      }
+    ],
+    "holding": true,
+    "navOpen": true,
+    "hold": {
+      "t": 64,
+      "l": 0,
+      "r": 768,
+      "b": 1024,
+      "w": 768,
+      "h": 960,
+      "z": "30",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "nav": {
+      "t": 0,
+      "l": 384,
+      "r": 768,
+      "b": 1024,
+      "w": 384,
+      "h": 1024,
+      "z": "81",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "close": {
+      "t": 16,
+      "l": 12,
+      "r": 56,
+      "b": 60,
+      "w": 44,
+      "h": 44,
+      "z": "90",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "logo": {
+      "t": 17,
+      "l": 16,
+      "r": 110,
+      "b": 39,
+      "w": 94,
+      "h": 22,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    },
+    "dLogo": {
+      "t": 47,
+      "l": 431,
+      "r": 531,
+      "b": 70,
+      "w": 99,
+      "h": 23,
+      "z": "auto",
+      "op": "1",
+      "vis": "visible",
+      "pe": "auto"
+    },
+    "strip": {
+      "t": 56,
+      "l": 0,
+      "r": 768,
+      "b": 119,
+      "w": 768,
+      "h": 63,
+      "z": "auto",
+      "op": "0",
+      "vis": "hidden",
+      "pe": "none"
+    }
+  }
+]

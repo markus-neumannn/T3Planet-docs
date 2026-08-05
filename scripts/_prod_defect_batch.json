@@ -1,0 +1,44 @@
+[
+  {
+    "live": "EXTKarma/UpgradeGuideForContainer/Index.html",
+    "mint": "EXTKarma/UpgradeGuideForContainer/Index.md",
+    "product": "EXTKarma",
+    "key": "EXTKarma"
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/DataSource/Index.html",
+    "mint": "ExtNsT3AC/FeatureGuide/DataSource/Index.md",
+    "product": "ExtNsT3AC",
+    "key": "ExtNsT3AC"
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIProviders/Index.html",
+    "mint": "AIFoundation/Configuration/AIProviders/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/HelpfulLinks/Index.html",
+    "mint": "AIFoundation/HelpfulLinks/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AF/Integrations/MCPTesting/Index.html",
+    "mint": "AIFoundation/Integrations/MCPTesting/Index.md",
+    "product": "ExtNsT3AF",
+    "key": "ExtNsT3AF"
+  },
+  {
+    "live": "ExtNsT3AI/UpdateGuide/Index.html",
+    "mint": "ExtNsT3AI/UpdateGuide/Index.md",
+    "product": "ExtNsT3AI",
+    "key": "ExtNsT3AI"
+  },
+  {
+    "live": "License/GenerateLicenseKey/Index.html",
+    "mint": "License/GenerateLicenseKey/Index.md",
+    "product": "License",
+    "key": "License"
+  }
+]

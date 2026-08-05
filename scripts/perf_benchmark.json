@@ -1,0 +1,20 @@
+{
+  "benchmark_date": "2026-06-09",
+  "server": "http://localhost:3333",
+  "runs_per_route": 3,
+  "note": "Post-optimization timings. Dev server with 1406 nav pages; production Mintlify deploy is typically faster.",
+  "routes": [
+    { "path": "/", "http": 200, "avg_seconds": 1.203, "bytes": 1000203 },
+    { "path": "/AllExtensions/Index", "http": 200, "avg_seconds": 1.113, "bytes": 1012601 },
+    { "path": "/AIFoundation/Index", "http": 200, "avg_seconds": 0.807, "bytes": 956831 },
+    { "path": "/ExtNsT3AI/Index", "http": 200, "avg_seconds": 0.798, "bytes": 963934 },
+    { "path": "/License/Index", "http": 200, "avg_seconds": 1.233, "bytes": 934643 }
+  ],
+  "optimizations_applied": [
+    "Removed body-wide MutationObservers from custom scripts",
+    "Lightweight extension list layout (32KB -> 19KB page source)",
+    "Removed backdrop-filter, page fade-in, main content-visibility",
+    "Stripped global rules from _static/custom_layout.css",
+    "Disabled background grid decoration"
+  ]
+}

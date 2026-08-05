@@ -1,0 +1,1243 @@
+{
+  "products": {
+    "T3AF": {
+      "live_prefix": "ExtNsT3AF",
+      "mint_prefix": "AIFoundation",
+      "live_page_count": 43,
+      "mint_page_count": 27,
+      "live_pages": [
+        "ExtNsT3AF/AIContext/Index.html",
+        "ExtNsT3AF/AIFeatures/Index.html",
+        "ExtNsT3AF/AIPrompts/Index.html",
+        "ExtNsT3AF/AIProviders/Index.html",
+        "ExtNsT3AF/AIUsageAndLogs/Index.html",
+        "ExtNsT3AF/Appendix/Index.html",
+        "ExtNsT3AF/Architecture/Index.html",
+        "ExtNsT3AF/BuyNow.html",
+        "ExtNsT3AF/Configuration/Index.html",
+        "ExtNsT3AF/Dashboard/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomAiAccess/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomAiFeatures/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomAiPrompts/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomProviders/Index.html",
+        "ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index.html",
+        "ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index.html",
+        "ExtNsT3AF/DeveloperGuide/Index.html",
+        "ExtNsT3AF/DeveloperGuide/T3PlanetCredits/Index.html",
+        "ExtNsT3AF/FAQ/Index.html",
+        "ExtNsT3AF/GovernanceAndAccess/Index.html",
+        "ExtNsT3AF/HelpfulLinks/Index.html",
+        "ExtNsT3AF/Index.html",
+        "ExtNsT3AF/Installation/Index.html",
+        "ExtNsT3AF/Introduction/Index.html",
+        "ExtNsT3AF/KnownProblems/Index.html",
+        "ExtNsT3AF/MCPServer/Index.html",
+        "ExtNsT3AF/MCPTesting/Index.html",
+        "ExtNsT3AF/MCPTools/Index.html",
+        "ExtNsT3AF/Privacy/Index.html",
+        "ExtNsT3AF/ReleaseNotes/Index.html",
+        "ExtNsT3AF/Screenshots/Index.html",
+        "ExtNsT3AF/SetupWizard/Index.html",
+        "ExtNsT3AF/Support.html",
+        "ExtNsT3AF/SystemRequirements/Index.html",
+        "ExtNsT3AF/T3PlanetCredits/Index.html",
+        "ExtNsT3AF/T3PlanetCreditsQA/Index.html",
+        "ExtNsT3AF/Troubleshooting/Index.html",
+        "ExtNsT3AF/UpdateVersion/Index.html",
+        "ExtNsT3AF/UpgradeGuide/Index.html",
+        "ExtNsT3AF/Usage/Index.html",
+        "ExtNsT3AF/VideoTutorials/Index.html",
+        "ExtNsT3AF/WhatDoesItDo/Index.html"
+      ],
+      "missing_pages_in_mint": [
+        "ExtNsT3AF/Architecture/Index.html",
+        "ExtNsT3AF/BuyNow.html",
+        "ExtNsT3AF/DeveloperGuide/CustomAiAccess/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomAiFeatures/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomAiPrompts/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index.html",
+        "ExtNsT3AF/DeveloperGuide/CustomProviders/Index.html",
+        "ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index.html",
+        "ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index.html",
+        "ExtNsT3AF/DeveloperGuide/Index.html",
+        "ExtNsT3AF/DeveloperGuide/T3PlanetCredits/Index.html",
+        "ExtNsT3AF/MCPTesting/Index.html",
+        "ExtNsT3AF/Privacy/Index.html",
+        "ExtNsT3AF/ReleaseNotes/Index.html",
+        "ExtNsT3AF/T3PlanetCreditsQA/Index.html",
+        "ExtNsT3AF/Troubleshooting/Index.html",
+        "ExtNsT3AF/Usage/Index.html"
+      ],
+      "heading_gaps": [
+        {
+          "page": "ExtNsT3AF/AIContext/Index.html",
+          "mint": "AIFoundation/AIContext/Index.md",
+          "missing_headings": [
+            "ai context",
+            "purpose",
+            "when to update ai context",
+            "scenario: multi-language site"
+          ],
+          "live_heading_count": 9,
+          "mint_heading_count": 6
+        },
+        {
+          "page": "ExtNsT3AF/AIFeatures/Index.html",
+          "mint": "AIFoundation/AIFeatures/Index.md",
+          "missing_headings": [
+            "ai features",
+            "purpose",
+            "when to use per-feature providers",
+            "why this matters for cost",
+            "how to configure",
+            "scenario: agency with dev and live keys"
+          ],
+          "live_heading_count": 9,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AF/AIPrompts/Index.html",
+          "mint": "AIFoundation/AIPrompts/Index.md",
+          "missing_headings": [
+            "ai prompts",
+            "purpose",
+            "example template",
+            "reset to default",
+            "when to customize prompts",
+            "when to leave defaults",
+            "governance note"
+          ],
+          "live_heading_count": 10,
+          "mint_heading_count": 6
+        },
+        {
+          "page": "ExtNsT3AF/AIProviders/Index.html",
+          "mint": "AIFoundation/AIProviders/Index.md",
+          "missing_headings": [
+            "ai providers",
+            "purpose",
+            "multiple providers - when and why",
+            "where to get api keys"
+          ],
+          "live_heading_count": 10,
+          "mint_heading_count": 8
+        },
+        {
+          "page": "ExtNsT3AF/AIUsageAndLogs/Index.html",
+          "mint": "AIFoundation/AIUsageAndLogs/Index.md",
+          "missing_headings": [
+            "ai usage & logs",
+            "purpose",
+            "when logs show high usage",
+            "when logs show failures"
+          ],
+          "live_heading_count": 10,
+          "mint_heading_count": 8
+        },
+        {
+          "page": "ExtNsT3AF/Appendix/Index.html",
+          "mint": "AIFoundation/Appendix/Index.md",
+          "missing_headings": [
+            "appendix",
+            "related pages"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 6
+        },
+        {
+          "page": "ExtNsT3AF/Configuration/Index.html",
+          "mint": "AIFoundation/Configuration/Index.md",
+          "missing_headings": [
+            "configuration",
+            "purpose",
+            "when to reconfigure"
+          ],
+          "live_heading_count": 13,
+          "mint_heading_count": 12
+        },
+        {
+          "page": "ExtNsT3AF/Dashboard/Index.html",
+          "mint": "AIFoundation/Dashboard/Index.md",
+          "missing_headings": [
+            "dashboard",
+            "purpose",
+            "daily admin routine (2 minutes)",
+            "quick links from the dashboard",
+            "when the dashboard shows red"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 6
+        },
+        {
+          "page": "ExtNsT3AF/FAQ/Index.html",
+          "mint": "AIFoundation/FAQ/Index.md",
+          "missing_headings": [
+            "faq",
+            "installation",
+            "still stuck?"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AF/GovernanceAndAccess/Index.html",
+          "mint": "AIFoundation/GovernanceAndAccess/Index.md",
+          "missing_headings": [
+            "ai permissions",
+            "purpose",
+            "cli and scheduler note",
+            "when to enable governance",
+            "scenario: editor group with seo only"
+          ],
+          "live_heading_count": 11,
+          "mint_heading_count": 8
+        },
+        {
+          "page": "ExtNsT3AF/HelpfulLinks/Index.html",
+          "mint": "AIFoundation/HelpfulLinks/Index.md",
+          "missing_headings": [
+            "helpful links",
+            "product and documentation",
+            "when to use which link"
+          ],
+          "live_heading_count": 7,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AF/Index.html",
+          "mint": "AIFoundation/Index.md",
+          "missing_headings": [
+            "ext:nst3af"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AF/Installation/Index.html",
+          "mint": "AIFoundation/Installation/Index.md",
+          "missing_headings": [
+            "installation",
+            "requirements",
+            "composer installation",
+            "extension installation",
+            "configuration",
+            "verification",
+            "for premium version - license activation"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 8
+        },
+        {
+          "page": "ExtNsT3AF/Introduction/Index.html",
+          "mint": "AIFoundation/Introduction/Index.md",
+          "missing_headings": [
+            "introduction",
+            "ext:nst3af - ai foundation",
+            "ext:nst3af - what does it do?",
+            "helpful links"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 6
+        },
+        {
+          "page": "ExtNsT3AF/KnownProblems/Index.html",
+          "mint": "AIFoundation/KnownProblems/Index.md",
+          "missing_headings": [
+            "known problems",
+            "providers and credits",
+            "backend module not visible",
+            "high token usage spike"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AF/MCPServer/Index.html",
+          "mint": "AIFoundation/MCPServer/Index.md",
+          "missing_headings": [
+            "mcp server",
+            "purpose",
+            "when to enable mcp",
+            "when not to enable yet"
+          ],
+          "live_heading_count": 13,
+          "mint_heading_count": 12
+        },
+        {
+          "page": "ExtNsT3AF/MCPTools/Index.html",
+          "mint": "AIFoundation/MCPTools/Index.md",
+          "missing_headings": [
+            "mcp tools",
+            "purpose",
+            "why use the playground",
+            "when to use mcp tools vs mcp server"
+          ],
+          "live_heading_count": 9,
+          "mint_heading_count": 6
+        },
+        {
+          "page": "ExtNsT3AF/Screenshots/Index.html",
+          "mint": "AIFoundation/Screenshots/Index.md",
+          "missing_headings": [
+            "screenshots",
+            "when to use this page"
+          ],
+          "live_heading_count": 6,
+          "mint_heading_count": 7
+        },
+        {
+          "page": "ExtNsT3AF/SetupWizard/Index.html",
+          "mint": "AIFoundation/SetupWizard/Index.md",
+          "missing_headings": [
+            "quick setup",
+            "purpose",
+            "when to use",
+            "why use the wizard",
+            "scenario: agency onboarding a new client"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 4
+        },
+        {
+          "page": "ExtNsT3AF/Support.html",
+          "mint": "AIFoundation/Support/Index.md",
+          "missing_headings": [
+            "support"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 4
+        },
+        {
+          "page": "ExtNsT3AF/SystemRequirements/Index.html",
+          "mint": "AIFoundation/SystemRequirements/Index.md",
+          "missing_headings": [
+            "system requirements",
+            "purpose",
+            "composer / package dependencies",
+            "pre-install checklist"
+          ],
+          "live_heading_count": 9,
+          "mint_heading_count": 7
+        },
+        {
+          "page": "ExtNsT3AF/T3PlanetCredits/Index.html",
+          "mint": "AIFoundation/T3PlanetCredits/Index.md",
+          "missing_headings": [
+            "t3planet credits",
+            "purpose",
+            "credits vs your own api keys",
+            "credits are active when all three are true",
+            "dashboard and balance",
+            "when to use credits",
+            "when to use own keys"
+          ],
+          "live_heading_count": 10,
+          "mint_heading_count": 7
+        },
+        {
+          "page": "ExtNsT3AF/UpdateVersion/Index.html",
+          "mint": "AIFoundation/UpdateVersion/Index.md",
+          "missing_headings": [
+            "update version",
+            "difference between update and upgrade",
+            "check current version"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 6
+        },
+        {
+          "page": "ExtNsT3AF/UpgradeGuide/Index.html",
+          "mint": "AIFoundation/UpgradeGuide/Index.md",
+          "missing_headings": [
+            "upgrade guide",
+            "upgrade commands",
+            "v1 to v2 migration",
+            "when to run full upgrade:run",
+            "mcp after upgrade"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AF/VideoTutorials/Index.html",
+          "mint": "AIFoundation/VideoTutorials/Index.md",
+          "missing_headings": [
+            "video tutorials",
+            "purpose",
+            "recommended viewing order",
+            "when to use videos vs written docs"
+          ],
+          "live_heading_count": 6,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AF/WhatDoesItDo/Index.html",
+          "mint": "AIFoundation/WhatDoesItDo/Index.md",
+          "missing_headings": [
+            "what does it do?",
+            "purpose",
+            "2. mcp server",
+            "3. ai context",
+            "4. ai prompts",
+            "5. ai features",
+            "6. usage & logs",
+            "7. ai permissions"
+          ],
+          "live_heading_count": 13,
+          "mint_heading_count": 15
+        }
+      ],
+      "pages_with_heading_gaps": 26
+    },
+    "T3AI": {
+      "live_prefix": "ExtNsT3AI",
+      "mint_prefix": "ExtNsT3AI",
+      "live_page_count": 22,
+      "mint_page_count": 20,
+      "live_pages": [
+        "ExtNsT3AI/AISettings/Index.html",
+        "ExtNsT3AI/Appendix/Index.html",
+        "ExtNsT3AI/BuyNow.html",
+        "ExtNsT3AI/Content/Index.html",
+        "ExtNsT3AI/FAQ/Index.html",
+        "ExtNsT3AI/Index.html",
+        "ExtNsT3AI/Installation/Index.html",
+        "ExtNsT3AI/Introduction/Index.html",
+        "ExtNsT3AI/KnownProblems/Index.html",
+        "ExtNsT3AI/Media/Index.html",
+        "ExtNsT3AI/Pages/Index.html",
+        "ExtNsT3AI/Prompts/Index.html",
+        "ExtNsT3AI/ReInstallEverything/Index.html",
+        "ExtNsT3AI/SEO/Index.html",
+        "ExtNsT3AI/Screenshots/Index.html",
+        "ExtNsT3AI/Support.html",
+        "ExtNsT3AI/SystemRequirements/Index.html",
+        "ExtNsT3AI/Translation/Index.html",
+        "ExtNsT3AI/UpdateGuide/Index.html",
+        "ExtNsT3AI/UpdateVersion/Index.html",
+        "ExtNsT3AI/UpgradeGuide/Index.html",
+        "ExtNsT3AI/VideoTutorials/Index.html"
+      ],
+      "missing_pages_in_mint": [
+        "ExtNsT3AI/ReInstallEverything/Index.html",
+        "ExtNsT3AI/UpdateGuide/Index.html"
+      ],
+      "heading_gaps": [
+        {
+          "page": "ExtNsT3AI/AISettings/Index.html",
+          "mint": "ExtNsT3AI/AISettings/Index.md",
+          "missing_headings": [
+            "t3ai features",
+            "overview",
+            "key capabilities",
+            "basic workflow"
+          ],
+          "live_heading_count": 5,
+          "mint_heading_count": 32
+        },
+        {
+          "page": "ExtNsT3AI/Appendix/Index.html",
+          "mint": "ExtNsT3AI/Appendix/Index.md",
+          "missing_headings": [
+            "appendix"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AI/Content/Index.html",
+          "mint": "ExtNsT3AI/Content/Index.md",
+          "missing_headings": [
+            "content"
+          ],
+          "live_heading_count": 14,
+          "mint_heading_count": 13
+        },
+        {
+          "page": "ExtNsT3AI/FAQ/Index.html",
+          "mint": "ExtNsT3AI/FAQ/Index.md",
+          "missing_headings": [
+            "faq"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AI/Index.html",
+          "mint": "ExtNsT3AI/Index.md",
+          "missing_headings": [
+            "ext:nst3ai"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AI/Installation/Index.html",
+          "mint": "ExtNsT3AI/Installation/Index.md",
+          "missing_headings": [
+            "step 1 - remove the existing extension",
+            "step 2 - update the license manager",
+            "step 3 - re-activate the license",
+            "non-composer installation",
+            "composer installation",
+            "step 4 - install ai foundation",
+            "step 5 - run database analyzer",
+            "step 6 - configure the ai provider",
+            "step 7 - verify the installation"
+          ],
+          "live_heading_count": 12,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AI/Introduction/Index.html",
+          "mint": "ExtNsT3AI/Introduction/Index.md",
+          "missing_headings": [
+            "introduction",
+            "ext:nst3ai",
+            "ext:nst3ai - what does it do?"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AI/KnownProblems/Index.html",
+          "mint": "ExtNsT3AI/KnownProblems/Index.md",
+          "missing_headings": [
+            "known problems"
+          ],
+          "live_heading_count": 3,
+          "mint_heading_count": 2
+        },
+        {
+          "page": "ExtNsT3AI/Media/Index.html",
+          "mint": "ExtNsT3AI/Media/Index.md",
+          "missing_headings": [
+            "t3ai media"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 7
+        },
+        {
+          "page": "ExtNsT3AI/Pages/Index.html",
+          "mint": "ExtNsT3AI/Pages/Index.md",
+          "missing_headings": [
+            "pages"
+          ],
+          "live_heading_count": 9,
+          "mint_heading_count": 8
+        },
+        {
+          "page": "ExtNsT3AI/Prompts/Index.html",
+          "mint": "ExtNsT3AI/Prompts/Index.md",
+          "missing_headings": [
+            "prompts",
+            "t3ai prompts",
+            "overview",
+            "when to customize prompts",
+            "typical workflow",
+            "best practices"
+          ],
+          "live_heading_count": 6,
+          "mint_heading_count": 10
+        },
+        {
+          "page": "ExtNsT3AI/SEO/Index.html",
+          "mint": "ExtNsT3AI/SEO/Index.md",
+          "missing_headings": [
+            "seo",
+            "mass seo",
+            "before you start",
+            "how it works",
+            "scheduler",
+            "page wise mass seo",
+            "recursive mass seo",
+            "ai schema for page",
+            "ai schema for blog",
+            "edit generated schema"
+          ],
+          "live_heading_count": 22,
+          "mint_heading_count": 15
+        },
+        {
+          "page": "ExtNsT3AI/Screenshots/Index.html",
+          "mint": "ExtNsT3AI/Screenshots/Index.md",
+          "missing_headings": [
+            "screenshots"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AI/Support.html",
+          "mint": "ExtNsT3AI/Support.md",
+          "missing_headings": [
+            "support"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AI/UpdateVersion/Index.html",
+          "mint": "ExtNsT3AI/UpdateVersion/Index.md",
+          "missing_headings": [
+            "update version"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AI/UpgradeGuide/Index.html",
+          "mint": "ExtNsT3AI/UpgradeGuide/Index.md",
+          "missing_headings": [
+            "upgrade guide"
+          ],
+          "live_heading_count": 3,
+          "mint_heading_count": 2
+        },
+        {
+          "page": "ExtNsT3AI/VideoTutorials/Index.html",
+          "mint": "ExtNsT3AI/VideoTutorials/Index.md",
+          "missing_headings": [
+            "video tutorials"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        }
+      ],
+      "pages_with_heading_gaps": 17
+    },
+    "T3AC": {
+      "live_prefix": "ExtNsT3AC",
+      "mint_prefix": "ExtNsT3AC",
+      "live_page_count": 22,
+      "mint_page_count": 19,
+      "live_pages": [
+        "ExtNsT3AC/BuyNow.html",
+        "ExtNsT3AC/Configuration/Index.html",
+        "ExtNsT3AC/CustomLLMSupport/Index.html",
+        "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.html",
+        "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index.html",
+        "ExtNsT3AC/FeatureGuide/AILogs/Index.html",
+        "ExtNsT3AC/FeatureGuide/AIStatistics/Index.html",
+        "ExtNsT3AC/FeatureGuide/Chatbot/Index.html",
+        "ExtNsT3AC/FeatureGuide/Dashboard/Index.html",
+        "ExtNsT3AC/FeatureGuide/DataSource/Index.html",
+        "ExtNsT3AC/FeatureGuide/Index.html",
+        "ExtNsT3AC/FeatureGuide/TrainingCenter/Index.html",
+        "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index.html",
+        "ExtNsT3AC/Index.html",
+        "ExtNsT3AC/Installation/Index.html",
+        "ExtNsT3AC/Introduction/Index.html",
+        "ExtNsT3AC/KnownProblems/Index.html",
+        "ExtNsT3AC/ReInstallEverything/Index.html",
+        "ExtNsT3AC/Screenshots/Index.html",
+        "ExtNsT3AC/Support.html",
+        "ExtNsT3AC/UpdateGuide/Index.html",
+        "ExtNsT3AC/UpdateVersion/Index.html"
+      ],
+      "missing_pages_in_mint": [
+        "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index.html",
+        "ExtNsT3AC/ReInstallEverything/Index.html"
+      ],
+      "heading_gaps": [
+        {
+          "page": "ExtNsT3AC/BuyNow.html",
+          "mint": "ExtNsT3AC/BuyNow.md",
+          "missing_headings": [
+            "get this extension"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AC/Configuration/Index.html",
+          "mint": "ExtNsT3AC/Configuration/Index.md",
+          "missing_headings": [
+            "configuration",
+            "ai features",
+            "providers & mcp tools"
+          ],
+          "live_heading_count": 7,
+          "mint_heading_count": 4
+        },
+        {
+          "page": "ExtNsT3AC/CustomLLMSupport/Index.html",
+          "mint": "ExtNsT3AC/CustomLLMSupport/Index.md",
+          "missing_headings": [
+            "custom llm support"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.html",
+          "mint": "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.md",
+          "missing_headings": [
+            "t3ac hosting policy for custom llm"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/AILogs/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/AILogs/Index.md",
+          "missing_headings": [
+            "ailogs"
+          ],
+          "live_heading_count": 3,
+          "mint_heading_count": 2
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/AIStatistics/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/AIStatistics/Index.md",
+          "missing_headings": [
+            "ai statistics"
+          ],
+          "live_heading_count": 3,
+          "mint_heading_count": 2
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/Chatbot/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/Chatbot/Index.md",
+          "missing_headings": [
+            "chabot features",
+            "ai prompts"
+          ],
+          "live_heading_count": 15,
+          "mint_heading_count": 13
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/Dashboard/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/Dashboard/Index.md",
+          "missing_headings": [
+            "dashboard"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/DataSource/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/DataSource/Index.md",
+          "missing_headings": [
+            "data source",
+            "source groups | page-level source configuration",
+            "backend configuration",
+            "header / footer for sitemap and web-page source types"
+          ],
+          "live_heading_count": 10,
+          "mint_heading_count": 10
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/Index.md",
+          "missing_headings": [
+            "feature guide"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/TrainingCenter/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/TrainingCenter/Index.md",
+          "missing_headings": [
+            "training center"
+          ],
+          "live_heading_count": 9,
+          "mint_heading_count": 8
+        },
+        {
+          "page": "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index.html",
+          "mint": "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index.md",
+          "missing_headings": [
+            "usage analytics"
+          ],
+          "live_heading_count": 6,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AC/Index.html",
+          "mint": "ExtNsT3AC/Index.md",
+          "missing_headings": [
+            "ext:nst3ac"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AC/Installation/Index.html",
+          "mint": "ExtNsT3AC/Installation/Index.md",
+          "missing_headings": [
+            "step 1 - remove the existing extension",
+            "step 2 - update the license manager",
+            "step 3 - re-activate the license",
+            "non-composer installation",
+            "composer installation",
+            "step 4 - install ai foundation",
+            "step 5 - run database analyzer",
+            "step 6 - configure the ai provider",
+            "step 7 - verify the installation"
+          ],
+          "live_heading_count": 14,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AC/Introduction/Index.html",
+          "mint": "ExtNsT3AC/Introduction/Index.md",
+          "missing_headings": [
+            "t3ac - typo3 ai chatbot extension",
+            "ext:nst3ac"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AC/KnownProblems/Index.html",
+          "mint": "ExtNsT3AC/KnownProblems/Index.md",
+          "missing_headings": [
+            "known problems"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AC/Screenshots/Index.html",
+          "mint": "ExtNsT3AC/Screenshots/Index.md",
+          "missing_headings": [
+            "screenshots"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AC/Support.html",
+          "mint": "ExtNsT3AC/Support.md",
+          "missing_headings": [
+            "support"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AC/UpdateGuide/Index.html",
+          "mint": "ExtNsT3AC/UpdateGuide/Index.md",
+          "missing_headings": [
+            "update guide"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AC/UpdateVersion/Index.html",
+          "mint": "ExtNsT3AC/UpdateVersion/Index.md",
+          "missing_headings": [
+            "update version"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        }
+      ],
+      "pages_with_heading_gaps": 20
+    },
+    "T3AS": {
+      "live_prefix": "ExtNsT3AS",
+      "mint_prefix": "ExtNsT3AS",
+      "live_page_count": 18,
+      "mint_page_count": 16,
+      "live_pages": [
+        "ExtNsT3AS/BuyNow.html",
+        "ExtNsT3AS/Configuration/Index.html",
+        "ExtNsT3AS/CustomLLMSupport/Index.html",
+        "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.html",
+        "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index.html",
+        "ExtNsT3AS/DatabaseChunking/Index.html",
+        "ExtNsT3AS/FrontendPlugin/Index.html",
+        "ExtNsT3AS/Index.html",
+        "ExtNsT3AS/Installation/Index.html",
+        "ExtNsT3AS/Introduction/Index.html",
+        "ExtNsT3AS/KnownProblems/Index.html",
+        "ExtNsT3AS/PerformanceConfiguration/Index.html",
+        "ExtNsT3AS/ReInstallEverything/Index.html",
+        "ExtNsT3AS/Screenshots/Index.html",
+        "ExtNsT3AS/Support.html",
+        "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index.html",
+        "ExtNsT3AS/UpdateGuide/Index.html",
+        "ExtNsT3AS/UpdateVersion/Index.html"
+      ],
+      "missing_pages_in_mint": [
+        "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index.html",
+        "ExtNsT3AS/ReInstallEverything/Index.html"
+      ],
+      "heading_gaps": [
+        {
+          "page": "ExtNsT3AS/BuyNow.html",
+          "mint": "ExtNsT3AS/BuyNow.md",
+          "missing_headings": [
+            "get this extension"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AS/Configuration/Index.html",
+          "mint": "ExtNsT3AS/Configuration/Index.md",
+          "missing_headings": [
+            "ai features",
+            "source groups | page-level source configuration",
+            "9. ai prompts",
+            "10. providers & mcp tools"
+          ],
+          "live_heading_count": 27,
+          "mint_heading_count": 24
+        },
+        {
+          "page": "ExtNsT3AS/CustomLLMSupport/Index.html",
+          "mint": "ExtNsT3AS/CustomLLMSupport/Index.md",
+          "missing_headings": [
+            "custom llm support"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.html",
+          "mint": "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.md",
+          "missing_headings": [
+            "t3as hosting policy for custom llm"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AS/DatabaseChunking/Index.html",
+          "mint": "ExtNsT3AS/DatabaseChunking/Index.md",
+          "missing_headings": [
+            "configurable chunk size for embedded data"
+          ],
+          "live_heading_count": 6,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AS/FrontendPlugin/Index.html",
+          "mint": "ExtNsT3AS/FrontendPlugin/Index.md",
+          "missing_headings": [
+            "t3as search plugin",
+            "overview",
+            "interactive demo",
+            "add the plugin to a page",
+            "plugin tab",
+            "search results tab",
+            "tips"
+          ],
+          "live_heading_count": 8,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AS/Index.html",
+          "mint": "ExtNsT3AS/Index.md",
+          "missing_headings": [
+            "ext:nst3as"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AS/Installation/Index.html",
+          "mint": "ExtNsT3AS/Installation/Index.md",
+          "missing_headings": [
+            "step 1 - remove the existing extension",
+            "step 2 - update the license manager",
+            "step 3 - re-activate the license",
+            "non-composer installation",
+            "composer installation",
+            "step 4 - install ai foundation",
+            "step 5 - run database analyzer",
+            "step 6 - configure the ai provider",
+            "step 7 - verify the installation"
+          ],
+          "live_heading_count": 14,
+          "mint_heading_count": 5
+        },
+        {
+          "page": "ExtNsT3AS/Introduction/Index.html",
+          "mint": "ExtNsT3AS/Introduction/Index.md",
+          "missing_headings": [
+            "t3as - typo3 ai search extension",
+            "ext:nst3as",
+            "system requirements"
+          ],
+          "live_heading_count": 5,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AS/KnownProblems/Index.html",
+          "mint": "ExtNsT3AS/KnownProblems/Index.md",
+          "missing_headings": [
+            "known problems"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AS/PerformanceConfiguration/Index.html",
+          "mint": "ExtNsT3AS/PerformanceConfiguration/Index.md",
+          "missing_headings": [
+            "performance configuration based on database size"
+          ],
+          "live_heading_count": 5,
+          "mint_heading_count": 4
+        },
+        {
+          "page": "ExtNsT3AS/Screenshots/Index.html",
+          "mint": "ExtNsT3AS/Screenshots/Index.md",
+          "missing_headings": [
+            "screenshots",
+            "t3as overview",
+            "search global settings",
+            "t3as search plugin"
+          ],
+          "live_heading_count": 5,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AS/Support.html",
+          "mint": "ExtNsT3AS/Support.md",
+          "missing_headings": [
+            "support"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index.html",
+          "mint": "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index.md",
+          "missing_headings": [
+            "t3as hosting policy for custom llm"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AS/UpdateGuide/Index.html",
+          "mint": "ExtNsT3AS/UpdateGuide/Index.md",
+          "missing_headings": [
+            "update guide"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AS/UpdateVersion/Index.html",
+          "mint": "ExtNsT3AS/UpdateVersion/Index.md",
+          "missing_headings": [
+            "update version"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        }
+      ],
+      "pages_with_heading_gaps": 16
+    },
+    "T3AA": {
+      "live_prefix": "ExtNsT3AA",
+      "mint_prefix": "ExtNsT3AA",
+      "live_page_count": 18,
+      "mint_page_count": 15,
+      "live_pages": [
+        "ExtNsT3AA/AIAudioGenerator/Index.html",
+        "ExtNsT3AA/AIFilemeta/Index.html",
+        "ExtNsT3AA/BuyNow.html",
+        "ExtNsT3AA/CkeditorAccessibilityChecker/Index.html",
+        "ExtNsT3AA/Configuration/Index.html",
+        "ExtNsT3AA/Index.html",
+        "ExtNsT3AA/Installation/Index.html",
+        "ExtNsT3AA/Introduction/Index.html",
+        "ExtNsT3AA/KnownProblems/Index.html",
+        "ExtNsT3AA/ReInstallEverything/Index.html",
+        "ExtNsT3AA/Screenshots/Index.html",
+        "ExtNsT3AA/SimplifiedText/Index.html",
+        "ExtNsT3AA/SpeedCoreWebVitals/Index.html",
+        "ExtNsT3AA/Support.html",
+        "ExtNsT3AA/SystemRequirements/Index.html",
+        "ExtNsT3AA/T3AAVoiceover/Index.html",
+        "ExtNsT3AA/UpdateGuide/Index.html",
+        "ExtNsT3AA/UpdateVersion/Index.html"
+      ],
+      "missing_pages_in_mint": [
+        "ExtNsT3AA/ReInstallEverything/Index.html"
+      ],
+      "heading_gaps": [
+        {
+          "page": "ExtNsT3AA/AIAudioGenerator/Index.html",
+          "mint": "ExtNsT3AA/AIAudioGenerator/Index.md",
+          "missing_headings": [
+            "ai audio generator"
+          ],
+          "live_heading_count": 3,
+          "mint_heading_count": 2
+        },
+        {
+          "page": "ExtNsT3AA/AIFilemeta/Index.html",
+          "mint": "ExtNsT3AA/AIFilemeta/Index.md",
+          "missing_headings": [
+            "ai filemeta",
+            "filemeta (vision api)",
+            "multilingual metadata creation",
+            "manual metadata generation per image",
+            "bulk metadata generation with multilingual support using a scheduler"
+          ],
+          "live_heading_count": 6,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AA/BuyNow.html",
+          "mint": "ExtNsT3AA/BuyNow.md",
+          "missing_headings": [
+            "get this extension"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.html",
+          "mint": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.md",
+          "missing_headings": [
+            "ckeditor accessibility check using t3aa"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AA/Configuration/Index.html",
+          "mint": "ExtNsT3AA/Configuration/Index.md",
+          "missing_headings": [
+            "configuration",
+            "step 2: review shared provider setup",
+            "ai features",
+            "ai prompts",
+            "ai usage",
+            "ai logs",
+            "providers & mcp tools"
+          ],
+          "live_heading_count": 10,
+          "mint_heading_count": 4
+        },
+        {
+          "page": "ExtNsT3AA/Index.html",
+          "mint": "ExtNsT3AA/Index.md",
+          "missing_headings": [
+            "ext:nst3aa"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AA/Installation/Index.html",
+          "mint": "ExtNsT3AA/Installation/Index.md",
+          "missing_headings": [
+            "step 1 - remove the existing extension",
+            "step 2 - update the license manager",
+            "step 3 - re-activate the license",
+            "non-composer installation",
+            "composer installation",
+            "step 4 - install ai foundation",
+            "step 5 - run database analyzer",
+            "step 6 - configure the ai provider",
+            "step 7 - verify the installation"
+          ],
+          "live_heading_count": 11,
+          "mint_heading_count": 2
+        },
+        {
+          "page": "ExtNsT3AA/Introduction/Index.html",
+          "mint": "ExtNsT3AA/Introduction/Index.md",
+          "missing_headings": [
+            "t3aa - typo3 ai accessibility assistant",
+            "ext:nst3aa",
+            "ext:nst3aa - what does it do?"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 3
+        },
+        {
+          "page": "ExtNsT3AA/KnownProblems/Index.html",
+          "mint": "ExtNsT3AA/KnownProblems/Index.md",
+          "missing_headings": [
+            "known problems"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AA/Screenshots/Index.html",
+          "mint": "ExtNsT3AA/Screenshots/Index.md",
+          "missing_headings": [
+            "screenshots"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AA/SimplifiedText/Index.html",
+          "mint": "ExtNsT3AA/SimplifiedText/Index.md",
+          "missing_headings": [
+            "simplify text with t3aa"
+          ],
+          "live_heading_count": 2,
+          "mint_heading_count": 1
+        },
+        {
+          "page": "ExtNsT3AA/SpeedCoreWebVitals/Index.html",
+          "mint": "ExtNsT3AA/SpeedCoreWebVitals/Index.md",
+          "missing_headings": [
+            "speed core web vital"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AA/Support.html",
+          "mint": "ExtNsT3AA/Support.md",
+          "missing_headings": [
+            "support"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AA/T3AAVoiceover/Index.html",
+          "mint": "ExtNsT3AA/T3AAVoiceover/Index.md",
+          "missing_headings": [
+            "t3aa voiceover",
+            "openai voiceover",
+            "ai voiceover for blog",
+            "voiceover plugin"
+          ],
+          "live_heading_count": 4,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AA/UpdateGuide/Index.html",
+          "mint": "ExtNsT3AA/UpdateGuide/Index.md",
+          "missing_headings": [
+            "update guide"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        },
+        {
+          "page": "ExtNsT3AA/UpdateVersion/Index.html",
+          "mint": "ExtNsT3AA/UpdateVersion/Index.md",
+          "missing_headings": [
+            "update version"
+          ],
+          "live_heading_count": 1,
+          "mint_heading_count": 0
+        }
+      ],
+      "pages_with_heading_gaps": 16
+    }
+  },
+  "live_pages_total": 123,
+  "mint_pages_total": 97
+}

@@ -1,0 +1,2948 @@
+{
+  "en": [
+    {
+      "dropdown": "Home",
+      "icon": "house",
+      "groups": [
+        {
+          "group": "Overview",
+          "pages": [
+            "index",
+            "AIFoundation/Index",
+            "AllTemplates/Index",
+            "AllExtensions/Index"
+          ]
+        },
+        {
+          "group": "Quick start",
+          "pages": [
+            "License/Index",
+            "License/Introduction/Index",
+            "License/UpdateVersion/Index",
+            "License/LicenseActivation/Index",
+            "License/HelpSupport/Index"
+          ]
+        },
+        {
+          "group": "Popular docs",
+          "pages": [
+            "ExtNsT3AI/Index",
+            "ExtNsT3AC/Index",
+            "EXTKarma/Index",
+            "ExtNsRevolutionSlider/Index",
+            "ExtRTECKEditorPack/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "License, Installation & Updates",
+      "icon": "key",
+      "groups": [
+        {
+          "group": "License, Installation & Updates",
+          "pages": [
+            "License/Index",
+            "License/Introduction/Index",
+            "License/GenerateLicenseKey/Index",
+            "License/LicenseManager/Index",
+            "License/ExtendTrial/Index",
+            "License/RenewPurchase/Index",
+            "License/LicenseActivation/Index",
+            "License/RegisterAndManageDomains/Index",
+            "License/OtherProducts/Index",
+            "License/LicenseDeActivation/Index",
+            "License/UpdateVersion/Index",
+            "License/UpdateVersion/CheckNewVersion/Index",
+            "License/UpdateVersion/NonComposer/Index",
+            "License/UpdateVersion/Composer/Index",
+            "License/Migration/Index",
+            "License/Migration/License/Index",
+            "License/Migration/Composer/Index",
+            "License/SiteSets/Index",
+            "License/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Karma",
+      "icon": "palette",
+      "groups": [
+        {
+          "group": "T3 Karma",
+          "pages": [
+            "EXTKarma/Index",
+            "EXTKarma/Introduction/Index",
+            "EXTKarma/Installation/Index",
+            "EXTKarma/UpdateVersion/Index",
+            "EXTKarma/GlobalSettingsConfiguration/Index",
+            "EXTKarma/TemplatesLayouts/Index",
+            "EXTKarma/ContentBlockElements/Index",
+            "EXTKarma/EditorGuide/Index",
+            "EXTKarma/Localization/Index",
+            "EXTKarma/SpeedPerformance/Index",
+            "EXTKarma/SEO/Index",
+            "EXTKarma/Customization/Index",
+            "EXTKarma/CaptchaConfiguration/Index",
+            "EXTKarma/UpgradeGuideForContainer/Index",
+            "EXTKarma/UpgradeV13xToV14x/Index",
+            "EXTKarma/HelpfulLinks/Index",
+            "EXTKarma/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS CKEditor Pack",
+      "icon": "file-text",
+      "groups": [
+        {
+          "group": "NS CKEditor Pack",
+          "pages": [
+            "ExtRTECKEditorPack/Index",
+            "ExtRTECKEditorPack/Introduction/Index",
+            "ExtRTECKEditorPack/SystemRequirements/Index",
+            "ExtRTECKEditorPack/QuickInstallation/Index",
+            "ExtRTECKEditorPack/PremiumPack/Index",
+            "ExtRTECKEditorPack/ContentSecurityPolicy/Index",
+            "ExtRTECKEditorPack/HowPresetsWork/Index",
+            "ExtRTECKEditorPack/Configurationsave/Index",
+            "ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index",
+            "ExtRTECKEditorPack/CKEditorAI/Index",
+            "ExtRTECKEditorPack/AccessibilityFeatures/Index",
+            "ExtRTECKEditorPack/PremiumFeatures/Index",
+            "ExtRTECKEditorPack/Updating/Index",
+            "ExtRTECKEditorPack/Support",
+            "ExtRTECKEditorPack/GetThisExtension"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS News Comments",
+      "icon": "message-square",
+      "groups": [
+        {
+          "group": "NS News Comments",
+          "pages": [
+            "ExtNsNewsComments/Index",
+            "ExtNsNewsComments/Introduction/Index",
+            "ExtNsNewsComments/Installation/Index",
+            "ExtNsNewsComments/UpdateVersion/Index",
+            "ExtNsNewsComments/NewsCommentModule/Index",
+            "ExtNsNewsComments/GlobalConfiguration/Index",
+            "ExtNsNewsComments/CommentPluginSettings/Index",
+            "ExtNsNewsComments/CommentModeration/Index",
+            "ExtNsNewsComments/ForDevelopers/Index",
+            "ExtNsNewsComments/Support",
+            "ExtNsNewsComments/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Revolution Slider",
+      "icon": "gallery-horizontal",
+      "groups": [
+        {
+          "group": "NS Revolution Slider",
+          "pages": [
+            "ExtNsRevolutionSlider/Index",
+            "ExtNsRevolutionSlider/Introduction/Index",
+            "ExtNsRevolutionSlider/KnownIssues/Index",
+            "ExtNsRevolutionSlider/RevolutionSliderLatest/Index",
+            "ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index",
+            "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index",
+            "ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index",
+            "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider3.0/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider3.0/SystemRequirements/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider3.0/MigrationFrom2to3/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider2.0/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider2.0/MigrationFrom1to2/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider1.0/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider1.0/Installation/Index",
+            "ExtNsRevolutionSlider/RevolutionSlider1.0/Configuration/Index",
+            "ExtNsRevolutionSlider/UpdateVersion/Index",
+            "ExtNsRevolutionSlider/Support",
+            "ExtNsRevolutionSlider/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AI",
+      "icon": "bot",
+      "groups": [
+        {
+          "group": "NS T3AI",
+          "pages": [
+            "ExtNsT3AI/Index",
+            "ExtNsT3AI/Introduction/Index",
+            "ExtNsT3AI/Screenshots/Index",
+            "ExtNsT3AI/VideoTutorials/Index",
+            "ExtNsT3AI/SystemRequirements/Index",
+            "ExtNsT3AI/Installation/Index",
+            "ExtNsT3AI/Configuration/Index",
+            "ExtNsT3AI/UpdateVersion/Index",
+            "ExtNsT3AI/Pages/Index",
+            "ExtNsT3AI/Translation/Index",
+            "ExtNsT3AI/SEO/Index",
+            "ExtNsT3AI/Content/Index",
+            "ExtNsT3AI/Media/Index",
+            "ExtNsT3AI/Prompts/Index",
+            "ExtNsT3AI/AISettings/Index",
+            "ExtNsT3AI/UpgradeGuide/Index",
+            "ExtNsT3AI/FAQ/Index",
+            "ExtNsT3AI/KnownProblems/Index",
+            "ExtNsT3AI/Appendix/Index",
+            "ExtNsT3AI/Support",
+            "ExtNsT3AI/BuyNow",
+            "ExtNsT3AI/Releases/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AS",
+      "icon": "search",
+      "groups": [
+        {
+          "group": "NS T3AS",
+          "pages": [
+            "ExtNsT3AS/Index",
+            "ExtNsT3AS/Introduction/Index",
+            "ExtNsT3AS/Screenshots/Index",
+            "ExtNsT3AS/Installation/Index",
+            "ExtNsT3AS/Configuration/Index",
+            "ExtNsT3AS/FrontendPlugin/Index",
+            "ExtNsT3AS/CustomLLMSupport/Index",
+            "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+            "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index",
+            "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index",
+            "ExtNsT3AS/DatabaseChunking/Index",
+            "ExtNsT3AS/PerformanceConfiguration/Index",
+            "ExtNsT3AS/UpdateVersion/Index",
+            "ExtNsT3AS/UpdateGuide/Index",
+            "ExtNsT3AS/KnownProblems/Index",
+            "ExtNsT3AS/Support",
+            "ExtNsT3AS/BuyNow",
+            "ExtNsT3AS/VerifyIndexedData/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AC",
+      "icon": "message-circle",
+      "groups": [
+        {
+          "group": "NS T3AC",
+          "pages": [
+            "ExtNsT3AC/Index",
+            "ExtNsT3AC/Introduction/Index",
+            "ExtNsT3AC/Screenshots/Index",
+            "ExtNsT3AC/Installation/Index",
+            "ExtNsT3AC/Configuration/Index",
+            "ExtNsT3AC/FeatureGuide/Index",
+            "ExtNsT3AC/FeatureGuide/Dashboard/Index",
+            "ExtNsT3AC/FeatureGuide/DataSource/Index",
+            "ExtNsT3AC/FeatureGuide/TrainingCenter/Index",
+            "ExtNsT3AC/FeatureGuide/Chatbot/Index",
+            "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index",
+            "ExtNsT3AC/FeatureGuide/AILogs/Index",
+            "ExtNsT3AC/FeatureGuide/AIStatistics/Index",
+            "ExtNsT3AC/CustomLLMSupport/Index",
+            "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+            "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index",
+            "ExtNsT3AC/UpdateVersion/Index",
+            "ExtNsT3AC/UpdateGuide/Index",
+            "ExtNsT3AC/KnownProblems/Index",
+            "ExtNsT3AC/Support",
+            "ExtNsT3AC/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AL",
+      "icon": "audio-lines",
+      "groups": [
+        {
+          "group": "NS T3AL",
+          "pages": [
+            "ExtNsT3AL/Index",
+            "ExtNsT3AL/Introduction/Index",
+            "ExtNsT3AL/Screenshots/Index",
+            "ExtNsT3AL/VideoTutorials/Index",
+            "ExtNsT3AL/SystemRequirements/Index",
+            "ExtNsT3AL/Installation/Index",
+            "ExtNsT3AL/Configuration/Index",
+            "ExtNsT3AL/UpdateVersion/Index",
+            "ExtNsT3AL/T3ALforEveryone/Index",
+            "ExtNsT3AL/AILocalization/Index",
+            "ExtNsT3AL/StartManualLocalization/Index",
+            "ExtNsT3AL/AILocalizationLogs/Index",
+            "ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+            "ExtNsT3AL/UpdateGuide/Index",
+            "ExtNsT3AL/KnownProblems/Index",
+            "ExtNsT3AL/T3ALTerms(Glossary)/Index",
+            "ExtNsT3AL/Support",
+            "ExtNsT3AL/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AA",
+      "icon": "accessibility",
+      "groups": [
+        {
+          "group": "NS T3AA",
+          "pages": [
+            "ExtNsT3AA/Index",
+            "ExtNsT3AA/Introduction/Index",
+            "ExtNsT3AA/Screenshots/Index",
+            "ExtNsT3AA/SystemRequirements/Index",
+            "ExtNsT3AA/Installation/Index",
+            "ExtNsT3AA/Configuration/Index",
+            "ExtNsT3AA/UpdateVersion/Index",
+            "ExtNsT3AA/SpeedCoreWebVitals/Index",
+            "ExtNsT3AA/AIFilemeta/Index",
+            "ExtNsT3AA/AIAudioGenerator/Index",
+            "ExtNsT3AA/T3AAVoiceover/Index",
+            "ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+            "ExtNsT3AA/SimplifiedText/Index",
+            "ExtNsT3AA/UpdateGuide/Index",
+            "ExtNsT3AA/KnownProblems/Index",
+            "ExtNsT3AA/Support",
+            "ExtNsT3AA/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AB",
+      "icon": "blocks",
+      "groups": [
+        {
+          "group": "NS T3AB",
+          "pages": [
+            "ExtNsT3AB/Index",
+            "ExtNsT3AB/Introduction/Index",
+            "ExtNsT3AB/SystemRequirements/Index",
+            "ExtNsT3AB/Installation/Index",
+            "ExtNsT3AB/Configuration/Index",
+            "ExtNsT3AB/UpdateVersion/Index",
+            "ExtNsT3AB/HowT3ABWorks/Index",
+            "ExtNsT3AB/T3ABAIBuilder/Index",
+            "ExtNsT3AB/T3ABContentBlocks/Index",
+            "ExtNsT3AB/Forms/Index",
+            "ExtNsT3AB/UpdateGuide/Index",
+            "ExtNsT3AB/Support",
+            "ExtNsT3AB/BuyNow",
+            "ExtNsT3AB/AIBuilder/Index",
+            "ExtNsT3AB/AIContentBlock/Index",
+            "ExtNsT3AB/AIForm/Index",
+            "ExtNsT3AB/Screenshots/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "TYPO3 Templates",
+      "icon": "layout-template",
+      "groups": [
+        {
+          "group": "TYPO3 Templates",
+          "pages": [
+            "ExtThemes/Index",
+            "ExtThemes/Introduction/Index",
+            "ExtThemes/Installation/Index",
+            "ExtThemes/GlobalSettingsConfiguration/Index",
+            "ExtThemes/TemplatesLayouts/Index",
+            "ExtThemes/CustomElements/Index",
+            "ExtThemes/Localization/Index",
+            "ExtThemes/SpeedPerformance/Index",
+            "ExtThemes/SEO/Index",
+            "ExtThemes/Customization/Index",
+            "ExtThemes/FrontendBuild/Index",
+            "ExtThemes/UpgradeGuide/Index",
+            "ExtThemes/DemoSite/Index",
+            "ExtThemes/FAQ/Index",
+            "ExtThemes/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Avatar",
+      "icon": "user-circle",
+      "groups": [
+        {
+          "group": "T3 Avatar",
+          "pages": [
+            "EXTAvatar/Index",
+            "EXTAvatar/Introduction/Index",
+            "EXTAvatar/Installation/Index",
+            "EXTAvatar/UpdateVersion/Index",
+            "EXTAvatar/GlobalSettingsConfiguration/Index",
+            "EXTAvatar/TemplatesLayouts/Index",
+            "EXTAvatar/MaskElements/Index",
+            "EXTAvatar/EditorGuide/Index",
+            "EXTAvatar/Localization/Index",
+            "EXTAvatar/SpeedPerformance/Index",
+            "EXTAvatar/SEO/Index",
+            "EXTAvatar/Customization/Index",
+            "EXTAvatar/UpgradeGuide/Index",
+            "EXTAvatar/HelpfulLinks/Index",
+            "EXTAvatar/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Ayu",
+      "icon": "sparkles",
+      "groups": [
+        {
+          "group": "T3 Ayu",
+          "pages": [
+            "EXTAyu/Index",
+            "EXTAyu/Introduction/Index",
+            "EXTAyu/InstallationT3AyuTheme/Index",
+            "EXTAyu/InstallationT3AyuReactjs/Index",
+            "EXTAyu/UpdateVersion/Index",
+            "EXTAyu/GlobalSettingsConfiguration/Index",
+            "EXTAyu/CustomElements/Index",
+            "EXTAyu/Localization/Index",
+            "EXTAyu/Customization/Index",
+            "EXTAyu/PreviewFeature/Index",
+            "EXTAyu/DemoSite/Index",
+            "EXTAyu/FAQ/Index",
+            "EXTAyu/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Bootstrap",
+      "icon": "layout-grid",
+      "groups": [
+        {
+          "group": "T3 Bootstrap",
+          "pages": [
+            "EXTBootstrap/Index",
+            "EXTBootstrap/Introduction/Index",
+            "EXTBootstrap/Installation/Index",
+            "EXTBootstrap/UpdateVersion/Index",
+            "EXTBootstrap/GlobalSettingsConfiguration/Index",
+            "EXTBootstrap/TemplatesLayouts/Index",
+            "EXTBootstrap/CustomElements/Index",
+            "EXTBootstrap/Localization/Index",
+            "EXTBootstrap/SpeedPerformance/Index",
+            "EXTBootstrap/SEO/Index",
+            "EXTBootstrap/Customization/Index",
+            "EXTBootstrap/UpgradeGuide/Index",
+            "EXTBootstrap/FlexFormtoContentBlockMigration/Index",
+            "EXTBootstrap/HelpfulLinks/Index",
+            "EXTBootstrap/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 ReactBootstrap",
+      "icon": "code",
+      "groups": [
+        {
+          "group": "T3 ReactBootstrap",
+          "pages": [
+            "EXTReactBootstrap/Index",
+            "EXTReactBootstrap/Introduction/Index",
+            "EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index",
+            "EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index",
+            "EXTReactBootstrap/UpdateVersion/Index",
+            "EXTReactBootstrap/GlobalSettingsConfiguration/Index",
+            "EXTReactBootstrap/CustomElements/Index",
+            "EXTReactBootstrap/Localization/Index",
+            "EXTReactBootstrap/Customization/Index",
+            "EXTReactBootstrap/PreviewFeature/Index",
+            "EXTReactBootstrap/FAQ/Index",
+            "EXTReactBootstrap/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Reva",
+      "icon": "brush",
+      "groups": [
+        {
+          "group": "T3 Reva",
+          "pages": [
+            "EXTReva/Index",
+            "EXTReva/Introduction/Index",
+            "EXTReva/InstallationT3RevaTheme/Index",
+            "EXTReva/InstallationT3RevaReactjs/Index",
+            "EXTReva/UpdateVersion/Index",
+            "EXTReva/GlobalSettingsConfiguration/Index",
+            "EXTReva/CustomElements/Index",
+            "EXTReva/Localization/Index",
+            "EXTReva/Customization/Index",
+            "EXTReva/PreviewFeature/Index",
+            "EXTReva/DemoSite/Index",
+            "EXTReva/FAQ/Index",
+            "EXTReva/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Shiva",
+      "icon": "flame",
+      "groups": [
+        {
+          "group": "T3 Shiva",
+          "pages": [
+            "EXTShiva/Index",
+            "EXTShiva/Introduction/Index",
+            "EXTShiva/InstallationT3ShivaTheme/Index",
+            "EXTShiva/InstallationT3ShivaReactjs/Index",
+            "EXTShiva/UpdateVersion/Index",
+            "EXTShiva/GlobalSettingsConfiguration/Index",
+            "EXTShiva/CustomElements/Index",
+            "EXTShiva/Localization/Index",
+            "EXTShiva/Customization/Index",
+            "EXTShiva/PreviewFeature/Index",
+            "EXTShiva/DemoSite/Index",
+            "EXTShiva/FAQ/Index",
+            "EXTShiva/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Shop",
+      "icon": "shopping-cart",
+      "groups": [
+        {
+          "group": "T3 Shop",
+          "pages": [
+            "EXTShop/Index",
+            "EXTShop/Introduction/Index",
+            "EXTShop/Installation/Index",
+            "EXTShop/UpdateVersion/Index",
+            "EXTShop/ThemeConfiguration/Index",
+            "EXTShop/ShopConfiguration/Index",
+            "EXTShop/DemoSite/Index",
+            "EXTShop/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS All Chat",
+      "icon": "messages-square",
+      "groups": [
+        {
+          "group": "NS All Chat",
+          "pages": [
+            "ExtNsAllChat/Index",
+            "ExtNsAllChat/Introduction/Index",
+            "ExtNsAllChat/Installation/Index",
+            "ExtNsAllChat/UpdateVersion/Index",
+            "ExtNsAllChat/Configuration/Index",
+            "ExtNsAllChat/Support",
+            "ExtNsAllChat/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS All Lightbox",
+      "icon": "image",
+      "groups": [
+        {
+          "group": "NS All Lightbox",
+          "pages": [
+            "ExtNsAllLightbox/Index",
+            "ExtNsAllLightbox/Introduction/Index",
+            "ExtNsAllLightbox/Installation/Index",
+            "ExtNsAllLightbox/UpdateVersion/Index",
+            "ExtNsAllLightbox/Configuration/Index",
+            "ExtNsAllLightbox/Support",
+            "ExtNsAllLightbox/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS All Sliders",
+      "icon": "gallery-horizontal-end",
+      "groups": [
+        {
+          "group": "NS All Sliders",
+          "pages": [
+            "ExtNsAllSliders/Index",
+            "ExtNsAllSliders/Introduction/Index",
+            "ExtNsAllSliders/Installation/Index",
+            "ExtNsAllSliders/UpdateVersion/Index",
+            "ExtNsAllSliders/Configuration/Index",
+            "ExtNsAllSliders/Support",
+            "ExtNsAllSliders/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Backup",
+      "icon": "hard-drive",
+      "groups": [
+        {
+          "group": "NS Backup",
+          "pages": [
+            "ExtNsBackup/Index",
+            "ExtNsBackup/Introduction/Index",
+            "ExtNsBackup/SystemRequirement/Index",
+            "ExtNsBackup/Installation/Index",
+            "ExtNsBackup/UpdateVersion/Index",
+            "ExtNsBackup/GlobalSettings/Index",
+            "ExtNsBackup/ConnectClouds/Index",
+            "ExtNsBackup/StartOneClickBackup/Index",
+            "ExtNsBackup/ScheduleBackup/Index",
+            "ExtNsBackup/DownloadsLogsHistory/Index",
+            "ExtNsBackup/Support",
+            "ExtNsBackup/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cloudflare",
+      "icon": "cloud",
+      "groups": [
+        {
+          "group": "NS Cloudflare",
+          "pages": [
+            "ExtNsCloudflare/Index",
+            "ExtNsCloudflare/Introduction/Index",
+            "ExtNsCloudflare/Installation/Index",
+            "ExtNsCloudflare/UpdateVersion/Index",
+            "ExtNsCloudflare/Configuration/Index",
+            "ExtNsCloudflare/Support",
+            "ExtNsCloudflare/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Comments",
+      "icon": "message-circle",
+      "groups": [
+        {
+          "group": "NS Comments",
+          "pages": [
+            "ExtNsComments/Index",
+            "ExtNsComments/Introduction/Index",
+            "ExtNsComments/Installation/Index",
+            "ExtNsComments/UpdateVersion/Index",
+            "ExtNsComments/GlobalConfiguration/Index",
+            "ExtNsComments/CommentPluginSettings/Index",
+            "ExtNsComments/CommentModeration/Index",
+            "ExtNsComments/CommentOnAllPages",
+            "ExtNsComments/Support",
+            "ExtNsComments/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cookieyes",
+      "icon": "cookie",
+      "groups": [
+        {
+          "group": "NS Cookieyes",
+          "pages": [
+            "ExtNsCookieYes/Index",
+            "ExtNsCookieYes/Introduction/Index",
+            "ExtNsCookieYes/Installation/Index",
+            "ExtNsCookieYes/UpdateVersion/Index",
+            "ExtNsCookieYes/Configuration/Index",
+            "ExtNsCookieYes/Support",
+            "ExtNsCookieYes/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cookiebot",
+      "icon": "shield-check",
+      "groups": [
+        {
+          "group": "NS Cookiebot",
+          "pages": [
+            "ExtNsCookiebot/Index",
+            "ExtNsCookiebot/Introduction/Index",
+            "ExtNsCookiebot/Installation/Index",
+            "ExtNsCookiebot/UpdateVersion/Index",
+            "ExtNsCookiebot/Configuration/Index",
+            "ExtNsCookiebot/Support",
+            "ExtNsCookiebot/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cookies",
+      "icon": "cookie",
+      "groups": [
+        {
+          "group": "NS Cookies",
+          "pages": [
+            "ExtNsCookiesHint/Index",
+            "ExtNsCookiesHint/Introduction/Index",
+            "ExtNsCookiesHint/Installation/Index",
+            "ExtNsCookiesHint/UpdateVersion/Index",
+            "ExtNsCookiesHint/Configuration/Index",
+            "ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index",
+            "ExtNsCookiesHint/Support",
+            "ExtNsCookiesHint/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Disqus Comments",
+      "icon": "message-square-text",
+      "groups": [
+        {
+          "group": "NS Disqus Comments",
+          "pages": [
+            "ExtNsDisqusComment/Index",
+            "ExtNsDisqusComment/Introduction/Index",
+            "ExtNsDisqusComment/Installation/Index",
+            "ExtNsDisqusComment/UpdateVersion/Index",
+            "ExtNsDisqusComment/Configuration/Index",
+            "ExtNsDisqusComment/Support",
+            "ExtNsDisqusComment/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Ext Compatibility",
+      "icon": "plug",
+      "groups": [
+        {
+          "group": "NS Ext Compatibility",
+          "pages": [
+            "ExtNsExtCompatibility/Index",
+            "ExtNsExtCompatibility/Introduction/Index",
+            "ExtNsExtCompatibility/Installation/Index",
+            "ExtNsExtCompatibility/UpdateVersion/Index",
+            "ExtNsExtCompatibility/Configuration/Index",
+            "ExtNsExtCompatibility/ActionResults/Index",
+            "ExtNsExtCompatibility/Support",
+            "ExtNsExtCompatibility/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Event",
+      "icon": "calendar",
+      "groups": [
+        {
+          "group": "NS Event",
+          "pages": [
+            "ExtNsEvent/Index",
+            "ExtNsEvent/Introduction/Index",
+            "ExtNsEvent/Installation/Index",
+            "ExtNsEvent/UpdateVersion/Index",
+            "ExtNsEvent/GlobalConfiguration/Index",
+            "ExtNsEvent/Configuration/Index",
+            "ExtNsEvent/Configuration/AddEvents/Index",
+            "ExtNsEvent/Configuration/AddEventPlugin/Index",
+            "ExtNsEvent/Support",
+            "ExtNsEvent/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Facebook Comment",
+      "icon": "thumbs-up",
+      "groups": [
+        {
+          "group": "NS Facebook Comment",
+          "pages": [
+            "ExtNsFacebookComment/Index",
+            "ExtNsFacebookComment/Introduction/Index",
+            "ExtNsFacebookComment/Installation/Index",
+            "ExtNsFacebookComment/UpdateVersion/Index",
+            "ExtNsFacebookComment/Configuration/Index",
+            "ExtNsFacebookComment/Support",
+            "ExtNsFacebookComment/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS FAQ",
+      "icon": "help-circle",
+      "groups": [
+        {
+          "group": "NS FAQ",
+          "pages": [
+            "ExtNsFAQ/Index",
+            "ExtNsFAQ/Introduction/Index",
+            "ExtNsFAQ/Installation/Index",
+            "ExtNsFAQ/UpdateVersion/Index",
+            "ExtNsFAQ/NSFaqBackendModule/Index",
+            "ExtNsFAQ/FAQPlugin/Index",
+            "ExtNsFAQ/SubmitFAQForm/Index",
+            "ExtNsFAQ/FAQModeration/Index",
+            "ExtNsFAQ/Support",
+            "ExtNsFAQ/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Feedback",
+      "icon": "star",
+      "groups": [
+        {
+          "group": "NS Feedback",
+          "pages": [
+            "ExtNsFeedback/Index",
+            "ExtNsFeedback/Introduction/Index",
+            "ExtNsFeedback/Installation/Index",
+            "ExtNsFeedback/UpdateVersion/Index",
+            "ExtNsFeedback/NSFeedbackModules/Index",
+            "ExtNsFeedback/SetFeedbackFormForEntireSite/Index",
+            "ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index",
+            "ExtNsFeedback/Support",
+            "ExtNsFeedback/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Friendlycaptcha",
+      "icon": "shield",
+      "groups": [
+        {
+          "group": "NS Friendlycaptcha",
+          "pages": [
+            "ExtNsFriendlyCaptcha/Index",
+            "ExtNsFriendlyCaptcha/Introduction/Index",
+            "ExtNsFriendlyCaptcha/Installation/Index",
+            "ExtNsFriendlyCaptcha/UpdateVersion/Index",
+            "ExtNsFriendlyCaptcha/Configuration/Index",
+            "ExtNsFriendlyCaptcha/CustomIntegration/Index",
+            "ExtNsFriendlyCaptcha/Support",
+            "ExtNsFriendlyCaptcha/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Gallery",
+      "icon": "images",
+      "groups": [
+        {
+          "group": "NS Gallery",
+          "pages": [
+            "ExtNsGallery/Index",
+            "ExtNsGallery/Introduction/Index",
+            "ExtNsGallery/Installation/Index",
+            "ExtNsGallery/UpdateVersion/Index",
+            "ExtNsGallery/NSGalleryModule/Index",
+            "ExtNsGallery/HowToSetupAndDisplayGallery/Index",
+            "ExtNsGallery/AlbumView/Index",
+            "ExtNsGallery/MasonryView/Index",
+            "ExtNsGallery/MosaicView/Index",
+            "ExtNsGallery/IsotopeView/Index",
+            "ExtNsGallery/SliderView/Index",
+            "ExtNsGallery/GoogleSearchView/Index",
+            "ExtNsGallery/ZoomView/Index",
+            "ExtNsGallery/Support",
+            "ExtNsGallery/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Googledocs",
+      "icon": "file-text",
+      "groups": [
+        {
+          "group": "NS Googledocs",
+          "pages": [
+            "ExtNsGoogleDocs/Index",
+            "ExtNsGoogleDocs/Introduction/Index",
+            "ExtNsGoogleDocs/Installation/Index",
+            "ExtNsGoogleDocs/UpdateVersion/Index",
+            "ExtNsGoogleDocs/GoogleDocsConfiguration/Index",
+            "ExtNsGoogleDocs/NSGoogleDocsModule/Index",
+            "ExtNsGoogleDocs/ImportGoogleDocToPage/Index",
+            "ExtNsGoogleDocs/PrepareGoogleDocWithMarkers/Index",
+            "ExtNsGoogleDocs/Support",
+            "ExtNsGoogleDocs/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Google Map",
+      "icon": "map-pin",
+      "groups": [
+        {
+          "group": "NS Google Map",
+          "pages": [
+            "ExtNsGoogleMap/Index",
+            "ExtNsGoogleMap/Introduction/Index",
+            "ExtNsGoogleMap/Installation/Index",
+            "ExtNsGoogleMap/UpdateVersion/Index",
+            "ExtNsGoogleMap/Configuration/Index",
+            "ExtNsGoogleMap/Configuration/AddMapAPI/Index",
+            "ExtNsGoogleMap/Configuration/AddMapLocations/Index",
+            "ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index",
+            "ExtNsGoogleMap/Support",
+            "ExtNsGoogleMap/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Google Site Kit",
+      "icon": "bar-chart-3",
+      "groups": [
+        {
+          "group": "NS Google Site Kit",
+          "pages": [
+            "ExtNsGoogleSiteKit/Index",
+            "ExtNsGoogleSiteKit/Introduction/Index",
+            "ExtNsGoogleSiteKit/Installation/Index",
+            "ExtNsGoogleSiteKit/GuidetoFreeVersion/Index",
+            "ExtNsGoogleSiteKit/UpdateVersion/Index",
+            "ExtNsGoogleSiteKit/HowToIntegrateGoogleSitekit/Index",
+            "ExtNsGoogleSiteKit/GettingStarted/Index",
+            "ExtNsGoogleSiteKit/UsingSiteKit/Index",
+            "ExtNsGoogleSiteKit/Troubleshooting/Index",
+            "ExtNsGoogleSiteKit/Support",
+            "ExtNsGoogleSiteKit/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Gridtocontainer",
+      "icon": "grid-3x3",
+      "groups": [
+        {
+          "group": "NS Gridtocontainer",
+          "pages": [
+            "ExtNsGridtoContainer/Index",
+            "ExtNsGridtoContainer/Introduction/Index",
+            "ExtNsGridtoContainer/Installation/Index",
+            "ExtNsGridtoContainer/UpdateVersion/Index",
+            "ExtNsGridtoContainer/Configuration/Index",
+            "ExtNsGridtoContainer/Support",
+            "ExtNsGridtoContainer/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Guestbook",
+      "icon": "book-open",
+      "groups": [
+        {
+          "group": "NS Guestbook",
+          "pages": [
+            "ExtNsGuestbook/Index",
+            "ExtNsGuestbook/Introduction/Index",
+            "ExtNsGuestbook/Installation/Index",
+            "ExtNsGuestbook/UpdateVersion/Index",
+            "ExtNsGuestbook/Configuration/Index",
+            "ExtNsGuestbook/Support",
+            "ExtNsGuestbook/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Hellobar",
+      "icon": "bell",
+      "groups": [
+        {
+          "group": "NS Hellobar",
+          "pages": [
+            "ExtNitsanHellobar/Index",
+            "ExtNitsanHellobar/Introduction/Index",
+            "ExtNitsanHellobar/Installation/Index",
+            "ExtNitsanHellobar/UpdateVersion/Index",
+            "ExtNitsanHellobar/Configuration/Index",
+            "ExtNitsanHellobar/Support",
+            "ExtNitsanHellobar/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Helpdesk",
+      "icon": "life-buoy",
+      "groups": [
+        {
+          "group": "NS Helpdesk",
+          "pages": [
+            "ExtNsHelpDesk/Index",
+            "ExtNsHelpDesk/Introduction/Index",
+            "ExtNsHelpDesk/Installation/Index",
+            "ExtNsHelpDesk/UpdateVersion/Index",
+            "ExtNsHelpDesk/GlobalSettings/Index",
+            "ExtNsHelpDesk/Tickets/Index",
+            "ExtNsHelpDesk/FormSettings/Index",
+            "ExtNsHelpDesk/CustomizeForm/Index",
+            "ExtNsHelpDesk/TicketStatus/Index",
+            "ExtNsHelpDesk/CategoryStatus/Index",
+            "ExtNsHelpDesk/PluginConfigurations/Index",
+            "ExtNsHelpDesk/Support",
+            "ExtNsHelpDesk/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Hubspot",
+      "icon": "building-2",
+      "groups": [
+        {
+          "group": "NS Hubspot",
+          "pages": [
+            "ExtNsHubspot/Index",
+            "ExtNsHubspot/Introduction/Index",
+            "ExtNsHubspot/Installation/Index",
+            "ExtNsHubspot/UpdateVersion/Index",
+            "ExtNsHubspot/FreeVersionConfiguration/Index",
+            "ExtNsHubspot/PremiumVersionConfiguration/Index",
+            "ExtNsHubspot/Support",
+            "ExtNsHubspot/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Instagram",
+      "icon": "instagram",
+      "groups": [
+        {
+          "group": "NS Instagram",
+          "pages": [
+            "ExtNsInstagram/Index",
+            "ExtNsInstagram/Introduction/Index",
+            "ExtNsInstagram/Installation/Index",
+            "ExtNsInstagram/InstagramApiToken/Index",
+            "ExtNsInstagram/UpdateVersion/Index",
+            "ExtNsInstagram/Configuration/Index",
+            "ExtNsInstagram/Support",
+            "ExtNsInstagram/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Lazy Load",
+      "icon": "eye",
+      "groups": [
+        {
+          "group": "NS Lazy Load",
+          "pages": [
+            "ExtNsLazyload/Index",
+            "ExtNsLazyload/Introduction/Index",
+            "ExtNsLazyload/Installation/Index",
+            "ExtNsLazyload/UpdateVersion/Index",
+            "ExtNsLazyload/Configuration/Index",
+            "ExtNsLazyload/Support",
+            "ExtNsLazyload/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Maintenance",
+      "icon": "wrench",
+      "groups": [
+        {
+          "group": "NS Maintenance",
+          "pages": [
+            "ExtNitsanMaintenance/Index",
+            "ExtNitsanMaintenance/Introduction/Index",
+            "ExtNitsanMaintenance/Installation/Index",
+            "ExtNitsanMaintenance/UpdateVersion/Index",
+            "ExtNitsanMaintenance/Configuration/Index",
+            "ExtNitsanMaintenance/Support",
+            "ExtNitsanMaintenance/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS News Advance Search",
+      "icon": "search",
+      "groups": [
+        {
+          "group": "NS News Advance Search",
+          "pages": [
+            "ExtNsNewsAdvancedSearch/Index",
+            "ExtNsNewsAdvancedSearch/Introduction/Index",
+            "ExtNsNewsAdvancedSearch/Installation/Index",
+            "ExtNsNewsAdvancedSearch/UpdateVersion/Index",
+            "ExtNsNewsAdvancedSearch/Configuration/Index",
+            "ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index",
+            "ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index",
+            "ExtNsNewsAdvancedSearch/Support",
+            "ExtNsNewsAdvancedSearch/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS News Slick",
+      "icon": "gallery-horizontal",
+      "groups": [
+        {
+          "group": "NS News Slick",
+          "pages": [
+            "ExtNsNewsSlickSlider/Index",
+            "ExtNsNewsSlickSlider/Introduction/Index",
+            "ExtNsNewsSlickSlider/Installation/Index",
+            "ExtNsNewsSlickSlider/UpdateVersion/Index",
+            "ExtNsNewsSlickSlider/Configuration/Index",
+            "ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index",
+            "ExtNsNewsSlickSlider/Support",
+            "ExtNsNewsSlickSlider/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS News Slider",
+      "icon": "images",
+      "groups": [
+        {
+          "group": "NS News Slider",
+          "pages": [
+            "ExtNsNewsSlider/Index",
+            "ExtNsNewsSlider/Introduction/Index",
+            "ExtNsNewsSlider/Installation/Index",
+            "ExtNsNewsSlider/UpdateVersion/Index",
+            "ExtNsNewsSlider/Configuration/Index",
+            "ExtNsNewsSlider/Configuration/AddNewsSliderPlugin/Index",
+            "ExtNsNewsSlider/Configuration/RoyalSlider/Index",
+            "ExtNsNewsSlider/Configuration/NivoSlider/Index",
+            "ExtNsNewsSlider/Configuration/OwlcarouselSlider/Index",
+            "ExtNsNewsSlider/Configuration/SlickSlider/Index",
+            "ExtNsNewsSlider/Support",
+            "ExtNsNewsSlider/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Open Streetmap",
+      "icon": "map",
+      "groups": [
+        {
+          "group": "NS Open Streetmap",
+          "pages": [
+            "ExtNsOpenStreetMap/Index",
+            "ExtNsOpenStreetMap/Introduction/Index",
+            "ExtNsOpenStreetMap/Installation/Index",
+            "ExtNsOpenStreetMap/UpdateVersion/Index",
+            "ExtNsOpenStreetMap/Configuration/Index",
+            "ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index",
+            "ExtNsOpenStreetMap/Configuration/AddMapLocations/Index",
+            "ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index",
+            "ExtNsOpenStreetMap/Support",
+            "ExtNsOpenStreetMap/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Personio",
+      "icon": "users",
+      "groups": [
+        {
+          "group": "NS Personio",
+          "pages": [
+            "ExtNsPersonio/Index",
+            "ExtNsPersonio/Introduction/Index",
+            "ExtNsPersonio/Installation/Index",
+            "ExtNsPersonio/UpdateVersion/Index",
+            "ExtNsPersonio/ConfigurePersonioAPIandScheduler/Index",
+            "ExtNsPersonio/ConfigurationOfPlugins/Index",
+            "ExtNsPersonio/Support",
+            "ExtNsPersonio/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Protect Site",
+      "icon": "lock",
+      "groups": [
+        {
+          "group": "NS Protect Site",
+          "pages": [
+            "ExtNsProtectSite/Index",
+            "ExtNsProtectSite/Introduction/Index",
+            "ExtNsProtectSite/Installation/Index",
+            "ExtNsProtectSite/UpdateVersion/Index",
+            "ExtNsProtectSite/Configuration/Index",
+            "ExtNsProtectSite/Support",
+            "ExtNsProtectSite/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Publication Comment",
+      "icon": "newspaper",
+      "groups": [
+        {
+          "group": "NS Publication Comment",
+          "pages": [
+            "ExtNsPublicationComment/Index",
+            "ExtNsPublicationComment/Introduction/Index",
+            "ExtNsPublicationComment/Installation/Index",
+            "ExtNsPublicationComment/UpdateVersion/Index",
+            "ExtNsPublicationComment/ExtensionConfigurations/Index",
+            "ExtNsPublicationComment/Support",
+            "ExtNsPublicationComment/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS PWA",
+      "icon": "smartphone",
+      "groups": [
+        {
+          "group": "NS PWA",
+          "pages": [
+            "ExtNsPWA/Index",
+            "ExtNsPWA/Introduction/Index",
+            "ExtNsPWA/Installation/Index",
+            "ExtNsPWA/UpdateVersion/Index",
+            "ExtNsPWA/Configuration/Index",
+            "ExtNsPWA/Support",
+            "ExtNsPWA/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Sharethis",
+      "icon": "share-2",
+      "groups": [
+        {
+          "group": "NS Sharethis",
+          "pages": [
+            "ExtNsSharethis/Index",
+            "ExtNsSharethis/Introduction/Index",
+            "ExtNsSharethis/Installation/Index",
+            "ExtNsSharethis/UpdateVersion/Index",
+            "ExtNsSharethis/Configuration/Index",
+            "ExtNsSharethis/Support",
+            "ExtNsSharethis/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Snow",
+      "icon": "snowflake",
+      "groups": [
+        {
+          "group": "NS Snow",
+          "pages": [
+            "ExtNsSnow/Index",
+            "ExtNsSnow/Introduction/Index",
+            "ExtNsSnow/Installation/Index",
+            "ExtNsSnow/UpdateVersion/Index",
+            "ExtNsSnow/Configuration/Index",
+            "ExtNsSnow/Support",
+            "ExtNsSnow/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Statcounter",
+      "icon": "chart-line",
+      "groups": [
+        {
+          "group": "NS Statcounter",
+          "pages": [
+            "ExtNsStatcounter/Index",
+            "ExtNsStatcounter/Introduction/Index",
+            "ExtNsStatcounter/Installation/Index",
+            "ExtNsStatcounter/Configuration/Index",
+            "ExtNsStatcounter/UpdateVersion/Index",
+            "ExtNsStatcounter/Support",
+            "ExtNsStatcounter/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Social Login",
+      "icon": "log-in",
+      "groups": [
+        {
+          "group": "NS Social Login",
+          "pages": [
+            "ExtNsSocialLogin/Index",
+            "ExtNsSocialLogin/Introduction/Index",
+            "ExtNsSocialLogin/Screenshots/Index",
+            "ExtNsSocialLogin/SystemRequirements/Index",
+            "ExtNsSocialLogin/Installation/Index",
+            "ExtNsSocialLogin/BeforeGettingStarted/Index",
+            "ExtNsSocialLogin/Configuration/Index",
+            "ExtNsSocialLogin/UpdateVersion/Index",
+            "ExtNsSocialLogin/FAQ/Index",
+            "ExtNsSocialLogin/Support",
+            "ExtNsSocialLogin/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Timeline",
+      "icon": "clock",
+      "groups": [
+        {
+          "group": "NS Timeline",
+          "pages": [
+            "ExtNsTimeLine/Index",
+            "ExtNsTimeLine/Introduction/Index",
+            "ExtNsTimeLine/Installation/Index",
+            "ExtNsTimeLine/UpdateVersion/Index",
+            "ExtNsTimeLine/ExtensionConfigurations/Index",
+            "ExtNsTimeLine/Support",
+            "ExtNsTimeLine/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Twitter",
+      "icon": "twitter",
+      "groups": [
+        {
+          "group": "NS Twitter",
+          "pages": [
+            "ExtNsTwitter/Index",
+            "ExtNsTwitter/Introduction/Index",
+            "ExtNsTwitter/Installation/Index",
+            "ExtNsTwitter/UpdateVersion/Index",
+            "ExtNsTwitter/Configuration/Index",
+            "ExtNsTwitter/Support",
+            "ExtNsTwitter/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Whatsapp",
+      "icon": "phone",
+      "groups": [
+        {
+          "group": "NS Whatsapp",
+          "pages": [
+            "ExtNsWhatsapp/Index",
+            "ExtNsWhatsapp/Introduction/Index",
+            "ExtNsWhatsapp/Installation/Index",
+            "ExtNsWhatsapp/UpdateVersion/Index",
+            "ExtNsWhatsapp/GlobalSettings/Index",
+            "ExtNsWhatsapp/Support",
+            "ExtNsWhatsapp/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Wp Migration",
+      "icon": "arrow-right-left",
+      "groups": [
+        {
+          "group": "NS Wp Migration",
+          "pages": [
+            "ExtNsWpMigration/Index",
+            "ExtNsWpMigration/Introduction/Index",
+            "ExtNsWpMigration/Installation/Index",
+            "ExtNsWpMigration/UpdateVersion/Index",
+            "ExtNsWpMigration/Configuration/Index",
+            "ExtNsWpMigration/Support",
+            "ExtNsWpMigration/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cache Webhook",
+      "icon": "zap",
+      "groups": [
+        {
+          "group": "NS Cache Webhook",
+          "pages": [
+            "ExtNsCacheWebhook/Index",
+            "ExtNsCacheWebhook/Introduction/Index",
+            "ExtNsCacheWebhook/Installation/Index",
+            "ExtNsCacheWebhook/Configuration/Index",
+            "ExtNsCacheWebhook/Usage/Index",
+            "ExtNsCacheWebhook/Support"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Youtube",
+      "icon": "youtube",
+      "groups": [
+        {
+          "group": "NS Youtube",
+          "pages": [
+            "ExtNsYoutube/Index",
+            "ExtNsYoutube/Introduction/Index",
+            "ExtNsYoutube/Installation/Index",
+            "ExtNsYoutube/UpdateVersion/Index",
+            "ExtNsYoutube/Configuration/Index",
+            "ExtNsYoutube/Support",
+            "ExtNsYoutube/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Zoho",
+      "icon": "building",
+      "groups": [
+        {
+          "group": "NS Zoho",
+          "pages": [
+            "ExtNsZoho/Index",
+            "ExtNsZoho/Introduction/Index",
+            "ExtNsZoho/Installation/Index",
+            "ExtNsZoho/UpdateVersion/Index",
+            "ExtNsZoho/Configuration/Index",
+            "ExtNsZoho/Support",
+            "ExtNsZoho/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Zoho CRM",
+      "icon": "contact",
+      "groups": [
+        {
+          "group": "NS Zoho CRM",
+          "pages": [
+            "EXTNsZohoCrm/Index",
+            "EXTNsZohoCrm/Introduction/Index",
+            "EXTNsZohoCrm/Installation/Index",
+            "EXTNsZohoCrm/UpdateVersion/Index",
+            "EXTNsZohoCrm/Configuration/Index",
+            "EXTNsZohoCrm/Support",
+            "EXTNsZohoCrm/BuyNow"
+          ]
+        }
+      ]
+    }
+  ],
+  "de": [
+    {
+      "dropdown": "Startseite",
+      "icon": "house",
+      "groups": [
+        {
+          "group": "\u00dcberblick",
+          "pages": [
+            "de/index",
+            "de/AIFoundation/Index",
+            "de/AllTemplates/Index",
+            "de/AllExtensions/Index"
+          ]
+        },
+        {
+          "group": "Erste Schritte",
+          "pages": [
+            "de/License/Index",
+            "de/License/Introduction/Index",
+            "de/License/UpdateVersion/Index",
+            "de/License/LicenseActivation/Index",
+            "de/License/HelpSupport/Index"
+          ]
+        },
+        {
+          "group": "Beliebte Docs",
+          "pages": [
+            "de/ExtNsT3AI/Index",
+            "de/ExtNsT3AC/Index",
+            "de/EXTKarma/Index",
+            "de/ExtNsRevolutionSlider/Index",
+            "de/ExtRTECKEditorPack/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "Lizenz, Installation und Updates",
+      "icon": "key",
+      "groups": [
+        {
+          "group": "Lizenz, Installation und Updates",
+          "pages": [
+            "de/License/Index",
+            "de/License/Introduction/Index",
+            "de/License/GenerateLicenseKey/Index",
+            "de/License/LicenseManager/Index",
+            "de/License/ExtendTrial/Index",
+            "de/License/RenewPurchase/Index",
+            "de/License/LicenseActivation/Index",
+            "de/License/RegisterAndManageDomains/Index",
+            "de/License/OtherProducts/Index",
+            "de/License/LicenseDeActivation/Index",
+            "de/License/UpdateVersion/Index",
+            "de/License/UpdateVersion/CheckNewVersion/Index",
+            "de/License/UpdateVersion/NonComposer/Index",
+            "de/License/UpdateVersion/Composer/Index",
+            "de/License/Migration/Index",
+            "de/License/Migration/License/Index",
+            "de/License/Migration/Composer/Index",
+            "de/License/SiteSets/Index",
+            "de/License/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Karma",
+      "icon": "palette",
+      "groups": [
+        {
+          "group": "T3 Karma",
+          "pages": [
+            "de/EXTKarma/Index",
+            "de/EXTKarma/Introduction/Index",
+            "de/EXTKarma/Installation/Index",
+            "de/EXTKarma/UpdateVersion/Index",
+            "de/EXTKarma/GlobalSettingsConfiguration/Index",
+            "de/EXTKarma/TemplatesLayouts/Index",
+            "de/EXTKarma/ContentBlockElements/Index",
+            "de/EXTKarma/EditorGuide/Index",
+            "de/EXTKarma/Localization/Index",
+            "de/EXTKarma/SpeedPerformance/Index",
+            "de/EXTKarma/SEO/Index",
+            "de/EXTKarma/Customization/Index",
+            "de/EXTKarma/CaptchaConfiguration/Index",
+            "de/EXTKarma/UpgradeGuideForContainer/Index",
+            "de/EXTKarma/UpgradeV13xToV14x/Index",
+            "de/EXTKarma/HelpfulLinks/Index",
+            "de/EXTKarma/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS CKEditor Pack",
+      "icon": "file-text",
+      "groups": [
+        {
+          "group": "NS CKEditor Pack",
+          "pages": [
+            "de/ExtRTECKEditorPack/Index",
+            "de/ExtRTECKEditorPack/Introduction/Index",
+            "de/ExtRTECKEditorPack/SystemRequirements/Index",
+            "de/ExtRTECKEditorPack/QuickInstallation/Index",
+            "de/ExtRTECKEditorPack/PremiumPack/Index",
+            "de/ExtRTECKEditorPack/ContentSecurityPolicy/Index",
+            "de/ExtRTECKEditorPack/HowPresetsWork/Index",
+            "de/ExtRTECKEditorPack/Configurationsave/Index",
+            "de/ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index",
+            "de/ExtRTECKEditorPack/CKEditorAI/Index",
+            "de/ExtRTECKEditorPack/AccessibilityFeatures/Index",
+            "de/ExtRTECKEditorPack/PremiumFeatures/Index",
+            "de/ExtRTECKEditorPack/Updating/Index",
+            "de/ExtRTECKEditorPack/Support",
+            "de/ExtRTECKEditorPack/GetThisExtension"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS News Comments",
+      "icon": "message-square",
+      "groups": [
+        {
+          "group": "NS News Comments",
+          "pages": [
+            "de/ExtNsNewsComments/Index",
+            "de/ExtNsNewsComments/Introduction/Index",
+            "de/ExtNsNewsComments/Installation/Index",
+            "de/ExtNsNewsComments/UpdateVersion/Index",
+            "de/ExtNsNewsComments/NewsCommentModule/Index",
+            "de/ExtNsNewsComments/GlobalConfiguration/Index",
+            "de/ExtNsNewsComments/CommentPluginSettings/Index",
+            "de/ExtNsNewsComments/CommentModeration/Index",
+            "de/ExtNsNewsComments/ForDevelopers/Index",
+            "de/ExtNsNewsComments/Support",
+            "de/ExtNsNewsComments/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Revolution Slider",
+      "icon": "gallery-horizontal",
+      "groups": [
+        {
+          "group": "NS Revolution Slider",
+          "pages": [
+            "de/ExtNsRevolutionSlider/Index",
+            "de/ExtNsRevolutionSlider/Introduction/Index",
+            "de/ExtNsRevolutionSlider/KnownIssues/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSliderLatest/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider3.0/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider3.0/SystemRequirements/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider3.0/MigrationFrom2to3/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider2.0/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider2.0/MigrationFrom1to2/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider1.0/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider1.0/Installation/Index",
+            "de/ExtNsRevolutionSlider/RevolutionSlider1.0/Configuration/Index",
+            "de/ExtNsRevolutionSlider/UpdateVersion/Index",
+            "de/ExtNsRevolutionSlider/Support",
+            "de/ExtNsRevolutionSlider/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AI",
+      "icon": "bot",
+      "groups": [
+        {
+          "group": "NS T3AI",
+          "pages": [
+            "de/ExtNsT3AI/Index",
+            "de/ExtNsT3AI/Introduction/Index",
+            "de/ExtNsT3AI/Screenshots/Index",
+            "de/ExtNsT3AI/VideoTutorials/Index",
+            "de/ExtNsT3AI/SystemRequirements/Index",
+            "de/ExtNsT3AI/Installation/Index",
+            "de/ExtNsT3AI/Configuration/Index",
+            "de/ExtNsT3AI/UpdateVersion/Index",
+            "de/ExtNsT3AI/Pages/Index",
+            "de/ExtNsT3AI/Translation/Index",
+            "de/ExtNsT3AI/SEO/Index",
+            "de/ExtNsT3AI/Content/Index",
+            "de/ExtNsT3AI/Media/Index",
+            "de/ExtNsT3AI/Prompts/Index",
+            "de/ExtNsT3AI/AISettings/Index",
+            "de/ExtNsT3AI/UpgradeGuide/Index",
+            "de/ExtNsT3AI/FAQ/Index",
+            "de/ExtNsT3AI/KnownProblems/Index",
+            "de/ExtNsT3AI/Appendix/Index",
+            "de/ExtNsT3AI/Support",
+            "de/ExtNsT3AI/BuyNow",
+            "de/ExtNsT3AI/Releases/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AS",
+      "icon": "search",
+      "groups": [
+        {
+          "group": "NS T3AS",
+          "pages": [
+            "de/ExtNsT3AS/Index",
+            "de/ExtNsT3AS/Introduction/Index",
+            "de/ExtNsT3AS/Screenshots/Index",
+            "de/ExtNsT3AS/Installation/Index",
+            "de/ExtNsT3AS/Configuration/Index",
+            "de/ExtNsT3AS/FrontendPlugin/Index",
+            "de/ExtNsT3AS/CustomLLMSupport/Index",
+            "de/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+            "de/ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index",
+            "de/ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index",
+            "de/ExtNsT3AS/DatabaseChunking/Index",
+            "de/ExtNsT3AS/PerformanceConfiguration/Index",
+            "de/ExtNsT3AS/UpdateVersion/Index",
+            "de/ExtNsT3AS/UpdateGuide/Index",
+            "de/ExtNsT3AS/KnownProblems/Index",
+            "de/ExtNsT3AS/Support",
+            "de/ExtNsT3AS/BuyNow",
+            "de/ExtNsT3AS/VerifyIndexedData/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AC",
+      "icon": "message-circle",
+      "groups": [
+        {
+          "group": "NS T3AC",
+          "pages": [
+            "de/ExtNsT3AC/Index",
+            "de/ExtNsT3AC/Introduction/Index",
+            "de/ExtNsT3AC/Screenshots/Index",
+            "de/ExtNsT3AC/Installation/Index",
+            "de/ExtNsT3AC/Configuration/Index",
+            "de/ExtNsT3AC/FeatureGuide/Index",
+            "de/ExtNsT3AC/FeatureGuide/Dashboard/Index",
+            "de/ExtNsT3AC/FeatureGuide/DataSource/Index",
+            "de/ExtNsT3AC/FeatureGuide/TrainingCenter/Index",
+            "de/ExtNsT3AC/FeatureGuide/Chatbot/Index",
+            "de/ExtNsT3AC/FeatureGuide/UsageAnalytics/Index",
+            "de/ExtNsT3AC/FeatureGuide/AILogs/Index",
+            "de/ExtNsT3AC/FeatureGuide/AIStatistics/Index",
+            "de/ExtNsT3AC/CustomLLMSupport/Index",
+            "de/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+            "de/ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index",
+            "de/ExtNsT3AC/UpdateVersion/Index",
+            "de/ExtNsT3AC/UpdateGuide/Index",
+            "de/ExtNsT3AC/KnownProblems/Index",
+            "de/ExtNsT3AC/Support",
+            "de/ExtNsT3AC/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AL",
+      "icon": "audio-lines",
+      "groups": [
+        {
+          "group": "NS T3AL",
+          "pages": [
+            "de/ExtNsT3AL/Index",
+            "de/ExtNsT3AL/Introduction/Index",
+            "de/ExtNsT3AL/Screenshots/Index",
+            "de/ExtNsT3AL/VideoTutorials/Index",
+            "de/ExtNsT3AL/SystemRequirements/Index",
+            "de/ExtNsT3AL/Installation/Index",
+            "de/ExtNsT3AL/Configuration/Index",
+            "de/ExtNsT3AL/UpdateVersion/Index",
+            "de/ExtNsT3AL/T3ALforEveryone/Index",
+            "de/ExtNsT3AL/AILocalization/Index",
+            "de/ExtNsT3AL/StartManualLocalization/Index",
+            "de/ExtNsT3AL/AILocalizationLogs/Index",
+            "de/ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+            "de/ExtNsT3AL/UpdateGuide/Index",
+            "de/ExtNsT3AL/KnownProblems/Index",
+            "de/ExtNsT3AL/T3ALTerms(Glossary)/Index",
+            "de/ExtNsT3AL/Support",
+            "de/ExtNsT3AL/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AA",
+      "icon": "accessibility",
+      "groups": [
+        {
+          "group": "NS T3AA",
+          "pages": [
+            "de/ExtNsT3AA/Index",
+            "de/ExtNsT3AA/Introduction/Index",
+            "de/ExtNsT3AA/Screenshots/Index",
+            "de/ExtNsT3AA/SystemRequirements/Index",
+            "de/ExtNsT3AA/Installation/Index",
+            "de/ExtNsT3AA/Configuration/Index",
+            "de/ExtNsT3AA/UpdateVersion/Index",
+            "de/ExtNsT3AA/SpeedCoreWebVitals/Index",
+            "de/ExtNsT3AA/AIFilemeta/Index",
+            "de/ExtNsT3AA/AIAudioGenerator/Index",
+            "de/ExtNsT3AA/T3AAVoiceover/Index",
+            "de/ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+            "de/ExtNsT3AA/SimplifiedText/Index",
+            "de/ExtNsT3AA/UpdateGuide/Index",
+            "de/ExtNsT3AA/KnownProblems/Index",
+            "de/ExtNsT3AA/Support",
+            "de/ExtNsT3AA/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS T3AB",
+      "icon": "blocks",
+      "groups": [
+        {
+          "group": "NS T3AB",
+          "pages": [
+            "de/ExtNsT3AB/Index",
+            "de/ExtNsT3AB/Introduction/Index",
+            "de/ExtNsT3AB/SystemRequirements/Index",
+            "de/ExtNsT3AB/Installation/Index",
+            "de/ExtNsT3AB/Configuration/Index",
+            "de/ExtNsT3AB/UpdateVersion/Index",
+            "de/ExtNsT3AB/HowT3ABWorks/Index",
+            "de/ExtNsT3AB/T3ABAIBuilder/Index",
+            "de/ExtNsT3AB/T3ABContentBlocks/Index",
+            "de/ExtNsT3AB/Forms/Index",
+            "de/ExtNsT3AB/UpdateGuide/Index",
+            "de/ExtNsT3AB/Support",
+            "de/ExtNsT3AB/BuyNow",
+            "de/ExtNsT3AB/AIBuilder/Index",
+            "de/ExtNsT3AB/AIContentBlock/Index",
+            "de/ExtNsT3AB/AIForm/Index",
+            "de/ExtNsT3AB/Screenshots/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "TYPO3-Vorlagen",
+      "icon": "layout-template",
+      "groups": [
+        {
+          "group": "TYPO3-Vorlagen",
+          "pages": [
+            "de/ExtThemes/Index",
+            "de/ExtThemes/Introduction/Index",
+            "de/ExtThemes/Installation/Index",
+            "de/ExtThemes/GlobalSettingsConfiguration/Index",
+            "de/ExtThemes/TemplatesLayouts/Index",
+            "de/ExtThemes/CustomElements/Index",
+            "de/ExtThemes/Localization/Index",
+            "de/ExtThemes/SpeedPerformance/Index",
+            "de/ExtThemes/SEO/Index",
+            "de/ExtThemes/Customization/Index",
+            "de/ExtThemes/FrontendBuild/Index",
+            "de/ExtThemes/UpgradeGuide/Index",
+            "de/ExtThemes/DemoSite/Index",
+            "de/ExtThemes/FAQ/Index",
+            "de/ExtThemes/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Avatar",
+      "icon": "user-circle",
+      "groups": [
+        {
+          "group": "T3 Avatar",
+          "pages": [
+            "de/EXTAvatar/Index",
+            "de/EXTAvatar/Introduction/Index",
+            "de/EXTAvatar/Installation/Index",
+            "de/EXTAvatar/UpdateVersion/Index",
+            "de/EXTAvatar/GlobalSettingsConfiguration/Index",
+            "de/EXTAvatar/TemplatesLayouts/Index",
+            "de/EXTAvatar/MaskElements/Index",
+            "de/EXTAvatar/EditorGuide/Index",
+            "de/EXTAvatar/Localization/Index",
+            "de/EXTAvatar/SpeedPerformance/Index",
+            "de/EXTAvatar/SEO/Index",
+            "de/EXTAvatar/Customization/Index",
+            "de/EXTAvatar/UpgradeGuide/Index",
+            "de/EXTAvatar/HelpfulLinks/Index",
+            "de/EXTAvatar/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Ayu",
+      "icon": "sparkles",
+      "groups": [
+        {
+          "group": "T3 Ayu",
+          "pages": [
+            "de/EXTAyu/Index",
+            "de/EXTAyu/Introduction/Index",
+            "de/EXTAyu/InstallationT3AyuTheme/Index",
+            "de/EXTAyu/InstallationT3AyuReactjs/Index",
+            "de/EXTAyu/UpdateVersion/Index",
+            "de/EXTAyu/GlobalSettingsConfiguration/Index",
+            "de/EXTAyu/CustomElements/Index",
+            "de/EXTAyu/Localization/Index",
+            "de/EXTAyu/Customization/Index",
+            "de/EXTAyu/PreviewFeature/Index",
+            "de/EXTAyu/DemoSite/Index",
+            "de/EXTAyu/FAQ/Index",
+            "de/EXTAyu/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Bootstrap",
+      "icon": "layout-grid",
+      "groups": [
+        {
+          "group": "T3 Bootstrap",
+          "pages": [
+            "de/EXTBootstrap/Index",
+            "de/EXTBootstrap/Introduction/Index",
+            "de/EXTBootstrap/Installation/Index",
+            "de/EXTBootstrap/UpdateVersion/Index",
+            "de/EXTBootstrap/GlobalSettingsConfiguration/Index",
+            "de/EXTBootstrap/TemplatesLayouts/Index",
+            "de/EXTBootstrap/CustomElements/Index",
+            "de/EXTBootstrap/Localization/Index",
+            "de/EXTBootstrap/SpeedPerformance/Index",
+            "de/EXTBootstrap/SEO/Index",
+            "de/EXTBootstrap/Customization/Index",
+            "de/EXTBootstrap/UpgradeGuide/Index",
+            "de/EXTBootstrap/FlexFormtoContentBlockMigration/Index",
+            "de/EXTBootstrap/HelpfulLinks/Index",
+            "de/EXTBootstrap/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 ReactBootstrap",
+      "icon": "code",
+      "groups": [
+        {
+          "group": "T3 ReactBootstrap",
+          "pages": [
+            "de/EXTReactBootstrap/Index",
+            "de/EXTReactBootstrap/Introduction/Index",
+            "de/EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index",
+            "de/EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index",
+            "de/EXTReactBootstrap/UpdateVersion/Index",
+            "de/EXTReactBootstrap/GlobalSettingsConfiguration/Index",
+            "de/EXTReactBootstrap/CustomElements/Index",
+            "de/EXTReactBootstrap/Localization/Index",
+            "de/EXTReactBootstrap/Customization/Index",
+            "de/EXTReactBootstrap/PreviewFeature/Index",
+            "de/EXTReactBootstrap/FAQ/Index",
+            "de/EXTReactBootstrap/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Reva",
+      "icon": "brush",
+      "groups": [
+        {
+          "group": "T3 Reva",
+          "pages": [
+            "de/EXTReva/Index",
+            "de/EXTReva/Introduction/Index",
+            "de/EXTReva/InstallationT3RevaTheme/Index",
+            "de/EXTReva/InstallationT3RevaReactjs/Index",
+            "de/EXTReva/UpdateVersion/Index",
+            "de/EXTReva/GlobalSettingsConfiguration/Index",
+            "de/EXTReva/CustomElements/Index",
+            "de/EXTReva/Localization/Index",
+            "de/EXTReva/Customization/Index",
+            "de/EXTReva/PreviewFeature/Index",
+            "de/EXTReva/DemoSite/Index",
+            "de/EXTReva/FAQ/Index",
+            "de/EXTReva/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Shiva",
+      "icon": "flame",
+      "groups": [
+        {
+          "group": "T3 Shiva",
+          "pages": [
+            "de/EXTShiva/Index",
+            "de/EXTShiva/Introduction/Index",
+            "de/EXTShiva/InstallationT3ShivaTheme/Index",
+            "de/EXTShiva/InstallationT3ShivaReactjs/Index",
+            "de/EXTShiva/UpdateVersion/Index",
+            "de/EXTShiva/GlobalSettingsConfiguration/Index",
+            "de/EXTShiva/CustomElements/Index",
+            "de/EXTShiva/Localization/Index",
+            "de/EXTShiva/Customization/Index",
+            "de/EXTShiva/PreviewFeature/Index",
+            "de/EXTShiva/DemoSite/Index",
+            "de/EXTShiva/FAQ/Index",
+            "de/EXTShiva/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "T3 Shop",
+      "icon": "shopping-cart",
+      "groups": [
+        {
+          "group": "T3 Shop",
+          "pages": [
+            "de/EXTShop/Index",
+            "de/EXTShop/Introduction/Index",
+            "de/EXTShop/Installation/Index",
+            "de/EXTShop/UpdateVersion/Index",
+            "de/EXTShop/ThemeConfiguration/Index",
+            "de/EXTShop/ShopConfiguration/Index",
+            "de/EXTShop/DemoSite/Index",
+            "de/EXTShop/HelpSupport/Index"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS All Chat",
+      "icon": "messages-square",
+      "groups": [
+        {
+          "group": "NS All Chat",
+          "pages": [
+            "de/ExtNsAllChat/Index",
+            "de/ExtNsAllChat/Introduction/Index",
+            "de/ExtNsAllChat/Installation/Index",
+            "de/ExtNsAllChat/UpdateVersion/Index",
+            "de/ExtNsAllChat/Configuration/Index",
+            "de/ExtNsAllChat/Support",
+            "de/ExtNsAllChat/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS All Lightbox",
+      "icon": "image",
+      "groups": [
+        {
+          "group": "NS All Lightbox",
+          "pages": [
+            "de/ExtNsAllLightbox/Index",
+            "de/ExtNsAllLightbox/Introduction/Index",
+            "de/ExtNsAllLightbox/Installation/Index",
+            "de/ExtNsAllLightbox/UpdateVersion/Index",
+            "de/ExtNsAllLightbox/Configuration/Index",
+            "de/ExtNsAllLightbox/Support",
+            "de/ExtNsAllLightbox/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS All Sliders",
+      "icon": "gallery-horizontal-end",
+      "groups": [
+        {
+          "group": "NS All Sliders",
+          "pages": [
+            "de/ExtNsAllSliders/Index",
+            "de/ExtNsAllSliders/Introduction/Index",
+            "de/ExtNsAllSliders/Installation/Index",
+            "de/ExtNsAllSliders/UpdateVersion/Index",
+            "de/ExtNsAllSliders/Configuration/Index",
+            "de/ExtNsAllSliders/Support",
+            "de/ExtNsAllSliders/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Backup",
+      "icon": "hard-drive",
+      "groups": [
+        {
+          "group": "NS Backup",
+          "pages": [
+            "de/ExtNsBackup/Index",
+            "de/ExtNsBackup/Introduction/Index",
+            "de/ExtNsBackup/SystemRequirement/Index",
+            "de/ExtNsBackup/Installation/Index",
+            "de/ExtNsBackup/UpdateVersion/Index",
+            "de/ExtNsBackup/GlobalSettings/Index",
+            "de/ExtNsBackup/ConnectClouds/Index",
+            "de/ExtNsBackup/StartOneClickBackup/Index",
+            "de/ExtNsBackup/ScheduleBackup/Index",
+            "de/ExtNsBackup/DownloadsLogsHistory/Index",
+            "de/ExtNsBackup/Support",
+            "de/ExtNsBackup/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cloudflare",
+      "icon": "cloud",
+      "groups": [
+        {
+          "group": "NS Cloudflare",
+          "pages": [
+            "de/ExtNsCloudflare/Index",
+            "de/ExtNsCloudflare/Introduction/Index",
+            "de/ExtNsCloudflare/Installation/Index",
+            "de/ExtNsCloudflare/UpdateVersion/Index",
+            "de/ExtNsCloudflare/Configuration/Index",
+            "de/ExtNsCloudflare/Support",
+            "de/ExtNsCloudflare/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Comments",
+      "icon": "message-circle",
+      "groups": [
+        {
+          "group": "NS Comments",
+          "pages": [
+            "de/ExtNsComments/Index",
+            "de/ExtNsComments/Introduction/Index",
+            "de/ExtNsComments/Installation/Index",
+            "de/ExtNsComments/UpdateVersion/Index",
+            "de/ExtNsComments/GlobalConfiguration/Index",
+            "de/ExtNsComments/CommentPluginSettings/Index",
+            "de/ExtNsComments/CommentModeration/Index",
+            "de/ExtNsComments/CommentOnAllPages",
+            "de/ExtNsComments/Support",
+            "de/ExtNsComments/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cookieyes",
+      "icon": "cookie",
+      "groups": [
+        {
+          "group": "NS Cookieyes",
+          "pages": [
+            "de/ExtNsCookieYes/Index",
+            "de/ExtNsCookieYes/Introduction/Index",
+            "de/ExtNsCookieYes/Installation/Index",
+            "de/ExtNsCookieYes/UpdateVersion/Index",
+            "de/ExtNsCookieYes/Configuration/Index",
+            "de/ExtNsCookieYes/Support",
+            "de/ExtNsCookieYes/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cookiebot",
+      "icon": "shield-check",
+      "groups": [
+        {
+          "group": "NS Cookiebot",
+          "pages": [
+            "de/ExtNsCookiebot/Index",
+            "de/ExtNsCookiebot/Introduction/Index",
+            "de/ExtNsCookiebot/Installation/Index",
+            "de/ExtNsCookiebot/UpdateVersion/Index",
+            "de/ExtNsCookiebot/Configuration/Index",
+            "de/ExtNsCookiebot/Support",
+            "de/ExtNsCookiebot/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cookies",
+      "icon": "cookie",
+      "groups": [
+        {
+          "group": "NS Cookies",
+          "pages": [
+            "de/ExtNsCookiesHint/Index",
+            "de/ExtNsCookiesHint/Introduction/Index",
+            "de/ExtNsCookiesHint/Installation/Index",
+            "de/ExtNsCookiesHint/UpdateVersion/Index",
+            "de/ExtNsCookiesHint/Configuration/Index",
+            "de/ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index",
+            "de/ExtNsCookiesHint/Support",
+            "de/ExtNsCookiesHint/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Disqus Comments",
+      "icon": "message-square-text",
+      "groups": [
+        {
+          "group": "NS Disqus Comments",
+          "pages": [
+            "de/ExtNsDisqusComment/Index",
+            "de/ExtNsDisqusComment/Introduction/Index",
+            "de/ExtNsDisqusComment/Installation/Index",
+            "de/ExtNsDisqusComment/UpdateVersion/Index",
+            "de/ExtNsDisqusComment/Configuration/Index",
+            "de/ExtNsDisqusComment/Support",
+            "de/ExtNsDisqusComment/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Ext Compatibility",
+      "icon": "plug",
+      "groups": [
+        {
+          "group": "NS Ext Compatibility",
+          "pages": [
+            "de/ExtNsExtCompatibility/Index",
+            "de/ExtNsExtCompatibility/Introduction/Index",
+            "de/ExtNsExtCompatibility/Installation/Index",
+            "de/ExtNsExtCompatibility/UpdateVersion/Index",
+            "de/ExtNsExtCompatibility/Configuration/Index",
+            "de/ExtNsExtCompatibility/ActionResults/Index",
+            "de/ExtNsExtCompatibility/Support",
+            "de/ExtNsExtCompatibility/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Event",
+      "icon": "calendar",
+      "groups": [
+        {
+          "group": "NS Event",
+          "pages": [
+            "de/ExtNsEvent/Index",
+            "de/ExtNsEvent/Introduction/Index",
+            "de/ExtNsEvent/Installation/Index",
+            "de/ExtNsEvent/UpdateVersion/Index",
+            "de/ExtNsEvent/GlobalConfiguration/Index",
+            "de/ExtNsEvent/Configuration/Index",
+            "de/ExtNsEvent/Configuration/AddEvents/Index",
+            "de/ExtNsEvent/Configuration/AddEventPlugin/Index",
+            "de/ExtNsEvent/Support",
+            "de/ExtNsEvent/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Facebook Comment",
+      "icon": "thumbs-up",
+      "groups": [
+        {
+          "group": "NS Facebook Comment",
+          "pages": [
+            "de/ExtNsFacebookComment/Index",
+            "de/ExtNsFacebookComment/Introduction/Index",
+            "de/ExtNsFacebookComment/Installation/Index",
+            "de/ExtNsFacebookComment/UpdateVersion/Index",
+            "de/ExtNsFacebookComment/Configuration/Index",
+            "de/ExtNsFacebookComment/Support",
+            "de/ExtNsFacebookComment/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS FAQ",
+      "icon": "help-circle",
+      "groups": [
+        {
+          "group": "NS FAQ",
+          "pages": [
+            "de/ExtNsFAQ/Index",
+            "de/ExtNsFAQ/Introduction/Index",
+            "de/ExtNsFAQ/Installation/Index",
+            "de/ExtNsFAQ/UpdateVersion/Index",
+            "de/ExtNsFAQ/NSFaqBackendModule/Index",
+            "de/ExtNsFAQ/FAQPlugin/Index",
+            "de/ExtNsFAQ/SubmitFAQForm/Index",
+            "de/ExtNsFAQ/FAQModeration/Index",
+            "de/ExtNsFAQ/Support",
+            "de/ExtNsFAQ/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Feedback",
+      "icon": "star",
+      "groups": [
+        {
+          "group": "NS Feedback",
+          "pages": [
+            "de/ExtNsFeedback/Index",
+            "de/ExtNsFeedback/Introduction/Index",
+            "de/ExtNsFeedback/Installation/Index",
+            "de/ExtNsFeedback/UpdateVersion/Index",
+            "de/ExtNsFeedback/NSFeedbackModules/Index",
+            "de/ExtNsFeedback/SetFeedbackFormForEntireSite/Index",
+            "de/ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index",
+            "de/ExtNsFeedback/Support",
+            "de/ExtNsFeedback/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Friendlycaptcha",
+      "icon": "shield",
+      "groups": [
+        {
+          "group": "NS Friendlycaptcha",
+          "pages": [
+            "de/ExtNsFriendlyCaptcha/Index",
+            "de/ExtNsFriendlyCaptcha/Introduction/Index",
+            "de/ExtNsFriendlyCaptcha/Installation/Index",
+            "de/ExtNsFriendlyCaptcha/UpdateVersion/Index",
+            "de/ExtNsFriendlyCaptcha/Configuration/Index",
+            "de/ExtNsFriendlyCaptcha/CustomIntegration/Index",
+            "de/ExtNsFriendlyCaptcha/Support",
+            "de/ExtNsFriendlyCaptcha/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Gallery",
+      "icon": "images",
+      "groups": [
+        {
+          "group": "NS Gallery",
+          "pages": [
+            "de/ExtNsGallery/Index",
+            "de/ExtNsGallery/Introduction/Index",
+            "de/ExtNsGallery/Installation/Index",
+            "de/ExtNsGallery/UpdateVersion/Index",
+            "de/ExtNsGallery/NSGalleryModule/Index",
+            "de/ExtNsGallery/HowToSetupAndDisplayGallery/Index",
+            "de/ExtNsGallery/AlbumView/Index",
+            "de/ExtNsGallery/MasonryView/Index",
+            "de/ExtNsGallery/MosaicView/Index",
+            "de/ExtNsGallery/IsotopeView/Index",
+            "de/ExtNsGallery/SliderView/Index",
+            "de/ExtNsGallery/GoogleSearchView/Index",
+            "de/ExtNsGallery/ZoomView/Index",
+            "de/ExtNsGallery/Support",
+            "de/ExtNsGallery/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Googledocs",
+      "icon": "file-text",
+      "groups": [
+        {
+          "group": "NS Googledocs",
+          "pages": [
+            "de/ExtNsGoogleDocs/Index",
+            "de/ExtNsGoogleDocs/Introduction/Index",
+            "de/ExtNsGoogleDocs/Installation/Index",
+            "de/ExtNsGoogleDocs/UpdateVersion/Index",
+            "de/ExtNsGoogleDocs/GoogleDocsConfiguration/Index",
+            "de/ExtNsGoogleDocs/NSGoogleDocsModule/Index",
+            "de/ExtNsGoogleDocs/ImportGoogleDocToPage/Index",
+            "de/ExtNsGoogleDocs/PrepareGoogleDocWithMarkers/Index",
+            "de/ExtNsGoogleDocs/Support",
+            "de/ExtNsGoogleDocs/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Google Map",
+      "icon": "map-pin",
+      "groups": [
+        {
+          "group": "NS Google Map",
+          "pages": [
+            "de/ExtNsGoogleMap/Index",
+            "de/ExtNsGoogleMap/Introduction/Index",
+            "de/ExtNsGoogleMap/Installation/Index",
+            "de/ExtNsGoogleMap/UpdateVersion/Index",
+            "de/ExtNsGoogleMap/Configuration/Index",
+            "de/ExtNsGoogleMap/Configuration/AddMapAPI/Index",
+            "de/ExtNsGoogleMap/Configuration/AddMapLocations/Index",
+            "de/ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index",
+            "de/ExtNsGoogleMap/Support",
+            "de/ExtNsGoogleMap/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Google Site Kit",
+      "icon": "bar-chart-3",
+      "groups": [
+        {
+          "group": "NS Google Site Kit",
+          "pages": [
+            "de/ExtNsGoogleSiteKit/Index",
+            "de/ExtNsGoogleSiteKit/Introduction/Index",
+            "de/ExtNsGoogleSiteKit/Installation/Index",
+            "de/ExtNsGoogleSiteKit/GuidetoFreeVersion/Index",
+            "de/ExtNsGoogleSiteKit/UpdateVersion/Index",
+            "de/ExtNsGoogleSiteKit/HowToIntegrateGoogleSitekit/Index",
+            "de/ExtNsGoogleSiteKit/GettingStarted/Index",
+            "de/ExtNsGoogleSiteKit/UsingSiteKit/Index",
+            "de/ExtNsGoogleSiteKit/Troubleshooting/Index",
+            "de/ExtNsGoogleSiteKit/Support",
+            "de/ExtNsGoogleSiteKit/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Gridtocontainer",
+      "icon": "grid-3x3",
+      "groups": [
+        {
+          "group": "NS Gridtocontainer",
+          "pages": [
+            "de/ExtNsGridtoContainer/Index",
+            "de/ExtNsGridtoContainer/Introduction/Index",
+            "de/ExtNsGridtoContainer/Installation/Index",
+            "de/ExtNsGridtoContainer/UpdateVersion/Index",
+            "de/ExtNsGridtoContainer/Configuration/Index",
+            "de/ExtNsGridtoContainer/Support",
+            "de/ExtNsGridtoContainer/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Guestbook",
+      "icon": "book-open",
+      "groups": [
+        {
+          "group": "NS Guestbook",
+          "pages": [
+            "de/ExtNsGuestbook/Index",
+            "de/ExtNsGuestbook/Introduction/Index",
+            "de/ExtNsGuestbook/Installation/Index",
+            "de/ExtNsGuestbook/UpdateVersion/Index",
+            "de/ExtNsGuestbook/Configuration/Index",
+            "de/ExtNsGuestbook/Support",
+            "de/ExtNsGuestbook/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Hellobar",
+      "icon": "bell",
+      "groups": [
+        {
+          "group": "NS Hellobar",
+          "pages": [
+            "de/ExtNitsanHellobar/Index",
+            "de/ExtNitsanHellobar/Introduction/Index",
+            "de/ExtNitsanHellobar/Installation/Index",
+            "de/ExtNitsanHellobar/UpdateVersion/Index",
+            "de/ExtNitsanHellobar/Configuration/Index",
+            "de/ExtNitsanHellobar/Support",
+            "de/ExtNitsanHellobar/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Helpdesk",
+      "icon": "life-buoy",
+      "groups": [
+        {
+          "group": "NS Helpdesk",
+          "pages": [
+            "de/ExtNsHelpDesk/Index",
+            "de/ExtNsHelpDesk/Introduction/Index",
+            "de/ExtNsHelpDesk/Installation/Index",
+            "de/ExtNsHelpDesk/UpdateVersion/Index",
+            "de/ExtNsHelpDesk/GlobalSettings/Index",
+            "de/ExtNsHelpDesk/Tickets/Index",
+            "de/ExtNsHelpDesk/FormSettings/Index",
+            "de/ExtNsHelpDesk/CustomizeForm/Index",
+            "de/ExtNsHelpDesk/TicketStatus/Index",
+            "de/ExtNsHelpDesk/CategoryStatus/Index",
+            "de/ExtNsHelpDesk/PluginConfigurations/Index",
+            "de/ExtNsHelpDesk/Support",
+            "de/ExtNsHelpDesk/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Hubspot",
+      "icon": "building-2",
+      "groups": [
+        {
+          "group": "NS Hubspot",
+          "pages": [
+            "de/ExtNsHubspot/Index",
+            "de/ExtNsHubspot/Introduction/Index",
+            "de/ExtNsHubspot/Installation/Index",
+            "de/ExtNsHubspot/UpdateVersion/Index",
+            "de/ExtNsHubspot/FreeVersionConfiguration/Index",
+            "de/ExtNsHubspot/PremiumVersionConfiguration/Index",
+            "de/ExtNsHubspot/Support",
+            "de/ExtNsHubspot/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Instagram",
+      "icon": "instagram",
+      "groups": [
+        {
+          "group": "NS Instagram",
+          "pages": [
+            "de/ExtNsInstagram/Index",
+            "de/ExtNsInstagram/Introduction/Index",
+            "de/ExtNsInstagram/Installation/Index",
+            "de/ExtNsInstagram/InstagramApiToken/Index",
+            "de/ExtNsInstagram/UpdateVersion/Index",
+            "de/ExtNsInstagram/Configuration/Index",
+            "de/ExtNsInstagram/Support",
+            "de/ExtNsInstagram/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Lazy Load",
+      "icon": "eye",
+      "groups": [
+        {
+          "group": "NS Lazy Load",
+          "pages": [
+            "de/ExtNsLazyload/Index",
+            "de/ExtNsLazyload/Introduction/Index",
+            "de/ExtNsLazyload/Installation/Index",
+            "de/ExtNsLazyload/UpdateVersion/Index",
+            "de/ExtNsLazyload/Configuration/Index",
+            "de/ExtNsLazyload/Support",
+            "de/ExtNsLazyload/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Maintenance",
+      "icon": "wrench",
+      "groups": [
+        {
+          "group": "NS Maintenance",
+          "pages": [
+            "de/ExtNitsanMaintenance/Index",
+            "de/ExtNitsanMaintenance/Introduction/Index",
+            "de/ExtNitsanMaintenance/Installation/Index",
+            "de/ExtNitsanMaintenance/UpdateVersion/Index",
+            "de/ExtNitsanMaintenance/Configuration/Index",
+            "de/ExtNitsanMaintenance/Support",
+            "de/ExtNitsanMaintenance/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS News Advance Search",
+      "icon": "search",
+      "groups": [
+        {
+          "group": "NS News Advance Search",
+          "pages": [
+            "de/ExtNsNewsAdvancedSearch/Index",
+            "de/ExtNsNewsAdvancedSearch/Introduction/Index",
+            "de/ExtNsNewsAdvancedSearch/Installation/Index",
+            "de/ExtNsNewsAdvancedSearch/UpdateVersion/Index",
+            "de/ExtNsNewsAdvancedSearch/Configuration/Index",
+            "de/ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index",
+            "de/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index",
+            "de/ExtNsNewsAdvancedSearch/Support",
+            "de/ExtNsNewsAdvancedSearch/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS News Slick",
+      "icon": "gallery-horizontal",
+      "groups": [
+        {
+          "group": "NS News Slick",
+          "pages": [
+            "de/ExtNsNewsSlickSlider/Index",
+            "de/ExtNsNewsSlickSlider/Introduction/Index",
+            "de/ExtNsNewsSlickSlider/Installation/Index",
+            "de/ExtNsNewsSlickSlider/UpdateVersion/Index",
+            "de/ExtNsNewsSlickSlider/Configuration/Index",
+            "de/ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index",
+            "de/ExtNsNewsSlickSlider/Support",
+            "de/ExtNsNewsSlickSlider/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS News Slider",
+      "icon": "images",
+      "groups": [
+        {
+          "group": "NS News Slider",
+          "pages": [
+            "de/ExtNsNewsSlider/Index",
+            "de/ExtNsNewsSlider/Introduction/Index",
+            "de/ExtNsNewsSlider/Installation/Index",
+            "de/ExtNsNewsSlider/UpdateVersion/Index",
+            "de/ExtNsNewsSlider/Configuration/Index",
+            "de/ExtNsNewsSlider/Configuration/AddNewsSliderPlugin/Index",
+            "de/ExtNsNewsSlider/Configuration/RoyalSlider/Index",
+            "de/ExtNsNewsSlider/Configuration/NivoSlider/Index",
+            "de/ExtNsNewsSlider/Configuration/OwlcarouselSlider/Index",
+            "de/ExtNsNewsSlider/Configuration/SlickSlider/Index",
+            "de/ExtNsNewsSlider/Support",
+            "de/ExtNsNewsSlider/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Open Streetmap",
+      "icon": "map",
+      "groups": [
+        {
+          "group": "NS Open Streetmap",
+          "pages": [
+            "de/ExtNsOpenStreetMap/Index",
+            "de/ExtNsOpenStreetMap/Introduction/Index",
+            "de/ExtNsOpenStreetMap/Installation/Index",
+            "de/ExtNsOpenStreetMap/UpdateVersion/Index",
+            "de/ExtNsOpenStreetMap/Configuration/Index",
+            "de/ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index",
+            "de/ExtNsOpenStreetMap/Configuration/AddMapLocations/Index",
+            "de/ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index",
+            "de/ExtNsOpenStreetMap/Support",
+            "de/ExtNsOpenStreetMap/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Personio",
+      "icon": "users",
+      "groups": [
+        {
+          "group": "NS Personio",
+          "pages": [
+            "de/ExtNsPersonio/Index",
+            "de/ExtNsPersonio/Introduction/Index",
+            "de/ExtNsPersonio/Installation/Index",
+            "de/ExtNsPersonio/UpdateVersion/Index",
+            "de/ExtNsPersonio/ConfigurePersonioAPIandScheduler/Index",
+            "de/ExtNsPersonio/ConfigurationOfPlugins/Index",
+            "de/ExtNsPersonio/Support",
+            "de/ExtNsPersonio/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Protect Site",
+      "icon": "lock",
+      "groups": [
+        {
+          "group": "NS Protect Site",
+          "pages": [
+            "de/ExtNsProtectSite/Index",
+            "de/ExtNsProtectSite/Introduction/Index",
+            "de/ExtNsProtectSite/Installation/Index",
+            "de/ExtNsProtectSite/UpdateVersion/Index",
+            "de/ExtNsProtectSite/Configuration/Index",
+            "de/ExtNsProtectSite/Support",
+            "de/ExtNsProtectSite/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Publication Comment",
+      "icon": "newspaper",
+      "groups": [
+        {
+          "group": "NS Publication Comment",
+          "pages": [
+            "de/ExtNsPublicationComment/Index",
+            "de/ExtNsPublicationComment/Introduction/Index",
+            "de/ExtNsPublicationComment/Installation/Index",
+            "de/ExtNsPublicationComment/UpdateVersion/Index",
+            "de/ExtNsPublicationComment/ExtensionConfigurations/Index",
+            "de/ExtNsPublicationComment/Support",
+            "de/ExtNsPublicationComment/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS PWA",
+      "icon": "smartphone",
+      "groups": [
+        {
+          "group": "NS PWA",
+          "pages": [
+            "de/ExtNsPWA/Index",
+            "de/ExtNsPWA/Introduction/Index",
+            "de/ExtNsPWA/Installation/Index",
+            "de/ExtNsPWA/UpdateVersion/Index",
+            "de/ExtNsPWA/Configuration/Index",
+            "de/ExtNsPWA/Support",
+            "de/ExtNsPWA/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Sharethis",
+      "icon": "share-2",
+      "groups": [
+        {
+          "group": "NS Sharethis",
+          "pages": [
+            "de/ExtNsSharethis/Index",
+            "de/ExtNsSharethis/Introduction/Index",
+            "de/ExtNsSharethis/Installation/Index",
+            "de/ExtNsSharethis/UpdateVersion/Index",
+            "de/ExtNsSharethis/Configuration/Index",
+            "de/ExtNsSharethis/Support",
+            "de/ExtNsSharethis/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Snow",
+      "icon": "snowflake",
+      "groups": [
+        {
+          "group": "NS Snow",
+          "pages": [
+            "de/ExtNsSnow/Index",
+            "de/ExtNsSnow/Introduction/Index",
+            "de/ExtNsSnow/Installation/Index",
+            "de/ExtNsSnow/UpdateVersion/Index",
+            "de/ExtNsSnow/Configuration/Index",
+            "de/ExtNsSnow/Support",
+            "de/ExtNsSnow/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Statcounter",
+      "icon": "chart-line",
+      "groups": [
+        {
+          "group": "NS Statcounter",
+          "pages": [
+            "de/ExtNsStatcounter/Index",
+            "de/ExtNsStatcounter/Introduction/Index",
+            "de/ExtNsStatcounter/Installation/Index",
+            "de/ExtNsStatcounter/Configuration/Index",
+            "de/ExtNsStatcounter/UpdateVersion/Index",
+            "de/ExtNsStatcounter/Support",
+            "de/ExtNsStatcounter/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Social Login",
+      "icon": "log-in",
+      "groups": [
+        {
+          "group": "NS Social Login",
+          "pages": [
+            "de/ExtNsSocialLogin/Index",
+            "de/ExtNsSocialLogin/Introduction/Index",
+            "de/ExtNsSocialLogin/Screenshots/Index",
+            "de/ExtNsSocialLogin/SystemRequirements/Index",
+            "de/ExtNsSocialLogin/Installation/Index",
+            "de/ExtNsSocialLogin/BeforeGettingStarted/Index",
+            "de/ExtNsSocialLogin/Configuration/Index",
+            "de/ExtNsSocialLogin/UpdateVersion/Index",
+            "de/ExtNsSocialLogin/FAQ/Index",
+            "de/ExtNsSocialLogin/Support",
+            "de/ExtNsSocialLogin/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Timeline",
+      "icon": "clock",
+      "groups": [
+        {
+          "group": "NS Timeline",
+          "pages": [
+            "de/ExtNsTimeLine/Index",
+            "de/ExtNsTimeLine/Introduction/Index",
+            "de/ExtNsTimeLine/Installation/Index",
+            "de/ExtNsTimeLine/UpdateVersion/Index",
+            "de/ExtNsTimeLine/ExtensionConfigurations/Index",
+            "de/ExtNsTimeLine/Support",
+            "de/ExtNsTimeLine/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Twitter",
+      "icon": "twitter",
+      "groups": [
+        {
+          "group": "NS Twitter",
+          "pages": [
+            "de/ExtNsTwitter/Index",
+            "de/ExtNsTwitter/Introduction/Index",
+            "de/ExtNsTwitter/Installation/Index",
+            "de/ExtNsTwitter/UpdateVersion/Index",
+            "de/ExtNsTwitter/Configuration/Index",
+            "de/ExtNsTwitter/Support",
+            "de/ExtNsTwitter/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Whatsapp",
+      "icon": "phone",
+      "groups": [
+        {
+          "group": "NS Whatsapp",
+          "pages": [
+            "de/ExtNsWhatsapp/Index",
+            "de/ExtNsWhatsapp/Introduction/Index",
+            "de/ExtNsWhatsapp/Installation/Index",
+            "de/ExtNsWhatsapp/UpdateVersion/Index",
+            "de/ExtNsWhatsapp/GlobalSettings/Index",
+            "de/ExtNsWhatsapp/Support",
+            "de/ExtNsWhatsapp/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Wp Migration",
+      "icon": "arrow-right-left",
+      "groups": [
+        {
+          "group": "NS Wp Migration",
+          "pages": [
+            "de/ExtNsWpMigration/Index",
+            "de/ExtNsWpMigration/Introduction/Index",
+            "de/ExtNsWpMigration/Installation/Index",
+            "de/ExtNsWpMigration/UpdateVersion/Index",
+            "de/ExtNsWpMigration/Configuration/Index",
+            "de/ExtNsWpMigration/Support",
+            "de/ExtNsWpMigration/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Cache Webhook",
+      "icon": "zap",
+      "groups": [
+        {
+          "group": "NS Cache Webhook",
+          "pages": [
+            "de/ExtNsCacheWebhook/Index",
+            "de/ExtNsCacheWebhook/Introduction/Index",
+            "de/ExtNsCacheWebhook/Installation/Index",
+            "de/ExtNsCacheWebhook/Configuration/Index",
+            "de/ExtNsCacheWebhook/Usage/Index",
+            "de/ExtNsCacheWebhook/Support"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Youtube",
+      "icon": "youtube",
+      "groups": [
+        {
+          "group": "NS Youtube",
+          "pages": [
+            "de/ExtNsYoutube/Index",
+            "de/ExtNsYoutube/Introduction/Index",
+            "de/ExtNsYoutube/Installation/Index",
+            "de/ExtNsYoutube/UpdateVersion/Index",
+            "de/ExtNsYoutube/Configuration/Index",
+            "de/ExtNsYoutube/Support",
+            "de/ExtNsYoutube/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Zoho",
+      "icon": "building",
+      "groups": [
+        {
+          "group": "NS Zoho",
+          "pages": [
+            "de/ExtNsZoho/Index",
+            "de/ExtNsZoho/Introduction/Index",
+            "de/ExtNsZoho/Installation/Index",
+            "de/ExtNsZoho/UpdateVersion/Index",
+            "de/ExtNsZoho/Configuration/Index",
+            "de/ExtNsZoho/Support",
+            "de/ExtNsZoho/BuyNow"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "NS Zoho CRM",
+      "icon": "contact",
+      "groups": [
+        {
+          "group": "NS Zoho CRM",
+          "pages": [
+            "de/EXTNsZohoCrm/Index",
+            "de/EXTNsZohoCrm/Introduction/Index",
+            "de/EXTNsZohoCrm/Installation/Index",
+            "de/EXTNsZohoCrm/UpdateVersion/Index",
+            "de/EXTNsZohoCrm/Configuration/Index",
+            "de/EXTNsZohoCrm/Support",
+            "de/EXTNsZohoCrm/BuyNow"
+          ]
+        }
+      ]
+    }
+  ]
+}

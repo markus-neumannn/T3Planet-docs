@@ -1,0 +1,288 @@
+{
+  "mintlify_url": "http://localhost:3333",
+  "routes_total": 1406,
+  "http_sample_size": 120,
+  "broken_links": [
+    [
+      "de/index.md",
+      "/de"
+    ],
+    [
+      "de/AllExtensions/Index.md",
+      "/de"
+    ],
+    [
+      "de/AIFoundation/Index.md",
+      "/de"
+    ],
+    [
+      "de/AllTemplates/Index.md",
+      "/de"
+    ]
+  ],
+  "images": {
+    "missing_count": 0,
+    "missing_samples": [],
+    "large_count": 66,
+    "large_samples": [
+      {
+        "file": "de/ExtNsNewsSlider/Configuration/OwlcarouselSlider/images/owlcarousel_slider.png",
+        "kb": 1984
+      },
+      {
+        "file": "ExtNsNewsSlider/Configuration/OwlcarouselSlider/images/owlcarousel_slider.png",
+        "kb": 1984
+      },
+      {
+        "file": "ExtNsCloudflare/Configuration/images/Devmode.png",
+        "kb": 1798
+      },
+      {
+        "file": "de/ExtNsCloudflare/Configuration/images/Devmode.png",
+        "kb": 1798
+      },
+      {
+        "file": "de/ExtNsNewsSlider/Configuration/RoyalSlider/images/royal_slider.png",
+        "kb": 1601
+      },
+      {
+        "file": "ExtNsNewsSlider/Configuration/RoyalSlider/images/royal_slider.png",
+        "kb": 1601
+      },
+      {
+        "file": "de/ExtNsNewsSlider/Configuration/NivoSlider/images/nivo_slider.png",
+        "kb": 1413
+      },
+      {
+        "file": "ExtNsNewsSlider/Configuration/NivoSlider/images/nivo_slider.png",
+        "kb": 1413
+      },
+      {
+        "file": "de/EXTReactBootstrap/InstallationT3ReactBootstrapjs/images/landing_screen.png",
+        "kb": 1068
+      },
+      {
+        "file": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/images/landing_screen.png",
+        "kb": 1068
+      },
+      {
+        "file": "ExtNsWpMigration/Introduction/images/ext_banner.png",
+        "kb": 891
+      },
+      {
+        "file": "de/ExtNsWpMigration/Introduction/images/ext_banner.png",
+        "kb": 891
+      },
+      {
+        "file": "EXTAyu/InstallationT3AyuReactjs/images/landing_screen.png",
+        "kb": 863
+      },
+      {
+        "file": "de/EXTAyu/InstallationT3AyuReactjs/images/landing_screen.png",
+        "kb": 863
+      },
+      {
+        "file": "ExtNsEvent/Introduction/images/Event_Banner.png",
+        "kb": 834
+      },
+      {
+        "file": "de/ExtNsEvent/Introduction/images/Event_Banner.png",
+        "kb": 834
+      },
+      {
+        "file": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/images/TYPO3-Revolution-Slider-Backend.png",
+        "kb": 682
+      },
+      {
+        "file": "ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/images/TYPO3-Revolution-Slider-Backend.png",
+        "kb": 682
+      },
+      {
+        "file": "de/ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/images/TYPO3-Revolution-Slider-Backend.png",
+        "kb": 682
+      },
+      {
+        "file": "de/ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/images/TYPO3-Revolution-Slider-Backend.png",
+        "kb": 682
+      }
+    ],
+    "empty_alt_count": 12
+  },
+  "seo": {
+    "missing_title": 0,
+    "missing_description": 0,
+    "samples_title": [],
+    "samples_desc": []
+  },
+  "live_sync": {
+    "live_extensions_found": 83,
+    "live_templates_found": 70,
+    "unmapped_live_extensions": [
+      "about",
+      "blog",
+      "blog/categories/accessibility",
+      "blog/categories/typo3-ai",
+      "blog/categories/typo3-development",
+      "blog/categories/typo3-interview",
+      "blog/monthly-blogs",
+      "blog/what-is-typo3",
+      "contact",
+      "cookies",
+      "faqs",
+      "imprint",
+      "partner-program",
+      "privacy-policy",
+      "reseller-program",
+      "resource",
+      "story",
+      "support",
+      "t3-avatar-multipurpose-typo3-template",
+      "t3-bootstrap-multipurpose-typo3-template",
+      "t3-guru-multi-purpose-typo3-template",
+      "t3-reactbootstrap-headless-typo3-template",
+      "t3-reva-reactjs-nextjs-headless-typo3-template",
+      "t3-shiva-reactjs-typo3-template",
+      "t3-shri-modern-typo3-multipurpose-template"
+    ],
+    "missing_extensions_in_docs": [
+      "ExtNsT3AA",
+      "ExtNsT3AI",
+      "ExtNsT3AL"
+    ],
+    "extra_extensions_in_docs_not_on_live": [
+      "ExtNsCookiesHint",
+      "ExtNsFacebookComment",
+      "ExtNsLazyload"
+    ],
+    "missing_templates_in_docs": [],
+    "extra_templates_in_docs_not_on_live": [],
+    "live_only_templates": [
+      "about",
+      "blog",
+      "blog/categories/accessibility",
+      "blog/categories/typo3-ai",
+      "blog/categories/typo3-development",
+      "blog/categories/typo3-interview",
+      "blog/monthly-blogs",
+      "blog/what-is-typo3",
+      "ckeditor-pack",
+      "contact",
+      "cookies",
+      "faqs",
+      "faqs/typo3-template",
+      "imprint",
+      "partner-program"
+    ]
+  },
+  "http": {
+    "checked": 120,
+    "failed": 16,
+    "failed_samples": [
+      {
+        "path": "/EXTKarma/EditorGuide/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/GlobalSettingsConfiguration/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/HelpSupport/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/HelpfulLinks/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/Installation/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/Introduction/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/Localization/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/SEO/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/SpeedPerformance/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/TemplatesLayouts/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/UpdateVersion/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/UpgradeGuideForContainer/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/EXTKarma/UpgradeV13xToV14x/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/ExtNsT3AA/AIAudioGenerator/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      },
+      {
+        "path": "/ExtNsT3AA/AIFilemeta/Index",
+        "status": 0,
+        "ok": false,
+        "error": "timed out"
+      }
+    ]
+  },
+  "summary": {
+    "broken_links": 4,
+    "missing_images": 0,
+    "large_images": 66,
+    "http_404": 16,
+    "seo_missing_desc": 0,
+    "extra_templates_not_on_live": [],
+    "extra_extensions_not_on_live": 3
+  }
+}

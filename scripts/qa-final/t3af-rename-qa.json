@@ -1,0 +1,92 @@
+{
+  "pages": [
+    {
+      "title": "T3AF - T3Planet Docs",
+      "h1": "T3AF",
+      "hasAIFoundationBrand": false,
+      "hasT3AF": true,
+      "hasPathAIFoundation": true,
+      "sidebarHasT3AF": false,
+      "sidebarHasOld": false,
+      "bodySnippet": "Documentation Index\n\nFetch the complete documentation index at:\n/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nT3Planet Docs home page\nSearch...\n\u2318K\nAsk Assistant\nAI Universe\nTemplates\nExtensions\nT3Planet\nSupport\nGet Started\nHOME\nHome\nAI Universe Extensions\nTYPO3 Templates & Themes\nTYPO3 Extensions\nGET STARTED\nLicense & Installation\nAI UNIVE",
+      "url": "http://127.0.0.1:3000/AIFoundation/Index",
+      "label": "t3af-hub",
+      "status": "PASS"
+    },
+    {
+      "title": "Introduction - T3Planet Docs",
+      "h1": "Introduction",
+      "hasAIFoundationBrand": false,
+      "hasT3AF": true,
+      "hasPathAIFoundation": true,
+      "sidebarHasT3AF": false,
+      "sidebarHasOld": false,
+      "bodySnippet": "Documentation Index\n\nFetch the complete documentation index at:\n/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nT3Planet Docs home page\nSearch...\n\u2318K\nAsk Assistant\nAI Universe\nTemplates\nExtensions\nT3Planet\nSupport\nGet Started\nHOME\nHome\nAI Universe Extensions\nTYPO3 Templates & Themes\nTYPO3 Extensions\nGET STARTED\nLicense & Installation\nAI UNIVE",
+      "url": "http://127.0.0.1:3000/AIFoundation/Introduction/Index",
+      "label": "intro",
+      "status": "PASS"
+    },
+    {
+      "title": "AI Universe Extensions - T3Planet Docs",
+      "h1": "AI Universe Extensions",
+      "hasAIFoundationBrand": false,
+      "hasT3AF": true,
+      "hasPathAIFoundation": true,
+      "sidebarHasT3AF": false,
+      "sidebarHasOld": false,
+      "bodySnippet": "Documentation Index\n\nFetch the complete documentation index at:\n/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nT3Planet Docs home page\nSearch...\n\u2318K\nAsk Assistant\nAI Universe\nTemplates\nExtensions\nT3Planet\nSupport\nGet Started\nHOME\nHome\nAI Universe Extensions\nTYPO3 Templates & Themes\nTYPO3 Extensions\nGET STARTED\nLicense & Installation\nAI UNIVE",
+      "url": "http://127.0.0.1:3000/AIFoundationExtensions/Index",
+      "label": "ai-hub",
+      "status": "PASS"
+    },
+    {
+      "title": "Installation - T3Planet Docs",
+      "h1": "Installation",
+      "hasAIFoundationBrand": false,
+      "hasT3AF": true,
+      "hasPathAIFoundation": false,
+      "sidebarHasT3AF": false,
+      "sidebarHasOld": false,
+      "bodySnippet": "Documentation Index\n\nFetch the complete documentation index at:\n/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nT3Planet Docs home page\nSearch...\n\u2318K\nAsk Assistant\nAI Universe\nTemplates\nExtensions\nT3Planet\nSupport\nGet Started\nHOME\nHome\nAI Universe Extensions\nTYPO3 Templates & Themes\nTYPO3 Extensions\nGET STARTED\nLicense & Installation\nAI UNIVE",
+      "url": "http://127.0.0.1:3000/ExtNsT3AI/Installation/Index",
+      "label": "t3ai-install",
+      "status": "PASS"
+    },
+    {
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "h1": "Welcome to T3Planet Docs",
+      "hasAIFoundationBrand": false,
+      "hasT3AF": true,
+      "hasPathAIFoundation": false,
+      "sidebarHasT3AF": false,
+      "sidebarHasOld": false,
+      "bodySnippet": "Documentation Index\n\nFetch the complete documentation index at:\n/llms.txt\n\nUse this file to discover all available pages before exploring further.\n\nSkip to main content\nT3Planet Docs home page\nSearch...\n\u2318K\nAsk Assistant\nAI Universe\nTemplates\nExtensions\nT3Planet\nSupport\nGet Started\nHOME\nHome\nAI Universe Extensions\nTYPO3 Templates & Themes\nTYPO3 Extensions\nGET STARTED\nLicense & Installation\nAI UNIVE",
+      "url": "http://127.0.0.1:3000/",
+      "label": "home",
+      "status": "PASS"
+    }
+  ],
+  "responsive": [
+    {
+      "viewport": "desktop",
+      "overflowX": false,
+      "h1": "T3AF"
+    },
+    {
+      "viewport": "tablet",
+      "overflowX": false,
+      "h1": "T3AF"
+    },
+    {
+      "viewport": "mobile",
+      "overflowX": false,
+      "h1": "T3AF"
+    }
+  ],
+  "remaining_branding": {},
+  "mint_validate": {
+    "exit": 1,
+    "stdout": "1A\u001b[2K\u001b[G\u283c validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2834 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2826 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2827 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2807 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u280f validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u280b validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2819 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2839 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2838 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u283c validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2834 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2826 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2827 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2807 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u280f validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u280b validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2819 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2839 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2838 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u283c validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2834 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2826 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2827 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2807 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u280f validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u280b validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2819 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2839 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2838 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u283c validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2834 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\u2826 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[Gwarning - \"License/UpdateVersion/Composer/Index\" is referenced in the docs.json navigation but the file does not exist.\n\u2826 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[Gwarning - \"AIFoundation/Integrations/MCPTesting/Index\" is referenced in the docs.json navigation but the file does not exist.\n\u2826 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[Gwarning - \"ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index\" is referenced in the docs.json navigation but the file does not exist.\n\u2826 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[Gwarning - \"ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index\" is referenced in the docs.json navigation but the file does not exist.\n\u2826 validating build...\n\u001b[2K\u001b[1A\u001b[2K\u001b[Gerror Build validation failed with 4 warning(s). See above for details.\n",
+    "stderr": "\nparsing error ./AIFoundation/Integrations/MCPTesting/Index.md:256:5 - Expected a closing tag for `<token>` (256:56-256:63) before the end of `paragraph`\n\nparsing error ./ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index.md:29:14 - Unexpected character `=` (U+003D) before name, expected a character that can start a name, such as a letter, `$`, or `_`\n\nparsing error ./ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index.md:36:14 - Unexpected character `=` (U+003D) before name, expected a character that can start a name, such as a letter, `$`, or `_`\n\nparsing error ./License/UpdateVersion/Composer/Index.md:39:14 - Unexpected character `=` (U+003D) before name, expected a character that can start a name, such as a letter, `$`, or `_`\n"
+  }
+}

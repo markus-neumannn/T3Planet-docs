@@ -1,0 +1,210 @@
+{
+  "pages": [
+    {
+      "name": "home",
+      "mint": {
+        "url": "http://127.0.0.1:3000/",
+        "code": 200,
+        "bytes": 676637,
+        "elapsed_s": 0.437,
+        "content_encoding": null,
+        "analysis": {
+          "bytes": 676637,
+          "Search.setIndex": false,
+          "jquery": false,
+          "sphinx_theme_css": false,
+          "docs_build_ref": false,
+          "searchindex_js": false,
+          "next_f_pushes": 63,
+          "script_tags": 112,
+          "link_stylesheets": 5,
+          "img_tags": 4
+        }
+      },
+      "live": {
+        "url": "https://docs.t3planet.de/en/latest/",
+        "code": 200,
+        "bytes": 100320,
+        "elapsed_s": 0.227,
+        "content_encoding": null,
+        "analysis": {
+          "bytes": 100320,
+          "Search.setIndex": false,
+          "jquery": true,
+          "sphinx_theme_css": true,
+          "docs_build_ref": false,
+          "searchindex_js": false,
+          "next_f_pushes": 0,
+          "script_tags": 11,
+          "link_stylesheets": 4,
+          "img_tags": 1
+        }
+      },
+      "size_ratio_mint_vs_live": 6.74
+    },
+    {
+      "name": "install",
+      "mint": {
+        "url": "http://127.0.0.1:3000/AIFoundation/Installation/Index",
+        "code": 200,
+        "bytes": 673007,
+        "elapsed_s": 0.68,
+        "content_encoding": null,
+        "analysis": {
+          "bytes": 673007,
+          "Search.setIndex": false,
+          "jquery": false,
+          "sphinx_theme_css": false,
+          "docs_build_ref": false,
+          "searchindex_js": false,
+          "next_f_pushes": 63,
+          "script_tags": 112,
+          "link_stylesheets": 5,
+          "img_tags": 5
+        }
+      },
+      "live": {
+        "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Installation/Index.html",
+        "code": 200,
+        "bytes": 26211,
+        "elapsed_s": 0.474,
+        "content_encoding": null,
+        "analysis": {
+          "bytes": 26211,
+          "Search.setIndex": false,
+          "jquery": true,
+          "sphinx_theme_css": true,
+          "docs_build_ref": false,
+          "searchindex_js": false,
+          "next_f_pushes": 0,
+          "script_tags": 11,
+          "link_stylesheets": 4,
+          "img_tags": 2
+        }
+      },
+      "size_ratio_mint_vs_live": 25.68
+    },
+    {
+      "name": "providers",
+      "mint": {
+        "url": "http://127.0.0.1:3000/AIFoundation/Configuration/AIProviders/Index",
+        "code": 200,
+        "bytes": 679955,
+        "elapsed_s": 0.508,
+        "content_encoding": null,
+        "analysis": {
+          "bytes": 679955,
+          "Search.setIndex": false,
+          "jquery": false,
+          "sphinx_theme_css": false,
+          "docs_build_ref": false,
+          "searchindex_js": false,
+          "next_f_pushes": 63,
+          "script_tags": 112,
+          "link_stylesheets": 5,
+          "img_tags": 6
+        }
+      },
+      "live": {
+        "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/AIProviders/Index.html",
+        "code": 200,
+        "bytes": 30026,
+        "elapsed_s": 0.357,
+        "content_encoding": null,
+        "analysis": {
+          "bytes": 30026,
+          "Search.setIndex": false,
+          "jquery": true,
+          "sphinx_theme_css": true,
+          "docs_build_ref": false,
+          "searchindex_js": false,
+          "next_f_pushes": 0,
+          "script_tags": 11,
+          "link_stylesheets": 4,
+          "img_tags": 3
+        }
+      },
+      "size_ratio_mint_vs_live": 22.65
+    },
+    {
+      "name": "extensions",
+      "mint": {
+        "url": "http://127.0.0.1:3000/AllExtensions/Index",
+        "code": 200,
+        "bytes": 715065,
+        "elapsed_s": 0.658,
+        "content_encoding": null,
+        "analysis": {
+          "bytes": 715065,
+          "Search.setIndex": false,
+          "jquery": false,
+          "sphinx_theme_css": false,
+          "docs_build_ref": false,
+          "searchindex_js": false,
+          "next_f_pushes": 63,
+          "script_tags": 112,
+          "link_stylesheets": 5,
+          "img_tags": 4
+        }
+      },
+      "live": {
+        "url": "https://docs.t3planet.de/en/latest/AllExtensions/Index.html",
+        "code": 404,
+        "bytes": 2539,
+        "elapsed_s": 0.485,
+        "content_encoding": null,
+        "analysis": {
+          "bytes": 2539,
+          "Search.setIndex": false,
+          "jquery": false,
+          "sphinx_theme_css": false,
+          "docs_build_ref": false,
+          "searchindex_js": false,
+          "next_f_pushes": 0,
+          "script_tags": 1,
+          "link_stylesheets": 2,
+          "img_tags": 1
+        }
+      },
+      "size_ratio_mint_vs_live": 281.63
+    }
+  ],
+  "sphinx_asset": {
+    "url": "http://127.0.0.1:3000/docs/_build/html/searchindex.js",
+    "code": 404,
+    "bytes": 311744,
+    "elapsed_s": 0.889,
+    "content_encoding": null
+  },
+  "summary": {},
+  "warm_pass": [
+    {
+      "name": "home",
+      "mint_bytes": 676637,
+      "mint_elapsed_s": 0.414,
+      "live_bytes": 100320,
+      "live_elapsed_s": 0.355
+    },
+    {
+      "name": "install",
+      "mint_bytes": 673007,
+      "mint_elapsed_s": 0.482,
+      "live_bytes": 26211,
+      "live_elapsed_s": 0.358
+    },
+    {
+      "name": "providers",
+      "mint_bytes": 679955,
+      "mint_elapsed_s": 0.48,
+      "live_bytes": 30026,
+      "live_elapsed_s": 0.463
+    },
+    {
+      "name": "extensions",
+      "mint_bytes": 715065,
+      "mint_elapsed_s": 0.524,
+      "live_bytes": 2539,
+      "live_elapsed_s": 0.165
+    }
+  ]
+}

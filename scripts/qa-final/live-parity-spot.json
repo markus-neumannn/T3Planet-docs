@@ -1,0 +1,114 @@
+[
+  {
+    "local_url": "http://127.0.0.1:3000/License/Index",
+    "live_url": "https://docs.t3planet.de/en/latest/License/Index.html",
+    "local_h1": [
+      "License, Installation & Updates"
+    ],
+    "live_h1": [
+      "License, Installation & Updates\uf0c1"
+    ],
+    "local_textLen": 2428,
+    "live_textLen": 2100,
+    "local_imgs": 2,
+    "live_imgs": 1,
+    "local_broken": [],
+    "live_broken": [],
+    "local_iframes": [],
+    "live_iframes": [],
+    "local_h2_count": 12,
+    "live_h2_count": 0
+  },
+  {
+    "local_url": "http://127.0.0.1:3000/EXTAvatar/Index",
+    "live_url": "https://docs.t3planet.de/en/latest/EXTAvatar/Index.html",
+    "local_h1": [
+      "T3 Avatar"
+    ],
+    "live_h1": [
+      "T3 Avatar\uf0c1"
+    ],
+    "local_textLen": 3080,
+    "live_textLen": 1090,
+    "local_imgs": 2,
+    "live_imgs": 1,
+    "local_broken": [],
+    "live_broken": [],
+    "local_iframes": [],
+    "live_iframes": [],
+    "local_h2_count": 12,
+    "live_h2_count": 0
+  },
+  {
+    "local_url": "http://127.0.0.1:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+    "live_url": "https://docs.t3planet.de/en/latest/ExtNsT3AA/CkeditorAccessibilityChecker/Index.html",
+    "local_h1": [
+      "CKEditor Accessibility Check using T3AA"
+    ],
+    "live_h1": [
+      "CKEditor Accessibility Check using T3AA\uf0c1"
+    ],
+    "local_textLen": 2780,
+    "live_textLen": 1350,
+    "local_imgs": 2,
+    "live_imgs": 1,
+    "local_broken": [],
+    "live_broken": [],
+    "local_iframes": [
+      {
+        "src": "https://app.supademo.com/embed/cmfwkejeo3bm410k81iqujedw?utm_source=link",
+        "w": 529,
+        "h": 361
+      }
+    ],
+    "live_iframes": [
+      {
+        "src": "https://app.supademo.com/embed/cmfwkejeo3bm410k81iqujedw?utm_source=link%20%20%20%20%20%20%20%20%20%20loading=",
+        "w": 816,
+        "h": 482
+      }
+    ],
+    "local_h2_count": 1,
+    "live_h2_count": 0
+  },
+  {
+    "local_url": "http://127.0.0.1:3000/ExtNsT3AI/Index",
+    "live_url": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Index.html",
+    "local_h1": [
+      "T3AI \u2014 TYPO3 AI Extension"
+    ],
+    "live_h1": [
+      "EXT:ns_t3ai\uf0c1"
+    ],
+    "local_textLen": 2595,
+    "live_textLen": 2882,
+    "local_imgs": 2,
+    "live_imgs": 1,
+    "local_broken": [],
+    "live_broken": [],
+    "local_iframes": [],
+    "live_iframes": [],
+    "local_h2_count": 12,
+    "live_h2_count": 0
+  },
+  {
+    "local_url": "http://127.0.0.1:3000/ExtNsT3AA/Index",
+    "live_url": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Index.html",
+    "local_h1": [
+      "T3AA \u2014 TYPO3 AI Accessibility"
+    ],
+    "live_h1": [
+      "EXT:ns_t3aa\uf0c1"
+    ],
+    "local_textLen": 2661,
+    "live_textLen": 2278,
+    "local_imgs": 2,
+    "live_imgs": 1,
+    "local_broken": [],
+    "live_broken": [],
+    "local_iframes": [],
+    "live_iframes": [],
+    "local_h2_count": 12,
+    "live_h2_count": 0
+  }
+]

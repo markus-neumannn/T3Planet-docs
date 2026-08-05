@@ -1,0 +1,104 @@
+{
+  "tool": "pillow",
+  "min_size_kb": 400,
+  "optimized_count": 16,
+  "total_saved_kb": 960.4,
+  "samples": [
+    {
+      "path": "EXTAvatar/Introduction/images/Theme_T3Avatar.png",
+      "before_kb": 541.3,
+      "after_kb": 451.2,
+      "saved_kb": 90.1
+    },
+    {
+      "path": "EXTAyu/InstallationT3AyuReactjs/images/landing_screen.png",
+      "before_kb": 604.4,
+      "after_kb": 539.6,
+      "saved_kb": 64.8
+    },
+    {
+      "path": "EXTAyu/Localization/Installationt3ayu_reactjs.zip/Images/landing_screen.png",
+      "before_kb": 604.4,
+      "after_kb": 539.6,
+      "saved_kb": 64.8
+    },
+    {
+      "path": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/images/landing_screen.png",
+      "before_kb": 665.4,
+      "after_kb": 560.8,
+      "saved_kb": 104.6
+    },
+    {
+      "path": "ExtNitsanMaintenance/Introduction/images/Maintenance_subscription.png",
+      "before_kb": 998.3,
+      "after_kb": 855.9,
+      "saved_kb": 142.5
+    },
+    {
+      "path": "ExtNsLazyload/Configuration/images/custom_element.png",
+      "before_kb": 717.4,
+      "after_kb": 633.6,
+      "saved_kb": 83.8
+    },
+    {
+      "path": "ExtNsPWA/Installation/images/activate_typoscript.png",
+      "before_kb": 411.2,
+      "after_kb": 373.0,
+      "saved_kb": 38.1
+    },
+    {
+      "path": "ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/images/05-T3Revolution.png",
+      "before_kb": 435.1,
+      "after_kb": 420.1,
+      "saved_kb": 15.1
+    },
+    {
+      "path": "ExtNsT3AI/Media/images/media-20.png",
+      "before_kb": 403.9,
+      "after_kb": 333.9,
+      "saved_kb": 70.1
+    },
+    {
+      "path": "ExtNsT3AI/Media/images/media-22.png",
+      "before_kb": 401.3,
+      "after_kb": 331.5,
+      "saved_kb": 69.8
+    },
+    {
+      "path": "ExtNsT3AI/SEO/images/dasebord-17.png",
+      "before_kb": 440.0,
+      "after_kb": 411.1,
+      "saved_kb": 28.9
+    },
+    {
+      "path": "ExtNsT3AI/Translation/images/Element_translate.png",
+      "before_kb": 467.1,
+      "after_kb": 436.1,
+      "saved_kb": 31.0
+    },
+    {
+      "path": "ExtNsT3AI/Translation/images/trans-22.png",
+      "before_kb": 543.0,
+      "after_kb": 501.5,
+      "saved_kb": 41.5
+    },
+    {
+      "path": "ExtNsT3AI/Translation/images/trans-23.png",
+      "before_kb": 517.9,
+      "after_kb": 476.3,
+      "saved_kb": 41.6
+    },
+    {
+      "path": "ExtNsT3AI/Translation/images/trans-24.png",
+      "before_kb": 494.3,
+      "after_kb": 458.2,
+      "saved_kb": 36.1
+    },
+    {
+      "path": "ExtNsT3AI/Translation/images/trans-9.png",
+      "before_kb": 465.9,
+      "after_kb": 428.3,
+      "saved_kb": 37.6
+    }
+  ]
+}

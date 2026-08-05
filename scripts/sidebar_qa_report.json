@@ -1,0 +1,334 @@
+{
+  "base_url": "http://localhost:3334",
+  "route_checks": [
+    {
+      "path": "/",
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AI/Installation/Index",
+      "ok": true
+    },
+    {
+      "path": "/EXTKarma/Index",
+      "ok": true
+    },
+    {
+      "path": "/de/index",
+      "ok": true
+    },
+    {
+      "path": "/de/ExtNsT3AI/Installation/Index",
+      "ok": true
+    }
+  ],
+  "playwright": [
+    {
+      "suite": "desktop",
+      "path": "/",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 143,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop",
+      "path": "/ExtNsT3AI/Installation/Index",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 165,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop",
+      "path": "/EXTKarma/Index",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 160,
+      "groups": 5,
+      "activeLink": false,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop",
+      "path": "/de/index",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 143,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Startseite",
+        "Erste Schritte",
+        "KI-Universum",
+        "T3 Templates & Themes",
+        "TYPO3 Erweiterungen"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop",
+      "path": "/de/ExtNsT3AI/Installation/Index",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 165,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Startseite",
+        "Erste Schritte",
+        "KI-Universum",
+        "T3 Templates & Themes",
+        "TYPO3 Erweiterungen"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop-dark",
+      "path": "/",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 143,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop-dark",
+      "path": "/ExtNsT3AI/Installation/Index",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 165,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop-dark",
+      "path": "/EXTKarma/Index",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 160,
+      "groups": 5,
+      "activeLink": false,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop-dark",
+      "path": "/de/index",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 143,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Startseite",
+        "Erste Schritte",
+        "KI-Universum",
+        "T3 Templates & Themes",
+        "TYPO3 Erweiterungen"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "desktop-dark",
+      "path": "/de/ExtNsT3AI/Installation/Index",
+      "sidebarVisible": true,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 165,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Startseite",
+        "Erste Schritte",
+        "KI-Universum",
+        "T3 Templates & Themes",
+        "TYPO3 Erweiterungen"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "mobile",
+      "path": "/",
+      "sidebarVisible": false,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 143,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "mobile",
+      "path": "/ExtNsT3AI/Installation/Index",
+      "sidebarVisible": false,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 165,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "mobile",
+      "path": "/EXTKarma/Index",
+      "sidebarVisible": false,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 160,
+      "groups": 5,
+      "activeLink": false,
+      "groupHeaders": [
+        "Home",
+        "Get Started",
+        "AI Foundation",
+        "T3 Templates & Themes",
+        "TYPO3 Extensions"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "mobile",
+      "path": "/de/index",
+      "sidebarVisible": false,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 143,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Startseite",
+        "Erste Schritte",
+        "KI-Universum",
+        "T3 Templates & Themes",
+        "TYPO3 Erweiterungen"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "mobile",
+      "path": "/de/ExtNsT3AI/Installation/Index",
+      "sidebarVisible": false,
+      "searchBtn": false,
+      "filterInput": false,
+      "footer": false,
+      "dropdown": false,
+      "icons": 165,
+      "groups": 5,
+      "activeLink": true,
+      "groupHeaders": [
+        "Startseite",
+        "Erste Schritte",
+        "KI-Universum",
+        "T3 Templates & Themes",
+        "TYPO3 Erweiterungen"
+      ],
+      "ariaExpanded": 5
+    },
+    {
+      "suite": "collapse",
+      "path": "/ExtNsT3AI/Installation/Index",
+      "collapsed": true
+    }
+  ],
+  "failed_routes": 0,
+  "passed": true
+}

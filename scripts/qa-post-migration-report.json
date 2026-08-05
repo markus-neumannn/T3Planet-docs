@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-07-27T12:43:01",
+  "workspace": "/Users/nitsan/www/AI Agents/Mintilify Doc",
+  "verdict": "PASS_WITH_MINOR",
+  "live_pages": 743,
+  "mapped": 741,
+  "missing_count": 0,
+  "missing": [],
+  "deep_compared": 259,
+  "thin_vs_live": [],
+  "heading_mismatches": [],
+  "image_defects": [],
+  "admonition_defects": [],
+  "broken_local_images": [],
+  "broken_internal_links": [],
+  "empty_pages": [],
+  "af_nav_missing": [],
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0
+  },
+  "checks": {
+    "existence_parity": true,
+    "af_nav_parity": true,
+    "no_broken_local_images": true,
+    "no_broken_internal_links_sample": true,
+    "no_empty_pages": true
+  }
+}

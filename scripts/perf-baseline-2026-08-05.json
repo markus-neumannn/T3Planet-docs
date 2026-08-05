@@ -1,0 +1,572 @@
+{
+  "/": {
+    "dcl": 2304,
+    "load": 3113,
+    "ttfb": 2124,
+    "fcp": 2308,
+    "lcp": null,
+    "reqs": 78,
+    "rsc": 5,
+    "byType": {
+      "link": 9,
+      "script": 32,
+      "css": 27,
+      "fetch": 6,
+      "xmlhttprequest": 4
+    },
+    "transferKB": 1438,
+    "heavy": [
+      {
+        "name": "chunks/59d17ec60a99bdd9.css",
+        "kb": 64,
+        "type": "link"
+      },
+      {
+        "name": "chunks/5b05baece9f77237.js",
+        "kb": 156,
+        "type": "script"
+      },
+      {
+        "name": "chunks/943fd85ce5330920.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "chunks/c2cdec6f21626aa5.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "License/Index?_rsc=9aqCpfIpZWFsqucc",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "Introduction/Index?_rsc=9aqCpfIpZWFsqucc",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "AIFoundation/Index?_rsc=9aqCpfIpZWFsqucc",
+        "kb": 87,
+        "type": "fetch"
+      },
+      {
+        "name": "GenerateLicenseKey/Index?_rsc=9aqCpfIpZWFsqucc",
+        "kb": 88,
+        "type": "fetch"
+      }
+    ],
+    "imgs": 4,
+    "lazyImgs": 0,
+    "iframes": 0,
+    "iframeSrcEager": 0,
+    "iframeDeferred": 0,
+    "domNodes": 1343,
+    "scripts": [
+      "44795504c795ca32.js",
+      "6db162735dd83d4c.js",
+      "f486afc314643ce1.js",
+      "cbb16a3954e7bd60.js",
+      "turbopack-e91ef6a62ca5835c.js",
+      "16ce374fad128624.js",
+      "b664fc8bb1e7ab0d.js",
+      "4d5d41fa8c9ac543.js",
+      "e97e7c0025dc7b54.js",
+      "5b05baece9f77237.js",
+      "b0bc3ab5ef627965.js",
+      "a5edc6734daa1561.js",
+      "717f20f029e53909.js",
+      "7c0d0004ed43c1ad.js",
+      "270486c8c6cfbdd6.js",
+      "3fd0b878235b8d92.js",
+      "943fd85ce5330920.js",
+      "3f671a872890ffd1.js",
+      "9f947c219bd9d70a.js",
+      "0cb37e1f8f54b103.js"
+    ]
+  },
+  "/AIFoundation/Index": {
+    "dcl": 2177,
+    "load": 2869,
+    "ttfb": 2096,
+    "fcp": 2176,
+    "lcp": null,
+    "reqs": 77,
+    "rsc": 0,
+    "byType": {
+      "link": 9,
+      "script": 32,
+      "css": 31,
+      "fetch": 1,
+      "xmlhttprequest": 4
+    },
+    "transferKB": 1005,
+    "heavy": [
+      {
+        "name": "chunks/59d17ec60a99bdd9.css",
+        "kb": 64,
+        "type": "link"
+      },
+      {
+        "name": "chunks/5b05baece9f77237.js",
+        "kb": 156,
+        "type": "script"
+      },
+      {
+        "name": "chunks/943fd85ce5330920.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "chunks/c2cdec6f21626aa5.js",
+        "kb": 77,
+        "type": "script"
+      }
+    ],
+    "imgs": 4,
+    "lazyImgs": 0,
+    "iframes": 0,
+    "iframeSrcEager": 0,
+    "iframeDeferred": 0,
+    "domNodes": 1360,
+    "scripts": [
+      "44795504c795ca32.js",
+      "6db162735dd83d4c.js",
+      "f486afc314643ce1.js",
+      "cbb16a3954e7bd60.js",
+      "turbopack-e91ef6a62ca5835c.js",
+      "16ce374fad128624.js",
+      "b664fc8bb1e7ab0d.js",
+      "4d5d41fa8c9ac543.js",
+      "e97e7c0025dc7b54.js",
+      "5b05baece9f77237.js",
+      "b0bc3ab5ef627965.js",
+      "a5edc6734daa1561.js",
+      "717f20f029e53909.js",
+      "7c0d0004ed43c1ad.js",
+      "270486c8c6cfbdd6.js",
+      "3fd0b878235b8d92.js",
+      "943fd85ce5330920.js",
+      "3f671a872890ffd1.js",
+      "9f947c219bd9d70a.js",
+      "0cb37e1f8f54b103.js"
+    ]
+  },
+  "/AllExtensions/Index": {
+    "dcl": 1958,
+    "load": 2359,
+    "ttfb": 1843,
+    "fcp": 1928,
+    "lcp": null,
+    "reqs": 107,
+    "rsc": 5,
+    "byType": {
+      "link": 9,
+      "script": 32,
+      "css": 56,
+      "fetch": 6,
+      "xmlhttprequest": 4
+    },
+    "transferKB": 1438,
+    "heavy": [
+      {
+        "name": "chunks/59d17ec60a99bdd9.css",
+        "kb": 64,
+        "type": "link"
+      },
+      {
+        "name": "chunks/5b05baece9f77237.js",
+        "kb": 156,
+        "type": "script"
+      },
+      {
+        "name": "chunks/943fd85ce5330920.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "chunks/c2cdec6f21626aa5.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "License/Index?_rsc=pSSya6JmiHHzNlh6",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "GenerateLicenseKey/Index?_rsc=pSSya6JmiHHzNlh6",
+        "kb": 88,
+        "type": "fetch"
+      },
+      {
+        "name": "Introduction/Index?_rsc=pSSya6JmiHHzNlh6",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "LicenseManager/Index?_rsc=pSSya6JmiHHzNlh6",
+        "kb": 87,
+        "type": "fetch"
+      }
+    ],
+    "imgs": 4,
+    "lazyImgs": 0,
+    "iframes": 0,
+    "iframeSrcEager": 0,
+    "iframeDeferred": 0,
+    "domNodes": 1445,
+    "scripts": [
+      "44795504c795ca32.js",
+      "6db162735dd83d4c.js",
+      "f486afc314643ce1.js",
+      "cbb16a3954e7bd60.js",
+      "turbopack-e91ef6a62ca5835c.js",
+      "16ce374fad128624.js",
+      "b664fc8bb1e7ab0d.js",
+      "4d5d41fa8c9ac543.js",
+      "e97e7c0025dc7b54.js",
+      "5b05baece9f77237.js",
+      "b0bc3ab5ef627965.js",
+      "a5edc6734daa1561.js",
+      "717f20f029e53909.js",
+      "7c0d0004ed43c1ad.js",
+      "270486c8c6cfbdd6.js",
+      "3fd0b878235b8d92.js",
+      "943fd85ce5330920.js",
+      "3f671a872890ffd1.js",
+      "9f947c219bd9d70a.js",
+      "0cb37e1f8f54b103.js"
+    ]
+  },
+  "/ExtNsLazyload/Configuration/Index": {
+    "dcl": 1823,
+    "load": 2122,
+    "ttfb": 1738,
+    "fcp": 1800,
+    "lcp": null,
+    "reqs": 63,
+    "rsc": 5,
+    "byType": {
+      "link": 12,
+      "script": 32,
+      "css": 9,
+      "fetch": 6,
+      "xmlhttprequest": 4
+    },
+    "transferKB": 1635,
+    "heavy": [
+      {
+        "name": "chunks/59d17ec60a99bdd9.css",
+        "kb": 64,
+        "type": "link"
+      },
+      {
+        "name": "images/custom_element.webp",
+        "kb": 126,
+        "type": "link"
+      },
+      {
+        "name": "chunks/5b05baece9f77237.js",
+        "kb": 156,
+        "type": "script"
+      },
+      {
+        "name": "chunks/943fd85ce5330920.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "chunks/c2cdec6f21626aa5.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "License/Index?_rsc=qiTItSWJhrc07gVW",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "Introduction/Index?_rsc=qiTItSWJhrc07gVW",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "GenerateLicenseKey/Index?_rsc=qiTItSWJhrc07gVW",
+        "kb": 88,
+        "type": "fetch"
+      }
+    ],
+    "imgs": 8,
+    "lazyImgs": 0,
+    "iframes": 0,
+    "iframeSrcEager": 0,
+    "iframeDeferred": 0,
+    "domNodes": 1003,
+    "scripts": [
+      "44795504c795ca32.js",
+      "6db162735dd83d4c.js",
+      "f486afc314643ce1.js",
+      "cbb16a3954e7bd60.js",
+      "turbopack-e91ef6a62ca5835c.js",
+      "16ce374fad128624.js",
+      "b664fc8bb1e7ab0d.js",
+      "4d5d41fa8c9ac543.js",
+      "e97e7c0025dc7b54.js",
+      "5b05baece9f77237.js",
+      "b0bc3ab5ef627965.js",
+      "a5edc6734daa1561.js",
+      "717f20f029e53909.js",
+      "7c0d0004ed43c1ad.js",
+      "270486c8c6cfbdd6.js",
+      "3fd0b878235b8d92.js",
+      "943fd85ce5330920.js",
+      "3f671a872890ffd1.js",
+      "9f947c219bd9d70a.js",
+      "0cb37e1f8f54b103.js"
+    ]
+  },
+  "/ExtNsT3AA/Index": {
+    "dcl": 2715,
+    "load": 3220,
+    "ttfb": 2477,
+    "fcp": 2580,
+    "lcp": null,
+    "reqs": 78,
+    "rsc": 5,
+    "byType": {
+      "link": 9,
+      "script": 32,
+      "css": 27,
+      "fetch": 6,
+      "xmlhttprequest": 4
+    },
+    "transferKB": 1438,
+    "heavy": [
+      {
+        "name": "chunks/59d17ec60a99bdd9.css",
+        "kb": 64,
+        "type": "link"
+      },
+      {
+        "name": "chunks/5b05baece9f77237.js",
+        "kb": 156,
+        "type": "script"
+      },
+      {
+        "name": "chunks/943fd85ce5330920.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "chunks/c2cdec6f21626aa5.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "License/Index?_rsc=Ujm2Wb9JUd1QF4DT",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "Introduction/Index?_rsc=Ujm2Wb9JUd1QF4DT",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "LicenseManager/Index?_rsc=Ujm2Wb9JUd1QF4DT",
+        "kb": 87,
+        "type": "fetch"
+      },
+      {
+        "name": "GenerateLicenseKey/Index?_rsc=Ujm2Wb9JUd1QF4DT",
+        "kb": 88,
+        "type": "fetch"
+      }
+    ],
+    "imgs": 4,
+    "lazyImgs": 0,
+    "iframes": 0,
+    "iframeSrcEager": 0,
+    "iframeDeferred": 0,
+    "domNodes": 1306,
+    "scripts": [
+      "44795504c795ca32.js",
+      "6db162735dd83d4c.js",
+      "f486afc314643ce1.js",
+      "cbb16a3954e7bd60.js",
+      "turbopack-e91ef6a62ca5835c.js",
+      "16ce374fad128624.js",
+      "b664fc8bb1e7ab0d.js",
+      "4d5d41fa8c9ac543.js",
+      "e97e7c0025dc7b54.js",
+      "5b05baece9f77237.js",
+      "b0bc3ab5ef627965.js",
+      "a5edc6734daa1561.js",
+      "717f20f029e53909.js",
+      "7c0d0004ed43c1ad.js",
+      "270486c8c6cfbdd6.js",
+      "3fd0b878235b8d92.js",
+      "943fd85ce5330920.js",
+      "3f671a872890ffd1.js",
+      "9f947c219bd9d70a.js",
+      "0cb37e1f8f54b103.js"
+    ]
+  },
+  "/License/Index": {
+    "dcl": 2330,
+    "load": 2672,
+    "ttfb": 2208,
+    "fcp": 2304,
+    "lcp": null,
+    "reqs": 55,
+    "rsc": 0,
+    "byType": {
+      "link": 9,
+      "script": 32,
+      "css": 9,
+      "fetch": 1,
+      "xmlhttprequest": 4
+    },
+    "transferKB": 1005,
+    "heavy": [
+      {
+        "name": "chunks/59d17ec60a99bdd9.css",
+        "kb": 64,
+        "type": "link"
+      },
+      {
+        "name": "chunks/5b05baece9f77237.js",
+        "kb": 156,
+        "type": "script"
+      },
+      {
+        "name": "chunks/943fd85ce5330920.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "chunks/c2cdec6f21626aa5.js",
+        "kb": 77,
+        "type": "script"
+      }
+    ],
+    "imgs": 4,
+    "lazyImgs": 0,
+    "iframes": 0,
+    "iframeSrcEager": 0,
+    "iframeDeferred": 0,
+    "domNodes": 1157,
+    "scripts": [
+      "44795504c795ca32.js",
+      "6db162735dd83d4c.js",
+      "f486afc314643ce1.js",
+      "cbb16a3954e7bd60.js",
+      "turbopack-e91ef6a62ca5835c.js",
+      "16ce374fad128624.js",
+      "b664fc8bb1e7ab0d.js",
+      "4d5d41fa8c9ac543.js",
+      "e97e7c0025dc7b54.js",
+      "5b05baece9f77237.js",
+      "b0bc3ab5ef627965.js",
+      "a5edc6734daa1561.js",
+      "717f20f029e53909.js",
+      "7c0d0004ed43c1ad.js",
+      "270486c8c6cfbdd6.js",
+      "3fd0b878235b8d92.js",
+      "943fd85ce5330920.js",
+      "3f671a872890ffd1.js",
+      "9f947c219bd9d70a.js",
+      "0cb37e1f8f54b103.js"
+    ]
+  },
+  "mobile:/AIFoundation/Index": {
+    "dcl": 2113,
+    "load": 2784,
+    "ttfb": 1985,
+    "fcp": 2056,
+    "lcp": null,
+    "reqs": 80,
+    "rsc": 5,
+    "byType": {
+      "link": 9,
+      "script": 32,
+      "css": 29,
+      "fetch": 6,
+      "xmlhttprequest": 4
+    },
+    "transferKB": 1439,
+    "heavy": [
+      {
+        "name": "chunks/59d17ec60a99bdd9.css",
+        "kb": 64,
+        "type": "link"
+      },
+      {
+        "name": "chunks/5b05baece9f77237.js",
+        "kb": 156,
+        "type": "script"
+      },
+      {
+        "name": "chunks/943fd85ce5330920.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "chunks/c2cdec6f21626aa5.js",
+        "kb": 77,
+        "type": "script"
+      },
+      {
+        "name": "License/Index?_rsc=YU92GVTqc_h8m39q",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "Introduction/Index?_rsc=YU92GVTqc_h8m39q",
+        "kb": 86,
+        "type": "fetch"
+      },
+      {
+        "name": "GenerateLicenseKey/Index?_rsc=YU92GVTqc_h8m39q",
+        "kb": 88,
+        "type": "fetch"
+      },
+      {
+        "name": "Configuration/Index?_rsc=YU92GVTqc_h8m39q",
+        "kb": 88,
+        "type": "fetch"
+      }
+    ],
+    "imgs": 4,
+    "lazyImgs": 0,
+    "iframes": 0,
+    "iframeSrcEager": 0,
+    "iframeDeferred": 0,
+    "domNodes": 1358,
+    "scripts": [
+      "44795504c795ca32.js",
+      "6db162735dd83d4c.js",
+      "f486afc314643ce1.js",
+      "cbb16a3954e7bd60.js",
+      "turbopack-e91ef6a62ca5835c.js",
+      "16ce374fad128624.js",
+      "b664fc8bb1e7ab0d.js",
+      "4d5d41fa8c9ac543.js",
+      "e97e7c0025dc7b54.js",
+      "5b05baece9f77237.js",
+      "b0bc3ab5ef627965.js",
+      "a5edc6734daa1561.js",
+      "717f20f029e53909.js",
+      "7c0d0004ed43c1ad.js",
+      "270486c8c6cfbdd6.js",
+      "3fd0b878235b8d92.js",
+      "943fd85ce5330920.js",
+      "3f671a872890ffd1.js",
+      "9f947c219bd9d70a.js",
+      "0cb37e1f8f54b103.js"
+    ]
+  },
+  "spa_hop_ms": 6416
+}

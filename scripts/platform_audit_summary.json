@@ -1,0 +1,35 @@
+{
+  "audit_date": "2026-06-09",
+  "design": "Coinbase Developer Docs inspired",
+  "url_crawl": {
+    "old_docs_base": "https://docs.t3planet.de/en/latest",
+    "rst_source_pages": 592,
+    "mintlify_en_pages": 700,
+    "mintlify_de_pages": 700,
+    "slug_matches": 586,
+    "missing_real_pages": 0,
+    "missing_false_positives": ["index", "readme", "history", "zip artifact paths"],
+    "broken_internal_links": 0,
+    "report": "scripts/crawl_compare_report.json",
+    "redirect_map": "scripts/redirect_map.json"
+  },
+  "redirects_applied": 13,
+  "landing_pages_updated": {
+    "ai_universe": 12,
+    "templates": 18
+  },
+  "seo": {
+    "missing_title": 0,
+    "missing_description": 0,
+    "redirects": [
+      "/en/latest → /",
+      "/en/latest/:path* → /:path*",
+      "/:path*/Index.html → /:path*/Index",
+      "/:path*.html → /:path*/Index"
+    ]
+  },
+  "slug_mapping_example": {
+    "old": "/en/latest/ExtNsT3AI/Installation/Index.html",
+    "new": "/ExtNsT3AI/Installation/Index"
+  }
+}

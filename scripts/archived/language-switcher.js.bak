@@ -1,0 +1,213 @@
+/**
+ * Custom EN/DE language switcher with path preservation and prefetch.
+ */
+(function () {
+  "use strict";
+
+  var prefetched = {};
+  var LANGS = [
+    { code: "en", label: "EN", name: "English" },
+    { code: "de", label: "DE", name: "Deutsch" },
+  ];
+
+  function normalizePath(path) {
+    if (path.indexOf("/en/") === 0) return path.slice(3) || "/index";
+    if (path === "/en") return "/index";
+    return path;
+  }
+
+  function targetPath(lang) {
+    var path = normalizePath(window.location.pathname.replace(/\/$/, "") || "");
+    if (lang === "de") {
+      if (path === "" || path === "/index") return "/de/index";
+      if (path.indexOf("/de/") === 0 || path === "/de") return path || "/de/index";
+      return "/de" + path;
+    }
+    if (path.indexOf("/de/") === 0) {
+      var stripped = path.slice(3) || "/index";
+      return stripped === "" ? "/index" : stripped;
+    }
+    if (path === "") return "/index";
+    return path;
+  }
+
+  function currentLang() {
+    return window.location.pathname.indexOf("/de/") === 0 ||
+      window.location.pathname === "/de"
+      ? "de"
+      : "en";
+  }
+
+  function prefetchLang(lang) {
+    if (prefetched[lang]) return;
+    if (navigator.connection && navigator.connection.saveData) return;
+
+    var url = targetPath(lang) + window.location.search + window.location.hash;
+    if (url.replace(/\/$/, "") === window.location.pathname.replace(/\/$/, "")) return;
+
+    prefetched[lang] = true;
+    var link = document.createElement("link");
+    link.rel = "prefetch";
+    link.href = url;
+    link.setAttribute("data-t3-lang-prefetch", lang);
+    document.head.appendChild(link);
+  }
+
+  function prefetchAlternate() {
+    prefetchLang(currentLang() === "de" ? "en" : "de");
+  }
+
+  function switchLang(lang) {
+    if (lang !== "de" && lang !== "en") return;
+
+    var next = targetPath(lang);
+    var current = window.location.pathname.replace(/\/$/, "") || "";
+    if (next.replace(/\/$/, "") === current) return;
+
+    document.documentElement.classList.add("t3-lang-switching");
+    window.location.assign(next + window.location.search + window.location.hash);
+  }
+
+  function localizeNavbarLinks() {
+    var isDe = currentLang() === "de";
+    var t3Links = document.querySelectorAll(
+      'a[href="https://t3planet.de"], a[href="https://t3planet.de/"]'
+    );
+    for (var i = 0; i < t3Links.length; i++) {
+      t3Links[i].href = isDe ? "https://t3planet.de/" : "https://t3planet.de/en/";
+    }
+  }
+
+  function updateSwitcherState() {
+    var lang = currentLang();
+    document.querySelectorAll(".t3-lang-switcher-btn").forEach(function (btn) {
+      var active = btn.getAttribute("data-lang") === lang;
+      btn.classList.toggle("is-active", active);
+      btn.setAttribute("aria-current", active ? "true" : "false");
+      btn.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+  }
+
+  function createSwitcher() {
+    var active = currentLang();
+    var wrap = document.createElement("div");
+    wrap.id = "t3-lang-switcher";
+    wrap.className = "t3-lang-switcher";
+    wrap.setAttribute("role", "group");
+    wrap.setAttribute("aria-label", "Select language");
+
+    var icon = document.createElement("span");
+    icon.className = "t3-lang-switcher-icon";
+    icon.setAttribute("aria-hidden", "true");
+    icon.innerHTML =
+      '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
+    wrap.appendChild(icon);
+
+    var track = document.createElement("div");
+    track.className = "t3-lang-switcher-track";
+
+    LANGS.forEach(function (item) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "t3-lang-switcher-btn" + (active === item.code ? " is-active" : "");
+      btn.setAttribute("data-lang", item.code);
+      btn.setAttribute("aria-label", item.name);
+      btn.setAttribute("aria-current", active === item.code ? "true" : "false");
+      btn.setAttribute("aria-pressed", active === item.code ? "true" : "false");
+
+      var label = document.createElement("span");
+      label.className = "t3-lang-switcher-label";
+      label.textContent = item.label;
+
+      var sub = document.createElement("span");
+      sub.className = "t3-lang-switcher-sublabel";
+      sub.textContent = item.name;
+
+      btn.appendChild(label);
+      btn.appendChild(sub);
+
+      btn.addEventListener("click", function () {
+        switchLang(item.code);
+      });
+      btn.addEventListener("mouseenter", function () {
+        prefetchLang(item.code);
+      });
+
+      track.appendChild(btn);
+    });
+
+    wrap.appendChild(track);
+    return wrap;
+  }
+
+  function mountSwitcher() {
+    if (document.getElementById("t3-lang-switcher")) {
+      updateSwitcherState();
+      return;
+    }
+
+    var trigger = document.getElementById("localization-select-trigger");
+    if (!trigger) return;
+
+    var host = trigger.parentElement;
+    if (!host) return;
+
+    trigger.setAttribute("aria-hidden", "true");
+    trigger.style.display = "none";
+    host.classList.add("t3-lang-switcher-host");
+    host.appendChild(createSwitcher());
+  }
+
+  function mountMobileSwitcher() {
+    if (document.getElementById("t3-lang-switcher-mobile")) return;
+
+    var mobileBar = document.querySelector("#navbar .flex.lg\\:hidden.items-center.gap-3");
+    if (!mobileBar) return;
+
+    var mobile = createSwitcher();
+    mobile.id = "t3-lang-switcher-mobile";
+    mobile.classList.add("t3-lang-switcher--compact");
+    mobileBar.insertBefore(mobile, mobileBar.firstChild);
+  }
+
+  function observeNavbar() {
+    var navbar = document.getElementById("navbar");
+    if (!navbar || navbar.getAttribute("data-t3-lang-observed")) return;
+    navbar.setAttribute("data-t3-lang-observed", "1");
+
+    var timer = null;
+    new MutationObserver(function () {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(function () {
+        mountSwitcher();
+        mountMobileSwitcher();
+        updateSwitcherState();
+      }, 80);
+    }).observe(navbar, { childList: true, subtree: true });
+  }
+
+  function init() {
+    mountSwitcher();
+    mountMobileSwitcher();
+    updateSwitcherState();
+    localizeNavbarLinks();
+    observeNavbar();
+
+    window.addEventListener("popstate", function () {
+      updateSwitcherState();
+      localizeNavbarLinks();
+    });
+
+    if ("requestIdleCallback" in window) {
+      requestIdleCallback(prefetchAlternate, { timeout: 2500 });
+    } else {
+      setTimeout(prefetchAlternate, 1500);
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();

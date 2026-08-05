@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "pages": 119,
+    "images_ref": 33,
+    "images_missing": 0,
+    "broken_internal_candidates": 0,
+    "frontmatter_ok": 119,
+    "frontmatter_bad": 0,
+    "code_fences_odd": 0,
+    "empty_alt": 0
+  },
+  "nav_missing_file": [],
+  "possible_orphans": [],
+  "issues": []
+}

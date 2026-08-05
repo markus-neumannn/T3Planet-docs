@@ -1,0 +1,94 @@
+{
+  "http": [
+    {
+      "path": "/EXTKarma/ConfigureCaptcha/Index",
+      "code": 200,
+      "title": "",
+      "embeds_in_html": 0,
+      "s": 20.81,
+      "ok": true
+    },
+    {
+      "path": "/EXTKarma/CustomElements/Index",
+      "code": 200,
+      "title": "Content Block Elements - T3Planet Docs",
+      "embeds_in_html": 2,
+      "s": 16.46,
+      "ok": true
+    },
+    {
+      "path": "/EXTKarma/UpgradeGuide/Index",
+      "code": 200,
+      "title": "Upgrade Guide For Container - T3Planet Docs",
+      "embeds_in_html": 4,
+      "s": 16.36,
+      "ok": true
+    },
+    {
+      "path": "/AllExtensions/Index",
+      "code": 200,
+      "title": "",
+      "embeds_in_html": 0,
+      "s": 0.01,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AS/Configuration/Index",
+      "code": 200,
+      "title": "Configuration - T3Planet Docs",
+      "embeds_in_html": 36,
+      "s": 5.3,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AA/Configuration/Index",
+      "code": 200,
+      "title": "",
+      "embeds_in_html": 0,
+      "s": 0.01,
+      "ok": true
+    }
+  ],
+  "responsive": [
+    {
+      "viewport": "desktop",
+      "overflowX": false,
+      "iframeCount": 0,
+      "h1": "Configuration",
+      "body": 5025
+    },
+    {
+      "viewport": "tablet",
+      "overflowX": false,
+      "iframeCount": 5,
+      "h1": "Configuration",
+      "body": 4679
+    },
+    {
+      "viewport": "mobile",
+      "overflowX": false,
+      "iframeCount": 5,
+      "h1": "Configuration",
+      "body": 4679
+    }
+  ],
+  "browsers": {
+    "firefox": {
+      "code": 200,
+      "h1": "License, Installation & Updates"
+    },
+    "webkit": {
+      "code": 200,
+      "h1": "License, Installation & Updates"
+    }
+  },
+  "prior_pages_ok": [
+    "/",
+    "/AIFoundation/Index",
+    "/ExtNsT3AA/Configuration/Index",
+    "/ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+    "/ExtNsT3AI/Translation/Index",
+    "/License/UpdateVersion/CheckNewVersion/Index",
+    "/EXTKarma/CaptchaConfiguration/Index"
+  ]
+}

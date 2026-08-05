@@ -1,0 +1,283 @@
+{
+  "generated": "2026-07-01T08:30:02.248875+00:00",
+  "source_pages": 26,
+  "mintlify_pages": 27,
+  "nav_slugs": 27,
+  "orphan_pages": [],
+  "missing_from_nav": [],
+  "broken_links_total": 0,
+  "http_failures": [],
+  "pages": [
+    {
+      "path": "/AIFoundation/AIContext/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 1,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 195
+    },
+    {
+      "path": "/AIFoundation/AIFeatures/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 1,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 133
+    },
+    {
+      "path": "/AIFoundation/AIPrompts/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 2,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 183
+    },
+    {
+      "path": "/AIFoundation/AIProviders/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 5,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 245
+    },
+    {
+      "path": "/AIFoundation/AIUsageAndLogs/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 3,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 214
+    },
+    {
+      "path": "/AIFoundation/Appendix/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 1,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 169
+    },
+    {
+      "path": "/AIFoundation/Configuration/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 10,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 318
+    },
+    {
+      "path": "/AIFoundation/Dashboard/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 5,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 198
+    },
+    {
+      "path": "/AIFoundation/FAQ/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 7,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 234
+    },
+    {
+      "path": "/AIFoundation/GetThisExtension/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 4,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 165
+    },
+    {
+      "path": "/AIFoundation/GovernanceAndAccess/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 2,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 196
+    },
+    {
+      "path": "/AIFoundation/HelpfulLinks/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 5,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 203
+    },
+    {
+      "path": "/AIFoundation/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 0,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 471
+    },
+    {
+      "path": "/AIFoundation/Installation/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 6,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 241
+    },
+    {
+      "path": "/AIFoundation/Introduction/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 6,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 391
+    },
+    {
+      "path": "/AIFoundation/KnownProblems/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 1,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 157
+    },
+    {
+      "path": "/AIFoundation/MCPServer/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 5,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 319
+    },
+    {
+      "path": "/AIFoundation/MCPTools/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 5,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 325
+    },
+    {
+      "path": "/AIFoundation/Screenshots/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 1,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 177
+    },
+    {
+      "path": "/AIFoundation/SetupWizard/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 5,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 141
+    },
+    {
+      "path": "/AIFoundation/Support/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 3,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 139
+    },
+    {
+      "path": "/AIFoundation/SystemRequirements/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 1,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 227
+    },
+    {
+      "path": "/AIFoundation/T3PlanetCredits/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 2,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 220
+    },
+    {
+      "path": "/AIFoundation/UpdateVersion/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 2,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 145
+    },
+    {
+      "path": "/AIFoundation/UpgradeGuide/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 2,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 120
+    },
+    {
+      "path": "/AIFoundation/VideoTutorials/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": false,
+      "internal_links": 3,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 166
+    },
+    {
+      "path": "/AIFoundation/WhatDoesItDo/Index",
+      "has_frontmatter": true,
+      "has_description": true,
+      "has_supademo_or_todo": true,
+      "internal_links": 16,
+      "broken_links": [],
+      "http_status": 200,
+      "word_count": 523
+    }
+  ],
+  "supademo_missing": []
+}

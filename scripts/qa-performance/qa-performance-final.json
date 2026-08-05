@@ -1,0 +1,547 @@
+{
+  "verdict": "Conditional Pass",
+  "overall_rating": "B+ (local mint); CDN CWV not gateable from this environment",
+  "timestamp": "2026-08-04T08:36:20Z",
+  "environment": "http://127.0.0.1:3000 (mint dev)",
+  "release_readiness": "CONDITIONAL \u2014 fix BUG-PERF-001 before production sign-off; retest CWV on CDN after publish",
+  "verified_bugs": [
+    {
+      "id": "BUG-PERF-001",
+      "title": "Broken image(s) on ExtNsT3AI SEO documentation page",
+      "severity": "High",
+      "priority": "P1",
+      "browser": "Chromium",
+      "device": "Desktop 1440\u00d7900",
+      "environment": "http://127.0.0.1:3000",
+      "url": "/ExtNsT3AI/SEO/Index",
+      "preconditions": "Mintlify preview running; cold or warm load",
+      "steps": [
+        "Open /ExtNsT3AI/SEO/Index",
+        "Inspect content images naturalWidth",
+        "Repeat 3 times in fresh pages"
+      ],
+      "expected": "All content images load with naturalWidth > 0",
+      "actual": "Reproducible 3/3; broken src example: https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png",
+      "reproducibility": "Confirmed 2/3 in final recheck (attempt 1 raced before image settle); URL consistently 404/0 naturalWidth when settled",
+      "metrics": {
+        "repro": [
+          {
+            "attempt": 1,
+            "total": 2,
+            "broken": 1,
+            "ok": 1,
+            "broken_srcs": [
+              "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+            ]
+          },
+          {
+            "attempt": 2,
+            "total": 2,
+            "broken": 1,
+            "ok": 1,
+            "broken_srcs": [
+              "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+            ]
+          },
+          {
+            "attempt": 3,
+            "total": 2,
+            "broken": 1,
+            "ok": 1,
+            "broken_srcs": [
+              "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+            ]
+          }
+        ],
+        "md_refs": [
+          "./images/dasebord-6.png",
+          "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+        ]
+      },
+      "console": [],
+      "network_observations": "Broken img src points at duplicated path ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png on live docs host.",
+      "root_cause": "Markdown/HTML still references ReadTheDocs-style absolute or wrongly rewritten image path instead of local ./images asset",
+      "suggested_fix": "Replace absolute https://docs.t3planet.de/en/latest/... image URLs with local ./images/ (or correct relative paths) across 12 MD files (~31 URLs). Start with ExtNsT3AI/SEO/Index.md ai_schema3.png.",
+      "regression_scope": {
+        "files_with_en_latest_media": 12,
+        "total_urls": 31,
+        "note": "Absolute docs.t3planet.de/en/latest image URLs in Mintlify MD; may break or load slowly depending on live asset paths."
+      },
+      "screenshot": "scripts/qa-performance/screenshots-v2/seo-images.png",
+      "screenshots": [
+        "scripts/qa-performance/screenshots-v2/seo-broken-img.png"
+      ]
+    }
+  ],
+  "false_positives_rejected": [
+    {
+      "title": "Local mint DCL ~2\u20134s",
+      "reason": "Warm avg 6761ms is consistent with mint dev compile cost; not a CDN product defect. Retest on production."
+    },
+    {
+      "id": "BUG-PERF-003",
+      "title": "Documentation search input not reliably usable",
+      "reason": "Automation FP. Recheck 3/3: #search-bar-entry opens dialog; typing \"license\" accepted; results UI present."
+    },
+    {
+      "id": "BUG-PERF-006",
+      "title": "Nav routes returning errors/soft 404",
+      "reason": "FP. License/ExtendTrial + GenerateLicenseKey were mint timeouts; recheck 3/3 each HTTP 200, soft404=false (408\u20131070ms)."
+    }
+  ],
+  "nav_http": {
+    "routes_ok": 672,
+    "prior_timeouts_revalidated": 2,
+    "fail_after_recheck": 0
+  },
+  "page_metrics_warm": [
+    {
+      "path": "/",
+      "samples": [
+        {
+          "ttfb": 421,
+          "dcl": 602,
+          "load": 998,
+          "fcp": 584,
+          "requests": 73,
+          "transferKB": 1004,
+          "wall_ms": 1049
+        },
+        {
+          "ttfb": 1948,
+          "dcl": 2140,
+          "load": 2448,
+          "fcp": 2120,
+          "requests": 73,
+          "transferKB": 1004,
+          "wall_ms": 2550
+        }
+      ]
+    },
+    {
+      "path": "/ExtNsT3AI/Index",
+      "samples": [
+        {
+          "ttfb": 2117,
+          "dcl": 2333,
+          "load": 2645,
+          "fcp": 2316,
+          "requests": 56,
+          "transferKB": 1004,
+          "wall_ms": 2749
+        },
+        {
+          "ttfb": 1887,
+          "dcl": 2082,
+          "load": 2385,
+          "fcp": 2068,
+          "requests": 56,
+          "transferKB": 1004,
+          "wall_ms": 2492
+        }
+      ]
+    },
+    {
+      "path": "/AIFoundation/Introduction/Index",
+      "samples": [
+        {
+          "ttfb": 2775,
+          "dcl": 2979,
+          "load": 3303,
+          "fcp": 2964,
+          "requests": 63,
+          "transferKB": 1090,
+          "wall_ms": 3390
+        },
+        {
+          "ttfb": 1860,
+          "dcl": 2082,
+          "load": 2395,
+          "fcp": 2064,
+          "requests": 64,
+          "transferKB": 1090,
+          "wall_ms": 2499
+        }
+      ]
+    },
+    {
+      "path": "/License/Index",
+      "samples": [
+        {
+          "ttfb": 2094,
+          "dcl": 2327,
+          "load": 2682,
+          "fcp": 2316,
+          "requests": 56,
+          "transferKB": 1004,
+          "wall_ms": 2740
+        },
+        {
+          "ttfb": 1795,
+          "dcl": 1986,
+          "load": 2280,
+          "fcp": 1972,
+          "requests": 56,
+          "transferKB": 1004,
+          "wall_ms": 2392
+        }
+      ]
+    },
+    {
+      "path": "/AllExtensions/Index",
+      "samples": [
+        {
+          "ttfb": 1993,
+          "dcl": 2188,
+          "load": 2519,
+          "fcp": 2172,
+          "requests": 68,
+          "transferKB": 1004,
+          "wall_ms": 2603
+        },
+        {
+          "ttfb": 2296,
+          "dcl": 2486,
+          "load": 2799,
+          "fcp": 2472,
+          "requests": 68,
+          "transferKB": 1004,
+          "wall_ms": 2900
+        }
+      ]
+    }
+  ],
+  "network_throttle": [
+    {
+      "network": "broadband",
+      "wall_ms": 3987,
+      "ttfb": 2549,
+      "fcp": 3120,
+      "dcl": 3313
+    },
+    {
+      "network": "fast_4g",
+      "wall_ms": 4154,
+      "ttfb": 1377,
+      "fcp": 3372,
+      "dcl": 3398
+    },
+    {
+      "network": "slow_4g",
+      "wall_ms": 12762,
+      "ttfb": 3597,
+      "fcp": 11804,
+      "dcl": 12091
+    },
+    {
+      "network": "3g",
+      "wall_ms": 27290,
+      "ttfb": 2926,
+      "fcp": 19460,
+      "dcl": 26636
+    }
+  ],
+  "browser_compat": [
+    {
+      "engine": "chromium",
+      "home_title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "ok": true,
+      "mobile_ok": true
+    },
+    {
+      "engine": "firefox",
+      "home_title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "ok": true,
+      "mobile_ok": true
+    },
+    {
+      "engine": "webkit",
+      "home_title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "ok": true,
+      "mobile_ok": true
+    }
+  ],
+  "device_compat": {
+    "desktop_1280": "PASS (Chromium/Firefox/WebKit)",
+    "mobile_390x844": "PASS (content renders all 3 engines)",
+    "note": "Full physical device matrix not run; viewport emulation used."
+  },
+  "observations": [
+    {
+      "topic": "Nav loader",
+      "result": "PASS",
+      "detail": "3/3 activations",
+      "repros": [
+        {
+          "attempt": 1,
+          "ok": true,
+          "href": "/llms.txt",
+          "sawActive": true,
+          "sawBusy": true,
+          "sawVeil": true,
+          "progressExists": true,
+          "barExists": true
+        },
+        {
+          "attempt": 2,
+          "ok": true,
+          "href": "/llms.txt",
+          "sawActive": true,
+          "sawBusy": true,
+          "sawVeil": true,
+          "progressExists": true,
+          "barExists": true
+        },
+        {
+          "attempt": 3,
+          "ok": true,
+          "href": "/llms.txt",
+          "sawActive": true,
+          "sawBusy": true,
+          "sawVeil": true,
+          "progressExists": true,
+          "barExists": true
+        }
+      ]
+    },
+    {
+      "topic": "Browser compatibility",
+      "result": "PASS",
+      "detail": "6/6 home loads"
+    },
+    {
+      "topic": "Sphinx HTML bloat",
+      "result": "PASS",
+      "detail": "No Search.setIndex"
+    },
+    {
+      "topic": "Network degradation",
+      "result": "EXPECTED",
+      "detail": "3G significantly slower; not filed as product defect on mint dev",
+      "metrics": [
+        {
+          "network": "broadband",
+          "wall_ms": 3987,
+          "ttfb": 2549,
+          "fcp": 3120,
+          "dcl": 3313
+        },
+        {
+          "network": "fast_4g",
+          "wall_ms": 4154,
+          "ttfb": 1377,
+          "fcp": 3372,
+          "dcl": 3398
+        },
+        {
+          "network": "slow_4g",
+          "wall_ms": 12762,
+          "ttfb": 3597,
+          "fcp": 11804,
+          "dcl": 12091
+        },
+        {
+          "network": "3g",
+          "wall_ms": 27290,
+          "ttfb": 2926,
+          "fcp": 19460,
+          "dcl": 26636
+        }
+      ]
+    },
+    {
+      "topic": "Warm SPA hops (local)",
+      "result": "INFO",
+      "metrics": [
+        {
+          "path": "/License/Index",
+          "ms": 6166
+        },
+        {
+          "path": "/AllExtensions/Index",
+          "ms": 6954
+        },
+        {
+          "path": "/ExtNsT3AI/Index",
+          "ms": 8800
+        },
+        {
+          "path": "/AIFoundation/Introduction/Index",
+          "ms": 5125
+        }
+      ],
+      "avg_ms": 6761.25
+    },
+    {
+      "topic": "Stress",
+      "result": "PASS",
+      "detail": "15 sidebar toggles + 4 hops, 0 errors"
+    }
+  ],
+  "loader": {
+    "result": "PASS",
+    "repro": "3/3 sawActive/sawBusy/sawVeil/progress+bar"
+  },
+  "search": {
+    "result": "PASS",
+    "repro": "3/3 typed_ok after click #search-bar-entry"
+  },
+  "live_image_url_scope": {
+    "files": 12,
+    "urls": 31
+  },
+  "fp_recheck": {
+    "nav_recheck": [
+      {
+        "route": "/License/ExtendTrial/Index",
+        "attempt": 1,
+        "status": 200,
+        "soft404": false,
+        "ms": 1070,
+        "len": 8000
+      },
+      {
+        "route": "/License/ExtendTrial/Index",
+        "attempt": 2,
+        "status": 200,
+        "soft404": false,
+        "ms": 443,
+        "len": 8000
+      },
+      {
+        "route": "/License/ExtendTrial/Index",
+        "attempt": 3,
+        "status": 200,
+        "soft404": false,
+        "ms": 447,
+        "len": 8000
+      },
+      {
+        "route": "/License/GenerateLicenseKey/Index",
+        "attempt": 1,
+        "status": 200,
+        "soft404": false,
+        "ms": 422,
+        "len": 8000
+      },
+      {
+        "route": "/License/GenerateLicenseKey/Index",
+        "attempt": 2,
+        "status": 200,
+        "soft404": false,
+        "ms": 415,
+        "len": 8000
+      },
+      {
+        "route": "/License/GenerateLicenseKey/Index",
+        "attempt": 3,
+        "status": 200,
+        "soft404": false,
+        "ms": 408,
+        "len": 8000
+      }
+    ],
+    "search_recheck": [
+      {
+        "attempt": 1,
+        "opened_via": "click:#search-bar-entry",
+        "focused": {
+          "ok": true,
+          "ph": "",
+          "tag": "INPUT"
+        },
+        "typed_ok": true,
+        "ok": true,
+        "state": {
+          "hasDialog": true,
+          "inputs": [
+            {
+              "ph": "",
+              "val": "license",
+              "vis": true
+            }
+          ],
+          "hasLicenseWord": true,
+          "hasResultsHint": true
+        }
+      },
+      {
+        "attempt": 2,
+        "opened_via": "click:#search-bar-entry",
+        "focused": {
+          "ok": true,
+          "ph": "",
+          "tag": "INPUT"
+        },
+        "typed_ok": true,
+        "ok": true,
+        "state": {
+          "hasDialog": true,
+          "inputs": [
+            {
+              "ph": "",
+              "val": "license",
+              "vis": true
+            }
+          ],
+          "hasLicenseWord": true,
+          "hasResultsHint": true
+        }
+      },
+      {
+        "attempt": 3,
+        "opened_via": "click:#search-bar-entry",
+        "focused": {
+          "ok": true,
+          "ph": "",
+          "tag": "INPUT"
+        },
+        "typed_ok": true,
+        "ok": true,
+        "state": {
+          "hasDialog": true,
+          "inputs": [
+            {
+              "ph": "",
+              "val": "license",
+              "vis": true
+            }
+          ],
+          "hasLicenseWord": true,
+          "hasResultsHint": true
+        }
+      }
+    ],
+    "image_recheck": [
+      {
+        "attempt": 1,
+        "broken": []
+      },
+      {
+        "attempt": 2,
+        "broken": [
+          {
+            "src": "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png",
+            "nw": 0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "broken": [
+          {
+            "src": "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png",
+            "nw": 0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "decisions": {
+      "BUG-PERF-001": "KEEP",
+      "BUG-PERF-003": "DROP_AS_FP",
+      "BUG-PERF-006": "DROP_AS_FP_TIMEOUT"
+    }
+  }
+}

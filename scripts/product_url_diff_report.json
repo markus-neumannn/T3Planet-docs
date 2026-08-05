@@ -1,0 +1,3283 @@
+{
+  "summary": {
+    "products": 73,
+    "exact_matches": 700,
+    "mintlify_only": 3,
+    "rtd_only": 5
+  },
+  "products": {
+    "AIFoundation": {
+      "exact": [],
+      "mintlify_only": [
+        {
+          "mintlify": "http://192.168.0.137:3000/AIFoundation/Index",
+          "note": "New Mintlify hub page"
+        }
+      ],
+      "rtd_only": []
+    },
+    "AllExtensions": {
+      "exact": [],
+      "mintlify_only": [
+        {
+          "mintlify": "http://192.168.0.137:3000/AllExtensions/Index",
+          "note": "New Mintlify hub page"
+        }
+      ],
+      "rtd_only": []
+    },
+    "AllTemplates": {
+      "exact": [],
+      "mintlify_only": [
+        {
+          "mintlify": "http://192.168.0.137:3000/AllTemplates/Index",
+          "note": "New Mintlify hub page"
+        }
+      ],
+      "rtd_only": []
+    },
+    "EXTAvatar": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/Customization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/Customization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/EditorGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/EditorGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/GlobalSettingsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/GlobalSettingsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/HelpfulLinks/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/HelpfulLinks/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/Localization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/Localization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/MaskElements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/MaskElements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/SEO/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/SEO/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/SpeedPerformance/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/SpeedPerformance/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/TemplatesLayouts/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/TemplatesLayouts/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAvatar/UpgradeGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAvatar/UpgradeGuide/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "EXTAyu": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/CustomElements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/CustomElements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/Customization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/Customization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/DemoSite/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/DemoSite/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/FAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/FAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/GlobalSettingsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/GlobalSettingsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/InstallationT3AyuReactjs/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/InstallationT3AyuReactjs/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/InstallationT3AyuTheme/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/InstallationT3AyuTheme/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/Localization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/Localization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/PreviewFeature/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/PreviewFeature/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTAyu/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTAyu/Localization/Installationt3ayu_reactjs.zip.html",
+          "note": "RTD-only artifact path"
+        }
+      ]
+    },
+    "EXTBootstrap": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/CustomElements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/CustomElements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/Customization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/Customization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/FlexFormtoContentBlockMigration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/FlexFormtoContentBlockMigration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/GlobalSettingsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/GlobalSettingsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/HelpfulLinks/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/HelpfulLinks/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/Localization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/Localization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/SEO/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/SEO/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/SpeedPerformance/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/SpeedPerformance/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/TemplatesLayouts/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/TemplatesLayouts/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTBootstrap/UpgradeGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTBootstrap/UpgradeGuide/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "EXTKarma": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/CaptchaConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/CaptchaConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/ContentBlockElements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/ContentBlockElements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/Customization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/Customization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/EditorGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/EditorGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/GlobalSettingsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/GlobalSettingsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/HelpfulLinks/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/HelpfulLinks/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/Localization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/Localization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/SEO/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/SEO/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/SpeedPerformance/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/SpeedPerformance/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/TemplatesLayouts/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/TemplatesLayouts/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/UpgradeGuideForContainer/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/UpgradeGuideForContainer/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTKarma/UpgradeV13xToV14x/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTKarma/UpgradeV13xToV14x/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "EXTNsZohoCrm": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTNsZohoCrm/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/EXTNsZohoCrm/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTNsZohoCrm/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTNsZohoCrm/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTNsZohoCrm/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTNsZohoCrm/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTNsZohoCrm/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTNsZohoCrm/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTNsZohoCrm/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTNsZohoCrm/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTNsZohoCrm/Support.html",
+          "mintlify": "http://192.168.0.137:3000/EXTNsZohoCrm/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTNsZohoCrm/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTNsZohoCrm/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "EXTReactBootstrap": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/CustomElements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/CustomElements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/Customization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/Customization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/FAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/FAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/GlobalSettingsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/GlobalSettingsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/Localization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/Localization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/PreviewFeature/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/PreviewFeature/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReactBootstrap/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReactBootstrap/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "EXTReva": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/CustomElements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/CustomElements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/Customization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/Customization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/DemoSite/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/DemoSite/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/FAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/FAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/GlobalSettingsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/GlobalSettingsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/InstallationT3RevaReactjs/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/InstallationT3RevaReactjs/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/InstallationT3RevaTheme/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/InstallationT3RevaTheme/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/Localization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/Localization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/PreviewFeature/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/PreviewFeature/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTReva/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTReva/Localization/Installationt3reva_reactjs.zip.html",
+          "note": "RTD-only artifact path"
+        }
+      ]
+    },
+    "EXTShiva": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/CustomElements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/CustomElements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/Customization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/Customization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/DemoSite/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/DemoSite/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/FAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/FAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/GlobalSettingsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/GlobalSettingsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/InstallationT3ShivaReactjs/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/InstallationT3ShivaReactjs/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/InstallationT3ShivaTheme/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/InstallationT3ShivaTheme/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/Localization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/Localization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/PreviewFeature/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/PreviewFeature/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShiva/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShiva/Localization/Installationt3shiva_reactjs.zip.html",
+          "note": "RTD-only artifact path"
+        }
+      ]
+    },
+    "EXTShop": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShop/DemoSite/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShop/DemoSite/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShop/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShop/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShop/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShop/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShop/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShop/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShop/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShop/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShop/ShopConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShop/ShopConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShop/ThemeConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShop/ThemeConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/EXTShop/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/EXTShop/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNitsanHellobar": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanHellobar/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanHellobar/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanHellobar/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanHellobar/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanHellobar/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanHellobar/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanHellobar/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanHellobar/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanHellobar/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanHellobar/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanHellobar/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanHellobar/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanHellobar/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanHellobar/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNitsanMaintenance": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanMaintenance/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanMaintenance/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanMaintenance/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanMaintenance/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanMaintenance/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanMaintenance/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanMaintenance/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanMaintenance/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanMaintenance/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanMaintenance/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanMaintenance/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanMaintenance/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNitsanMaintenance/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNitsanMaintenance/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsAllChat": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllChat/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllChat/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllChat/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllChat/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllChat/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllChat/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllChat/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllChat/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllChat/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllChat/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllChat/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllChat/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllChat/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllChat/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsAllLightbox": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllLightbox/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllLightbox/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllLightbox/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllLightbox/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllLightbox/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllLightbox/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllLightbox/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllLightbox/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllLightbox/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllLightbox/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllLightbox/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllLightbox/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllLightbox/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllLightbox/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsAllSliders": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllSliders/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllSliders/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllSliders/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllSliders/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllSliders/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllSliders/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllSliders/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllSliders/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllSliders/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllSliders/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllSliders/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllSliders/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsAllSliders/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsAllSliders/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsBackup": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/ConnectClouds/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/ConnectClouds/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/DownloadsLogsHistory/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/DownloadsLogsHistory/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/GlobalSettings/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/GlobalSettings/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/ScheduleBackup/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/ScheduleBackup/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/StartOneClickBackup/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/StartOneClickBackup/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/SystemRequirement/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/SystemRequirement/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsBackup/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsBackup/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsCacheWebhook": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCacheWebhook/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCacheWebhook/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCacheWebhook/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCacheWebhook/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCacheWebhook/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCacheWebhook/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCacheWebhook/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCacheWebhook/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCacheWebhook/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCacheWebhook/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCacheWebhook/Usage/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCacheWebhook/Usage/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsCloudflare": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCloudflare/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCloudflare/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCloudflare/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCloudflare/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCloudflare/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCloudflare/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCloudflare/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCloudflare/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCloudflare/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCloudflare/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCloudflare/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCloudflare/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCloudflare/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCloudflare/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsComments": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/CommentModeration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/CommentModeration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/CommentOnAllPages.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/CommentOnAllPages"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/CommentPluginSettings/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/CommentPluginSettings/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/GlobalConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/GlobalConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsComments/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsComments/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsCookieYes": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookieYes/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookieYes/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookieYes/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookieYes/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookieYes/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookieYes/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookieYes/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookieYes/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookieYes/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookieYes/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookieYes/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookieYes/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookieYes/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookieYes/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsCookiebot": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiebot/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiebot/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiebot/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiebot/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiebot/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiebot/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiebot/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiebot/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiebot/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiebot/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiebot/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiebot/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiebot/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiebot/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsCookiesHint": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiesHint/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiesHint/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiesHint/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiesHint/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiesHint/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiesHint/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiesHint/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiesHint/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiesHint/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiesHint/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiesHint/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiesHint/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsCookiesHint/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsCookiesHint/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsDisqusComment": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsDisqusComment/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsDisqusComment/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsDisqusComment/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsDisqusComment/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsDisqusComment/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsDisqusComment/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsDisqusComment/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsDisqusComment/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsDisqusComment/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsDisqusComment/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsDisqusComment/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsDisqusComment/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsDisqusComment/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsDisqusComment/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsEvent": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/Configuration/AddEventPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/Configuration/AddEventPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/Configuration/AddEvents/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/Configuration/AddEvents/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/GlobalConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/GlobalConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsEvent/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsEvent/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsExtCompatibility": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsExtCompatibility/ActionResults/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsExtCompatibility/ActionResults/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsExtCompatibility/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsExtCompatibility/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsExtCompatibility/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsExtCompatibility/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsExtCompatibility/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsExtCompatibility/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsExtCompatibility/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsExtCompatibility/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsExtCompatibility/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsExtCompatibility/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsExtCompatibility/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsExtCompatibility/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsExtCompatibility/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsExtCompatibility/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsFAQ": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/FAQModeration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/FAQModeration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/FAQPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/FAQPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/NSFaqBackendModule/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/NSFaqBackendModule/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/SubmitFAQForm/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/SubmitFAQForm/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFAQ/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFAQ/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsFacebookComment": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFacebookComment/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFacebookComment/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFacebookComment/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFacebookComment/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFacebookComment/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFacebookComment/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFacebookComment/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFacebookComment/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFacebookComment/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFacebookComment/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFacebookComment/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFacebookComment/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFacebookComment/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFacebookComment/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsFeedback": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/NSFeedbackModules/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/NSFeedbackModules/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/SetFeedbackFormForEntireSite/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/SetFeedbackFormForEntireSite/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFeedback/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFeedback/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsFriendlyCaptcha": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFriendlyCaptcha/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFriendlyCaptcha/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFriendlyCaptcha/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFriendlyCaptcha/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFriendlyCaptcha/CustomIntegration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFriendlyCaptcha/CustomIntegration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFriendlyCaptcha/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFriendlyCaptcha/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFriendlyCaptcha/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFriendlyCaptcha/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFriendlyCaptcha/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFriendlyCaptcha/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFriendlyCaptcha/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFriendlyCaptcha/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsFriendlyCaptcha/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsFriendlyCaptcha/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsGallery": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/AlbumView/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/AlbumView/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/GoogleSearchView/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/GoogleSearchView/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/HowToSetupAndDisplayGallery/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/HowToSetupAndDisplayGallery/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/IsotopeView/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/IsotopeView/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/MasonryView/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/MasonryView/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/MosaicView/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/MosaicView/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/NSGalleryModule/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/NSGalleryModule/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/SliderView/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/SliderView/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGallery/ZoomView/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGallery/ZoomView/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsGoogleDocs": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/GoogleDocsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/GoogleDocsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/ImportGoogleDocToPage/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/ImportGoogleDocToPage/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/NSGoogleDocsModule/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/NSGoogleDocsModule/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/PrepareGoogleDocWithMarkers/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/PrepareGoogleDocWithMarkers/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleDocs/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleDocs/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsGoogleMap": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/Configuration/AddMapAPI/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/Configuration/AddMapAPI/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/Configuration/AddMapLocations/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/Configuration/AddMapLocations/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleMap/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleMap/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsGoogleSiteKit": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/GettingStarted/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/GettingStarted/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/GuidetoFreeVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/GuidetoFreeVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/HowToIntegrateGoogleSitekit/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/HowToIntegrateGoogleSitekit/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/Troubleshooting/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/Troubleshooting/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGoogleSiteKit/UsingSiteKit/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGoogleSiteKit/UsingSiteKit/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsGridtoContainer": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGridtoContainer/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGridtoContainer/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGridtoContainer/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGridtoContainer/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGridtoContainer/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGridtoContainer/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGridtoContainer/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGridtoContainer/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGridtoContainer/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGridtoContainer/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGridtoContainer/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGridtoContainer/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGridtoContainer/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGridtoContainer/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsGuestbook": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGuestbook/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGuestbook/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGuestbook/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGuestbook/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGuestbook/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGuestbook/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGuestbook/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGuestbook/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGuestbook/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGuestbook/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGuestbook/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGuestbook/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsGuestbook/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsGuestbook/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsHelpDesk": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/CategoryStatus/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/CategoryStatus/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/CustomizeForm/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/CustomizeForm/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/FormSettings/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/FormSettings/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/GlobalSettings/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/GlobalSettings/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/PluginConfigurations/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/PluginConfigurations/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/TicketStatus/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/TicketStatus/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/Tickets/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/Tickets/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHelpDesk/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHelpDesk/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsHubspot": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHubspot/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHubspot/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHubspot/FreeVersionConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHubspot/FreeVersionConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHubspot/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHubspot/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHubspot/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHubspot/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHubspot/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHubspot/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHubspot/PremiumVersionConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHubspot/PremiumVersionConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHubspot/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHubspot/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsHubspot/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsHubspot/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsInstagram": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsInstagram/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsInstagram/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsInstagram/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsInstagram/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsInstagram/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsInstagram/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsInstagram/InstagramApiToken/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsInstagram/InstagramApiToken/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsInstagram/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsInstagram/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsInstagram/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsInstagram/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsInstagram/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsInstagram/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsInstagram/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsInstagram/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsLazyload": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsLazyload/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsLazyload/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsLazyload/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsLazyload/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsLazyload/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsLazyload/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsLazyload/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsLazyload/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsLazyload/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsLazyload/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsLazyload/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsLazyload/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsLazyload/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsLazyload/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsNewsAdvancedSearch": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsAdvancedSearch/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsNewsComments": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/CommentModeration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/CommentModeration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/CommentPluginSettings/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/CommentPluginSettings/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/ForDevelopers/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/ForDevelopers/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/GlobalConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/GlobalConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/NewsCommentModule/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/NewsCommentModule/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsComments/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsComments/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsNewsSlickSlider": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlickSlider/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlickSlider/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlickSlider/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlickSlider/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlickSlider/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlickSlider/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlickSlider/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlickSlider/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlickSlider/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlickSlider/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlickSlider/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlickSlider/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlickSlider/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlickSlider/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsNewsSlider": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Configuration/AddNewsSliderPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Configuration/AddNewsSliderPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Configuration/NivoSlider/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Configuration/NivoSlider/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Configuration/OwlcarouselSlider/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Configuration/OwlcarouselSlider/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Configuration/RoyalSlider/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Configuration/RoyalSlider/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Configuration/SlickSlider/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Configuration/SlickSlider/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsNewsSlider/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsNewsSlider/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsOpenStreetMap": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/Configuration/AddMapLocations/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/Configuration/AddMapLocations/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsOpenStreetMap/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsOpenStreetMap/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsPWA": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPWA/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPWA/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPWA/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPWA/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPWA/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPWA/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPWA/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPWA/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPWA/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPWA/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPWA/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPWA/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPWA/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPWA/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsPersonio": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPersonio/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPersonio/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPersonio/ConfigurationOfPlugins/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPersonio/ConfigurationOfPlugins/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPersonio/ConfigurePersonioAPIandScheduler/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPersonio/ConfigurePersonioAPIandScheduler/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPersonio/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPersonio/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPersonio/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPersonio/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPersonio/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPersonio/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPersonio/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPersonio/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPersonio/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPersonio/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsProtectSite": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsProtectSite/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsProtectSite/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsProtectSite/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsProtectSite/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsProtectSite/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsProtectSite/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsProtectSite/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsProtectSite/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsProtectSite/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsProtectSite/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsProtectSite/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsProtectSite/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsProtectSite/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsProtectSite/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsPublicationComment": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPublicationComment/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPublicationComment/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPublicationComment/ExtensionConfigurations/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPublicationComment/ExtensionConfigurations/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPublicationComment/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPublicationComment/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPublicationComment/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPublicationComment/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPublicationComment/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPublicationComment/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPublicationComment/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPublicationComment/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsPublicationComment/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsPublicationComment/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsRevolutionSlider": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/KnownIssues/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/KnownIssues/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider1.0/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider1.0/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider1.0/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider1.0/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider1.0/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider1.0/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider2.0/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider2.0/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider2.0/MigrationFrom1to2/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider2.0/MigrationFrom1to2/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider3.0/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider3.0/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider3.0/MigrationFrom2to3/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider3.0/MigrationFrom2to3/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSlider3.0/SystemRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSlider3.0/SystemRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSliderLatest/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsRevolutionSlider/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsRevolutionSlider/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsSharethis": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSharethis/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSharethis/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSharethis/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSharethis/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSharethis/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSharethis/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSharethis/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSharethis/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSharethis/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSharethis/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSharethis/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSharethis/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSharethis/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSharethis/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsSnow": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSnow/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSnow/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSnow/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSnow/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSnow/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSnow/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSnow/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSnow/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSnow/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSnow/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSnow/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSnow/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSnow/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSnow/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsSocialLogin": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/BeforeGettingStarted/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/BeforeGettingStarted/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/FAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/FAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/Screenshots/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/Screenshots/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/SystemRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/SystemRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsSocialLogin/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsSocialLogin/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsStatcounter": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsStatcounter/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsStatcounter/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsStatcounter/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsStatcounter/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsStatcounter/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsStatcounter/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsStatcounter/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsStatcounter/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsStatcounter/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsStatcounter/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsStatcounter/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsStatcounter/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsStatcounter/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsStatcounter/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsT3AA": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/AIAudioGenerator/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/AIAudioGenerator/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/AIFilemeta/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/AIFilemeta/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/CkeditorAccessibilityChecker/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/KnownProblems/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/KnownProblems/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Screenshots/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/Screenshots/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/SimplifiedText/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/SimplifiedText/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/SpeedCoreWebVitals/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/SpeedCoreWebVitals/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/SystemRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/SystemRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/T3AAVoiceover/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/T3AAVoiceover/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/UpdateGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/UpdateGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AA/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AA/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsT3AB": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/AIBuilder/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/AIBuilder/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/AIContentBlock/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/AIContentBlock/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/AIForm/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/AIForm/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Forms/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/Forms/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/HowT3ABWorks/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/HowT3ABWorks/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Screenshots/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/Screenshots/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/SystemRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/SystemRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/T3ABAIBuilder/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/T3ABAIBuilder/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/T3ABContentBlocks/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/T3ABContentBlocks/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/UpdateGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/UpdateGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AB/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AB/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsT3AC": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/CustomLLMSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/CustomLLMSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/FeatureGuide/AILogs/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/FeatureGuide/AILogs/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/FeatureGuide/AIStatistics/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/FeatureGuide/AIStatistics/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/FeatureGuide/Chatbot/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/FeatureGuide/Chatbot/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/FeatureGuide/Dashboard/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/FeatureGuide/Dashboard/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/FeatureGuide/DataSource/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/FeatureGuide/DataSource/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/FeatureGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/FeatureGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/FeatureGuide/TrainingCenter/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/FeatureGuide/TrainingCenter/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/FeatureGuide/UsageAnalytics/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/FeatureGuide/UsageAnalytics/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/KnownProblems/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/KnownProblems/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Screenshots/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/Screenshots/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/UpdateGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/UpdateGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AC/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AC/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsT3AI": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/AISettings/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/AISettings/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Appendix/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Appendix/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Content/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Content/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/FAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/FAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/KnownProblems/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/KnownProblems/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Media/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Media/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Pages/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Pages/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Prompts/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Prompts/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Releases/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Releases/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/SEO/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Screenshots/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Screenshots/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/SystemRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/SystemRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Translation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/Translation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/UpgradeGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/UpgradeGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AI/VideoTutorials/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AI/VideoTutorials/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsT3AL": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/AILocalization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/AILocalization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/AILocalizationLogs/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/AILocalizationLogs/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/KnownProblems/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/KnownProblems/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/Screenshots/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/Screenshots/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/SeamlessXLIFFImport&Export/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/StartManualLocalization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/StartManualLocalization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/SystemRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/SystemRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/T3ALTerms%28Glossary%29/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/T3ALTerms(Glossary)/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/T3ALforEveryone/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/T3ALforEveryone/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/UpdateGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/UpdateGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AL/VideoTutorials/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AL/VideoTutorials/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsT3AS": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/CustomLLMSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/CustomLLMSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/DatabaseChunking/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/DatabaseChunking/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/FrontendPlugin/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/FrontendPlugin/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/KnownProblems/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/KnownProblems/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/PerformanceConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/PerformanceConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Screenshots/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/Screenshots/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/UpdateGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/UpdateGuide/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsT3AS/VerifyIndexedData/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsT3AS/VerifyIndexedData/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsTimeLine": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTimeLine/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTimeLine/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTimeLine/ExtensionConfigurations/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTimeLine/ExtensionConfigurations/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTimeLine/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTimeLine/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTimeLine/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTimeLine/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTimeLine/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTimeLine/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTimeLine/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTimeLine/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTimeLine/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTimeLine/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsTwitter": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTwitter/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTwitter/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTwitter/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTwitter/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTwitter/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTwitter/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTwitter/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTwitter/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTwitter/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTwitter/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTwitter/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTwitter/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsTwitter/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsTwitter/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsWhatsapp": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWhatsapp/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWhatsapp/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWhatsapp/GlobalSettings/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWhatsapp/GlobalSettings/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWhatsapp/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWhatsapp/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWhatsapp/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWhatsapp/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWhatsapp/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWhatsapp/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWhatsapp/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWhatsapp/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWhatsapp/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWhatsapp/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsWpMigration": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWpMigration/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWpMigration/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWpMigration/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWpMigration/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWpMigration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWpMigration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWpMigration/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWpMigration/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWpMigration/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWpMigration/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWpMigration/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWpMigration/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsWpMigration/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsWpMigration/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsYoutube": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsYoutube/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsYoutube/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsYoutube/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsYoutube/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsYoutube/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsYoutube/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsYoutube/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsYoutube/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsYoutube/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsYoutube/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsYoutube/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsYoutube/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsYoutube/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsYoutube/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtNsZoho": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsZoho/BuyNow.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsZoho/BuyNow"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsZoho/Configuration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsZoho/Configuration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsZoho/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsZoho/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsZoho/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsZoho/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsZoho/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsZoho/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsZoho/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsZoho/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtNsZoho/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtNsZoho/UpdateVersion/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtRTECKEditorPack": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/AccessibilityFeatures/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/AccessibilityFeatures/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/CKEditorAI/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/CKEditorAI/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/Configurationsave/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/Configurationsave/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/ContentSecurityPolicy/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/ContentSecurityPolicy/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/GetThisExtension.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/GetThisExtension"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/HowPresetsWork/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/HowPresetsWork/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/PremiumFeatures/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/PremiumFeatures/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/PremiumPack/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/PremiumPack/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/QuickInstallation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/QuickInstallation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/Support.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/Support"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/SystemRequirements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/SystemRequirements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtRTECKEditorPack/Updating/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtRTECKEditorPack/Updating/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "ExtThemes": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/CustomElements/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/CustomElements/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/Customization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/Customization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/DemoSite/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/DemoSite/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/FAQ/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/FAQ/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/FrontendBuild/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/FrontendBuild/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/GlobalSettingsConfiguration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/GlobalSettingsConfiguration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/Installation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/Installation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/Localization/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/Localization/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/SEO/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/SEO/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/SpeedPerformance/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/SpeedPerformance/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/TemplatesLayouts/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/TemplatesLayouts/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/ExtThemes/UpgradeGuide/Index.html",
+          "mintlify": "http://192.168.0.137:3000/ExtThemes/UpgradeGuide/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "License": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/ExtendTrial/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/ExtendTrial/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/GenerateLicenseKey/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/GenerateLicenseKey/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/HelpSupport/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/HelpSupport/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/Introduction/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/Introduction/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/LicenseActivation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/LicenseDeActivation/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/LicenseDeActivation/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/LicenseManager/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/LicenseManager/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/Migration/Composer/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/Migration/Composer/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/Migration/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/Migration/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/Migration/License/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/Migration/License/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/OtherProducts/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/OtherProducts/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/RegisterAndManageDomains/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/RegisterAndManageDomains/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/RenewPurchase/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/RenewPurchase/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/SiteSets/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/SiteSets/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/UpdateVersion/CheckNewVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/UpdateVersion/CheckNewVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/UpdateVersion/Composer/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/UpdateVersion/Composer/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/UpdateVersion/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/UpdateVersion/Index"
+        },
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/License/UpdateVersion/NonComposer/Index.html",
+          "mintlify": "http://192.168.0.137:3000/License/UpdateVersion/NonComposer/Index"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "Home": {
+      "exact": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/index.html",
+          "mintlify": "http://192.168.0.137:3000/"
+        }
+      ],
+      "mintlify_only": [],
+      "rtd_only": []
+    },
+    "history": {
+      "exact": [],
+      "mintlify_only": [],
+      "rtd_only": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/history.html",
+          "note": "Legacy RTD utility page redirected to home"
+        }
+      ]
+    },
+    "readme": {
+      "exact": [],
+      "mintlify_only": [],
+      "rtd_only": [
+        {
+          "rtd": "https://docs.t3planet.de/en/latest/readme.html",
+          "note": "Legacy RTD utility page redirected to home"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "/": {
+    "dcl": 1270,
+    "ttfb": 1015,
+    "fcp": 1188,
+    "lcp": null,
+    "reqs": 78,
+    "rsc": 5,
+    "transferKB": 1442,
+    "imgs": 4,
+    "lazyImgs": 0,
+    "gated": true,
+    "domNodes": 1343
+  },
+  "/AIFoundation/Index": {
+    "dcl": 2467,
+    "ttfb": 2365,
+    "fcp": 2428,
+    "lcp": null,
+    "reqs": 82,
+    "rsc": 5,
+    "transferKB": 1444,
+    "imgs": 4,
+    "lazyImgs": 0,
+    "gated": true,
+    "domNodes": 1360
+  },
+  "/AllExtensions/Index": {
+    "dcl": 2876,
+    "ttfb": 2746,
+    "fcp": 2816,
+    "lcp": null,
+    "reqs": 107,
+    "rsc": 5,
+    "transferKB": 1442,
+    "imgs": 4,
+    "lazyImgs": 0,
+    "gated": true,
+    "domNodes": 1445
+  },
+  "/ExtNsLazyload/Configuration/Index": {
+    "dcl": 3662,
+    "ttfb": 3479,
+    "fcp": 3588,
+    "lcp": null,
+    "reqs": 58,
+    "rsc": 0,
+    "transferKB": 1201,
+    "imgs": 8,
+    "lazyImgs": 0,
+    "gated": true,
+    "domNodes": 1003
+  },
+  "/ExtNsT3AA/Index": {
+    "dcl": 995,
+    "ttfb": 788,
+    "fcp": 968,
+    "lcp": null,
+    "reqs": 78,
+    "rsc": 5,
+    "transferKB": 1442,
+    "imgs": 4,
+    "lazyImgs": 0,
+    "gated": true,
+    "domNodes": 1306
+  },
+  "/License/Index": {
+    "dcl": 2404,
+    "ttfb": 2266,
+    "fcp": 2352,
+    "lcp": null,
+    "reqs": 60,
+    "rsc": 5,
+    "transferKB": 1446,
+    "imgs": 4,
+    "lazyImgs": 0,
+    "gated": true,
+    "domNodes": 1157
+  },
+  "spa_hop_ms": 4259
+}

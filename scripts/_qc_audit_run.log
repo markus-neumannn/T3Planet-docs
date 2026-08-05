@@ -1,0 +1,41 @@
+ROOT=/Users/nitsan/www/AI Agents/Mintilify Doc
+Loading searchindex from /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/_cache_searchindex.js …
+searchindex source: /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/_cache_searchindex.js
+Live docnames (filtered): 741
+Mapped: 741  Missing: 0
+Content comparison: local=683 live_needed=58 concurrency=12
+  content 50/741
+  content 100/741
+  content 150/741
+  content 200/741
+  content 250/741
+  content 300/741
+  content 350/741
+  content 400/741
+  content 450/741
+  content 500/741
+  content 550/741
+  content 600/741
+  content 650/741
+  fetching 58 from live (workers=2) …
+  content 685/741
+  content 690/741
+  content 695/741
+  content 700/741
+  content 705/741
+  content 710/741
+  content 715/741
+  content 720/741
+  content 725/741
+  content 730/741
+  content 735/741
+  content 740/741
+  content 741/741
+Scanning EN markdown for broken images/links …
+  broken images=0 broken links=0
+Quick verify: {"mintignore_excludes_docs": true, "mintignore_excludes_de": true, "custom_css_responsive_hardening": false, "sample_page": "AIFoundation/Introduction/Index", "sample_http_status": 200, "sample_has_Search_setIndex": false}
+
+Verdict: FAIL (custom.css)
+Wrote /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/production-readiness-audit.json
+Wrote /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/PRODUCTION_READINESS_AUDIT.md
+Elapsed 41.1s

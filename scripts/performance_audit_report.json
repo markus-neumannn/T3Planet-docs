@@ -1,0 +1,183 @@
+{
+  "summary": {
+    "base_url": "http://127.0.0.1:3000",
+    "pages_tested": 10,
+    "dom_ms_median": 20497,
+    "dom_ms_max": 55240,
+    "spa_ms_median": 12994,
+    "spa_ms_max": 57851,
+    "mobile_home_dom_ms": 39011,
+    "console_error_count": 27
+  },
+  "pages": [
+    {
+      "path": "/",
+      "label": "Home",
+      "dom_ms": 52263,
+      "load_ms": 296,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 0,
+      "images": 0,
+      "scripts_kb": 1686.8,
+      "transfer_kb": 1877.7,
+      "errors": []
+    },
+    {
+      "path": "/AIFoundation/Index",
+      "label": "AI Foundation",
+      "dom_ms": 55240,
+      "load_ms": 139,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 19,
+      "images": 4,
+      "scripts_kb": 236.3,
+      "transfer_kb": 241.1,
+      "errors": []
+    },
+    {
+      "path": "/AllTemplates/Index",
+      "label": "Templates",
+      "dom_ms": 41398,
+      "load_ms": 27,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 4,
+      "images": 4,
+      "scripts_kb": 0.0,
+      "transfer_kb": 1.3,
+      "errors": []
+    },
+    {
+      "path": "/AllExtensions/Index",
+      "label": "Extensions",
+      "dom_ms": 31544,
+      "load_ms": 57,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 4,
+      "images": 4,
+      "scripts_kb": 0.0,
+      "transfer_kb": 1.3,
+      "errors": []
+    },
+    {
+      "path": "/License/Index",
+      "label": "License",
+      "dom_ms": 21401,
+      "load_ms": 41,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 22,
+      "images": 4,
+      "scripts_kb": 0.0,
+      "transfer_kb": 1.3,
+      "errors": []
+    },
+    {
+      "path": "/ExtNsT3AA/Index",
+      "label": "T3AA Hub",
+      "dom_ms": 19593,
+      "load_ms": 16,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 19,
+      "images": 4,
+      "scripts_kb": 0.0,
+      "transfer_kb": 0.6,
+      "errors": []
+    },
+    {
+      "path": "/ExtNsT3AA/Screenshots/Index",
+      "label": "T3AA Screenshots",
+      "dom_ms": 14939,
+      "load_ms": 54,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 19,
+      "images": 4,
+      "scripts_kb": 0.0,
+      "transfer_kb": 1.3,
+      "errors": []
+    },
+    {
+      "path": "/ExtNsT3AA/SystemRequirements/Index",
+      "label": "T3AA System Req",
+      "dom_ms": 18991,
+      "load_ms": 32,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 19,
+      "images": 4,
+      "scripts_kb": 0.0,
+      "transfer_kb": 0.6,
+      "errors": []
+    },
+    {
+      "path": "/ExtNsT3AI/Index",
+      "label": "T3AI Hub",
+      "dom_ms": 15250,
+      "load_ms": 25,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 24,
+      "images": 4,
+      "scripts_kb": 0.0,
+      "transfer_kb": 0.9,
+      "errors": []
+    },
+    {
+      "path": "/EXTKarma/Index",
+      "label": "T3 Karma Template",
+      "dom_ms": 11118,
+      "load_ms": 37,
+      "lcp_ms": null,
+      "cls": 0,
+      "sidebar_links": 19,
+      "images": 4,
+      "scripts_kb": 0.0,
+      "transfer_kb": 0.6,
+      "errors": []
+    }
+  ],
+  "spa_navigation": [
+    {
+      "from": "/ExtNsT3AA/Index",
+      "to": "/ExtNsT3AA/Screenshots/Index",
+      "ms": 57851
+    },
+    {
+      "from": "/ExtNsT3AA/Screenshots/Index",
+      "to": "/ExtNsT3AA/SystemRequirements/Index",
+      "ms": 10528
+    },
+    {
+      "from": "/ExtNsT3AA/SystemRequirements/Index",
+      "to": "/ExtNsT3AA/Installation/Index",
+      "ms": 12994
+    }
+  ],
+  "console_errors_sample": [
+    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+    "Error: An error occurred in the Server Components render. The specific message is omitted in production builds to avoid leaking sensitive details. A digest property is included on this error instance which may provide additional details about the nature of the error.",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 403 ()"
+  ]
+}

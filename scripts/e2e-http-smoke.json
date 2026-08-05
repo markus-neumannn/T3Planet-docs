@@ -1,0 +1,286 @@
+{
+  "ok": 40,
+  "total": 40,
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/Introduction/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/WhatDoesItDo/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/MCPServer/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/MCPTools/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/DeveloperGuide/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/DeveloperGuide/ExtensionIntegration/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/DeveloperGuide/CustomProviders/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/MCPTesting/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/Architecture/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/Usage/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/Troubleshooting/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/Privacy/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/T3PlanetCreditsQA/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "AIFoundation/ReleaseNotes/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AI/Introduction/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AI/Installation/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AI/SEO/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AI/Prompts/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AI/ReInstallEverything/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AI/UpdateGuide/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AC/Introduction/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AC/Installation/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AC/Configuration/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AC/FeatureGuide/Chatbot/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AC/FeatureGuide/DataSource/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AC/ReInstallEverything/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AS/Introduction/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AS/Installation/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AS/Configuration/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AS/FrontendPlugin/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AS/ReInstallEverything/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AA/Introduction/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AA/Installation/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AA/Configuration/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AA/AIFilemeta/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AA/T3AAVoiceover/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AA/UpdateGuide/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    },
+    {
+      "route": "ExtNsT3AA/ReInstallEverything/Index",
+      "status": 200,
+      "len": 50000,
+      "has_sidebar": true,
+      "has_error": false
+    }
+  ]
+}

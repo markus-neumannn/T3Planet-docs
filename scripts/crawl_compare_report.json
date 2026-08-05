@@ -1,0 +1,349 @@
+{
+  "counts": {
+    "rst_pages": 592,
+    "mintlify_en_pages": 700,
+    "nav_en_pages": 700,
+    "matched_slugs": 586,
+    "missing_in_mintlify": 6,
+    "extra_in_mintlify": 114
+  },
+  "missing_in_mintlify": [
+    {
+      "slug": "EXTAyu/Localization/Installationt3ayu_reactjs.zip",
+      "rst_files": [
+        "EXTAyu/Localization/Installationt3ayu_reactjs.zip/Index.rst"
+      ],
+      "expected_route": "/EXTAyu/Localization/Installationt3ayu_reactjs.zip/Index"
+    },
+    {
+      "slug": "EXTReva/Localization/Installationt3reva_reactjs.zip",
+      "rst_files": [
+        "EXTReva/Localization/Installationt3reva_reactjs.zip/Index.rst"
+      ],
+      "expected_route": "/EXTReva/Localization/Installationt3reva_reactjs.zip/Index"
+    },
+    {
+      "slug": "EXTShiva/Localization/Installationt3shiva_reactjs.zip",
+      "rst_files": [
+        "EXTShiva/Localization/Installationt3shiva_reactjs.zip/Index.rst"
+      ],
+      "expected_route": "/EXTShiva/Localization/Installationt3shiva_reactjs.zip/Index"
+    },
+    {
+      "slug": "history",
+      "rst_files": [
+        "history.rst"
+      ],
+      "expected_route": "/history/Index"
+    },
+    {
+      "slug": "index",
+      "rst_files": [
+        "index.rst"
+      ],
+      "expected_route": "/index/Index"
+    },
+    {
+      "slug": "readme",
+      "rst_files": [
+        "readme.rst"
+      ],
+      "expected_route": "/readme/Index"
+    }
+  ],
+  "extra_in_mintlify_sample": [
+    "",
+    "EXTNsZohoCrm/BuyNow",
+    "EXTNsZohoCrm/Support",
+    "ExtNitsanHellobar/BuyNow",
+    "ExtNitsanHellobar/Support",
+    "ExtNitsanMaintenance/BuyNow",
+    "ExtNitsanMaintenance/Support",
+    "ExtNsAllChat/BuyNow",
+    "ExtNsAllChat/Support",
+    "ExtNsAllLightbox/BuyNow",
+    "ExtNsAllLightbox/Support",
+    "ExtNsAllSliders/BuyNow",
+    "ExtNsAllSliders/Support",
+    "ExtNsBackup/BuyNow",
+    "ExtNsBackup/Support",
+    "ExtNsCacheWebhook/Support",
+    "ExtNsCloudflare/BuyNow",
+    "ExtNsCloudflare/Support",
+    "ExtNsComments/BuyNow",
+    "ExtNsComments/Support",
+    "ExtNsCookieYes/BuyNow",
+    "ExtNsCookieYes/Support",
+    "ExtNsCookiebot/BuyNow",
+    "ExtNsCookiebot/Support",
+    "ExtNsCookiesHint/BuyNow",
+    "ExtNsCookiesHint/Support",
+    "ExtNsDisqusComment/BuyNow",
+    "ExtNsDisqusComment/Support",
+    "ExtNsEvent/BuyNow",
+    "ExtNsEvent/Support"
+  ],
+  "redirect_count": 1624,
+  "http_sample": [
+    {
+      "slug": "ExtNsT3AC/CustomLLMSupport",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Index.html",
+      "new_route": "/ExtNsT3AC/CustomLLMSupport/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AA/AIFilemeta",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Index.html",
+      "new_route": "/ExtNsT3AA/AIFilemeta/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AI/Releases",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Index.html",
+      "new_route": "/ExtNsT3AI/Releases/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AC/FeatureGuide/AIStatistics",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Index.html",
+      "new_route": "/ExtNsT3AC/FeatureGuide/AIStatistics/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "License/UpdateVersion/NonComposer",
+      "old_url": "https://docs.t3planet.de/en/latest/License/Index.html",
+      "new_route": "/License/UpdateVersion/NonComposer/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AS/VerifyIndexedData",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Index.html",
+      "new_route": "/ExtNsT3AS/VerifyIndexedData/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtThemes/Introduction",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtThemes/Index.html",
+      "new_route": "/ExtThemes/Introduction/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AL/T3ALTerms(Glossary)",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AL/Index.html",
+      "new_route": "/ExtNsT3AL/T3ALTerms(Glossary)/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AB/Installation",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Index.html",
+      "new_route": "/ExtNsT3AB/Installation/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AC/Introduction",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Index.html",
+      "new_route": "/ExtNsT3AC/Introduction/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AB/AIForm",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Index.html",
+      "new_route": "/ExtNsT3AB/AIForm/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AB/Configuration",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AB/Index.html",
+      "new_route": "/ExtNsT3AB/Configuration/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "License/RenewPurchase",
+      "old_url": "https://docs.t3planet.de/en/latest/License/Index.html",
+      "new_route": "/License/RenewPurchase/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AI/Media",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Index.html",
+      "new_route": "/ExtNsT3AI/Media/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "EXTKarma/UpgradeV13xToV14x",
+      "old_url": "https://docs.t3planet.de/en/latest/EXTKarma/Index.html",
+      "new_route": "/EXTKarma/UpgradeV13xToV14x/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtThemes/FAQ",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtThemes/Index.html",
+      "new_route": "/ExtThemes/FAQ/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AA/CkeditorAccessibilityChecker",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Index.html",
+      "new_route": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtThemes/Installation",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtThemes/Index.html",
+      "new_route": "/ExtThemes/Installation/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "EXTKarma/UpgradeGuideForContainer",
+      "old_url": "https://docs.t3planet.de/en/latest/EXTKarma/Index.html",
+      "new_route": "/EXTKarma/UpgradeGuideForContainer/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AS/Configuration",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Index.html",
+      "new_route": "/ExtNsT3AS/Configuration/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AI/Installation",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Index.html",
+      "new_route": "/ExtNsT3AI/Installation/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "EXTKarma/Installation",
+      "old_url": "https://docs.t3planet.de/en/latest/EXTKarma/Index.html",
+      "new_route": "/EXTKarma/Installation/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Index.html",
+      "new_route": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AA/Introduction",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Index.html",
+      "new_route": "/ExtNsT3AA/Introduction/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "License/UpdateVersion",
+      "old_url": "https://docs.t3planet.de/en/latest/License/Index.html",
+      "new_route": "/License/UpdateVersion/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AS/CustomLLMSupport",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AS/Index.html",
+      "new_route": "/ExtNsT3AS/CustomLLMSupport/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "EXTKarma/SpeedPerformance",
+      "old_url": "https://docs.t3planet.de/en/latest/EXTKarma/Index.html",
+      "new_route": "/EXTKarma/SpeedPerformance/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AC/FeatureGuide/AILogs",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AC/Index.html",
+      "new_route": "/ExtNsT3AC/FeatureGuide/AILogs/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "EXTKarma/HelpfulLinks",
+      "old_url": "https://docs.t3planet.de/en/latest/EXTKarma/Index.html",
+      "new_route": "/EXTKarma/HelpfulLinks/Index",
+      "new_status": 0
+    },
+    {
+      "slug": "ExtNsT3AA/Configuration",
+      "old_url": "https://docs.t3planet.de/en/latest/ExtNsT3AA/Index.html",
+      "new_route": "/ExtNsT3AA/Configuration/Index",
+      "new_status": 0
+    }
+  ],
+  "slug_mapping_examples": [
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html"
+      ],
+      "new": "/EXTAvatar/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/Customization/Index.html",
+        "/en/latest/EXTAvatar/Customization.html"
+      ],
+      "new": "/EXTAvatar/Customization/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/EditorGuide/Index.html",
+        "/en/latest/EXTAvatar/EditorGuide.html"
+      ],
+      "new": "/EXTAvatar/EditorGuide/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/GlobalSettingsConfiguration/Index.html",
+        "/en/latest/EXTAvatar/GlobalSettingsConfiguration.html"
+      ],
+      "new": "/EXTAvatar/GlobalSettingsConfiguration/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/HelpSupport/Index.html",
+        "/en/latest/EXTAvatar/HelpSupport.html"
+      ],
+      "new": "/EXTAvatar/HelpSupport/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/HelpfulLinks/Index.html",
+        "/en/latest/EXTAvatar/HelpfulLinks.html"
+      ],
+      "new": "/EXTAvatar/HelpfulLinks/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/Installation/Index.html",
+        "/en/latest/EXTAvatar/Installation.html"
+      ],
+      "new": "/EXTAvatar/Installation/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/Introduction/Index.html",
+        "/en/latest/EXTAvatar/Introduction.html"
+      ],
+      "new": "/EXTAvatar/Introduction/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/Localization/Index.html",
+        "/en/latest/EXTAvatar/Localization.html"
+      ],
+      "new": "/EXTAvatar/Localization/Index"
+    },
+    {
+      "old": [
+        "/en/latest/EXTAvatar/Index.html",
+        "/en/latest/EXTAvatar/MaskElements/Index.html",
+        "/en/latest/EXTAvatar/MaskElements.html"
+      ],
+      "new": "/EXTAvatar/MaskElements/Index"
+    }
+  ]
+}

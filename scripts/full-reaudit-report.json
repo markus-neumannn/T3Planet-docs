@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-07-27T12:49:07",
+  "workspace": "/Users/nitsan/www/AI Agents/Mintilify Doc",
+  "verdict": "PASS",
+  "live_pages": 741,
+  "mapped": 741,
+  "missing": [],
+  "defects": [],
+  "by_kind": {},
+  "broken_local_images": [],
+  "af_nav_missing": [],
+  "notes": "Code-fence detector counts indented fences. Image equivalence includes webp/sphinx size suffixes. Landing pages with Mintlify heroes skipped when live TOC is thin."
+}

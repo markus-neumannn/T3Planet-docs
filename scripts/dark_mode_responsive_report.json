@@ -1,0 +1,973 @@
+{
+  "summary": {
+    "total_checks": 24,
+    "failed": 1,
+    "passed": 23,
+    "failures": [
+      {
+        "viewport": "laptop",
+        "size": "1280x800",
+        "path": "/",
+        "issues": [
+          {
+            "tag": "H1",
+            "text": "Welcome to T3Planet Documentation",
+            "ratio": "1.18"
+          },
+          {
+            "tag": "H2",
+            "text": "License, Installation & Updates",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "T3 Karma",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:rte_ckeditor_pack",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_news_comments",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_revolution_slider",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_t3ai",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_t3as",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_t3ac",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_t3al",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_t3aa",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_t3ab",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "TYPO3 Templates",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "T3 Avatar",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "T3 Ayu",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "T3 Bootstrap",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "T3 ReactBootstrap",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "T3 Reva",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "T3 Shiva",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "T3 Shop",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_all_chat",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_all_lightbox",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_all_sliders",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_backup",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_cloudflare",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_comments",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_cookieyes",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_cookiebot",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_cookies",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_disqus_comments",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_ext_compatibility",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_event",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_facebook_comment",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_faq",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_feedback",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_friendlycaptcha",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_gallery",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_googledocs",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_google_map",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_google_sitekit",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_gridtocontainer",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_guestbook",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_hellobar",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_helpdesk",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_hubspot",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_instagram",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_lazy_load",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:nitsan_maintenance",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_news_advance_search",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_news_slick",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_news_slider",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_open_streetmap",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_personio",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_protect_site",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_publication_comment",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_pwa",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_sharethis",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_snow",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_statcounter",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_social_login",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_timeline",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_twitter",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_whatsapp",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_wp_migration",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_cache_webhook",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_youtube",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_zoho",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H2",
+            "text": "EXT:ns_zoho_crm",
+            "ratio": "1.45"
+          },
+          {
+            "tag": "H1",
+            "text": "Welcome to T3Planet Docs",
+            "ratio": "1.22"
+          },
+          {
+            "tag": "A",
+            "text": "TYPO3 Extensions",
+            "ratio": "1.09"
+          },
+          {
+            "tag": "A",
+            "text": "TYPO3 Templates",
+            "ratio": "1.09"
+          },
+          {
+            "tag": "A",
+            "text": "AI Solutions",
+            "ratio": "1.09"
+          },
+          {
+            "tag": "A",
+            "text": "Support",
+            "ratio": "1.09"
+          },
+          {
+            "tag": "A",
+            "text": "FAQ",
+            "ratio": "1.09"
+          },
+          {
+            "tag": "A",
+            "text": "Blog",
+            "ratio": "1.09"
+          },
+          {
+            "tag": "A",
+            "text": "Contact",
+            "ratio": "1.09"
+          }
+        ],
+        "sidebarVisible": true,
+        "menuBtn": true
+      }
+    ]
+  },
+  "results": [
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "path": "/",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "path": "/ExtNsWhatsapp/Installation/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "path": "/de/",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "mobile",
+      "size": "390x844",
+      "path": "/de/ExtNsWhatsapp/Installation/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "tablet",
+      "size": "768x1024",
+      "path": "/",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "tablet",
+      "size": "768x1024",
+      "path": "/ExtNsWhatsapp/Installation/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "tablet",
+      "size": "768x1024",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "tablet",
+      "size": "768x1024",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "tablet",
+      "size": "768x1024",
+      "path": "/de/",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "tablet",
+      "size": "768x1024",
+      "path": "/de/ExtNsWhatsapp/Installation/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "laptop",
+      "size": "1280x800",
+      "path": "/",
+      "issues": [
+        {
+          "tag": "H1",
+          "text": "Welcome to T3Planet Documentation",
+          "ratio": "1.18"
+        },
+        {
+          "tag": "H2",
+          "text": "License, Installation & Updates",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "T3 Karma",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:rte_ckeditor_pack",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_news_comments",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_revolution_slider",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_t3ai",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_t3as",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_t3ac",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_t3al",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_t3aa",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_t3ab",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "TYPO3 Templates",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "T3 Avatar",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "T3 Ayu",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "T3 Bootstrap",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "T3 ReactBootstrap",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "T3 Reva",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "T3 Shiva",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "T3 Shop",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_all_chat",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_all_lightbox",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_all_sliders",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_backup",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_cloudflare",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_comments",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_cookieyes",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_cookiebot",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_cookies",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_disqus_comments",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_ext_compatibility",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_event",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_facebook_comment",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_faq",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_feedback",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_friendlycaptcha",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_gallery",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_googledocs",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_google_map",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_google_sitekit",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_gridtocontainer",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_guestbook",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_hellobar",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_helpdesk",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_hubspot",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_instagram",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_lazy_load",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:nitsan_maintenance",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_news_advance_search",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_news_slick",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_news_slider",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_open_streetmap",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_personio",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_protect_site",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_publication_comment",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_pwa",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_sharethis",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_snow",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_statcounter",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_social_login",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_timeline",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_twitter",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_whatsapp",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_wp_migration",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_cache_webhook",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_youtube",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_zoho",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H2",
+          "text": "EXT:ns_zoho_crm",
+          "ratio": "1.45"
+        },
+        {
+          "tag": "H1",
+          "text": "Welcome to T3Planet Docs",
+          "ratio": "1.22"
+        },
+        {
+          "tag": "A",
+          "text": "TYPO3 Extensions",
+          "ratio": "1.09"
+        },
+        {
+          "tag": "A",
+          "text": "TYPO3 Templates",
+          "ratio": "1.09"
+        },
+        {
+          "tag": "A",
+          "text": "AI Solutions",
+          "ratio": "1.09"
+        },
+        {
+          "tag": "A",
+          "text": "Support",
+          "ratio": "1.09"
+        },
+        {
+          "tag": "A",
+          "text": "FAQ",
+          "ratio": "1.09"
+        },
+        {
+          "tag": "A",
+          "text": "Blog",
+          "ratio": "1.09"
+        },
+        {
+          "tag": "A",
+          "text": "Contact",
+          "ratio": "1.09"
+        }
+      ],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "laptop",
+      "size": "1280x800",
+      "path": "/ExtNsWhatsapp/Installation/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "laptop",
+      "size": "1280x800",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "laptop",
+      "size": "1280x800",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "laptop",
+      "size": "1280x800",
+      "path": "/de/",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "laptop",
+      "size": "1280x800",
+      "path": "/de/ExtNsWhatsapp/Installation/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "desktop",
+      "size": "1920x1080",
+      "path": "/",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "desktop",
+      "size": "1920x1080",
+      "path": "/ExtNsWhatsapp/Installation/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "desktop",
+      "size": "1920x1080",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "desktop",
+      "size": "1920x1080",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "desktop",
+      "size": "1920x1080",
+      "path": "/de/",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    },
+    {
+      "viewport": "desktop",
+      "size": "1920x1080",
+      "path": "/de/ExtNsWhatsapp/Installation/Index",
+      "issues": [],
+      "sidebarVisible": true,
+      "menuBtn": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+HTTP checking 730 routes against http://localhost:3000...
+Running Playwright E2E...
+{
+  "base_url": "http://localhost:3000",
+  "route_count": 730,
+  "http_ok": 730,
+  "http_ms_median": 3882,
+  "broken_internal_links": 0,
+  "missing_images": 0,
+  "spa_ms_median": 5924,
+  "spa_ms_max": 7466,
+  "console_error_count": 10,
+  "ui_issue_count": 0
+}
+Wrote /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/E2E_PRODUCTION_QA_REPORT.md

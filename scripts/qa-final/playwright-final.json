@@ -1,0 +1,141 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "code": 200,
+      "h1": "Welcome to T3Planet Docs",
+      "len": 3872,
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "broken": [],
+      "visible404": false,
+      "ok": true
+    },
+    {
+      "path": "/AIFoundation/Index",
+      "code": 200,
+      "h1": "AI Foundation",
+      "len": 2482,
+      "title": "AI Foundation - T3Planet Docs",
+      "broken": [],
+      "visible404": false,
+      "ok": true
+    },
+    {
+      "path": "/AllExtensions/Index",
+      "code": 200,
+      "h1": "All TYPO3 Extensions",
+      "len": 3733,
+      "title": "All TYPO3 Extensions - T3Planet Docs",
+      "broken": [],
+      "visible404": false,
+      "ok": true
+    },
+    {
+      "path": "/License/Index",
+      "code": 200,
+      "h1": "License, Installation & Updates",
+      "len": 2439,
+      "title": "License, Installation & Updates - T3Planet Docs",
+      "broken": [],
+      "visible404": false,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AA/Index",
+      "code": 200,
+      "h1": "T3AA \u2014 TYPO3 AI Accessibility",
+      "len": 2679,
+      "title": "T3AA \u2014 TYPO3 AI Accessibility - T3Planet Docs",
+      "broken": [],
+      "visible404": false,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+      "code": 200,
+      "h1": "CKEditor Accessibility Check using T3AA",
+      "len": 2791,
+      "title": "CKEditor Accessibility Check using T3AA - T3Planet Docs",
+      "broken": [],
+      "visible404": false,
+      "ok": true
+    },
+    {
+      "path": "/EXTAvatar/Index",
+      "code": 200,
+      "h1": "T3 Avatar",
+      "len": 3100,
+      "title": "T3 Avatar - T3Planet Docs",
+      "broken": [],
+      "visible404": false,
+      "ok": true
+    },
+    {
+      "path": "/ExtNsT3AI/Index",
+      "code": 200,
+      "h1": "T3AI \u2014 TYPO3 AI Extension",
+      "len": 2613,
+      "title": "T3AI \u2014 TYPO3 AI Extension - T3Planet Docs",
+      "broken": [],
+      "visible404": false,
+      "ok": true
+    }
+  ],
+  "search": {
+    "itemCount": 0,
+    "items": [],
+    "text": "Run mint login in the cli to activate search\n\nUse the up and down arrow keys to select a result, Enter to open it, and Escape to close search."
+  },
+  "theme": {
+    "dark": true,
+    "light": true
+  },
+  "prev_next": {
+    "has_next": true,
+    "has_prev": true,
+    "href": "/AIFoundation/Installation/Index",
+    "landed": "http://127.0.0.1:3000/AIFoundation/Installation/Index"
+  },
+  "logo": {
+    "url": "http://127.0.0.1:3000/",
+    "wall": 0.28
+  },
+  "responsive": [
+    {
+      "viewport": "desktop",
+      "overflowX": false,
+      "body": 2919,
+      "h1": "Welcome to T3Planet Docs"
+    },
+    {
+      "viewport": "tablet",
+      "overflowX": false,
+      "body": 2656,
+      "h1": "Welcome to T3Planet Docs"
+    },
+    {
+      "viewport": "mobile",
+      "overflowX": false,
+      "body": 2656,
+      "h1": "Welcome to T3Planet Docs"
+    }
+  ],
+  "mobile": {
+    "clicked": true,
+    "links": 46,
+    "overflowX": false
+  },
+  "browsers": {
+    "firefox": {
+      "code": 200,
+      "h1": "License, Installation & Updates",
+      "len": 2331
+    },
+    "webkit": {
+      "code": 200,
+      "h1": "License, Installation & Updates",
+      "len": 1135
+    }
+  },
+  "pageerrors": []
+}

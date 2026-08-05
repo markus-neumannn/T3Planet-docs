@@ -1,0 +1,55 @@
+{
+  "migrated": [
+    {
+      "live": "EXTKarma/UpgradeGuideForContainer/Index.html",
+      "mint": "EXTKarma/UpgradeGuideForContainer/Index.md",
+      "ok": true,
+      "title": "Upgrade Guide For Container",
+      "chars": 2469
+    },
+    {
+      "live": "ExtNsT3AC/FeatureGuide/DataSource/Index.html",
+      "mint": "ExtNsT3AC/FeatureGuide/DataSource/Index.md",
+      "ok": true,
+      "title": "Data Source",
+      "chars": 9813
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/AIProviders/Index.html",
+      "mint": "AIFoundation/Configuration/AIProviders/Index.md",
+      "ok": true,
+      "title": "AI Providers",
+      "chars": 5789
+    },
+    {
+      "live": "ExtNsT3AF/HelpfulLinks/Index.html",
+      "mint": "AIFoundation/HelpfulLinks/Index.md",
+      "ok": true,
+      "title": "Helpful Links",
+      "chars": 2613
+    },
+    {
+      "live": "ExtNsT3AF/Integrations/MCPTesting/Index.html",
+      "mint": "AIFoundation/Integrations/MCPTesting/Index.md",
+      "ok": true,
+      "title": "MCP Server \u2014 Testing guide",
+      "chars": 17777
+    },
+    {
+      "live": "ExtNsT3AI/UpdateGuide/Index.html",
+      "mint": "ExtNsT3AI/UpdateGuide/Index.md",
+      "ok": true,
+      "title": "Update Guide",
+      "chars": 2238
+    },
+    {
+      "live": "License/GenerateLicenseKey/Index.html",
+      "mint": "License/GenerateLicenseKey/Index.md",
+      "ok": true,
+      "title": "Generating a License Key",
+      "chars": 1899
+    }
+  ],
+  "failed": [],
+  "skipped": []
+}

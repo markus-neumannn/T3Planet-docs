@@ -1,0 +1,12 @@
+{
+  "scanned_at": "2026-06-17T14:37:36.174652+00:00",
+  "base_url": "https://staging.nitsantech.de",
+  "range": {
+    "start": 1,
+    "end": 50
+  },
+  "total_checked": 50,
+  "error_count": 0,
+  "error_page_ids": [],
+  "details": {}
+}

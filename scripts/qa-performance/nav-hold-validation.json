@@ -1,0 +1,9 @@
+{
+  "saw_hold": true,
+  "saw_veil": true,
+  "max_hold_len": 2512,
+  "blank_frames": 0,
+  "held_frames": 103,
+  "n": 106,
+  "errors": []
+}

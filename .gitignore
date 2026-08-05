@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+.mintlify/
+preview-*.png
+.venv-translate/
+scripts/.de_cache.json
+.review-frames/
+scripts/dark_mode_audit_run.log
+
+# Visual regression fixtures/results — not part of Mintlify publish set
+visual-regression/
+
+# Local Sphinx clone / legacy build — never publish (bloated pages + huge tree)
+Live-docs/
+docs/
+docs/_build/

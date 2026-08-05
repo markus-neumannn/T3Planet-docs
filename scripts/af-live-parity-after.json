@@ -1,0 +1,47 @@
+{
+  "live": [
+    "ExtNsT3AF/Configuration/AIContext/Index.html",
+    "ExtNsT3AF/Configuration/AIFeatures/Index.html",
+    "ExtNsT3AF/Configuration/AIPermissions/Index.html",
+    "ExtNsT3AF/Configuration/AIPrompts/Index.html",
+    "ExtNsT3AF/Configuration/AIProviders/Index.html",
+    "ExtNsT3AF/Configuration/AIUsageAndLogs/Index.html",
+    "ExtNsT3AF/Configuration/Dashboard/Index.html",
+    "ExtNsT3AF/Configuration/Index.html",
+    "ExtNsT3AF/DeveloperGuide/Architecture/Index.html",
+    "ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index.html",
+    "ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index.html",
+    "ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index.html",
+    "ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index.html",
+    "ExtNsT3AF/DeveloperGuide/CustomProviders/Index.html",
+    "ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index.html",
+    "ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index.html",
+    "ExtNsT3AF/DeveloperGuide/Index.html",
+    "ExtNsT3AF/HelpfulLinks/Index.html",
+    "ExtNsT3AF/Index.html",
+    "ExtNsT3AF/Installation/Index.html",
+    "ExtNsT3AF/Integrations/Index.html",
+    "ExtNsT3AF/Integrations/MCPServer/Index.html",
+    "ExtNsT3AF/Integrations/MCPTesting/Index.html",
+    "ExtNsT3AF/Integrations/MCPTools/Index.html",
+    "ExtNsT3AF/Introduction/Index.html",
+    "ExtNsT3AF/Support/Index.html",
+    "ExtNsT3AF/Troubleshooting/FAQ/Index.html",
+    "ExtNsT3AF/Troubleshooting/Index.html",
+    "ExtNsT3AF/Troubleshooting/KnownProblems/Index.html",
+    "ExtNsT3AF/UserGuide/Index.html",
+    "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index.html"
+  ],
+  "missing": [],
+  "thin": [
+    [
+      "AIFoundation/Integrations/Index.md",
+      18
+    ],
+    [
+      "AIFoundation/UserGuide/Index.md",
+      15
+    ]
+  ],
+  "present_count": 31
+}

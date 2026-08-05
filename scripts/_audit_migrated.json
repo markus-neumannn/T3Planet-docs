@@ -1,0 +1,180 @@
+{
+  "migrated": [
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index.html",
+      "mint": "ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index.md",
+      "ok": true,
+      "title": "Installation",
+      "chars": 1816
+    },
+    {
+      "live": "ExtNsT3AI/Prompts/Index.html",
+      "mint": "ExtNsT3AI/Prompts/Index.md",
+      "ok": true,
+      "title": "Prompts",
+      "chars": 8969
+    },
+    {
+      "live": "ExtNsT3AI/AISettings/Index.html",
+      "mint": "ExtNsT3AI/AISettings/Index.md",
+      "ok": true,
+      "title": "AI Settings",
+      "chars": 7491
+    },
+    {
+      "live": "ExtNsT3AI/SEO/Index.html",
+      "mint": "ExtNsT3AI/SEO/Index.md",
+      "ok": true,
+      "title": "SEO",
+      "chars": 7937
+    },
+    {
+      "live": "ExtRTECKEditorPack/CKEditorAI/Index.html",
+      "mint": "ExtRTECKEditorPack/CKEditorAI/Index.md",
+      "ok": true,
+      "title": "CKEditor AI",
+      "chars": 8067
+    },
+    {
+      "live": "ExtNsT3AC/FeatureGuide/Index.html",
+      "mint": "ExtNsT3AC/FeatureGuide/Index.md",
+      "ok": true,
+      "title": "Feature Guide",
+      "chars": 4838
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index.html",
+      "mint": "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index.md",
+      "ok": true,
+      "title": "Migration from v3 to Latest (>= v12)",
+      "chars": 3936
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index.html",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index.md",
+      "ok": true,
+      "title": "FAQ",
+      "chars": 733
+    },
+    {
+      "live": "ExtThemes/Customization/Index.html",
+      "mint": "ExtThemes/Customization/Index.md",
+      "ok": true,
+      "title": "Customization",
+      "chars": 8147
+    },
+    {
+      "live": "ExtThemes/FrontendBuild/Index.html",
+      "mint": "ExtThemes/FrontendBuild/Index.md",
+      "ok": true,
+      "title": "Frontend Build",
+      "chars": 2279
+    },
+    {
+      "live": "License/UpdateVersion/Composer/Index.html",
+      "mint": "License/UpdateVersion/Composer/Index.md",
+      "ok": true,
+      "title": "Composer Update Guide",
+      "chars": 1523
+    },
+    {
+      "live": "License/Migration/Composer/Index.html",
+      "mint": "License/Migration/Composer/Index.md",
+      "ok": true,
+      "title": "Migration To New Composer",
+      "chars": 2418
+    },
+    {
+      "live": "License/LicenseActivation/Index.html",
+      "mint": "License/LicenseActivation/Index.md",
+      "ok": true,
+      "title": "License Activation",
+      "chars": 4070
+    },
+    {
+      "live": "ExtNsT3AS/VerifyIndexedData/Index.html",
+      "mint": "ExtNsT3AS/VerifyIndexedData/Index.md",
+      "ok": true,
+      "title": "Verifying Indexed Data Content in TYPO3 AI Search",
+      "chars": 1002
+    },
+    {
+      "live": "ExtNsT3AS/PerformanceConfiguration/Index.html",
+      "mint": "ExtNsT3AS/PerformanceConfiguration/Index.md",
+      "ok": true,
+      "title": "Performance Configuration Based on Database Size",
+      "chars": 854
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/CustomIntegration/Index.html",
+      "mint": "ExtNsFriendlyCaptcha/CustomIntegration/Index.md",
+      "ok": true,
+      "title": "Custom Integration",
+      "chars": 706
+    },
+    {
+      "live": "ExtNsBackup/ScheduleBackup/Index.html",
+      "mint": "ExtNsBackup/ScheduleBackup/Index.md",
+      "ok": true,
+      "title": "Schedule Backup",
+      "chars": 2892
+    },
+    {
+      "live": "ExtNsNewsComments/ForDevelopers/Index.html",
+      "mint": "ExtNsNewsComments/ForDevelopers/Index.md",
+      "ok": true,
+      "title": "For Developers",
+      "chars": 1576
+    },
+    {
+      "live": "ExtNsPersonio/Installation/Index.html",
+      "mint": "ExtNsPersonio/Installation/Index.md",
+      "ok": true,
+      "title": "Installation",
+      "chars": 2823
+    },
+    {
+      "live": "ExtNsT3AI/Translation/Index.html",
+      "mint": "ExtNsT3AI/Translation/Index.md",
+      "ok": true,
+      "title": "Translation",
+      "chars": 12021
+    },
+    {
+      "live": "ExtNsT3AS/Configuration/Index.html",
+      "mint": "ExtNsT3AS/Configuration/Index.md",
+      "ok": true,
+      "title": "Configuration",
+      "chars": 13434
+    },
+    {
+      "live": "EXTAyu/InstallationT3AyuReactjs/Index.html",
+      "mint": "EXTAyu/InstallationT3AyuReactjs/Index.md",
+      "ok": true,
+      "title": "Introduction",
+      "chars": 2475
+    },
+    {
+      "live": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index.html",
+      "mint": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index.md",
+      "ok": true,
+      "title": "Introduction",
+      "chars": 2859
+    },
+    {
+      "live": "EXTReva/InstallationT3RevaReactjs/Index.html",
+      "mint": "EXTReva/InstallationT3RevaReactjs/Index.md",
+      "ok": true,
+      "title": "Introduction",
+      "chars": 2583
+    },
+    {
+      "live": "EXTShiva/InstallationT3ShivaReactjs/Index.html",
+      "mint": "EXTShiva/InstallationT3ShivaReactjs/Index.md",
+      "ok": true,
+      "title": "Introduction",
+      "chars": 2550
+    }
+  ],
+  "failed": []
+}

@@ -1,0 +1,17 @@
+{
+  "ok": 47,
+  "gaps": [
+    {
+      "live": "ExtNsT3AF/Configuration/AIPermissions/Index",
+      "mint": "AIFoundation/Configuration/AIPermissions/Index.md",
+      "missing": [
+        "cmrbpvc5y0g0vqmo5l30iq6mc"
+      ],
+      "missing_count": 1,
+      "live_count": 1,
+      "mint_count": 0
+    }
+  ],
+  "unmapped": [],
+  "live_pages": 48
+}

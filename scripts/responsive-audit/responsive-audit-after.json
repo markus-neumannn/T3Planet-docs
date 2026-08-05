@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-07-27T11:55:31.445Z",
+  "summary": {
+    "high": 1,
+    "pass": 101,
+    "fail": 1
+  },
+  "chromium": [
+    {
+      "page": "af-providers",
+      "viewport": "m-320",
+      "clientW": 320,
+      "scrollW": 320,
+      "hOverflow": 0,
+      "issues": [
+        {
+          "type": "overflow_elements",
+          "severity": "high",
+          "count": 2,
+          "samples": [
+            {
+              "tag": "DIV",
+              "cls": "breadcrumb-item inline-flex items-center gap-1.5 text-sm tex",
+              "text": "Configuration",
+              "right": 325,
+              "left": 233
+            },
+            {
+              "tag": "A",
+              "cls": "",
+              "text": "Configuration",
+              "right": 325,
+              "left": 233
+            }
+          ]
+        }
+      ],
+      "title": "AI Providers - T3Planet Docs"
+    }
+  ],
+  "interactions": {
+    "m-375": {
+      "viewport": "m-375",
+      "sidebar": {
+        "ok": true,
+        "visible": false,
+        "ms": 926
+      },
+      "error": "Error: locator.click: Error: strict mode violation: locator('button[aria-label=\"Open search\"]') resolved to 2 elements:\n    1) <button type=\"button\" id=\"search-bar-entry\" aria-label=\"Open search\" class=\"group/search flex pointer-events-auto rounded-x"
+    },
+    "m-390": {
+      "viewport": "m-390",
+      "sidebar": {
+        "ok": true,
+        "visible": false,
+        "ms": 501
+      },
+      "error": "Error: locator.click: Error: strict mode violation: locator('button[aria-label=\"Open search\"]') resolved to 2 elements:\n    1) <button type=\"button\" id=\"search-bar-entry\" aria-label=\"Open search\" class=\"group/search flex pointer-events-auto rounded-x"
+    },
+    "m-430": {
+      "viewport": "m-430",
+      "sidebar": {
+        "ok": true,
+        "visible": false,
+        "ms": 507
+      },
+      "error": "Error: locator.click: Error: strict mode violation: locator('button[aria-label=\"Open search\"]') resolved to 2 elements:\n    1) <button type=\"button\" id=\"search-bar-entry\" aria-label=\"Open search\" class=\"group/search flex pointer-events-auto rounded-x"
+    }
+  },
+  "browsers": {
+    "firefox": [
+      {
+        "page": "home",
+        "viewport": "m-390",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "af-install",
+        "viewport": "m-390",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "home",
+        "viewport": "t-1024",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "af-install",
+        "viewport": "t-1024",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "home",
+        "viewport": "d-1920",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "af-install",
+        "viewport": "d-1920",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      }
+    ],
+    "webkit": [
+      {
+        "page": "home",
+        "viewport": "m-390",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "af-install",
+        "viewport": "m-390",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "home",
+        "viewport": "t-1024",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "af-install",
+        "viewport": "t-1024",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "home",
+        "viewport": "d-1920",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      },
+      {
+        "page": "af-install",
+        "viewport": "d-1920",
+        "high": 0,
+        "issues": [],
+        "hOverflow": 0
+      }
+    ]
+  },
+  "liveCompare": [
+    {
+      "page": "home",
+      "viewport": "m-390",
+      "mint": {
+        "hOverflow": 0,
+        "high": 0,
+        "types": []
+      },
+      "live": {
+        "hOverflow": 0,
+        "high": 0,
+        "types": []
+      }
+    },
+    {
+      "page": "af-install",
+      "viewport": "m-390",
+      "mint": {
+        "hOverflow": 0,
+        "high": 0,
+        "types": []
+      },
+      "live": {
+        "hOverflow": 0,
+        "high": 0,
+        "types": []
+      }
+    },
+    {
+      "page": "home",
+      "viewport": "m-320",
+      "mint": {
+        "hOverflow": 0,
+        "high": 0,
+        "types": []
+      },
+      "live": {
+        "hOverflow": 0,
+        "high": 0,
+        "types": []
+      }
+    },
+    {
+      "page": "af-install",
+      "viewport": "m-320",
+      "mint": {
+        "hOverflow": 0,
+        "high": 0,
+        "types": []
+      },
+      "live": {
+        "hOverflow": 15,
+        "high": 2,
+        "types": [
+          "horizontal_scroll",
+          "overflow_elements"
+        ]
+      }
+    }
+  ]
+}

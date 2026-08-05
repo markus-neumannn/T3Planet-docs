@@ -1,0 +1,69 @@
+{
+  "after": {
+    "live": [
+      {
+        "wall_ms": 1304,
+        "ttfb": 393,
+        "fcp": 1244,
+        "dcl": 1295,
+        "requests": 19,
+        "transferKB": 302,
+        "jsKB": 192,
+        "fontReqs": 1,
+        "fontNames": [
+          "fontawesome-webfont.woff2?af7ae505a9eed503f8b8e6982036873e"
+        ]
+      },
+      {
+        "wall_ms": 977,
+        "ttfb": 99,
+        "fcp": 980,
+        "dcl": 974,
+        "requests": 19,
+        "transferKB": 302,
+        "jsKB": 192,
+        "fontReqs": 1,
+        "fontNames": [
+          "fontawesome-webfont.woff2?af7ae505a9eed503f8b8e6982036873e"
+        ]
+      }
+    ],
+    "mint": [
+      {
+        "wall_ms": 567,
+        "ttfb": 485,
+        "fcp": 568,
+        "dcl": 566,
+        "requests": 39,
+        "transferKB": 988,
+        "jsKB": 781,
+        "fontReqs": 3,
+        "fontNames": [
+          "83afe278b6a6bb3c.p.3a6ba036.woff2",
+          "f67ad414ed34149c.p.84166d94.woff2",
+          "PaperMono_Variable.p.590789cb.woff2"
+        ]
+      },
+      {
+        "wall_ms": 547,
+        "ttfb": 457,
+        "fcp": 512,
+        "dcl": 539,
+        "requests": 41,
+        "transferKB": 1001,
+        "jsKB": 793,
+        "fontReqs": 3,
+        "fontNames": [
+          "83afe278b6a6bb3c.p.3a6ba036.woff2",
+          "PaperMono_Variable.p.590789cb.woff2",
+          "f67ad414ed34149c.p.84166d94.woff2"
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "mint_warm_ms": 4183,
+    "live_hop_ms": 365,
+    "google_fonts": []
+  }
+}

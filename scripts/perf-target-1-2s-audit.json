@@ -1,0 +1,298 @@
+[
+  {
+    "status": 200,
+    "ttfb": 2585,
+    "dcl": 3280,
+    "load": 3747,
+    "fcp": 2884,
+    "lcp": null,
+    "reqs": 77,
+    "transferKB": 1005,
+    "bucketsKB": {
+      "k": 1000,
+      "custom": 3,
+      "images": 0,
+      "fonts": 0,
+      "other": 2,
+      "rsc": 0
+    },
+    "slow": [
+      {
+        "n": "v1.16.0/circle-help.svg",
+        "kb": 0,
+        "dur": 813,
+        "start": 2933
+      },
+      {
+        "n": "chunks/c2cdec6f21626aa5.js",
+        "kb": 77,
+        "dur": 635,
+        "start": 2646
+      },
+      {
+        "n": "chunks/40ae8095852a8812.js",
+        "kb": 41,
+        "dur": 629,
+        "start": 2646
+      },
+      {
+        "n": "chunks/c0014b5c7145adc6.js",
+        "kb": 3,
+        "dur": 625,
+        "start": 2646
+      },
+      {
+        "n": "chunks/be9d010e11d28dc0.js",
+        "kb": 11,
+        "dur": 625,
+        "start": 2646
+      },
+      {
+        "n": "chunks/797c9046ab58b758.js",
+        "kb": 10,
+        "dur": 612,
+        "start": 2646
+      },
+      {
+        "n": "chunks/d9ca228e7af9807a.js",
+        "kb": 10,
+        "dur": 599,
+        "start": 2646
+      },
+      {
+        "n": "chunks/0eb894a8519f24ea.js",
+        "kb": 9,
+        "dur": 594,
+        "start": 2646
+      },
+      {
+        "n": "chunks/3e11b9157e41a78f.js",
+        "kb": 7,
+        "dur": 593,
+        "start": 2646
+      },
+      {
+        "n": "chunks/96e357b2f4d20652.js",
+        "kb": 11,
+        "dur": 593,
+        "start": 2646
+      }
+    ],
+    "dom": 1360,
+    "wall_ms": 5297,
+    "label": "local-AI-1"
+  },
+  {
+    "status": 200,
+    "ttfb": 692,
+    "dcl": 860,
+    "load": 1446,
+    "fcp": 772,
+    "lcp": null,
+    "reqs": 77,
+    "transferKB": 1005,
+    "bucketsKB": {
+      "k": 1000,
+      "custom": 3,
+      "images": 0,
+      "fonts": 0,
+      "other": 2,
+      "rsc": 0
+    },
+    "slow": [
+      {
+        "n": "v1.16.0/circle-help.svg",
+        "kb": 0,
+        "dur": 660,
+        "start": 785
+      },
+      {
+        "n": "d4tuoctqmanu0.cloudfront.net/katex.min.css",
+        "kb": 0,
+        "dur": 457,
+        "start": 708
+      },
+      {
+        "n": "v1.16.0/message-square.svg",
+        "kb": 0,
+        "dur": 381,
+        "start": 783
+      },
+      {
+        "n": "v1.16.0/bug.svg",
+        "kb": 0,
+        "dur": 379,
+        "start": 785
+      },
+      {
+        "n": "v1.16.0/house.svg",
+        "kb": 0,
+        "dur": 378,
+        "start": 740
+      },
+      {
+        "n": "v1.16.0/link.svg",
+        "kb": 0,
+        "dur": 378,
+        "start": 786
+      },
+      {
+        "n": "v1.16.0/layout-template.svg",
+        "kb": 0,
+        "dur": 377,
+        "start": 741
+      },
+      {
+        "n": "v1.16.0/flask-conical.svg",
+        "kb": 0,
+        "dur": 376,
+        "start": 784
+      },
+      {
+        "n": "v1.16.0/life-buoy.svg",
+        "kb": 0,
+        "dur": 375,
+        "start": 786
+      },
+      {
+        "n": "v1.16.0/network.svg",
+        "kb": 0,
+        "dur": 373,
+        "start": 785
+      }
+    ],
+    "dom": 1360,
+    "wall_ms": 2870,
+    "label": "local-AI-2-warm-browser"
+  },
+  {
+    "status": 200,
+    "ttfb": 667,
+    "dcl": 751,
+    "load": 1053,
+    "fcp": 728,
+    "lcp": null,
+    "reqs": 58,
+    "transferKB": 1201,
+    "bucketsKB": {
+      "k": 1005,
+      "custom": 3,
+      "images": 191,
+      "fonts": 0,
+      "other": 2,
+      "rsc": 0
+    },
+    "slow": [
+      {
+        "n": "d4tuoctqmanu0.cloudfront.net/katex.min.css",
+        "kb": 0,
+        "dur": 376,
+        "start": 676
+      },
+      {
+        "n": "v1.16.0/puzzle.svg",
+        "kb": 0,
+        "dur": 343,
+        "start": 706
+      },
+      {
+        "n": "v1.16.0/house.svg",
+        "kb": 0,
+        "dur": 342,
+        "start": 704
+      },
+      {
+        "n": "v1.16.0/rocket.svg",
+        "kb": 0,
+        "dur": 342,
+        "start": 705
+      },
+      {
+        "n": "v1.16.0/sparkles.svg",
+        "kb": 0,
+        "dur": 341,
+        "start": 705
+      },
+      {
+        "n": "v1.16.0/layout-template.svg",
+        "kb": 0,
+        "dur": 340,
+        "start": 705
+      },
+      {
+        "n": "brands/youtube.svg",
+        "kb": 0,
+        "dur": 313,
+        "start": 740
+      },
+      {
+        "n": "brands/linkedin.svg",
+        "kb": 0,
+        "dur": 312,
+        "start": 740
+      },
+      {
+        "n": "brands/x-twitter.svg",
+        "kb": 0,
+        "dur": 311,
+        "start": 740
+      },
+      {
+        "n": "solid/earth-americas.svg",
+        "kb": 0,
+        "dur": 310,
+        "start": 740
+      }
+    ],
+    "dom": 1003,
+    "wall_ms": 2766,
+    "label": "local-lazyload"
+  },
+  {
+    "status": 404,
+    "ttfb": 754,
+    "dcl": 805,
+    "load": 2366,
+    "fcp": 1032,
+    "lcp": null,
+    "reqs": 6,
+    "transferKB": 130,
+    "bucketsKB": {
+      "k": 0,
+      "custom": 0,
+      "images": 0,
+      "fonts": 0,
+      "other": 130,
+      "rsc": 0
+    },
+    "slow": [
+      {
+        "n": "javascript/readthedocs-addons.js",
+        "kb": 128,
+        "dur": 400,
+        "start": 798
+      },
+      {
+        "n": "analytics/?project=default-template&version=latest&absolute_uri=https%3A%2F%2Fdocs.t3planet.de%2Fen%2Flatest%2FAIFoundation%2FIndex.html&status=404",
+        "kb": 0,
+        "dur": 331,
+        "start": 1573
+      },
+      {
+        "n": "addons/?client-version=0.50.0&api-version=1&project-slug=default-template&version-slug=latest",
+        "kb": 1,
+        "dur": 305,
+        "start": 1259
+      },
+      {
+        "n": "css/site.85e64d131b54.css",
+        "kb": 0,
+        "dur": 213,
+        "start": 798
+      }
+    ],
+    "dom": 31,
+    "wall_ms": 2810,
+    "label": "live-AI"
+  }
+]

@@ -1,0 +1,595 @@
+{
+  "sampled": 65,
+  "summary": {
+    "Pass": 0,
+    "Fail": 65,
+    "Needs Update": 0
+  },
+  "results": [
+    {
+      "page": "/License/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 0,
+      "old_len": 0
+    },
+    {
+      "page": "/License/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 586,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTKarma/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1025,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTKarma/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 557,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTKarma/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1747,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtRTECKEditorPack/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 0,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtRTECKEditorPack/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 657,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsNewsComments/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 0,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsNewsComments/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 767,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsNewsComments/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1550,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsRevolutionSlider/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 69,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsRevolutionSlider/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1158,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AI/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 250,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AI/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 984,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AI/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 727,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AS/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 253,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AS/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1045,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AS/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1249,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AC/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 254,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AC/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1094,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AC/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1257,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AL/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 251,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AL/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 806,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AL/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 465,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AA/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 252,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AA/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 844,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AA/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 284,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AB/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 233,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AB/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 564,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsT3AB/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 522,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtThemes/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 932,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtThemes/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 763,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtThemes/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 2544,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTAvatar/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 878,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTAvatar/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 705,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTAvatar/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1541,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTAyu/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 811,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTAyu/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 740,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTBootstrap/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 883,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTBootstrap/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 766,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTBootstrap/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1070,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTReactBootstrap/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 797,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTReactBootstrap/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 736,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTReva/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 813,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTReva/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 751,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTShiva/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 819,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTShiva/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 756,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTShop/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 548,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTShop/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 787,
+      "old_len": 0
+    },
+    {
+      "page": "/EXTShop/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1538,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsFAQ/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 0,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsFAQ/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 956,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsFAQ/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1513,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsGallery/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 0,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsGallery/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1104,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsGallery/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1543,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsHelpDesk/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 0,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsHelpDesk/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1086,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsHelpDesk/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1222,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsSocialLogin/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 0,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsSocialLogin/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 536,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsSocialLogin/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1234,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsGoogleSiteKit/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 0,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsGoogleSiteKit/Introduction/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 823,
+      "old_len": 0
+    },
+    {
+      "page": "/ExtNsGoogleSiteKit/Installation/Index",
+      "status": "Fail",
+      "issues": [
+        "HTTP 429"
+      ],
+      "mint_len": 1459,
+      "old_len": 0
+    }
+  ]
+}

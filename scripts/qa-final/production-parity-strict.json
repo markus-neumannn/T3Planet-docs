@@ -1,0 +1,848 @@
+{
+  "live_pages": 687,
+  "missing_pages": [],
+  "heading_gap_pages": 39,
+  "heading_gaps": [
+    {
+      "live": "ExtNsAllChat/Introduction/Index",
+      "mint": "ExtNsAllChat/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_all_chat"
+      ]
+    },
+    {
+      "live": "ExtNsComments/Introduction/Index",
+      "mint": "ExtNsComments/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_comments"
+      ]
+    },
+    {
+      "live": "ExtNsT3AA/Configuration/Index",
+      "mint": "ExtNsT3AA/Configuration/Index.md",
+      "missing": [
+        "Step 1: Access Extension Configuration",
+        "Step 2: Add Required API Keys"
+      ]
+    },
+    {
+      "live": "ExtNsNewsSlickSlider/Introduction/Index",
+      "mint": "ExtNsNewsSlickSlider/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_news_slick"
+      ]
+    },
+    {
+      "live": "ExtNsLazyload/Introduction/Index",
+      "mint": "ExtNsLazyload/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_lazy_load"
+      ]
+    },
+    {
+      "live": "ExtNsFacebookComment/Introduction/Index",
+      "mint": "ExtNsFacebookComment/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_facebook_comment"
+      ]
+    },
+    {
+      "live": "ExtNsTwitter/Introduction/Index",
+      "mint": "ExtNsTwitter/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_twitter"
+      ]
+    },
+    {
+      "live": "ExtNsT3AS/FrontendPlugin/Index",
+      "mint": "ExtNsT3AS/FrontendPlugin/Index.md",
+      "missing": [
+        "Configurations",
+        "General Tab"
+      ]
+    },
+    {
+      "live": "License/HelpSupport/Index",
+      "mint": "License/HelpSupport/Index.md",
+      "missing": [
+        "Support: Submit A Ticket"
+      ]
+    },
+    {
+      "live": "License/Migration/License/Index",
+      "mint": "License/Migration/License/Index.md",
+      "missing": [
+        "Migration on Composer-based TYPO3 Instance"
+      ]
+    },
+    {
+      "live": "ExtNsSnow/Introduction/Index",
+      "mint": "ExtNsSnow/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_snow"
+      ]
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/Introduction/Index",
+      "mint": "ExtNsNewsAdvancedSearch/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_news_advancedsearch"
+      ]
+    },
+    {
+      "live": "ExtNsPWA/Introduction/Index",
+      "mint": "ExtNsPWA/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_PWA"
+      ]
+    },
+    {
+      "live": "ExtNsRevolutionSlider/Introduction/Index",
+      "mint": "ExtNsRevolutionSlider/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_revolution_slider"
+      ]
+    },
+    {
+      "live": "ExtNsEvent/Introduction/Index",
+      "mint": "ExtNsEvent/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_event"
+      ]
+    },
+    {
+      "live": "ExtNsPersonio/Introduction/Index",
+      "mint": "ExtNsPersonio/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_personio"
+      ]
+    },
+    {
+      "live": "EXTKarma/Installation/Index",
+      "mint": "EXTKarma/Installation/Index.md",
+      "missing": [
+        "Video Tutorials"
+      ]
+    },
+    {
+      "live": "EXTKarma/UpgradeGuide/Index",
+      "mint": "EXTKarma/UpgradeGuideForContainer/Index.md",
+      "missing": [
+        "Upgrade Product >= v3.3.0 (Migrate from EXT.gridelements to EXT.container)",
+        "Upgrade Product >= v13.0.2 (Migrate from Flexform Element to Content Block)"
+      ]
+    },
+    {
+      "live": "ExtNsProtectSite/Introduction/Index",
+      "mint": "ExtNsProtectSite/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_protect_site"
+      ]
+    },
+    {
+      "live": "ExtNsGuestbook/Introduction/Index",
+      "mint": "ExtNsGuestbook/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_guestbook"
+      ]
+    },
+    {
+      "live": "ExtRTECKEditorPack/SystemRequirements/Index",
+      "mint": "ExtRTECKEditorPack/SystemRequirements/Index.md",
+      "missing": [
+        "Required TYPO3 Extensions"
+      ]
+    },
+    {
+      "live": "ExtRTECKEditorPack/Introduction/Index",
+      "mint": "ExtRTECKEditorPack/Introduction/Index.md",
+      "missing": [
+        "What does it do?"
+      ]
+    },
+    {
+      "live": "ExtNsGoogleMap/Introduction/Index",
+      "mint": "ExtNsGoogleMap/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_google_map"
+      ]
+    },
+    {
+      "live": "ExtNsNewsComments/Introduction/Index",
+      "mint": "ExtNsNewsComments/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_news_comments"
+      ]
+    },
+    {
+      "live": "ExtNsT3AL/Introduction/Index",
+      "mint": "ExtNsT3AL/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_t3al"
+      ]
+    },
+    {
+      "live": "ExtNsGoogleSiteKit/Introduction/Index",
+      "mint": "ExtNsGoogleSiteKit/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_google_sitekit"
+      ]
+    },
+    {
+      "live": "ExtNsFAQ/Introduction/Index",
+      "mint": "ExtNsFAQ/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_faq"
+      ]
+    },
+    {
+      "live": "ExtNsT3AC/Configuration/Index",
+      "mint": "ExtNsT3AC/Configuration/Index.md",
+      "missing": [
+        "Step 1: Access Extension Configuration",
+        "Step 3: Enable Chatbot Globally"
+      ]
+    },
+    {
+      "live": "ExtNsCookiesHint/Introduction/Index",
+      "mint": "ExtNsCookiesHint/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_cookies"
+      ]
+    },
+    {
+      "live": "ExtNsInstagram/Introduction/Index",
+      "mint": "ExtNsInstagram/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_instagram"
+      ]
+    },
+    {
+      "live": "ExtNsWhatsapp/Installation/Index",
+      "mint": "ExtNsWhatsapp/Installation/Index.md",
+      "missing": [
+        "Activate the TypoScript"
+      ]
+    },
+    {
+      "live": "ExtNsOpenStreetMap/Introduction/Index",
+      "mint": "ExtNsOpenStreetMap/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_open_streetmap"
+      ]
+    },
+    {
+      "live": "ExtNsNewsSlider/Introduction/Index",
+      "mint": "ExtNsNewsSlider/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_news_slider"
+      ]
+    },
+    {
+      "live": "ExtNsTimeLine/Introduction/Index",
+      "mint": "ExtNsTimeLine/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_timeline"
+      ]
+    },
+    {
+      "live": "ExtNsPublicationComment/Introduction/Index",
+      "mint": "ExtNsPublicationComment/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_publication_comments"
+      ]
+    },
+    {
+      "live": "ExtNsAllLightbox/Introduction/Index",
+      "mint": "ExtNsAllLightbox/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_all_lightbox"
+      ]
+    },
+    {
+      "live": "ExtNsStatcounter/Introduction/Index",
+      "mint": "ExtNsStatcounter/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_statcounter"
+      ]
+    },
+    {
+      "live": "ExtNsBackup/Introduction/Index",
+      "mint": "ExtNsBackup/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_backup"
+      ]
+    },
+    {
+      "live": "ExtNsHelpDesk/Introduction/Index",
+      "mint": "ExtNsHelpDesk/Introduction/Index.md",
+      "missing": [
+        "EXT:ns_helpdesk"
+      ]
+    }
+  ],
+  "image_gap_pages": 79,
+  "image_gaps": [
+    {
+      "live": "ExtNsCookieYes/Installation/Index",
+      "missing_images": [
+        "activate_typoscript5.jpeg",
+        "install_ext3.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsWpMigration/Installation/Index",
+      "missing_images": [
+        "install_extension3.png"
+      ]
+    },
+    {
+      "live": "ExtNsExtCompatibility/Installation/Index",
+      "missing_images": [
+        "activate_typoscript9.jpeg",
+        "install_ext5.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsComments/Installation/Index",
+      "missing_images": [
+        "activate_typoscript4.jpeg",
+        "install_extension2.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsNewsSlickSlider/Installation/Index",
+      "missing_images": [
+        "activate_typoscript20.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsAllSliders/Installation/Index",
+      "missing_images": [
+        "activate_typoscript3.jpeg",
+        "install_ext2.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsLazyload/Installation/Index",
+      "missing_images": [
+        "activate_typoscript17.jpeg",
+        "install_extension9.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsFacebookComment/Installation/Index",
+      "missing_images": [
+        "activate_typoscript11.jpeg",
+        "install_extension5.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsT3AS/DatabaseChunking/Index",
+      "missing_images": [
+        "chunk_size.png"
+      ]
+    },
+    {
+      "live": "License/UpdateVersion/CheckNewVersion/Index",
+      "missing_images": [
+        "getlatestversion.jpeg",
+        "newversionupdate.jpeg",
+        "uptodateversion.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsDisqusComment/Installation/Index",
+      "missing_images": [
+        "activate_typoscript8.jpeg",
+        "install_extension4.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsSnow/Installation/Index",
+      "missing_images": [
+        "activate_typoscript24.jpeg",
+        "install_extension14.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/Installation/Index",
+      "missing_images": [
+        "activate_typoscript18.jpeg",
+        "install_extension10.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsYoutube/Configuration/Index",
+      "missing_images": [
+        "gdpr_option_11.jpeg",
+        "gdpr_option_21.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsYoutube/Installation/Index",
+      "missing_images": [
+        "activate_typoscript25.jpeg",
+        "install_ext10.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsPWA/Installation/Index",
+      "missing_images": [
+        "activate_typoscript2.png",
+        "install_extension1.png"
+      ]
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index",
+      "missing_images": [
+        "typo3-revolution-slider-include-template1.png"
+      ]
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index",
+      "missing_images": [
+        "typo3-revolution-slider-backend1.png",
+        "typo3-revolution-slider-frontend-plugin2.png",
+        "typo3-revolution-slider-include-typoscript1.png",
+        "typo3-revolution-slider-license-registered1.png",
+        "typo3-revolution-slider-plugin1.png"
+      ]
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index",
+      "missing_images": [
+        "typo3-revolution-slider-frontend-plugin1.png"
+      ]
+    },
+    {
+      "live": "ExtNsFeedback/Installation/Index",
+      "missing_images": [
+        "activate_typoscript12.jpeg",
+        "install_ext6.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsGallery/HowToSetupAndDisplayGallery/Index",
+      "missing_images": [
+        "add_gallery_plugin1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsGallery/AlbumView/Index",
+      "missing_images": [
+        "create_gallery1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsGallery/Introduction/Index",
+      "missing_images": [
+        "ext_banner1.jpg"
+      ]
+    },
+    {
+      "live": "ExtNsGallery/Installation/Index",
+      "missing_images": [
+        "activate_typoscript14.jpeg",
+        "install_extension6.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsGallery/NSGalleryModule/Index",
+      "missing_images": [
+        "dashboard1.png"
+      ]
+    },
+    {
+      "live": "ExtNsCookiebot/Installation/Index",
+      "missing_images": [
+        "activate_typoscript6.jpeg",
+        "install_ext4.jpeg"
+      ]
+    },
+    {
+      "live": "EXTShiva/CustomElements/Index",
+      "missing_images": [
+        "custom_elements11.png"
+      ]
+    },
+    {
+      "live": "EXTShiva/InstallationT3ShivaTheme/Index",
+      "missing_images": [
+        "how_to_configure_site4.png",
+        "page_tree2.png"
+      ]
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/Installation/Index",
+      "missing_images": [
+        "activate_typoscript13.jpeg",
+        "install_ext7.jpeg"
+      ]
+    },
+    {
+      "live": "EXTKarma/EditorGuide/Index",
+      "missing_images": [
+        "containergrid.jpeg",
+        "createtemplate.png",
+        "customelement.jpeg",
+        "infomodifyincludeorder.jpeg",
+        "makerootpage.jpeg",
+        "megamenu.jpeg",
+        "menusubtitle.jpeg",
+        "multilanguage.jpeg",
+        "pagelayout.jpeg",
+        "setuppageid.jpeg",
+        "siteconfiguration.jpeg",
+        "themeoptionsubtitle.jpeg",
+        "websitestyle.jpeg"
+      ]
+    },
+    {
+      "live": "EXTKarma/Installation/Index",
+      "missing_images": [
+        "how_to_configure_site1.jpeg",
+        "page_tree1.jpeg"
+      ]
+    },
+    {
+      "live": "EXTKarma/CustomElements/Index",
+      "missing_images": [
+        "custom_elements1.jpeg",
+        "custom_elements2.jpeg",
+        "custom_elements3.jpeg"
+      ]
+    },
+    {
+      "live": "EXTKarma/UpgradeGuide/Index",
+      "missing_images": [
+        "migrate_gridelement_to_container2.jpeg",
+        "t3karmacontentblock.png",
+        "typo3_dumpautoload2.jpeg",
+        "typo3_upgrade_wizard2.jpeg"
+      ]
+    },
+    {
+      "live": "EXTKarma/GlobalSettingsConfiguration/Index",
+      "missing_images": [
+        "extension_template.png",
+        "page_themeoption.png",
+        "t3terminal-t3karma-theme-optionsgdpr.jpeg",
+        "t3terminal-t3karma-theme-optionsgeneral.jpeg",
+        "t3terminal-t3karma-theme-optionsintegration.jpeg",
+        "t3terminal-t3karma-theme-optionsseo.jpeg",
+        "t3terminal-t3karma-theme-optionsstyle.jpeg"
+      ]
+    },
+    {
+      "live": "EXTKarma/SpeedPerformance/Index",
+      "missing_images": [
+        "t3terminal-typo3-cache-speed-performance1.jpeg"
+      ]
+    },
+    {
+      "live": "EXTKarma/TemplatesLayouts/Index",
+      "missing_images": [
+        "templates_layouts2.jpeg"
+      ]
+    },
+    {
+      "live": "EXTKarma/SEO/Index",
+      "missing_images": [
+        "4041.jpeg",
+        "metadata1.jpeg",
+        "social_media1.jpeg",
+        "t3terminal-typo3-4041.jpeg",
+        "t3terminal-typo3-seo1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsProtectSite/Configuration/Index",
+      "missing_images": [
+        "configuration_11.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsProtectSite/Installation/Index",
+      "missing_images": [
+        "activate_typoscript23.jpeg",
+        "install_extension13.jpeg"
+      ]
+    },
+    {
+      "live": "EXTReva/CustomElements/Index",
+      "missing_images": [
+        "custom_element11.png"
+      ]
+    },
+    {
+      "live": "EXTReva/InstallationT3RevaTheme/Index",
+      "missing_images": [
+        "how_to_configure_site2.png",
+        "page_tree2.png"
+      ]
+    },
+    {
+      "live": "EXTReva/Localization/Installationt3reva_reactjs.zip/Index",
+      "missing_images": [
+        "how_to_configure_site3.png",
+        "page_tree1.png"
+      ]
+    },
+    {
+      "live": "ExtNsGuestbook/Installation/Index",
+      "missing_images": [
+        "activate_typoscript16.jpeg",
+        "install_extension8.jpeg"
+      ]
+    },
+    {
+      "live": "ExtRTECKEditorPack/QuickInstallation/Index",
+      "missing_images": [
+        "install_extension4.png"
+      ]
+    },
+    {
+      "live": "EXTAvatar/EditorGuide/Index",
+      "missing_images": [
+        "enable_megamenu.png"
+      ]
+    },
+    {
+      "live": "ExtNsGoogleMap/Installation/Index",
+      "missing_images": [
+        "activate_typoscript15.jpeg",
+        "install_extension7.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsNewsComments/CommentModeration/Index",
+      "missing_images": [
+        "approve_comment_from_email1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsNewsComments/Installation/Index",
+      "missing_images": [
+        "activate_typoscript19.jpeg",
+        "install_ext9.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsT3AL/Configuration/Index",
+      "missing_images": [
+        "configuration1.png"
+      ]
+    },
+    {
+      "live": "ExtNsGoogleSiteKit/Introduction/Index",
+      "missing_images": [
+        "ext_banner3.jpg"
+      ]
+    },
+    {
+      "live": "ExtNsFAQ/SubmitFAQForm/Index",
+      "missing_images": [
+        "add_plugin1.png",
+        "configure_plugin1.png"
+      ]
+    },
+    {
+      "live": "ExtNsFAQ/Installation/Index",
+      "missing_images": [
+        "activate_typoscript10.jpeg",
+        "install_ext1.png"
+      ]
+    },
+    {
+      "live": "ExtNsHubspot/PremiumVersionConfiguration/Index",
+      "missing_images": [
+        "dashboard2.png"
+      ]
+    },
+    {
+      "live": "ExtNsHubspot/Installation/Index",
+      "missing_images": [
+        "activate_typoscript1.png",
+        "install_ext2.png"
+      ]
+    },
+    {
+      "live": "ExtNitsanMaintenance/Installation/Index",
+      "missing_images": [
+        "activate_typoscript1.jpeg",
+        "install_extension1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsGridtoContainer/Introduction/Index",
+      "missing_images": [
+        "ext_banner4.jpg"
+      ]
+    },
+    {
+      "live": "ExtNsZoho/Configuration/Index",
+      "missing_images": [
+        "set_access_token1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsZoho/Installation/Index",
+      "missing_images": [
+        "activate_typoscript26.jpeg",
+        "install_ext11.jpeg"
+      ]
+    },
+    {
+      "live": "ExtThemes/Installation/Index",
+      "missing_images": [
+        "update-ext-repository4.png"
+      ]
+    },
+    {
+      "live": "ExtThemes/CustomElements/Index",
+      "missing_images": [
+        "custom_elements4.jpeg"
+      ]
+    },
+    {
+      "live": "ExtThemes/UpgradeGuide/Index",
+      "missing_images": [
+        "migrate_gridelement_to_container3.jpeg",
+        "typo3_dumpautoload3.jpeg",
+        "typo3_upgrade_wizard3.jpeg"
+      ]
+    },
+    {
+      "live": "ExtThemes/TemplatesLayouts/Index",
+      "missing_images": [
+        "templates_layouts3.jpeg"
+      ]
+    },
+    {
+      "live": "ExtThemes/SEO/Index",
+      "missing_images": [
+        "4042.jpeg",
+        "metadata2.jpeg",
+        "social_media2.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsGoogleDocs/NSGoogleDocsModule/Index",
+      "missing_images": [
+        "dashboard1.png",
+        "global_settings1.jpeg",
+        "import_google_docs2.png",
+        "reports_and_logs1.png"
+      ]
+    },
+    {
+      "live": "ExtNsGoogleDocs/Introduction/Index",
+      "missing_images": [
+        "ext_banner2.jpg",
+        "import_google_docs1.png"
+      ]
+    },
+    {
+      "live": "ExtNsGoogleDocs/Installation/Index",
+      "missing_images": [
+        "install_ext8.jpeg"
+      ]
+    },
+    {
+      "live": "EXTBootstrap/UpgradeGuide/Index",
+      "missing_images": [
+        "migrate_gridelement_to_container1.jpeg",
+        "typo3_dumpautoload1.jpeg",
+        "typo3_upgrade_wizard1.jpeg"
+      ]
+    },
+    {
+      "live": "EXTBootstrap/TemplatesLayouts/Index",
+      "missing_images": [
+        "templates_layouts1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsCookiesHint/Installation/Index",
+      "missing_images": [
+        "activate_typoscript7.jpeg",
+        "install_extension3.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsInstagram/Installation/Index",
+      "missing_images": [
+        "activate_typoscript1.jpg",
+        "install_extension1.jpg"
+      ]
+    },
+    {
+      "live": "ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index",
+      "missing_images": [
+        "map_settings1.jpeg",
+        "marker_settings1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsOpenStreetMap/Configuration/AddMapLocations/Index",
+      "missing_images": [
+        "add_location1.jpeg",
+        "add_location_general1.jpeg",
+        "add_location_infocontent1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsOpenStreetMap/Installation/Index",
+      "missing_images": [
+        "activate_typoscript22.jpeg",
+        "install_extension12.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsNewsSlider/Installation/Index",
+      "missing_images": [
+        "activate_typoscript21.jpeg",
+        "install_extension11.jpeg"
+      ]
+    },
+    {
+      "live": "EXTReactBootstrap/Introduction/Index",
+      "missing_images": [
+        "theme_t3bootstrap1.png"
+      ]
+    },
+    {
+      "live": "EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index",
+      "missing_images": [
+        "how_to_configure_site1.png"
+      ]
+    },
+    {
+      "live": "ExtNsAllLightbox/Installation/Index",
+      "missing_images": [
+        "activate_typoscript2.jpeg",
+        "install_ext1.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsHelpDesk/Tickets/Index",
+      "missing_images": [
+        "ns-helpdesk-typo3-ticket-listing-fe.jpeg"
+      ]
+    },
+    {
+      "live": "ExtNsHelpDesk/FormSettings/Index",
+      "missing_images": [
+        "ns-helpdesk-typo3-form-fe.jpeg"
+      ]
+    }
+  ],
+  "supademo_gaps": [],
+  "ok_pages": 572,
+  "renames": {
+    "EXTKarma/ConfigureCaptcha/Index": "EXTKarma/CaptchaConfiguration/Index",
+    "EXTKarma/CustomElements/Index": "EXTKarma/ContentBlockElements/Index",
+    "EXTKarma/UpgradeGuide/Index": "EXTKarma/UpgradeGuideForContainer/Index"
+  }
+}

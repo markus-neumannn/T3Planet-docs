@@ -1,0 +1,2837 @@
+{
+  "live_html": 687,
+  "live_rst": 741,
+  "mapped_ok": 288,
+  "missing": [
+    {
+      "live": "EXTKarma/ConfigureCaptcha/Index",
+      "mint_expected": "EXTKarma/ConfigureCaptcha/Index.md"
+    },
+    {
+      "live": "EXTKarma/CustomElements/Index",
+      "mint_expected": "EXTKarma/CustomElements/Index.md"
+    },
+    {
+      "live": "EXTKarma/UpgradeGuide/Index",
+      "mint_expected": "EXTKarma/UpgradeGuide/Index.md"
+    }
+  ],
+  "thin": [
+    {
+      "live": "EXTAvatar/HelpSupport/Index",
+      "mint": "EXTAvatar/HelpSupport/Index.md",
+      "live_len": 1397,
+      "mint_len": 78,
+      "ratio": 0.06
+    },
+    {
+      "live": "EXTAvatar/HelpfulLinks/Index",
+      "mint": "EXTAvatar/HelpfulLinks/Index.md",
+      "live_len": 1785,
+      "mint_len": 189,
+      "ratio": 0.11
+    },
+    {
+      "live": "EXTAvatar/Introduction/Index",
+      "mint": "EXTAvatar/Introduction/Index.md",
+      "live_len": 2228,
+      "mint_len": 685,
+      "ratio": 0.31
+    },
+    {
+      "live": "EXTAvatar/Localization/Index",
+      "mint": "EXTAvatar/Localization/Index.md",
+      "live_len": 1641,
+      "mint_len": 117,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTAvatar/MaskElements/Index",
+      "mint": "EXTAvatar/MaskElements/Index.md",
+      "live_len": 1696,
+      "mint_len": 322,
+      "ratio": 0.19
+    },
+    {
+      "live": "EXTAvatar/SpeedPerformance/Index",
+      "mint": "EXTAvatar/SpeedPerformance/Index.md",
+      "live_len": 1795,
+      "mint_len": 342,
+      "ratio": 0.19
+    },
+    {
+      "live": "EXTAvatar/TemplatesLayouts/Index",
+      "mint": "EXTAvatar/TemplatesLayouts/Index.md",
+      "live_len": 1776,
+      "mint_len": 317,
+      "ratio": 0.18
+    },
+    {
+      "live": "EXTAvatar/UpdateVersion/Index",
+      "mint": "EXTAvatar/UpdateVersion/Index.md",
+      "live_len": 1658,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "EXTAyu/CustomElements/Index",
+      "mint": "EXTAyu/CustomElements/Index.md",
+      "live_len": 1792,
+      "mint_len": 243,
+      "ratio": 0.14
+    },
+    {
+      "live": "EXTAyu/Customization/Index",
+      "mint": "EXTAyu/Customization/Index.md",
+      "live_len": 1738,
+      "mint_len": 90,
+      "ratio": 0.05
+    },
+    {
+      "live": "EXTAyu/DemoSite/Index",
+      "mint": "EXTAyu/DemoSite/Index.md",
+      "live_len": 1720,
+      "mint_len": 121,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTAyu/FAQ/Index",
+      "mint": "EXTAyu/FAQ/Index.md",
+      "live_len": 1692,
+      "mint_len": 53,
+      "ratio": 0.03
+    },
+    {
+      "live": "EXTAyu/HelpSupport/Index",
+      "mint": "EXTAyu/HelpSupport/Index.md",
+      "live_len": 1758,
+      "mint_len": 78,
+      "ratio": 0.04
+    },
+    {
+      "live": "EXTAyu/InstallationT3AyuTheme/Index",
+      "mint": "EXTAyu/InstallationT3AyuTheme/Index.md",
+      "live_len": 2435,
+      "mint_len": 721,
+      "ratio": 0.3
+    },
+    {
+      "live": "EXTAyu/Introduction/Index",
+      "mint": "EXTAyu/Introduction/Index.md",
+      "live_len": 2354,
+      "mint_len": 723,
+      "ratio": 0.31
+    },
+    {
+      "live": "EXTAyu/Localization/Index",
+      "mint": "EXTAyu/Localization/Index.md",
+      "live_len": 1737,
+      "mint_len": 117,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTAyu/PreviewFeature/Index",
+      "mint": "EXTAyu/PreviewFeature/Index.md",
+      "live_len": 2074,
+      "mint_len": 462,
+      "ratio": 0.22
+    },
+    {
+      "live": "EXTAyu/UpdateVersion/Index",
+      "mint": "EXTAyu/UpdateVersion/Index.md",
+      "live_len": 1754,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "EXTBootstrap/CustomElements/Index",
+      "mint": "EXTBootstrap/CustomElements/Index.md",
+      "live_len": 1762,
+      "mint_len": 242,
+      "ratio": 0.14
+    },
+    {
+      "live": "EXTBootstrap/HelpSupport/Index",
+      "mint": "EXTBootstrap/HelpSupport/Index.md",
+      "live_len": 1673,
+      "mint_len": 78,
+      "ratio": 0.05
+    },
+    {
+      "live": "EXTBootstrap/HelpfulLinks/Index",
+      "mint": "EXTBootstrap/HelpfulLinks/Index.md",
+      "live_len": 1799,
+      "mint_len": 192,
+      "ratio": 0.11
+    },
+    {
+      "live": "EXTBootstrap/Introduction/Index",
+      "mint": "EXTBootstrap/Introduction/Index.md",
+      "live_len": 2304,
+      "mint_len": 746,
+      "ratio": 0.32
+    },
+    {
+      "live": "EXTBootstrap/Localization/Index",
+      "mint": "EXTBootstrap/Localization/Index.md",
+      "live_len": 1652,
+      "mint_len": 117,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTBootstrap/SpeedPerformance/Index",
+      "mint": "EXTBootstrap/SpeedPerformance/Index.md",
+      "live_len": 1805,
+      "mint_len": 343,
+      "ratio": 0.19
+    },
+    {
+      "live": "EXTBootstrap/TemplatesLayouts/Index",
+      "mint": "EXTBootstrap/TemplatesLayouts/Index.md",
+      "live_len": 1787,
+      "mint_len": 317,
+      "ratio": 0.18
+    },
+    {
+      "live": "EXTBootstrap/UpdateVersion/Index",
+      "mint": "EXTBootstrap/UpdateVersion/Index.md",
+      "live_len": 1669,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "EXTKarma/HelpSupport/Index",
+      "mint": "EXTKarma/HelpSupport/Index.md",
+      "live_len": 1397,
+      "mint_len": 78,
+      "ratio": 0.06
+    },
+    {
+      "live": "EXTKarma/HelpfulLinks/Index",
+      "mint": "EXTKarma/HelpfulLinks/Index.md",
+      "live_len": 1804,
+      "mint_len": 270,
+      "ratio": 0.15
+    },
+    {
+      "live": "EXTKarma/Introduction/Index",
+      "mint": "EXTKarma/Introduction/Index.md",
+      "live_len": 2245,
+      "mint_len": 758,
+      "ratio": 0.34
+    },
+    {
+      "live": "EXTKarma/Localization/Index",
+      "mint": "EXTKarma/Localization/Index.md",
+      "live_len": 1660,
+      "mint_len": 140,
+      "ratio": 0.08
+    },
+    {
+      "live": "EXTKarma/SpeedPerformance/Index",
+      "mint": "EXTKarma/SpeedPerformance/Index.md",
+      "live_len": 1813,
+      "mint_len": 585,
+      "ratio": 0.32
+    },
+    {
+      "live": "EXTKarma/TemplatesLayouts/Index",
+      "mint": "EXTKarma/TemplatesLayouts/Index.md",
+      "live_len": 1795,
+      "mint_len": 612,
+      "ratio": 0.34
+    },
+    {
+      "live": "EXTKarma/UpdateVersion/Index",
+      "mint": "EXTKarma/UpdateVersion/Index.md",
+      "live_len": 1677,
+      "mint_len": 173,
+      "ratio": 0.1
+    },
+    {
+      "live": "EXTNsZohoCrm/BuyNow",
+      "mint": "EXTNsZohoCrm/BuyNow.md",
+      "live_len": 1522,
+      "mint_len": 118,
+      "ratio": 0.08
+    },
+    {
+      "live": "EXTNsZohoCrm/Configuration/Index",
+      "mint": "EXTNsZohoCrm/Configuration/Index.md",
+      "live_len": 2363,
+      "mint_len": 794,
+      "ratio": 0.34
+    },
+    {
+      "live": "EXTNsZohoCrm/Index",
+      "mint": "EXTNsZohoCrm/Index.md",
+      "live_len": 1750,
+      "mint_len": 443,
+      "ratio": 0.25
+    },
+    {
+      "live": "EXTNsZohoCrm/Introduction/Index",
+      "mint": "EXTNsZohoCrm/Introduction/Index.md",
+      "live_len": 1843,
+      "mint_len": 421,
+      "ratio": 0.23
+    },
+    {
+      "live": "EXTNsZohoCrm/Support",
+      "mint": "EXTNsZohoCrm/Support.md",
+      "live_len": 1563,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "EXTNsZohoCrm/UpdateVersion/Index",
+      "mint": "EXTNsZohoCrm/UpdateVersion/Index.md",
+      "live_len": 1541,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "EXTReactBootstrap/CustomElements/Index",
+      "mint": "EXTReactBootstrap/CustomElements/Index.md",
+      "live_len": 1818,
+      "mint_len": 195,
+      "ratio": 0.11
+    },
+    {
+      "live": "EXTReactBootstrap/Customization/Index",
+      "mint": "EXTReactBootstrap/Customization/Index.md",
+      "live_len": 1756,
+      "mint_len": 90,
+      "ratio": 0.05
+    },
+    {
+      "live": "EXTReactBootstrap/FAQ/Index",
+      "mint": "EXTReactBootstrap/FAQ/Index.md",
+      "live_len": 1710,
+      "mint_len": 53,
+      "ratio": 0.03
+    },
+    {
+      "live": "EXTReactBootstrap/HelpSupport/Index",
+      "mint": "EXTReactBootstrap/HelpSupport/Index.md",
+      "live_len": 1776,
+      "mint_len": 78,
+      "ratio": 0.04
+    },
+    {
+      "live": "EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index",
+      "mint": "EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index.md",
+      "live_len": 2464,
+      "mint_len": 724,
+      "ratio": 0.29
+    },
+    {
+      "live": "EXTReactBootstrap/Introduction/Index",
+      "mint": "EXTReactBootstrap/Introduction/Index.md",
+      "live_len": 2393,
+      "mint_len": 712,
+      "ratio": 0.3
+    },
+    {
+      "live": "EXTReactBootstrap/Localization/Index",
+      "mint": "EXTReactBootstrap/Localization/Index.md",
+      "live_len": 1755,
+      "mint_len": 117,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTReactBootstrap/PreviewFeature/Index",
+      "mint": "EXTReactBootstrap/PreviewFeature/Index.md",
+      "live_len": 2092,
+      "mint_len": 462,
+      "ratio": 0.22
+    },
+    {
+      "live": "EXTReactBootstrap/UpdateVersion/Index",
+      "mint": "EXTReactBootstrap/UpdateVersion/Index.md",
+      "live_len": 1772,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "EXTReva/CustomElements/Index",
+      "mint": "EXTReva/CustomElements/Index.md",
+      "live_len": 1795,
+      "mint_len": 295,
+      "ratio": 0.16
+    },
+    {
+      "live": "EXTReva/Customization/Index",
+      "mint": "EXTReva/Customization/Index.md",
+      "live_len": 1741,
+      "mint_len": 90,
+      "ratio": 0.05
+    },
+    {
+      "live": "EXTReva/DemoSite/Index",
+      "mint": "EXTReva/DemoSite/Index.md",
+      "live_len": 1725,
+      "mint_len": 123,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTReva/FAQ/Index",
+      "mint": "EXTReva/FAQ/Index.md",
+      "live_len": 1695,
+      "mint_len": 53,
+      "ratio": 0.03
+    },
+    {
+      "live": "EXTReva/HelpSupport/Index",
+      "mint": "EXTReva/HelpSupport/Index.md",
+      "live_len": 1761,
+      "mint_len": 78,
+      "ratio": 0.04
+    },
+    {
+      "live": "EXTReva/InstallationT3RevaTheme/Index",
+      "mint": "EXTReva/InstallationT3RevaTheme/Index.md",
+      "live_len": 2439,
+      "mint_len": 724,
+      "ratio": 0.3
+    },
+    {
+      "live": "EXTReva/Introduction/Index",
+      "mint": "EXTReva/Introduction/Index.md",
+      "live_len": 2371,
+      "mint_len": 734,
+      "ratio": 0.31
+    },
+    {
+      "live": "EXTReva/Localization/Index",
+      "mint": "EXTReva/Localization/Index.md",
+      "live_len": 1740,
+      "mint_len": 117,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTReva/PreviewFeature/Index",
+      "mint": "EXTReva/PreviewFeature/Index.md",
+      "live_len": 2077,
+      "mint_len": 462,
+      "ratio": 0.22
+    },
+    {
+      "live": "EXTReva/UpdateVersion/Index",
+      "mint": "EXTReva/UpdateVersion/Index.md",
+      "live_len": 1757,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "EXTShiva/CustomElements/Index",
+      "mint": "EXTShiva/CustomElements/Index.md",
+      "live_len": 1808,
+      "mint_len": 245,
+      "ratio": 0.14
+    },
+    {
+      "live": "EXTShiva/Customization/Index",
+      "mint": "EXTShiva/Customization/Index.md",
+      "live_len": 1746,
+      "mint_len": 90,
+      "ratio": 0.05
+    },
+    {
+      "live": "EXTShiva/DemoSite/Index",
+      "mint": "EXTShiva/DemoSite/Index.md",
+      "live_len": 1732,
+      "mint_len": 125,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTShiva/FAQ/Index",
+      "mint": "EXTShiva/FAQ/Index.md",
+      "live_len": 1700,
+      "mint_len": 53,
+      "ratio": 0.03
+    },
+    {
+      "live": "EXTShiva/HelpSupport/Index",
+      "mint": "EXTShiva/HelpSupport/Index.md",
+      "live_len": 1766,
+      "mint_len": 78,
+      "ratio": 0.04
+    },
+    {
+      "live": "EXTShiva/InstallationT3ShivaTheme/Index",
+      "mint": "EXTShiva/InstallationT3ShivaTheme/Index.md",
+      "live_len": 2445,
+      "mint_len": 723,
+      "ratio": 0.3
+    },
+    {
+      "live": "EXTShiva/Introduction/Index",
+      "mint": "EXTShiva/Introduction/Index.md",
+      "live_len": 2385,
+      "mint_len": 739,
+      "ratio": 0.31
+    },
+    {
+      "live": "EXTShiva/Localization/Index",
+      "mint": "EXTShiva/Localization/Index.md",
+      "live_len": 1745,
+      "mint_len": 117,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTShiva/PreviewFeature/Index",
+      "mint": "EXTShiva/PreviewFeature/Index.md",
+      "live_len": 2082,
+      "mint_len": 462,
+      "ratio": 0.22
+    },
+    {
+      "live": "EXTShiva/UpdateVersion/Index",
+      "mint": "EXTShiva/UpdateVersion/Index.md",
+      "live_len": 1762,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "EXTShop/DemoSite/Index",
+      "mint": "EXTShop/DemoSite/Index.md",
+      "live_len": 1551,
+      "mint_len": 163,
+      "ratio": 0.11
+    },
+    {
+      "live": "EXTShop/HelpSupport/Index",
+      "mint": "EXTShop/HelpSupport/Index.md",
+      "live_len": 1547,
+      "mint_len": 78,
+      "ratio": 0.05
+    },
+    {
+      "live": "EXTShop/ThemeConfiguration/Index",
+      "mint": "EXTShop/ThemeConfiguration/Index.md",
+      "live_len": 1540,
+      "mint_len": 103,
+      "ratio": 0.07
+    },
+    {
+      "live": "EXTShop/UpdateVersion/Index",
+      "mint": "EXTShop/UpdateVersion/Index.md",
+      "live_len": 1543,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNitsanHellobar/BuyNow",
+      "mint": "ExtNitsanHellobar/BuyNow.md",
+      "live_len": 1556,
+      "mint_len": 147,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNitsanHellobar/Configuration/Index",
+      "mint": "ExtNitsanHellobar/Configuration/Index.md",
+      "live_len": 1866,
+      "mint_len": 517,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNitsanHellobar/Index",
+      "mint": "ExtNitsanHellobar/Index.md",
+      "live_len": 1704,
+      "mint_len": 473,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNitsanHellobar/Introduction/Index",
+      "mint": "ExtNitsanHellobar/Introduction/Index.md",
+      "live_len": 1988,
+      "mint_len": 582,
+      "ratio": 0.29
+    },
+    {
+      "live": "ExtNitsanHellobar/Support",
+      "mint": "ExtNitsanHellobar/Support.md",
+      "live_len": 1554,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNitsanHellobar/UpdateVersion/Index",
+      "mint": "ExtNitsanHellobar/UpdateVersion/Index.md",
+      "live_len": 1538,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNitsanMaintenance/BuyNow",
+      "mint": "ExtNitsanMaintenance/BuyNow.md",
+      "live_len": 1621,
+      "mint_len": 205,
+      "ratio": 0.13
+    },
+    {
+      "live": "ExtNitsanMaintenance/Index",
+      "mint": "ExtNitsanMaintenance/Index.md",
+      "live_len": 1787,
+      "mint_len": 491,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNitsanMaintenance/Introduction/Index",
+      "mint": "ExtNitsanMaintenance/Introduction/Index.md",
+      "live_len": 2099,
+      "mint_len": 675,
+      "ratio": 0.32
+    },
+    {
+      "live": "ExtNitsanMaintenance/Support",
+      "mint": "ExtNitsanMaintenance/Support.md",
+      "live_len": 1570,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNitsanMaintenance/UpdateVersion/Index",
+      "mint": "ExtNitsanMaintenance/UpdateVersion/Index.md",
+      "live_len": 1548,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsAllChat/BuyNow",
+      "mint": "ExtNsAllChat/BuyNow.md",
+      "live_len": 1549,
+      "mint_len": 137,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsAllChat/Index",
+      "mint": "ExtNsAllChat/Index.md",
+      "live_len": 1765,
+      "mint_len": 443,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsAllChat/Support",
+      "mint": "ExtNsAllChat/Support.md",
+      "live_len": 1563,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsAllChat/UpdateVersion/Index",
+      "mint": "ExtNsAllChat/UpdateVersion/Index.md",
+      "live_len": 1542,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsAllLightbox/BuyNow",
+      "mint": "ExtNsAllLightbox/BuyNow.md",
+      "live_len": 1614,
+      "mint_len": 198,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsAllLightbox/Index",
+      "mint": "ExtNsAllLightbox/Index.md",
+      "live_len": 1777,
+      "mint_len": 467,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsAllLightbox/Support",
+      "mint": "ExtNsAllLightbox/Support.md",
+      "live_len": 1567,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsAllLightbox/UpdateVersion/Index",
+      "mint": "ExtNsAllLightbox/UpdateVersion/Index.md",
+      "live_len": 1546,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsAllSliders/BuyNow",
+      "mint": "ExtNsAllSliders/BuyNow.md",
+      "live_len": 1609,
+      "mint_len": 194,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsAllSliders/Index",
+      "mint": "ExtNsAllSliders/Index.md",
+      "live_len": 1763,
+      "mint_len": 461,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsAllSliders/Support",
+      "mint": "ExtNsAllSliders/Support.md",
+      "live_len": 1566,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsAllSliders/UpdateVersion/Index",
+      "mint": "ExtNsAllSliders/UpdateVersion/Index.md",
+      "live_len": 1545,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsBackup/BuyNow",
+      "mint": "ExtNsBackup/BuyNow.md",
+      "live_len": 1710,
+      "mint_len": 191,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsBackup/DownloadsLogsHistory/Index",
+      "mint": "ExtNsBackup/DownloadsLogsHistory/Index.md",
+      "live_len": 1786,
+      "mint_len": 448,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsBackup/Support",
+      "mint": "ExtNsBackup/Support.md",
+      "live_len": 1664,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsBackup/SystemRequirement/Index",
+      "mint": "ExtNsBackup/SystemRequirement/Index.md",
+      "live_len": 2102,
+      "mint_len": 448,
+      "ratio": 0.21
+    },
+    {
+      "live": "ExtNsBackup/UpdateVersion/Index",
+      "mint": "ExtNsBackup/UpdateVersion/Index.md",
+      "live_len": 1652,
+      "mint_len": 135,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsCacheWebhook/Configuration/Index",
+      "mint": "ExtNsCacheWebhook/Configuration/Index.md",
+      "live_len": 1690,
+      "mint_len": 368,
+      "ratio": 0.22
+    },
+    {
+      "live": "ExtNsCacheWebhook/Index",
+      "mint": "ExtNsCacheWebhook/Index.md",
+      "live_len": 1593,
+      "mint_len": 392,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsCacheWebhook/Introduction/Index",
+      "mint": "ExtNsCacheWebhook/Introduction/Index.md",
+      "live_len": 1922,
+      "mint_len": 438,
+      "ratio": 0.23
+    },
+    {
+      "live": "ExtNsCacheWebhook/Support",
+      "mint": "ExtNsCacheWebhook/Support.md",
+      "live_len": 1545,
+      "mint_len": 101,
+      "ratio": 0.07
+    },
+    {
+      "live": "ExtNsCacheWebhook/Usage/Index",
+      "mint": "ExtNsCacheWebhook/Usage/Index.md",
+      "live_len": 1677,
+      "mint_len": 409,
+      "ratio": 0.24
+    },
+    {
+      "live": "ExtNsCloudflare/BuyNow",
+      "mint": "ExtNsCloudflare/BuyNow.md",
+      "live_len": 1539,
+      "mint_len": 128,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsCloudflare/Index",
+      "mint": "ExtNsCloudflare/Index.md",
+      "live_len": 1702,
+      "mint_len": 461,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsCloudflare/Introduction/Index",
+      "mint": "ExtNsCloudflare/Introduction/Index.md",
+      "live_len": 2174,
+      "mint_len": 753,
+      "ratio": 0.35
+    },
+    {
+      "live": "ExtNsCloudflare/Support",
+      "mint": "ExtNsCloudflare/Support.md",
+      "live_len": 1565,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsCloudflare/UpdateVersion/Index",
+      "mint": "ExtNsCloudflare/UpdateVersion/Index.md",
+      "live_len": 1544,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsComments/BuyNow",
+      "mint": "ExtNsComments/BuyNow.md",
+      "live_len": 1677,
+      "mint_len": 197,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsComments/CommentOnAllPages",
+      "mint": "ExtNsComments/CommentOnAllPages.md",
+      "live_len": 1869,
+      "mint_len": 249,
+      "ratio": 0.13
+    },
+    {
+      "live": "ExtNsComments/Support",
+      "mint": "ExtNsComments/Support.md",
+      "live_len": 1634,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsComments/UpdateVersion/Index",
+      "mint": "ExtNsComments/UpdateVersion/Index.md",
+      "live_len": 1612,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsCookieYes/BuyNow",
+      "mint": "ExtNsCookieYes/BuyNow.md",
+      "live_len": 1536,
+      "mint_len": 126,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsCookieYes/Configuration/Index",
+      "mint": "ExtNsCookieYes/Configuration/Index.md",
+      "live_len": 1791,
+      "mint_len": 465,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsCookieYes/Index",
+      "mint": "ExtNsCookieYes/Index.md",
+      "live_len": 1639,
+      "mint_len": 455,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsCookieYes/Introduction/Index",
+      "mint": "ExtNsCookieYes/Introduction/Index.md",
+      "live_len": 2179,
+      "mint_len": 760,
+      "ratio": 0.35
+    },
+    {
+      "live": "ExtNsCookieYes/Support",
+      "mint": "ExtNsCookieYes/Support.md",
+      "live_len": 1564,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsCookieYes/UpdateVersion/Index",
+      "mint": "ExtNsCookieYes/UpdateVersion/Index.md",
+      "live_len": 1543,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsCookiebot/BuyNow",
+      "mint": "ExtNsCookiebot/BuyNow.md",
+      "live_len": 1534,
+      "mint_len": 124,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsCookiebot/Index",
+      "mint": "ExtNsCookiebot/Index.md",
+      "live_len": 1701,
+      "mint_len": 455,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsCookiebot/Support",
+      "mint": "ExtNsCookiebot/Support.md",
+      "live_len": 1564,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsCookiebot/UpdateVersion/Index",
+      "mint": "ExtNsCookiebot/UpdateVersion/Index.md",
+      "live_len": 1543,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsCookiesHint/BuyNow",
+      "mint": "ExtNsCookiesHint/BuyNow.md",
+      "live_len": 1539,
+      "mint_len": 131,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsCookiesHint/Configuration/Index",
+      "mint": "ExtNsCookiesHint/Configuration/Index.md",
+      "live_len": 1448,
+      "mint_len": 150,
+      "ratio": 0.1
+    },
+    {
+      "live": "ExtNsCookiesHint/Index",
+      "mint": "ExtNsCookiesHint/Index.md",
+      "live_len": 1662,
+      "mint_len": 467,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsCookiesHint/Support",
+      "mint": "ExtNsCookiesHint/Support.md",
+      "live_len": 1562,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsCookiesHint/UpdateVersion/Index",
+      "mint": "ExtNsCookiesHint/UpdateVersion/Index.md",
+      "live_len": 1541,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsDisqusComment/BuyNow",
+      "mint": "ExtNsDisqusComment/BuyNow.md",
+      "live_len": 1552,
+      "mint_len": 136,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsDisqusComment/Index",
+      "mint": "ExtNsDisqusComment/Index.md",
+      "live_len": 1728,
+      "mint_len": 479,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsDisqusComment/Support",
+      "mint": "ExtNsDisqusComment/Support.md",
+      "live_len": 1570,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsDisqusComment/UpdateVersion/Index",
+      "mint": "ExtNsDisqusComment/UpdateVersion/Index.md",
+      "live_len": 1549,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsEvent/BuyNow",
+      "mint": "ExtNsEvent/BuyNow.md",
+      "live_len": 1627,
+      "mint_len": 189,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsEvent/Configuration/Index",
+      "mint": "ExtNsEvent/Configuration/Index.md",
+      "live_len": 1666,
+      "mint_len": 182,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsEvent/Index",
+      "mint": "ExtNsEvent/Index.md",
+      "live_len": 1919,
+      "mint_len": 525,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsEvent/Introduction/Index",
+      "mint": "ExtNsEvent/Introduction/Index.md",
+      "live_len": 2172,
+      "mint_len": 724,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsEvent/Support",
+      "mint": "ExtNsEvent/Support.md",
+      "live_len": 1592,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsEvent/UpdateVersion/Index",
+      "mint": "ExtNsEvent/UpdateVersion/Index.md",
+      "live_len": 1570,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsExtCompatibility/BuyNow",
+      "mint": "ExtNsExtCompatibility/BuyNow.md",
+      "live_len": 1646,
+      "mint_len": 213,
+      "ratio": 0.13
+    },
+    {
+      "live": "ExtNsExtCompatibility/Index",
+      "mint": "ExtNsExtCompatibility/Index.md",
+      "live_len": 2048,
+      "mint_len": 576,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsExtCompatibility/Support",
+      "mint": "ExtNsExtCompatibility/Support.md",
+      "live_len": 1584,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsExtCompatibility/UpdateVersion/Index",
+      "mint": "ExtNsExtCompatibility/UpdateVersion/Index.md",
+      "live_len": 1563,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsFAQ/BuyNow",
+      "mint": "ExtNsFAQ/BuyNow.md",
+      "live_len": 1645,
+      "mint_len": 185,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsFAQ/Index",
+      "mint": "ExtNsFAQ/Index.md",
+      "live_len": 1926,
+      "mint_len": 638,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsFAQ/SubmitFAQForm/Index",
+      "mint": "ExtNsFAQ/SubmitFAQForm/Index.md",
+      "live_len": 1984,
+      "mint_len": 642,
+      "ratio": 0.32
+    },
+    {
+      "live": "ExtNsFAQ/Support",
+      "mint": "ExtNsFAQ/Support.md",
+      "live_len": 1614,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsFAQ/UpdateVersion/Index",
+      "mint": "ExtNsFAQ/UpdateVersion/Index.md",
+      "live_len": 1593,
+      "mint_len": 135,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsFacebookComment/BuyNow",
+      "mint": "ExtNsFacebookComment/BuyNow.md",
+      "live_len": 1551,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsFacebookComment/Index",
+      "mint": "ExtNsFacebookComment/Index.md",
+      "live_len": 1674,
+      "mint_len": 491,
+      "ratio": 0.29
+    },
+    {
+      "live": "ExtNsFacebookComment/Introduction/Index",
+      "mint": "ExtNsFacebookComment/Introduction/Index.md",
+      "live_len": 1998,
+      "mint_len": 544,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsFacebookComment/Support",
+      "mint": "ExtNsFacebookComment/Support.md",
+      "live_len": 1571,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsFacebookComment/UpdateVersion/Index",
+      "mint": "ExtNsFacebookComment/UpdateVersion/Index.md",
+      "live_len": 1550,
+      "mint_len": 135,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsFeedback/BuyNow",
+      "mint": "ExtNsFeedback/BuyNow.md",
+      "live_len": 1706,
+      "mint_len": 196,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsFeedback/SetFeedbackFormForEntireSite/Index",
+      "mint": "ExtNsFeedback/SetFeedbackFormForEntireSite/Index.md",
+      "live_len": 2034,
+      "mint_len": 565,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsFeedback/Support",
+      "mint": "ExtNsFeedback/Support.md",
+      "live_len": 1664,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsFeedback/UpdateVersion/Index",
+      "mint": "ExtNsFeedback/UpdateVersion/Index.md",
+      "live_len": 1642,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/BuyNow",
+      "mint": "ExtNsFriendlyCaptcha/BuyNow.md",
+      "live_len": 1643,
+      "mint_len": 574,
+      "ratio": 0.35
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/CustomIntegration/Index",
+      "mint": "ExtNsFriendlyCaptcha/CustomIntegration/Index.md",
+      "live_len": 2200,
+      "mint_len": 695,
+      "ratio": 0.32
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/Index",
+      "mint": "ExtNsFriendlyCaptcha/Index.md",
+      "live_len": 1700,
+      "mint_len": 580,
+      "ratio": 0.34
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/Support",
+      "mint": "ExtNsFriendlyCaptcha/Support.md",
+      "live_len": 1589,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/UpdateVersion/Index",
+      "mint": "ExtNsFriendlyCaptcha/UpdateVersion/Index.md",
+      "live_len": 1567,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsGallery/BuyNow",
+      "mint": "ExtNsGallery/BuyNow.md",
+      "live_len": 1788,
+      "mint_len": 191,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsGallery/GoogleSearchView/Index",
+      "mint": "ExtNsGallery/GoogleSearchView/Index.md",
+      "live_len": 2001,
+      "mint_len": 560,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsGallery/IsotopeView/Index",
+      "mint": "ExtNsGallery/IsotopeView/Index.md",
+      "live_len": 2120,
+      "mint_len": 635,
+      "ratio": 0.3
+    },
+    {
+      "live": "ExtNsGallery/MasonryView/Index",
+      "mint": "ExtNsGallery/MasonryView/Index.md",
+      "live_len": 2161,
+      "mint_len": 711,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsGallery/MosaicView/Index",
+      "mint": "ExtNsGallery/MosaicView/Index.md",
+      "live_len": 2017,
+      "mint_len": 557,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsGallery/Support",
+      "mint": "ExtNsGallery/Support.md",
+      "live_len": 1751,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsGallery/UpdateVersion/Index",
+      "mint": "ExtNsGallery/UpdateVersion/Index.md",
+      "live_len": 1730,
+      "mint_len": 135,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsGallery/ZoomView/Index",
+      "mint": "ExtNsGallery/ZoomView/Index.md",
+      "live_len": 1945,
+      "mint_len": 525,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsGoogleDocs/BuyNow",
+      "mint": "ExtNsGoogleDocs/BuyNow.md",
+      "live_len": 1777,
+      "mint_len": 197,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsGoogleDocs/Support",
+      "mint": "ExtNsGoogleDocs/Support.md",
+      "live_len": 1734,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsGoogleDocs/UpdateVersion/Index",
+      "mint": "ExtNsGoogleDocs/UpdateVersion/Index.md",
+      "live_len": 1712,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsGoogleMap/BuyNow",
+      "mint": "ExtNsGoogleMap/BuyNow.md",
+      "live_len": 1608,
+      "mint_len": 197,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsGoogleMap/Configuration/AddMapAPI/Index",
+      "mint": "ExtNsGoogleMap/Configuration/AddMapAPI/Index.md",
+      "live_len": 1924,
+      "mint_len": 482,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsGoogleMap/Configuration/Index",
+      "mint": "ExtNsGoogleMap/Configuration/Index.md",
+      "live_len": 1653,
+      "mint_len": 324,
+      "ratio": 0.2
+    },
+    {
+      "live": "ExtNsGoogleMap/Index",
+      "mint": "ExtNsGoogleMap/Index.md",
+      "live_len": 1869,
+      "mint_len": 455,
+      "ratio": 0.24
+    },
+    {
+      "live": "ExtNsGoogleMap/Support",
+      "mint": "ExtNsGoogleMap/Support.md",
+      "live_len": 1565,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsGoogleMap/UpdateVersion/Index",
+      "mint": "ExtNsGoogleMap/UpdateVersion/Index.md",
+      "live_len": 1543,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsGoogleSiteKit/BuyNow",
+      "mint": "ExtNsGoogleSiteKit/BuyNow.md",
+      "live_len": 1801,
+      "mint_len": 248,
+      "ratio": 0.14
+    },
+    {
+      "live": "ExtNsGoogleSiteKit/GettingStarted/Index",
+      "mint": "ExtNsGoogleSiteKit/GettingStarted/Index.md",
+      "live_len": 1653,
+      "mint_len": 340,
+      "ratio": 0.21
+    },
+    {
+      "live": "ExtNsGoogleSiteKit/Introduction/Index",
+      "mint": "ExtNsGoogleSiteKit/Introduction/Index.md",
+      "live_len": 2419,
+      "mint_len": 791,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsGoogleSiteKit/Support",
+      "mint": "ExtNsGoogleSiteKit/Support.md",
+      "live_len": 1710,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsGoogleSiteKit/UpdateVersion/Index",
+      "mint": "ExtNsGoogleSiteKit/UpdateVersion/Index.md",
+      "live_len": 1697,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsGridtoContainer/BuyNow",
+      "mint": "ExtNsGridtoContainer/BuyNow.md",
+      "live_len": 1550,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsGridtoContainer/Index",
+      "mint": "ExtNsGridtoContainer/Index.md",
+      "live_len": 1800,
+      "mint_len": 491,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsGridtoContainer/Introduction/Index",
+      "mint": "ExtNsGridtoContainer/Introduction/Index.md",
+      "live_len": 1927,
+      "mint_len": 444,
+      "ratio": 0.23
+    },
+    {
+      "live": "ExtNsGridtoContainer/Support",
+      "mint": "ExtNsGridtoContainer/Support.md",
+      "live_len": 1570,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsGridtoContainer/UpdateVersion/Index",
+      "mint": "ExtNsGridtoContainer/UpdateVersion/Index.md",
+      "live_len": 1540,
+      "mint_len": 126,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsGuestbook/BuyNow",
+      "mint": "ExtNsGuestbook/BuyNow.md",
+      "live_len": 1535,
+      "mint_len": 125,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsGuestbook/Index",
+      "mint": "ExtNsGuestbook/Index.md",
+      "live_len": 1656,
+      "mint_len": 455,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsGuestbook/Support",
+      "mint": "ExtNsGuestbook/Support.md",
+      "live_len": 1564,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsGuestbook/UpdateVersion/Index",
+      "mint": "ExtNsGuestbook/UpdateVersion/Index.md",
+      "live_len": 1542,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsHelpDesk/BuyNow",
+      "mint": "ExtNsHelpDesk/BuyNow.md",
+      "live_len": 1737,
+      "mint_len": 194,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsHelpDesk/CategoryStatus/Index",
+      "mint": "ExtNsHelpDesk/CategoryStatus/Index.md",
+      "live_len": 1845,
+      "mint_len": 543,
+      "ratio": 0.29
+    },
+    {
+      "live": "ExtNsHelpDesk/Support",
+      "mint": "ExtNsHelpDesk/Support.md",
+      "live_len": 1697,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsHelpDesk/TicketStatus/Index",
+      "mint": "ExtNsHelpDesk/TicketStatus/Index.md",
+      "live_len": 1835,
+      "mint_len": 533,
+      "ratio": 0.29
+    },
+    {
+      "live": "ExtNsHelpDesk/UpdateVersion/Index",
+      "mint": "ExtNsHelpDesk/UpdateVersion/Index.md",
+      "live_len": 1675,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsHubspot/BuyNow",
+      "mint": "ExtNsHubspot/BuyNow.md",
+      "live_len": 1702,
+      "mint_len": 191,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsHubspot/Index",
+      "mint": "ExtNsHubspot/Index.md",
+      "live_len": 2016,
+      "mint_len": 571,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsHubspot/Introduction/Index",
+      "mint": "ExtNsHubspot/Introduction/Index.md",
+      "live_len": 2249,
+      "mint_len": 675,
+      "ratio": 0.3
+    },
+    {
+      "live": "ExtNsHubspot/Support",
+      "mint": "ExtNsHubspot/Support.md",
+      "live_len": 1665,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsHubspot/UpdateVersion/Index",
+      "mint": "ExtNsHubspot/UpdateVersion/Index.md",
+      "live_len": 1643,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsInstagram/BuyNow",
+      "mint": "ExtNsInstagram/BuyNow.md",
+      "live_len": 1534,
+      "mint_len": 124,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsInstagram/Index",
+      "mint": "ExtNsInstagram/Index.md",
+      "live_len": 1692,
+      "mint_len": 556,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsInstagram/Introduction/Index",
+      "mint": "ExtNsInstagram/Introduction/Index.md",
+      "live_len": 2140,
+      "mint_len": 721,
+      "ratio": 0.34
+    },
+    {
+      "live": "ExtNsInstagram/Support",
+      "mint": "ExtNsInstagram/Support.md",
+      "live_len": 1564,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsInstagram/UpdateVersion/Index",
+      "mint": "ExtNsInstagram/UpdateVersion/Index.md",
+      "live_len": 1542,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsLazyload/BuyNow",
+      "mint": "ExtNsLazyload/BuyNow.md",
+      "live_len": 1539,
+      "mint_len": 129,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsLazyload/Configuration/Index",
+      "mint": "ExtNsLazyload/Configuration/Index.md",
+      "live_len": 1891,
+      "mint_len": 589,
+      "ratio": 0.31
+    },
+    {
+      "live": "ExtNsLazyload/Index",
+      "mint": "ExtNsLazyload/Index.md",
+      "live_len": 1638,
+      "mint_len": 449,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsLazyload/Introduction/Index",
+      "mint": "ExtNsLazyload/Introduction/Index.md",
+      "live_len": 2125,
+      "mint_len": 688,
+      "ratio": 0.32
+    },
+    {
+      "live": "ExtNsLazyload/Support",
+      "mint": "ExtNsLazyload/Support.md",
+      "live_len": 1564,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsLazyload/UpdateVersion/Index",
+      "mint": "ExtNsLazyload/UpdateVersion/Index.md",
+      "live_len": 1542,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/BuyNow",
+      "mint": "ExtNsNewsAdvancedSearch/BuyNow.md",
+      "live_len": 1564,
+      "mint_len": 144,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/Configuration/Index",
+      "mint": "ExtNsNewsAdvancedSearch/Configuration/Index.md",
+      "live_len": 1560,
+      "mint_len": 266,
+      "ratio": 0.17
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/Index",
+      "mint": "ExtNsNewsAdvancedSearch/Index.md",
+      "live_len": 1800,
+      "mint_len": 509,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/Support",
+      "mint": "ExtNsNewsAdvancedSearch/Support.md",
+      "live_len": 1574,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/UpdateVersion/Index",
+      "mint": "ExtNsNewsAdvancedSearch/UpdateVersion/Index.md",
+      "live_len": 1552,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsNewsComments/BuyNow",
+      "mint": "ExtNsNewsComments/BuyNow.md",
+      "live_len": 1700,
+      "mint_len": 200,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsNewsComments/Introduction/Index",
+      "mint": "ExtNsNewsComments/Introduction/Index.md",
+      "live_len": 2276,
+      "mint_len": 770,
+      "ratio": 0.34
+    },
+    {
+      "live": "ExtNsNewsComments/Support",
+      "mint": "ExtNsNewsComments/Support.md",
+      "live_len": 1654,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsNewsComments/UpdateVersion/Index",
+      "mint": "ExtNsNewsComments/UpdateVersion/Index.md",
+      "live_len": 1632,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsNewsSlickSlider/BuyNow",
+      "mint": "ExtNsNewsSlickSlider/BuyNow.md",
+      "live_len": 1483,
+      "mint_len": 72,
+      "ratio": 0.05
+    },
+    {
+      "live": "ExtNsNewsSlickSlider/Configuration/Index",
+      "mint": "ExtNsNewsSlickSlider/Configuration/Index.md",
+      "live_len": 1519,
+      "mint_len": 148,
+      "ratio": 0.1
+    },
+    {
+      "live": "ExtNsNewsSlickSlider/Index",
+      "mint": "ExtNsNewsSlickSlider/Index.md",
+      "live_len": 1745,
+      "mint_len": 491,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsNewsSlickSlider/Support",
+      "mint": "ExtNsNewsSlickSlider/Support.md",
+      "live_len": 1565,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsNewsSlickSlider/UpdateVersion/Index",
+      "mint": "ExtNsNewsSlickSlider/UpdateVersion/Index.md",
+      "live_len": 1543,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsNewsSlider/BuyNow",
+      "mint": "ExtNsNewsSlider/BuyNow.md",
+      "live_len": 1612,
+      "mint_len": 200,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsNewsSlider/Configuration/AddNewsSliderPlugin/Index",
+      "mint": "ExtNsNewsSlider/Configuration/AddNewsSliderPlugin/Index.md",
+      "live_len": 1801,
+      "mint_len": 294,
+      "ratio": 0.16
+    },
+    {
+      "live": "ExtNsNewsSlider/Configuration/Index",
+      "mint": "ExtNsNewsSlider/Configuration/Index.md",
+      "live_len": 1605,
+      "mint_len": 487,
+      "ratio": 0.3
+    },
+    {
+      "live": "ExtNsNewsSlider/Configuration/NivoSlider/Index",
+      "mint": "ExtNsNewsSlider/Configuration/NivoSlider/Index.md",
+      "live_len": 2118,
+      "mint_len": 711,
+      "ratio": 0.34
+    },
+    {
+      "live": "ExtNsNewsSlider/Configuration/OwlcarouselSlider/Index",
+      "mint": "ExtNsNewsSlider/Configuration/OwlcarouselSlider/Index.md",
+      "live_len": 1757,
+      "mint_len": 335,
+      "ratio": 0.19
+    },
+    {
+      "live": "ExtNsNewsSlider/Configuration/RoyalSlider/Index",
+      "mint": "ExtNsNewsSlider/Configuration/RoyalSlider/Index.md",
+      "live_len": 1924,
+      "mint_len": 536,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsNewsSlider/Configuration/SlickSlider/Index",
+      "mint": "ExtNsNewsSlider/Configuration/SlickSlider/Index.md",
+      "live_len": 1647,
+      "mint_len": 177,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsNewsSlider/Index",
+      "mint": "ExtNsNewsSlider/Index.md",
+      "live_len": 1815,
+      "mint_len": 461,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsNewsSlider/Support",
+      "mint": "ExtNsNewsSlider/Support.md",
+      "live_len": 1566,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsNewsSlider/UpdateVersion/Index",
+      "mint": "ExtNsNewsSlider/UpdateVersion/Index.md",
+      "live_len": 1544,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsOpenStreetMap/BuyNow",
+      "mint": "ExtNsOpenStreetMap/BuyNow.md",
+      "live_len": 1620,
+      "mint_len": 205,
+      "ratio": 0.13
+    },
+    {
+      "live": "ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index",
+      "mint": "ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index.md",
+      "live_len": 1992,
+      "mint_len": 529,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsOpenStreetMap/Configuration/Index",
+      "mint": "ExtNsOpenStreetMap/Configuration/Index.md",
+      "live_len": 1689,
+      "mint_len": 360,
+      "ratio": 0.21
+    },
+    {
+      "live": "ExtNsOpenStreetMap/Index",
+      "mint": "ExtNsOpenStreetMap/Index.md",
+      "live_len": 1906,
+      "mint_len": 479,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsOpenStreetMap/Support",
+      "mint": "ExtNsOpenStreetMap/Support.md",
+      "live_len": 1569,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsOpenStreetMap/UpdateVersion/Index",
+      "mint": "ExtNsOpenStreetMap/UpdateVersion/Index.md",
+      "live_len": 1547,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsPWA/BuyNow",
+      "mint": "ExtNsPWA/BuyNow.md",
+      "live_len": 1519,
+      "mint_len": 115,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsPWA/Index",
+      "mint": "ExtNsPWA/Index.md",
+      "live_len": 1609,
+      "mint_len": 419,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsPWA/Introduction/Index",
+      "mint": "ExtNsPWA/Introduction/Index.md",
+      "live_len": 2191,
+      "mint_len": 732,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsPWA/Support",
+      "mint": "ExtNsPWA/Support.md",
+      "live_len": 1558,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsPWA/UpdateVersion/Index",
+      "mint": "ExtNsPWA/UpdateVersion/Index.md",
+      "live_len": 1536,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsPersonio/BuyNow",
+      "mint": "ExtNsPersonio/BuyNow.md",
+      "live_len": 1710,
+      "mint_len": 193,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsPersonio/Index",
+      "mint": "ExtNsPersonio/Index.md",
+      "live_len": 2160,
+      "mint_len": 589,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsPersonio/Introduction/Index",
+      "mint": "ExtNsPersonio/Introduction/Index.md",
+      "live_len": 2194,
+      "mint_len": 658,
+      "ratio": 0.3
+    },
+    {
+      "live": "ExtNsPersonio/Support",
+      "mint": "ExtNsPersonio/Support.md",
+      "live_len": 1671,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsPersonio/UpdateVersion/Index",
+      "mint": "ExtNsPersonio/UpdateVersion/Index.md",
+      "live_len": 1837,
+      "mint_len": 598,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsProtectSite/BuyNow",
+      "mint": "ExtNsProtectSite/BuyNow.md",
+      "live_len": 1551,
+      "mint_len": 138,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsProtectSite/Index",
+      "mint": "ExtNsProtectSite/Index.md",
+      "live_len": 1736,
+      "mint_len": 467,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsProtectSite/Support",
+      "mint": "ExtNsProtectSite/Support.md",
+      "live_len": 1567,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsProtectSite/UpdateVersion/Index",
+      "mint": "ExtNsProtectSite/UpdateVersion/Index.md",
+      "live_len": 1545,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsPublicationComment/BuyNow",
+      "mint": "ExtNsPublicationComment/BuyNow.md",
+      "live_len": 1510,
+      "mint_len": 79,
+      "ratio": 0.05
+    },
+    {
+      "live": "ExtNsPublicationComment/Index",
+      "mint": "ExtNsPublicationComment/Index.md",
+      "live_len": 1742,
+      "mint_len": 530,
+      "ratio": 0.3
+    },
+    {
+      "live": "ExtNsPublicationComment/Support",
+      "mint": "ExtNsPublicationComment/Support.md",
+      "live_len": 1585,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsPublicationComment/UpdateVersion/Index",
+      "mint": "ExtNsPublicationComment/UpdateVersion/Index.md",
+      "live_len": 1563,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsRevolutionSlider/BuyNow",
+      "mint": "ExtNsRevolutionSlider/BuyNow.md",
+      "live_len": 1719,
+      "mint_len": 212,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsRevolutionSlider/Index",
+      "mint": "ExtNsRevolutionSlider/Index.md",
+      "live_len": 3207,
+      "mint_len": 807,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsRevolutionSlider/KnownIssues/Index",
+      "mint": "ExtNsRevolutionSlider/KnownIssues/Index.md",
+      "live_len": 2154,
+      "mint_len": 536,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider1.0/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider1.0/Index.md",
+      "live_len": 1715,
+      "mint_len": 233,
+      "ratio": 0.14
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider2.0/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider2.0/Index.md",
+      "live_len": 1919,
+      "mint_len": 348,
+      "ratio": 0.18
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index.md",
+      "live_len": 2387,
+      "mint_len": 673,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider3.0/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider3.0/Index.md",
+      "live_len": 1950,
+      "mint_len": 541,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index.md",
+      "live_len": 2246,
+      "mint_len": 631,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSlider3.0/SystemRequirements/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider3.0/SystemRequirements/Index.md",
+      "live_len": 1792,
+      "mint_len": 211,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSliderLatest/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSliderLatest/Index.md",
+      "live_len": 2094,
+      "mint_len": 490,
+      "ratio": 0.23
+    },
+    {
+      "live": "ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index.md",
+      "live_len": 1820,
+      "mint_len": 211,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsRevolutionSlider/Support",
+      "mint": "ExtNsRevolutionSlider/Support.md",
+      "live_len": 1993,
+      "mint_len": 418,
+      "ratio": 0.21
+    },
+    {
+      "live": "ExtNsRevolutionSlider/UpdateVersion/Index",
+      "mint": "ExtNsRevolutionSlider/UpdateVersion/Index.md",
+      "live_len": 1636,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsSharethis/BuyNow",
+      "mint": "ExtNsSharethis/BuyNow.md",
+      "live_len": 1556,
+      "mint_len": 143,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsSharethis/Index",
+      "mint": "ExtNsSharethis/Index.md",
+      "live_len": 1751,
+      "mint_len": 455,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsSharethis/Support",
+      "mint": "ExtNsSharethis/Support.md",
+      "live_len": 1564,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsSharethis/UpdateVersion/Index",
+      "mint": "ExtNsSharethis/UpdateVersion/Index.md",
+      "live_len": 1542,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsSnow/BuyNow",
+      "mint": "ExtNsSnow/BuyNow.md",
+      "live_len": 1528,
+      "mint_len": 123,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsSnow/Configuration/Index",
+      "mint": "ExtNsSnow/Configuration/Index.md",
+      "live_len": 1712,
+      "mint_len": 456,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsSnow/Index",
+      "mint": "ExtNsSnow/Index.md",
+      "live_len": 1614,
+      "mint_len": 425,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsSnow/Support",
+      "mint": "ExtNsSnow/Support.md",
+      "live_len": 1559,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsSnow/UpdateVersion/Index",
+      "mint": "ExtNsSnow/UpdateVersion/Index.md",
+      "live_len": 1537,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsSocialLogin/BeforeGettingStarted/Index",
+      "mint": "ExtNsSocialLogin/BeforeGettingStarted/Index.md",
+      "live_len": 1765,
+      "mint_len": 266,
+      "ratio": 0.15
+    },
+    {
+      "live": "ExtNsSocialLogin/BuyNow",
+      "mint": "ExtNsSocialLogin/BuyNow.md",
+      "live_len": 1688,
+      "mint_len": 202,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsSocialLogin/FAQ/Index",
+      "mint": "ExtNsSocialLogin/FAQ/Index.md",
+      "live_len": 1628,
+      "mint_len": 155,
+      "ratio": 0.1
+    },
+    {
+      "live": "ExtNsSocialLogin/Introduction/Index",
+      "mint": "ExtNsSocialLogin/Introduction/Index.md",
+      "live_len": 2051,
+      "mint_len": 541,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsSocialLogin/Screenshots/Index",
+      "mint": "ExtNsSocialLogin/Screenshots/Index.md",
+      "live_len": 1567,
+      "mint_len": 342,
+      "ratio": 0.22
+    },
+    {
+      "live": "ExtNsSocialLogin/Support",
+      "mint": "ExtNsSocialLogin/Support.md",
+      "live_len": 1637,
+      "mint_len": 212,
+      "ratio": 0.13
+    },
+    {
+      "live": "ExtNsSocialLogin/SystemRequirements/Index",
+      "mint": "ExtNsSocialLogin/SystemRequirements/Index.md",
+      "live_len": 1646,
+      "mint_len": 180,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsSocialLogin/UpdateVersion/Index",
+      "mint": "ExtNsSocialLogin/UpdateVersion/Index.md",
+      "live_len": 1618,
+      "mint_len": 134,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsStatcounter/BuyNow",
+      "mint": "ExtNsStatcounter/BuyNow.md",
+      "live_len": 1498,
+      "mint_len": 83,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsStatcounter/Index",
+      "mint": "ExtNsStatcounter/Index.md",
+      "live_len": 1790,
+      "mint_len": 467,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsStatcounter/Support",
+      "mint": "ExtNsStatcounter/Support.md",
+      "live_len": 1566,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsStatcounter/UpdateVersion/Index",
+      "mint": "ExtNsStatcounter/UpdateVersion/Index.md",
+      "live_len": 1544,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsT3AA/BuyNow",
+      "mint": "ExtNsT3AA/BuyNow.md",
+      "live_len": 1936,
+      "mint_len": 141,
+      "ratio": 0.07
+    },
+    {
+      "live": "ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+      "mint": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.md",
+      "live_len": 2446,
+      "mint_len": 845,
+      "ratio": 0.35
+    },
+    {
+      "live": "ExtNsT3AA/Introduction/Index",
+      "mint": "ExtNsT3AA/Introduction/Index.md",
+      "live_len": 2791,
+      "mint_len": 869,
+      "ratio": 0.31
+    },
+    {
+      "live": "ExtNsT3AA/KnownProblems/Index",
+      "mint": "ExtNsT3AA/KnownProblems/Index.md",
+      "live_len": 2013,
+      "mint_len": 147,
+      "ratio": 0.07
+    },
+    {
+      "live": "ExtNsT3AA/Screenshots/Index",
+      "mint": "ExtNsT3AA/Screenshots/Index.md",
+      "live_len": 2007,
+      "mint_len": 213,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsT3AA/SimplifiedText/Index",
+      "mint": "ExtNsT3AA/SimplifiedText/Index.md",
+      "live_len": 2245,
+      "mint_len": 633,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsT3AA/Support",
+      "mint": "ExtNsT3AA/Support.md",
+      "live_len": 2136,
+      "mint_len": 361,
+      "ratio": 0.17
+    },
+    {
+      "live": "ExtNsT3AA/SystemRequirements/Index",
+      "mint": "ExtNsT3AA/SystemRequirements/Index.md",
+      "live_len": 2034,
+      "mint_len": 387,
+      "ratio": 0.19
+    },
+    {
+      "live": "ExtNsT3AA/UpdateVersion/Index",
+      "mint": "ExtNsT3AA/UpdateVersion/Index.md",
+      "live_len": 1980,
+      "mint_len": 182,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsT3AB/BuyNow",
+      "mint": "ExtNsT3AB/BuyNow.md",
+      "live_len": 1592,
+      "mint_len": 93,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsT3AB/Configuration/Index",
+      "mint": "ExtNsT3AB/Configuration/Index.md",
+      "live_len": 1723,
+      "mint_len": 542,
+      "ratio": 0.31
+    },
+    {
+      "live": "ExtNsT3AB/Forms/Index",
+      "mint": "ExtNsT3AB/Forms/Index.md",
+      "live_len": 1867,
+      "mint_len": 594,
+      "ratio": 0.32
+    },
+    {
+      "live": "ExtNsT3AB/HowT3ABWorks/Index",
+      "mint": "ExtNsT3AB/HowT3ABWorks/Index.md",
+      "live_len": 1753,
+      "mint_len": 281,
+      "ratio": 0.16
+    },
+    {
+      "live": "ExtNsT3AB/Installation/Index",
+      "mint": "ExtNsT3AB/Installation/Index.md",
+      "live_len": 1998,
+      "mint_len": 477,
+      "ratio": 0.24
+    },
+    {
+      "live": "ExtNsT3AB/Introduction/Index",
+      "mint": "ExtNsT3AB/Introduction/Index.md",
+      "live_len": 2129,
+      "mint_len": 589,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsT3AB/Screenshots/Index",
+      "mint": "ExtNsT3AB/Screenshots/Index.md",
+      "live_len": 1397,
+      "mint_len": 112,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsT3AB/Support",
+      "mint": "ExtNsT3AB/Support.md",
+      "live_len": 1777,
+      "mint_len": 345,
+      "ratio": 0.19
+    },
+    {
+      "live": "ExtNsT3AB/SystemRequirements/Index",
+      "mint": "ExtNsT3AB/SystemRequirements/Index.md",
+      "live_len": 1741,
+      "mint_len": 250,
+      "ratio": 0.14
+    },
+    {
+      "live": "ExtNsT3AB/T3ABContentBlocks/Index",
+      "mint": "ExtNsT3AB/T3ABContentBlocks/Index.md",
+      "live_len": 1953,
+      "mint_len": 637,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsT3AB/UpdateGuide/Index",
+      "mint": "ExtNsT3AB/UpdateGuide/Index.md",
+      "live_len": 1756,
+      "mint_len": 275,
+      "ratio": 0.16
+    },
+    {
+      "live": "ExtNsT3AB/UpdateVersion/Index",
+      "mint": "ExtNsT3AB/UpdateVersion/Index.md",
+      "live_len": 1630,
+      "mint_len": 136,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsT3AC/BuyNow",
+      "mint": "ExtNsT3AC/BuyNow.md",
+      "live_len": 1601,
+      "mint_len": 139,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsT3AC/KnownProblems/Index",
+      "mint": "ExtNsT3AC/KnownProblems/Index.md",
+      "live_len": 1679,
+      "mint_len": 147,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsT3AC/Screenshots/Index",
+      "mint": "ExtNsT3AC/Screenshots/Index.md",
+      "live_len": 1672,
+      "mint_len": 497,
+      "ratio": 0.3
+    },
+    {
+      "live": "ExtNsT3AC/Support",
+      "mint": "ExtNsT3AC/Support.md",
+      "live_len": 1786,
+      "mint_len": 345,
+      "ratio": 0.19
+    },
+    {
+      "live": "ExtNsT3AC/UpdateVersion/Index",
+      "mint": "ExtNsT3AC/UpdateVersion/Index.md",
+      "live_len": 1646,
+      "mint_len": 182,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsT3AI/Appendix/Index",
+      "mint": "ExtNsT3AI/Appendix/Index.md",
+      "live_len": 1666,
+      "mint_len": 96,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsT3AI/BuyNow",
+      "mint": "ExtNsT3AI/BuyNow.md",
+      "live_len": 1783,
+      "mint_len": 281,
+      "ratio": 0.16
+    },
+    {
+      "live": "ExtNsT3AI/FAQ/Index",
+      "mint": "ExtNsT3AI/FAQ/Index.md",
+      "live_len": 1731,
+      "mint_len": 191,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsT3AI/Screenshots/Index",
+      "mint": "ExtNsT3AI/Screenshots/Index.md",
+      "live_len": 1785,
+      "mint_len": 474,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsT3AI/Support",
+      "mint": "ExtNsT3AI/Support.md",
+      "live_len": 1748,
+      "mint_len": 212,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsT3AI/SystemRequirements/Index",
+      "mint": "ExtNsT3AI/SystemRequirements/Index.md",
+      "live_len": 1786,
+      "mint_len": 213,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsT3AI/UpdateVersion/Index",
+      "mint": "ExtNsT3AI/UpdateVersion/Index.md",
+      "live_len": 1729,
+      "mint_len": 173,
+      "ratio": 0.1
+    },
+    {
+      "live": "ExtNsT3AI/VideoTutorials/Index",
+      "mint": "ExtNsT3AI/VideoTutorials/Index.md",
+      "live_len": 1806,
+      "mint_len": 168,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsT3AL/AILocalizationLogs/Index",
+      "mint": "ExtNsT3AL/AILocalizationLogs/Index.md",
+      "live_len": 2131,
+      "mint_len": 598,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsT3AL/BuyNow",
+      "mint": "ExtNsT3AL/BuyNow.md",
+      "live_len": 1678,
+      "mint_len": 108,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsT3AL/Installation/Index",
+      "mint": "ExtNsT3AL/Installation/Index.md",
+      "live_len": 1988,
+      "mint_len": 506,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsT3AL/Introduction/Index",
+      "mint": "ExtNsT3AL/Introduction/Index.md",
+      "live_len": 2461,
+      "mint_len": 763,
+      "ratio": 0.31
+    },
+    {
+      "live": "ExtNsT3AL/KnownProblems/Index",
+      "mint": "ExtNsT3AL/KnownProblems/Index.md",
+      "live_len": 1774,
+      "mint_len": 167,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsT3AL/Screenshots/Index",
+      "mint": "ExtNsT3AL/Screenshots/Index.md",
+      "live_len": 1847,
+      "mint_len": 487,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsT3AL/Support",
+      "mint": "ExtNsT3AL/Support.md",
+      "live_len": 1764,
+      "mint_len": 211,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsT3AL/SystemRequirements/Index",
+      "mint": "ExtNsT3AL/SystemRequirements/Index.md",
+      "live_len": 1802,
+      "mint_len": 199,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsT3AL/T3ALforEveryone/Index",
+      "mint": "ExtNsT3AL/T3ALforEveryone/Index.md",
+      "live_len": 2110,
+      "mint_len": 497,
+      "ratio": 0.24
+    },
+    {
+      "live": "ExtNsT3AL/UpdateVersion/Index",
+      "mint": "ExtNsT3AL/UpdateVersion/Index.md",
+      "live_len": 1754,
+      "mint_len": 143,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsT3AL/VideoTutorials/Index",
+      "mint": "ExtNsT3AL/VideoTutorials/Index.md",
+      "live_len": 1832,
+      "mint_len": 181,
+      "ratio": 0.1
+    },
+    {
+      "live": "ExtNsT3AS/BuyNow",
+      "mint": "ExtNsT3AS/BuyNow.md",
+      "live_len": 1781,
+      "mint_len": 139,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsT3AS/KnownProblems/Index",
+      "mint": "ExtNsT3AS/KnownProblems/Index.md",
+      "live_len": 1859,
+      "mint_len": 147,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsT3AS/PerformanceConfiguration/Index",
+      "mint": "ExtNsT3AS/PerformanceConfiguration/Index.md",
+      "live_len": 2691,
+      "mint_len": 714,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsT3AS/Support",
+      "mint": "ExtNsT3AS/Support.md",
+      "live_len": 1965,
+      "mint_len": 344,
+      "ratio": 0.18
+    },
+    {
+      "live": "ExtNsT3AS/UpdateVersion/Index",
+      "mint": "ExtNsT3AS/UpdateVersion/Index.md",
+      "live_len": 1826,
+      "mint_len": 182,
+      "ratio": 0.1
+    },
+    {
+      "live": "ExtNsTimeLine/BuyNow",
+      "mint": "ExtNsTimeLine/BuyNow.md",
+      "live_len": 1617,
+      "mint_len": 197,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsTimeLine/Index",
+      "mint": "ExtNsTimeLine/Index.md",
+      "live_len": 1666,
+      "mint_len": 470,
+      "ratio": 0.28
+    },
+    {
+      "live": "ExtNsTimeLine/Support",
+      "mint": "ExtNsTimeLine/Support.md",
+      "live_len": 1574,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsTimeLine/UpdateVersion/Index",
+      "mint": "ExtNsTimeLine/UpdateVersion/Index.md",
+      "live_len": 1552,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsTwitter/BuyNow",
+      "mint": "ExtNsTwitter/BuyNow.md",
+      "live_len": 1539,
+      "mint_len": 128,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsTwitter/Index",
+      "mint": "ExtNsTwitter/Index.md",
+      "live_len": 2096,
+      "mint_len": 443,
+      "ratio": 0.21
+    },
+    {
+      "live": "ExtNsTwitter/Support",
+      "mint": "ExtNsTwitter/Support.md",
+      "live_len": 1562,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsTwitter/UpdateVersion/Index",
+      "mint": "ExtNsTwitter/UpdateVersion/Index.md",
+      "live_len": 1540,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsWhatsapp/BuyNow",
+      "mint": "ExtNsWhatsapp/BuyNow.md",
+      "live_len": 1606,
+      "mint_len": 195,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtNsWhatsapp/Index",
+      "mint": "ExtNsWhatsapp/Index.md",
+      "live_len": 1710,
+      "mint_len": 452,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsWhatsapp/Support",
+      "mint": "ExtNsWhatsapp/Support.md",
+      "live_len": 1565,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsWhatsapp/UpdateVersion/Index",
+      "mint": "ExtNsWhatsapp/UpdateVersion/Index.md",
+      "live_len": 1543,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsWpMigration/BuyNow",
+      "mint": "ExtNsWpMigration/BuyNow.md",
+      "live_len": 1544,
+      "mint_len": 131,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsWpMigration/Index",
+      "mint": "ExtNsWpMigration/Index.md",
+      "live_len": 1761,
+      "mint_len": 467,
+      "ratio": 0.27
+    },
+    {
+      "live": "ExtNsWpMigration/Introduction/Index",
+      "mint": "ExtNsWpMigration/Introduction/Index.md",
+      "live_len": 1923,
+      "mint_len": 451,
+      "ratio": 0.23
+    },
+    {
+      "live": "ExtNsWpMigration/Support",
+      "mint": "ExtNsWpMigration/Support.md",
+      "live_len": 1567,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsWpMigration/UpdateVersion/Index",
+      "mint": "ExtNsWpMigration/UpdateVersion/Index.md",
+      "live_len": 1537,
+      "mint_len": 126,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsYoutube/BuyNow",
+      "mint": "ExtNsYoutube/BuyNow.md",
+      "live_len": 1539,
+      "mint_len": 128,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtNsYoutube/Index",
+      "mint": "ExtNsYoutube/Index.md",
+      "live_len": 1692,
+      "mint_len": 443,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtNsYoutube/Introduction/Index",
+      "mint": "ExtNsYoutube/Introduction/Index.md",
+      "live_len": 1976,
+      "mint_len": 598,
+      "ratio": 0.3
+    },
+    {
+      "live": "ExtNsYoutube/Support",
+      "mint": "ExtNsYoutube/Support.md",
+      "live_len": 1562,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsYoutube/UpdateVersion/Index",
+      "mint": "ExtNsYoutube/UpdateVersion/Index.md",
+      "live_len": 1540,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtNsZoho/BuyNow",
+      "mint": "ExtNsZoho/BuyNow.md",
+      "live_len": 1573,
+      "mint_len": 168,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtNsZoho/Index",
+      "mint": "ExtNsZoho/Index.md",
+      "live_len": 1669,
+      "mint_len": 425,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtNsZoho/Introduction/Index",
+      "mint": "ExtNsZoho/Introduction/Index.md",
+      "live_len": 2119,
+      "mint_len": 705,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtNsZoho/Support",
+      "mint": "ExtNsZoho/Support.md",
+      "live_len": 1559,
+      "mint_len": 101,
+      "ratio": 0.06
+    },
+    {
+      "live": "ExtNsZoho/UpdateVersion/Index",
+      "mint": "ExtNsZoho/UpdateVersion/Index.md",
+      "live_len": 1537,
+      "mint_len": 134,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtRTECKEditorPack/AccessibilityFeatures/Index",
+      "mint": "ExtRTECKEditorPack/AccessibilityFeatures/Index.md",
+      "live_len": 2489,
+      "mint_len": 854,
+      "ratio": 0.34
+    },
+    {
+      "live": "ExtRTECKEditorPack/Configurationsave/Index",
+      "mint": "ExtRTECKEditorPack/Configurationsave/Index.md",
+      "live_len": 1824,
+      "mint_len": 148,
+      "ratio": 0.08
+    },
+    {
+      "live": "ExtRTECKEditorPack/GetThisExtension",
+      "mint": "ExtRTECKEditorPack/GetThisExtension.md",
+      "live_len": 1769,
+      "mint_len": 220,
+      "ratio": 0.12
+    },
+    {
+      "live": "ExtRTECKEditorPack/Index",
+      "mint": "ExtRTECKEditorPack/Index.md",
+      "live_len": 4363,
+      "mint_len": 1255,
+      "ratio": 0.29
+    },
+    {
+      "live": "ExtRTECKEditorPack/Introduction/Index",
+      "mint": "ExtRTECKEditorPack/Introduction/Index.md",
+      "live_len": 2373,
+      "mint_len": 612,
+      "ratio": 0.26
+    },
+    {
+      "live": "ExtRTECKEditorPack/QuickInstallation/Index",
+      "mint": "ExtRTECKEditorPack/QuickInstallation/Index.md",
+      "live_len": 2660,
+      "mint_len": 878,
+      "ratio": 0.33
+    },
+    {
+      "live": "ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index",
+      "mint": "ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index.md",
+      "live_len": 2198,
+      "mint_len": 439,
+      "ratio": 0.2
+    },
+    {
+      "live": "ExtRTECKEditorPack/Support",
+      "mint": "ExtRTECKEditorPack/Support.md",
+      "live_len": 1912,
+      "mint_len": 303,
+      "ratio": 0.16
+    },
+    {
+      "live": "ExtRTECKEditorPack/SystemRequirements/Index",
+      "mint": "ExtRTECKEditorPack/SystemRequirements/Index.md",
+      "live_len": 2440,
+      "mint_len": 725,
+      "ratio": 0.3
+    },
+    {
+      "live": "ExtRTECKEditorPack/Updating/Index",
+      "mint": "ExtRTECKEditorPack/Updating/Index.md",
+      "live_len": 3722,
+      "mint_len": 1279,
+      "ratio": 0.34
+    },
+    {
+      "live": "ExtThemes/CustomElements/Index",
+      "mint": "ExtThemes/CustomElements/Index.md",
+      "live_len": 1735,
+      "mint_len": 195,
+      "ratio": 0.11
+    },
+    {
+      "live": "ExtThemes/DemoSite/Index",
+      "mint": "ExtThemes/DemoSite/Index.md",
+      "live_len": 1680,
+      "mint_len": 151,
+      "ratio": 0.09
+    },
+    {
+      "live": "ExtThemes/FAQ/Index",
+      "mint": "ExtThemes/FAQ/Index.md",
+      "live_len": 1627,
+      "mint_len": 53,
+      "ratio": 0.03
+    },
+    {
+      "live": "ExtThemes/GlobalSettingsConfiguration/Index",
+      "mint": "ExtThemes/GlobalSettingsConfiguration/Index.md",
+      "live_len": 2293,
+      "mint_len": 732,
+      "ratio": 0.32
+    },
+    {
+      "live": "ExtThemes/HelpSupport/Index",
+      "mint": "ExtThemes/HelpSupport/Index.md",
+      "live_len": 1693,
+      "mint_len": 78,
+      "ratio": 0.05
+    },
+    {
+      "live": "ExtThemes/Introduction/Index",
+      "mint": "ExtThemes/Introduction/Index.md",
+      "live_len": 2419,
+      "mint_len": 599,
+      "ratio": 0.25
+    },
+    {
+      "live": "ExtThemes/SpeedPerformance/Index",
+      "mint": "ExtThemes/SpeedPerformance/Index.md",
+      "live_len": 1825,
+      "mint_len": 343,
+      "ratio": 0.19
+    },
+    {
+      "live": "ExtThemes/TemplatesLayouts/Index",
+      "mint": "ExtThemes/TemplatesLayouts/Index.md",
+      "live_len": 1807,
+      "mint_len": 317,
+      "ratio": 0.18
+    },
+    {
+      "live": "License/HelpSupport/Index",
+      "mint": "License/HelpSupport/Index.md",
+      "live_len": 1595,
+      "mint_len": 293,
+      "ratio": 0.18
+    },
+    {
+      "live": "License/Introduction/Index",
+      "mint": "License/Introduction/Index.md",
+      "live_len": 2203,
+      "mint_len": 690,
+      "ratio": 0.31
+    },
+    {
+      "live": "License/Migration/Index",
+      "mint": "License/Migration/Index.md",
+      "live_len": 1704,
+      "mint_len": 202,
+      "ratio": 0.12
+    },
+    {
+      "live": "License/SiteSets/Index",
+      "mint": "License/SiteSets/Index.md",
+      "live_len": 1750,
+      "mint_len": 273,
+      "ratio": 0.16
+    },
+    {
+      "live": "License/UpdateVersion/Index",
+      "mint": "License/UpdateVersion/Index.md",
+      "live_len": 1999,
+      "mint_len": 309,
+      "ratio": 0.15
+    }
+  ],
+  "broken_images": [
+    {
+      "file": "visual-regression/node_modules/http-cache-semantics/README.md",
+      "src": "fresh.jpg"
+    },
+    {
+      "file": "visual-regression/node_modules/fast-xml-parser/README.md",
+      "src": "static/img/ni_ads_ads.gif"
+    },
+    {
+      "file": "visual-regression/node_modules/fast-xml-parser/README.md",
+      "src": "static/img/donation_quote.png"
+    },
+    {
+      "file": "visual-regression/node_modules/fast-xml-parser/README.md",
+      "src": "static/img/fxp_logo.png"
+    },
+    {
+      "file": "visual-regression/node_modules/fast-xml-parser/README.md",
+      "src": "static/img/flowgger_h.webp"
+    },
+    {
+      "file": "visual-regression/node_modules/fast-xml-parser/README.md",
+      "src": "./docs/imgs/XMLParser_v4.png"
+    },
+    {
+      "file": "visual-regression/node_modules/fast-xml-parser/README.md",
+      "src": "./docs/imgs/XMLParser_large_v4.png"
+    },
+    {
+      "file": "visual-regression/node_modules/fast-xml-parser/README.md",
+      "src": "./docs/imgs/XMLBuilder_v4.png"
+    },
+    {
+      "file": "visual-regression/node_modules/got/readme.md",
+      "src": "media/logo.svg"
+    },
+    {
+      "file": "visual-regression/node_modules/@sindresorhus/is/readme.md",
+      "src": "header.gif"
+    }
+  ],
+  "broken_image_count": 10,
+  "supademo_page_gaps": []
+}

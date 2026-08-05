@@ -1,0 +1,172 @@
+{
+  "unchecked_total": 58,
+  "checked_now": 58,
+  "missing_files": [],
+  "fetch_fail": [],
+  "defects": [
+    {
+      "live": "EXTKarma/UpgradeGuideForContainer/Index",
+      "mint": "EXTKarma/UpgradeGuideForContainer/Index.md",
+      "live_m": {
+        "words": 399,
+        "headings": 3,
+        "images": 0,
+        "tables": 0,
+        "code": 2,
+        "admon": 6
+      },
+      "mint_m": {
+        "words": 427,
+        "headings": 2,
+        "images": 0,
+        "tables": 0,
+        "code": 0,
+        "admon": 3
+      },
+      "defects": [
+        "code",
+        "admon"
+      ]
+    },
+    {
+      "live": "ExtNsT3AC/FeatureGuide/DataSource/Index",
+      "mint": "ExtNsT3AC/FeatureGuide/DataSource/Index.md",
+      "live_m": {
+        "words": 1386,
+        "headings": 10,
+        "images": 5,
+        "tables": 0,
+        "code": 2,
+        "admon": 10
+      },
+      "mint_m": {
+        "words": 1491,
+        "headings": 9,
+        "images": 5,
+        "tables": 0,
+        "code": 2,
+        "admon": 5
+      },
+      "defects": [
+        "admon"
+      ]
+    },
+    {
+      "live": "ExtNsT3AF/Configuration/AIProviders/Index",
+      "mint": "AIFoundation/Configuration/AIProviders/Index.md",
+      "live_m": {
+        "words": 705,
+        "headings": 15,
+        "images": 2,
+        "tables": 0,
+        "code": 1,
+        "admon": 8
+      },
+      "mint_m": {
+        "words": 784,
+        "headings": 14,
+        "images": 2,
+        "tables": 0,
+        "code": 1,
+        "admon": 4
+      },
+      "defects": [
+        "admon"
+      ]
+    },
+    {
+      "live": "ExtNsT3AF/HelpfulLinks/Index",
+      "mint": "AIFoundation/HelpfulLinks/Index.md",
+      "live_m": {
+        "words": 205,
+        "headings": 7,
+        "images": 0,
+        "tables": 0,
+        "code": 0,
+        "admon": 4
+      },
+      "mint_m": {
+        "words": 313,
+        "headings": 6,
+        "images": 0,
+        "tables": 0,
+        "code": 0,
+        "admon": 2
+      },
+      "defects": [
+        "admon"
+      ]
+    },
+    {
+      "live": "ExtNsT3AF/Integrations/MCPTesting/Index",
+      "mint": "AIFoundation/Integrations/MCPTesting/Index.md",
+      "live_m": {
+        "words": 2438,
+        "headings": 23,
+        "images": 0,
+        "tables": 0,
+        "code": 20,
+        "admon": 8
+      },
+      "mint_m": {
+        "words": 2516,
+        "headings": 23,
+        "images": 0,
+        "tables": 0,
+        "code": 13,
+        "admon": 4
+      },
+      "defects": [
+        "code",
+        "admon"
+      ]
+    },
+    {
+      "live": "ExtNsT3AI/UpdateGuide/Index",
+      "mint": "ExtNsT3AI/UpdateGuide/Index.md",
+      "live_m": {
+        "words": 299,
+        "headings": 1,
+        "images": 0,
+        "tables": 0,
+        "code": 1,
+        "admon": 4
+      },
+      "mint_m": {
+        "words": 315,
+        "headings": 0,
+        "images": 0,
+        "tables": 0,
+        "code": 1,
+        "admon": 2
+      },
+      "defects": [
+        "admon"
+      ]
+    },
+    {
+      "live": "License/GenerateLicenseKey/Index",
+      "mint": "License/GenerateLicenseKey/Index.md",
+      "live_m": {
+        "words": 285,
+        "headings": 5,
+        "images": 0,
+        "tables": 0,
+        "code": 0,
+        "admon": 4
+      },
+      "mint_m": {
+        "words": 335,
+        "headings": 4,
+        "images": 0,
+        "tables": 0,
+        "code": 0,
+        "admon": 2
+      },
+      "defects": [
+        "admon"
+      ]
+    }
+  ],
+  "defect_count": 7
+}

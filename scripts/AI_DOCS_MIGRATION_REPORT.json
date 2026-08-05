@@ -1,0 +1,102 @@
+{
+  "source": "https://docs.t3planet.de/en/latest/",
+  "scope": "AI Foundation products priority (T3AF, T3AI, T3AC, T3AS, T3AA)",
+  "audit": {
+    "live_ai_pages_scanned": 123,
+    "mintlify_ai_pages_before": 97,
+    "missing_pages_before": {
+      "T3AF": 17,
+      "T3AI": 2,
+      "T3AC": 2,
+      "T3AS": 2,
+      "T3AA": 1
+    },
+    "missing_pages_after": 0
+  },
+  "products": {
+    "T3AF": {
+      "pages_total": 44,
+      "new_pages_migrated": [
+        "Architecture",
+        "Usage",
+        "Troubleshooting",
+        "Privacy",
+        "ReleaseNotes",
+        "T3PlanetCreditsQA",
+        "MCPTesting",
+        "DeveloperGuide",
+        "DeveloperGuide/ExtensionIntegration",
+        "DeveloperGuide/CustomProviders",
+        "DeveloperGuide/CustomAiPrompts",
+        "DeveloperGuide/CustomAiFeatures",
+        "DeveloperGuide/FeatureProviderOverrides",
+        "DeveloperGuide/CustomMcpTools",
+        "DeveloperGuide/CustomAiAccess",
+        "DeveloperGuide/T3PlanetCredits"
+      ],
+      "updated_pages": "All existing module/guide pages synced from live ExtNsT3AF",
+      "navigation": "docs.json AI Foundation group updated with Developer Guide, Usage, Architecture, MCP Testing, Troubleshooting, Privacy, Credits QA, Release Notes",
+      "remaining_issues": [
+        "Live Release Notes page is a stub (version-wise notes not published on live yet)",
+        "Heading-name diffs remain where Mintlify uses frontmatter title instead of repeating H1",
+        "Full-site (non-AI) parity not completed in this pass"
+      ]
+    },
+    "T3AI": {
+      "pages_total": 22,
+      "new_pages_migrated": [
+        "ExtNsT3AI/ReInstallEverything/Index.md",
+        "ExtNsT3AI/UpdateGuide/Index.md"
+      ],
+      "updated_pages": "Installation + major feature/config pages resynced from live",
+      "remaining_issues": [
+        "Some heading-only diffs due to frontmatter titles",
+        "Custom LLM Prerequisites pages already existed (URL-encoded & in live path)"
+      ]
+    },
+    "T3AC": {
+      "pages_total": 20,
+      "new_pages_migrated": [
+        "ExtNsT3AC/ReInstallEverything/Index.md"
+      ],
+      "updated_pages": "Installation + major feature/config pages resynced from live",
+      "remaining_issues": [
+        "Some heading-only diffs due to frontmatter titles",
+        "Custom LLM Prerequisites pages already existed (URL-encoded & in live path)"
+      ]
+    },
+    "T3AS": {
+      "pages_total": 17,
+      "new_pages_migrated": [
+        "ExtNsT3AS/ReInstallEverything/Index.md"
+      ],
+      "updated_pages": "Installation + major feature/config pages resynced from live",
+      "remaining_issues": [
+        "Some heading-only diffs due to frontmatter titles",
+        "Custom LLM Prerequisites pages already existed (URL-encoded & in live path)"
+      ]
+    },
+    "T3AA": {
+      "pages_total": 16,
+      "new_pages_migrated": [
+        "ExtNsT3AA/ReInstallEverything/Index.md"
+      ],
+      "updated_pages": "Installation + major feature/config pages resynced from live",
+      "remaining_issues": [
+        "Some heading-only diffs due to frontmatter titles",
+        "Custom LLM Prerequisites pages already existed (URL-encoded & in live path)"
+      ]
+    }
+  },
+  "validation": {
+    "mint_validate": "PASSED",
+    "mdx_notes": "Escaped MDX-sensitive { } and <?php / placeholders on migrated pages"
+  },
+  "checklist": {
+    "all_live_ai_product_pages_exist_in_mintlify": true,
+    "navigation_updated_for_new_pages": true,
+    "mintlify_build_validates": true,
+    "full_site_non_ai_parity": false,
+    "broken_links_full_crawl": "Not fully re-crawled after migration"
+  }
+}

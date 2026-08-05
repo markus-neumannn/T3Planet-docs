@@ -1,0 +1,59 @@
+{
+  "cold_home_ms": 1892,
+  "checks": {
+    "hasMin": false,
+    "progressMounted": false,
+    "veilMounted": false,
+    "perfHints": true,
+    "searchSetIndex": false
+  },
+  "click_progress": {
+    "ok": true,
+    "href": "/AIFoundationExtensions/Index",
+    "sawProgress": true,
+    "busy": true,
+    "progressExists": true,
+    "barExists": true
+  },
+  "warm": [
+    {
+      "path": "/AIFoundation/Introduction/Index",
+      "ms": 9800
+    },
+    {
+      "path": "/ExtNsT3AI/SEO/Index",
+      "ms": 5648
+    },
+    {
+      "path": "/License/Index",
+      "ms": 4599
+    },
+    {
+      "path": "/AllExtensions/Index",
+      "ms": 3416
+    }
+  ],
+  "html_sizes": {
+    "home": {
+      "bytes": 691797,
+      "has_Search_setIndex": false
+    },
+    "ai": {
+      "bytes": 688830,
+      "has_Search_setIndex": false
+    },
+    "seo": {
+      "bytes": 703138,
+      "has_Search_setIndex": false
+    }
+  },
+  "optimizations": [
+    "NProgress-style #t3-nav-progress with trickle + delayed start",
+    "Soft skeleton veil after 300ms slow navigations",
+    "PREFETCH_MAX 24\u219240; sidebar prefetch 60\u219280; document-wide hover prefetch",
+    "Font/CDN preconnect + dns-prefetch injected",
+    "Embed aspect-ratio CLS guards; content-visibility for heavy blocks",
+    "Cache headers for woff2/css + stale-while-revalidate",
+    "Rebuilt t3-docs.min.js (custom.css untouched)"
+  ]
+}

@@ -1,0 +1,31 @@
+# Exclude German mirror (English-only site) — cuts ~156MB from build + search index
+de/
+
+# Legacy Sphinx HTML build + source tree — MUST stay out of Mintlify.
+# Embedding docs/_build (searchindex.js ~382KB, jQuery ~100KB, theme.css ~137KB)
+# into every page was the primary cause of ~2MB HTML and slow navigation.
+docs/
+docs/_build/
+
+# Local clone of live Sphinx RST + built HTML (~470MB) — reference only, never publish.
+Live-docs/
+
+# Internal tooling — not published docs
+scripts/
+
+# Visual regression testing (testing only — not published)
+visual-regression/
+
+.review-frames/
+.venv-translate/
+
+# Operational reports — not published documentation pages
+performance-audit.md
+performance-optimization-report.md
+SLA-skills.md
+slug-url-audit.md
+slug-url-fix-report.md
+broken-url-report.md
+product-url-diff-report.md
+url-mismatches-only.md
+rtd-mintlify-url-comparison.md

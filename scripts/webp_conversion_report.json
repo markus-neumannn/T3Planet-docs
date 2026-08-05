@@ -1,0 +1,145 @@
+{
+  "converted": 20,
+  "items": [
+    {
+      "from": "EXTShiva/Localization/Installationt3shiva_reactjs.zip/Images/landing_screen.png",
+      "to": "EXTShiva/Localization/Installationt3shiva_reactjs.zip/Images/landing_screen.webp",
+      "before_kb": 336.0,
+      "after_kb": 45.6,
+      "md_files": 0
+    },
+    {
+      "from": "ExtNitsanHellobar/Configuration/images/configure_hellobar.png",
+      "to": "ExtNitsanHellobar/Configuration/images/configure_hellobar.webp",
+      "before_kb": 354.0,
+      "after_kb": 57.0,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNitsanMaintenance/Introduction/images/Maintenance_subscription.png",
+      "to": "ExtNitsanMaintenance/Introduction/images/Maintenance_subscription.webp",
+      "before_kb": 855.9,
+      "after_kb": 31.1,
+      "md_files": 0
+    },
+    {
+      "from": "ExtNsBackup/DownloadsLogsHistory/images/ns-backend-typo3-logs.png",
+      "to": "ExtNsBackup/DownloadsLogsHistory/images/ns-backend-typo3-logs.webp",
+      "before_kb": 317.6,
+      "after_kb": 66.6,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsEvent/Installation/images/activate_typoscript.png",
+      "to": "ExtNsEvent/Installation/images/activate_typoscript.webp",
+      "before_kb": 338.9,
+      "after_kb": 66.8,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsEvent/Introduction/images/Event_Banner.png",
+      "to": "ExtNsEvent/Introduction/images/Event_Banner.webp",
+      "before_kb": 339.0,
+      "after_kb": 50.5,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsFAQ/FAQPlugin/images/add_plugin.png",
+      "to": "ExtNsFAQ/FAQPlugin/images/add_plugin.webp",
+      "before_kb": 314.0,
+      "after_kb": 64.3,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsFAQ/NSFaqBackendModule/images/create_faq_with_rte.png",
+      "to": "ExtNsFAQ/NSFaqBackendModule/images/create_faq_with_rte.webp",
+      "before_kb": 335.3,
+      "after_kb": 72.7,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsFeedback/NSFeedbackModules/images/how_detailed_feedback_reports_displayed4.png",
+      "to": "ExtNsFeedback/NSFeedbackModules/images/how_detailed_feedback_reports_displayed4.webp",
+      "before_kb": 366.5,
+      "after_kb": 71.5,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsGallery/Introduction/images/zoom_view.png",
+      "to": "ExtNsGallery/Introduction/images/zoom_view.webp",
+      "before_kb": 978.4,
+      "after_kb": 92.9,
+      "md_files": 0
+    },
+    {
+      "from": "ExtNsGoogleSiteKit/Installation/images/Active_typoscript.png",
+      "to": "ExtNsGoogleSiteKit/Installation/images/Active_typoscript.webp",
+      "before_kb": 307.1,
+      "after_kb": 61.9,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsHubspot/Installation/images/activate_typoscript.png",
+      "to": "ExtNsHubspot/Installation/images/activate_typoscript.webp",
+      "before_kb": 309.1,
+      "after_kb": 62.8,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsHubspot/PremiumVersionConfiguration/images/Hubspot_config02.png",
+      "to": "ExtNsHubspot/PremiumVersionConfiguration/images/Hubspot_config02.webp",
+      "before_kb": 351.2,
+      "after_kb": 113.0,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsLazyload/Configuration/images/custom_element.png",
+      "to": "ExtNsLazyload/Configuration/images/custom_element.webp",
+      "before_kb": 633.6,
+      "after_kb": 126.1,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsNewsSlider/Configuration/NivoSlider/images/nivo_slider.png",
+      "to": "ExtNsNewsSlider/Configuration/NivoSlider/images/nivo_slider.webp",
+      "before_kb": 884.7,
+      "after_kb": 88.4,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsNewsSlider/Configuration/OwlcarouselSlider/images/owlcarousel_slider.png",
+      "to": "ExtNsNewsSlider/Configuration/OwlcarouselSlider/images/owlcarousel_slider.webp",
+      "before_kb": 1418.0,
+      "after_kb": 144.6,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsNewsSlider/Configuration/RoyalSlider/images/royal_slider.png",
+      "to": "ExtNsNewsSlider/Configuration/RoyalSlider/images/royal_slider.webp",
+      "before_kb": 1156.2,
+      "after_kb": 124.7,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsNewsSlider/Configuration/SlickSlider/images/slick_slider.png",
+      "to": "ExtNsNewsSlider/Configuration/SlickSlider/images/slick_slider.webp",
+      "before_kb": 1069.2,
+      "after_kb": 117.7,
+      "md_files": 0
+    },
+    {
+      "from": "ExtNsPWA/Installation/images/activate_typoscript.png",
+      "to": "ExtNsPWA/Installation/images/activate_typoscript.webp",
+      "before_kb": 373.0,
+      "after_kb": 70.3,
+      "md_files": 1
+    },
+    {
+      "from": "ExtNsPersonio/ConfigurationOfPlugins/images/activate_typoscript.png",
+      "to": "ExtNsPersonio/ConfigurationOfPlugins/images/activate_typoscript.webp",
+      "before_kb": 357.7,
+      "after_kb": 70.8,
+      "md_files": 0
+    }
+  ]
+}

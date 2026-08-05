@@ -1,0 +1,293 @@
+{
+  "phase": "pre_migrate",
+  "live_pages": 741,
+  "mapped": 741,
+  "missing": [],
+  "defect_count": 22,
+  "by_kind": {
+    "admon": 6,
+    "code": 2,
+    "heading": 8,
+    "thin": 1,
+    "image_missing": 5
+  },
+  "resync_pages": [
+    {
+      "live": "EXTAvatar/Customization/Index.html",
+      "mint": "EXTAvatar/Customization/Index.md"
+    },
+    {
+      "live": "EXTBootstrap/FlexFormtoContentBlockMigration/Index.html",
+      "mint": "EXTBootstrap/FlexFormtoContentBlockMigration/Index.md"
+    },
+    {
+      "live": "EXTKarma/Customization/Index.html",
+      "mint": "EXTKarma/Customization/Index.md"
+    },
+    {
+      "live": "EXTKarma/UpgradeGuideForContainer/Index.html",
+      "mint": "EXTKarma/UpgradeGuideForContainer/Index.md"
+    },
+    {
+      "live": "ExtNsBackup/ScheduleBackup/Index.html",
+      "mint": "ExtNsBackup/ScheduleBackup/Index.md"
+    },
+    {
+      "live": "ExtNsEvent/Configuration/AddEventPlugin/Index.html",
+      "mint": "ExtNsEvent/Configuration/AddEventPlugin/Index.md"
+    },
+    {
+      "live": "ExtNsEvent/Configuration/AddEvents/Index.html",
+      "mint": "ExtNsEvent/Configuration/AddEvents/Index.md"
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/BuyNow.html",
+      "mint": "ExtNsFriendlyCaptcha/BuyNow.md"
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/Introduction/Index.html",
+      "mint": "ExtNsFriendlyCaptcha/Introduction/Index.md"
+    },
+    {
+      "live": "ExtNsHelpDesk/PluginConfigurations/Index.html",
+      "mint": "ExtNsHelpDesk/PluginConfigurations/Index.md"
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index.html",
+      "mint": "ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index.md"
+    },
+    {
+      "live": "ExtNsPersonio/ConfigurationOfPlugins/Index.html",
+      "mint": "ExtNsPersonio/ConfigurationOfPlugins/Index.md"
+    },
+    {
+      "live": "ExtNsT3AB/Introduction/Index.html",
+      "mint": "ExtNsT3AB/Introduction/Index.md"
+    },
+    {
+      "live": "ExtNsT3AL/SeamlessXLIFFImport&Export/Index.html",
+      "mint": "ExtNsT3AL/SeamlessXLIFFImport&Export/Index.md"
+    },
+    {
+      "live": "ExtNsT3AS/VerifyIndexedData/Index.html",
+      "mint": "ExtNsT3AS/VerifyIndexedData/Index.md"
+    },
+    {
+      "live": "ExtNsTimeLine/ExtensionConfigurations/Index.html",
+      "mint": "ExtNsTimeLine/ExtensionConfigurations/Index.md"
+    },
+    {
+      "live": "ExtThemes/UpgradeGuide/Index.html",
+      "mint": "ExtThemes/UpgradeGuide/Index.md"
+    }
+  ],
+  "defects": [
+    {
+      "live": "EXTAvatar/Customization/Index.html",
+      "mint": "EXTAvatar/Customization/Index.md",
+      "kind": "admon",
+      "severity": "high",
+      "live_admon": 1,
+      "issue": "callouts_missing"
+    },
+    {
+      "live": "EXTBootstrap/FlexFormtoContentBlockMigration/Index.html",
+      "mint": "EXTBootstrap/FlexFormtoContentBlockMigration/Index.md",
+      "kind": "admon",
+      "severity": "high",
+      "live_admon": 1,
+      "issue": "callouts_missing"
+    },
+    {
+      "live": "EXTKarma/Customization/Index.html",
+      "mint": "EXTKarma/Customization/Index.md",
+      "kind": "admon",
+      "severity": "high",
+      "live_admon": 1,
+      "issue": "callouts_missing"
+    },
+    {
+      "live": "EXTKarma/UpgradeGuideForContainer/Index.html",
+      "mint": "EXTKarma/UpgradeGuideForContainer/Index.md",
+      "kind": "code",
+      "severity": "high",
+      "live_codes": 2,
+      "issue": "code_blocks_missing"
+    },
+    {
+      "live": "ExtNsBackup/ScheduleBackup/Index.html",
+      "mint": "ExtNsBackup/ScheduleBackup/Index.md",
+      "kind": "heading",
+      "severity": "high",
+      "missing_headings": [
+        "add new schedule backup",
+        "run backup from typo3 cli",
+        "run backup from typo3 core scheduler"
+      ],
+      "issue": "heading_mismatch"
+    },
+    {
+      "live": "ExtNsEvent/Configuration/AddEvents/Index.html",
+      "mint": "ExtNsEvent/Configuration/AddEvents/Index.md",
+      "kind": "heading",
+      "severity": "high",
+      "missing_headings": [
+        "add events",
+        "create event"
+      ],
+      "issue": "heading_mismatch"
+    },
+    {
+      "live": "ExtNsEvent/Configuration/AddEventPlugin/Index.html",
+      "mint": "ExtNsEvent/Configuration/AddEventPlugin/Index.md",
+      "kind": "heading",
+      "severity": "high",
+      "missing_headings": [
+        "1 event list plugin",
+        "2 event detail plugin"
+      ],
+      "issue": "heading_mismatch"
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/Introduction/Index.html",
+      "mint": "ExtNsFriendlyCaptcha/Introduction/Index.md",
+      "kind": "heading",
+      "severity": "high",
+      "missing_headings": [
+        "ext ns friendlycaptcha",
+        "prerequisites"
+      ],
+      "issue": "heading_mismatch"
+    },
+    {
+      "live": "ExtNsFriendlyCaptcha/BuyNow.html",
+      "mint": "ExtNsFriendlyCaptcha/BuyNow.md",
+      "kind": "thin",
+      "severity": "critical",
+      "live_words": 65,
+      "mint_words": 33,
+      "ratio": 0.51,
+      "issue": "mint_thinner_than_live"
+    },
+    {
+      "live": "ExtNsHelpDesk/PluginConfigurations/Index.html",
+      "mint": "ExtNsHelpDesk/PluginConfigurations/Index.md",
+      "kind": "heading",
+      "severity": "high",
+      "missing_headings": [
+        "helpdesk front end user registration",
+        "helpdesk ticket submission forms"
+      ],
+      "issue": "heading_mismatch"
+    },
+    {
+      "live": "ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index.html",
+      "mint": "ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index.md",
+      "kind": "image_missing",
+      "severity": "critical",
+      "image": "add_location_2.jpeg",
+      "issue": "live_image_missing_in_mint"
+    },
+    {
+      "live": "ExtNsPersonio/ConfigurationOfPlugins/Index.html",
+      "mint": "ExtNsPersonio/ConfigurationOfPlugins/Index.md",
+      "kind": "heading",
+      "severity": "high",
+      "missing_headings": [
+        "1 1 general",
+        "1 2 details",
+        "1 3 customization",
+        "2 personio job detail plugin",
+        "3 personio jobs application plugin"
+      ],
+      "issue": "heading_mismatch"
+    },
+    {
+      "live": "ExtNsPersonio/ConfigurationOfPlugins/Index.html",
+      "mint": "ExtNsPersonio/ConfigurationOfPlugins/Index.md",
+      "kind": "image_missing",
+      "severity": "critical",
+      "image": "detailpage_1.png",
+      "issue": "live_image_missing_in_mint"
+    },
+    {
+      "live": "ExtNsPersonio/ConfigurationOfPlugins/Index.html",
+      "mint": "ExtNsPersonio/ConfigurationOfPlugins/Index.md",
+      "kind": "image_missing",
+      "severity": "critical",
+      "image": "applicationview_1.png",
+      "issue": "live_image_missing_in_mint"
+    },
+    {
+      "live": "ExtNsPersonio/ConfigurationOfPlugins/Index.html",
+      "mint": "ExtNsPersonio/ConfigurationOfPlugins/Index.md",
+      "kind": "admon",
+      "severity": "high",
+      "live_admon": 1,
+      "issue": "callouts_missing"
+    },
+    {
+      "live": "ExtNsT3AB/Introduction/Index.html",
+      "mint": "ExtNsT3AB/Introduction/Index.md",
+      "kind": "heading",
+      "severity": "high",
+      "missing_headings": [
+        "ext ns t3ab",
+        "ext ns t3ab what does it do"
+      ],
+      "issue": "heading_mismatch"
+    },
+    {
+      "live": "ExtNsT3AL/SeamlessXLIFFImport&Export/Index.html",
+      "mint": "ExtNsT3AL/SeamlessXLIFFImport&Export/Index.md",
+      "kind": "image_missing",
+      "severity": "critical",
+      "image": "import%26export.png",
+      "issue": "live_image_missing_in_mint"
+    },
+    {
+      "live": "ExtNsTimeLine/ExtensionConfigurations/Index.html",
+      "mint": "ExtNsTimeLine/ExtensionConfigurations/Index.md",
+      "kind": "admon",
+      "severity": "high",
+      "live_admon": 1,
+      "issue": "callouts_missing"
+    },
+    {
+      "live": "ExtNsT3AS/VerifyIndexedData/Index.html",
+      "mint": "ExtNsT3AS/VerifyIndexedData/Index.md",
+      "kind": "code",
+      "severity": "high",
+      "live_codes": 2,
+      "issue": "code_blocks_missing"
+    },
+    {
+      "live": "ExtThemes/UpgradeGuide/Index.html",
+      "mint": "ExtThemes/UpgradeGuide/Index.md",
+      "kind": "heading",
+      "severity": "high",
+      "missing_headings": [
+        "after migration follow below step for upgrade v12",
+        "migrate from ext gridelements to ext container",
+        "upgrade product v13 1 0 migration from flexform elements to content blocks"
+      ],
+      "issue": "heading_mismatch"
+    },
+    {
+      "live": "ExtThemes/UpgradeGuide/Index.html",
+      "mint": "ExtThemes/UpgradeGuide/Index.md",
+      "kind": "image_missing",
+      "severity": "critical",
+      "image": "image.png",
+      "issue": "live_image_missing_in_mint"
+    },
+    {
+      "live": "ExtThemes/UpgradeGuide/Index.html",
+      "mint": "ExtThemes/UpgradeGuide/Index.md",
+      "kind": "admon",
+      "severity": "high",
+      "live_admon": 1,
+      "issue": "callouts_missing"
+    }
+  ]
+}

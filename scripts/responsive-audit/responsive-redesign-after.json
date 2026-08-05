@@ -1,0 +1,102 @@
+{
+  "rows": [
+    {
+      "label": "m320",
+      "vp": "320x568",
+      "path": "/ExtNsT3AC/Installation/Index",
+      "overflow": 0,
+      "h1": "22.4px",
+      "pad": "5.6px 13.6px 0px"
+    },
+    {
+      "label": "m390",
+      "vp": "390x844",
+      "path": "/AIFoundation/Installation/Index",
+      "overflow": 0,
+      "h1": "24.18px",
+      "pad": "5.6px 16px 0px"
+    },
+    {
+      "label": "m430",
+      "vp": "430x932",
+      "path": "/AllExtensions/Index",
+      "overflow": 0,
+      "h1": "26.66px",
+      "pad": "5.6px 16px 0px"
+    },
+    {
+      "label": "t768",
+      "vp": "768x1024",
+      "path": "/ExtNsT3AC/Installation/Index",
+      "overflow": 0,
+      "h1": "32px",
+      "pad": "5.6px 24px 0px"
+    },
+    {
+      "label": "t1024",
+      "vp": "1024x768",
+      "path": "/License/Index",
+      "overflow": 0,
+      "h1": "36px",
+      "pad": "0px 20px"
+    },
+    {
+      "label": "d1440",
+      "vp": "1440x900",
+      "path": "/ExtNsT3AC/Installation/Index",
+      "overflow": 0,
+      "h1": "36px",
+      "pad": "0px 4px 0px 91.2px"
+    },
+    {
+      "label": "d1920",
+      "vp": "1920x1080",
+      "path": "/",
+      "overflow": 0,
+      "h1": "36px",
+      "pad": "0px 4px 0px 91.2px"
+    }
+  ],
+  "interactions": [
+    {
+      "label": "m320",
+      "open": true,
+      "openClass": true,
+      "bleed": "0rem",
+      "left": 0,
+      "overflow": 0,
+      "fabHidden": true,
+      "hasClose": false,
+      "linkH": 53
+    },
+    {
+      "label": "m390",
+      "open": true,
+      "openClass": true,
+      "bleed": "0rem",
+      "left": 0,
+      "overflow": 0,
+      "fabHidden": true,
+      "hasClose": false,
+      "linkH": 53
+    }
+  ],
+  "browsers": [
+    {
+      "browser": "firefox",
+      "overflow": 0
+    },
+    {
+      "browser": "webkit",
+      "overflow": 0
+    }
+  ],
+  "issue_count": 1,
+  "issues": [
+    {
+      "label": "m375",
+      "path": "/",
+      "error": "Page.goto: Timeout 120000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:3000/\", waiting until \"domcontentloa"
+    }
+  ]
+}

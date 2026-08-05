@@ -1,0 +1,307 @@
+{
+  "checks": 60,
+  "high": 0,
+  "high_severity": [],
+  "results": [
+    {
+      "viewport": "320x640",
+      "path": "/",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/AllExtensions/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/AllTemplates/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/AIFoundation/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/AIFoundation/Introduction/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/ExtNsT3AI/SEO/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/ExtNsT3AA/AIFilemeta/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/ExtNsT3AC/FeatureGuide/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/License/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/ExtRTECKEditorPack/PremiumPack/Index",
+      "issues": []
+    },
+    {
+      "viewport": "320x640",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/AllExtensions/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/AllTemplates/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/AIFoundation/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/AIFoundation/Introduction/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/ExtNsT3AI/SEO/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/ExtNsT3AA/AIFilemeta/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/ExtNsT3AC/FeatureGuide/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/License/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/ExtRTECKEditorPack/PremiumPack/Index",
+      "issues": []
+    },
+    {
+      "viewport": "768x1024",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/AllExtensions/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/AllTemplates/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/AIFoundation/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/AIFoundation/Introduction/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/ExtNsT3AI/SEO/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/ExtNsT3AA/AIFilemeta/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/ExtNsT3AC/FeatureGuide/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/License/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/ExtRTECKEditorPack/PremiumPack/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1024x768",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/AllExtensions/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/AllTemplates/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/AIFoundation/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/AIFoundation/Introduction/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/ExtNsT3AI/SEO/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/ExtNsT3AA/AIFilemeta/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/ExtNsT3AC/FeatureGuide/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/License/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/ExtRTECKEditorPack/PremiumPack/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1440x900",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/AllExtensions/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/AllTemplates/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/AIFoundation/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/AIFoundation/Introduction/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/ExtNsT3AI/SEO/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/ExtNsT3AA/AIFilemeta/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/ExtNsT3AC/FeatureGuide/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/License/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/ExtRTECKEditorPack/PremiumPack/Index",
+      "issues": []
+    },
+    {
+      "viewport": "1920x1080",
+      "path": "/EXTKarma/Customization/Index",
+      "issues": []
+    }
+  ]
+}

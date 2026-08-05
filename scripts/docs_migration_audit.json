@@ -1,0 +1,38 @@
+{
+  "mintlify_en_pages": 703,
+  "original_products": 70,
+  "missing_products": [],
+  "html_url_failures": [
+    {
+      "path": "/en/latest/EXTReva/Index.html",
+      "status": 0
+    },
+    {
+      "path": "/en/latest/ExtNsNewsSlickSlider/Index.html",
+      "status": 0
+    }
+  ],
+  "html_failure_count": 2,
+  "sample_routes": [
+    "/",
+    "/AIFoundation/Index",
+    "/AllExtensions/Index",
+    "/AllTemplates/Index",
+    "/EXTAvatar/Customization/Index",
+    "/EXTAvatar/EditorGuide/Index",
+    "/EXTAvatar/GlobalSettingsConfiguration/Index",
+    "/EXTAvatar/HelpSupport/Index",
+    "/EXTAvatar/HelpfulLinks/Index",
+    "/EXTAvatar/Index",
+    "/EXTAvatar/Installation/Index",
+    "/EXTAvatar/Introduction/Index",
+    "/EXTAvatar/Localization/Index",
+    "/EXTAvatar/MaskElements/Index",
+    "/EXTAvatar/SEO/Index",
+    "/EXTAvatar/SpeedPerformance/Index",
+    "/EXTAvatar/TemplatesLayouts/Index",
+    "/EXTAvatar/UpdateVersion/Index",
+    "/EXTAvatar/UpgradeGuide/Index",
+    "/EXTAyu/CustomElements/Index"
+  ]
+}

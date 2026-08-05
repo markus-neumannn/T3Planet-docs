@@ -1,0 +1,424 @@
+{
+  "summary": {
+    "total_pages": 8,
+    "issue_count": 44,
+    "failed_pages": 4,
+    "unique_issue_types": 10
+  },
+  "issues": [
+    {
+      "label": "heading-h1",
+      "tag": "H1",
+      "text": "Welcome to T3Planet Docs",
+      "ratio": 1.22,
+      "min": 4.5,
+      "fg": "rgb(30, 27, 22)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h1",
+      "tag": "H1",
+      "text": "Build faster with TYPO3 extensions, templates & AI",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "On this page",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "AI Foundation",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "T3AI \u2014 AI Content & SEO",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "T3AC \u2014 AI Chatbot",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "T3AS \u2014 AI Search",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "T3AL \u2014 AI Localization",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "T3AA \u2014 AI Accessibility",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "footer-link",
+      "tag": "A",
+      "text": "TYPO3 Extensions",
+      "ratio": 1.09,
+      "min": 3,
+      "fg": "rgba(17, 14, 10, 0.5)",
+      "path": "/"
+    },
+    {
+      "label": "footer-link",
+      "tag": "A",
+      "text": "TYPO3 Templates",
+      "ratio": 1.09,
+      "min": 3,
+      "fg": "rgba(17, 14, 10, 0.5)",
+      "path": "/"
+    },
+    {
+      "label": "footer-link",
+      "tag": "A",
+      "text": "AI Solutions",
+      "ratio": 1.09,
+      "min": 3,
+      "fg": "rgba(17, 14, 10, 0.5)",
+      "path": "/"
+    },
+    {
+      "label": "footer-text",
+      "tag": "P",
+      "text": "Products",
+      "ratio": 1.09,
+      "min": 4.5,
+      "fg": "rgb(17, 14, 10)",
+      "path": "/"
+    },
+    {
+      "label": "footer-text",
+      "tag": "P",
+      "text": "Resources",
+      "ratio": 1.09,
+      "min": 4.5,
+      "fg": "rgb(17, 14, 10)",
+      "path": "/"
+    },
+    {
+      "label": "card-title",
+      "tag": "H2",
+      "text": "T3AI \u2014 AI Content & SEO",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "card-title",
+      "tag": "H2",
+      "text": "T3AC \u2014 AI Chatbot",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "card-title",
+      "tag": "H2",
+      "text": "T3AS \u2014 AI Search",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "card-title",
+      "tag": "H2",
+      "text": "T3AL \u2014 AI Localization",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "card-title",
+      "tag": "H2",
+      "text": "T3AA \u2014 AI Accessibility",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "card-title",
+      "tag": "H2",
+      "text": "T3AB \u2014 AI Builder",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "card-title",
+      "tag": "H2",
+      "text": "License, Installation & Updates",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "card-title",
+      "tag": "H2",
+      "text": "T3 Karma",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "page-title",
+      "tag": "H1",
+      "text": "Welcome to T3Planet Docs",
+      "ratio": 1.22,
+      "min": 4.5,
+      "fg": "rgb(30, 27, 22)",
+      "path": "/"
+    },
+    {
+      "label": "paragraph",
+      "tag": "P",
+      "text": "Official T3Planet documentation for TYPO3 extensions, templa",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "paragraph",
+      "tag": "P",
+      "text": "Official guides for installation, licensing, configuration, ",
+      "ratio": 3.14,
+      "min": 4.5,
+      "fg": "rgb(92, 92, 92)",
+      "path": "/"
+    },
+    {
+      "label": "toc-link",
+      "tag": "A",
+      "text": "AI Foundation",
+      "ratio": 1.21,
+      "min": 3,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "toc-link",
+      "tag": "A",
+      "text": "All products",
+      "ratio": 1.21,
+      "min": 3,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/"
+    },
+    {
+      "label": "heading-h1",
+      "tag": "H1",
+      "text": "Customization",
+      "ratio": 1.22,
+      "min": 4.5,
+      "fg": "rgb(30, 27, 22)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "On this page",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "Customization",
+      "ratio": 1.18,
+      "min": 4.5,
+      "fg": "rgb(17, 24, 39)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "heading-h2",
+      "tag": "H2",
+      "text": "Enable/Disable Google font API Link to complaints with GDPR",
+      "ratio": 1.18,
+      "min": 4.5,
+      "fg": "rgb(17, 24, 39)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "heading-h3",
+      "tag": "H3",
+      "text": "T3 Karma",
+      "ratio": 1.22,
+      "min": 4.5,
+      "fg": "rgb(30, 27, 22)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "heading-h3",
+      "tag": "H3",
+      "text": "How to Disable Google Fonts",
+      "ratio": 1.18,
+      "min": 4.5,
+      "fg": "rgb(17, 24, 39)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "heading-h3",
+      "tag": "H3",
+      "text": "How to Add Custom Fonts",
+      "ratio": 1.18,
+      "min": 4.5,
+      "fg": "rgb(17, 24, 39)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "pagination",
+      "tag": "A",
+      "text": "SEO (Search Engine Optimi...",
+      "ratio": 2.13,
+      "min": 4.5,
+      "fg": "rgb(70, 67, 62)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "pagination",
+      "tag": "A",
+      "text": "Captcha Configuration",
+      "ratio": 2.13,
+      "min": 4.5,
+      "fg": "rgb(70, 67, 62)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "footer-link",
+      "tag": "A",
+      "text": "TYPO3 Extensions",
+      "ratio": 1.09,
+      "min": 3,
+      "fg": "rgba(17, 14, 10, 0.5)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "footer-link",
+      "tag": "A",
+      "text": "TYPO3 Templates",
+      "ratio": 1.09,
+      "min": 3,
+      "fg": "rgba(17, 14, 10, 0.5)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "footer-link",
+      "tag": "A",
+      "text": "AI Solutions",
+      "ratio": 1.09,
+      "min": 3,
+      "fg": "rgba(17, 14, 10, 0.5)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "footer-text",
+      "tag": "P",
+      "text": "Products",
+      "ratio": 1.09,
+      "min": 4.5,
+      "fg": "rgb(17, 14, 10)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "footer-text",
+      "tag": "P",
+      "text": "Resources",
+      "ratio": 1.09,
+      "min": 4.5,
+      "fg": "rgb(17, 14, 10)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "page-title",
+      "tag": "H1",
+      "text": "Customization",
+      "ratio": 1.22,
+      "min": 4.5,
+      "fg": "rgb(30, 27, 22)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "paragraph",
+      "tag": "P",
+      "text": "Customization \u2013 Official T3Planet documentation. Guide and r",
+      "ratio": 1.21,
+      "min": 4.5,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/EXTKarma/Customization/Index"
+    },
+    {
+      "label": "toc-link",
+      "tag": "A",
+      "text": "Enable/Disable Google font API Link to complaints with GDPR",
+      "ratio": 1.21,
+      "min": 3,
+      "fg": "rgb(26, 26, 26)",
+      "path": "/EXTKarma/Customization/Index"
+    }
+  ],
+  "failed_pages": [
+    {
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "error": "Page.goto: Timeout 8000ms exceeded.\nCall log:\n  - navigating to \"http://localhost:3334/ExtNsT3AI/AISettings/Index\", waiting until \"commit\"\n"
+    },
+    {
+      "path": "/License/UpdateVersion/CheckNewVersion/Index",
+      "error": "Page.goto: Timeout 8000ms exceeded.\nCall log:\n  - navigating to \"http://localhost:3334/License/UpdateVersion/CheckNewVersion/Index\", waiting until \"commit\"\n"
+    },
+    {
+      "path": "/de/",
+      "error": "Page.goto: Timeout 8000ms exceeded.\nCall log:\n  - navigating to \"http://localhost:3334/de/\", waiting until \"commit\"\n"
+    },
+    {
+      "path": "/de/ExtNsWhatsapp/Installation/Index",
+      "error": "Page.goto: Timeout 8000ms exceeded.\nCall log:\n  - navigating to \"http://localhost:3334/de/ExtNsWhatsapp/Installation/Index\", waiting until \"commit\"\n"
+    }
+  ]
+}

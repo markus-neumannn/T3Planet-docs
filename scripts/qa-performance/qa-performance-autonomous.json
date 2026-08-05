@@ -1,0 +1,419 @@
+{
+  "generated_at": "2026-08-04T13:59:03",
+  "verdict": "Conditional Pass",
+  "verified_bugs": [
+    {
+      "id": "BUG-PERF-001",
+      "title": "Broken image(s) on ExtNsT3AI SEO documentation page",
+      "severity": "High",
+      "priority": "P1",
+      "browser": "Chromium",
+      "device": "Desktop 1440\u00d7900",
+      "environment": "http://127.0.0.1:3000",
+      "url": "/ExtNsT3AI/SEO/Index",
+      "preconditions": "Mintlify preview running; cold or warm load",
+      "steps": [
+        "Open /ExtNsT3AI/SEO/Index",
+        "Inspect content images naturalWidth",
+        "Repeat 3 times in fresh pages"
+      ],
+      "expected": "All content images load with naturalWidth > 0",
+      "actual": "Reproducible 3/3; broken src example: https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png",
+      "reproducibility": "3/3",
+      "metrics": {
+        "repro": [
+          {
+            "attempt": 1,
+            "total": 2,
+            "broken": 1,
+            "ok": 1,
+            "broken_srcs": [
+              "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+            ]
+          },
+          {
+            "attempt": 2,
+            "total": 2,
+            "broken": 1,
+            "ok": 1,
+            "broken_srcs": [
+              "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+            ]
+          },
+          {
+            "attempt": 3,
+            "total": 2,
+            "broken": 1,
+            "ok": 1,
+            "broken_srcs": [
+              "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+            ]
+          }
+        ],
+        "md_refs": [
+          "./images/dasebord-6.png",
+          "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+        ]
+      },
+      "console": [],
+      "network_observations": "Broken image uses legacy /en/latest/\u2026 path that does not resolve on Mintlify origin",
+      "root_cause": "Markdown/HTML still references ReadTheDocs-style absolute or wrongly rewritten image path instead of local ./images asset",
+      "suggested_fix": "Replace with local ExtNsT3AI/SEO/images/\u2026 asset; scan repo for /en/latest/ media URLs",
+      "regression_scope": {
+        "files_with_en_latest_media": 12,
+        "sample": [
+          {
+            "file": "ExtNsT3AI/SEO/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png"
+            ]
+          },
+          {
+            "file": "EXTAyu/InstallationT3AyuReactjs/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/_images/landing_screen.png"
+            ]
+          },
+          {
+            "file": "ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Images/add_location_2.jpeg"
+            ]
+          },
+          {
+            "file": "ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/_images/TYPO3-Revolution-Slider-System-Check1.png"
+            ]
+          },
+          {
+            "file": "EXTShiva/InstallationT3ShivaReactjs/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/_images/install5.png",
+              "https://docs.t3planet.de/en/latest/_images/landing_screen5.png",
+              "https://docs.t3planet.de/en/latest/_images/vercel_login5.jpg"
+            ]
+          },
+          {
+            "file": "EXTShiva/Localization/Installationt3shiva_reactjs.zip/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/EXTShiva/Localization/Installationt3shiva_reactjs.zip/EXTShiva/Localization/Installationt3shiva_reactjs.zip/Images/T3Terminal_T3_Shiva_install_theme.jpeg",
+              "https://docs.t3planet.de/en/latest/EXTShiva/Localization/Installationt3shiva_reactjs.zip/EXTShiva/Localization/Installationt3shiva_reactjs.zip/Images/how_to_configure_site.jpeg",
+              "https://docs.t3planet.de/en/latest/EXTShiva/Localization/Installationt3shiva_reactjs.zip/EXTShiva/Localization/Installationt3shiva_reactjs.zip/Images/page_tree.jpeg",
+              "https://docs.t3planet.de/en/latest/EXTShiva/Localization/Installationt3shiva_reactjs.zip/EXTShiva/Localization/Installationt3shiva_reactjs.zip/Images/landing_screen.jpg"
+            ]
+          },
+          {
+            "file": "ExtNsPersonio/Installation/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/_images/install_extension2.png",
+              "https://docs.t3planet.de/en/latest/_images/activate_typoscript3.png"
+            ]
+          },
+          {
+            "file": "ExtNsPersonio/ConfigurationOfPlugins/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/ExtNsPersonio/ConfigurationOfPlugins/ExtNsPersonio/ConfigurationOfPlugins/Images/detailpage_1.png",
+              "https://docs.t3planet.de/en/latest/ExtNsPersonio/ConfigurationOfPlugins/ExtNsPersonio/ConfigurationOfPlugins/Images/applicationview_1.png"
+            ]
+          },
+          {
+            "file": "EXTReva/InstallationT3RevaReactjs/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/_images/root-folder-structure3.png",
+              "https://docs.t3planet.de/en/latest/_images/install3.png",
+              "https://docs.t3planet.de/en/latest/_images/landing_screen3.png",
+              "https://docs.t3planet.de/en/latest/_images/vercel_login3.jpg"
+            ]
+          },
+          {
+            "file": "ExtNsT3AC/FeatureGuide/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/_images/Dashboard2.png",
+              "https://docs.t3planet.de/en/latest/_images/T3AC_Embed.png",
+              "https://docs.t3planet.de/en/latest/_images/Command_crawl.png",
+              "https://docs.t3planet.de/en/latest/_images/Show_Hide_page.png",
+              "https://docs.t3planet.de/en/latest/_images/Basic_Authentication.png"
+            ]
+          },
+          {
+            "file": "ExtThemes/Customization/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/_images/update-ext-repository3.png"
+            ]
+          },
+          {
+            "file": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index.md",
+            "hits": [
+              "https://docs.t3planet.de/en/latest/_images/root-folder-structure2.png",
+              "https://docs.t3planet.de/en/latest/_images/install2.png",
+              "https://docs.t3planet.de/en/latest/_images/landing_screen2.png",
+              "https://docs.t3planet.de/en/latest/_images/vercel_login2.jpg"
+            ]
+          }
+        ]
+      },
+      "screenshot": "scripts/qa-performance/screenshots-v2/seo-images.png"
+    },
+    {
+      "id": "BUG-PERF-003",
+      "title": "Documentation search input not reliably usable",
+      "severity": "Medium",
+      "priority": "P2",
+      "url": "/",
+      "reproducibility": "0/3",
+      "actual": "[{'attempt': 1, 'open_ms': 439, 'typed': False, 'result_nodes': 2}, {'attempt': 2, 'open_ms': 417, 'typed': False, 'result_nodes': 2}, {'attempt': 3, 'open_ms': 419, 'typed': False, 'result_nodes': 2}]",
+      "steps": [
+        "Press Cmd+K",
+        "Type query"
+      ],
+      "expected": "Search input accepts text",
+      "browser": "Chromium",
+      "device": "Desktop",
+      "environment": "http://127.0.0.1:3000",
+      "preconditions": "Preview up",
+      "console": [],
+      "network_observations": "",
+      "root_cause": "Selector/UI timing",
+      "suggested_fix": "Retest manually"
+    },
+    {
+      "id": "BUG-PERF-006",
+      "title": "Nav routes returning errors/soft 404",
+      "severity": "High",
+      "priority": "P1",
+      "url": "License/ExtendTrial/Index:timed out",
+      "reproducibility": "1 pass",
+      "actual": "2 fails",
+      "steps": [
+        "HTTP GET nav routes"
+      ],
+      "expected": "200",
+      "browser": "n/a",
+      "device": "n/a",
+      "environment": "http://127.0.0.1:3000",
+      "preconditions": "",
+      "console": [],
+      "network_observations": "['License/ExtendTrial/Index:timed out', 'License/GenerateLicenseKey/Index:timed out']",
+      "root_cause": "Missing page or routing",
+      "suggested_fix": "Fix routes"
+    }
+  ],
+  "false_positives_rejected": [
+    {
+      "title": "Local mint DCL ~2\u20134s",
+      "reason": "Warm avg 6761ms is consistent with mint dev compile cost; not a CDN product defect. Retest on production."
+    }
+  ],
+  "observations": [
+    {
+      "topic": "Nav loader",
+      "result": "PASS",
+      "detail": "3/3 activations",
+      "repros": [
+        {
+          "attempt": 1,
+          "ok": true,
+          "href": "/llms.txt",
+          "sawActive": true,
+          "sawBusy": true,
+          "sawVeil": true,
+          "progressExists": true,
+          "barExists": true
+        },
+        {
+          "attempt": 2,
+          "ok": true,
+          "href": "/llms.txt",
+          "sawActive": true,
+          "sawBusy": true,
+          "sawVeil": true,
+          "progressExists": true,
+          "barExists": true
+        },
+        {
+          "attempt": 3,
+          "ok": true,
+          "href": "/llms.txt",
+          "sawActive": true,
+          "sawBusy": true,
+          "sawVeil": true,
+          "progressExists": true,
+          "barExists": true
+        }
+      ]
+    },
+    {
+      "topic": "Browser compatibility",
+      "result": "PASS",
+      "detail": "6/6 home loads"
+    },
+    {
+      "topic": "Sphinx HTML bloat",
+      "result": "PASS",
+      "detail": "No Search.setIndex"
+    },
+    {
+      "topic": "Network degradation",
+      "result": "EXPECTED",
+      "detail": "3G significantly slower; not filed as product defect on mint dev",
+      "metrics": [
+        {
+          "network": "broadband",
+          "wall_ms": 3987,
+          "ttfb": 2549,
+          "fcp": 3120,
+          "dcl": 3313
+        },
+        {
+          "network": "fast_4g",
+          "wall_ms": 4154,
+          "ttfb": 1377,
+          "fcp": 3372,
+          "dcl": 3398
+        },
+        {
+          "network": "slow_4g",
+          "wall_ms": 12762,
+          "ttfb": 3597,
+          "fcp": 11804,
+          "dcl": 12091
+        },
+        {
+          "network": "3g",
+          "wall_ms": 27290,
+          "ttfb": 2926,
+          "fcp": 19460,
+          "dcl": 26636
+        }
+      ]
+    },
+    {
+      "topic": "Warm SPA hops (local)",
+      "result": "INFO",
+      "metrics": [
+        {
+          "path": "/License/Index",
+          "ms": 6166
+        },
+        {
+          "path": "/AllExtensions/Index",
+          "ms": 6954
+        },
+        {
+          "path": "/ExtNsT3AI/Index",
+          "ms": 8800
+        },
+        {
+          "path": "/AIFoundation/Introduction/Index",
+          "ms": 5125
+        }
+      ],
+      "avg_ms": 6761.25
+    },
+    {
+      "topic": "Stress",
+      "result": "PASS",
+      "detail": "15 sidebar toggles + 4 hops, 0 errors"
+    }
+  ],
+  "browser_matrix": [
+    {
+      "browser": "chromium",
+      "viewport": "1440x900",
+      "ok": true,
+      "ms": 2283,
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "search_set_index": false,
+      "error": null
+    },
+    {
+      "browser": "chromium",
+      "viewport": "390x844",
+      "ok": true,
+      "ms": 2781,
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "search_set_index": false,
+      "error": null
+    },
+    {
+      "browser": "firefox",
+      "viewport": "1440x900",
+      "ok": true,
+      "ms": 2690,
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "search_set_index": false,
+      "error": null
+    },
+    {
+      "browser": "firefox",
+      "viewport": "390x844",
+      "ok": true,
+      "ms": 2586,
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "search_set_index": false,
+      "error": null
+    },
+    {
+      "browser": "webkit",
+      "viewport": "1440x900",
+      "ok": true,
+      "ms": 3078,
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "search_set_index": false,
+      "error": null
+    },
+    {
+      "browser": "webkit",
+      "viewport": "390x844",
+      "ok": true,
+      "ms": 3548,
+      "title": "Welcome to T3Planet Docs - T3Planet Docs",
+      "search_set_index": false,
+      "error": null
+    }
+  ],
+  "network_metrics": [
+    {
+      "network": "broadband",
+      "wall_ms": 3987,
+      "ttfb": 2549,
+      "fcp": 3120,
+      "dcl": 3313
+    },
+    {
+      "network": "fast_4g",
+      "wall_ms": 4154,
+      "ttfb": 1377,
+      "fcp": 3372,
+      "dcl": 3398
+    },
+    {
+      "network": "slow_4g",
+      "wall_ms": 12762,
+      "ttfb": 3597,
+      "fcp": 11804,
+      "dcl": 12091
+    },
+    {
+      "network": "3g",
+      "wall_ms": 27290,
+      "ttfb": 2926,
+      "fcp": 19460,
+      "dcl": 26636
+    }
+  ],
+  "nav_http": {
+    "ok": 672,
+    "fail": 2
+  },
+  "methodology": {
+    "self_validation": "Each filed bug reproduced \u22653 times where applicable; environmental mint-dev latency rejected as CDN defect",
+    "tools": [
+      "Playwright Chromium/Firefox/WebKit",
+      "Performance Navigation Timing",
+      "CDP network emulation",
+      "HTTP smoke"
+    ]
+  }
+}
