@@ -1765,14 +1765,6 @@
       "destination": "/:path*"
     },
     {
-      "source": "/index",
-      "destination": "/"
-    },
-    {
-      "source": "/index/Index",
-      "destination": "/"
-    },
-    {
       "source": "/readme",
       "destination": "/"
     },
@@ -7171,10 +7163,6 @@
     {
       "source": "/broken-url-report.html",
       "destination": "/broken-url-report"
-    },
-    {
-      "source": "/index.html",
-      "destination": "/"
     },
     {
       "source": "/performance-audit.html",

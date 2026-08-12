@@ -12,7 +12,7 @@ sidebarTitle: "Home"
 
 <div className="t3-home-landing">
 
-<nav className="t3-category-nav"><a className="active" href="/">Home</a><a className="" href="/AIFoundationExtensions/Index">AI Universe Extensions</a><a className="" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></nav>
+<div className="t3-category-nav" role="navigation"><a className="active" href="/">Home</a><a className="" href="/AIFoundationExtensions/Index">AI Universe Extensions</a><a className="" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></div>
 <div className="t3-hero-panel">
   <div className="t3-landing-hero t3-hero-large">
     <p className="t3-landing-eyebrow">T3Planet Documentation</p>
