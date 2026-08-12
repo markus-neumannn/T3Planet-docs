@@ -1747,22 +1747,6 @@
       "destination": "/"
     },
     {
-      "source": "/en/latest",
-      "destination": "/"
-    },
-    {
-      "source": "/en/latest/",
-      "destination": "/"
-    },
-    {
-      "source": "/en/latest/index.html",
-      "destination": "/"
-    },
-    {
-      "source": "/en/latest/:path*",
-      "destination": "/:path*"
-    },
-    {
       "source": "/readme",
       "destination": "/"
     },
