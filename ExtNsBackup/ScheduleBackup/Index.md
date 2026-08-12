@@ -1,10 +1,6 @@
 ---
 title: "Schedule Backup"
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ExtNsBackup"
-  - "Schedule Backup"
+keywords: ["TYPO3", "T3Planet", "ExtNsBackup", "Schedule Backup"]
 sidebarTitle: "Schedule Backup"
 ---
 
