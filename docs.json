@@ -1801,10 +1801,6 @@
       "destination": "/ExtNsT3AF/:path*"
     },
     {
-      "source": "/de/:path*",
-      "destination": "/:path*"
-    },
-    {
       "source": "/de/index",
       "destination": "/"
     },
@@ -1826,10 +1822,6 @@
     },
     {
       "source": "/en/latest/:path*",
-      "destination": "/:path*"
-    },
-    {
-      "source": "/en/:path*",
       "destination": "/:path*"
     },
     {
@@ -7377,10 +7369,6 @@
       "destination": "/"
     },
     {
-      "source": "/search",
-      "destination": "/"
-    },
-    {
       "source": "/py-modindex",
       "destination": "/"
     },
@@ -7515,5 +7503,12 @@
         ]
       }
     ]
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Page not found",
+      "description": "This page does not exist in T3Planet Docs."
+    }
   }
 }
