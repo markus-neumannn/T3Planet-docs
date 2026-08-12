@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-12T10:10:33.705447+00:00",
+  "generated": "2026-08-12T12:21:42.320961+00:00",
   "repo": "/Users/nitsan/www/AI Agents/Mintilify Doc",
   "live_base": "https://docs.t3planet.de/en/latest/",
   "sphinx_html": "/Users/nitsan/www/AI Agents/T3Planet Docs Agent/docs/docs/_build/html",
   "counts": {
-    "live_pages": 750,
-    "mint_pages": 919,
-    "MATCH": 296,
-    "UPDATED": 6,
+    "live_pages": 751,
+    "mint_pages": 922,
+    "MATCH": 298,
+    "UPDATED": 1,
     "MISSING_CONTENT": 0,
     "NEW_PAGE": 0,
     "STRUCTURAL_DIFFERENCE": 82,
@@ -21545,6 +21545,61 @@
       ]
     },
     {
+      "live": "ExtNsT3AA/AccessibilityWidgets/Index",
+      "live_url": "https://docs.t3planet.de/en/latest/ExtNsT3AA/AccessibilityWidgets/Index.html",
+      "http_status": 200,
+      "html_source": "local_sphinx",
+      "mint": "ExtNsT3AA/AccessibilityWidgets/Index.md",
+      "live_extract": {
+        "text_len": 5270,
+        "heading_count": 14,
+        "headings": [
+          "What it is",
+          "How to use it",
+          "Widget configuration",
+          "Widget Icon and Size",
+          "Widget Position",
+          "Widget Style",
+          "Widget Layout",
+          "Profile Selection",
+          "Widget Settings",
+          "Accessibility tools",
+          "Reading and text",
+          "Vision and color",
+          "Motion, sound, and structure",
+          "How profiles behave"
+        ],
+        "image_count": 0,
+        "supademo_ids": [
+          "cmspx6nk71m45qm339sebmr9a"
+        ]
+      },
+      "mint_extract": {
+        "text_len": 5752,
+        "heading_count": 14,
+        "path": "ExtNsT3AA/AccessibilityWidgets/Index.md"
+      },
+      "missing_sections": [],
+      "missing_images": [],
+      "missing_supademo": [],
+      "text_ratio": 1.091,
+      "thin": false,
+      "code_diff": {
+        "live_count": 0,
+        "mint_count": 0,
+        "missing_in_mint": [],
+        "extra_in_mint": [],
+        "has_diff": false
+      },
+      "link_diff": {
+        "missing_in_mint": [],
+        "has_diff": false
+      },
+      "status": [
+        "MATCH"
+      ]
+    },
+    {
       "live": "ExtNsT3AA/BuyNow",
       "live_url": "https://docs.t3planet.de/en/latest/ExtNsT3AA/BuyNow.html",
       "http_status": 200,
@@ -21766,24 +21821,21 @@
         "supademo_ids": []
       },
       "mint_extract": {
-        "text_len": 5483,
-        "heading_count": 15,
+        "text_len": 5861,
+        "heading_count": 14,
         "path": "ExtNsT3AA/Installation/Index.md"
       },
       "missing_sections": [],
       "missing_images": [],
       "missing_supademo": [],
-      "text_ratio": 1.052,
+      "text_ratio": 1.124,
       "thin": false,
       "code_diff": {
         "live_count": 3,
-        "mint_count": 1,
-        "missing_in_mint": [
-          "\"only\": [ \"nitsan/ns-t3aa\" ]",
-          "composer require nitsan/ns-t3aa"
-        ],
+        "mint_count": 3,
+        "missing_in_mint": [],
         "extra_in_mint": [],
-        "has_diff": true
+        "has_diff": false
       },
       "link_diff": {
         "missing_in_mint": [
@@ -21795,7 +21847,6 @@
         "has_diff": true
       },
       "status": [
-        "UPDATED",
         "LINK_DIFFERENCE"
       ]
     },
@@ -23377,33 +23428,28 @@
         ]
       },
       "mint_extract": {
-        "text_len": 9631,
-        "heading_count": 9,
+        "text_len": 11989,
+        "heading_count": 8,
         "path": "ExtNsT3AC/FeatureGuide/DataSource/Index.md"
       },
       "missing_sections": [],
       "missing_images": [],
       "missing_supademo": [],
-      "text_ratio": 0.883,
+      "text_ratio": 1.1,
       "thin": false,
       "code_diff": {
         "live_count": 1,
-        "mint_count": 2,
-        "missing_in_mint": [
-          "ddev typo3 scheduler:run --task=<taskUid> -f ddev typo3 nst3af:training <rootPageId> --detailed ddev typo3 nst3af:traini"
-        ],
-        "extra_in_mint": [
-          "ddev typo3/sysext/core/bin/typo3 scheduler:execute --task=9",
-          "ddev typo3 scheduler:run --task=9"
-        ],
-        "has_diff": true
+        "mint_count": 1,
+        "missing_in_mint": [],
+        "extra_in_mint": [],
+        "has_diff": false
       },
       "link_diff": {
         "missing_in_mint": [],
         "has_diff": false
       },
       "status": [
-        "UPDATED"
+        "MATCH"
       ]
     },
     {
@@ -23640,24 +23686,21 @@
         "supademo_ids": []
       },
       "mint_extract": {
-        "text_len": 7171,
-        "heading_count": 16,
+        "text_len": 7370,
+        "heading_count": 15,
         "path": "ExtNsT3AC/Installation/Index.md"
       },
       "missing_sections": [],
       "missing_images": [],
       "missing_supademo": [],
-      "text_ratio": 1.082,
+      "text_ratio": 1.112,
       "thin": false,
       "code_diff": {
         "live_count": 3,
-        "mint_count": 1,
-        "missing_in_mint": [
-          "\"only\": [ \"nitsan/ns-t3ac\", \"nitsan/ns-t3cs\" ]",
-          "composer require nitsan/ns-t3ac"
-        ],
+        "mint_count": 3,
+        "missing_in_mint": [],
         "extra_in_mint": [],
-        "has_diff": true
+        "has_diff": false
       },
       "link_diff": {
         "missing_in_mint": [
@@ -23670,7 +23713,6 @@
         "has_diff": true
       },
       "status": [
-        "UPDATED",
         "LINK_DIFFERENCE"
       ]
     },
@@ -26293,24 +26335,21 @@
         "supademo_ids": []
       },
       "mint_extract": {
-        "text_len": 6084,
-        "heading_count": 16,
+        "text_len": 6462,
+        "heading_count": 15,
         "path": "ExtNsT3AI/Installation/Index.md"
       },
       "missing_sections": [],
       "missing_images": [],
       "missing_supademo": [],
-      "text_ratio": 1.066,
+      "text_ratio": 1.132,
       "thin": false,
       "code_diff": {
         "live_count": 3,
-        "mint_count": 1,
-        "missing_in_mint": [
-          "\"only\": [ \"nitsan/ns-t3ai\" ]",
-          "composer require nitsan/ns-t3ai"
-        ],
+        "mint_count": 3,
+        "missing_in_mint": [],
         "extra_in_mint": [],
-        "has_diff": true
+        "has_diff": false
       },
       "link_diff": {
         "missing_in_mint": [
@@ -26323,7 +26362,6 @@
         "has_diff": true
       },
       "status": [
-        "UPDATED",
         "LINK_DIFFERENCE"
       ]
     },
@@ -28336,24 +28374,21 @@
         "supademo_ids": []
       },
       "mint_extract": {
-        "text_len": 7364,
-        "heading_count": 16,
+        "text_len": 7561,
+        "heading_count": 15,
         "path": "ExtNsT3AS/Installation/Index.md"
       },
       "missing_sections": [],
       "missing_images": [],
       "missing_supademo": [],
-      "text_ratio": 1.094,
+      "text_ratio": 1.123,
       "thin": false,
       "code_diff": {
         "live_count": 3,
-        "mint_count": 1,
-        "missing_in_mint": [
-          "\"only\": [ \"nitsan/ns-t3as\", \"nitsan/ns-t3cs\" ]",
-          "composer require nitsan/ns-t3as"
-        ],
+        "mint_count": 3,
+        "missing_in_mint": [],
         "extra_in_mint": [],
-        "has_diff": true
+        "has_diff": false
       },
       "link_diff": {
         "missing_in_mint": [
@@ -28366,7 +28401,6 @@
         "has_diff": true
       },
       "status": [
-        "UPDATED",
         "LINK_DIFFERENCE"
       ]
     },

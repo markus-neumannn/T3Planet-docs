@@ -26,6 +26,7 @@ sidebarTitle: "EXT:ns_t3aa"
   <Card title="System Requirements" icon="server" href="/ExtNsT3AA/SystemRequirements/Index" />
   <Card title="Installation" icon="download" href="/ExtNsT3AA/Installation/Index" />
   <Card title="Configuration" icon="settings" href="/ExtNsT3AA/Configuration/Index" />
+  <Card title="Accessibility Widgets" icon="sliders" href="/ExtNsT3AA/AccessibilityWidgets/Index" />
   <Card title="Reinstall After Upgrade" icon="wrench" href="/ExtNsT3AA/ReInstallEverything/Index" />
   </CardGroup>
 </section>

@@ -15,8 +15,6 @@ Add and manage the sources of content that will be used for AI search and the AI
 
 ## Adding a data source
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraclzms0e0pqmhxm0sztm2a?utm_source=link" loading="lazy" title="T3AC Data Source Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-
 1. Click **+ Add Source**.
 2. Choose the **type of source**, for example:
   - **Sitemap XML** – Your sitemap URL(s) (e.g. `https://example.com/sitemap.xml`).
@@ -35,7 +33,7 @@ After saving, T3AC will:
 
 - Create or update the data source.
 - Sync content into the training queue (new or changed items).
-- **Automatically create** the **T3AC Training** Scheduler task for this site (if it does not exist yet) and **run it at the frequency you set** (e.g. Hourly, Daily, Weekly). You do not need to create the scheduler task manually—it is created when the source is saved and will execute according to the chosen sync interval.
+- **Automatically create** the **T3AF Training** Scheduler task for this site (if it does not exist yet) and **run it at the frequency you set** (e.g. Hourly, Daily, Weekly). You do not need to create the scheduler task manually—it is created when the source is saved and will execute according to the chosen sync interval.
 
 ## Editing or deleting a source
 
@@ -61,7 +59,7 @@ Administrators can:
 - edit Source Groups
 - delete Source Groups
 
-![Manage source groups dialog](./images/manage-source-groups.webp)
+![Manage source groups dialog](images/manage-source-groups.png)
 
 Create, edit, or delete Source Groups. The **Global** group is a system default and cannot be changed.
 
@@ -93,7 +91,7 @@ This setting controls where the data source can be used after retrieval starts.
 4. Find the **Source groups** field.
 5. Select the Source Groups that should be available on that page.
 
-![Page-level Source groups in page properties](./images/page-level-source-groups.png)
+![Page-level Source groups in page properties](images/page-level-source-groups.png)
 
 Choose Source Groups under **Page Properties → AI Search** so AI Search and AI Chatbot use only those sources on that page.
 
@@ -125,7 +123,7 @@ If no custom Source Groups are selected, the **Global** Source Group remains ava
 
 These options help you keep repeated layout content out of the main page body while still making shared site information available to chatbot and search retrieval.
 
-![Index site header and Index site footer options in Add Source](./images/header-footer-index.webp)
+![Index site header and Index site footer options in Add Source](images/header-footer-index.png)
 
 Enable **Index site header** and **Index site footer** when adding or editing a Sitemap XML or Web Pages data source.
 
@@ -135,7 +133,7 @@ Use **Index Site Header** when the site header contains useful shared informatio
 
 Purpose:
 
-- extract the website ``<header>`` content one time for each unique header
+- extract the website `<header>` content one time for each unique header
 - store that content as a separate training item
 - remove the same header content from the page body before indexing
 
@@ -161,7 +159,7 @@ Use **Index Site Footer** when the site footer contains shared information that 
 
 Purpose:
 
-- extract the website ``<footer>`` content one time for each unique footer
+- extract the website `<footer>` content one time for each unique footer
 - store that content as a separate training item
 - exclude that footer content from the page body during indexing
 
@@ -198,55 +196,104 @@ Deleting a data source also removes its training queue and embedded data for tha
 
 ## Scheduler
 
+**T3AF Training** is the shared console command `nst3af:training` (AI Foundation / T3CS). It powers automatic indexing for **AI Chatbot (T3AC)**.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragsj3t0n4vqmhx0pe4jtgt?utm_source=link" loading="lazy" title="Scheduler Feature Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-When you create a data source, T3AC will automatically create the **T3AC Training** Scheduler task for this site (if it does not exist yet) and **run it at the frequency you set** (e.g. Hourly, Daily, Weekly). You do not need to create the scheduler task manually—it is created when the source is saved and will execute according to the chosen sync interval.
+When you create a data source, T3AC will automatically create the **T3AF Training** Scheduler task for this site (if it does not exist yet) and **run it at the frequency you set** (e.g. Hourly, Daily, Weekly). You do not need to create the scheduler task manually—it is created when the source is saved and will execute according to the chosen sync interval.
 
-From the Dashboard you can open the TYPO3 Scheduler and locate the automatic training task (typically named **T3AC Training** for this site). Use **Run All** or **Run Task Now** to process the training queue immediately.
+From the Dashboard you can open the TYPO3 Scheduler and locate the automatic training task (typically named **T3AF Training** for this site). Use **Run All** or **Run Task Now** to process the training queue immediately.
 
-## Command-line tools
+When the scheduler runs this task for a site, it:
 
-**What is command-line scheduler execution?**
+1. **Syncs** enabled data sources for that site (crawl or refresh content into the **training queue**).
+2. **Trains** pending queue items (chunks content and **generates embeddings** via your configured AI provider or T3Planet Credits).
+3. **Cleans up** old completed/failed queue rows according to the retention setting (optional archive to CSV).
 
-Command-line scheduler execution means running the TYPO3 Scheduler task directly from your terminal.
-This is useful when you want to process the training queue immediately, without waiting for the next scheduled interval.
+<Note>
+**Sync** in the Data Sources UI only marks content for refresh. It does **not** call the AI or create embeddings by itself. Embeddings are created when **T3AF Training** runs (scheduler, CLI, or **Training Center** actions that trigger the same pipeline).
+</Note>
 
-**How to run the scheduler task**
+You can run the same command manually from the project root (for example with DDEV). Replace `<rootPageId>` with your site root page ID and `<taskUid>` with the numeric UID from the Scheduler module (do **not** assume a fixed ID such as `9`).
 
-1. Open your terminal in the TYPO3 project root (where DDEV is available).
-2. Run one of the commands below, based on your installation type.
-3. Check the terminal output to confirm the task completed successfully.
+**Argument**
 
-If you are using DDEV, you can run the T3AC training task manually from the command line.
+**`rootPageId` (optional when using `scheduler:run --task=`)**
+Site root page ID. Required for direct CLI runs unless the scheduler passes it via the task.
 
-Legacy installation:
+**Options**
+
+**`--source=ID`**
+Process only one data source (must belong to the site).
+
+**`--detailed`**
+Verbose output (each URL, PDF, and similar). **Enabled by default** on the automatic scheduler task. It will show the detailed progress in the CLI command.
+
+**`--dry-run`**
+Preview only — no API calls and no database updates.
+
+**`--limit=N`**
+Process at most *N* queue items per data source.
+
+**`--batch-size=N`**
+Embedding batch size (default: extension **Batch size** or 100). **Set on the scheduler task** from extension settings when the task is created or updated.
+
+**`--skip-cleanup`**
+Skip the post-training cleanup phase.
+
+**`--cleanup-only`**
+Run cleanup only (no sync, no embedding).
+
+**`--retention-days=N`**
+Delete or archive queue rows older than *N* days (default: extension **Retention days** or 30). **Set on the scheduler task** from extension settings.
+
+**`--no-archive`**
+Delete old queue rows without writing a CSV archive first.
+
+**`--optimize-db`**
+Run `OPTIMIZE TABLE` after cleanup.
+
+**`--queue-failed`**
+Move **Failed** queue items back to **Pending** before processing.
+
+**`--force` / `-f`**
+Re-train all: set all queue items (completed/failed/processing) back to **Pending** and process.
+
+It does **not** automatically set `sync_requested`. Sync still requires the **Sync** action from the DataSource tab.
+
+**What the automatic scheduler task uses**
+
+Only `rootPageId`, `--batch-size`, `--retention-days`, and `--detailed`. All other options are for **manual CLI** or custom scheduler tasks you create yourself.
+
+**Example commands**
+
+Composer / TYPO3 v13+ (typical):
 
 ```bash
-ddev typo3/sysext/core/bin/typo3 scheduler:execute --task=9
+ddev typo3 scheduler:run --task=<taskUid> -f
+ddev typo3 nst3af:training <rootPageId> --detailed
+ddev typo3 nst3af:training <rootPageId> --dry-run
+ddev typo3 nst3af:training <rootPageId> --source=5 --limit=20
+ddev typo3 nst3af:training <rootPageId> --cleanup-only
 ```
 
-Composer installation:
+Legacy non-Composer installs may use `scheduler:execute` instead of `scheduler:run`; see [TYPO3 Scheduler CLI documentation](https://docs.typo3.org/c/typo3/cms-scheduler/13.4/en-us/Administration/ConsoleTools/Running.html).
 
-```bash
-ddev typo3 scheduler:run --task=9
-```
-
-**What happens after running the command?**
-
-- TYPO3 executes Scheduler task `9` (T3AC Training).
-- Items in the training queue are processed.
-- You can verify progress and completion directly in the command output.
-
-**Example output**
-
-![Example command-line output for TYPO3 scheduler task run](./images/CLI01.webp)
+![Example command-line output for TYPO3 scheduler task run](images/CLI01.png)
 
 Example of scheduler task output in the terminal.
 
-![Example command-line output showing queue processing and training completion](./images/CLI02.webp)
+![Example command-line output showing queue processing and training completion](images/CLI02.png)
 
 Example showing queue processing and training completion summary.
 
-For more options and details, see the TYPO3 Scheduler documentation:
-[https://docs.typo3.org/c/typo3/cms-scheduler/13.4/en-us/Administration/ConsoleTools/Running.html#providing-options-to-the-shell-script](https://docs.typo3.org/c/typo3/cms-scheduler/13.4/en-us/Administration/ConsoleTools/Running.html#providing-options-to-the-shell-script)
+These **T3CS / AI Chatbot & Search** settings are applied when the scheduler task is configured:
 
+- **Batch size** → `--batch-size` on the task
+- **Retention days** → `--retention-days` on the task
+- **Chunk size**, **Max link crawl**, rate limits — affect sync and embedding behavior during the run
+- **Log archive path** (optional) — where cleanup CSV archives are stored
+
+More options for other AI Foundation scheduler commands (MCP cleanup, and so on) are listed under **AI Foundation → Scheduler & CLI** in the TYPO3 backend.
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraclzms0e0pqmhxm0sztm2a?embed_v=2&utm_source=embed" loading="lazy" title="Interactive demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragsj3t0n4vqmhx0pe4jtgt?embed_v=2&utm_source=embed" loading="lazy" title="Interactive demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>

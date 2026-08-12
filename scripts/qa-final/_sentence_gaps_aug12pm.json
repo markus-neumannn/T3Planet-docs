@@ -1,0 +1,2032 @@
+[
+  {
+    "live": "License/LicenseActivation/Index",
+    "mint": "License/LicenseActivation/Index.md",
+    "ratio": 1.0,
+    "missing": 37,
+    "live_sents": 37
+  },
+  {
+    "live": "ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+    "mint": "ExtNsT3AF/Troubleshooting/KnownProblems/Index.md",
+    "ratio": 1.0,
+    "missing": 23,
+    "live_sents": 23
+  },
+  {
+    "live": "ExtRTECKEditorPack/CKEditorAI/Index",
+    "mint": "ExtRTECKEditorPack/CKEditorAI/Index.md",
+    "ratio": 1.0,
+    "missing": 22,
+    "live_sents": 22
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/TrainingCenter/Index",
+    "mint": "ExtNsT3AC/FeatureGuide/TrainingCenter/Index.md",
+    "ratio": 1.0,
+    "missing": 18,
+    "live_sents": 18
+  },
+  {
+    "live": "ExtNsInstagram/InstagramApiToken/Index",
+    "mint": "ExtNsInstagram/InstagramApiToken/Index.md",
+    "ratio": 1.0,
+    "missing": 16,
+    "live_sents": 16
+  },
+  {
+    "live": "ExtNsT3AF/T3Planet-Credit-System/MCPIntegration/Index",
+    "mint": "ExtNsT3AF/T3Planet-Credit-System/MCPIntegration/Index.md",
+    "ratio": 1.0,
+    "missing": 8,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsGridtoContainer/Configuration/Index",
+    "mint": "ExtNsGridtoContainer/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 8,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsTwitter/Configuration/Index",
+    "mint": "ExtNsTwitter/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsT3AS/RetrievalConfidenceThreshold/Index",
+    "mint": "ExtNsT3AS/RetrievalConfidenceThreshold/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsT3AL/AILocalizationLogs/Index",
+    "mint": "ExtNsT3AL/AILocalizationLogs/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsT3AF/T3Planet-Credit-System/Overview/Index",
+    "mint": "ExtNsT3AF/T3Planet-Credit-System/Overview/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsT3AC/RetrievalConfidenceThreshold/Index",
+    "mint": "ExtNsT3AC/RetrievalConfidenceThreshold/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/AILogs/Index",
+    "mint": "ExtNsT3AC/FeatureGuide/AILogs/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsFAQ/SubmitFAQForm/Index",
+    "mint": "ExtNsFAQ/SubmitFAQForm/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsExtCompatibility/Configuration/Index",
+    "mint": "ExtNsExtCompatibility/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsCloudflare/Configuration/Index",
+    "mint": "ExtNsCloudflare/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsAllChat/Configuration/Index",
+    "mint": "ExtNsAllChat/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 7,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtRTECKEditorPack/QuickInstallation/Index",
+    "mint": "ExtRTECKEditorPack/QuickInstallation/Index.md",
+    "ratio": 1.0,
+    "missing": 6,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsStatcounter/Configuration/Index",
+    "mint": "ExtNsStatcounter/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 6,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsRevolutionSlider/RevolutionSlider1.0/Configuration/Index",
+    "mint": "ExtNsRevolutionSlider/RevolutionSlider1.0/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 6,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsFacebookComment/Configuration/Index",
+    "mint": "ExtNsFacebookComment/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 6,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsBackup/GlobalSettings/Index",
+    "mint": "ExtNsBackup/GlobalSettings/Index.md",
+    "ratio": 1.0,
+    "missing": 6,
+    "live_sents": 6
+  },
+  {
+    "live": "EXTKarma/Customization/Index",
+    "mint": "EXTKarma/Customization/Index.md",
+    "ratio": 1.0,
+    "missing": 6,
+    "live_sents": 6
+  },
+  {
+    "live": "License/Introduction/Index",
+    "mint": "License/Introduction/Index.md",
+    "ratio": 1.0,
+    "missing": 5,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsWhatsapp/GlobalSettings/Index",
+    "mint": "ExtNsWhatsapp/GlobalSettings/Index.md",
+    "ratio": 1.0,
+    "missing": 5,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AS/Screenshots/Index",
+    "mint": "ExtNsT3AS/Screenshots/Index.md",
+    "ratio": 1.0,
+    "missing": 5,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsHubspot/FreeVersionConfiguration/Index",
+    "mint": "ExtNsHubspot/FreeVersionConfiguration/Index.md",
+    "ratio": 1.0,
+    "missing": 5,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsGallery/GoogleSearchView/Index",
+    "mint": "ExtNsGallery/GoogleSearchView/Index.md",
+    "ratio": 1.0,
+    "missing": 5,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsAllLightbox/Configuration/Index",
+    "mint": "ExtNsAllLightbox/Configuration/Index.md",
+    "ratio": 1.0,
+    "missing": 5,
+    "live_sents": 5
+  },
+  {
+    "live": "EXTShop/Installation/Index",
+    "mint": "EXTShop/Installation/Index.md",
+    "ratio": 1.0,
+    "missing": 5,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsNewsComments/CommentPluginSettings/Index",
+    "mint": "ExtNsNewsComments/CommentPluginSettings/Index.md",
+    "ratio": 0.967,
+    "missing": 29,
+    "live_sents": 30
+  },
+  {
+    "live": "ExtNsEvent/Configuration/AddEventPlugin/Index",
+    "mint": "ExtNsEvent/Configuration/AddEventPlugin/Index.md",
+    "ratio": 0.963,
+    "missing": 26,
+    "live_sents": 27
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+    "mint": "ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index.md",
+    "ratio": 0.955,
+    "missing": 21,
+    "live_sents": 22
+  },
+  {
+    "live": "ExtRTECKEditorPack/PremiumPack/Index",
+    "mint": "ExtRTECKEditorPack/PremiumPack/Index.md",
+    "ratio": 0.944,
+    "missing": 17,
+    "live_sents": 18
+  },
+  {
+    "live": "ExtNsT3AF/Integrations/MCPTesting/Index",
+    "mint": "ExtNsT3AF/Integrations/MCPTesting/Index.md",
+    "ratio": 0.943,
+    "missing": 116,
+    "live_sents": 123
+  },
+  {
+    "live": "EXTKarma/UpgradeGuideForContainer/Index",
+    "mint": "EXTKarma/UpgradeGuideForContainer/Index.md",
+    "ratio": 0.941,
+    "missing": 16,
+    "live_sents": 17
+  },
+  {
+    "live": "ExtNsT3AL/AILocalization/Index",
+    "mint": "ExtNsT3AL/AILocalization/Index.md",
+    "ratio": 0.938,
+    "missing": 15,
+    "live_sents": 16
+  },
+  {
+    "live": "ExtNsComments/CommentPluginSettings/Index",
+    "mint": "ExtNsComments/CommentPluginSettings/Index.md",
+    "ratio": 0.938,
+    "missing": 15,
+    "live_sents": 16
+  },
+  {
+    "live": "ExtNsSocialLogin/Configuration/Index",
+    "mint": "ExtNsSocialLogin/Configuration/Index.md",
+    "ratio": 0.933,
+    "missing": 14,
+    "live_sents": 15
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/DataSource/Index",
+    "mint": "ExtNsT3AC/FeatureGuide/DataSource/Index.md",
+    "ratio": 0.931,
+    "missing": 81,
+    "live_sents": 87
+  },
+  {
+    "live": "ExtNsPersonio/ConfigurationOfPlugins/Index",
+    "mint": "ExtNsPersonio/ConfigurationOfPlugins/Index.md",
+    "ratio": 0.929,
+    "missing": 13,
+    "live_sents": 14
+  },
+  {
+    "live": "ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index",
+    "mint": "ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index.md",
+    "ratio": 0.923,
+    "missing": 12,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index",
+    "mint": "ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index.md",
+    "ratio": 0.923,
+    "missing": 12,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsExtCompatibility/ActionResults/Index",
+    "mint": "ExtNsExtCompatibility/ActionResults/Index.md",
+    "ratio": 0.923,
+    "missing": 12,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtThemes/FrontendBuild/Index",
+    "mint": "ExtThemes/FrontendBuild/Index.md",
+    "ratio": 0.917,
+    "missing": 11,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/Index",
+    "mint": "ExtNsT3AF/Configuration/Index.md",
+    "ratio": 0.917,
+    "missing": 11,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsProtectSite/Configuration/Index",
+    "mint": "ExtNsProtectSite/Configuration/Index.md",
+    "ratio": 0.917,
+    "missing": 11,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsPersonio/ConfigurePersonioAPIandScheduler/Index",
+    "mint": "ExtNsPersonio/ConfigurePersonioAPIandScheduler/Index.md",
+    "ratio": 0.917,
+    "missing": 11,
+    "live_sents": 12
+  },
+  {
+    "live": "EXTKarma/SEO/Index",
+    "mint": "EXTKarma/SEO/Index.md",
+    "ratio": 0.917,
+    "missing": 11,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+    "mint": "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index.md",
+    "ratio": 0.905,
+    "missing": 19,
+    "live_sents": 21
+  },
+  {
+    "live": "ExtNsGuestbook/Configuration/Index",
+    "mint": "ExtNsGuestbook/Configuration/Index.md",
+    "ratio": 0.9,
+    "missing": 9,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsT3AS/FrontendPlugin/Index",
+    "mint": "ExtNsT3AS/FrontendPlugin/Index.md",
+    "ratio": 0.895,
+    "missing": 17,
+    "live_sents": 19
+  },
+  {
+    "live": "ExtNsT3AF/Installation/Index",
+    "mint": "ExtNsT3AF/Installation/Index.md",
+    "ratio": 0.893,
+    "missing": 25,
+    "live_sents": 28
+  },
+  {
+    "live": "ExtNsT3AA/AIFilemeta/Index",
+    "mint": "ExtNsT3AA/AIFilemeta/Index.md",
+    "ratio": 0.893,
+    "missing": 25,
+    "live_sents": 28
+  },
+  {
+    "live": "ExtThemes/Localization/Index",
+    "mint": "ExtThemes/Localization/Index.md",
+    "ratio": 0.889,
+    "missing": 8,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index",
+    "mint": "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index.md",
+    "ratio": 0.889,
+    "missing": 8,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsSocialLogin/Installation/Index",
+    "mint": "ExtNsSocialLogin/Installation/Index.md",
+    "ratio": 0.889,
+    "missing": 8,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/Index",
+    "mint": "ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/Index.md",
+    "ratio": 0.889,
+    "missing": 8,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsFriendlyCaptcha/FAQ",
+    "mint": "ExtNsFriendlyCaptcha/FAQ.md",
+    "ratio": 0.889,
+    "missing": 8,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsFAQ/FAQPlugin/Index",
+    "mint": "ExtNsFAQ/FAQPlugin/Index.md",
+    "ratio": 0.889,
+    "missing": 8,
+    "live_sents": 9
+  },
+  {
+    "live": "EXTBootstrap/FlexFormtoContentBlockMigration/Index",
+    "mint": "EXTBootstrap/FlexFormtoContentBlockMigration/Index.md",
+    "ratio": 0.889,
+    "missing": 8,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsT3AF/Integrations/MCPServer/Index",
+    "mint": "ExtNsT3AF/Integrations/MCPServer/Index.md",
+    "ratio": 0.885,
+    "missing": 23,
+    "live_sents": 26
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+    "mint": "ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index.md",
+    "ratio": 0.884,
+    "missing": 38,
+    "live_sents": 43
+  },
+  {
+    "live": "ExtNsGoogleSiteKit/HowToIntegrateGoogleSitekit/Index",
+    "mint": "ExtNsGoogleSiteKit/HowToIntegrateGoogleSitekit/Index.md",
+    "ratio": 0.882,
+    "missing": 15,
+    "live_sents": 17
+  },
+  {
+    "live": "ExtNsEvent/Configuration/AddEvents/Index",
+    "mint": "ExtNsEvent/Configuration/AddEvents/Index.md",
+    "ratio": 0.882,
+    "missing": 15,
+    "live_sents": 17
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+    "mint": "ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index.md",
+    "ratio": 0.879,
+    "missing": 29,
+    "live_sents": 33
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/Chatbot/Index",
+    "mint": "ExtNsT3AC/FeatureGuide/Chatbot/Index.md",
+    "ratio": 0.878,
+    "missing": 36,
+    "live_sents": 41
+  },
+  {
+    "live": "ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index",
+    "mint": "ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index.md",
+    "ratio": 0.875,
+    "missing": 28,
+    "live_sents": 32
+  },
+  {
+    "live": "ExtNsT3AC/Configuration/Index",
+    "mint": "ExtNsT3AC/Configuration/Index.md",
+    "ratio": 0.875,
+    "missing": 21,
+    "live_sents": 24
+  },
+  {
+    "live": "ExtNsT3AC/UpdateGuide/Index",
+    "mint": "ExtNsT3AC/UpdateGuide/Index.md",
+    "ratio": 0.875,
+    "missing": 14,
+    "live_sents": 16
+  },
+  {
+    "live": "ExtNsYoutube/Configuration/Index",
+    "mint": "ExtNsYoutube/Configuration/Index.md",
+    "ratio": 0.875,
+    "missing": 7,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/Dashboard/Index",
+    "mint": "ExtNsT3AF/Configuration/Dashboard/Index.md",
+    "ratio": 0.875,
+    "missing": 7,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsT3AS/Configuration/Index",
+    "mint": "ExtNsT3AS/Configuration/Index.md",
+    "ratio": 0.87,
+    "missing": 167,
+    "live_sents": 192
+  },
+  {
+    "live": "ExtNsT3AI/AISettings/Index",
+    "mint": "ExtNsT3AI/AISettings/Index.md",
+    "ratio": 0.867,
+    "missing": 13,
+    "live_sents": 15
+  },
+  {
+    "live": "ExtNsBackup/ScheduleBackup/Index",
+    "mint": "ExtNsBackup/ScheduleBackup/Index.md",
+    "ratio": 0.867,
+    "missing": 13,
+    "live_sents": 15
+  },
+  {
+    "live": "ExtNsGallery/AlbumView/Index",
+    "mint": "ExtNsGallery/AlbumView/Index.md",
+    "ratio": 0.862,
+    "missing": 25,
+    "live_sents": 29
+  },
+  {
+    "live": "ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index",
+    "mint": "ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index.md",
+    "ratio": 0.857,
+    "missing": 36,
+    "live_sents": 42
+  },
+  {
+    "live": "ExtNsT3AA/AIAudioGenerator/Index",
+    "mint": "ExtNsT3AA/AIAudioGenerator/Index.md",
+    "ratio": 0.857,
+    "missing": 6,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsSharethis/Configuration/Index",
+    "mint": "ExtNsSharethis/Configuration/Index.md",
+    "ratio": 0.857,
+    "missing": 6,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index",
+    "mint": "ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index.md",
+    "ratio": 0.857,
+    "missing": 6,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsInstagram/Configuration/Index",
+    "mint": "ExtNsInstagram/Configuration/Index.md",
+    "ratio": 0.857,
+    "missing": 6,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsBackup/ConnectClouds/Index",
+    "mint": "ExtNsBackup/ConnectClouds/Index.md",
+    "ratio": 0.857,
+    "missing": 6,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsT3AI/SEO/Index",
+    "mint": "ExtNsT3AI/SEO/Index.md",
+    "ratio": 0.852,
+    "missing": 23,
+    "live_sents": 27
+  },
+  {
+    "live": "ExtNsT3AS/UpdateGuide/Index",
+    "mint": "ExtNsT3AS/UpdateGuide/Index.md",
+    "ratio": 0.846,
+    "missing": 11,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsT3AL/StartManualLocalization/Index",
+    "mint": "ExtNsT3AL/StartManualLocalization/Index.md",
+    "ratio": 0.846,
+    "missing": 11,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsT3AI/UpdateGuide/Index",
+    "mint": "ExtNsT3AI/UpdateGuide/Index.md",
+    "ratio": 0.846,
+    "missing": 11,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+    "mint": "ExtNsT3AF/Configuration/AIUsageAndLogs/Index.md",
+    "ratio": 0.846,
+    "missing": 11,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsT3AA/UpdateGuide/Index",
+    "mint": "ExtNsT3AA/UpdateGuide/Index.md",
+    "ratio": 0.846,
+    "missing": 11,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+    "mint": "ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index.md",
+    "ratio": 0.838,
+    "missing": 31,
+    "live_sents": 37
+  },
+  {
+    "live": "License/Migration/License/Index",
+    "mint": "License/Migration/License/Index.md",
+    "ratio": 0.833,
+    "missing": 10,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsT3AI/KnownProblems/Index",
+    "mint": "ExtNsT3AI/KnownProblems/Index.md",
+    "ratio": 0.833,
+    "missing": 5,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+    "mint": "ExtNsT3AA/CkeditorAccessibilityChecker/Index.md",
+    "ratio": 0.833,
+    "missing": 5,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsNewsComments/NewsCommentModule/Index",
+    "mint": "ExtNsNewsComments/NewsCommentModule/Index.md",
+    "ratio": 0.833,
+    "missing": 5,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsNewsComments/ForDevelopers/Index",
+    "mint": "ExtNsNewsComments/ForDevelopers/Index.md",
+    "ratio": 0.833,
+    "missing": 5,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsPWA/Configuration/Index",
+    "mint": "ExtNsPWA/Configuration/Index.md",
+    "ratio": 0.826,
+    "missing": 19,
+    "live_sents": 23
+  },
+  {
+    "live": "ExtNsT3AA/T3AAVoiceover/Index",
+    "mint": "ExtNsT3AA/T3AAVoiceover/Index.md",
+    "ratio": 0.824,
+    "missing": 14,
+    "live_sents": 17
+  },
+  {
+    "live": "ExtRTECKEditorPack/PremiumFeatures/Index",
+    "mint": "ExtRTECKEditorPack/PremiumFeatures/Index.md",
+    "ratio": 0.821,
+    "missing": 23,
+    "live_sents": 28
+  },
+  {
+    "live": "ExtNsT3AI/Pages/Index",
+    "mint": "ExtNsT3AI/Pages/Index.md",
+    "ratio": 0.821,
+    "missing": 32,
+    "live_sents": 39
+  },
+  {
+    "live": "ExtNsT3AF/T3Planet-Credit-System/Index",
+    "mint": "ExtNsT3AF/T3Planet-Credit-System/Index.md",
+    "ratio": 0.818,
+    "missing": 9,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsT3AF/T3Planet-Credit-System/Configuration/Index",
+    "mint": "ExtNsT3AF/T3Planet-Credit-System/Configuration/Index.md",
+    "ratio": 0.818,
+    "missing": 9,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsHubspot/PremiumVersionConfiguration/Index",
+    "mint": "ExtNsHubspot/PremiumVersionConfiguration/Index.md",
+    "ratio": 0.818,
+    "missing": 9,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+    "mint": "ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index.md",
+    "ratio": 0.815,
+    "missing": 22,
+    "live_sents": 27
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIPermissions/Index",
+    "mint": "ExtNsT3AF/Configuration/AIPermissions/Index.md",
+    "ratio": 0.815,
+    "missing": 22,
+    "live_sents": 27
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+    "mint": "ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index.md",
+    "ratio": 0.812,
+    "missing": 26,
+    "live_sents": 32
+  },
+  {
+    "live": "ExtNsT3AL/T3ALTerms(Glossary)/Index",
+    "mint": "ExtNsT3AL/T3ALTerms(Glossary)/Index.md",
+    "ratio": 0.812,
+    "missing": 13,
+    "live_sents": 16
+  },
+  {
+    "live": "ExtNsT3AI/Installation/Index",
+    "mint": "ExtNsT3AI/Installation/Index.md",
+    "ratio": 0.809,
+    "missing": 38,
+    "live_sents": 47
+  },
+  {
+    "live": "ExtThemes/UpgradeGuide/Index",
+    "mint": "ExtThemes/UpgradeGuide/Index.md",
+    "ratio": 0.808,
+    "missing": 21,
+    "live_sents": 26
+  },
+  {
+    "live": "ExtNsT3AI/Content/Index",
+    "mint": "ExtNsT3AI/Content/Index.md",
+    "ratio": 0.805,
+    "missing": 62,
+    "live_sents": 77
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIProviders/Index",
+    "mint": "ExtNsT3AF/Configuration/AIProviders/Index.md",
+    "ratio": 0.8,
+    "missing": 28,
+    "live_sents": 35
+  },
+  {
+    "live": "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index",
+    "mint": "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index.md",
+    "ratio": 0.8,
+    "missing": 16,
+    "live_sents": 20
+  },
+  {
+    "live": "ExtNsT3AC/FeatureGuide/Dashboard/Index",
+    "mint": "ExtNsT3AC/FeatureGuide/Dashboard/Index.md",
+    "ratio": 0.8,
+    "missing": 8,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index",
+    "mint": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index.md",
+    "ratio": 0.8,
+    "missing": 8,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index",
+    "mint": "ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index.md",
+    "ratio": 0.8,
+    "missing": 8,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsEvent/GlobalConfiguration/Index",
+    "mint": "ExtNsEvent/GlobalConfiguration/Index.md",
+    "ratio": 0.8,
+    "missing": 8,
+    "live_sents": 10
+  },
+  {
+    "live": "License/UpdateVersion/Composer/Index",
+    "mint": "License/UpdateVersion/Composer/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "License/OtherProducts/Index",
+    "mint": "License/OtherProducts/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index",
+    "mint": "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AS/PerformanceConfiguration/Index",
+    "mint": "ExtNsT3AS/PerformanceConfiguration/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index",
+    "mint": "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AI/UpgradeGuide/Index",
+    "mint": "ExtNsT3AI/UpgradeGuide/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AC/Introduction/Index",
+    "mint": "ExtNsT3AC/Introduction/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index",
+    "mint": "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsHelpDesk/GlobalSettings/Index",
+    "mint": "ExtNsHelpDesk/GlobalSettings/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsHelpDesk/FormSettings/Index",
+    "mint": "ExtNsHelpDesk/FormSettings/Index.md",
+    "ratio": 0.8,
+    "missing": 4,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AI/Translation/Index",
+    "mint": "ExtNsT3AI/Translation/Index.md",
+    "ratio": 0.792,
+    "missing": 76,
+    "live_sents": 96
+  },
+  {
+    "live": "ExtNsT3AI/Releases/Index",
+    "mint": "ExtNsT3AI/Releases/Index.md",
+    "ratio": 0.792,
+    "missing": 57,
+    "live_sents": 72
+  },
+  {
+    "live": "ExtNsComments/GlobalConfiguration/Index",
+    "mint": "ExtNsComments/GlobalConfiguration/Index.md",
+    "ratio": 0.789,
+    "missing": 15,
+    "live_sents": 19
+  },
+  {
+    "live": "ExtNsFriendlyCaptcha/Configuration/Index",
+    "mint": "ExtNsFriendlyCaptcha/Configuration/Index.md",
+    "ratio": 0.786,
+    "missing": 11,
+    "live_sents": 14
+  },
+  {
+    "live": "ExtNsT3AS/Installation/Index",
+    "mint": "ExtNsT3AS/Installation/Index.md",
+    "ratio": 0.778,
+    "missing": 42,
+    "live_sents": 54
+  },
+  {
+    "live": "License/RenewPurchase/Index",
+    "mint": "License/RenewPurchase/Index.md",
+    "ratio": 0.778,
+    "missing": 7,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsWpMigration/Configuration/Index",
+    "mint": "ExtNsWpMigration/Configuration/Index.md",
+    "ratio": 0.778,
+    "missing": 7,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index",
+    "mint": "ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index.md",
+    "ratio": 0.778,
+    "missing": 7,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsHelpDesk/PluginConfigurations/Index",
+    "mint": "ExtNsHelpDesk/PluginConfigurations/Index.md",
+    "ratio": 0.778,
+    "missing": 7,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsGallery/SliderView/Index",
+    "mint": "ExtNsGallery/SliderView/Index.md",
+    "ratio": 0.778,
+    "missing": 7,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsBackup/StartOneClickBackup/Index",
+    "mint": "ExtNsBackup/StartOneClickBackup/Index.md",
+    "ratio": 0.778,
+    "missing": 7,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsT3AA/Installation/Index",
+    "mint": "ExtNsT3AA/Installation/Index.md",
+    "ratio": 0.775,
+    "missing": 31,
+    "live_sents": 40
+  },
+  {
+    "live": "ExtNitsanMaintenance/Configuration/Index",
+    "mint": "ExtNitsanMaintenance/Configuration/Index.md",
+    "ratio": 0.774,
+    "missing": 24,
+    "live_sents": 31
+  },
+  {
+    "live": "ExtNsT3AC/Installation/Index",
+    "mint": "ExtNsT3AC/Installation/Index.md",
+    "ratio": 0.774,
+    "missing": 41,
+    "live_sents": 53
+  },
+  {
+    "live": "ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index",
+    "mint": "ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index.md",
+    "ratio": 0.769,
+    "missing": 10,
+    "live_sents": 13
+  },
+  {
+    "live": "EXTBootstrap/GlobalSettingsConfiguration/Index",
+    "mint": "EXTBootstrap/GlobalSettingsConfiguration/Index.md",
+    "ratio": 0.769,
+    "missing": 10,
+    "live_sents": 13
+  },
+  {
+    "live": "EXTAvatar/GlobalSettingsConfiguration/Index",
+    "mint": "EXTAvatar/GlobalSettingsConfiguration/Index.md",
+    "ratio": 0.769,
+    "missing": 10,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+    "mint": "ExtNsT3AF/DeveloperGuide/CustomProviders/Index.md",
+    "ratio": 0.767,
+    "missing": 23,
+    "live_sents": 30
+  },
+  {
+    "live": "License/Migration/Composer/Index",
+    "mint": "License/Migration/Composer/Index.md",
+    "ratio": 0.765,
+    "missing": 13,
+    "live_sents": 17
+  },
+  {
+    "live": "ExtNsNewsComments/GlobalConfiguration/Index",
+    "mint": "ExtNsNewsComments/GlobalConfiguration/Index.md",
+    "ratio": 0.765,
+    "missing": 13,
+    "live_sents": 17
+  },
+  {
+    "live": "EXTKarma/GlobalSettingsConfiguration/Index",
+    "mint": "EXTKarma/GlobalSettingsConfiguration/Index.md",
+    "ratio": 0.76,
+    "missing": 19,
+    "live_sents": 25
+  },
+  {
+    "live": "ExtNsFAQ/NSFaqBackendModule/Index",
+    "mint": "ExtNsFAQ/NSFaqBackendModule/Index.md",
+    "ratio": 0.757,
+    "missing": 56,
+    "live_sents": 74
+  },
+  {
+    "live": "EXTBootstrap/UpgradeGuide/Index",
+    "mint": "EXTBootstrap/UpgradeGuide/Index.md",
+    "ratio": 0.75,
+    "missing": 9,
+    "live_sents": 12
+  },
+  {
+    "live": "EXTAvatar/UpgradeGuide/Index",
+    "mint": "EXTAvatar/UpgradeGuide/Index.md",
+    "ratio": 0.75,
+    "missing": 9,
+    "live_sents": 12
+  },
+  {
+    "live": "License/LicenseDeActivation/Index",
+    "mint": "License/LicenseDeActivation/Index.md",
+    "ratio": 0.75,
+    "missing": 6,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsT3AA/Configuration/Index",
+    "mint": "ExtNsT3AA/Configuration/Index.md",
+    "ratio": 0.742,
+    "missing": 23,
+    "live_sents": 31
+  },
+  {
+    "live": "ExtNsT3AF/Introduction/Index",
+    "mint": "ExtNsT3AF/Introduction/Index.md",
+    "ratio": 0.733,
+    "missing": 11,
+    "live_sents": 15
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIFeatures/Index",
+    "mint": "ExtNsT3AF/Configuration/AIFeatures/Index.md",
+    "ratio": 0.733,
+    "missing": 11,
+    "live_sents": 15
+  },
+  {
+    "live": "License/GenerateLicenseKey/Index",
+    "mint": "License/GenerateLicenseKey/Index.md",
+    "ratio": 0.727,
+    "missing": 32,
+    "live_sents": 44
+  },
+  {
+    "live": "ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+    "mint": "ExtNsT3AL/SeamlessXLIFFImport&Export/Index.md",
+    "ratio": 0.727,
+    "missing": 8,
+    "live_sents": 11
+  },
+  {
+    "live": "EXTKarma/Installation/Index",
+    "mint": "EXTKarma/Installation/Index.md",
+    "ratio": 0.727,
+    "missing": 8,
+    "live_sents": 11
+  },
+  {
+    "live": "EXTKarma/EditorGuide/Index",
+    "mint": "EXTKarma/EditorGuide/Index.md",
+    "ratio": 0.724,
+    "missing": 21,
+    "live_sents": 29
+  },
+  {
+    "live": "ExtNsT3AF/Troubleshooting/FAQ/Index",
+    "mint": "ExtNsT3AF/Troubleshooting/FAQ/Index.md",
+    "ratio": 0.722,
+    "missing": 13,
+    "live_sents": 18
+  },
+  {
+    "live": "ExtNsT3AI/ReInstallEverything/Index",
+    "mint": "ExtNsT3AI/ReInstallEverything/Index.md",
+    "ratio": 0.714,
+    "missing": 15,
+    "live_sents": 21
+  },
+  {
+    "live": "ExtNsT3AA/ReInstallEverything/Index",
+    "mint": "ExtNsT3AA/ReInstallEverything/Index.md",
+    "ratio": 0.714,
+    "missing": 15,
+    "live_sents": 21
+  },
+  {
+    "live": "ExtNsT3AS/DatabaseChunking/Index",
+    "mint": "ExtNsT3AS/DatabaseChunking/Index.md",
+    "ratio": 0.714,
+    "missing": 10,
+    "live_sents": 14
+  },
+  {
+    "live": "ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index",
+    "mint": "ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index.md",
+    "ratio": 0.714,
+    "missing": 10,
+    "live_sents": 14
+  },
+  {
+    "live": "ExtNsGoogleSiteKit/Installation/Index",
+    "mint": "ExtNsGoogleSiteKit/Installation/Index.md",
+    "ratio": 0.714,
+    "missing": 10,
+    "live_sents": 14
+  },
+  {
+    "live": "ExtNsT3AF/DeveloperGuide/Architecture/Index",
+    "mint": "ExtNsT3AF/DeveloperGuide/Architecture/Index.md",
+    "ratio": 0.714,
+    "missing": 5,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsAllSliders/Configuration/Index",
+    "mint": "ExtNsAllSliders/Configuration/Index.md",
+    "ratio": 0.714,
+    "missing": 5,
+    "live_sents": 7
+  },
+  {
+    "live": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index",
+    "mint": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index.md",
+    "ratio": 0.708,
+    "missing": 17,
+    "live_sents": 24
+  },
+  {
+    "live": "License/UpdateVersion/NonComposer/Index",
+    "mint": "License/UpdateVersion/NonComposer/Index.md",
+    "ratio": 0.7,
+    "missing": 7,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsTimeLine/ExtensionConfigurations/Index",
+    "mint": "ExtNsTimeLine/ExtensionConfigurations/Index.md",
+    "ratio": 0.7,
+    "missing": 7,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsRevolutionSlider/RevolutionSlider1.0/Installation/Index",
+    "mint": "ExtNsRevolutionSlider/RevolutionSlider1.0/Installation/Index.md",
+    "ratio": 0.7,
+    "missing": 7,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsGoogleSiteKit/GuidetoFreeVersion/Index",
+    "mint": "ExtNsGoogleSiteKit/GuidetoFreeVersion/Index.md",
+    "ratio": 0.7,
+    "missing": 7,
+    "live_sents": 10
+  },
+  {
+    "live": "License/RegisterAndManageDomains/Index",
+    "mint": "License/RegisterAndManageDomains/Index.md",
+    "ratio": 0.692,
+    "missing": 9,
+    "live_sents": 13
+  },
+  {
+    "live": "EXTKarma/UpgradeV13xToV14x/Index",
+    "mint": "EXTKarma/UpgradeV13xToV14x/Index.md",
+    "ratio": 0.692,
+    "missing": 9,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIPrompts/Index",
+    "mint": "ExtNsT3AF/Configuration/AIPrompts/Index.md",
+    "ratio": 0.688,
+    "missing": 11,
+    "live_sents": 16
+  },
+  {
+    "live": "ExtThemes/Customization/Index",
+    "mint": "ExtThemes/Customization/Index.md",
+    "ratio": 0.684,
+    "missing": 26,
+    "live_sents": 38
+  },
+  {
+    "live": "ExtNsT3AL/UpdateGuide/Index",
+    "mint": "ExtNsT3AL/UpdateGuide/Index.md",
+    "ratio": 0.682,
+    "missing": 15,
+    "live_sents": 22
+  },
+  {
+    "live": "EXTShiva/InstallationT3ShivaReactjs/Index",
+    "mint": "EXTShiva/InstallationT3ShivaReactjs/Index.md",
+    "ratio": 0.682,
+    "missing": 15,
+    "live_sents": 22
+  },
+  {
+    "live": "EXTReva/InstallationT3RevaReactjs/Index",
+    "mint": "EXTReva/InstallationT3RevaReactjs/Index.md",
+    "ratio": 0.682,
+    "missing": 15,
+    "live_sents": 22
+  },
+  {
+    "live": "EXTAyu/InstallationT3AyuReactjs/Index",
+    "mint": "EXTAyu/InstallationT3AyuReactjs/Index.md",
+    "ratio": 0.682,
+    "missing": 15,
+    "live_sents": 22
+  },
+  {
+    "live": "EXTShiva/GlobalSettingsConfiguration/Index",
+    "mint": "EXTShiva/GlobalSettingsConfiguration/Index.md",
+    "ratio": 0.667,
+    "missing": 10,
+    "live_sents": 15
+  },
+  {
+    "live": "EXTReva/GlobalSettingsConfiguration/Index",
+    "mint": "EXTReva/GlobalSettingsConfiguration/Index.md",
+    "ratio": 0.667,
+    "missing": 10,
+    "live_sents": 15
+  },
+  {
+    "live": "EXTReactBootstrap/GlobalSettingsConfiguration/Index",
+    "mint": "EXTReactBootstrap/GlobalSettingsConfiguration/Index.md",
+    "ratio": 0.667,
+    "missing": 10,
+    "live_sents": 15
+  },
+  {
+    "live": "ExtNsT3AF/Configuration/AIContext/Index",
+    "mint": "ExtNsT3AF/Configuration/AIContext/Index.md",
+    "ratio": 0.667,
+    "missing": 8,
+    "live_sents": 12
+  },
+  {
+    "live": "License/LicenseManager/Index",
+    "mint": "License/LicenseManager/Index.md",
+    "ratio": 0.667,
+    "missing": 6,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsNewsComments/CommentModeration/Index",
+    "mint": "ExtNsNewsComments/CommentModeration/Index.md",
+    "ratio": 0.667,
+    "missing": 6,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtThemes/GlobalSettingsConfiguration/Index",
+    "mint": "ExtThemes/GlobalSettingsConfiguration/Index.md",
+    "ratio": 0.667,
+    "missing": 4,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsT3AA/SpeedCoreWebVitals/Index",
+    "mint": "ExtNsT3AA/SpeedCoreWebVitals/Index.md",
+    "ratio": 0.667,
+    "missing": 4,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsSharethis/Introduction/Index",
+    "mint": "ExtNsSharethis/Introduction/Index.md",
+    "ratio": 0.667,
+    "missing": 4,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsGallery/MasonryView/Index",
+    "mint": "ExtNsGallery/MasonryView/Index.md",
+    "ratio": 0.667,
+    "missing": 4,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsGallery/IsotopeView/Index",
+    "mint": "ExtNsGallery/IsotopeView/Index.md",
+    "ratio": 0.667,
+    "missing": 4,
+    "live_sents": 6
+  },
+  {
+    "live": "EXTBootstrap/Installation/Index",
+    "mint": "EXTBootstrap/Installation/Index.md",
+    "ratio": 0.667,
+    "missing": 4,
+    "live_sents": 6
+  },
+  {
+    "live": "EXTAvatar/Installation/Index",
+    "mint": "EXTAvatar/Installation/Index.md",
+    "ratio": 0.667,
+    "missing": 4,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsT3AF/Integrations/MCPTools/Index",
+    "mint": "ExtNsT3AF/Integrations/MCPTools/Index.md",
+    "ratio": 0.643,
+    "missing": 9,
+    "live_sents": 14
+  },
+  {
+    "live": "EXTAyu/GlobalSettingsConfiguration/Index",
+    "mint": "EXTAyu/GlobalSettingsConfiguration/Index.md",
+    "ratio": 0.643,
+    "missing": 9,
+    "live_sents": 14
+  },
+  {
+    "live": "ExtNsT3AI/Media/Index",
+    "mint": "ExtNsT3AI/Media/Index.md",
+    "ratio": 0.636,
+    "missing": 21,
+    "live_sents": 33
+  },
+  {
+    "live": "ExtNsTwitter/Installation/Index",
+    "mint": "ExtNsTwitter/Installation/Index.md",
+    "ratio": 0.636,
+    "missing": 7,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsStatcounter/Installation/Index",
+    "mint": "ExtNsStatcounter/Installation/Index.md",
+    "ratio": 0.636,
+    "missing": 7,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsSharethis/Installation/Index",
+    "mint": "ExtNsSharethis/Installation/Index.md",
+    "ratio": 0.636,
+    "missing": 7,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsGoogleMap/Configuration/AddMapLocations/Index",
+    "mint": "ExtNsGoogleMap/Configuration/AddMapLocations/Index.md",
+    "ratio": 0.636,
+    "missing": 7,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsAllChat/Installation/Index",
+    "mint": "ExtNsAllChat/Installation/Index.md",
+    "ratio": 0.636,
+    "missing": 7,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtRTECKEditorPack/HowPresetsWork/Index",
+    "mint": "ExtRTECKEditorPack/HowPresetsWork/Index.md",
+    "ratio": 0.63,
+    "missing": 17,
+    "live_sents": 27
+  },
+  {
+    "live": "ExtNsFeedback/NSFeedbackModules/Index",
+    "mint": "ExtNsFeedback/NSFeedbackModules/Index.md",
+    "ratio": 0.625,
+    "missing": 30,
+    "live_sents": 48
+  },
+  {
+    "live": "ExtNsRevolutionSlider/RevolutionSlider2.0/MigrationFrom1to2/Index",
+    "mint": "ExtNsRevolutionSlider/RevolutionSlider2.0/MigrationFrom1to2/Index.md",
+    "ratio": 0.625,
+    "missing": 5,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsPublicationComment/Installation/Index",
+    "mint": "ExtNsPublicationComment/Installation/Index.md",
+    "ratio": 0.625,
+    "missing": 5,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsDisqusComment/Configuration/Index",
+    "mint": "ExtNsDisqusComment/Configuration/Index.md",
+    "ratio": 0.625,
+    "missing": 5,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtThemes/Installation/Index",
+    "mint": "ExtThemes/Installation/Index.md",
+    "ratio": 0.611,
+    "missing": 11,
+    "live_sents": 18
+  },
+  {
+    "live": "License/ExtendTrial/Index",
+    "mint": "License/ExtendTrial/Index.md",
+    "ratio": 0.6,
+    "missing": 6,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsOpenStreetMap/Configuration/AddMapLocations/Index",
+    "mint": "ExtNsOpenStreetMap/Configuration/AddMapLocations/Index.md",
+    "ratio": 0.6,
+    "missing": 6,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsT3AS/Introduction/Index",
+    "mint": "ExtNsT3AS/Introduction/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AB/Installation/Index",
+    "mint": "ExtNsT3AB/Installation/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsT3AA/Introduction/Index",
+    "mint": "ExtNsT3AA/Introduction/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsPublicationComment/Introduction/Index",
+    "mint": "ExtNsPublicationComment/Introduction/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index",
+    "mint": "ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsGoogleSiteKit/Introduction/Index",
+    "mint": "ExtNsGoogleSiteKit/Introduction/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsGoogleMap/Configuration/AddMapAPI/Index",
+    "mint": "ExtNsGoogleMap/Configuration/AddMapAPI/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsFeedback/SetFeedbackFormForEntireSite/Index",
+    "mint": "ExtNsFeedback/SetFeedbackFormForEntireSite/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsFeedback/Introduction/Index",
+    "mint": "ExtNsFeedback/Introduction/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsCacheWebhook/Introduction/Index",
+    "mint": "ExtNsCacheWebhook/Introduction/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "EXTShiva/Introduction/Index",
+    "mint": "EXTShiva/Introduction/Index.md",
+    "ratio": 0.6,
+    "missing": 3,
+    "live_sents": 5
+  },
+  {
+    "live": "ExtNsWhatsapp/Installation/Index",
+    "mint": "ExtNsWhatsapp/Installation/Index.md",
+    "ratio": 0.583,
+    "missing": 7,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsT3AS/ReInstallEverything/Index",
+    "mint": "ExtNsT3AS/ReInstallEverything/Index.md",
+    "ratio": 0.581,
+    "missing": 18,
+    "live_sents": 31
+  },
+  {
+    "live": "ExtNsHelpDesk/Installation/Index",
+    "mint": "ExtNsHelpDesk/Installation/Index.md",
+    "ratio": 0.571,
+    "missing": 4,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsBackup/Installation/Index",
+    "mint": "ExtNsBackup/Installation/Index.md",
+    "ratio": 0.571,
+    "missing": 4,
+    "live_sents": 7
+  },
+  {
+    "live": "EXTBootstrap/Customization/Index",
+    "mint": "EXTBootstrap/Customization/Index.md",
+    "ratio": 0.571,
+    "missing": 4,
+    "live_sents": 7
+  },
+  {
+    "live": "EXTAvatar/Customization/Index",
+    "mint": "EXTAvatar/Customization/Index.md",
+    "ratio": 0.571,
+    "missing": 4,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsT3AC/ReInstallEverything/Index",
+    "mint": "ExtNsT3AC/ReInstallEverything/Index.md",
+    "ratio": 0.56,
+    "missing": 14,
+    "live_sents": 25
+  },
+  {
+    "live": "License/UpdateVersion/CheckNewVersion/Index",
+    "mint": "License/UpdateVersion/CheckNewVersion/Index.md",
+    "ratio": 0.556,
+    "missing": 5,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsTimeLine/Installation/Index",
+    "mint": "ExtNsTimeLine/Installation/Index.md",
+    "ratio": 0.556,
+    "missing": 5,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsFAQ/FAQModeration/Index",
+    "mint": "ExtNsFAQ/FAQModeration/Index.md",
+    "ratio": 0.556,
+    "missing": 5,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsComments/CommentModeration/Index",
+    "mint": "ExtNsComments/CommentModeration/Index.md",
+    "ratio": 0.556,
+    "missing": 5,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsGoogleDocs/GoogleDocsConfiguration/Index",
+    "mint": "ExtNsGoogleDocs/GoogleDocsConfiguration/Index.md",
+    "ratio": 0.545,
+    "missing": 6,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsFriendlyCaptcha/Introduction/Index",
+    "mint": "ExtNsFriendlyCaptcha/Introduction/Index.md",
+    "ratio": 0.545,
+    "missing": 6,
+    "live_sents": 11
+  },
+  {
+    "live": "EXTShiva/Localization/Installationt3shiva_reactjs.zip/Index",
+    "mint": "EXTShiva/Localization/Installationt3shiva_reactjs.zip/Index.md",
+    "ratio": 0.536,
+    "missing": 15,
+    "live_sents": 28
+  },
+  {
+    "live": "EXTReva/Localization/Installationt3reva_reactjs.zip/Index",
+    "mint": "EXTReva/Localization/Installationt3reva_reactjs.zip/Index.md",
+    "ratio": 0.536,
+    "missing": 15,
+    "live_sents": 28
+  },
+  {
+    "live": "EXTAyu/Localization/Installationt3ayu_reactjs.zip/Index",
+    "mint": "EXTAyu/Localization/Installationt3ayu_reactjs.zip/Index.md",
+    "ratio": 0.536,
+    "missing": 15,
+    "live_sents": 28
+  },
+  {
+    "live": "ExtNsPersonio/Installation/Index",
+    "mint": "ExtNsPersonio/Installation/Index.md",
+    "ratio": 0.529,
+    "missing": 9,
+    "live_sents": 17
+  },
+  {
+    "live": "ExtRTECKEditorPack/ContentSecurityPolicy/Index",
+    "mint": "ExtRTECKEditorPack/ContentSecurityPolicy/Index.md",
+    "ratio": 0.526,
+    "missing": 10,
+    "live_sents": 19
+  },
+  {
+    "live": "EXTAvatar/EditorGuide/Index",
+    "mint": "EXTAvatar/EditorGuide/Index.md",
+    "ratio": 0.522,
+    "missing": 12,
+    "live_sents": 23
+  },
+  {
+    "live": "ExtNsGoogleDocs/NSGoogleDocsModule/Index",
+    "mint": "ExtNsGoogleDocs/NSGoogleDocsModule/Index.md",
+    "ratio": 0.5,
+    "missing": 13,
+    "live_sents": 26
+  },
+  {
+    "live": "ExtNsGallery/NSGalleryModule/Index",
+    "mint": "ExtNsGallery/NSGalleryModule/Index.md",
+    "ratio": 0.5,
+    "missing": 9,
+    "live_sents": 18
+  },
+  {
+    "live": "ExtNsT3AI/Prompts/Index",
+    "mint": "ExtNsT3AI/Prompts/Index.md",
+    "ratio": 0.5,
+    "missing": 6,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsGuestbook/Installation/Index",
+    "mint": "ExtNsGuestbook/Installation/Index.md",
+    "ratio": 0.5,
+    "missing": 6,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsGridtoContainer/Installation/Index",
+    "mint": "ExtNsGridtoContainer/Installation/Index.md",
+    "ratio": 0.5,
+    "missing": 6,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsT3AI/Introduction/Index",
+    "mint": "ExtNsT3AI/Introduction/Index.md",
+    "ratio": 0.5,
+    "missing": 5,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsGallery/HowToSetupAndDisplayGallery/Index",
+    "mint": "ExtNsGallery/HowToSetupAndDisplayGallery/Index.md",
+    "ratio": 0.5,
+    "missing": 4,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsPublicationComment/ExtensionConfigurations/Index",
+    "mint": "ExtNsPublicationComment/ExtensionConfigurations/Index.md",
+    "ratio": 0.5,
+    "missing": 3,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsHelpDesk/Tickets/Index",
+    "mint": "ExtNsHelpDesk/Tickets/Index.md",
+    "ratio": 0.5,
+    "missing": 3,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsHelpDesk/CustomizeForm/Index",
+    "mint": "ExtNsHelpDesk/CustomizeForm/Index.md",
+    "ratio": 0.5,
+    "missing": 3,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtNsGallery/Introduction/Index",
+    "mint": "ExtNsGallery/Introduction/Index.md",
+    "ratio": 0.5,
+    "missing": 3,
+    "live_sents": 6
+  },
+  {
+    "live": "ExtRTECKEditorPack/Updating/Index",
+    "mint": "ExtRTECKEditorPack/Updating/Index.md",
+    "ratio": 0.467,
+    "missing": 7,
+    "live_sents": 15
+  },
+  {
+    "live": "ExtNsRevolutionSlider/RevolutionSlider3.0/MigrationFrom2to3/Index",
+    "mint": "ExtNsRevolutionSlider/RevolutionSlider3.0/MigrationFrom2to3/Index.md",
+    "ratio": 0.462,
+    "missing": 6,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsWpMigration/Installation/Index",
+    "mint": "ExtNsWpMigration/Installation/Index.md",
+    "ratio": 0.429,
+    "missing": 3,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsGoogleDocs/Installation/Index",
+    "mint": "ExtNsGoogleDocs/Installation/Index.md",
+    "ratio": 0.429,
+    "missing": 3,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsExtCompatibility/Introduction/Index",
+    "mint": "ExtNsExtCompatibility/Introduction/Index.md",
+    "ratio": 0.429,
+    "missing": 3,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsCloudflare/Installation/Index",
+    "mint": "ExtNsCloudflare/Installation/Index.md",
+    "ratio": 0.429,
+    "missing": 3,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsCacheWebhook/Installation/Index",
+    "mint": "ExtNsCacheWebhook/Installation/Index.md",
+    "ratio": 0.429,
+    "missing": 3,
+    "live_sents": 7
+  },
+  {
+    "live": "ExtNsZoho/Installation/Index",
+    "mint": "ExtNsZoho/Installation/Index.md",
+    "ratio": 0.417,
+    "missing": 5,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsFacebookComment/Installation/Index",
+    "mint": "ExtNsFacebookComment/Installation/Index.md",
+    "ratio": 0.417,
+    "missing": 5,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsDisqusComment/Installation/Index",
+    "mint": "ExtNsDisqusComment/Installation/Index.md",
+    "ratio": 0.417,
+    "missing": 5,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsCookiebot/Installation/Index",
+    "mint": "ExtNsCookiebot/Installation/Index.md",
+    "ratio": 0.417,
+    "missing": 5,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsCookieYes/Installation/Index",
+    "mint": "ExtNsCookieYes/Installation/Index.md",
+    "ratio": 0.4,
+    "missing": 4,
+    "live_sents": 10
+  },
+  {
+    "live": "ExtNsHubspot/Installation/Index",
+    "mint": "ExtNsHubspot/Installation/Index.md",
+    "ratio": 0.385,
+    "missing": 5,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtThemes/SEO/Index",
+    "mint": "ExtThemes/SEO/Index.md",
+    "ratio": 0.375,
+    "missing": 3,
+    "live_sents": 8
+  },
+  {
+    "live": "EXTBootstrap/SEO/Index",
+    "mint": "EXTBootstrap/SEO/Index.md",
+    "ratio": 0.375,
+    "missing": 3,
+    "live_sents": 8
+  },
+  {
+    "live": "EXTAvatar/SEO/Index",
+    "mint": "EXTAvatar/SEO/Index.md",
+    "ratio": 0.375,
+    "missing": 3,
+    "live_sents": 8
+  },
+  {
+    "live": "ExtNsNewsComments/Installation/Index",
+    "mint": "ExtNsNewsComments/Installation/Index.md",
+    "ratio": 0.364,
+    "missing": 4,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsFeedback/Installation/Index",
+    "mint": "ExtNsFeedback/Installation/Index.md",
+    "ratio": 0.364,
+    "missing": 4,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsFAQ/Installation/Index",
+    "mint": "ExtNsFAQ/Installation/Index.md",
+    "ratio": 0.364,
+    "missing": 4,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsAllSliders/Installation/Index",
+    "mint": "ExtNsAllSliders/Installation/Index.md",
+    "ratio": 0.364,
+    "missing": 4,
+    "live_sents": 11
+  },
+  {
+    "live": "EXTNsZohoCrm/Installation/Index",
+    "mint": "EXTNsZohoCrm/Installation/Index.md",
+    "ratio": 0.364,
+    "missing": 4,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsOpenStreetMap/Installation/Index",
+    "mint": "ExtNsOpenStreetMap/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsNewsSlider/Installation/Index",
+    "mint": "ExtNsNewsSlider/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsNewsSlickSlider/Installation/Index",
+    "mint": "ExtNsNewsSlickSlider/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsNewsAdvancedSearch/Installation/Index",
+    "mint": "ExtNsNewsAdvancedSearch/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsGoogleMap/Installation/Index",
+    "mint": "ExtNsGoogleMap/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsGallery/Installation/Index",
+    "mint": "ExtNsGallery/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsFriendlyCaptcha/Installation/Index",
+    "mint": "ExtNsFriendlyCaptcha/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsExtCompatibility/Installation/Index",
+    "mint": "ExtNsExtCompatibility/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsEvent/Installation/Index",
+    "mint": "ExtNsEvent/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsComments/Installation/Index",
+    "mint": "ExtNsComments/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNitsanMaintenance/Installation/Index",
+    "mint": "ExtNitsanMaintenance/Installation/Index.md",
+    "ratio": 0.333,
+    "missing": 4,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index",
+    "mint": "ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index.md",
+    "ratio": 0.333,
+    "missing": 3,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsBackup/Introduction/Index",
+    "mint": "ExtNsBackup/Introduction/Index.md",
+    "ratio": 0.333,
+    "missing": 3,
+    "live_sents": 9
+  },
+  {
+    "live": "ExtNsAllLightbox/Installation/Index",
+    "mint": "ExtNsAllLightbox/Installation/Index.md",
+    "ratio": 0.308,
+    "missing": 4,
+    "live_sents": 13
+  },
+  {
+    "live": "ExtNsSnow/Installation/Index",
+    "mint": "ExtNsSnow/Installation/Index.md",
+    "ratio": 0.273,
+    "missing": 3,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsLazyload/Installation/Index",
+    "mint": "ExtNsLazyload/Installation/Index.md",
+    "ratio": 0.273,
+    "missing": 3,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsInstagram/Installation/Index",
+    "mint": "ExtNsInstagram/Installation/Index.md",
+    "ratio": 0.273,
+    "missing": 3,
+    "live_sents": 11
+  },
+  {
+    "live": "ExtNsGoogleDocs/ImportGoogleDocToPage/Index",
+    "mint": "ExtNsGoogleDocs/ImportGoogleDocToPage/Index.md",
+    "ratio": 0.25,
+    "missing": 4,
+    "live_sents": 16
+  },
+  {
+    "live": "ExtNsYoutube/Installation/Index",
+    "mint": "ExtNsYoutube/Installation/Index.md",
+    "ratio": 0.25,
+    "missing": 3,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsProtectSite/Installation/Index",
+    "mint": "ExtNsProtectSite/Installation/Index.md",
+    "ratio": 0.25,
+    "missing": 3,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNsPWA/Installation/Index",
+    "mint": "ExtNsPWA/Installation/Index.md",
+    "ratio": 0.25,
+    "missing": 3,
+    "live_sents": 12
+  },
+  {
+    "live": "ExtNitsanHellobar/Installation/Index",
+    "mint": "ExtNitsanHellobar/Installation/Index.md",
+    "ratio": 0.25,
+    "missing": 3,
+    "live_sents": 12
+  }
+]

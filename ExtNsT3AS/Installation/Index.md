@@ -11,9 +11,9 @@ sidebarTitle: "Installation"
 
 This guide helps you install **T3AS Premium** (`EXT:ns_t3as`) on a TYPO3 project for the first time.
 
-T3AS needs **T3AF** (`EXT:ns_t3af`). T3AF connects your AI providers (API keys, models, prompts, and shared AI services). Without it, T3AS cannot run.
+T3AS needs **AI Foundation** (`EXT:ns_t3af`). AI Foundation connects your AI providers (API keys, models, prompts, and shared AI services). Without it, T3AS cannot run.
 
-These extensions do **not** change how your website looks on the frontend by themselves. They work in the backend and power AI Search. **Keep both T3AS and T3AF enabled.**
+These extensions do **not** change how your website looks on the frontend by themselves. They work in the backend and power AI Search. **Keep both T3AS and AI Foundation enabled.**
 
 ## Quick overview for new customers
 
@@ -21,7 +21,7 @@ You will install and activate these pieces:
 
 1. **License Manager** (`EXT:ns_license`) — unlocks your Premium download
 2. **T3AS** (`EXT:ns_t3as`) — the AI Search extension (and related packages such as T3CS where required)
-3. **T3AF** (`EXT:ns_t3af`) — shared AI engine used by T3AS (free on TER)
+3. **AI Foundation** (`EXT:ns_t3af`) — shared AI engine used by T3AS (free on TER)
 4. **Database updates** — so TYPO3 creates the required tables
 5. **TypoScript includes** — load the required static TypoScript
 6. **AI provider setup** — so T3AS can send AI requests
@@ -68,49 +68,77 @@ Use this workflow when your project installs T3Planet extensions from the TYPO3 
 2. Enter your T3AS license key.
 3. Activate the license.
 4. Confirm that the latest T3AS package is downloaded.
-5. Confirm that T3AF (`EXT:ns_t3af`) is installed automatically or available after activation.
+5. Confirm that AI Foundation (`EXT:ns_t3af`) is installed automatically or available after activation.
 
 ### Composer Installation
 
 Use this workflow when your TYPO3 project is managed with Composer:
 
 1. Check the T3Planet Composer repository configuration.
-2. Update the `only` parameter so the project can download T3AS and T3CS: "only": [
+2. Update the `only` parameter so the project can download T3AS and T3CS:
+
+```json
+"only": [
   "nitsan/ns-t3as",
   "nitsan/ns-t3cs"
 ]
-3. Install the T3AS package: composer require nitsan/ns-t3as
+```
+
+3. Install the T3AS package:
+
+```bash
+composer require nitsan/ns-t3as
+```
+
 4. Verify that the installation completed successfully.
-5. Confirm that T3AF (`nitsan/ns-t3af` / `EXT:ns_t3af`) is installed. If it is missing, install it using **Step 3 — Install T3AF**.
+5. Confirm that AI Foundation (`nitsan/ns-t3af` / `EXT:ns_t3af`) is installed. If it is missing, install it using **Step 3 — Install AI Foundation**.
 
 Full license activation details:
 [https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/License/LicenseActivation/Index)
 
-## Step 3 — Install T3AF
+## Step 3 — Install AI Foundation
 
-T3AF (`EXT:ns_t3af`) is required before T3AS can be used.
+AI Foundation (`EXT:ns_t3af`) is required before T3AS can be used.
 It provides the shared AI provider configuration, models, API access, logs, and service layer used by T3AS.
 
-If T3AF was already installed in Step 2, you can skip to Step 4.
+If AI Foundation was already installed in Step 2, you can skip to Step 4.
 
-**T3AF** is the shared AI infrastructure for T3Planet AI Universe extensions.
+**AI Foundation** is the shared AI infrastructure for T3Planet AI Universe extensions.
 Complete the parent setup first, then continue with the remaining T3AS steps below.
 
-T3AF is available from the TYPO3 Extension Repository (TER).
+AI Foundation is available from the TYPO3 Extension Repository (TER).
 
 Download / TER page: [https://extensions.typo3.org/extension/ns_t3af](https://extensions.typo3.org/extension/ns_t3af)
+
+### AI Foundation has two provider modes
+
+In **AI Foundation → AI Providers**, choose how T3AS gets AI access:
+
+**Your Own API Keys**
+
+Use this mode when you want to connect your own AI vendor accounts. You store
+and manage your API keys (for example OpenAI, Anthropic, Gemini) in AI
+Foundation and run AI features through those providers.
+
+**T3Planet Credits**
+
+**T3Planet Credits** is T3Planet’s managed AI access for AI Foundation. It lets
+your TYPO3 site use AI features **without storing or managing your own vendor
+API keys**.
+
+**Link for T3Planet Credits:** [T3Planet Credits Documentation](/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ### Option 1 — Extension Manager (TER)
 
 1. Open **Admin Tools** → **Extensions**.
 2. Select **Get Extensions**.
-3. Search for `ns_t3af` or **T3AF**.
+3. Search for `ns_t3af` or **AI Foundation**.
 4. Install and activate the extension.
 5. Flush all TYPO3 caches.
 
 ### Option 2 — Composer
 
-If T3AF is not already present after installing T3AS, install it with:
+If AI Foundation is not already present after installing T3AS, install it with:
 
 ```bash
 composer require nitsan/ns-t3af
@@ -118,11 +146,12 @@ composer require nitsan/ns-t3af
 
 Then flush all TYPO3 caches.
 
-Helpful T3AF references:
+Helpful AI Foundation references:
 
-- [T3AF Installation](/ExtNsT3AF/Installation/Index)
-- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
+- [AI Foundation Installation](/ExtNsT3AF/Installation/Index)
+- [AI Foundation Configuration](/ExtNsT3AF/Configuration/Index)
 - [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ## Premium Version
 
@@ -132,8 +161,8 @@ For license activation and access to premium features, see:
 [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
 
 <Note>
-**T3AF** (`EXT:ns_t3af`) is free and available from the TYPO3 Extension Repository (TER).
-Premium licensing applies to **T3AS** — not to T3AF.
+**AI Foundation** (`EXT:ns_t3af`) is free and available from the TYPO3 Extension Repository (TER).
+Premium licensing applies to **T3AS** — not to AI Foundation.
 </Note>
 
 ## Step 4 — Run Database Analyzer
@@ -159,7 +188,7 @@ T3AS and T3CS ship static TypoScript that must be included on your site.
   - `T3AS - TYPO3 AI Search Extension [ns-ai-search/main]`
 5. Save the template and flush TYPO3 caches.
 
-![Required TypoScript includes for T3AS and T3CS](./images/include-static-typoscript.png)
+![Required TypoScript includes for T3AS and T3CS](images/include-static-typoscript.png)
 
 Include the T3CS and T3AS static TypoScript sets.
 
@@ -167,12 +196,12 @@ Include the T3CS and T3AS static TypoScript sets.
 
 After installation:
 
-1. Open **T3AF** in the TYPO3 backend.
+1. Open **AI Foundation** in the TYPO3 backend.
 2. Configure your preferred AI provider.
 3. Save the provider and model configuration.
 4. Verify the AI connection with a test request.
 
-T3AS will not function correctly until T3AF has a working AI provider configuration.
+T3AS will not function correctly until AI Foundation has a working AI provider configuration.
 
 ## Step 7 — Verify the Installation
 
@@ -182,31 +211,8 @@ Before handing the system to editors, verify that:
 - `EXT:ns_t3af` is installed and active.
 - The T3AS license is active.
 - Database Analyzer changes are applied.
-- The AI provider is configured in T3AF.
+- The AI provider is configured in AI Foundation.
 - TYPO3 caches are cleared.
 - T3AS backend modules load without errors.
 
 If all items above are true, installation is complete. Next, add data sources and run training in the T3AS module.
-
----
-
-## Additional content from live docs
-
-### AI Foundation has two provider modes
-
-In **AI Foundation → AI Providers**, choose how T3AS gets AI access:
-
-**Your Own API Keys**
-
-Use this mode when you want to connect your own AI vendor accounts. You store
-and manage your API keys (for example OpenAI, Anthropic, Gemini) in AI
-Foundation and run AI features through those providers.
-
-**T3Planet Credits**
-
-**T3Planet Credits** is T3Planet’s managed AI access for AI Foundation. It lets
-your TYPO3 site use AI features **without storing or managing your own vendor
-API keys**.
-
-Link for T3Planet Credits:
-[https://docs.t3planet.de/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index.html](/ExtNsT3AF/T3Planet-Credit-System/Index)

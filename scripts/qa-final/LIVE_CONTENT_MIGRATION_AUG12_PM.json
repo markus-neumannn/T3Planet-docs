@@ -1,0 +1,30 @@
+{
+  "generated": "2026-08-12T12:10:05.563542+00:00",
+  "pages_created": [
+    "ExtNsT3AA/AccessibilityWidgets/Index"
+  ],
+  "pages_full_remigrated": [
+    "ExtNsT3AA/Installation/Index",
+    "ExtNsT3AC/Installation/Index",
+    "ExtNsT3AI/Installation/Index",
+    "ExtNsT3AS/Installation/Index",
+    "ExtNsT3AC/FeatureGuide/DataSource/Index"
+  ],
+  "nav_updated": [
+    "docs.json ExtNsT3AA group",
+    "ExtNsT3AA/Index.md Card"
+  ],
+  "final_counts": {
+    "live_pages": 751,
+    "mint_pages": 921,
+    "MATCH": 298,
+    "UPDATED": 5,
+    "MISSING_CONTENT": 0,
+    "NEW_PAGE": 0,
+    "STRUCTURAL_DIFFERENCE": 82,
+    "LINK_DIFFERENCE": 371,
+    "MEDIA_DIFFERENCE": 0,
+    "REQUIRES_REVIEW": 0,
+    "fetch_failed": 0
+  }
+}
