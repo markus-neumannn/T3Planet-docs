@@ -9,7 +9,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
 ---
 
 <div className="t3-hub-landing t3-template-landing">
-<nav className="t3-category-nav"><a className="" href="/">Home</a><a className="" href="/AIFoundationExtensions/Index">AI Universe Extensions</a><a className="active" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></nav>
+<div className="t3-category-nav" role="navigation"><a className="" href="/">Home</a><a className="" href="/AIFoundationExtensions/Index">AI Universe Extensions</a><a className="active" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></div>
 <div className="t3-hero-panel">
   <div className="t3-landing-hero t3-hero-large">
     <p className="t3-landing-eyebrow">TYPO3 Templates & Themes</p>
