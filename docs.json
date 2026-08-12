@@ -110,11 +110,20 @@
                   "ExtNsT3AF/Configuration/AIPrompts/Index",
                   "ExtNsT3AF/Configuration/AIFeatures/Index",
                   "ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
-                  "ExtNsT3AF/Configuration/AIPermissions/Index",
-                  "ExtNsT3AF/T3Planet-Credit-System/Index",
-                  "ExtNsT3AF/T3Planet-Credit-System/MCPIntegration/Index",
+                  "ExtNsT3AF/Configuration/AIPermissions/Index"
+                ]
+              },
+              {
+                "group": "T3Planet Credits",
+                "root": "ExtNsT3AF/T3Planet-Credit-System/Index",
+                "expanded": false,
+                "pages": [
                   "ExtNsT3AF/T3Planet-Credit-System/Overview/Index",
-                  "ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index"
+                  "ExtNsT3AF/T3Planet-Credit-System/Configuration/Index",
+                  "ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index",
+                  "ExtNsT3AF/T3Planet-Credit-System/MCPIntegration/Index",
+                  "ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index",
+                  "ExtNsT3AF/T3Planet-Credit-System/Dashboard/Index"
                 ]
               },
               {
@@ -375,10 +384,7 @@
                 ]
               }
             ]
-          },
-          "ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index",
-          "ExtNsT3AF/T3Planet-Credit-System/Configuration/Index",
-          "ExtNsT3AF/T3Planet-Credit-System/Dashboard/Index"
+          }
         ]
       },
       {
@@ -1675,74 +1681,6 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "group": "ExtNsBackup",
-        "pages": [
-          "ExtNsBackup/BuyNow",
-          "ExtNsBackup/Index",
-          "ExtNsBackup/Support",
-          {
-            "group": "ConnectClouds",
-            "pages": [
-              "ExtNsBackup/ConnectClouds/Index"
-            ]
-          },
-          {
-            "group": "DownloadsLogsHistory",
-            "pages": [
-              "ExtNsBackup/DownloadsLogsHistory/Index"
-            ]
-          },
-          {
-            "group": "GlobalSettings",
-            "pages": [
-              "ExtNsBackup/GlobalSettings/Index"
-            ]
-          },
-          {
-            "group": "Installation",
-            "pages": [
-              "ExtNsBackup/Installation/Index"
-            ]
-          },
-          {
-            "group": "Introduction",
-            "pages": [
-              "ExtNsBackup/Introduction/Index"
-            ]
-          },
-          {
-            "group": "ScheduleBackup",
-            "pages": [
-              "ExtNsBackup/ScheduleBackup/Index"
-            ]
-          },
-          {
-            "group": "StartOneClickBackup",
-            "pages": [
-              "ExtNsBackup/StartOneClickBackup/Index"
-            ]
-          },
-          {
-            "group": "SystemRequirement",
-            "pages": [
-              "ExtNsBackup/SystemRequirement/Index"
-            ]
-          },
-          {
-            "group": "UpdateVersion",
-            "pages": [
-              "ExtNsBackup/UpdateVersion/Index"
-            ]
-          }
-        ]
-      },
-      {
-        "group": "AIFoundationExtensions",
-        "pages": [
-          "AIFoundationExtensions/Index"
         ]
       }
     ]
