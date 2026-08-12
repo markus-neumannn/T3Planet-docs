@@ -27,3 +27,7 @@ Admin can approve comments by following ways:
 ![Approve Comment from E-mail](./images/approve_comment_from_email.jpeg)
 
 That’s it, Now you can enjoy comments of your website visitors :)
+
+## Figures
+
+![Approve Comment from E-mail](./images/approve_comment_from_email1.jpeg)

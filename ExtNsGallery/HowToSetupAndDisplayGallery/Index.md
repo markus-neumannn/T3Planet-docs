@@ -34,3 +34,7 @@ If the Gallery plugin you have selected supports Lightbox then you can configure
 - Navigation Arrows
 - Image Counter
 - Mouse Dragging
+
+## Figures
+
+![Add Gallery plugin](images/add_gallery_plugin1.webp)

@@ -14,9 +14,9 @@ Complete the parent setup first, then review the T3AA-specific options below.
 
 Helpful T3AF references:
 
-- [T3AF Configuration](/T3AF/Configuration/Index)
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
-- [AI Features](/T3AF/Configuration/AIFeatures/Index)
+- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index)
 - AI Prompts
 - AI Usage and Logs
 
@@ -31,7 +31,7 @@ All T3AA feature settings are managed in T3AF — not under **Admin Tools > Sett
 3. Open the **T3AA** (`ns_t3aa`) feature card.
 4. Review and update the T3AA options described below.
 
-For the shared module overview, see [T3AF AI Features](/T3AF/Configuration/AIFeatures/Index).
+For the shared module overview, see [T3AF AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## Step 2: Review Shared Provider Setup
 
@@ -40,8 +40,8 @@ Before testing T3AA, confirm that the required provider is already configured in
 
 Common provider-related references:
 
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
-- [T3AF Configuration](/T3AF/Configuration/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
 
 ## Step 3: Feature-Specific Configuration Options
 
@@ -92,7 +92,7 @@ Key T3AA capabilities include:
 - CKEditor accessibility checks while editing
 - Performance and accessibility-related support features
 
-For shared model behavior and feature routing, see [T3AF AI Features](/T3AF/Configuration/AIFeatures/Index).
+For shared model behavior and feature routing, see [T3AF AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## AI Prompts
 
@@ -129,7 +129,7 @@ Use this area to confirm the correct AI provider is available and to review any 
 
 See also:
 
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
 - MCP Server
 - MCP Tools
 

@@ -68,3 +68,11 @@ Due to a technical limitation, **Carousel elements** cannot be migrated automati
 </Note>
 
 After completing these steps, all **Custom Elements (structure and data)** will be successfully migrated from **FlexForm Elements** to **Content Blocks (EXT)**.
+
+## Figures
+
+![typo3_dumpautoload](./images/typo3_dumpautoload2.jpeg)
+
+![typo3_upgrade_wizard](images/typo3_upgrade_wizard2.webp)
+
+![migrate_gridelement_to_container](images/migrate_gridelement_to_container2.webp)

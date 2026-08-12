@@ -48,3 +48,9 @@ EXT:ns_googledocs is the only TYPO3 extension which allows Backend user to impor
 - To make any domain-related changes or whitelist any development and staging domains, please reach our support center: https://t3planet.de/support
 
 </Note>
+
+## Figures
+
+![Extension Banner](./images/ext_banner2.jpg)
+
+![Import Google Docs](images/import_google_docs1.webp)

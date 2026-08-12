@@ -30,3 +30,20 @@ For generating the Site and Secret key, please refer to the following link:
 ![Configuration1](./images/Friendlycaptcha_Configuration_1.webp)
 
 ![Configuration4](./images/Friendlycaptcha_Configuration_4.webp)
+
+---
+
+## Additional content from live docs
+
+## Local & Staging Testing
+
+If you want to test this extension on a local server without an official domain or IP:
+
+- **Recommended:** Create a free Friendly Captcha account and generate a separate **development Sitekey/Secret Key** for local/staging use.
+- Do not reuse your production key on a local server. Friendly Captcha production credentials are tied to specific domains registered in your account, so a mismatched domain will cause verification to fail.
+- Use your **development key** for local/staging testing and your **production key** for the live domain.
+- To whitelist a development or staging domain, contact our support center: [https://t3planet.de/support](https://t3planet.de/support)
+
+![Configuration1](images/Friendlycaptcha_Configuration_1.png)
+
+![Configuration4](images/Friendlycaptcha_Configuration_4.jpeg)

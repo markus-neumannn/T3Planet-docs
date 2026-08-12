@@ -94,69 +94,73 @@
         "pages": [
           {
             "group": "T3AF",
-            "root": "T3AF/Index",
+            "root": "ExtNsT3AF/Index",
             "expanded": false,
             "pages": [
-              "T3AF/Introduction/Index",
-              "T3AF/Installation/Index",
+              "ExtNsT3AF/Introduction/Index",
+              "ExtNsT3AF/Installation/Index",
               {
                 "group": "Configuration",
                 "expanded": false,
                 "pages": [
-                  "T3AF/Configuration/Index",
-                  "T3AF/Configuration/Dashboard/Index",
-                  "T3AF/Configuration/AIProviders/Index",
-                  "T3AF/Configuration/AIContext/Index",
-                  "T3AF/Configuration/AIPrompts/Index",
-                  "T3AF/Configuration/AIFeatures/Index",
-                  "T3AF/Configuration/AIUsageAndLogs/Index",
-                  "T3AF/Configuration/AIPermissions/Index"
+                  "ExtNsT3AF/Configuration/Index",
+                  "ExtNsT3AF/Configuration/Dashboard/Index",
+                  "ExtNsT3AF/Configuration/AIProviders/Index",
+                  "ExtNsT3AF/Configuration/AIContext/Index",
+                  "ExtNsT3AF/Configuration/AIPrompts/Index",
+                  "ExtNsT3AF/Configuration/AIFeatures/Index",
+                  "ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+                  "ExtNsT3AF/Configuration/AIPermissions/Index",
+                  "ExtNsT3AF/T3Planet-Credit-System/Index",
+                  "ExtNsT3AF/T3Planet-Credit-System/MCPIntegration/Index",
+                  "ExtNsT3AF/T3Planet-Credit-System/Overview/Index",
+                  "ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index"
                 ]
               },
               {
                 "group": "Integrations",
                 "expanded": false,
                 "pages": [
-                  "T3AF/Integrations/Index",
-                  "T3AF/Integrations/MCPServer/Index",
-                  "T3AF/Integrations/MCPTools/Index",
-                  "T3AF/Integrations/MCPTesting/Index"
+                  "ExtNsT3AF/Integrations/Index",
+                  "ExtNsT3AF/Integrations/MCPServer/Index",
+                  "ExtNsT3AF/Integrations/MCPTools/Index",
+                  "ExtNsT3AF/Integrations/MCPTesting/Index"
                 ]
               },
               {
                 "group": "User Guide",
                 "expanded": false,
                 "pages": [
-                  "T3AF/UserGuide/Index",
-                  "T3AF/UserGuide/RolesAndDailyUse/Index"
+                  "ExtNsT3AF/UserGuide/Index",
+                  "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index"
                 ]
               },
               {
                 "group": "Developer Guide",
                 "expanded": false,
                 "pages": [
-                  "T3AF/DeveloperGuide/Index",
-                  "T3AF/DeveloperGuide/Architecture/Index",
-                  "T3AF/DeveloperGuide/ExtensionIntegration/Index",
-                  "T3AF/DeveloperGuide/CustomProviders/Index",
-                  "T3AF/DeveloperGuide/CustomPromptCatalogs/Index",
-                  "T3AF/DeveloperGuide/CustomFeatureCards/Index",
-                  "T3AF/DeveloperGuide/FeatureProviderOverrides/Index",
-                  "T3AF/DeveloperGuide/CustomMcpTools/Index",
-                  "T3AF/DeveloperGuide/CustomAccessCatalogs/Index"
+                  "ExtNsT3AF/DeveloperGuide/Index",
+                  "ExtNsT3AF/DeveloperGuide/Architecture/Index",
+                  "ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+                  "ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+                  "ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+                  "ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+                  "ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+                  "ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+                  "ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index"
                 ]
               },
               {
                 "group": "Troubleshooting",
                 "expanded": false,
                 "pages": [
-                  "T3AF/Troubleshooting/Index",
-                  "T3AF/Troubleshooting/KnownProblems/Index",
-                  "T3AF/Troubleshooting/FAQ/Index"
+                  "ExtNsT3AF/Troubleshooting/Index",
+                  "ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+                  "ExtNsT3AF/Troubleshooting/FAQ/Index"
                 ]
               },
-              "T3AF/HelpfulLinks/Index",
-              "T3AF/Support/Index"
+              "ExtNsT3AF/HelpfulLinks/Index",
+              "ExtNsT3AF/Support/Index"
             ]
           },
           {
@@ -238,7 +242,8 @@
                 "pages": [
                   "ExtNsT3AC/CustomLLMSupport/Index",
                   "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
-                  "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index"
+                  "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index",
+                  "ExtNsT3AC/RetrievalConfidenceThreshold/Index"
                 ]
               },
               {
@@ -357,7 +362,8 @@
                 "pages": [
                   "ExtNsT3AS/CustomLLMSupport/Index",
                   "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
-                  "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index"
+                  "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index",
+                  "ExtNsT3AS/RetrievalConfidenceThreshold/Index"
                 ]
               },
               {
@@ -368,7 +374,10 @@
                 ]
               }
             ]
-          }
+          },
+          "ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index",
+          "ExtNsT3AF/T3Planet-Credit-System/Configuration/Index",
+          "ExtNsT3AF/T3Planet-Credit-System/Dashboard/Index"
         ]
       },
       {
@@ -951,7 +960,7 @@
               "ExtNsFriendlyCaptcha/Installation/Index",
               "ExtNsFriendlyCaptcha/Configuration/Index",
               "ExtNsFriendlyCaptcha/CustomIntegration/Index",
-              "ExtNsFriendlyCaptcha/FAQ/Index",
+              "ExtNsFriendlyCaptcha/FAQ",
               "ExtNsFriendlyCaptcha/Support",
               "ExtNsFriendlyCaptcha/BuyNow",
               {
@@ -1688,15 +1697,15 @@
     },
     {
       "source": "/AIUniverse/Index",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/AIUniverse",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/AIUniverse/:path*",
-      "destination": "/T3AF/:path*"
+      "destination": "/ExtNsT3AF/:path*"
     },
     {
       "source": "/de/AIUniverseExtensions/Index",
@@ -1712,15 +1721,15 @@
     },
     {
       "source": "/de/AIUniverse/Index",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/de/AIUniverse",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/de/AIUniverse/:path*",
-      "destination": "/T3AF/:path*"
+      "destination": "/ExtNsT3AF/:path*"
     },
     {
       "source": "/de/:path*",
@@ -1779,220 +1788,220 @@
       "destination": "/"
     },
     {
-      "source": "/T3AF/AIContext/Index.html",
-      "destination": "/T3AF/AIContext/Index"
+      "source": "/ExtNsT3AF/AIContext/Index.html",
+      "destination": "/ExtNsT3AF/AIContext/Index"
     },
     {
-      "source": "/T3AF/AIContext.html",
-      "destination": "/T3AF/AIContext/Index"
+      "source": "/ExtNsT3AF/AIContext.html",
+      "destination": "/ExtNsT3AF/AIContext/Index"
     },
     {
-      "source": "/T3AF/AIFeatures/Index.html",
-      "destination": "/T3AF/AIFeatures/Index"
+      "source": "/ExtNsT3AF/AIFeatures/Index.html",
+      "destination": "/ExtNsT3AF/AIFeatures/Index"
     },
     {
-      "source": "/T3AF/AIFeatures.html",
-      "destination": "/T3AF/AIFeatures/Index"
+      "source": "/ExtNsT3AF/AIFeatures.html",
+      "destination": "/ExtNsT3AF/AIFeatures/Index"
     },
     {
-      "source": "/T3AF/AIPrompts/Index.html",
-      "destination": "/T3AF/AIPrompts/Index"
+      "source": "/ExtNsT3AF/AIPrompts/Index.html",
+      "destination": "/ExtNsT3AF/AIPrompts/Index"
     },
     {
-      "source": "/T3AF/AIPrompts.html",
-      "destination": "/T3AF/AIPrompts/Index"
+      "source": "/ExtNsT3AF/AIPrompts.html",
+      "destination": "/ExtNsT3AF/AIPrompts/Index"
     },
     {
-      "source": "/T3AF/AIProviders/Index.html",
-      "destination": "/T3AF/AIProviders/Index"
+      "source": "/ExtNsT3AF/AIProviders/Index.html",
+      "destination": "/ExtNsT3AF/AIProviders/Index"
     },
     {
-      "source": "/T3AF/AIProviders.html",
-      "destination": "/T3AF/AIProviders/Index"
+      "source": "/ExtNsT3AF/AIProviders.html",
+      "destination": "/ExtNsT3AF/AIProviders/Index"
     },
     {
-      "source": "/T3AF/AIUsageAndLogs/Index.html",
-      "destination": "/T3AF/AIUsageAndLogs/Index"
+      "source": "/ExtNsT3AF/AIUsageAndLogs/Index.html",
+      "destination": "/ExtNsT3AF/AIUsageAndLogs/Index"
     },
     {
-      "source": "/T3AF/AIUsageAndLogs.html",
-      "destination": "/T3AF/AIUsageAndLogs/Index"
+      "source": "/ExtNsT3AF/AIUsageAndLogs.html",
+      "destination": "/ExtNsT3AF/AIUsageAndLogs/Index"
     },
     {
-      "source": "/T3AF/Appendix/Index.html",
-      "destination": "/T3AF/Appendix/Index"
+      "source": "/ExtNsT3AF/Appendix/Index.html",
+      "destination": "/ExtNsT3AF/Appendix/Index"
     },
     {
-      "source": "/T3AF/Appendix.html",
-      "destination": "/T3AF/Appendix/Index"
+      "source": "/ExtNsT3AF/Appendix.html",
+      "destination": "/ExtNsT3AF/Appendix/Index"
     },
     {
-      "source": "/T3AF/Configuration/Index.html",
-      "destination": "/T3AF/Configuration/Index"
+      "source": "/ExtNsT3AF/Configuration/Index.html",
+      "destination": "/ExtNsT3AF/Configuration/Index"
     },
     {
-      "source": "/T3AF/Configuration.html",
-      "destination": "/T3AF/Configuration/Index"
+      "source": "/ExtNsT3AF/Configuration.html",
+      "destination": "/ExtNsT3AF/Configuration/Index"
     },
     {
-      "source": "/T3AF/Dashboard/Index.html",
-      "destination": "/T3AF/Dashboard/Index"
+      "source": "/ExtNsT3AF/Dashboard/Index.html",
+      "destination": "/ExtNsT3AF/Dashboard/Index"
     },
     {
-      "source": "/T3AF/Dashboard.html",
-      "destination": "/T3AF/Dashboard/Index"
+      "source": "/ExtNsT3AF/Dashboard.html",
+      "destination": "/ExtNsT3AF/Dashboard/Index"
     },
     {
-      "source": "/T3AF/FAQ/Index.html",
-      "destination": "/T3AF/FAQ/Index"
+      "source": "/ExtNsT3AF/FAQ/Index.html",
+      "destination": "/ExtNsT3AF/FAQ/Index"
     },
     {
-      "source": "/T3AF/FAQ.html",
-      "destination": "/T3AF/FAQ/Index"
+      "source": "/ExtNsT3AF/FAQ.html",
+      "destination": "/ExtNsT3AF/FAQ/Index"
     },
     {
-      "source": "/T3AF/GetThisExtension/Index.html",
-      "destination": "/T3AF/GetThisExtension/Index"
+      "source": "/ExtNsT3AF/GetThisExtension/Index.html",
+      "destination": "/ExtNsT3AF/GetThisExtension/Index"
     },
     {
-      "source": "/T3AF/GetThisExtension.html",
-      "destination": "/T3AF/GetThisExtension/Index"
+      "source": "/ExtNsT3AF/GetThisExtension.html",
+      "destination": "/ExtNsT3AF/GetThisExtension/Index"
     },
     {
-      "source": "/T3AF/GovernanceAndAccess/Index.html",
-      "destination": "/T3AF/GovernanceAndAccess/Index"
+      "source": "/ExtNsT3AF/GovernanceAndAccess/Index.html",
+      "destination": "/ExtNsT3AF/GovernanceAndAccess/Index"
     },
     {
-      "source": "/T3AF/GovernanceAndAccess.html",
-      "destination": "/T3AF/GovernanceAndAccess/Index"
+      "source": "/ExtNsT3AF/GovernanceAndAccess.html",
+      "destination": "/ExtNsT3AF/GovernanceAndAccess/Index"
     },
     {
-      "source": "/T3AF/HelpfulLinks/Index.html",
-      "destination": "/T3AF/HelpfulLinks/Index"
+      "source": "/ExtNsT3AF/HelpfulLinks/Index.html",
+      "destination": "/ExtNsT3AF/HelpfulLinks/Index"
     },
     {
-      "source": "/T3AF/HelpfulLinks.html",
-      "destination": "/T3AF/HelpfulLinks/Index"
+      "source": "/ExtNsT3AF/HelpfulLinks.html",
+      "destination": "/ExtNsT3AF/HelpfulLinks/Index"
     },
     {
-      "source": "/T3AF/Index.html",
-      "destination": "/T3AF/Index"
+      "source": "/ExtNsT3AF/Index.html",
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/T3AF.html",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
-      "source": "/T3AF/Installation/Index.html",
-      "destination": "/T3AF/Installation/Index"
+      "source": "/ExtNsT3AF/Installation/Index.html",
+      "destination": "/ExtNsT3AF/Installation/Index"
     },
     {
-      "source": "/T3AF/Installation.html",
-      "destination": "/T3AF/Installation/Index"
+      "source": "/ExtNsT3AF/Installation.html",
+      "destination": "/ExtNsT3AF/Installation/Index"
     },
     {
-      "source": "/T3AF/Introduction/Index.html",
-      "destination": "/T3AF/Introduction/Index"
+      "source": "/ExtNsT3AF/Introduction/Index.html",
+      "destination": "/ExtNsT3AF/Introduction/Index"
     },
     {
-      "source": "/T3AF/Introduction.html",
-      "destination": "/T3AF/Introduction/Index"
+      "source": "/ExtNsT3AF/Introduction.html",
+      "destination": "/ExtNsT3AF/Introduction/Index"
     },
     {
-      "source": "/T3AF/KnownProblems/Index.html",
-      "destination": "/T3AF/KnownProblems/Index"
+      "source": "/ExtNsT3AF/KnownProblems/Index.html",
+      "destination": "/ExtNsT3AF/KnownProblems/Index"
     },
     {
-      "source": "/T3AF/KnownProblems.html",
-      "destination": "/T3AF/KnownProblems/Index"
+      "source": "/ExtNsT3AF/KnownProblems.html",
+      "destination": "/ExtNsT3AF/KnownProblems/Index"
     },
     {
-      "source": "/T3AF/MCPServer/Index.html",
-      "destination": "/T3AF/MCPServer/Index"
+      "source": "/ExtNsT3AF/MCPServer/Index.html",
+      "destination": "/ExtNsT3AF/MCPServer/Index"
     },
     {
-      "source": "/T3AF/MCPServer.html",
-      "destination": "/T3AF/MCPServer/Index"
+      "source": "/ExtNsT3AF/MCPServer.html",
+      "destination": "/ExtNsT3AF/MCPServer/Index"
     },
     {
-      "source": "/T3AF/MCPTools/Index.html",
-      "destination": "/T3AF/MCPTools/Index"
+      "source": "/ExtNsT3AF/MCPTools/Index.html",
+      "destination": "/ExtNsT3AF/MCPTools/Index"
     },
     {
-      "source": "/T3AF/MCPTools.html",
-      "destination": "/T3AF/MCPTools/Index"
+      "source": "/ExtNsT3AF/MCPTools.html",
+      "destination": "/ExtNsT3AF/MCPTools/Index"
     },
     {
-      "source": "/T3AF/Screenshots/Index.html",
-      "destination": "/T3AF/Screenshots/Index"
+      "source": "/ExtNsT3AF/Screenshots/Index.html",
+      "destination": "/ExtNsT3AF/Screenshots/Index"
     },
     {
-      "source": "/T3AF/Screenshots.html",
-      "destination": "/T3AF/Screenshots/Index"
+      "source": "/ExtNsT3AF/Screenshots.html",
+      "destination": "/ExtNsT3AF/Screenshots/Index"
     },
     {
-      "source": "/T3AF/SetupWizard/Index.html",
-      "destination": "/T3AF/SetupWizard/Index"
+      "source": "/ExtNsT3AF/SetupWizard/Index.html",
+      "destination": "/ExtNsT3AF/SetupWizard/Index"
     },
     {
-      "source": "/T3AF/SetupWizard.html",
-      "destination": "/T3AF/SetupWizard/Index"
+      "source": "/ExtNsT3AF/SetupWizard.html",
+      "destination": "/ExtNsT3AF/SetupWizard/Index"
     },
     {
-      "source": "/T3AF/Support/Index.html",
-      "destination": "/T3AF/Support/Index"
+      "source": "/ExtNsT3AF/Support/Index.html",
+      "destination": "/ExtNsT3AF/Support/Index"
     },
     {
-      "source": "/T3AF/Support.html",
-      "destination": "/T3AF/Support/Index"
+      "source": "/ExtNsT3AF/Support.html",
+      "destination": "/ExtNsT3AF/Support/Index"
     },
     {
-      "source": "/T3AF/SystemRequirements/Index.html",
-      "destination": "/T3AF/SystemRequirements/Index"
+      "source": "/ExtNsT3AF/SystemRequirements/Index.html",
+      "destination": "/ExtNsT3AF/SystemRequirements/Index"
     },
     {
-      "source": "/T3AF/SystemRequirements.html",
-      "destination": "/T3AF/SystemRequirements/Index"
+      "source": "/ExtNsT3AF/SystemRequirements.html",
+      "destination": "/ExtNsT3AF/SystemRequirements/Index"
     },
     {
-      "source": "/T3AF/T3PlanetCredits/Index.html",
-      "destination": "/T3AF/T3PlanetCredits/Index"
+      "source": "/ExtNsT3AF/T3PlanetCredits/Index.html",
+      "destination": "/ExtNsT3AF/T3PlanetCredits/Index"
     },
     {
-      "source": "/T3AF/T3PlanetCredits.html",
-      "destination": "/T3AF/T3PlanetCredits/Index"
+      "source": "/ExtNsT3AF/T3PlanetCredits.html",
+      "destination": "/ExtNsT3AF/T3PlanetCredits/Index"
     },
     {
-      "source": "/T3AF/UpdateVersion/Index.html",
-      "destination": "/T3AF/UpdateVersion/Index"
+      "source": "/ExtNsT3AF/UpdateVersion/Index.html",
+      "destination": "/ExtNsT3AF/UpdateVersion/Index"
     },
     {
-      "source": "/T3AF/UpdateVersion.html",
-      "destination": "/T3AF/UpdateVersion/Index"
+      "source": "/ExtNsT3AF/UpdateVersion.html",
+      "destination": "/ExtNsT3AF/UpdateVersion/Index"
     },
     {
-      "source": "/T3AF/UpgradeGuide/Index.html",
-      "destination": "/T3AF/UpgradeGuide/Index"
+      "source": "/ExtNsT3AF/UpgradeGuide/Index.html",
+      "destination": "/ExtNsT3AF/UpgradeGuide/Index"
     },
     {
-      "source": "/T3AF/UpgradeGuide.html",
-      "destination": "/T3AF/UpgradeGuide/Index"
+      "source": "/ExtNsT3AF/UpgradeGuide.html",
+      "destination": "/ExtNsT3AF/UpgradeGuide/Index"
     },
     {
-      "source": "/T3AF/VideoTutorials/Index.html",
-      "destination": "/T3AF/VideoTutorials/Index"
+      "source": "/ExtNsT3AF/VideoTutorials/Index.html",
+      "destination": "/ExtNsT3AF/VideoTutorials/Index"
     },
     {
-      "source": "/T3AF/VideoTutorials.html",
-      "destination": "/T3AF/VideoTutorials/Index"
+      "source": "/ExtNsT3AF/VideoTutorials.html",
+      "destination": "/ExtNsT3AF/VideoTutorials/Index"
     },
     {
-      "source": "/T3AF/WhatDoesItDo/Index.html",
-      "destination": "/T3AF/WhatDoesItDo/Index"
+      "source": "/ExtNsT3AF/WhatDoesItDo/Index.html",
+      "destination": "/ExtNsT3AF/WhatDoesItDo/Index"
     },
     {
-      "source": "/T3AF/WhatDoesItDo.html",
-      "destination": "/T3AF/WhatDoesItDo/Index"
+      "source": "/ExtNsT3AF/WhatDoesItDo.html",
+      "destination": "/ExtNsT3AF/WhatDoesItDo/Index"
     },
     {
       "source": "/AIFoundationExtensions/Index.html",
@@ -7232,35 +7241,115 @@
     },
     {
       "source": "/AIFoundation/Index",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/AIFoundation",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/AIFoundation/:path*",
-      "destination": "/T3AF/:path*"
+      "destination": "/ExtNsT3AF/:path*"
     },
     {
       "source": "/AIFoundation/Index.html",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/AIFoundation.html",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/de/AIFoundation/Index",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/de/AIFoundation",
-      "destination": "/T3AF/Index"
+      "destination": "/ExtNsT3AF/Index"
     },
     {
       "source": "/de/AIFoundation/:path*",
-      "destination": "/T3AF/:path*"
+      "destination": "/ExtNsT3AF/:path*"
+    },
+    {
+      "source": "/ExtNsT3AF",
+      "destination": "/ExtNsT3AF/Index"
+    },
+    {
+      "source": "/ExtNsT3AF.html",
+      "destination": "/ExtNsT3AF/Index"
+    },
+    {
+      "source": "/de/ExtNsT3AF/Index",
+      "destination": "/ExtNsT3AF/Index"
+    },
+    {
+      "source": "/de/ExtNsT3AF",
+      "destination": "/ExtNsT3AF/Index"
+    },
+    {
+      "source": "/de/ExtNsT3AF/:path*",
+      "destination": "/ExtNsT3AF/:path*"
+    },
+    {
+      "source": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index"
+    },
+    {
+      "source": "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+      "destination": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index"
+    },
+    {
+      "source": "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+      "destination": "/ExtNsT3AL/T3ALTerms(Glossary)/Index"
+    },
+    {
+      "source": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index",
+      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index"
+    },
+    {
+      "source": "/history.html",
+      "destination": "/"
+    },
+    {
+      "source": "/readme.html",
+      "destination": "/"
+    },
+    {
+      "source": "/genindex",
+      "destination": "/"
+    },
+    {
+      "source": "/search",
+      "destination": "/"
+    },
+    {
+      "source": "/py-modindex",
+      "destination": "/"
+    },
+    {
+      "source": "/T3AF",
+      "destination": "/ExtNsT3AF/Index"
+    },
+    {
+      "source": "/T3AF/Index",
+      "destination": "/ExtNsT3AF/Index"
+    },
+    {
+      "source": "/T3AF/:path*",
+      "destination": "/ExtNsT3AF/:path*"
+    },
+    {
+      "source": "/T3AF/Index.html",
+      "destination": "/ExtNsT3AF/Index"
+    },
+    {
+      "source": "/ExtNsFriendlyCaptcha/FAQ/Index",
+      "destination": "/ExtNsFriendlyCaptcha/FAQ"
+    },
+    {
+      "source": "/ExtNsFriendlyCaptcha/FAQ/Index.html",
+      "destination": "/ExtNsFriendlyCaptcha/FAQ"
     }
   ],
   "description": "Official T3Planet documentation for TYPO3 extensions, templates, AI solutions, licensing, and installation guides.",
@@ -7331,7 +7420,7 @@
         "items": [
           {
             "label": "T3AF",
-            "href": "/T3AF/Index"
+            "href": "/ExtNsT3AF/Index"
           },
           {
             "label": "All Extensions",

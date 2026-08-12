@@ -49,3 +49,11 @@ You will get pre-configured 404 page with the template. You can access and modif
 We have already take care during installation of Template but, Please make sure you've already settings from Site Management > Sites > Edit ns_basetheme > Error Handling
 
 ![T3Planet-TYPO3-404](./images/T3Terminal-TYPO3-404.webp)
+
+## Figures
+
+![Set metadata](./images/metadata1.jpeg)
+
+![Set Social media](./images/social_media1.jpeg)
+
+![404 Page](./images/4041.jpeg)

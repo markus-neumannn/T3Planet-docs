@@ -44,3 +44,9 @@ sidebarTitle: "Configuration"
 Please use the buttons 'Flush frontend caches' and 'Flush general caches'
 from the top panel. The 'Clear cache' function of the install tool will also
 work perfectly.
+
+## Figures
+
+![TYPO3_NS_YOUTUBE_GDRP_1](images/GDPR_OPTION_11.webp)
+
+![TYPO3_NS_YOUTUBE_GDPR_2](images/GDPR_OPTION_21.webp)

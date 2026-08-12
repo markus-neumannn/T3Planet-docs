@@ -37,7 +37,7 @@ PR to the org repo could not be opened: histories are unrelated, and merging ups
 | Documentation pages (`Index.md`) | ~664 |
 | Image assets (webp/png/jpg/svg/gif) | ~3300+ |
 | Config | `docs.json` (navigation + ~1398 redirects), `custom.css`, `_static/` |
-| Product slug | `T3AF/` (with redirects from `/AIFoundation/*`) |
+| Product slug | `ExtNsT3AF/` (with redirects from `/AIFoundation/*`) |
 | Build | **`mint validate` PASSED** after MDX fixes |
 
 Excluded from git publish set: `Live-docs/`, `visual-regression/`, `.mintlify/`, `node_modules/` (see `.gitignore`).  

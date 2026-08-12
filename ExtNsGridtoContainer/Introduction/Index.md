@@ -30,3 +30,7 @@ EXT:ns_gridtocontainer is a migration extension providing a Backend module for t
 - **Product:** https://t3planet.de/typo3-gridelements-behaelter
 
 </Note>
+
+## Figures
+
+![Extension banner](./images/ext_banner4.jpg)

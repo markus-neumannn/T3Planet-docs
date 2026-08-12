@@ -21,3 +21,9 @@ Once you add FAQ plugin you can configure how to display FAQ Submission Form at 
 - **Form Header:-** Set Form header you want to set.
 - **Select Captcha:-** Here you can either select Image Captcha or Google reCaptcha. **Note:** Make sure to add sitekey for Google reCaptcha in Premium Settings tab in NS FAQs module.
 - **Record Storage Page:-** Set Storage where Visitor's FAQs should be stored.
+
+## Figures
+
+![Add FAQ Plugin](images/add_plugin1.webp)
+
+![Configure Plugin](images/configure_plugin1.webp)

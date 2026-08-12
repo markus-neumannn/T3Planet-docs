@@ -152,3 +152,45 @@ For more detailed instructions on license activation and installation, please re
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cmmyt7j5c0075wy0imx44tkvn?demo=1&step=1&utm_source=embed" loading="lazy" title="Register and Manage Domains in TYPO3" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
+---
+
+## Additional content from live docs
+
+## Create and Get your License Key (Interactive Demo)
+
+You can also create a license key from the website, then activate it in T3Planet Shop.
+For the backend flow, see [Generating a License Key](/License/GenerateLicenseKey/Index).
+
+**Step 1.** Click `Get Started` on the demo page.
+
+**Step 2.** Open the `Products` menu to explore available solutions.
+
+**Step 3.** Select the `News Comment` extension.
+
+**Step 4.** Click `Start Free Trial` to start the trial.
+
+**Step 5.** Scroll down and click `Start Free Trial` once more.
+
+****Step 6.** Review and accept the Privacy Policy and Terms to proceed.**
+- Fill `Name *`, `Email *`, and `Telephone (Optional)`.
+- Tick the agreement checkbox.
+
+**Step 7.** Click `Continue`.
+
+****Step 8.** Enter your 3 environment domains:**
+- `Local Domain *`
+- `Staging Domain`
+- `Production Domain`
+
+**Step 9.** Click `Send verification code`.
+
+****Step 10.** Enter the `Verification code` and click `Confirm & get my license key`.**
+- If you cannot find it, check your spam/junk folder (and use `Resend code` when available).
+
+**Step 11.** Close the window and continue.
+
+After you receive your license key, you can activate the extension in TYPO3:
+
+**Step 12.** Go to Admin Tools > T3Planet Shop > Add Your License Key (paste your key).
+
+**Step 13.** Click `Activate License & Download Extension` and then activate the purchased extension in Admin Tools > Extensions.

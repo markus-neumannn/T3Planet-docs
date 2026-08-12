@@ -18,3 +18,7 @@ Whenever you are going to add a new element, in wizard you can find "Custom Elem
 ![Custom Elements](./images/custom_elements.png)
 
 ![custom_elements1](./images/custom_elements1.png)
+
+## Figures
+
+![custom_elements1](./images/custom_elements11.png)

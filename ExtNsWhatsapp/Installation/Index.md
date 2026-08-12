@@ -61,3 +61,23 @@ https://www.youtube.com/watch?v=SN5HoFQcDM4
 
 **Extension Via Composer**
 https://www.youtube.com/watch?v=_7ILu4lwU-k
+
+---
+
+## Additional content from live docs
+
+## Activate the TypoScript
+
+The extension ships some static TypoScript code which needs to be included.
+
+**Step 1.** Switch to the root page of your site.
+
+**Step 2.** Switch to the Template/TypoScript module and select Edit TypoScript Record.
+
+**Step 3.** Click the link Edit the whole template record and switch to the tab Includes.
+
+**Step 4.** Select ‘Nitsan Whatsapp at the field Include static (from extensions):
+
+**Step 5.** Include ‘Nitsan Whatsapp at the last place.
+
+![Typoscript](images/Active_Typoscript.png)

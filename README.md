@@ -24,7 +24,7 @@ Fast LAN preview (cache proxy): see `scripts/start_fast_preview.sh`.
 | Path | Purpose |
 |------|---------|
 | `docs.json` | Navigation, redirects, theme |
-| `T3AF/` | T3AF (shared AI) product docs |
+| `ExtNsT3AF/` | T3AF (shared AI) product docs |
 | `AIFoundationExtensions/` | AI Universe hub |
 | `_static/` | Logos, JS |
 | `.mintignore` | Excludes `de/`, `Live-docs/`, `scripts/` from Mintlify build |

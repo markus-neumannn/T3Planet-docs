@@ -25,7 +25,7 @@
 
 ## Mintlify-Only Hub Pages
 
-- `http://192.168.0.137:3000/T3AF/Index` — New Mintlify hub page; no 1:1 RTD canonical page
+- `http://192.168.0.137:3000/ExtNsT3AF/Index` — New Mintlify hub page; no 1:1 RTD canonical page
 - `http://192.168.0.137:3000/AllExtensions/Index` — New Mintlify hub page; no 1:1 RTD canonical page
 - `http://192.168.0.137:3000/AllTemplates/Index` — New Mintlify hub page; no 1:1 RTD canonical page
 

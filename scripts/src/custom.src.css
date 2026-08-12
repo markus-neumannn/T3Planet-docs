@@ -5628,3 +5628,7 @@ html.t3-mobile-nav-closing button[class*="lg:hidden"] * {
   pointer-events: none !important;
 }
 
+/* === T3 PERF HELPERS (Aug 10 2026) ===================================== */
+img, video, iframe { max-width: 100%; height: auto; }
+.t3-embed iframe { content-visibility: auto; contain-intrinsic-size: 400px 225px; }
+#content-area img { content-visibility: auto; }

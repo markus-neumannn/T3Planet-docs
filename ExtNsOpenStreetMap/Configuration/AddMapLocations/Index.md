@@ -38,3 +38,11 @@ Now you can fill all the details of location.
 **View OpenStreet Map Link**: Check this if you want to display OpenStreet Map link along with Location details.
 
 This way, create all the locations you want to display on Map.
+
+## Figures
+
+![Add OpenStreet Locations record](images/add_location1.webp)
+
+![Add OpenStreet Locations (General tab)](images/add_location_general1.webp)
+
+![Add OpenStreet Locations (Info Content tab)](images/add_location_infocontent1.webp)

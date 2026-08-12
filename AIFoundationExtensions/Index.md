@@ -21,12 +21,12 @@ sidebarTitle: "AI Universe Extensions"
       <kbd>⌘K</kbd>
     </button>
   </div>
-  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">789</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">67</span><span className="t3-stat-label">Products</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="ai_products">7</span><span className="t3-stat-label">AI products</span></div></div>
+  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">799</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">67</span><span className="t3-stat-label">Products</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="ai_products">7</span><span className="t3-stat-label">AI products</span></div></div>
 </div>
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">All AI products</p>
   <div className="t3-product-grid">
-    <a className="t3-product-card" href="/T3AF/Index">
+    <a className="t3-product-card" href="/ExtNsT3AF/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="cpu" size={22} className="t3-product-icon" /></span>
         <div>

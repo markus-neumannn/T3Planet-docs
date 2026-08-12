@@ -53,3 +53,9 @@ https://www.youtube.com/watch?v=SN5HoFQcDM4
 
 **Extension Via Composer**
 https://www.youtube.com/watch?v=_7ILu4lwU-k
+
+## Figures
+
+![Install Extension](./images/install_extension11.jpeg)
+
+![Activate Typoscript](./images/activate_typoscript21.jpeg)

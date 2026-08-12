@@ -125,3 +125,15 @@ Leave this field empty - the system will automatically generate this URL using O
 
 ## Step 10: Save Changes
 
+---
+
+## Additional content from live docs
+
+## Premium Configuration
+
+Configure your settings to start premium features.
+
+## WebSocket URL
+
+Leave this field empty.
+The system creates this URL automatically from the Organization ID.

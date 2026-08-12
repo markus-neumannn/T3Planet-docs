@@ -58,7 +58,7 @@ sidebarTitle: "EXT:ns_t3ai"
   <Card title="Releases" icon="tag" href="/ExtNsT3AI/Releases/Index" />
   <Card title="Support" icon="life-buoy" href="/ExtNsT3AI/Support" />
   <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AI/BuyNow" />
-  <Card title="T3AF" icon="layers" href="/T3AF/Index" />
+  <Card title="T3AF" icon="layers" href="/ExtNsT3AF/Index" />
   </CardGroup>
 </section>
 

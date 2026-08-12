@@ -30,7 +30,26 @@
   var imgIo = null;
   var iframeIo = null;
   var routePath = "";
-  var HUB_ROUTES = ["/", "/AllTemplates/Index", "/AllExtensions/Index", "/AIFoundationExtensions/Index", "/License/Index"];
+  var HUB_ROUTES = [
+    "/",
+    "/ExtNsT3AF/Index",
+    "/AllExtensions/Index",
+    "/AllTemplates/Index",
+    "/AIFoundationExtensions/Index",
+    "/License/Index",
+    "/ExtThemes/Index",
+    "/EXTKarma/Index",
+    "/ExtNsT3AI/Index",
+    "/ExtNsT3AA/Index",
+    "/ExtNsT3AC/Index",
+    "/ExtNsT3AS/Index",
+    "/ExtNsT3AL/Index",
+    "/ExtNsT3AB/Index",
+    "/ExtRTECKEditorPack/Index",
+    "/ExtNsRevolutionSlider/Index",
+    "/EXTAvatar/Index",
+    "/EXTBootstrap/Index"
+  ];
 
   try {
     var s = localStorage.getItem("mintlify-color-scheme");
@@ -43,15 +62,20 @@
     if (!p) return "";
     if (p === "/AIUniverseExtensions" || p === "/AIUniverseExtensions/Index") return "/AIFoundationExtensions/Index";
     if (p.indexOf("/AIUniverseExtensions/") === 0) return "/AIFoundationExtensions/" + p.slice("/AIUniverseExtensions/".length);
-    // Product slug rename: AIFoundation → T3AF (keep AIFoundationExtensions hub as-is)
-    if (p === "/AIFoundation" || p === "/AIFoundation/Index") return "/T3AF/Index";
-    if (p.indexOf("/AIFoundation/") === 0) return "/T3AF/" + p.slice("/AIFoundation/".length);
-    if (p === "/de/AIFoundation" || p === "/de/AIFoundation/Index") return "/T3AF/Index";
-    if (p.indexOf("/de/AIFoundation/") === 0) return "/T3AF/" + p.slice("/de/AIFoundation/".length);
-    if (p === "/AIUniverse" || p === "/AIUniverse/Index") return "/T3AF/Index";
-    if (p.indexOf("/AIUniverse/") === 0) return "/T3AF/" + p.slice("/AIUniverse/".length);
-    if (p === "/de/AIUniverse" || p === "/de/AIUniverse/Index") return "/T3AF/Index";
-    if (p.indexOf("/de/AIUniverse/") === 0) return "/T3AF/" + p.slice("/de/AIUniverse/".length);
+    // Canonical product slug is ExtNsT3AF (matches live RTD). Legacy T3AF/AIFoundation/AIUniverse → ExtNsT3AF.
+    // Do not redirect /ExtNsT3AF (canonical); keep AIFoundationExtensions hub as-is.
+    if (p === "/T3AF" || p === "/T3AF/Index") return "/ExtNsT3AF/Index";
+    if (p.indexOf("/T3AF/") === 0) return "/ExtNsT3AF/" + p.slice("/T3AF/".length);
+    if (p === "/de/T3AF" || p === "/de/T3AF/Index") return "/ExtNsT3AF/Index";
+    if (p.indexOf("/de/T3AF/") === 0) return "/ExtNsT3AF/" + p.slice("/de/T3AF/".length);
+    if (p === "/AIFoundation" || p === "/AIFoundation/Index") return "/ExtNsT3AF/Index";
+    if (p.indexOf("/AIFoundation/") === 0) return "/ExtNsT3AF/" + p.slice("/AIFoundation/".length);
+    if (p === "/de/AIFoundation" || p === "/de/AIFoundation/Index") return "/ExtNsT3AF/Index";
+    if (p.indexOf("/de/AIFoundation/") === 0) return "/ExtNsT3AF/" + p.slice("/de/AIFoundation/".length);
+    if (p === "/AIUniverse" || p === "/AIUniverse/Index") return "/ExtNsT3AF/Index";
+    if (p.indexOf("/AIUniverse/") === 0) return "/ExtNsT3AF/" + p.slice("/AIUniverse/".length);
+    if (p === "/de/AIUniverse" || p === "/de/AIUniverse/Index") return "/ExtNsT3AF/Index";
+    if (p.indexOf("/de/AIUniverse/") === 0) return "/ExtNsT3AF/" + p.slice("/de/AIUniverse/".length);
     if (p === "/de/AIUniverseExtensions" || p === "/de/AIUniverseExtensions/Index") return "/AIFoundationExtensions/Index";
     if (p.indexOf("/de/AIUniverseExtensions/") === 0) return "/AIFoundationExtensions/" + p.slice("/de/AIUniverseExtensions/".length);
     return "";
@@ -128,7 +152,7 @@
   }
 
   function isAiDocsRoute(p) {
-    return /^\/(?:T3AF|ExtNsT3(?:AA|AB|AC|AI|AL|AS))(?:\/|$)/.test(p || "");
+    return /^\/(?:T3AF|ExtNsT3AF|ExtNsT3(?:AA|AB|AC|AI|AL|AS))(?:\/|$)/.test(p || "");
   }
 
   function applyRouteClasses() {
@@ -1018,7 +1042,9 @@
 
       // Local mint: opaque hold covers multi-second compiles.
       // Production CDN: progress bar only — same feel as live Sphinx (no hold).
-      if (isLocalMintDev()) {
+      // Behind :3000 cache proxy, full HTML is usually warm — progress bar only.
+      // Opaque skeleton hold is reserved for raw mint :3001 (multi-second compiles).
+      if (isLocalMintDev() && !isBehindCacheProxy()) {
         captureHold(pendingNavHref || currentPath());
       }
 
@@ -1292,6 +1318,16 @@
     } catch (eFetch) {}
   }
 
+  function isBehindCacheProxy() {
+    // Local stack: mint :3001, cache proxy :3000 (LAN demo URL).
+    try {
+      var port = String(location.port || "");
+      return port === "3000";
+    } catch (e) {
+      return false;
+    }
+  }
+
   function warmHomeOnLocal() {
     if (!isLocalMintDev()) return;
     if (currentPath() === "/") return;
@@ -1299,6 +1335,25 @@
     idle(function () {
       prefetchDocument("/");
     }, 500);
+  }
+
+  function warmHubsBehindProxy() {
+    // Behind :3000 the HTML cache proxy absorbs cold mint compiles.
+    // Document fetches warm proxy entries without flooding ?_rsc compiles.
+    if (!isBehindCacheProxy()) return;
+    var hubs = HUB_ROUTES.slice();
+    var i = 0;
+    function next() {
+      if (i >= hubs.length) return;
+      var href = hubs[i++];
+      if (href === currentPath()) {
+        idle(next, 50);
+        return;
+      }
+      prefetchDocument(href);
+      idle(next, 350);
+    }
+    idle(next, 600);
   }
 
   function bindLogoHomePrefetch() {
@@ -1376,6 +1431,9 @@
   var prefetchOnIntent = function (href) {
     // Allow a single intentional hover/focus prefetch even on local mint.
     // Idle/viewport floods stay gated; this warms only the link the user aims at.
+    if (isBehindCacheProxy()) {
+      prefetchDocument(href);
+    }
     prefetchGateOpen = true;
     try {
       prefetch(href);
@@ -1412,6 +1470,7 @@
     // IntersectionObserver lets the browser start eager downloads first.
     if (idx > 0) {
       if (!img.getAttribute("loading")) img.loading = "lazy";
+      if (!img.getAttribute("fetchpriority")) img.setAttribute("fetchpriority", "low");
     } else if (!img.getAttribute("fetchpriority")) {
       img.setAttribute("fetchpriority", "high");
     }
@@ -1735,7 +1794,47 @@
     );
   }
 
+
+  function recoverEmptyDocOnce() {
+    if (window.__t3EmptyRecovered) return;
+    // Only on local preview behind proxy
+    if (!isBehindCacheProxy()) return;
+    var root = contentRoot();
+    if (!root) return;
+    var text = (root.innerText || "").replace(/\s+/g, " ").trim();
+    // Real docs pages have substantial text; empty/skeleton shells do not.
+    if (text.length > 80) return;
+    // Ignore true hubs that are card-only but still have labels
+    if (root.querySelector("h1, h2, .t3-home-landing, .t3-hub-landing, article p")) {
+      var t2 = (root.innerText || "").replace(/\s+/g, " ").trim();
+      if (t2.length > 40) return;
+    }
+    window.__t3EmptyRecovered = 1;
+    try {
+      var u = new URL(location.href);
+      if (u.searchParams.get("_t3r")) return;
+      u.searchParams.set("_t3r", String(Date.now()));
+      // Ask proxy to drop bad entry then reload
+      fetch("/__t3_cache_purge", { cache: "no-store" }).catch(function () {});
+      setTimeout(function () {
+        location.replace(u.pathname + u.search + u.hash);
+      }, 150);
+    } catch (eRec) {}
+  }
+
   function init() {
+
+  // Safety: never leave skeleton/hold painted forever (bad cache / hung RSC).
+  setInterval(function () {
+    try {
+      if (!document.documentElement.classList.contains("t3-holding") &&
+          !document.documentElement.classList.contains("t3-nav-busy")) return;
+      if (!navStartedAt) return;
+      if (Date.now() - navStartedAt < 12000) return;
+      progress(false);
+    } catch (eSafe) {}
+  }, 2000);
+
     injectPerfHints();
     gateNextRouterPrefetch();
     ensureProgress();
@@ -1776,11 +1875,16 @@
           try {
             e.stopImmediatePropagation();
           } catch (eStop) {}
-          // Logo → home: warm document cache first if needed, then navigate.
-          if (href === "/" || href === "/Index") {
-            prefetchDocument("/");
+          var go = href === "/Index" ? "/" : href;
+          // Warm proxy cache for the destination, then hard-navigate (instant on HIT).
+          prefetchDocument(go);
+          if (isBehindCacheProxy()) {
+            document.documentElement.classList.add("t3-nav-busy");
+            ensureProgress();
+            progressEl.classList.add("t3-nav-progress-active");
+            setProgressWidth(30);
           }
-          window.location.assign(href === "/Index" ? "/" : href);
+          window.location.assign(go);
           return;
         }
         beginNavFromLink(href);
@@ -1799,6 +1903,7 @@
 
     rewriteStaticLinks();
     enhanceContentCritical();
+    setTimeout(recoverEmptyDocOnce, 1200);
     bindMobileNavEnhancements();
     bindLogoHomePrefetch();
     // Re-apply lazy hints after Mintlify finishes hydrating MDX images
@@ -1806,8 +1911,11 @@
     idle(enhanceContentDeferred, 200);
     idle(hydrateDocStats, 50);
     warmHomeOnLocal();
-    // Idle route warming only on production CDN (prebuilt). Local mint: intent-only.
-    if (!isLocalMintDev()) {
+    // Behind cache proxy: warm hub HTML into proxy memory (no RSC flood).
+    // Production CDN: native idle prefetch of hubs + a few sidebar links.
+    if (isBehindCacheProxy()) {
+      idle(warmHubsBehindProxy, 400);
+    } else if (!isLocalMintDev()) {
       idle(prefetchHubs, 400);
       idle(prefetchVisibleSidebar, 800);
     }

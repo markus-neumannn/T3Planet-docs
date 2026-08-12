@@ -103,7 +103,7 @@
 
 ### Mintlify-only
 
-- `http://192.168.0.137:3000/T3AF/Index` — New Mintlify hub page
+- `http://192.168.0.137:3000/ExtNsT3AF/Index` — New Mintlify hub page
 
 ## AllExtensions
 

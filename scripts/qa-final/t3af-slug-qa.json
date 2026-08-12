@@ -3,25 +3,25 @@
   "checks": [
     {
       "name": "new-slug",
-      "url": "http://127.0.0.1:3001/T3AF/Index",
+      "url": "http://127.0.0.1:3001/ExtNsT3AF/Index",
       "h1": "T3AF",
       "title": "T3AF - T3Planet Docs",
       "pass": true
     },
     {
       "name": "old-slug-redirect",
-      "final_url": "http://127.0.0.1:3001/T3AF/Index",
+      "final_url": "http://127.0.0.1:3001/ExtNsT3AF/Index",
       "h1": "T3AF",
       "pass": true
     },
     {
       "name": "old-deep-redirect",
-      "final_url": "http://127.0.0.1:3001/T3AF/Introduction/Index",
+      "final_url": "http://127.0.0.1:3001/ExtNsT3AF/Introduction/Index",
       "pass": true
     },
     {
       "name": "hub-card",
-      "href": "/T3AF/Index",
+      "href": "/ExtNsT3AF/Index",
       "pass": true
     }
   ]

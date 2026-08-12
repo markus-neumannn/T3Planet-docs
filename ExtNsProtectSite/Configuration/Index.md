@@ -44,3 +44,7 @@ To make any page protected, please perform following steps:
 ![Protect page](./images/protect_page.webp)
 
 That's it! Now, your page is protected. Go and check your page in browser.
+
+## Figures
+
+![Select extension in Constant Editor](./images/configuration_11.jpeg)

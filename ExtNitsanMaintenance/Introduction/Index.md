@@ -27,3 +27,11 @@ Do you want to make your site temporary offline like coming soon and maintenance
 - To make any domain-related changes or whitelist any development and staging domains, please reach our support center: https://t3planet.de/support
 
 </Note>
+
+---
+
+## Additional content from live docs
+
+## EXT:nitsan_maintenance
+
+![Extension ns maintenance mode banner](images/ns-maintenance-mode.jpg)

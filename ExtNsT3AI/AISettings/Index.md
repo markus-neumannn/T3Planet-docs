@@ -280,3 +280,30 @@ To grant more granular control, you can also allow specific features within a pa
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrabnhz30bh0qmhx012m66o5?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
+---
+
+## Additional content from live docs
+
+## Overview
+
+Use this area to confirm which T3AI features are available in your project and whether the shared AI Foundation setup is ready.
+For provider selection, model setup, and shared AI rules, also review [AI Foundation Configuration](/ExtNsT3AF/Configuration/Index), [AI Foundation Providers](/ExtNsT3AF/Configuration/AIProviders/Index), and [AI Foundation AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
+
+## Key capabilities
+
+- Review enabled T3AI feature groups
+- Confirm the project is connected to the right provider and model setup
+- Check whether editors can use the expected modules before rollout
+
+## Basic workflow
+
+T3AI feature settings are managed in AI Foundation — not under **Admin Tools > Settings > Configure Extensions**.
+
+1. Go to the **TYPO3 backend**.
+2. Open **AI Foundation** → **AI Features**.
+3. Open the **T3AI** (`ns_t3ai`) feature card.
+4. Review the available feature settings and defaults.
+5. Confirm the required feature options are enabled.
+6. Click **Save**, then test the related T3AI modules.
+
+For the shared module overview, see [AI Foundation AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).

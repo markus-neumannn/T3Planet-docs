@@ -26,3 +26,11 @@ Hello Bar is a tool for a website that gives you a chance to configure and desig
 - To make any domain-related changes or whitelist any development and staging domains, please reach our support center: https://t3planet.de/support
 
 </Note>
+
+---
+
+## Additional content from live docs
+
+## EXT:nitsan_hellobar
+
+![Hellobar Extension Banner](images/TYPO3_EXT_nitsan_hellobar.jpg)

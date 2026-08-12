@@ -14,7 +14,7 @@
 
 | Type | Product | Original RTD canonical URL | Mintlify canonical URL | Reason | Suggested Action |
 |------|---------|----------------------------|------------------------|--------|------------------|
-| mintlify_only | T3AF | `—` | `http://192.168.0.137:3000/T3AF/Index` | New Mintlify hub page; no 1:1 RTD canonical page | Keep as Mintlify-only hub page |
+| mintlify_only | T3AF | `—` | `http://192.168.0.137:3000/ExtNsT3AF/Index` | New Mintlify hub page; no 1:1 RTD canonical page | Keep as Mintlify-only hub page |
 | mintlify_only | AllTemplates | `—` | `http://192.168.0.137:3000/AllTemplates/Index` | New Mintlify hub page; no 1:1 RTD canonical page | Keep as Mintlify-only hub page |
 | mintlify_only | AllExtensions | `—` | `http://192.168.0.137:3000/AllExtensions/Index` | New Mintlify hub page; no 1:1 RTD canonical page | Keep as Mintlify-only hub page |
 | rtd_only | EXTAyu | `https://docs.t3planet.de/en/latest/EXTAyu/Localization/Installationt3ayu_reactjs.zip.html` | `—` | RTD-only zip artifact path; not migrated as Mintlify canonical page | Optional: create placeholder page or keep excluded from canonical page set |

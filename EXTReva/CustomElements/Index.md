@@ -14,6 +14,8 @@ sidebarTitle: "Mask Elements"
 
 ## Template's Elements
 
+![Custom Elements](images/Custom_Element1.png)
+
 Whenever you are going to add a new element, in wizard you can find "Mask Elements" tab where template related custom elements been configured.
 
 ![Custom Elements](./images/Custom_Element.webp)
@@ -21,3 +23,7 @@ Whenever you are going to add a new element, in wizard you can find "Mask Elemen
 ![custom_elements1](./images/Custom_element1.webp)
 
 ![custom_elements1](./images/Custom_element_2.webp)
+
+## Figures
+
+![custom_elements1](./images/Custom_element11.png)

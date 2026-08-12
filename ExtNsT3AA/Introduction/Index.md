@@ -22,8 +22,8 @@ T3AA now works as a child extension of T3AF (`ns_t3af`), which provides the shar
 
 For the shared setup, see:
 
-- [T3AF Introduction](/T3AF/Introduction/Index)
-- [T3AF Installation](/T3AF/Installation/Index)
+- [T3AF Introduction](/ExtNsT3AF/Introduction/Index)
+- [T3AF Installation](/ExtNsT3AF/Installation/Index)
 - T3AF System Requirements
 
 ## Helpful Links

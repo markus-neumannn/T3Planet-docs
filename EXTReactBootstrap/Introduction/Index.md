@@ -28,3 +28,7 @@ Multipurpose TYPO3 Headless Template meticulously designed using React & NextJS,
 - To make any domain-related changes or whitelist any development and staging domains, please reach our support center: https://t3planet.de/support
 
 </Note>
+
+## Figures
+
+![ns-theme-t3bootstrap-banner](images/Theme_T3Bootstrap1.webp)

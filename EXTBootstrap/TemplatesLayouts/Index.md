@@ -20,3 +20,7 @@ You can setup Layouts as described below:
 6. Select Backend layout from drop-down.
 
 ![Set Frontend & backend Layouts](./images/templates_layouts.webp)
+
+## Figures
+
+![Set Frontend & backend Layouts](images/templates_layouts1.webp)

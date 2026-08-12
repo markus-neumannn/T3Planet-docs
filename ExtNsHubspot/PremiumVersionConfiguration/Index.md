@@ -86,3 +86,7 @@ To configure hubspot Form in your site,please follow below steps,
 ![plugin](./images/Hubspot_plugin.webp)
 
 Save Configurations and use Plugin as per your requirements.
+
+## Figures
+
+![dashboard](images/dashboard2.webp)

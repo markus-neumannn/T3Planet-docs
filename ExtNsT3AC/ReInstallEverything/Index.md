@@ -50,9 +50,9 @@ Before you update, make sure you:
 
 Helpful references:
 
-- [T3AF Installation](/T3AF/Installation/Index)
-- [T3AF Configuration](/T3AF/Configuration/Index)
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
+- [T3AF Installation](/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
 
 ## Migration Steps
 
@@ -105,5 +105,5 @@ After the update, confirm that:
 
 - [Installation](/ExtNsT3AC/Installation/Index)
 - [Configuration](/ExtNsT3AC/Configuration/Index)
-- [T3AF Installation](/T3AF/Installation/Index)
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
+- [T3AF Installation](/ExtNsT3AF/Installation/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)

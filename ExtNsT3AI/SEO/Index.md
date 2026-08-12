@@ -216,6 +216,8 @@ Easily create SEO-friendly URLs with the AI Slug feature! T3AI helps you generat
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95u4pt21q0qm3agmdu390p?utm_source=link" loading="lazy" title="AI schema" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
+### Edit Generated Schema
+
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmpkvewkb2mhxqms9l3b4ikuh?embed_v=2&utm_source=embed" loading="lazy" title="Edit Generated Schema" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr94eqvt1zdaqm3a1p8ofvxi?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
@@ -232,3 +234,68 @@ Easily create SEO-friendly URLs with the AI Slug feature! T3AI helps you generat
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95o3j821g3qm3amu8k68ox?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
+---
+
+## Additional content from live docs
+
+## Mass SEO
+
+Mass SEO helps you fill in SEO data for many TYPO3 pages at the same time.
+The AI reads your page content and suggests meta titles, descriptions, keywords, and Open Graph text.
+
+### Before you start
+
+- T3AI must be installed and active.
+- Shared provider and model setup must already be configured in AI Foundation.
+- Pages should contain real content so the AI has something useful to analyze.
+
+### How it works
+
+1. Add pages to the queue or open a single page in Mass Optimize SEO.
+2. Run the task manually or with the TYPO3 Scheduler.
+3. Review the generated SEO suggestions.
+4. Save the data to the page.
+
+### Scheduler
+
+Create a Scheduler task with the command `nst3ai:bulk:seo-optimize` when you want queued SEO work to run automatically.
+Use task options such as SEO fields, limits, dry-run mode, and provider/model overrides when needed.
+
+### Page wise Mass SEO
+
+Use page-wise Mass SEO when you want to enable or optimize one page at a time.
+
+### Recursive Mass SEO
+
+Use recursive Mass SEO when you want to add a parent page and all of its child pages to the queue.
+
+### Before you start
+
+- T3AI must be installed and active.
+- Shared provider and model setup must already be configured in AI Foundation.
+- Pages should contain real content so the AI has something useful to analyze.
+
+### How it works
+
+1. Add pages to the queue or open a single page in Mass Optimize SEO.
+2. Run the task manually or with the TYPO3 Scheduler.
+3. Review the generated SEO suggestions.
+4. Save the data to the page.
+
+### Scheduler
+
+Create a Scheduler task with the command `nst3ai:bulk:seo-optimize` when you want queued SEO work to run automatically.
+Use task options such as SEO fields, limits, dry-run mode, and provider/model overrides when needed.
+
+### Page wise Mass SEO
+
+Use page-wise Mass SEO when you want to enable or optimize one page at a time.
+
+### Recursive Mass SEO
+
+Use recursive Mass SEO when you want to add a parent page and all of its child pages to the queue.
+
+## Language-wise SEO Optimization
+
+T3AI can generate and optimize SEO metadata in multiple languages.
+Use this when you want localized SEO output for translated content.

@@ -43,3 +43,7 @@ Following Galleries are available with this extension:
 - To make any domain-related changes or whitelist any development and staging domains, please reach our support center: https://t3planet.de/support
 
 </Note>
+
+## Figures
+
+![Extension banner](./images/ext_banner1.jpg)

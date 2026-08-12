@@ -52,7 +52,7 @@ sidebarTitle: "EXT:ns_t3aa"
   <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AA/KnownProblems/Index" />
   <Card title="Support" icon="life-buoy" href="/ExtNsT3AA/Support" />
   <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AA/BuyNow" />
-  <Card title="T3AF" icon="layers" href="/T3AF/Index" />
+  <Card title="T3AF" icon="layers" href="/ExtNsT3AF/Index" />
   </CardGroup>
 </section>
 

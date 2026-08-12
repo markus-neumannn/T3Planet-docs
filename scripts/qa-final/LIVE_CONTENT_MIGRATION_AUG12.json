@@ -1,0 +1,125 @@
+{
+  "generated": "2026-08-12T10:05:47.804436+00:00",
+  "repo": "/Users/nitsan/www/AI Agents/Mintilify Doc",
+  "reconcile_report": "/Users/nitsan/www/AI Agents/Mintilify Doc/scripts/qa-final/LIVE_CONTENT_RECONCILE_AUG12.json",
+  "actions": {
+    "pages_created": [],
+    "pages_updated": [
+      "EXTKarma/Customization/Index",
+      "EXTReva/CustomElements/Index",
+      "ExtNitsanHellobar/Introduction/Index",
+      "ExtNitsanMaintenance/Introduction/Index",
+      "ExtNsFriendlyCaptcha/Configuration/Index",
+      "ExtNsGoogleSiteKit/Introduction/Index",
+      "ExtNsSocialLogin/Configuration/Index",
+      "ExtNsT3AA/Installation/Index",
+      "ExtNsT3AI/AISettings/Index",
+      "ExtNsT3AI/Installation/Index",
+      "ExtNsT3AI/Prompts/Index",
+      "ExtNsT3AI/SEO/Index",
+      "ExtNsT3AS/Configuration/Index",
+      "ExtNsWhatsapp/Installation/Index",
+      "ExtRTECKEditorPack/PremiumPack/Index",
+      "License/GenerateLicenseKey/Index",
+      "License/LicenseActivation/Index",
+      "License/Migration/License/Index"
+    ],
+    "supademos_added": {},
+    "images_added": {
+      "EXTReva/CustomElements/Index": [
+        "Custom_Element1.png"
+      ],
+      "ExtNsSocialLogin/Configuration/Index": [
+        "Constant1.png"
+      ]
+    },
+    "sections_added": {
+      "EXTKarma/Customization/Index": [
+        "How to Disable Google Fonts",
+        "How to Add Custom Fonts"
+      ],
+      "ExtNitsanHellobar/Introduction/Index": [
+        "EXT:nitsan_hellobar"
+      ],
+      "ExtNitsanMaintenance/Introduction/Index": [
+        "EXT:nitsan_maintenance"
+      ],
+      "ExtNsFriendlyCaptcha/Configuration/Index": [
+        "Local & Staging Testing"
+      ],
+      "ExtNsGoogleSiteKit/Introduction/Index": [
+        "EXT:ns_google_sitekit"
+      ],
+      "ExtNsT3AA/Installation/Index": [
+        "AI Foundation has two provider modes"
+      ],
+      "ExtNsT3AI/AISettings/Index": [
+        "Overview",
+        "Key capabilities",
+        "Basic workflow"
+      ],
+      "ExtNsT3AI/Installation/Index": [
+        "AI Foundation has two provider modes"
+      ],
+      "ExtNsT3AI/Prompts/Index": [
+        "T3AI Prompts",
+        "Overview",
+        "When to customize prompts",
+        "Typical workflow",
+        "Best practices"
+      ],
+      "ExtNsT3AI/SEO/Index": [
+        "Mass SEO",
+        "Before you start",
+        "How it works",
+        "Scheduler",
+        "Page wise Mass SEO",
+        "Recursive Mass SEO",
+        "Language-wise SEO Optimization"
+      ],
+      "ExtNsT3AS/Configuration/Index": [
+        "Command nst3af:training \u2014 all options",
+        "Extension settings used by training (AI Foundation -> AI Features)"
+      ],
+      "ExtNsWhatsapp/Installation/Index": [
+        "Activate the TypoScript"
+      ],
+      "ExtRTECKEditorPack/PremiumPack/Index": [
+        "Premium Configuration",
+        "WebSocket URL"
+      ],
+      "License/GenerateLicenseKey/Index": [
+        "Generate License Key from Website"
+      ],
+      "License/LicenseActivation/Index": [
+        "Create and Get your License Key (Interactive Demo)"
+      ],
+      "License/Migration/License/Index": [
+        "Migration on Composer-based TYPO3 Instance"
+      ]
+    },
+    "nav_added": [],
+    "files_modified": [
+      "EXTKarma/Customization/Index.md",
+      "EXTReva/CustomElements/Index.md",
+      "ExtNitsanHellobar/Introduction/Index.md",
+      "ExtNitsanMaintenance/Introduction/Index.md",
+      "ExtNsFriendlyCaptcha/Configuration/Index.md",
+      "ExtNsGoogleSiteKit/Introduction/Index.md",
+      "ExtNsSocialLogin/Configuration/Index.md",
+      "ExtNsT3AA/Installation/Index.md",
+      "ExtNsT3AI/AISettings/Index.md",
+      "ExtNsT3AI/Installation/Index.md",
+      "ExtNsT3AI/Prompts/Index.md",
+      "ExtNsT3AI/SEO/Index.md",
+      "ExtNsT3AS/Configuration/Index.md",
+      "ExtNsWhatsapp/Installation/Index.md",
+      "ExtRTECKEditorPack/PremiumPack/Index.md",
+      "License/GenerateLicenseKey/Index.md",
+      "License/LicenseActivation/Index.md",
+      "License/Migration/License/Index.md"
+    ],
+    "errors": [],
+    "skipped": []
+  }
+}

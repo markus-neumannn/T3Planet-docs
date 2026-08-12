@@ -54,3 +54,7 @@ Now you can configure following settings on the album view gallery plugin on sam
 - Select Albums : Finally choose the storage folder on where you have stored the images for your gallery.
 
 ![Create Gallery images](./images/create_gallery.webp)
+
+## Figures
+
+![Create Gallery images](./images/create_gallery1.jpeg)

@@ -84,3 +84,9 @@ Based on the selection of "Record Based Search OR Radius Search" following optio
 ![GDPR Settings in Map Plugin](./images/GDPR_Options2.webp)
 
 - **GDPR Box** -> Make sure your website collects all required user consent. OpenStreetMap allows you to display consent notices.
+
+## Figures
+
+![Map Settings in Map Plugin](images/map_settings1.webp)
+
+![Controls Settings in Map Plugin](images/marker_settings1.webp)

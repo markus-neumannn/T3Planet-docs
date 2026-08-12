@@ -108,9 +108,9 @@ Then flush all TYPO3 caches.
 
 Helpful T3AF references:
 
-- [T3AF Installation](/T3AF/Installation/Index)
-- [T3AF Configuration](/T3AF/Configuration/Index)
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
+- [T3AF Installation](/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
 
 ## Step 4 — Run Database Analyzer
 
@@ -166,3 +166,25 @@ Get the latest version from typo3.org: [ns_t3ai](https://extensions.typo3.org/ex
 
 For license activation and premium installation details, see:
 [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+
+---
+
+## Additional content from live docs
+
+### AI Foundation has two provider modes
+
+In **AI Foundation → AI Providers**, choose how T3AI gets AI access:
+
+**Your Own API Keys**
+
+Use this mode when you want to connect your own AI vendor accounts. You store
+and manage your API keys (for example OpenAI, Anthropic, Gemini) in AI
+Foundation and run AI features through those providers.
+
+**T3Planet Credits**
+
+**T3Planet Credits** is T3Planet’s managed AI access for AI Foundation. It lets
+your TYPO3 site use AI features **without storing or managing your own vendor
+API keys**.
+
+**Link for T3Planet Credits:** [T3Planet Credits Documentation](/ExtNsT3AF/T3Planet-Credit-System/Index)

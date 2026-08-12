@@ -56,3 +56,15 @@ You can enable or disable jQuery form "Constant Editor". By default, the extensi
 ## Clearing the cache
 
 Please use the buttons 'Flush frontend caches' and 'Flush general caches' from the top panel. The 'Clear cache' function of the install tool will also work perfectly.
+
+## Figures
+
+![TYPO3-Revolution-Slider-License-Registered](images/TYPO3-Revolution-Slider-License-Registered1.webp)
+
+![TYPO3-Revolution-Slider-Include-TypoScript](images/TYPO3-Revolution-Slider-Include-TypoScript1.webp)
+
+![TYPO3-Revolution-Slider-Backend](images/TYPO3-Revolution-Slider-Backend1.webp)
+
+![TYPO3-Revolution-Slider-Plugin.png](images/TYPO3-Revolution-Slider-Plugin1.webp)
+
+![TYPO3-Revolution-Slider-Frontend-Plugin](./images/TYPO3-Revolution-Slider-Frontend-Plugin2.png)

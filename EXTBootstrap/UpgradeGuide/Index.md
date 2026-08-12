@@ -53,3 +53,10 @@ That's it! All the grids are migrated (structure and data) from EXT.gridelements
   </Step>
 </Steps>
 
+## Figures
+
+![typo3_dumpautoload](./images/typo3_dumpautoload1.jpeg)
+
+![typo3_upgrade_wizard](images/typo3_upgrade_wizard1.webp)
+
+![migrate_gridelement_to_container](images/migrate_gridelement_to_container1.webp)

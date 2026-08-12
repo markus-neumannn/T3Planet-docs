@@ -59,3 +59,22 @@ Follow step-by-step guide composer based installation guide at [documentation](/
   </Step>
 </Steps>
 
+---
+
+## Additional content from live docs
+
+## Migration on Composer-based TYPO3 Instance
+
+**Step 1.** Go to Admin Tools > Extensions > Deactivate Extension
+
+**Step 2.** Remove your existing non-license TYPO3 extension
+
+```python
+composer remove nitsan/extension-key-name
+composer dump-autoload
+composer clear-cache
+```
+
+**Step 3.** Manually remove folder from rm -rf typo3conf/ext/extension_key
+
+**Step 4.** Follow step-by-step guide composer based installation guide at [https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html#install-via-composer](/License/LicenseActivation/Index#install-via-composer)

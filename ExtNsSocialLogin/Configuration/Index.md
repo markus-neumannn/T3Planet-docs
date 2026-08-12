@@ -76,3 +76,7 @@ To add the plugin to your page, follow these steps:
 ![T3AI_Configuration](./images/plugin.webp)
 
 - **step 4:** select styles from the list of available styles or enable global styles.
+
+## Figures
+
+![T3AI_Configuration](images/Constant1.png)

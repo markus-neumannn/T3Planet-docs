@@ -53,3 +53,13 @@ This tab is used to import Google Docs to TYPO3 Page/Blog/NEWS. This tab lists a
 This tab lists complete logs of all the Google Docs imports have taken place in the system. It will display which Google Doc is imported to which TYPO3 Page/Blog/News with Import time, importer name. It will also allow user to access the Google Docs and imported Page/Blog from this tab directly.
 
 ![Reports & Logs](./images/reports_and_logs.webp)
+
+## Figures
+
+![Dashboard](./images/dashboard1.png)
+
+![Global Settings](./images/global_settings1.jpeg)
+
+![Import Google Docs](images/import_google_docs2.webp)
+
+![Reports & Logs](images/reports_and_logs1.webp)

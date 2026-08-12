@@ -20,9 +20,9 @@ T3AC now works as a child extension of T3AF (`ns_t3af`), which provides the shar
 
 For the shared setup, see:
 
-- [T3AF Installation](/T3AF/Installation/Index)
-- [T3AF Configuration](/T3AF/Configuration/Index)
-- [T3AF System Requirements](/T3AF/Installation/Index#ns-t3af-system-requirements)
+- [T3AF Installation](/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
+- [T3AF System Requirements](/ExtNsT3AF/Installation/Index#ns-t3af-system-requirements)
 
 ### System Requirements
 

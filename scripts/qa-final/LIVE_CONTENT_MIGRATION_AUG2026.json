@@ -1,0 +1,96 @@
+{
+  "supademo": [
+    {
+      "live": "License/GenerateLicenseKey/Index",
+      "mint": "License/GenerateLicenseKey/Index.md",
+      "status": "updated",
+      "inserted": 2,
+      "source": "local"
+    }
+  ],
+  "thin": [
+    {
+      "live": "License/GenerateLicenseKey/Index",
+      "mint": "License/GenerateLicenseKey/Index.md",
+      "status": "no_missing_headings",
+      "source": "local",
+      "reason": "with_supademo"
+    },
+    {
+      "live": "ExtRTECKEditorPack/Index",
+      "mint": "ExtRTECKEditorPack/Index.md",
+      "status": "skipped_hub"
+    },
+    {
+      "live": "License/Index",
+      "mint": "License/Index.md",
+      "status": "skipped_hub"
+    },
+    {
+      "live": "ExtNsRevolutionSlider/Index",
+      "mint": "ExtNsRevolutionSlider/Index.md",
+      "status": "skipped_hub"
+    },
+    {
+      "live": "ExtNsT3AF/Index",
+      "mint": "ExtNsT3AF/Index.md",
+      "status": "skipped_hub"
+    },
+    {
+      "live": "ExtNsT3AS/Index",
+      "mint": "ExtNsT3AS/Index.md",
+      "status": "skipped_hub"
+    },
+    {
+      "live": "ExtNsT3AC/Index",
+      "mint": "ExtNsT3AC/Index.md",
+      "status": "skipped_hub"
+    },
+    {
+      "live": "ExtNsT3AI/Index",
+      "mint": "ExtNsT3AI/Index.md",
+      "status": "skipped_hub"
+    },
+    {
+      "live": "index",
+      "mint": "index.md",
+      "status": "skipped_hub"
+    },
+    {
+      "live": "ExtNsT3AA/Index",
+      "mint": "ExtNsT3AA/Index.md",
+      "status": "skipped_hub"
+    }
+  ],
+  "redirects_added": [],
+  "created": [],
+  "needs_nav": [],
+  "skipped_hubs": [
+    "ExtRTECKEditorPack/Index.md",
+    "License/Index.md",
+    "ExtNsRevolutionSlider/Index.md",
+    "ExtNsT3AF/Index.md",
+    "ExtNsT3AS/Index.md",
+    "ExtNsT3AC/Index.md",
+    "ExtNsT3AI/Index.md",
+    "index.md",
+    "ExtNsT3AA/Index.md"
+  ],
+  "modified": [
+    "License/GenerateLicenseKey/Index.md"
+  ],
+  "notes": [],
+  "thin_remaining": [],
+  "before_counts": {
+    "missing_page": 0,
+    "missing_supademo": 1,
+    "thin_content": 9,
+    "note": "From Phase-1 audit (local Sphinx HTML fallback due to Cloudflare 429 on live RTD)"
+  },
+  "after_counts": {
+    "missing_page": 0,
+    "missing_supademo": 0,
+    "thin_content": 9
+  },
+  "license_page_restructured": true
+}

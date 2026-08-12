@@ -63,7 +63,7 @@ sidebarTitle: "EXT:ns_t3ac"
   <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AC/KnownProblems/Index" />
   <Card title="Support" icon="life-buoy" href="/ExtNsT3AC/Support" />
   <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AC/BuyNow" />
-  <Card title="T3AF" icon="layers" href="/T3AF/Index" />
+  <Card title="T3AF" icon="layers" href="/ExtNsT3AF/Index" />
   </CardGroup>
 </section>
 

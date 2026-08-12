@@ -247,3 +247,65 @@ Effortlessly organise and manage AI Media prompts with the Prompts Manager. Keep
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraru3lk1h13qmhxc5zr98ut?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
+---
+
+## Additional content from live docs
+
+## T3AI Prompts
+
+T3AI Prompts help you control how AI-generated content is written across page creation, content generation, SEO, translation, and media workflows.
+Use them when you want more consistent output, project-specific instructions, or reusable prompt rules for your editors.
+
+### Overview
+
+Prompts are the instructions T3AI sends to the selected AI provider.
+By adjusting prompts, you can influence tone, structure, wording style, and how much detail the generated result should contain.
+
+### When to customize prompts
+
+- When your team wants a consistent writing style
+- When generated content should follow brand or editorial rules
+- When SEO, translation, or page generation needs more specific instructions
+- When default output is too short, too long, or not focused enough
+
+### Typical workflow
+
+1. Open the **Prompt** area in the T3AI module.
+2. Review the available prompt setup for the workflow you want to improve.
+3. Adjust the prompt text or related options.
+4. Run a small test in the related T3AI module.
+5. Save the prompt once the result matches your project needs.
+
+### Best practices
+
+- Start with small prompt changes and test one workflow at a time.
+- Keep instructions simple and specific.
+- Reuse prompts for repeated editorial tasks.
+- Review the shared prompt options in AI Foundation AI Prompts when you want to manage prompt behavior from the parent extension.
+
+### Overview
+
+Prompts are the instructions T3AI sends to the selected AI provider.
+By adjusting prompts, you can influence tone, structure, wording style, and how much detail the generated result should contain.
+
+### When to customize prompts
+
+- When your team wants a consistent writing style
+- When generated content should follow brand or editorial rules
+- When SEO, translation, or page generation needs more specific instructions
+- When default output is too short, too long, or not focused enough
+
+### Typical workflow
+
+1. Open the **Prompt** area in the T3AI module.
+2. Review the available prompt setup for the workflow you want to improve.
+3. Adjust the prompt text or related options.
+4. Run a small test in the related T3AI module.
+5. Save the prompt once the result matches your project needs.
+
+### Best practices
+
+- Start with small prompt changes and test one workflow at a time.
+- Keep instructions simple and specific.
+- Reuse prompts for repeated editorial tasks.
+- Review the shared prompt options in AI Foundation AI Prompts when you want to manage prompt behavior from the parent extension.

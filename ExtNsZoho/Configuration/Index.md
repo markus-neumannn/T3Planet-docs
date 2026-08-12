@@ -35,3 +35,7 @@ Once Auth Token is generated, you need to set this at constants.
 - **Step 2:\*\*Add Zoho Value \*\*[add field name same as in zoho API]**
 
 ![Typo3 Form](./images/zoho_value.webp)
+
+## Figures
+
+![Constant editor](images/set_access_token1.webp)

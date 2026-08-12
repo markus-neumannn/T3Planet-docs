@@ -25,9 +25,9 @@ Otherwise, you can check whether a new update is available for your purchased TY
 
 ![New version available](./images/NewVersionUpdate.jpeg)
 
-![Up to date version](./images/UptoDateVersion.jpeg)
+![Up to date version](images/UptoDateVersion.webp)
 
-![Get latest version](./images/GetLatestVersion.jpeg)
+![Get latest version](images/GetLatestVersion.webp)
 
 <Steps>
   <Step title="Step 1">

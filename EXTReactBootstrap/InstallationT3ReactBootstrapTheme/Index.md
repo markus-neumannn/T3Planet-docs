@@ -33,3 +33,9 @@ We have already provided Site Configuration and if you want to overwrite it then
 Once you install your TYPO3 Template extension, it will automatically generate "Page tree" in your TYPO3 backend with all the pages and content.
 
 ![Page Tree](./images/page_tree.webp)
+
+## Figures
+
+![Site Configuration](images/how_to_configure_site2.webp)
+
+![Page Tree](./images/page_tree1.png)

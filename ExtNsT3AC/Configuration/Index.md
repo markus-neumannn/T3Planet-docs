@@ -14,9 +14,9 @@ Complete the T3AF setup first, then return to T3AC for chatbot-specific configur
 
 Helpful T3AF references:
 
-- [T3AF Configuration](/T3AF/Configuration/Index)
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
-- [AI Features](/T3AF/Configuration/AIFeatures/Index)
+- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index)
 - AI Prompts
 
 ## Step 1: Open AI Features in T3AF
@@ -32,7 +32,7 @@ Shared AI settings for T3AC are managed in T3AF — not under **Admin Tools > Se
 5. Click **Save**.
 6. Return to the **T3AC** module for chatbot, data source, and training-specific settings.
 
-For the shared module overview, see [T3AF AI Features](/T3AF/Configuration/AIFeatures/Index).
+For the shared module overview, see [T3AF AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## Step 2: Add Required API Keys
 
@@ -52,7 +52,7 @@ Key T3AC capabilities include:
 - Dashboard, logs, and analytics for chatbot activity
 - External embed support for approved domains
 
-For shared model routing and central AI behavior, see [T3AF AI Features](/T3AF/Configuration/AIFeatures/Index).
+For shared model routing and central AI behavior, see [T3AF AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## Step 4: Chatbot Configuration
 
@@ -101,7 +101,7 @@ Review this setup when you want to confirm the active provider, available models
 
 See also:
 
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
 - MCP Server
 - MCP Tools
 

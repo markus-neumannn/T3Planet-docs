@@ -51,3 +51,7 @@ Once Album is created, you just need to select the album in Gallery plugin.
 This module is used to configure Global Settings for the Gallery extension. Here you can set configuration for appearance of Gallery, What to show in Lightbox and also settings for Slider, Carousel & YouTube Videos related settings.
 
 ![How to configure Global Settings?](./images/Gallery_global_setting.webp)
+
+## Figures
+
+![Dashboard](./images/Dashboard1.png)

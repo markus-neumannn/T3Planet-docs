@@ -36,3 +36,7 @@ Follow the demo to configure free features, toolbar drag-and-drop, and preset ma
 <div className="t3-embed">
   <iframe src="https://app.supademo.com/embed/cmhyjl7xp4l1617y0gi1erk6t" loading="lazy" title="Drag-n-Drop Toolbar & Manage Preset Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
+
+## Figures
+
+![Install Extension](./images/install_extension4.png)

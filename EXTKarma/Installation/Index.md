@@ -46,3 +46,7 @@ After installing the TYPO3 template extension, the **Page Tree** will be automat
 After installation, it is important to configure the **correct page IDs** to ensure that the menu and content work properly. In some cases, TYPO3 may misconfigure the page IDs. Please navigate to **General → Menu and Pages Settings** and assign the appropriate **Page IDs**.
 
 </Note>
+
+## Figures
+
+![Site Configuration](./images/how_to_configure_site1.png)

@@ -1,0 +1,22 @@
+{
+  "live": 743,
+  "LIVE_ONLY": [
+    "history"
+  ],
+  "sphinx_utils": [
+    "history"
+  ],
+  "encoding_only": [],
+  "true_content_misses": [],
+  "index_suffix_mismatches_before": [
+    "ExtNsFriendlyCaptcha/FAQ"
+  ],
+  "index_suffix_mismatches_after": [],
+  "index_suffix_matches": 117,
+  "non_index_total": 118,
+  "preview": {
+    "ExtNsT3AF/Index": "200",
+    "ExtNsFriendlyCaptcha/FAQ": "200",
+    "ExtNsFriendlyCaptcha/FAQ/Index": "307 -> /ExtNsFriendlyCaptcha/FAQ"
+  }
+}

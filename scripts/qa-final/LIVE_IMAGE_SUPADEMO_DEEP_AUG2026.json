@@ -1,0 +1,1119 @@
+{
+  "generated": "2026-08-10T08:39:07.560087+00:00",
+  "repo": "/Users/nitsan/www/AI Agents/Mintilify Doc",
+  "sphinx_html": "/Users/nitsan/www/AI Agents/T3Planet Docs Agent/docs/docs/_build/html",
+  "pages_scanned": 754,
+  "missing_supademo_before": 0,
+  "missing_supademo_after": 0,
+  "missing_images_before": 116,
+  "missing_images_after": 0,
+  "files_modified": 66,
+  "image_copies": 116,
+  "image_downloads": 0,
+  "live_sample_status": "blocked_429",
+  "live_sample": {
+    "attempted": 2,
+    "http_200": 0,
+    "http_429": 2,
+    "http_other": {},
+    "blocked": true,
+    "pages": [
+      {
+        "doc": "ExtNsT3AF/Index",
+        "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Index.html",
+        "http": 429,
+        "sphinx_ids": [],
+        "live_ids": [],
+        "mint_ids": [],
+        "match": null
+      },
+      {
+        "doc": "ExtNsT3AI/Index",
+        "url": "https://docs.t3planet.de/en/latest/ExtNsT3AI/Index.html",
+        "http": 429,
+        "sphinx_ids": [],
+        "live_ids": [],
+        "mint_ids": [],
+        "match": null
+      }
+    ]
+  },
+  "remaining_supademo_examples": [],
+  "remaining_image_examples": [],
+  "pages_updated": [
+    {
+      "doc": "EXTBootstrap/TemplatesLayouts/Index",
+      "mint": "EXTBootstrap/TemplatesLayouts/Index.md",
+      "actions": [
+        "img_copy:templates_layouts1.jpeg",
+        "img_md:templates_layouts1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "templates_layouts1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTBootstrap/UpgradeGuide/Index",
+      "mint": "EXTBootstrap/UpgradeGuide/Index.md",
+      "actions": [
+        "img_copy:typo3_dumpautoload1.jpeg",
+        "img_md:typo3_dumpautoload1.jpeg",
+        "img_copy:typo3_upgrade_wizard1.jpeg",
+        "img_md:typo3_upgrade_wizard1.jpeg",
+        "img_copy:migrate_gridelement_to_container1.jpeg",
+        "img_md:migrate_gridelement_to_container1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "typo3_dumpautoload1.jpeg",
+        "typo3_upgrade_wizard1.jpeg",
+        "migrate_gridelement_to_container1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTKarma/Installation/Index",
+      "mint": "EXTKarma/Installation/Index.md",
+      "actions": [
+        "img_copy:how_to_configure_site1.png",
+        "img_md:how_to_configure_site1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "how_to_configure_site1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTKarma/UpgradeGuide/Index",
+      "mint": "EXTKarma/UpgradeGuideForContainer/Index.md",
+      "actions": [
+        "img_copy:typo3_dumpautoload2.jpeg",
+        "img_md:typo3_dumpautoload2.jpeg",
+        "img_copy:typo3_upgrade_wizard2.jpeg",
+        "img_md:typo3_upgrade_wizard2.jpeg",
+        "img_copy:migrate_gridelement_to_container2.jpeg",
+        "img_md:migrate_gridelement_to_container2.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "typo3_dumpautoload2.jpeg",
+        "typo3_upgrade_wizard2.jpeg",
+        "migrate_gridelement_to_container2.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index",
+      "mint": "EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index.md",
+      "actions": [
+        "img_copy:how_to_configure_site2.png",
+        "img_md:how_to_configure_site2.png",
+        "img_copy:page_tree1.png",
+        "img_md:page_tree1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "how_to_configure_site2.png",
+        "page_tree1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTReactBootstrap/Introduction/Index",
+      "mint": "EXTReactBootstrap/Introduction/Index.md",
+      "actions": [
+        "img_copy:Theme_T3Bootstrap1.png",
+        "img_md:Theme_T3Bootstrap1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "Theme_T3Bootstrap1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTReva/CustomElements/Index",
+      "mint": "EXTReva/CustomElements/Index.md",
+      "actions": [
+        "img_copy:Custom_element11.png",
+        "img_md:Custom_element11.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "Custom_element11.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTReva/InstallationT3RevaTheme/Index",
+      "mint": "EXTReva/InstallationT3RevaTheme/Index.md",
+      "actions": [
+        "img_copy:how_to_configure_site3.png",
+        "img_md:how_to_configure_site3.png",
+        "img_copy:page_Tree2.png",
+        "img_md:page_Tree2.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "how_to_configure_site3.png",
+        "page_Tree2.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTShiva/CustomElements/Index",
+      "mint": "EXTShiva/CustomElements/Index.md",
+      "actions": [
+        "img_copy:custom_elements11.png",
+        "img_md:custom_elements11.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "custom_elements11.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "EXTShiva/InstallationT3ShivaTheme/Index",
+      "mint": "EXTShiva/InstallationT3ShivaTheme/Index.md",
+      "actions": [
+        "img_copy:how_to_configure_site5.png",
+        "img_md:how_to_configure_site5.png",
+        "img_copy:page_tree3.png",
+        "img_md:page_tree3.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "how_to_configure_site5.png",
+        "page_tree3.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNitsanMaintenance/Installation/Index",
+      "mint": "ExtNitsanMaintenance/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension1.jpeg",
+        "img_md:install_extension1.jpeg",
+        "img_copy:activate_typoscript1.jpeg",
+        "img_md:activate_typoscript1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension1.jpeg",
+        "activate_typoscript1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsAllLightbox/Installation/Index",
+      "mint": "ExtNsAllLightbox/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext1.jpeg",
+        "img_md:install_ext1.jpeg",
+        "img_copy:activate_typoscript2.jpeg",
+        "img_md:activate_typoscript2.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext1.jpeg",
+        "activate_typoscript2.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsAllSliders/Installation/Index",
+      "mint": "ExtNsAllSliders/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext2.jpeg",
+        "img_md:install_ext2.jpeg",
+        "img_copy:activate_typoscript3.jpeg",
+        "img_md:activate_typoscript3.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext2.jpeg",
+        "activate_typoscript3.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsComments/Installation/Index",
+      "mint": "ExtNsComments/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension2.jpeg",
+        "img_md:install_extension2.jpeg",
+        "img_copy:activate_typoscript4.jpeg",
+        "img_md:activate_typoscript4.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension2.jpeg",
+        "activate_typoscript4.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsCookieYes/Installation/Index",
+      "mint": "ExtNsCookieYes/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext3.jpeg",
+        "img_md:install_ext3.jpeg",
+        "img_copy:activate_typoscript5.jpeg",
+        "img_md:activate_typoscript5.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext3.jpeg",
+        "activate_typoscript5.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsCookiebot/Installation/Index",
+      "mint": "ExtNsCookiebot/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext4.jpeg",
+        "img_md:install_ext4.jpeg",
+        "img_copy:activate_typoscript6.jpeg",
+        "img_md:activate_typoscript6.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext4.jpeg",
+        "activate_typoscript6.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsCookiesHint/Installation/Index",
+      "mint": "ExtNsCookiesHint/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension3.jpeg",
+        "img_md:install_extension3.jpeg",
+        "img_copy:activate_typoscript7.jpeg",
+        "img_md:activate_typoscript7.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension3.jpeg",
+        "activate_typoscript7.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsDisqusComment/Installation/Index",
+      "mint": "ExtNsDisqusComment/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension4.jpeg",
+        "img_md:install_extension4.jpeg",
+        "img_copy:activate_typoscript8.jpeg",
+        "img_md:activate_typoscript8.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension4.jpeg",
+        "activate_typoscript8.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsExtCompatibility/Installation/Index",
+      "mint": "ExtNsExtCompatibility/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext5.jpeg",
+        "img_md:install_ext5.jpeg",
+        "img_copy:activate_typoscript9.jpeg",
+        "img_md:activate_typoscript9.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext5.jpeg",
+        "activate_typoscript9.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsFAQ/Installation/Index",
+      "mint": "ExtNsFAQ/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext1.png",
+        "img_md:install_ext1.png",
+        "img_copy:activate_typoscript10.jpeg",
+        "img_md:activate_typoscript10.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext1.png",
+        "activate_typoscript10.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsFAQ/SubmitFAQForm/Index",
+      "mint": "ExtNsFAQ/SubmitFAQForm/Index.md",
+      "actions": [
+        "img_copy:add_plugin1.png",
+        "img_md:add_plugin1.png",
+        "img_copy:configure_plugin1.png",
+        "img_md:configure_plugin1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "add_plugin1.png",
+        "configure_plugin1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsFacebookComment/Installation/Index",
+      "mint": "ExtNsFacebookComment/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension5.jpeg",
+        "img_md:install_extension5.jpeg",
+        "img_copy:activate_typoscript11.jpeg",
+        "img_md:activate_typoscript11.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension5.jpeg",
+        "activate_typoscript11.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsFeedback/Installation/Index",
+      "mint": "ExtNsFeedback/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext6.jpeg",
+        "img_md:install_ext6.jpeg",
+        "img_copy:activate_typoscript12.jpeg",
+        "img_md:activate_typoscript12.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext6.jpeg",
+        "activate_typoscript12.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsFriendlyCaptcha/Installation/Index",
+      "mint": "ExtNsFriendlyCaptcha/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext7.jpeg",
+        "img_md:install_ext7.jpeg",
+        "img_copy:activate_typoscript13.jpeg",
+        "img_md:activate_typoscript13.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext7.jpeg",
+        "activate_typoscript13.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGallery/AlbumView/Index",
+      "mint": "ExtNsGallery/AlbumView/Index.md",
+      "actions": [
+        "img_copy:create_gallery1.jpeg",
+        "img_md:create_gallery1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "create_gallery1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGallery/HowToSetupAndDisplayGallery/Index",
+      "mint": "ExtNsGallery/HowToSetupAndDisplayGallery/Index.md",
+      "actions": [
+        "img_copy:add_gallery_plugin1.jpeg",
+        "img_md:add_gallery_plugin1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "add_gallery_plugin1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGallery/Installation/Index",
+      "mint": "ExtNsGallery/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension6.jpeg",
+        "img_md:install_extension6.jpeg",
+        "img_copy:activate_typoscript14.jpeg",
+        "img_md:activate_typoscript14.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension6.jpeg",
+        "activate_typoscript14.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGallery/Introduction/Index",
+      "mint": "ExtNsGallery/Introduction/Index.md",
+      "actions": [
+        "img_copy:ext_banner1.jpg",
+        "img_md:ext_banner1.jpg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "ext_banner1.jpg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGallery/NSGalleryModule/Index",
+      "mint": "ExtNsGallery/NSGalleryModule/Index.md",
+      "actions": [
+        "img_copy:Dashboard1.png",
+        "img_md:Dashboard1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "Dashboard1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGoogleDocs/Installation/Index",
+      "mint": "ExtNsGoogleDocs/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext8.jpeg",
+        "img_md:install_ext8.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext8.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGoogleDocs/Introduction/Index",
+      "mint": "ExtNsGoogleDocs/Introduction/Index.md",
+      "actions": [
+        "img_copy:ext_banner2.jpg",
+        "img_md:ext_banner2.jpg",
+        "img_copy:import_google_docs1.PNG",
+        "img_md:import_google_docs1.PNG"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "ext_banner2.jpg",
+        "import_google_docs1.PNG"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGoogleDocs/NSGoogleDocsModule/Index",
+      "mint": "ExtNsGoogleDocs/NSGoogleDocsModule/Index.md",
+      "actions": [
+        "img_copy:dashboard1.png",
+        "img_md:dashboard1.png",
+        "img_copy:global_settings1.jpeg",
+        "img_md:global_settings1.jpeg",
+        "img_copy:import_google_docs2.PNG",
+        "img_md:import_google_docs2.PNG",
+        "img_copy:reports_and_logs1.png",
+        "img_md:reports_and_logs1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "dashboard1.png",
+        "global_settings1.jpeg",
+        "import_google_docs2.PNG",
+        "reports_and_logs1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGoogleMap/Installation/Index",
+      "mint": "ExtNsGoogleMap/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension7.jpeg",
+        "img_md:install_extension7.jpeg",
+        "img_copy:activate_typoscript15.jpeg",
+        "img_md:activate_typoscript15.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension7.jpeg",
+        "activate_typoscript15.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGoogleSiteKit/Introduction/Index",
+      "mint": "ExtNsGoogleSiteKit/Introduction/Index.md",
+      "actions": [
+        "img_copy:ext_banner3.jpg",
+        "img_md:ext_banner3.jpg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "ext_banner3.jpg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGridtoContainer/Introduction/Index",
+      "mint": "ExtNsGridtoContainer/Introduction/Index.md",
+      "actions": [
+        "img_copy:ext_banner4.jpg",
+        "img_md:ext_banner4.jpg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "ext_banner4.jpg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsGuestbook/Installation/Index",
+      "mint": "ExtNsGuestbook/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension8.jpeg",
+        "img_md:install_extension8.jpeg",
+        "img_copy:activate_typoscript16.jpeg",
+        "img_md:activate_typoscript16.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension8.jpeg",
+        "activate_typoscript16.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsHubspot/Installation/Index",
+      "mint": "ExtNsHubspot/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext2.png",
+        "img_md:install_ext2.png",
+        "img_copy:activate_typoscript1.png",
+        "img_md:activate_typoscript1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext2.png",
+        "activate_typoscript1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsHubspot/PremiumVersionConfiguration/Index",
+      "mint": "ExtNsHubspot/PremiumVersionConfiguration/Index.md",
+      "actions": [
+        "img_copy:dashboard2.png",
+        "img_md:dashboard2.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "dashboard2.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsInstagram/Installation/Index",
+      "mint": "ExtNsInstagram/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension1.jpg",
+        "img_md:install_extension1.jpg",
+        "img_copy:activate_typoscript1.jpg",
+        "img_md:activate_typoscript1.jpg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension1.jpg",
+        "activate_typoscript1.jpg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsLazyload/Installation/Index",
+      "mint": "ExtNsLazyload/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension9.jpeg",
+        "img_md:install_extension9.jpeg",
+        "img_copy:activate_typoscript17.jpeg",
+        "img_md:activate_typoscript17.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension9.jpeg",
+        "activate_typoscript17.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsNewsAdvancedSearch/Installation/Index",
+      "mint": "ExtNsNewsAdvancedSearch/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension10.jpeg",
+        "img_md:install_extension10.jpeg",
+        "img_copy:activate_typoscript18.jpeg",
+        "img_md:activate_typoscript18.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension10.jpeg",
+        "activate_typoscript18.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsNewsComments/CommentModeration/Index",
+      "mint": "ExtNsNewsComments/CommentModeration/Index.md",
+      "actions": [
+        "img_copy:approve_comment_from_email1.jpeg",
+        "img_md:approve_comment_from_email1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "approve_comment_from_email1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsNewsComments/Installation/Index",
+      "mint": "ExtNsNewsComments/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext9.jpeg",
+        "img_md:install_ext9.jpeg",
+        "img_copy:activate_typoscript19.jpeg",
+        "img_md:activate_typoscript19.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext9.jpeg",
+        "activate_typoscript19.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsNewsSlickSlider/Installation/Index",
+      "mint": "ExtNsNewsSlickSlider/Installation/Index.md",
+      "actions": [
+        "img_copy:activate_typoscript20.jpeg",
+        "img_md:activate_typoscript20.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "activate_typoscript20.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsNewsSlider/Installation/Index",
+      "mint": "ExtNsNewsSlider/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension11.jpeg",
+        "img_md:install_extension11.jpeg",
+        "img_copy:activate_typoscript21.jpeg",
+        "img_md:activate_typoscript21.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension11.jpeg",
+        "activate_typoscript21.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsOpenStreetMap/Configuration/AddMapLocations/Index",
+      "mint": "ExtNsOpenStreetMap/Configuration/AddMapLocations/Index.md",
+      "actions": [
+        "img_copy:add_location1.jpeg",
+        "img_md:add_location1.jpeg",
+        "img_copy:add_location_general1.jpeg",
+        "img_md:add_location_general1.jpeg",
+        "img_copy:add_location_infocontent1.jpeg",
+        "img_md:add_location_infocontent1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "add_location1.jpeg",
+        "add_location_general1.jpeg",
+        "add_location_infocontent1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index",
+      "mint": "ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index.md",
+      "actions": [
+        "img_copy:map_settings1.jpeg",
+        "img_md:map_settings1.jpeg",
+        "img_copy:marker_settings1.jpeg",
+        "img_md:marker_settings1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "map_settings1.jpeg",
+        "marker_settings1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsOpenStreetMap/Installation/Index",
+      "mint": "ExtNsOpenStreetMap/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension12.jpeg",
+        "img_md:install_extension12.jpeg",
+        "img_copy:activate_typoscript22.jpeg",
+        "img_md:activate_typoscript22.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension12.jpeg",
+        "activate_typoscript22.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsPWA/Installation/Index",
+      "mint": "ExtNsPWA/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension1.png",
+        "img_md:install_extension1.png",
+        "img_copy:activate_typoscript2.png",
+        "img_md:activate_typoscript2.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension1.png",
+        "activate_typoscript2.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsProtectSite/Configuration/Index",
+      "mint": "ExtNsProtectSite/Configuration/Index.md",
+      "actions": [
+        "img_copy:configuration_11.jpeg",
+        "img_md:configuration_11.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "configuration_11.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsProtectSite/Installation/Index",
+      "mint": "ExtNsProtectSite/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension13.jpeg",
+        "img_md:install_extension13.jpeg",
+        "img_copy:activate_typoscript23.jpeg",
+        "img_md:activate_typoscript23.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension13.jpeg",
+        "activate_typoscript23.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index.md",
+      "actions": [
+        "img_copy:TYPO3-Revolution-Slider-Include-Template1.png",
+        "img_md:TYPO3-Revolution-Slider-Include-Template1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "TYPO3-Revolution-Slider-Include-Template1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index.md",
+      "actions": [
+        "img_copy:TYPO3-Revolution-Slider-Frontend-Plugin1.png",
+        "img_md:TYPO3-Revolution-Slider-Frontend-Plugin1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "TYPO3-Revolution-Slider-Frontend-Plugin1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index",
+      "mint": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index.md",
+      "actions": [
+        "img_copy:TYPO3-Revolution-Slider-License-Registered1.png",
+        "img_md:TYPO3-Revolution-Slider-License-Registered1.png",
+        "img_copy:TYPO3-Revolution-Slider-Include-TypoScript1.png",
+        "img_md:TYPO3-Revolution-Slider-Include-TypoScript1.png",
+        "img_copy:TYPO3-Revolution-Slider-Backend1.png",
+        "img_md:TYPO3-Revolution-Slider-Backend1.png",
+        "img_copy:TYPO3-Revolution-Slider-Plugin1.png",
+        "img_md:TYPO3-Revolution-Slider-Plugin1.png",
+        "img_copy:TYPO3-Revolution-Slider-Frontend-Plugin2.png",
+        "img_md:TYPO3-Revolution-Slider-Frontend-Plugin2.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "TYPO3-Revolution-Slider-License-Registered1.png",
+        "TYPO3-Revolution-Slider-Include-TypoScript1.png",
+        "TYPO3-Revolution-Slider-Backend1.png",
+        "TYPO3-Revolution-Slider-Plugin1.png",
+        "TYPO3-Revolution-Slider-Frontend-Plugin2.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsSnow/Installation/Index",
+      "mint": "ExtNsSnow/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension14.jpeg",
+        "img_md:install_extension14.jpeg",
+        "img_copy:activate_typoscript24.jpeg",
+        "img_md:activate_typoscript24.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension14.jpeg",
+        "activate_typoscript24.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsT3AL/Configuration/Index",
+      "mint": "ExtNsT3AL/Configuration/Index.md",
+      "actions": [
+        "img_copy:Configuration1.png",
+        "img_md:Configuration1.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "Configuration1.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsWpMigration/Installation/Index",
+      "mint": "ExtNsWpMigration/Installation/Index.md",
+      "actions": [
+        "img_copy:install_extension3.png",
+        "img_md:install_extension3.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension3.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsYoutube/Configuration/Index",
+      "mint": "ExtNsYoutube/Configuration/Index.md",
+      "actions": [
+        "img_copy:GDPR_OPTION_11.jpeg",
+        "img_md:GDPR_OPTION_11.jpeg",
+        "img_copy:GDPR_OPTION_21.jpeg",
+        "img_md:GDPR_OPTION_21.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "GDPR_OPTION_11.jpeg",
+        "GDPR_OPTION_21.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsYoutube/Installation/Index",
+      "mint": "ExtNsYoutube/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext10.jpeg",
+        "img_md:install_ext10.jpeg",
+        "img_copy:activate_typoscript25.jpeg",
+        "img_md:activate_typoscript25.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext10.jpeg",
+        "activate_typoscript25.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsZoho/Configuration/Index",
+      "mint": "ExtNsZoho/Configuration/Index.md",
+      "actions": [
+        "img_copy:set_access_token1.jpeg",
+        "img_md:set_access_token1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "set_access_token1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtNsZoho/Installation/Index",
+      "mint": "ExtNsZoho/Installation/Index.md",
+      "actions": [
+        "img_copy:install_ext11.jpeg",
+        "img_md:install_ext11.jpeg",
+        "img_copy:activate_typoscript26.jpeg",
+        "img_md:activate_typoscript26.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_ext11.jpeg",
+        "activate_typoscript26.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtRTECKEditorPack/QuickInstallation/Index",
+      "mint": "ExtRTECKEditorPack/QuickInstallation/Index.md",
+      "actions": [
+        "img_copy:install_extension4.png",
+        "img_md:install_extension4.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "install_extension4.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtThemes/CustomElements/Index",
+      "mint": "ExtThemes/CustomElements/Index.md",
+      "actions": [
+        "img_copy:custom_elements1.jpeg",
+        "img_md:custom_elements1.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "custom_elements1.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtThemes/Installation/Index",
+      "mint": "ExtThemes/Installation/Index.md",
+      "actions": [
+        "img_copy:update-ext-repository4.png",
+        "img_md:update-ext-repository4.png"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "update-ext-repository4.png"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtThemes/SEO/Index",
+      "mint": "ExtThemes/SEO/Index.md",
+      "actions": [
+        "img_copy:metadata1.jpeg",
+        "img_md:metadata1.jpeg",
+        "img_copy:social_media1.jpeg",
+        "img_md:social_media1.jpeg",
+        "img_copy:4041.jpeg",
+        "img_md:4041.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "metadata1.jpeg",
+        "social_media1.jpeg",
+        "4041.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    },
+    {
+      "doc": "ExtThemes/TemplatesLayouts/Index",
+      "mint": "ExtThemes/TemplatesLayouts/Index.md",
+      "actions": [
+        "img_copy:templates_layouts2.jpeg",
+        "img_md:templates_layouts2.jpeg"
+      ],
+      "missing_supademo_before": [],
+      "missing_images_before": [
+        "templates_layouts2.jpeg"
+      ],
+      "missing_supademo_after": [],
+      "missing_images_after": []
+    }
+  ]
+}

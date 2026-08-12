@@ -1,0 +1,1377 @@
+{
+  "generated": "2026-08-07",
+  "repo": "/Users/nitsan/www/AI Agents/Mintilify Doc",
+  "sources": {
+    "objects_inv": 746,
+    "rtd_index_html": 664,
+    "toc_markdown_latest_0": 661,
+    "live_union_html_paths": 746,
+    "sitemap_xml": "404 not available"
+  },
+  "counts": {
+    "total_live_pages": 746,
+    "total_mintlify_pages_canonical": 779,
+    "total_mintlify_Index_md": 664,
+    "total_nav_page_entries": 674,
+    "LIVE_ONLY": 39,
+    "MINT_ONLY": 73,
+    "CASE_MISMATCH": 0,
+    "PATH_MISMATCH_known_renames": 0,
+    "redirects_in_docs_json": 1398,
+    "LIVE_ONLY_with_redirect": 1,
+    "LIVE_ONLY_without_redirect": 38,
+    "LIVE_ONLY_content": 35,
+    "LIVE_ONLY_sphinx_utils": 4
+  },
+  "top_level": {
+    "live_only_tops": [
+      "ExtNsT3AF",
+      "genindex",
+      "history",
+      "py-modindex",
+      "readme",
+      "search"
+    ],
+    "mint_only_tops": [
+      "AIFoundationExtensions",
+      "AllExtensions",
+      "AllTemplates",
+      "SLA-skills",
+      "T3AF"
+    ],
+    "shared_tops_count": 68,
+    "live_tops": [
+      "EXTAvatar",
+      "EXTAyu",
+      "EXTBootstrap",
+      "EXTKarma",
+      "EXTNsZohoCrm",
+      "EXTReactBootstrap",
+      "EXTReva",
+      "EXTShiva",
+      "EXTShop",
+      "ExtNitsanHellobar",
+      "ExtNitsanMaintenance",
+      "ExtNsAllChat",
+      "ExtNsAllLightbox",
+      "ExtNsAllSliders",
+      "ExtNsBackup",
+      "ExtNsCacheWebhook",
+      "ExtNsCloudflare",
+      "ExtNsComments",
+      "ExtNsCookieYes",
+      "ExtNsCookiebot",
+      "ExtNsCookiesHint",
+      "ExtNsDisqusComment",
+      "ExtNsEvent",
+      "ExtNsExtCompatibility",
+      "ExtNsFAQ",
+      "ExtNsFacebookComment",
+      "ExtNsFeedback",
+      "ExtNsFriendlyCaptcha",
+      "ExtNsGallery",
+      "ExtNsGoogleDocs",
+      "ExtNsGoogleMap",
+      "ExtNsGoogleSiteKit",
+      "ExtNsGridtoContainer",
+      "ExtNsGuestbook",
+      "ExtNsHelpDesk",
+      "ExtNsHubspot",
+      "ExtNsInstagram",
+      "ExtNsLazyload",
+      "ExtNsNewsAdvancedSearch",
+      "ExtNsNewsComments",
+      "ExtNsNewsSlickSlider",
+      "ExtNsNewsSlider",
+      "ExtNsOpenStreetMap",
+      "ExtNsPWA",
+      "ExtNsPersonio",
+      "ExtNsProtectSite",
+      "ExtNsPublicationComment",
+      "ExtNsRevolutionSlider",
+      "ExtNsSharethis",
+      "ExtNsSnow",
+      "ExtNsSocialLogin",
+      "ExtNsStatcounter",
+      "ExtNsT3AA",
+      "ExtNsT3AB",
+      "ExtNsT3AC",
+      "ExtNsT3AF",
+      "ExtNsT3AI",
+      "ExtNsT3AL",
+      "ExtNsT3AS",
+      "ExtNsTimeLine",
+      "ExtNsTwitter",
+      "ExtNsWhatsapp",
+      "ExtNsWpMigration",
+      "ExtNsYoutube",
+      "ExtNsZoho",
+      "ExtRTECKEditorPack",
+      "ExtThemes",
+      "License",
+      "genindex",
+      "history",
+      "index",
+      "py-modindex",
+      "readme",
+      "search"
+    ],
+    "mint_tops": [
+      "AIFoundationExtensions",
+      "AllExtensions",
+      "AllTemplates",
+      "EXTAvatar",
+      "EXTAyu",
+      "EXTBootstrap",
+      "EXTKarma",
+      "EXTNsZohoCrm",
+      "EXTReactBootstrap",
+      "EXTReva",
+      "EXTShiva",
+      "EXTShop",
+      "ExtNitsanHellobar",
+      "ExtNitsanMaintenance",
+      "ExtNsAllChat",
+      "ExtNsAllLightbox",
+      "ExtNsAllSliders",
+      "ExtNsBackup",
+      "ExtNsCacheWebhook",
+      "ExtNsCloudflare",
+      "ExtNsComments",
+      "ExtNsCookieYes",
+      "ExtNsCookiebot",
+      "ExtNsCookiesHint",
+      "ExtNsDisqusComment",
+      "ExtNsEvent",
+      "ExtNsExtCompatibility",
+      "ExtNsFAQ",
+      "ExtNsFacebookComment",
+      "ExtNsFeedback",
+      "ExtNsFriendlyCaptcha",
+      "ExtNsGallery",
+      "ExtNsGoogleDocs",
+      "ExtNsGoogleMap",
+      "ExtNsGoogleSiteKit",
+      "ExtNsGridtoContainer",
+      "ExtNsGuestbook",
+      "ExtNsHelpDesk",
+      "ExtNsHubspot",
+      "ExtNsInstagram",
+      "ExtNsLazyload",
+      "ExtNsNewsAdvancedSearch",
+      "ExtNsNewsComments",
+      "ExtNsNewsSlickSlider",
+      "ExtNsNewsSlider",
+      "ExtNsOpenStreetMap",
+      "ExtNsPWA",
+      "ExtNsPersonio",
+      "ExtNsProtectSite",
+      "ExtNsPublicationComment",
+      "ExtNsRevolutionSlider",
+      "ExtNsSharethis",
+      "ExtNsSnow",
+      "ExtNsSocialLogin",
+      "ExtNsStatcounter",
+      "ExtNsT3AA",
+      "ExtNsT3AB",
+      "ExtNsT3AC",
+      "ExtNsT3AI",
+      "ExtNsT3AL",
+      "ExtNsT3AS",
+      "ExtNsTimeLine",
+      "ExtNsTwitter",
+      "ExtNsWhatsapp",
+      "ExtNsWpMigration",
+      "ExtNsYoutube",
+      "ExtNsZoho",
+      "ExtRTECKEditorPack",
+      "ExtThemes",
+      "License",
+      "SLA-skills",
+      "T3AF",
+      "index"
+    ]
+  },
+  "LIVE_ONLY": [
+    "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+    "/ExtNsT3AF/Configuration/AIContext/Index",
+    "/ExtNsT3AF/Configuration/AIFeatures/Index",
+    "/ExtNsT3AF/Configuration/AIPermissions/Index",
+    "/ExtNsT3AF/Configuration/AIPrompts/Index",
+    "/ExtNsT3AF/Configuration/AIProviders/Index",
+    "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+    "/ExtNsT3AF/Configuration/Dashboard/Index",
+    "/ExtNsT3AF/Configuration/Index",
+    "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+    "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+    "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+    "/ExtNsT3AF/DeveloperGuide/Index",
+    "/ExtNsT3AF/HelpfulLinks/Index",
+    "/ExtNsT3AF/Index",
+    "/ExtNsT3AF/Installation/Index",
+    "/ExtNsT3AF/Integrations/Index",
+    "/ExtNsT3AF/Integrations/MCPServer/Index",
+    "/ExtNsT3AF/Integrations/MCPTesting/Index",
+    "/ExtNsT3AF/Integrations/MCPTools/Index",
+    "/ExtNsT3AF/Introduction/Index",
+    "/ExtNsT3AF/Support/Index",
+    "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+    "/ExtNsT3AF/Troubleshooting/Index",
+    "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+    "/ExtNsT3AF/UserGuide/Index",
+    "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+    "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+    "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+    "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index",
+    "/genindex",
+    "/history",
+    "/py-modindex",
+    "/search"
+  ],
+  "MINT_ONLY": [
+    "/AIFoundationExtensions/Index",
+    "/AllExtensions/Index",
+    "/AllTemplates/Index",
+    "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+    "/ExtNsT3AI/Configuration/Index",
+    "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+    "/ExtNsT3AL/T3ALTerms(Glossary)/Index",
+    "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+    "/SLA-skills",
+    "/ExtNsT3AF/AIContext/Index",
+    "/ExtNsT3AF/AIFeatures/Index",
+    "/ExtNsT3AF/AIPrompts/Index",
+    "/ExtNsT3AF/AIProviders/Index",
+    "/ExtNsT3AF/AIUsageAndLogs/Index",
+    "/ExtNsT3AF/Appendix/Index",
+    "/ExtNsT3AF/Architecture/Index",
+    "/ExtNsT3AF/Configuration/AIContext/Index",
+    "/ExtNsT3AF/Configuration/AIFeatures/Index",
+    "/ExtNsT3AF/Configuration/AIPermissions/Index",
+    "/ExtNsT3AF/Configuration/AIPrompts/Index",
+    "/ExtNsT3AF/Configuration/AIProviders/Index",
+    "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+    "/ExtNsT3AF/Configuration/Dashboard/Index",
+    "/ExtNsT3AF/Configuration/GovernanceAndAccess/Index",
+    "/ExtNsT3AF/Configuration/Index",
+    "/ExtNsT3AF/Dashboard/Index",
+    "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomAiAccess/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomAiFeatures/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomAiPrompts/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+    "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+    "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+    "/ExtNsT3AF/DeveloperGuide/Index",
+    "/ExtNsT3AF/DeveloperGuide/T3PlanetCredits/Index",
+    "/ExtNsT3AF/FAQ/Index",
+    "/ExtNsT3AF/GetThisExtension/Index",
+    "/ExtNsT3AF/GovernanceAndAccess/Index",
+    "/ExtNsT3AF/HelpfulLinks/Index",
+    "/ExtNsT3AF/Index",
+    "/ExtNsT3AF/Installation/Index",
+    "/ExtNsT3AF/Integrations/Index",
+    "/ExtNsT3AF/Integrations/MCPServer/Index",
+    "/ExtNsT3AF/Integrations/MCPTesting/Index",
+    "/ExtNsT3AF/Integrations/MCPTools/Index",
+    "/ExtNsT3AF/Introduction/Index",
+    "/ExtNsT3AF/KnownProblems/Index",
+    "/ExtNsT3AF/MCPServer/Index",
+    "/ExtNsT3AF/MCPTesting/Index",
+    "/ExtNsT3AF/MCPTools/Index",
+    "/ExtNsT3AF/Privacy/Index",
+    "/ExtNsT3AF/ReleaseNotes/1.0.0/Index",
+    "/ExtNsT3AF/ReleaseNotes/Index",
+    "/ExtNsT3AF/Screenshots/Index",
+    "/ExtNsT3AF/SetupWizard/Index",
+    "/ExtNsT3AF/Support/Index",
+    "/ExtNsT3AF/SystemRequirements/Index",
+    "/ExtNsT3AF/T3PlanetCredits/Index",
+    "/ExtNsT3AF/T3PlanetCreditsQA/Index",
+    "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+    "/ExtNsT3AF/Troubleshooting/Index",
+    "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+    "/ExtNsT3AF/UpdateVersion/Index",
+    "/ExtNsT3AF/UpgradeGuide/Index",
+    "/ExtNsT3AF/Usage/Index",
+    "/ExtNsT3AF/UserGuide/Index",
+    "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+    "/ExtNsT3AF/VideoTutorials/Index",
+    "/ExtNsT3AF/WhatDoesItDo/Index"
+  ],
+  "MINT_ONLY_grouped": {
+    "intentional_hub_or_T3AF:AIFoundationExtensions": [
+      "/AIFoundationExtensions/Index"
+    ],
+    "intentional_hub_or_T3AF:AllExtensions": [
+      "/AllExtensions/Index"
+    ],
+    "intentional_hub_or_T3AF:AllTemplates": [
+      "/AllTemplates/Index"
+    ],
+    "intentional_hub_or_T3AF:T3AF": [
+      "/ExtNsT3AF/AIContext/Index",
+      "/ExtNsT3AF/AIFeatures/Index",
+      "/ExtNsT3AF/AIPrompts/Index",
+      "/ExtNsT3AF/AIProviders/Index",
+      "/ExtNsT3AF/AIUsageAndLogs/Index",
+      "/ExtNsT3AF/Appendix/Index",
+      "/ExtNsT3AF/Architecture/Index",
+      "/ExtNsT3AF/Configuration/AIContext/Index",
+      "/ExtNsT3AF/Configuration/AIFeatures/Index",
+      "/ExtNsT3AF/Configuration/AIPermissions/Index",
+      "/ExtNsT3AF/Configuration/AIPrompts/Index",
+      "/ExtNsT3AF/Configuration/AIProviders/Index",
+      "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+      "/ExtNsT3AF/Configuration/Dashboard/Index",
+      "/ExtNsT3AF/Configuration/GovernanceAndAccess/Index",
+      "/ExtNsT3AF/Configuration/Index",
+      "/ExtNsT3AF/Dashboard/Index",
+      "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+      "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+      "/ExtNsT3AF/DeveloperGuide/CustomAiAccess/Index",
+      "/ExtNsT3AF/DeveloperGuide/CustomAiFeatures/Index",
+      "/ExtNsT3AF/DeveloperGuide/CustomAiPrompts/Index",
+      "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+      "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+      "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+      "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+      "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+      "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+      "/ExtNsT3AF/DeveloperGuide/Index",
+      "/ExtNsT3AF/DeveloperGuide/T3PlanetCredits/Index",
+      "/ExtNsT3AF/FAQ/Index",
+      "/ExtNsT3AF/GetThisExtension/Index",
+      "/ExtNsT3AF/GovernanceAndAccess/Index",
+      "/ExtNsT3AF/HelpfulLinks/Index",
+      "/ExtNsT3AF/Index",
+      "/ExtNsT3AF/Installation/Index",
+      "/ExtNsT3AF/Integrations/Index",
+      "/ExtNsT3AF/Integrations/MCPServer/Index",
+      "/ExtNsT3AF/Integrations/MCPTesting/Index",
+      "/ExtNsT3AF/Integrations/MCPTools/Index",
+      "/ExtNsT3AF/Introduction/Index",
+      "/ExtNsT3AF/KnownProblems/Index",
+      "/ExtNsT3AF/MCPServer/Index",
+      "/ExtNsT3AF/MCPTesting/Index",
+      "/ExtNsT3AF/MCPTools/Index",
+      "/ExtNsT3AF/Privacy/Index",
+      "/ExtNsT3AF/ReleaseNotes/1.0.0/Index",
+      "/ExtNsT3AF/ReleaseNotes/Index",
+      "/ExtNsT3AF/Screenshots/Index",
+      "/ExtNsT3AF/SetupWizard/Index",
+      "/ExtNsT3AF/Support/Index",
+      "/ExtNsT3AF/SystemRequirements/Index",
+      "/ExtNsT3AF/T3PlanetCredits/Index",
+      "/ExtNsT3AF/T3PlanetCreditsQA/Index",
+      "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+      "/ExtNsT3AF/Troubleshooting/Index",
+      "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+      "/ExtNsT3AF/UpdateVersion/Index",
+      "/ExtNsT3AF/UpgradeGuide/Index",
+      "/ExtNsT3AF/Usage/Index",
+      "/ExtNsT3AF/UserGuide/Index",
+      "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+      "/ExtNsT3AF/VideoTutorials/Index",
+      "/ExtNsT3AF/WhatDoesItDo/Index"
+    ],
+    "product:ExtNsT3AC": [
+      "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index"
+    ],
+    "product:ExtNsT3AI": [
+      "/ExtNsT3AI/Configuration/Index"
+    ],
+    "product:ExtNsT3AL": [
+      "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+      "/ExtNsT3AL/T3ALTerms(Glossary)/Index"
+    ],
+    "product:ExtNsT3AS": [
+      "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index"
+    ],
+    "product:SLA-skills": [
+      "/SLA-skills"
+    ]
+  },
+  "CASE_MISMATCH": [],
+  "PATH_MISMATCH": [
+    {
+      "live": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+      "mintlify": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+      "reason": "url_decode_special_chars",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Configuration/AIContext/Index",
+      "mintlify": "/ExtNsT3AF/Configuration/AIContext/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Configuration/AIFeatures/Index",
+      "mintlify": "/ExtNsT3AF/Configuration/AIFeatures/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Configuration/AIPermissions/Index",
+      "mintlify": "/ExtNsT3AF/Configuration/AIPermissions/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Configuration/AIPrompts/Index",
+      "mintlify": "/ExtNsT3AF/Configuration/AIPrompts/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Configuration/AIProviders/Index",
+      "mintlify": "/ExtNsT3AF/Configuration/AIProviders/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+      "mintlify": "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Configuration/Dashboard/Index",
+      "mintlify": "/ExtNsT3AF/Configuration/Dashboard/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Configuration/Index",
+      "mintlify": "/ExtNsT3AF/Configuration/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/DeveloperGuide/Index",
+      "mintlify": "/ExtNsT3AF/DeveloperGuide/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/HelpfulLinks/Index",
+      "mintlify": "/ExtNsT3AF/HelpfulLinks/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Index",
+      "mintlify": "/ExtNsT3AF/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Installation/Index",
+      "mintlify": "/ExtNsT3AF/Installation/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Integrations/Index",
+      "mintlify": "/ExtNsT3AF/Integrations/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Integrations/MCPServer/Index",
+      "mintlify": "/ExtNsT3AF/Integrations/MCPServer/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Integrations/MCPTesting/Index",
+      "mintlify": "/ExtNsT3AF/Integrations/MCPTesting/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Integrations/MCPTools/Index",
+      "mintlify": "/ExtNsT3AF/Integrations/MCPTools/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Introduction/Index",
+      "mintlify": "/ExtNsT3AF/Introduction/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Support/Index",
+      "mintlify": "/ExtNsT3AF/Support/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+      "mintlify": "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Troubleshooting/Index",
+      "mintlify": "/ExtNsT3AF/Troubleshooting/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+      "mintlify": "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/UserGuide/Index",
+      "mintlify": "/ExtNsT3AF/UserGuide/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+      "mintlify": "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+      "mintlify": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+      "reason": "url_decode_special_chars",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+      "mintlify": "/ExtNsT3AL/T3ALTerms(Glossary)/Index",
+      "reason": "url_decode_special_chars",
+      "mint_exists": true
+    },
+    {
+      "live": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index",
+      "mintlify": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+      "reason": "url_decode_special_chars",
+      "mint_exists": true
+    }
+  ],
+  "suggested_redirects": [
+    {
+      "from": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+      "to": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+      "reason": "url_decode_special_chars",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Configuration/AIContext/Index",
+      "to": "/ExtNsT3AF/Configuration/AIContext/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Configuration/AIFeatures/Index",
+      "to": "/ExtNsT3AF/Configuration/AIFeatures/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Configuration/AIPermissions/Index",
+      "to": "/ExtNsT3AF/Configuration/AIPermissions/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Configuration/AIPrompts/Index",
+      "to": "/ExtNsT3AF/Configuration/AIPrompts/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Configuration/AIProviders/Index",
+      "to": "/ExtNsT3AF/Configuration/AIProviders/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+      "to": "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Configuration/Dashboard/Index",
+      "to": "/ExtNsT3AF/Configuration/Dashboard/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Configuration/Index",
+      "to": "/ExtNsT3AF/Configuration/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/DeveloperGuide/Index",
+      "to": "/ExtNsT3AF/DeveloperGuide/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/HelpfulLinks/Index",
+      "to": "/ExtNsT3AF/HelpfulLinks/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Index",
+      "to": "/ExtNsT3AF/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Installation/Index",
+      "to": "/ExtNsT3AF/Installation/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Integrations/Index",
+      "to": "/ExtNsT3AF/Integrations/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Integrations/MCPServer/Index",
+      "to": "/ExtNsT3AF/Integrations/MCPServer/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Integrations/MCPTesting/Index",
+      "to": "/ExtNsT3AF/Integrations/MCPTesting/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Integrations/MCPTools/Index",
+      "to": "/ExtNsT3AF/Integrations/MCPTools/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Introduction/Index",
+      "to": "/ExtNsT3AF/Introduction/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Support/Index",
+      "to": "/ExtNsT3AF/Support/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+      "to": "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Troubleshooting/Index",
+      "to": "/ExtNsT3AF/Troubleshooting/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+      "to": "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/UserGuide/Index",
+      "to": "/ExtNsT3AF/UserGuide/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+      "to": "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+      "reason": "ExtNsT3AF_to_T3AF",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+      "to": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+      "reason": "url_decode_special_chars",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+      "to": "/ExtNsT3AL/T3ALTerms(Glossary)/Index",
+      "reason": "url_decode_special_chars",
+      "mint_exists": true
+    },
+    {
+      "from": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index",
+      "to": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+      "reason": "url_decode_special_chars",
+      "mint_exists": true
+    },
+    {
+      "from": "/genindex",
+      "to": null,
+      "reason": "sphinx_utility_page",
+      "mint_exists": false
+    },
+    {
+      "from": "/history",
+      "to": null,
+      "reason": "sphinx_utility_page",
+      "mint_exists": false
+    },
+    {
+      "from": "/py-modindex",
+      "to": null,
+      "reason": "sphinx_utility_page",
+      "mint_exists": false
+    },
+    {
+      "from": "/search",
+      "to": null,
+      "reason": "sphinx_utility_page",
+      "mint_exists": false
+    }
+  ],
+  "LIVE_ONLY_with_redirect": [
+    {
+      "live": "/ExtNsT3AF/Index",
+      "source": "/AIUniverse",
+      "destination": "/ExtNsT3AF/Index",
+      "suggested_to": "/ExtNsT3AF/Index"
+    }
+  ],
+  "LIVE_ONLY_without_redirect": [
+    "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+    "/ExtNsT3AF/Configuration/AIContext/Index",
+    "/ExtNsT3AF/Configuration/AIFeatures/Index",
+    "/ExtNsT3AF/Configuration/AIPermissions/Index",
+    "/ExtNsT3AF/Configuration/AIPrompts/Index",
+    "/ExtNsT3AF/Configuration/AIProviders/Index",
+    "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+    "/ExtNsT3AF/Configuration/Dashboard/Index",
+    "/ExtNsT3AF/Configuration/Index",
+    "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+    "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+    "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+    "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+    "/ExtNsT3AF/DeveloperGuide/Index",
+    "/ExtNsT3AF/HelpfulLinks/Index",
+    "/ExtNsT3AF/Installation/Index",
+    "/ExtNsT3AF/Integrations/Index",
+    "/ExtNsT3AF/Integrations/MCPServer/Index",
+    "/ExtNsT3AF/Integrations/MCPTesting/Index",
+    "/ExtNsT3AF/Integrations/MCPTools/Index",
+    "/ExtNsT3AF/Introduction/Index",
+    "/ExtNsT3AF/Support/Index",
+    "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+    "/ExtNsT3AF/Troubleshooting/Index",
+    "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+    "/ExtNsT3AF/UserGuide/Index",
+    "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+    "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+    "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+    "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index",
+    "/genindex",
+    "/history",
+    "/py-modindex",
+    "/search"
+  ],
+  "http_sample_checks": [
+    {
+      "slug": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Configuration/AIContext/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/AIContext/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Configuration/AIFeatures/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Configuration/AIPermissions/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Configuration/AIPrompts/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/AIPrompts/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Configuration/AIProviders/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/AIProviders/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Configuration/Dashboard/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/Dashboard/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Configuration/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/DeveloperGuide/Architecture/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/DeveloperGuide/CustomProviders/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AL/T3ALTerms%28Glossary%29/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/ExtNsT3AF/Index",
+      "url": "https://docs.t3planet.de/en/latest/ExtNsT3AF/Index.html",
+      "status": 200
+    },
+    {
+      "slug": "/search",
+      "url": "https://docs.t3planet.de/en/latest/search.html",
+      "status": 200
+    }
+  ],
+  "navigation_notes": {
+    "nav_structure_sample": [
+      {
+        "label": "Home",
+        "first_pages": [
+          "index",
+          "AIFoundationExtensions/Index",
+          "AllTemplates/Index",
+          "AllExtensions/Index"
+        ]
+      },
+      {
+        "label": "Get Started",
+        "first_pages": [
+          "License & Installation"
+        ]
+      },
+      {
+        "label": "License & Installation",
+        "first_pages": [
+          "License/Introduction/Index",
+          "License/GenerateLicenseKey/Index",
+          "License/LicenseManager/Index",
+          "License/ExtendTrial/Index",
+          "License/RenewPurchase/Index"
+        ]
+      },
+      {
+        "label": "AI Universe Extensions",
+        "first_pages": [
+          "T3AF",
+          "T3AA",
+          "T3AB",
+          "T3AC",
+          "T3AI"
+        ]
+      },
+      {
+        "label": "T3AF",
+        "first_pages": [
+          "ExtNsT3AF/Introduction/Index",
+          "ExtNsT3AF/Installation/Index",
+          "Configuration",
+          "Integrations",
+          "User Guide"
+        ]
+      },
+      {
+        "label": "Configuration",
+        "first_pages": [
+          "ExtNsT3AF/Configuration/Index",
+          "ExtNsT3AF/Configuration/Dashboard/Index",
+          "ExtNsT3AF/Configuration/AIProviders/Index",
+          "ExtNsT3AF/Configuration/AIContext/Index",
+          "ExtNsT3AF/Configuration/AIPrompts/Index"
+        ]
+      },
+      {
+        "label": "Integrations",
+        "first_pages": [
+          "ExtNsT3AF/Integrations/Index",
+          "ExtNsT3AF/Integrations/MCPServer/Index",
+          "ExtNsT3AF/Integrations/MCPTools/Index",
+          "ExtNsT3AF/Integrations/MCPTesting/Index"
+        ]
+      },
+      {
+        "label": "User Guide",
+        "first_pages": [
+          "ExtNsT3AF/UserGuide/Index",
+          "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index"
+        ]
+      },
+      {
+        "label": "Developer Guide",
+        "first_pages": [
+          "ExtNsT3AF/DeveloperGuide/Index",
+          "ExtNsT3AF/DeveloperGuide/Architecture/Index",
+          "ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+          "ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+          "ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index"
+        ]
+      },
+      {
+        "label": "Troubleshooting",
+        "first_pages": [
+          "ExtNsT3AF/Troubleshooting/Index",
+          "ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+          "ExtNsT3AF/Troubleshooting/FAQ/Index"
+        ]
+      },
+      {
+        "label": "T3AA",
+        "first_pages": [
+          "ExtNsT3AA/Introduction/Index",
+          "ExtNsT3AA/Screenshots/Index",
+          "ExtNsT3AA/SystemRequirements/Index",
+          "ExtNsT3AA/Installation/Index",
+          "ExtNsT3AA/ReInstallEverything/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "ExtNsT3AA/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3AB",
+        "first_pages": [
+          "ExtNsT3AB/Introduction/Index",
+          "ExtNsT3AB/SystemRequirements/Index",
+          "ExtNsT3AB/Installation/Index",
+          "ExtNsT3AB/Configuration/Index",
+          "ExtNsT3AB/HowT3ABWorks/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "ExtNsT3AB/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3AC",
+        "first_pages": [
+          "ExtNsT3AC/Introduction/Index",
+          "ExtNsT3AC/Screenshots/Index",
+          "ExtNsT3AC/Installation/Index",
+          "ExtNsT3AC/ReInstallEverything/Index",
+          "ExtNsT3AC/Configuration/Index"
+        ]
+      },
+      {
+        "label": "Custom LLM",
+        "first_pages": [
+          "ExtNsT3AC/CustomLLMSupport/Index",
+          "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+          "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index"
+        ]
+      },
+      {
+        "label": "Features",
+        "first_pages": [
+          "ExtNsT3AC/FeatureGuide/Index",
+          "ExtNsT3AC/FeatureGuide/Dashboard/Index",
+          "ExtNsT3AC/FeatureGuide/DataSource/Index",
+          "ExtNsT3AC/FeatureGuide/TrainingCenter/Index",
+          "ExtNsT3AC/FeatureGuide/Chatbot/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "ExtNsT3AC/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3AI",
+        "first_pages": [
+          "ExtNsT3AI/Introduction/Index",
+          "ExtNsT3AI/Screenshots/Index",
+          "ExtNsT3AI/VideoTutorials/Index",
+          "ExtNsT3AI/SystemRequirements/Index",
+          "ExtNsT3AI/Installation/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "ExtNsT3AI/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3AL",
+        "first_pages": [
+          "ExtNsT3AL/Introduction/Index",
+          "ExtNsT3AL/Screenshots/Index",
+          "ExtNsT3AL/VideoTutorials/Index",
+          "ExtNsT3AL/SystemRequirements/Index",
+          "ExtNsT3AL/Installation/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "ExtNsT3AL/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3AS",
+        "first_pages": [
+          "ExtNsT3AS/Introduction/Index",
+          "ExtNsT3AS/Screenshots/Index",
+          "ExtNsT3AS/Installation/Index",
+          "ExtNsT3AS/ReInstallEverything/Index",
+          "ExtNsT3AS/Configuration/Index"
+        ]
+      },
+      {
+        "label": "Custom LLM",
+        "first_pages": [
+          "ExtNsT3AS/CustomLLMSupport/Index",
+          "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+          "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "ExtNsT3AS/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3 Templates & Themes",
+        "first_pages": [
+          "T3 Avatar",
+          "T3 Ayu",
+          "T3 Bootstrap",
+          "T3 Karma",
+          "T3 React Bootstrap"
+        ]
+      },
+      {
+        "label": "T3 Avatar",
+        "first_pages": [
+          "EXTAvatar/Introduction/Index",
+          "EXTAvatar/Installation/Index",
+          "EXTAvatar/GlobalSettingsConfiguration/Index",
+          "EXTAvatar/TemplatesLayouts/Index",
+          "EXTAvatar/MaskElements/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "EXTAvatar/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3 Ayu",
+        "first_pages": [
+          "EXTAyu/Introduction/Index",
+          "EXTAyu/InstallationT3AyuTheme/Index",
+          "EXTAyu/InstallationT3AyuReactjs/Index",
+          "EXTAyu/GlobalSettingsConfiguration/Index",
+          "EXTAyu/CustomElements/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "EXTAyu/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3 Bootstrap",
+        "first_pages": [
+          "EXTBootstrap/Introduction/Index",
+          "EXTBootstrap/Installation/Index",
+          "EXTBootstrap/GlobalSettingsConfiguration/Index",
+          "EXTBootstrap/TemplatesLayouts/Index",
+          "EXTBootstrap/CustomElements/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "EXTBootstrap/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3 Karma",
+        "first_pages": [
+          "EXTKarma/Introduction/Index",
+          "EXTKarma/Installation/Index",
+          "EXTKarma/GlobalSettingsConfiguration/Index",
+          "EXTKarma/TemplatesLayouts/Index",
+          "EXTKarma/ContentBlockElements/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "EXTKarma/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3 React Bootstrap",
+        "first_pages": [
+          "EXTReactBootstrap/Introduction/Index",
+          "EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index",
+          "EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index",
+          "EXTReactBootstrap/GlobalSettingsConfiguration/Index",
+          "EXTReactBootstrap/CustomElements/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "EXTReactBootstrap/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3 Reva",
+        "first_pages": [
+          "EXTReva/Introduction/Index",
+          "EXTReva/InstallationT3RevaTheme/Index",
+          "EXTReva/InstallationT3RevaReactjs/Index",
+          "EXTReva/GlobalSettingsConfiguration/Index",
+          "EXTReva/CustomElements/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "EXTReva/UpdateVersion/Index"
+        ]
+      },
+      {
+        "label": "T3 Shiva",
+        "first_pages": [
+          "EXTShiva/Introduction/Index",
+          "EXTShiva/InstallationT3ShivaTheme/Index",
+          "EXTShiva/InstallationT3ShivaReactjs/Index",
+          "EXTShiva/GlobalSettingsConfiguration/Index",
+          "EXTShiva/CustomElements/Index"
+        ]
+      },
+      {
+        "label": "Updates",
+        "first_pages": [
+          "EXTShiva/UpdateVersion/Index"
+        ]
+      }
+    ],
+    "note": "Compare top-level product order between RTD toctree and Mintlify navigation tabs/groups"
+  },
+  "live_docs_mirror": "Live-docs/ mirror not present in repo",
+  "known_renames_tracked": {
+    "AIUniverse": "T3AF",
+    "AIFoundation": "T3AF"
+  },
+  "intentional_hubs": [
+    "AIFoundationExtensions",
+    "AllExtensions",
+    "AllTemplates",
+    "T3AF"
+  ],
+  "redirect_coverage_refined": {
+    "ExtNsT3AF_live_only": 31,
+    "ExtNsT3AF_mint_target_exists": 31,
+    "ExtNsT3AF_has_docs_json_redirect": 1,
+    "redirects_ExtNsT3AF_sources": 0,
+    "redirects_AIUniverse_sources": 12,
+    "redirects_AIFoundation_sources": 10,
+    "other_LIVE_ONLY": [
+      "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+      "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+      "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+      "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index",
+      "/genindex",
+      "/history",
+      "/py-modindex",
+      "/search"
+    ],
+    "note": "Live product slug is ExtNsT3AF; Mintlify uses T3AF. Critical: add /ExtNsT3AF/* → /ExtNsT3AF/* redirects if missing.",
+    "wildcard_redirects": {
+      "/AIUniverse/:path*": "/ExtNsT3AF/:path*",
+      "/AIFoundation/:path*": "/ExtNsT3AF/:path*",
+      "/ExtNsT3AF/:path*": "MISSING — live RTD uses ExtNsT3AF; critical gap"
+    },
+    "critical_assessment": "Legacy AIUniverse/AIFoundation wildcards redirect to T3AF, but live docs.t3planet.de serves ExtNsT3AF/*.html (HTTP 200). Those live slugs have NO docs.json redirects. Encoding mismatches (%26 vs &) are false LIVE_ONLY if Mintlify has literal-& paths."
+  }
+}

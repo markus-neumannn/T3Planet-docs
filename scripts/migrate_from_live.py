@@ -2,7 +2,8 @@
 """Fetch Sphinx RST HTML from docs.t3planet.de and convert to Mintlify MDX.
 
 Usage:
-  python3 scripts/migrate_from_live.py ExtNsT3AF/Installation/Index.html T3AF/Installation/Index.md
+  python3 scripts/migrate_from_live.py ExtNsT3AF/Installation/Index.html ExtNsT3AF/Installation/Index.md
+  python3 scripts/migrate_from_live.py --merge ExtNsT3AF/Installation/Index
   python3 scripts/migrate_from_live.py --batch scripts/migration-batch-ai.json
 """
 from __future__ import annotations
@@ -22,19 +23,22 @@ ROOT = Path(__file__).resolve().parents[1]
 LIVE_BASE = "https://docs.t3planet.de/en/latest/"
 USER_AGENT = "MintlifyDoc-Migrator/2.0"
 
-# Product root remaps (live folder → mint folder)
-PRODUCT_ROOT_MAP = {
-    "ExtNsT3AF": "T3AF",
+# Product root remaps (live folder → mint folder). Canonical mint paths use ExtNsT3AF.
+PRODUCT_ROOT_MAP: dict[str, str] = {}
+
+# Live-only alias folders that map to canonical mint roots
+LIVE_ROOT_ALIASES = {
+    "T3AF": "ExtNsT3AF",
 }
+
+# Leaf pages that become GetThisExtension/Index under ExtNsT3AF
+BUYNOW_ALIASES = {"BuyNow", "buynow"}
 
 # Path segment remaps applied inside product trees
 SEGMENT_MAP = {
     "AIPermissions": "GovernanceAndAccess",
     "QuickSetup": "SetupWizard",
 }
-
-# Leaf pages that become GetThisExtension/Index under T3AF only
-BUYNOW_ALIASES = {"BuyNow", "buynow"}
 
 ADMONITION_TAGS = {
     "note": "Note",
@@ -101,7 +105,6 @@ PROTECTED_TAGS = {
 }
 
 PRODUCT_KEYWORDS = {
-    "T3AF": "AI Foundation",
     "ExtNsT3AF": "AI Foundation",
     "ExtNsT3AI": "T3AI",
     "ExtNsT3AC": "T3AC",
@@ -115,11 +118,17 @@ def normalize_live_rel(live: str) -> str:
     live = live.strip()
     live = re.sub(r"^https?://docs\.t3planet\.de/(?:[a-z]{2}/)?latest/", "", live)
     live = live.lstrip("/")
-    return unquote(live)
+    live = unquote(live)
+    if live.endswith(".html"):
+        live = live[:-5]
+    parts = [p for p in live.split("/") if p and p != "."]
+    if parts and parts[0] in LIVE_ROOT_ALIASES:
+        parts[0] = LIVE_ROOT_ALIASES[parts[0]]
+    return "/".join(parts)
 
 
 def map_segment(seg: str, mint_root: str) -> str:
-    if seg in BUYNOW_ALIASES and mint_root == "T3AF":
+    if seg in BUYNOW_ALIASES and mint_root == "ExtNsT3AF":
         return "GetThisExtension"
     return SEGMENT_MAP.get(seg, seg)
 
@@ -148,9 +157,9 @@ def live_to_mint_path(live_rel: str) -> str:
         return f"{mint_root}/Index.md"
 
     last = rest[-1]
-    # Flat leaf pages (BuyNow.html / Support.html) for non-T3AF products
+    # Flat leaf pages (BuyNow.html / Support.html)
     if len(rest) == 1 and last != "Index":
-        if mint_root == "T3AF":
+        if mint_root == "ExtNsT3AF":
             if last == "GetThisExtension":
                 return f"{mint_root}/GetThisExtension/Index.md"
             if last == "Support":
@@ -705,11 +714,90 @@ def run_batch(batch_path: Path) -> dict:
     return results
 
 
+def merge_one(live: str, mint: str | None = None) -> dict:
+    """Surgical merge one page using reconcile migrator (preserves CardGroups)."""
+    import importlib.util
+
+    live_rel = normalize_live_rel(live)
+    mint_rel = mint or live_to_mint_path(live_rel)
+    reconcile_path = ROOT / "scripts/qa-final/reconcile_migrate_from_live.py"
+    rem_path = ROOT / "scripts/qa-final/remigrate_t3ac_t3as_t3af_aug10.py"
+    spec = importlib.util.spec_from_file_location("remigrate", rem_path)
+    rem = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(rem)
+
+    mint_md = ROOT / mint_rel
+    row = {
+        "live": live_rel,
+        "mint": mint_rel,
+        "status": ["MISSING_CONTENT"],
+        "missing_sections": [],
+        "missing_images": [],
+        "missing_supademo": [],
+        "thin": False,
+        "code_diff": {"has_diff": True},
+        "link_diff": {"has_diff": False},
+    }
+    actions = {
+        "pages_created": [],
+        "pages_updated": [],
+        "supademos_added": {},
+        "images_added": {},
+        "sections_added": {},
+        "nav_added": [],
+        "files_modified": [],
+        "errors": [],
+    }
+    spec2 = importlib.util.spec_from_file_location("reconcile_migrate", reconcile_path)
+    rec = importlib.util.module_from_spec(spec2)
+    spec2.loader.exec_module(rec)
+
+    try:
+        html, _ = rem.get_html(live_rel)
+        live_ex = rem.extract_live(html)
+        if mint_md.is_file():
+            mint_ex = rem.extract_mint(mint_md)
+            row["missing_sections"] = rem.missing_sections(live_ex["headings"], mint_ex["headings"])
+            row["missing_images"] = rem.missing_images(live_ex["images"], mint_ex)
+            row["missing_supademo"] = [
+                i for i in live_ex["supademo_ids"] if i not in mint_ex["supademo_ids"]
+            ]
+            ratio = mint_ex["text_len"] / live_ex["text_len"] if live_ex["text_len"] else 1.0
+            row["thin"] = ratio < 0.45 and live_ex["text_len"] > 600
+        else:
+            row["status"] = ["NEW_PAGE"]
+    except Exception as exc:
+        return {"live": live_rel, "mint": mint_rel, "ok": False, "error": str(exc)}
+
+    changed = rec.migrate_row(row, actions)
+    if row["status"] == ["NEW_PAGE"] and not changed:
+        try:
+            path = rem.create_page_from_live(live_rel)
+            changed = True
+            actions["pages_created"].append(live_rel)
+            actions["files_modified"].append(str(path.relative_to(ROOT)))
+        except Exception as exc:
+            return {"live": live_rel, "mint": mint_rel, "ok": False, "error": str(exc)}
+
+    return {
+        "live": live_rel,
+        "mint": mint_rel,
+        "ok": True,
+        "merged": changed,
+        "actions": actions,
+    }
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Migrate live Sphinx HTML to Mintlify MDX")
     parser.add_argument("live", nargs="?", help="Live path e.g. ExtNsT3AF/Installation/Index.html")
-    parser.add_argument("mint", nargs="?", help="Mint path e.g. T3AF/Installation/Index.md")
+    parser.add_argument("mint", nargs="?", help="Mint path e.g. ExtNsT3AF/Installation/Index.md")
     parser.add_argument("--batch", help="Batch JSON file with {live, mint, product, key} entries")
+    parser.add_argument(
+        "--merge",
+        action="store_true",
+        help="Surgical merge (preserve CardGroups) instead of full-file overwrite",
+    )
     args = parser.parse_args(argv)
 
     if args.batch:
@@ -728,6 +816,14 @@ def main(argv: list[str] | None = None) -> int:
 
     if not args.live:
         parser.error("Provide LIVE MINT paths or --batch FILE")
+
+    if args.merge:
+        result = merge_one(args.live, args.mint)
+        if not result.get("ok"):
+            print(f"FAIL: {result.get('error')}", file=sys.stderr)
+            return 1
+        print(f"Merged {result['mint']} (changed={result.get('merged')})")
+        return 0
 
     result = migrate_one(args.live, args.mint)
     if not result["ok"]:

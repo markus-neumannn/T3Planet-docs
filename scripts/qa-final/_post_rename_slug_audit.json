@@ -1,0 +1,41 @@
+{
+  "total_live": 746,
+  "index_md": 663,
+  "non_index_md": 115,
+  "nav_pages": 674,
+  "mint_union": 780,
+  "LIVE_ONLY_total": 10,
+  "LIVE_ONLY_sphinx": [
+    "/genindex",
+    "/history",
+    "/py-modindex",
+    "/readme",
+    "/search"
+  ],
+  "LIVE_ONLY_content_count": 5,
+  "LIVE_ONLY_content": [
+    "/ExtNsFriendlyCaptcha/FAQ",
+    "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+    "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+    "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+    "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index"
+  ],
+  "encoding_only": [
+    "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+    "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+    "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+    "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index"
+  ],
+  "true_missing": [],
+  "ExtNsT3AF_LIVE_ONLY_content": [],
+  "all_live_percent_encoded": [
+    "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
+    "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
+    "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
+    "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index"
+  ],
+  "index_suffix_mismatch": [
+    "/ExtNsFriendlyCaptcha/FAQ"
+  ],
+  "classification_note": "encoding-only: percent-encoded live vs decoded mint on disk; index_suffix: live omits Index but FAQ/Index.md exists"
+}

@@ -59,3 +59,7 @@ Below are the links for generating API keys for various AI models used in T3AL. 
 - [Google Translate](https://cloud.google.com/docs/authentication/api-keys)
 - [Gemini](https://ai.google.dev/gemini-api/docs/api-key)
 - [Claude](https://docs.anthropic.com/en/api/getting-started#accessing-the-api)
+
+## Figures
+
+![T3AL_Configuration](./images/Configuration1.png)

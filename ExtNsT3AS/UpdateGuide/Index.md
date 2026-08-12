@@ -57,9 +57,9 @@ Install and configure `EXT:ns_t3af` first. Then configure the AI Provider from T
 
 Review these pages if needed:
 
-- [T3AF Installation](/T3AF/Installation/Index)
-- [T3AF Configuration](/T3AF/Configuration/Index)
-- [AI Providers](/T3AF/Configuration/AIProviders/Index)
+- [T3AF Installation](/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
 
 **Step 6 — Complete T3AS setup**
 

@@ -42,3 +42,7 @@ https://www.youtube.com/watch?v=SN5HoFQcDM4
 
 **Extension Via Composer**
 https://www.youtube.com/watch?v=_7ILu4lwU-k
+
+## Figures
+
+![TYPO3-Revolution-Slider-Include-Template](./images/TYPO3-Revolution-Slider-Include-Template1.png)

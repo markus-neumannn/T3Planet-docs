@@ -95,3 +95,7 @@ Step 3. Switch to Error Handling tab and click on Create New button.
 Step 4. Set appropriate HTTP Error Status Code and set how to Handle Errors field.
 
 ![How to set error handling in site?](./images/how_to_set_error_handling_in_site.webp)
+
+## Figures
+
+![Update Extension Repository](./images/update-ext-repository4.png)
