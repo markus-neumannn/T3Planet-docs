@@ -1,11 +1,6 @@
 ---
 title: "Download, Logs & History"
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ns_Backup"
-  - "Download, Logs & History"
-  - "DownloadsLogsHistory"
+keywords: ["TYPO3", "T3Planet", "ns_Backup", "Download, Logs & History", "DownloadsLogsHistory"]
 sidebarTitle: "Download, Logs & History"
 ---
 

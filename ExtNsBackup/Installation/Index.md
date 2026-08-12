@@ -1,10 +1,6 @@
 ---
 title: "Installation"
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ns_Backup"
-  - "Installation"
+keywords: ["TYPO3", "T3Planet", "ns_Backup", "Installation"]
 sidebarTitle: "Installation"
 ---
 

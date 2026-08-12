@@ -1,11 +1,7 @@
 ---
 title: "Introduction"
 description: "NS Backup TYPO3 extension is first-ever all-in-one TYPO3 backup solution."
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ns_Backup"
-  - "Introduction"
+keywords: ["TYPO3", "T3Planet", "ns_Backup", "Introduction"]
 sidebarTitle: "Introduction"
 ---
 

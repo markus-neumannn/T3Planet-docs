@@ -1,12 +1,7 @@
 ---
 title: "Connect Clouds/Servers"
 description: "We highly recommend to take your backup to another clouds or server, because self-hosted backup is not the secure-way."
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ns_Backup"
-  - "Connect Clouds/Servers"
-  - "ConnectClouds"
+keywords: ["TYPO3", "T3Planet", "ns_Backup", "Connect Clouds/Servers", "ConnectClouds"]
 sidebarTitle: "Connect Clouds/Servers"
 ---
 

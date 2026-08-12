@@ -1676,6 +1676,74 @@
             ]
           }
         ]
+      },
+      {
+        "group": "ExtNsBackup",
+        "pages": [
+          "ExtNsBackup/BuyNow",
+          "ExtNsBackup/Index",
+          "ExtNsBackup/Support",
+          {
+            "group": "ConnectClouds",
+            "pages": [
+              "ExtNsBackup/ConnectClouds/Index"
+            ]
+          },
+          {
+            "group": "DownloadsLogsHistory",
+            "pages": [
+              "ExtNsBackup/DownloadsLogsHistory/Index"
+            ]
+          },
+          {
+            "group": "GlobalSettings",
+            "pages": [
+              "ExtNsBackup/GlobalSettings/Index"
+            ]
+          },
+          {
+            "group": "Installation",
+            "pages": [
+              "ExtNsBackup/Installation/Index"
+            ]
+          },
+          {
+            "group": "Introduction",
+            "pages": [
+              "ExtNsBackup/Introduction/Index"
+            ]
+          },
+          {
+            "group": "ScheduleBackup",
+            "pages": [
+              "ExtNsBackup/ScheduleBackup/Index"
+            ]
+          },
+          {
+            "group": "StartOneClickBackup",
+            "pages": [
+              "ExtNsBackup/StartOneClickBackup/Index"
+            ]
+          },
+          {
+            "group": "SystemRequirement",
+            "pages": [
+              "ExtNsBackup/SystemRequirement/Index"
+            ]
+          },
+          {
+            "group": "UpdateVersion",
+            "pages": [
+              "ExtNsBackup/UpdateVersion/Index"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "AIFoundationExtensions",
+        "pages": [
+          "AIFoundationExtensions/Index"
+        ]
       }
     ]
   },

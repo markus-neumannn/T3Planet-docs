@@ -1,11 +1,6 @@
 ---
 title: "Start One-Click Backup"
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ns_Backup"
-  - "Start One-Click Backup"
-  - "StartOneClickBackup"
+keywords: ["TYPO3", "T3Planet", "ns_Backup", "Start One-Click Backup", "StartOneClickBackup"]
 sidebarTitle: "Start One-Click Backup"
 ---
 

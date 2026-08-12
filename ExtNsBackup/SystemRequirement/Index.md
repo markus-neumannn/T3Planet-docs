@@ -1,12 +1,7 @@
 ---
 title: "System Requirement"
 description: "For backup and scheduler, we have installed and configured one of the most popular PHPBU solution."
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ns_Backup"
-  - "System Requirement"
-  - "SystemRequirement"
+keywords: ["TYPO3", "T3Planet", "ns_Backup", "System Requirement", "SystemRequirement"]
 sidebarTitle: "System Requirement"
 ---
 

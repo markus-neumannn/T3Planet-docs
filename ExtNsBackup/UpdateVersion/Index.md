@@ -1,11 +1,6 @@
 ---
 title: "Update Version"
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ns_Backup"
-  - "Update Version"
-  - "UpdateVersion"
+keywords: ["TYPO3", "T3Planet", "ns_Backup", "Update Version", "UpdateVersion"]
 sidebarTitle: "Update Version"
 ---
 

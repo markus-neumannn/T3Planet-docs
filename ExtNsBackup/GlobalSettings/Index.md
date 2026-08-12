@@ -1,11 +1,6 @@
 ---
 title: "Global Settings"
-keywords:
-  - "TYPO3"
-  - "T3Planet"
-  - "ns_Backup"
-  - "Global Settings"
-  - "GlobalSettings"
+keywords: ["TYPO3", "T3Planet", "ns_Backup", "Global Settings", "GlobalSettings"]
 sidebarTitle: "Global Settings"
 ---
 
