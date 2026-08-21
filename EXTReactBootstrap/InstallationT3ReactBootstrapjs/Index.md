@@ -23,7 +23,7 @@ Prerequisites > React & Next is built on top of Node.js. To get up and running w
 
 **Step 1.** Get Frontend Reactjs/Nextjs app-code from /typo3conf/ext/ns_theme_t3reactbootstrap/frontend_t3reactbootstrap.zip/ You should able to see the following structure once unzip.
 
-![root-folder-structure](https://docs.t3planet.de/en/latest/_images/root-folder-structure2.png)
+![root-folder-structure](./images/root-folder-structure2.png)
 
 **Step 2.** Connection with Your Backend/API At the same place please create “.env” file to connecting your backend CMS or we can say API’s. and then write the following two lines.
 
@@ -39,7 +39,7 @@ NEXT_PUBLIC_TYPO3_MEDIA=fileadmin
 "“npm i OR  yarn ""
 ```
 
-![install](https://docs.t3planet.de/en/latest/_images/install2.png)
+![install](./images/install2.png)
 
 **Step 4.** How To Run > To start our development server run command below.
 
@@ -49,7 +49,7 @@ NEXT_PUBLIC_TYPO3_MEDIA=fileadmin
 
 Now, Open your browser and visit [http://localhost:3000](http://localhost:3000) You should see a page like below.
 
-![landing_screen](https://docs.t3planet.de/en/latest/_images/landing_screen2.png)
+![landing_screen](./images/landing_screen2.webp)
 
 Wow! You are a genius. Now open the code editor and start hacking!
 
@@ -68,6 +68,6 @@ Wow! You are a genius. Now open the code editor and start hacking!
 - Connect vercel with our your gitlab, github, etc.
 - When perform commit on the master branch vercel will automatically deploy and serve output on the defined domain
 
-![vercel_login](https://docs.t3planet.de/en/latest/_images/vercel_login2.jpg)
+![vercel_login](./images/vercel_login2.jpg)
 
 Awesome! Now Your Site Is Ready To Publish.!

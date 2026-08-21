@@ -67,7 +67,7 @@ Log detail depends on [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index) pri
 1. Open AI Usage → check trend vs last week
 2. Compare to T3Planet Credits balance if applicable
 3. Scan AI Logs for repeated failures (same user, same feature)
-4. Escalate persistent errors to [Support](/ExtNsT3AF/Support) with log details
+4. Escalate persistent errors to [Support](/ExtNsT3AF/Support/Index) with log details
 
 ## When logs show high usage
 

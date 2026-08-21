@@ -32,7 +32,7 @@ Once Auth Token is generated, you need to set this at constants.
 
 ![Create Typo3 Form](./images/typo3_form.webp)
 
-- **Step 2:\*\*Add Zoho Value \*\*[add field name same as in zoho API]**
+- **Step 2:** Add Zoho Value **[add field name same as in zoho API]**
 
 ![Typo3 Form](./images/zoho_value.webp)
 

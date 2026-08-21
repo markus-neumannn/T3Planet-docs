@@ -17,13 +17,13 @@ sidebarTitle: "Home"
   <div className="t3-landing-hero t3-hero-large">
     <p className="t3-landing-eyebrow">T3Planet Documentation</p>
     <h1 className="t3-landing-title">Welcome to T3Planet Docs</h1>
-    <p className="t3-landing-subtitle">Build faster with TYPO3 extensions, templates and AI — official guides for installation, licensing, configuration, and updates.</p>
+    <p className="t3-landing-subtitle">Build faster with TYPO3 extensions, templates and AI — official guides for installation, license, configuration, and updates.</p>
     <button type="button" className="t3-search-trigger" data-t3-search-trigger aria-label="Search documentation...">
       <span>Search documentation...</span>
       <kbd>⌘K</kbd>
     </button>
   </div>
-  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">799</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">67</span><span className="t3-stat-label">Products</span></div></div>
+  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">798</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">67</span><span className="t3-stat-label">Products</span></div></div>
 </div>
 
 <CardGroup cols={4}>

@@ -1,0 +1,47 @@
+{
+  "results": [],
+  "verdict": "PASS",
+  "nav_ok": false,
+  "nav_samples": [
+    {
+      "text": "Search...\u2318K",
+      "gapPx": 8,
+      "dist": 0
+    },
+    {
+      "text": "Get Started",
+      "gapPx": 0,
+      "dist": 0
+    },
+    {
+      "text": "Search...",
+      "gapPx": 0,
+      "dist": -8.5
+    },
+    {
+      "text": "Navigation T3 Bootstrap T3 B",
+      "gapPx": 12,
+      "dist": -8.5
+    },
+    {
+      "text": "License & Installation",
+      "gapPx": 12,
+      "dist": 0
+    },
+    {
+      "text": "T3AF",
+      "gapPx": 12,
+      "dist": 0
+    },
+    {
+      "text": "T3AA",
+      "gapPx": 12,
+      "dist": 0
+    },
+    {
+      "text": "T3AB",
+      "gapPx": 12,
+      "dist": 0
+    }
+  ]
+}

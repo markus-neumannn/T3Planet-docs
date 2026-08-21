@@ -1,0 +1,55 @@
+{
+  "converted": 7,
+  "mb_saved_est": 2.39,
+  "items": [
+    {
+      "src": "EXTAyu/InstallationT3AyuReactjs/images/landing_screen.png",
+      "webp": "EXTAyu/InstallationT3AyuReactjs/images/landing_screen.webp",
+      "before": 668023,
+      "after": 51294,
+      "md": 1
+    },
+    {
+      "src": "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/images/Upgarde_wizard.png",
+      "webp": "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/images/Upgarde_wizard.webp",
+      "before": 235315,
+      "after": 45438,
+      "md": 1
+    },
+    {
+      "src": "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/images/Migrate_asset_path.png",
+      "webp": "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/images/Migrate_asset_path.webp",
+      "before": 256942,
+      "after": 46858,
+      "md": 1
+    },
+    {
+      "src": "ExtNsPersonio/Installation/images/activate_typoscript3.png",
+      "webp": "ExtNsPersonio/Installation/images/activate_typoscript3.webp",
+      "before": 235552,
+      "after": 84860,
+      "md": 1
+    },
+    {
+      "src": "EXTReva/InstallationT3RevaReactjs/images/landing_screen3.png",
+      "webp": "EXTReva/InstallationT3RevaReactjs/images/landing_screen3.webp",
+      "before": 350902,
+      "after": 45374,
+      "md": 1
+    },
+    {
+      "src": "ExtNsWhatsapp/Installation/images/Active_Typoscript.png",
+      "webp": "ExtNsWhatsapp/Installation/images/Active_Typoscript.webp",
+      "before": 312284,
+      "after": 53044,
+      "md": 1
+    },
+    {
+      "src": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/images/landing_screen2.png",
+      "webp": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/images/landing_screen2.webp",
+      "before": 819119,
+      "after": 45614,
+      "md": 1
+    }
+  ]
+}

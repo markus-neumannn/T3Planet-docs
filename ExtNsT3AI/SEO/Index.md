@@ -174,8 +174,6 @@ Boost your site’s visibility with T3AI’s AI Schema feature! Instantly genera
 
 **Step 3** - Now, select the AI-generated schema and click on ‘Save.’ Your schema is now implemented on your selected pages.
 
-![T3AI Dashboard](https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png)
-
 ## 2.AI Schema for Blog
 
 You can generate Schema for blogs also please follow below Steps.

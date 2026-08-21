@@ -63,7 +63,7 @@ Step 1: Go to Extension Manager
 
 Step 2: Select “Get extensions” from the drop-down at top. Update the Extension Repository by clicking on “Update Now” button at top-right.
 
-![Update Extension Repository](https://docs.t3planet.de/en/latest/_images/update-ext-repository3.png)
+![Update Extension Repository](./images/update-ext-repository3.png)
 
 Step 3: Once Repository is updated, switch back to Installed Extension view. Install Ext:ns_theme_extend.
 

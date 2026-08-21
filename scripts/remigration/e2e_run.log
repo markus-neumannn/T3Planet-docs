@@ -1,0 +1,949 @@
+Total nav paths: 683; already done: 0; to check: 683
+
+=== Batch 1/28 (25 pages) ===
+  [FAIL] /AIFoundationExtensions/Index (5.3s) ["console_errors:['pageerror: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.']"]
+  [OK] /AllExtensions/Index (14.86s)
+  [FAIL] /AllTemplates/Index (28.64s) ["console_errors:['Failed to load resource: the server responded with a status of 502 (Bad Gateway)', 'pageerror: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.']"]
+  [OK] /EXTAvatar/Customization/Index (15.36s)
+  [OK] /EXTAvatar/EditorGuide/Index (33.43s)
+  [OK] /EXTAvatar/GlobalSettingsConfiguration/Index (33.27s)
+  [OK] /EXTAvatar/HelpSupport/Index (2.03s)
+  [OK] /EXTAvatar/HelpfulLinks/Index (9.55s)
+  [OK] /EXTAvatar/Installation/Index (17.92s)
+  [OK] /EXTAvatar/Introduction/Index (13.33s)
+  [OK] /EXTAvatar/Localization/Index (1.7s)
+  [OK] /EXTAvatar/MaskElements/Index (13.59s)
+  [FAIL] /EXTAvatar/SEO/Index (16.72s) ['looks_like_404']
+  [OK] /EXTAvatar/SpeedPerformance/Index (12.77s)
+  [OK] /EXTAvatar/TemplatesLayouts/Index (12.36s)
+  [OK] /EXTAvatar/UpdateVersion/Index (2.38s)
+  [OK] /EXTAvatar/UpgradeGuide/Index (14.9s)
+  [OK] /EXTAyu/CustomElements/Index (35.94s)
+  [OK] /EXTAyu/Customization/Index (2.91s)
+  [OK] /EXTAyu/DemoSite/Index (1.79s)
+  [OK] /EXTAyu/FAQ/Index (2.79s)
+  [OK] /EXTAyu/GlobalSettingsConfiguration/Index (12.46s)
+  [OK] /EXTAyu/HelpSupport/Index (19.35s)
+  [OK] /EXTAyu/InstallationT3AyuReactjs/Index (28.9s)
+  [OK] /EXTAyu/InstallationT3AyuTheme/Index (27.83s)
+
+=== Batch 2/28 (25 pages) ===
+  [OK] /EXTAyu/Introduction/Index (6.34s)
+  [OK] /EXTAyu/Localization/Index (5.03s)
+  [OK] /EXTAyu/PreviewFeature/Index (2.27s)
+  [OK] /EXTAyu/UpdateVersion/Index (2.0s)
+  [OK] /EXTBootstrap/CustomElements/Index (12.72s)
+  [OK] /EXTBootstrap/Customization/Index (11.17s)
+  [OK] /EXTBootstrap/FlexFormtoContentBlockMigration/Index (2.89s)
+  [OK] /EXTBootstrap/GlobalSettingsConfiguration/Index (33.71s)
+  [OK] /EXTBootstrap/HelpSupport/Index (1.66s)
+  [OK] /EXTBootstrap/HelpfulLinks/Index (2.34s)
+  [OK] /EXTBootstrap/Installation/Index (14.62s)
+  [OK] /EXTBootstrap/Introduction/Index (12.9s)
+  [OK] /EXTBootstrap/Localization/Index (1.6s)
+  [FAIL] /EXTBootstrap/SEO/Index (17.3s) ['looks_like_404']
+  [OK] /EXTBootstrap/SpeedPerformance/Index (14.66s)
+  [OK] /EXTBootstrap/TemplatesLayouts/Index (10.65s)
+  [OK] /EXTBootstrap/UpdateVersion/Index (12.29s)
+  [OK] /EXTBootstrap/UpgradeGuide/Index (12.51s)
+  [OK] /EXTKarma/CaptchaConfiguration/Index (1.94s)
+  [OK] /EXTKarma/ContentBlockElements/Index (3.52s)
+  [OK] /EXTKarma/Customization/Index (19.59s)
+  [OK] /EXTKarma/EditorGuide/Index (5.93s)
+  [OK] /EXTKarma/GlobalSettingsConfiguration/Index (3.87s)
+  [OK] /EXTKarma/HelpSupport/Index (1.84s)
+  [OK] /EXTKarma/HelpfulLinks/Index (37.64s)
+
+=== Batch 3/28 (25 pages) ===
+  [OK] /EXTKarma/Installation/Index (6.27s)
+  [OK] /EXTKarma/Introduction/Index (14.55s)
+  [OK] /EXTKarma/Localization/Index (1.76s)
+  [FAIL] /EXTKarma/SEO/Index (12.73s) ['looks_like_404']
+  [OK] /EXTKarma/SpeedPerformance/Index (29.75s)
+  [OK] /EXTKarma/TemplatesLayouts/Index (20.53s)
+  [OK] /EXTKarma/UpdateVersion/Index (3.19s)
+  [ERROR] /EXTKarma/UpgradeGuideForContainer/Index (64.21s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/EXTKarma/UpgradeGuideForContainer/Index", waiting until "load"\n']
+  [ERROR] /EXTKarma/UpgradeV13xToV14x/Index (63.27s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/EXTKarma/UpgradeV13xToV14x/Index", waiting until "load"\n']
+  [ERROR] /EXTNsZohoCrm/BuyNow (63.46s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/EXTNsZohoCrm/BuyNow", waiting until "load"\n']
+  [OK] /EXTNsZohoCrm/Configuration/Index (29.94s)
+  [OK] /EXTNsZohoCrm/Installation/Index (15.64s)
+  [OK] /EXTNsZohoCrm/Introduction/Index (26.94s)
+  [OK] /EXTNsZohoCrm/Support (1.58s)
+  [OK] /EXTNsZohoCrm/UpdateVersion/Index (8.49s)
+  [OK] /EXTReactBootstrap/CustomElements/Index (10.98s)
+  [OK] /EXTReactBootstrap/Customization/Index (1.63s)
+  [OK] /EXTReactBootstrap/FAQ/Index (2.65s)
+  [FAIL] /EXTReactBootstrap/GlobalSettingsConfiguration/Index (55.37s) ["console_errors:['Failed to load resource: the server responded with a status of 502 (Bad Gateway)']"]
+  [OK] /EXTReactBootstrap/HelpSupport/Index (2.12s)
+  [OK] /EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index (16.17s)
+  [OK] /EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index (3.37s)
+  [OK] /EXTReactBootstrap/Introduction/Index (13.03s)
+  [OK] /EXTReactBootstrap/Localization/Index (1.61s)
+  [OK] /EXTReactBootstrap/PreviewFeature/Index (2.68s)
+
+=== Batch 4/28 (25 pages) ===
+  [OK] /EXTReactBootstrap/UpdateVersion/Index (4.88s)
+  [OK] /EXTReva/CustomElements/Index (15.35s)
+  [OK] /EXTReva/Customization/Index (1.36s)
+  [OK] /EXTReva/DemoSite/Index (1.94s)
+  [OK] /EXTReva/FAQ/Index (1.61s)
+  [OK] /EXTReva/GlobalSettingsConfiguration/Index (10.83s)
+  [OK] /EXTReva/HelpSupport/Index (2.13s)
+  [OK] /EXTReva/InstallationT3RevaReactjs/Index (2.27s)
+  [OK] /EXTReva/InstallationT3RevaTheme/Index (11.09s)
+  [OK] /EXTReva/Introduction/Index (12.52s)
+  [OK] /EXTReva/Localization/Index (8.47s)
+  [OK] /EXTReva/PreviewFeature/Index (1.49s)
+  [OK] /EXTReva/UpdateVersion/Index (1.6s)
+  [OK] /EXTShiva/CustomElements/Index (8.62s)
+  [OK] /EXTShiva/Customization/Index (1.59s)
+  [OK] /EXTShiva/DemoSite/Index (1.71s)
+  [OK] /EXTShiva/FAQ/Index (1.55s)
+  [OK] /EXTShiva/GlobalSettingsConfiguration/Index (8.49s)
+  [OK] /EXTShiva/HelpSupport/Index (1.55s)
+  [OK] /EXTShiva/InstallationT3ShivaReactjs/Index (9.92s)
+  [OK] /EXTShiva/InstallationT3ShivaTheme/Index (9.83s)
+  [OK] /EXTShiva/Introduction/Index (9.29s)
+  [OK] /EXTShiva/Localization/Index (1.66s)
+  [OK] /EXTShiva/PreviewFeature/Index (1.58s)
+  [OK] /EXTShiva/UpdateVersion/Index (2.27s)
+
+=== Batch 5/28 (25 pages) ===
+  [OK] /EXTShop/DemoSite/Index (4.93s)
+  [OK] /EXTShop/HelpSupport/Index (1.65s)
+  [OK] /EXTShop/Installation/Index (10.23s)
+  [OK] /EXTShop/Introduction/Index (12.89s)
+  [OK] /EXTShop/ShopConfiguration/Index (10.54s)
+  [OK] /EXTShop/ThemeConfiguration/Index (1.62s)
+  [OK] /EXTShop/UpdateVersion/Index (2.98s)
+  [OK] /ExtNitsanHellobar/BuyNow (1.64s)
+  [OK] /ExtNitsanHellobar/Configuration/Index (8.39s)
+  [OK] /ExtNitsanHellobar/Installation/Index (9.11s)
+  [OK] /ExtNitsanHellobar/Introduction/Index (9.29s)
+  [OK] /ExtNitsanHellobar/Support (1.52s)
+  [OK] /ExtNitsanHellobar/UpdateVersion/Index (1.69s)
+  [OK] /ExtNitsanMaintenance/BuyNow (1.62s)
+  [OK] /ExtNitsanMaintenance/Configuration/Index (1.51s)
+  [OK] /ExtNitsanMaintenance/Installation/Index (10.04s)
+  [OK] /ExtNitsanMaintenance/Introduction/Index (8.99s)
+  [OK] /ExtNitsanMaintenance/Support (2.07s)
+  [OK] /ExtNitsanMaintenance/UpdateVersion/Index (1.6s)
+  [OK] /ExtNsAllChat/BuyNow (1.66s)
+  [OK] /ExtNsAllChat/Configuration/Index (12.91s)
+  [OK] /ExtNsAllChat/Installation/Index (16.56s)
+  [OK] /ExtNsAllChat/Introduction/Index (10.66s)
+  [OK] /ExtNsAllChat/Support (1.55s)
+  [OK] /ExtNsAllChat/UpdateVersion/Index (1.55s)
+
+=== Batch 6/28 (25 pages) ===
+  [OK] /ExtNsAllLightbox/BuyNow (4.86s)
+  [OK] /ExtNsAllLightbox/Configuration/Index (63.54s)
+  [OK] /ExtNsAllLightbox/Installation/Index (18.2s)
+  [OK] /ExtNsAllLightbox/Introduction/Index (51.79s)
+  [OK] /ExtNsAllLightbox/Support (3.51s)
+  [OK] /ExtNsAllLightbox/UpdateVersion/Index (1.6s)
+  [OK] /ExtNsAllSliders/BuyNow (15.63s)
+  [ERROR] /ExtNsAllSliders/Configuration/Index (65.2s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsAllSliders/Configuration/Index", waiting until "load"\n']
+  [OK] /ExtNsAllSliders/Installation/Index (16.33s)
+  [OK] /ExtNsAllSliders/Introduction/Index (11.24s)
+  [OK] /ExtNsAllSliders/Support (2.37s)
+  [OK] /ExtNsAllSliders/UpdateVersion/Index (2.13s)
+  [OK] /ExtNsBackup/BuyNow (2.76s)
+  [OK] /ExtNsBackup/ConnectClouds/Index (13.43s)
+  [OK] /ExtNsBackup/DownloadsLogsHistory/Index (18.46s)
+  [OK] /ExtNsBackup/GlobalSettings/Index (15.34s)
+  [OK] /ExtNsBackup/Installation/Index (18.19s)
+  [OK] /ExtNsBackup/Introduction/Index (10.26s)
+  [OK] /ExtNsBackup/ScheduleBackup/Index (9.64s)
+  [OK] /ExtNsBackup/StartOneClickBackup/Index (12.65s)
+  [OK] /ExtNsBackup/Support (10.54s)
+  [OK] /ExtNsBackup/SystemRequirement/Index (18.74s)
+  [OK] /ExtNsBackup/UpdateVersion/Index (1.56s)
+  [OK] /ExtNsCacheWebhook/Configuration/Index (9.34s)
+  [OK] /ExtNsCacheWebhook/Installation/Index (10.07s)
+
+=== Batch 7/28 (25 pages) ===
+  [OK] /ExtNsCacheWebhook/Introduction/Index (5.8s)
+  [OK] /ExtNsCacheWebhook/Support (1.64s)
+  [OK] /ExtNsCacheWebhook/Usage/Index (8.22s)
+  [OK] /ExtNsCloudflare/BuyNow (1.58s)
+  [OK] /ExtNsCloudflare/Configuration/Index (11.0s)
+  [OK] /ExtNsCloudflare/Installation/Index (8.53s)
+  [OK] /ExtNsCloudflare/Introduction/Index (8.75s)
+  [OK] /ExtNsCloudflare/Support (1.5s)
+  [OK] /ExtNsCloudflare/UpdateVersion/Index (1.49s)
+  [OK] /ExtNsComments/BuyNow (1.62s)
+  [OK] /ExtNsComments/CommentModeration/Index (8.61s)
+  [OK] /ExtNsComments/CommentOnAllPages (1.45s)
+  [OK] /ExtNsComments/CommentPluginSettings/Index (31.43s)
+  [OK] /ExtNsComments/GlobalConfiguration/Index (8.93s)
+  [OK] /ExtNsComments/Installation/Index (9.38s)
+  [OK] /ExtNsComments/Introduction/Index (9.14s)
+  [OK] /ExtNsComments/Support (1.62s)
+  [OK] /ExtNsComments/UpdateVersion/Index (1.78s)
+  [OK] /ExtNsCookieYes/BuyNow (1.71s)
+  [OK] /ExtNsCookieYes/Configuration/Index (9.49s)
+  [OK] /ExtNsCookieYes/Installation/Index (9.58s)
+  [OK] /ExtNsCookieYes/Introduction/Index (8.95s)
+  [OK] /ExtNsCookieYes/Support (1.51s)
+  [OK] /ExtNsCookieYes/UpdateVersion/Index (1.64s)
+  [OK] /ExtNsCookiebot/BuyNow (1.64s)
+
+=== Batch 8/28 (25 pages) ===
+  [OK] /ExtNsCookiebot/Configuration/Index (4.53s)
+  [ERROR] /ExtNsCookiebot/Installation/Index (69.36s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsCookiebot/Installation/Index", waiting until "load"\n']
+  [ERROR] /ExtNsCookiebot/Introduction/Index (63.55s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsCookiebot/Introduction/Index", waiting until "load"\n']
+  [ERROR] /ExtNsCookiebot/Support (64.85s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsCookiebot/Support", waiting until "load"\n']
+  [ERROR] /ExtNsCookiebot/UpdateVersion/Index (62.89s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsCookiebot/UpdateVersion/Index", waiting until "load"\n']
+  [OK] /ExtNsCookiesHint/BuyNow (14.61s)
+  [OK] /ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index (10.2s)
+  [OK] /ExtNsCookiesHint/Configuration/Index (1.6s)
+  [OK] /ExtNsCookiesHint/Installation/Index (9.73s)
+  [OK] /ExtNsCookiesHint/Introduction/Index (9.54s)
+  [OK] /ExtNsCookiesHint/Support (1.51s)
+  [OK] /ExtNsCookiesHint/UpdateVersion/Index (1.79s)
+  [OK] /ExtNsDisqusComment/BuyNow (1.57s)
+  [OK] /ExtNsDisqusComment/Configuration/Index (10.98s)
+  [OK] /ExtNsDisqusComment/Installation/Index (13.29s)
+  [OK] /ExtNsDisqusComment/Introduction/Index (9.42s)
+  [OK] /ExtNsDisqusComment/Support (1.59s)
+  [OK] /ExtNsDisqusComment/UpdateVersion/Index (1.61s)
+  [OK] /ExtNsEvent/BuyNow (1.61s)
+  [OK] /ExtNsEvent/Configuration/AddEventPlugin/Index (57.69s)
+  [FAIL] /ExtNsEvent/Configuration/AddEvents/Index (39.92s) ["console_errors:['Failed to load resource: the server responded with a status of 502 (Bad Gateway)']"]
+  [OK] /ExtNsEvent/Configuration/Index (4.59s)
+  [OK] /ExtNsEvent/GlobalConfiguration/Index (16.0s)
+  [OK] /ExtNsEvent/Installation/Index (13.95s)
+  [OK] /ExtNsEvent/Introduction/Index (60.14s)
+
+=== Batch 9/28 (25 pages) ===
+  [OK] /ExtNsEvent/Support (12.37s)
+  [OK] /ExtNsEvent/UpdateVersion/Index (1.94s)
+  [ERROR] /ExtNsExtCompatibility/ActionResults/Index (68.68s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsExtCompatibility/ActionResults/Index", waiting until "load"\n']
+  [ERROR] /ExtNsExtCompatibility/BuyNow (63.95s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsExtCompatibility/BuyNow", waiting until "load"\n']
+  [OK] /ExtNsExtCompatibility/Configuration/Index (6.25s)
+  [OK] /ExtNsExtCompatibility/Installation/Index (26.04s)
+  [FAIL] /ExtNsExtCompatibility/Introduction/Index (35.78s) ["console_errors:['Failed to load resource: the server responded with a status of 502 (Bad Gateway)']"]
+  [OK] /ExtNsExtCompatibility/Support (4.52s)
+  [OK] /ExtNsExtCompatibility/UpdateVersion/Index (2.63s)
+  [OK] /ExtNsFAQ/BuyNow (34.43s)
+  [OK] /ExtNsFAQ/FAQModeration/Index (37.87s)
+  [OK] /ExtNsFAQ/FAQPlugin/Index (16.31s)
+  [OK] /ExtNsFAQ/Installation/Index (13.7s)
+  [OK] /ExtNsFAQ/Introduction/Index (20.42s)
+  [FAIL] /ExtNsFAQ/NSFaqBackendModule/Index (63.43s) ["console_errors:['Failed to load resource: the server responded with a status of 502 (Bad Gateway)']"]
+  [ERROR] /ExtNsFAQ/SubmitFAQForm/Index (65.22s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFAQ/SubmitFAQForm/Index", waiting until "load"\n']
+  [ERROR] /ExtNsFAQ/Support (63.86s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFAQ/Support", waiting until "load"\n']
+  [ERROR] /ExtNsFAQ/UpdateVersion/Index (63.29s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFAQ/UpdateVersion/Index", waiting until "load"\n']
+  [OK] /ExtNsFacebookComment/BuyNow (20.8s)
+  [ERROR] /ExtNsFacebookComment/Configuration/Index (64.9s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFacebookComment/Configuration/Index", waiting until "load"\n']
+  [ERROR] /ExtNsFacebookComment/Installation/Index (63.81s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFacebookComment/Installation/Index", waiting until "load"\n']
+  [OK] /ExtNsFacebookComment/Introduction/Index (62.5s)
+  [OK] /ExtNsFacebookComment/Support (3.58s)
+  [OK] /ExtNsFacebookComment/UpdateVersion/Index (1.94s)
+  [OK] /ExtNsFeedback/BuyNow (2.04s)
+
+=== Batch 10/28 (25 pages) ===
+  [OK] /ExtNsFeedback/Installation/Index (5.2s)
+  [OK] /ExtNsFeedback/Introduction/Index (29.6s)
+  [FAIL] /ExtNsFeedback/NSFeedbackModules/Index (40.68s) ["console_errors:['Failed to load resource: the server responded with a status of 502 (Bad Gateway)']"]
+  [ERROR] /ExtNsFeedback/SetFeedbackFormForEntireSite/Index (72.43s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFeedback/SetFeedbackFormForEntireSite/Index", waiting until "load"\n']
+  [ERROR] /ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index (64.69s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index", waiting until "load"\n']
+  [ERROR] /ExtNsFeedback/Support (63.04s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFeedback/Support", waiting until "load"\n']
+  [ERROR] /ExtNsFeedback/UpdateVersion/Index (64.69s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFeedback/UpdateVersion/Index", waiting until "load"\n']
+  [ERROR] /ExtNsFriendlyCaptcha/BuyNow (63.67s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFriendlyCaptcha/BuyNow", waiting until "load"\n']
+  [ERROR] /ExtNsFriendlyCaptcha/Configuration/Index (68.07s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFriendlyCaptcha/Configuration/Index", waiting until "load"\n']
+  [ERROR] /ExtNsFriendlyCaptcha/CustomIntegration/Index (67.78s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFriendlyCaptcha/CustomIntegration/Index", waiting until "load"\n']
+  [ERROR] /ExtNsFriendlyCaptcha/FAQ (75.97s) ['exception:Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "http://localhost:3000/ExtNsFriendlyCaptcha/FAQ", waiting until "load"\n']
+Total nav paths: 683; already done: 203; to check: 480
+
+=== Batch 1/24 (20 pages) ===
+  [FAIL] /AIFoundationExtensions/Index (5.27s) ["console_errors:['pageerror: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.']"]
+Total nav paths: 683; already done: 203; to check: 480
+
+=== Batch 1/24 (20 pages) ===
+  [FAIL] /AIFoundationExtensions/Index (6.26s) ["console_errors:['pageerror: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.']"]
+Total nav paths: 683; already done: 203; to check: 480
+
+=== Batch 1/24 (20 pages) ===
+  [OK] /AIFoundationExtensions/Index (1.58s)
+  [OK] /AllTemplates/Index (2.98s)
+[watchdog 20:05:56] round=1 remaining_non_ok=
+Total nav paths: 683; already done: 205; to check: 478
+
+=== Batch 1/32 (15 pages) ===
+  [FAIL] /EXTAvatar/SEO/Index (4.88s) ['looks_like_404']
+  [FAIL] /EXTBootstrap/SEO/Index (6.28s) ['looks_like_404']
+[watchdog 20:07:13] round=1 remaining_non_ok=
+Total nav paths: 683; already done: 205; to check: 478
+
+=== Batch 1/32 (15 pages) ===
+  [FAIL] /EXTAvatar/SEO/Index (5.02s) ['looks_like_404']
+  [FAIL] /EXTBootstrap/SEO/Index (9.0s) ['looks_like_404']
+[watchdog 20:08:07] round=1 remaining_non_ok=478
+Total nav paths: 683; already done: 205; to check: 478
+
+=== Batch 1/32 (15 pages) ===
+  [OK] /EXTAvatar/SEO/Index (1.23s)
+  [OK] /EXTBootstrap/SEO/Index (25.43s)
+  [OK] /EXTKarma/SEO/Index (5.23s)
+  [OK] /EXTKarma/UpgradeGuideForContainer/Index (2.06s)
+  [OK] /EXTKarma/UpgradeV13xToV14x/Index (1.87s)
+  [OK] /EXTNsZohoCrm/BuyNow (2.22s)
+  [OK] /EXTReactBootstrap/GlobalSettingsConfiguration/Index (1.91s)
+  [OK] /ExtNsAllSliders/Configuration/Index (1.89s)
+  [OK] /ExtNsCookiebot/Installation/Index (1.8s)
+  [OK] /ExtNsCookiebot/Introduction/Index (1.77s)
+  [OK] /ExtNsCookiebot/Support (1.91s)
+  [OK] /ExtNsCookiebot/UpdateVersion/Index (2.05s)
+  [OK] /ExtNsEvent/Configuration/AddEvents/Index (1.79s)
+  [OK] /ExtNsExtCompatibility/ActionResults/Index (1.93s)
+  [OK] /ExtNsExtCompatibility/BuyNow (2.2s)
+
+=== Batch 2/32 (15 pages) ===
+  [OK] /ExtNsExtCompatibility/Introduction/Index (1.17s)
+  [OK] /ExtNsFAQ/NSFaqBackendModule/Index (2.11s)
+[runner 2026-08-20 20:17:42] round=1 left=461
+Total nav paths: 683; already done: 222; to check: 461
+
+=== Batch 1/47 (10 pages) ===
+  [OK] /ExtNsFAQ/SubmitFAQForm/Index (1.74s)
+  [OK] /ExtNsFAQ/Support (7.36s)
+  [OK] /ExtNsFAQ/UpdateVersion/Index (39.83s)
+  [OK] /ExtNsFacebookComment/Configuration/Index (34.9s)
+  [OK] /ExtNsFacebookComment/Installation/Index (31.51s)
+  [OK] /ExtNsFeedback/NSFeedbackModules/Index (34.16s)
+  [OK] /ExtNsFeedback/SetFeedbackFormForEntireSite/Index (7.47s)
+  [OK] /ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index (4.73s)
+  [OK] /ExtNsFeedback/Support (11.99s)
+  [OK] /ExtNsFeedback/UpdateVersion/Index (12.5s)
+
+=== Batch 2/47 (10 pages) ===
+  [OK] /ExtNsFriendlyCaptcha/BuyNow (29.08s)
+  [OK] /ExtNsFriendlyCaptcha/Configuration/Index (2.66s)
+  [OK] /ExtNsFriendlyCaptcha/CustomIntegration/Index (2.27s)
+  [OK] /ExtNsFriendlyCaptcha/FAQ (1.91s)
+  [OK] /ExtNsFriendlyCaptcha/Installation/Index (2.71s)
+  [OK] /ExtNsFriendlyCaptcha/Introduction/Index (2.07s)
+  [OK] /ExtNsFriendlyCaptcha/Support (2.26s)
+  [OK] /ExtNsFriendlyCaptcha/UpdateVersion/Index (3.14s)
+  [OK] /ExtNsGallery/AlbumView/Index (2.52s)
+  [OK] /ExtNsGallery/BuyNow (2.04s)
+
+=== Batch 3/47 (10 pages) ===
+  [OK] /ExtNsGallery/GoogleSearchView/Index (1.78s)
+  [OK] /ExtNsGallery/HowToSetupAndDisplayGallery/Index (2.25s)
+  [OK] /ExtNsGallery/Installation/Index (2.05s)
+  [OK] /ExtNsGallery/Introduction/Index (1.89s)
+  [OK] /ExtNsGallery/IsotopeView/Index (1.94s)
+  [OK] /ExtNsGallery/MasonryView/Index (2.88s)
+  [OK] /ExtNsGallery/MosaicView/Index (2.99s)
+  [OK] /ExtNsGallery/NSGalleryModule/Index (2.19s)
+  [OK] /ExtNsGallery/SliderView/Index (5.48s)
+  [OK] /ExtNsGallery/Support (6.24s)
+
+=== Batch 4/47 (10 pages) ===
+  [OK] /ExtNsGallery/UpdateVersion/Index (1.32s)
+  [OK] /ExtNsGallery/ZoomView/Index (2.51s)
+  [OK] /ExtNsGoogleDocs/BuyNow (2.63s)
+  [OK] /ExtNsGoogleDocs/GoogleDocsConfiguration/Index (2.1s)
+  [OK] /ExtNsGoogleDocs/ImportGoogleDocToPage/Index (52.31s)
+  [OK] /ExtNsGoogleDocs/Installation/Index (11.24s)
+  [OK] /ExtNsGoogleDocs/Introduction/Index (2.19s)
+  [OK] /ExtNsGoogleDocs/NSGoogleDocsModule/Index (2.62s)
+  [OK] /ExtNsGoogleDocs/PrepareGoogleDocWithMarkers/Index (2.39s)
+  [OK] /ExtNsGoogleDocs/Support (1.91s)
+
+=== Batch 5/47 (10 pages) ===
+  [OK] /ExtNsGoogleDocs/UpdateVersion/Index (1.2s)
+  [OK] /ExtNsGoogleMap/BuyNow (2.48s)
+  [OK] /ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index (4.28s)
+  [OK] /ExtNsGoogleMap/Configuration/AddMapAPI/Index (2.48s)
+  [OK] /ExtNsGoogleMap/Configuration/AddMapLocations/Index (1.92s)
+  [OK] /ExtNsGoogleMap/Configuration/Index (2.81s)
+  [OK] /ExtNsGoogleMap/Installation/Index (1.71s)
+  [OK] /ExtNsGoogleMap/Introduction/Index (2.11s)
+  [OK] /ExtNsGoogleMap/Support (2.2s)
+  [OK] /ExtNsGoogleMap/UpdateVersion/Index (2.14s)
+
+=== Batch 6/47 (10 pages) ===
+  [OK] /ExtNsGoogleSiteKit/BuyNow (1.23s)
+  [OK] /ExtNsGoogleSiteKit/GettingStarted/Index (2.22s)
+  [OK] /ExtNsGoogleSiteKit/GuidetoFreeVersion/Index (2.16s)
+  [OK] /ExtNsGoogleSiteKit/HowToIntegrateGoogleSitekit/Index (2.0s)
+  [OK] /ExtNsGoogleSiteKit/Installation/Index (2.43s)
+  [OK] /ExtNsGoogleSiteKit/Introduction/Index (2.06s)
+  [OK] /ExtNsGoogleSiteKit/Support (1.91s)
+  [OK] /ExtNsGoogleSiteKit/Troubleshooting/Index (3.07s)
+  [OK] /ExtNsGoogleSiteKit/UpdateVersion/Index (3.23s)
+  [OK] /ExtNsGoogleSiteKit/UsingSiteKit/Index (2.3s)
+
+=== Batch 7/47 (10 pages) ===
+  [OK] /ExtNsGridtoContainer/BuyNow (1.32s)
+  [OK] /ExtNsGridtoContainer/Configuration/Index (2.26s)
+  [OK] /ExtNsGridtoContainer/Installation/Index (1.67s)
+  [OK] /ExtNsGridtoContainer/Introduction/Index (71.37s)
+  [OK] /ExtNsGridtoContainer/Support (4.41s)
+  [OK] /ExtNsGridtoContainer/UpdateVersion/Index (2.34s)
+  [OK] /ExtNsGuestbook/BuyNow (2.87s)
+  [OK] /ExtNsGuestbook/Configuration/Index (2.74s)
+  [OK] /ExtNsGuestbook/Installation/Index (1.94s)
+  [OK] /ExtNsGuestbook/Introduction/Index (2.04s)
+
+=== Batch 8/47 (10 pages) ===
+  [OK] /ExtNsGuestbook/Support (1.28s)
+  [OK] /ExtNsGuestbook/UpdateVersion/Index (2.69s)
+  [OK] /ExtNsHelpDesk/BuyNow (2.67s)
+  [OK] /ExtNsHelpDesk/CategoryStatus/Index (2.69s)
+  [OK] /ExtNsHelpDesk/CustomizeForm/Index (3.97s)
+  [OK] /ExtNsHelpDesk/FormSettings/Index (2.45s)
+  [OK] /ExtNsHelpDesk/GlobalSettings/Index (2.05s)
+  [OK] /ExtNsHelpDesk/Installation/Index (2.85s)
+  [OK] /ExtNsHelpDesk/Introduction/Index (2.85s)
+  [OK] /ExtNsHelpDesk/PluginConfigurations/Index (2.22s)
+
+=== Batch 9/47 (10 pages) ===
+  [OK] /ExtNsHelpDesk/Support (1.29s)
+  [OK] /ExtNsHelpDesk/TicketStatus/Index (3.0s)
+  [OK] /ExtNsHelpDesk/Tickets/Index (3.98s)
+  [OK] /ExtNsHelpDesk/UpdateVersion/Index (2.05s)
+  [OK] /ExtNsHubspot/BuyNow (2.46s)
+  [OK] /ExtNsHubspot/FreeVersionConfiguration/Index (2.44s)
+  [OK] /ExtNsHubspot/Installation/Index (2.2s)
+  [OK] /ExtNsHubspot/Introduction/Index (2.03s)
+  [OK] /ExtNsHubspot/PremiumVersionConfiguration/Index (1.83s)
+  [OK] /ExtNsHubspot/Support (2.24s)
+
+=== Batch 10/47 (10 pages) ===
+  [OK] /ExtNsHubspot/UpdateVersion/Index (5.51s)
+  [OK] /ExtNsInstagram/BuyNow (2.74s)
+  [OK] /ExtNsInstagram/Configuration/Index (15.18s)
+  [OK] /ExtNsInstagram/InstagramApiToken/Index (6.61s)
+  [OK] /ExtNsInstagram/Installation/Index (13.81s)
+  [OK] /ExtNsInstagram/Introduction/Index (2.6s)
+  [OK] /ExtNsInstagram/Support (37.15s)
+  [OK] /ExtNsInstagram/UpdateVersion/Index (25.28s)
+  [OK] /ExtNsLazyload/BuyNow (2.36s)
+  [OK] /ExtNsLazyload/Configuration/Index (2.71s)
+
+=== Batch 11/47 (10 pages) ===
+  [OK] /ExtNsLazyload/Installation/Index (2.96s)
+  [OK] /ExtNsLazyload/Introduction/Index (2.55s)
+  [OK] /ExtNsLazyload/Support (3.0s)
+  [OK] /ExtNsLazyload/UpdateVersion/Index (2.19s)
+  [OK] /ExtNsNewsAdvancedSearch/BuyNow (6.42s)
+  [OK] /ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index (2.13s)
+  [OK] /ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index (2.6s)
+  [OK] /ExtNsNewsAdvancedSearch/Configuration/Index (2.5s)
+  [OK] /ExtNsNewsAdvancedSearch/Installation/Index (2.06s)
+  [OK] /ExtNsNewsAdvancedSearch/Introduction/Index (7.63s)
+
+=== Batch 12/47 (10 pages) ===
+  [OK] /ExtNsNewsAdvancedSearch/Support (48.18s)
+  [OK] /ExtNsNewsAdvancedSearch/UpdateVersion/Index (3.25s)
+[runner 2026-08-21 14:04:44] round=1 left=347
+Total nav paths: 683; already done: 336; to check: 347
+
+=== Batch 1/35 (10 pages) ===
+  [OK] /ExtNsNewsComments/CommentPluginSettings/Index (1.4s)
+  [OK] /ExtNsNewsComments/ForDevelopers/Index (1.95s)
+  [OK] /ExtNsNewsComments/GlobalConfiguration/Index (1.82s)
+  [OK] /ExtNsNewsComments/Installation/Index (1.67s)
+  [OK] /ExtNsNewsComments/Introduction/Index (2.24s)
+  [OK] /ExtNsNewsComments/NewsCommentModule/Index (1.64s)
+  [OK] /ExtNsNewsComments/Support (1.67s)
+  [OK] /ExtNsNewsComments/UpdateVersion/Index (1.63s)
+  [OK] /ExtNsNewsSlickSlider/BuyNow (1.63s)
+  [OK] /ExtNsNewsSlickSlider/Configuration/Index (1.79s)
+
+=== Batch 2/35 (10 pages) ===
+  [OK] /ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index (1.2s)
+  [OK] /ExtNsNewsSlickSlider/Installation/Index (1.82s)
+  [OK] /ExtNsNewsSlickSlider/Introduction/Index (2.1s)
+  [OK] /ExtNsNewsSlickSlider/Support (1.73s)
+  [OK] /ExtNsNewsSlickSlider/UpdateVersion/Index (2.74s)
+  [OK] /ExtNsNewsSlider/BuyNow (3.96s)
+  [OK] /ExtNsNewsSlider/Configuration/AddNewsSliderPlugin/Index (1.8s)
+  [OK] /ExtNsNewsSlider/Configuration/Index (1.76s)
+  [OK] /ExtNsNewsSlider/Configuration/NivoSlider/Index (1.9s)
+  [OK] /ExtNsNewsSlider/Configuration/OwlcarouselSlider/Index (2.98s)
+
+=== Batch 3/35 (10 pages) ===
+  [OK] /ExtNsNewsSlider/Configuration/RoyalSlider/Index (1.13s)
+  [OK] /ExtNsNewsSlider/Configuration/SlickSlider/Index (1.7s)
+  [OK] /ExtNsNewsSlider/Installation/Index (1.6s)
+  [OK] /ExtNsNewsSlider/Introduction/Index (1.63s)
+  [OK] /ExtNsNewsSlider/Support (1.62s)
+  [OK] /ExtNsNewsSlider/UpdateVersion/Index (1.59s)
+  [OK] /ExtNsOpenStreetMap/BuyNow (1.6s)
+  [OK] /ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index (1.63s)
+  [OK] /ExtNsOpenStreetMap/Configuration/AddMapLocations/Index (1.62s)
+  [OK] /ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index (1.7s)
+
+=== Batch 4/35 (10 pages) ===
+  [OK] /ExtNsOpenStreetMap/Configuration/Index (1.09s)
+  [OK] /ExtNsOpenStreetMap/Installation/Index (1.68s)
+  [OK] /ExtNsOpenStreetMap/Introduction/Index (1.69s)
+  [OK] /ExtNsOpenStreetMap/Support (1.6s)
+  [OK] /ExtNsOpenStreetMap/UpdateVersion/Index (1.61s)
+  [OK] /ExtNsPWA/BuyNow (1.61s)
+  [OK] /ExtNsPWA/Configuration/Index (1.63s)
+  [OK] /ExtNsPWA/Installation/Index (1.63s)
+  [OK] /ExtNsPWA/Introduction/Index (1.61s)
+  [OK] /ExtNsPWA/Support (1.67s)
+
+=== Batch 5/35 (10 pages) ===
+  [OK] /ExtNsPWA/UpdateVersion/Index (1.09s)
+  [OK] /ExtNsPersonio/BuyNow (1.72s)
+  [OK] /ExtNsPersonio/ConfigurationOfPlugins/Index (5.33s)
+  [OK] /ExtNsPersonio/ConfigurePersonioAPIandScheduler/Index (1.74s)
+  [OK] /ExtNsPersonio/Installation/Index (1.57s)
+  [OK] /ExtNsPersonio/Introduction/Index (1.63s)
+  [OK] /ExtNsPersonio/Support (1.64s)
+  [OK] /ExtNsPersonio/UpdateVersion/Index (2.45s)
+  [OK] /ExtNsProtectSite/BuyNow (1.76s)
+  [OK] /ExtNsProtectSite/Configuration/Index (1.66s)
+
+=== Batch 6/35 (10 pages) ===
+  [OK] /ExtNsProtectSite/Installation/Index (1.16s)
+  [OK] /ExtNsProtectSite/Introduction/Index (1.72s)
+  [OK] /ExtNsProtectSite/Support (1.64s)
+  [OK] /ExtNsProtectSite/UpdateVersion/Index (1.63s)
+  [OK] /ExtNsPublicationComment/BuyNow (1.66s)
+  [OK] /ExtNsPublicationComment/ExtensionConfigurations/Index (1.67s)
+  [OK] /ExtNsPublicationComment/Installation/Index (2.38s)
+  [OK] /ExtNsPublicationComment/Introduction/Index (2.08s)
+  [OK] /ExtNsPublicationComment/Support (1.94s)
+  [OK] /ExtNsPublicationComment/UpdateVersion/Index (1.78s)
+
+=== Batch 7/35 (10 pages) ===
+  [OK] /ExtNsRevolutionSlider/BuyNow (1.11s)
+  [OK] /ExtNsRevolutionSlider/Introduction/Index (1.8s)
+  [OK] /ExtNsRevolutionSlider/KnownIssues/Index (2.03s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider1.0/Configuration/Index (1.74s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider1.0/Index (1.94s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider1.0/Installation/Index (1.99s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/Index (1.64s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider2.0/Index (1.66s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index (1.65s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider2.0/MigrationFrom1to2/Index (1.66s)
+
+=== Batch 8/35 (10 pages) ===
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index (1.18s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index (1.75s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider3.0/Index (1.83s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index (1.62s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider3.0/MigrationFrom2to3/Index (1.64s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSlider3.0/SystemRequirements/Index (1.64s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index (1.67s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSliderLatest/Index (1.76s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index (1.65s)
+  [OK] /ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index (1.71s)
+
+=== Batch 9/35 (10 pages) ===
+  [OK] /ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index (1.23s)
+  [OK] /ExtNsRevolutionSlider/Support (4.31s)
+  [OK] /ExtNsRevolutionSlider/UpdateVersion/Index (1.69s)
+  [OK] /ExtNsSharethis/BuyNow (1.67s)
+  [OK] /ExtNsSharethis/Configuration/Index (1.65s)
+  [OK] /ExtNsSharethis/Installation/Index (1.64s)
+  [OK] /ExtNsSharethis/Introduction/Index (1.61s)
+  [OK] /ExtNsSharethis/Support (1.64s)
+  [OK] /ExtNsSharethis/UpdateVersion/Index (1.69s)
+  [OK] /ExtNsSnow/BuyNow (1.67s)
+
+=== Batch 10/35 (10 pages) ===
+  [OK] /ExtNsSnow/Configuration/Index (1.16s)
+  [OK] /ExtNsSnow/Installation/Index (1.72s)
+  [OK] /ExtNsSnow/Introduction/Index (1.64s)
+  [OK] /ExtNsSnow/Support (1.6s)
+  [OK] /ExtNsSnow/UpdateVersion/Index (1.67s)
+  [OK] /ExtNsSocialLogin/BeforeGettingStarted/Index (1.68s)
+  [OK] /ExtNsSocialLogin/BuyNow (1.67s)
+  [OK] /ExtNsSocialLogin/Configuration/Index (1.74s)
+  [OK] /ExtNsSocialLogin/FAQ/Index (1.72s)
+  [OK] /ExtNsSocialLogin/Installation/Index (1.98s)
+
+=== Batch 11/35 (10 pages) ===
+  [OK] /ExtNsSocialLogin/Introduction/Index (1.46s)
+  [OK] /ExtNsSocialLogin/Screenshots/Index (1.87s)
+  [OK] /ExtNsSocialLogin/Support (1.82s)
+  [OK] /ExtNsSocialLogin/SystemRequirements/Index (1.66s)
+  [OK] /ExtNsSocialLogin/UpdateVersion/Index (1.7s)
+  [OK] /ExtNsStatcounter/BuyNow (1.74s)
+  [OK] /ExtNsStatcounter/Configuration/Index (2.41s)
+  [OK] /ExtNsStatcounter/Installation/Index (2.57s)
+  [OK] /ExtNsStatcounter/Introduction/Index (1.81s)
+  [OK] /ExtNsStatcounter/Support (1.93s)
+
+=== Batch 12/35 (10 pages) ===
+  [OK] /ExtNsStatcounter/UpdateVersion/Index (1.13s)
+  [OK] /ExtNsT3AA/AIAudioGenerator/Index (3.12s)
+  [OK] /ExtNsT3AA/AIFilemeta/Index (2.82s)
+  [OK] /ExtNsT3AA/AccessibilityWidgets/Index (1.88s)
+  [OK] /ExtNsT3AA/BuyNow (7.44s)
+  [OK] /ExtNsT3AA/CkeditorAccessibilityChecker/Index (2.09s)
+  [OK] /ExtNsT3AA/Configuration/Index (2.18s)
+  [OK] /ExtNsT3AA/Installation/Index (1.77s)
+  [OK] /ExtNsT3AA/Introduction/Index (2.03s)
+  [OK] /ExtNsT3AA/KnownProblems/Index (1.63s)
+
+=== Batch 13/35 (10 pages) ===
+  [OK] /ExtNsT3AA/ReInstallEverything/Index (1.23s)
+  [OK] /ExtNsT3AA/Screenshots/Index (3.09s)
+  [OK] /ExtNsT3AA/SimplifiedText/Index (2.98s)
+  [OK] /ExtNsT3AA/SpeedCoreWebVitals/Index (3.41s)
+  [OK] /ExtNsT3AA/Support (2.08s)
+  [OK] /ExtNsT3AA/SystemRequirements/Index (1.83s)
+  [OK] /ExtNsT3AA/T3AAVoiceover/Index (2.21s)
+  [OK] /ExtNsT3AA/UpdateGuide/Index (1.76s)
+  [OK] /ExtNsT3AA/UpdateVersion/Index (1.71s)
+  [OK] /ExtNsT3AB/AIBuilder/Index (1.8s)
+
+=== Batch 14/35 (10 pages) ===
+  [OK] /ExtNsT3AB/AIContentBlock/Index (1.54s)
+  [OK] /ExtNsT3AB/AIForm/Index (2.44s)
+  [OK] /ExtNsT3AB/BuyNow (2.28s)
+  [OK] /ExtNsT3AB/Configuration/Index (2.66s)
+  [OK] /ExtNsT3AB/Forms/Index (2.1s)
+  [OK] /ExtNsT3AB/HowT3ABWorks/Index (1.82s)
+  [OK] /ExtNsT3AB/Installation/Index (1.72s)
+  [OK] /ExtNsT3AB/Introduction/Index (1.94s)
+  [OK] /ExtNsT3AB/Screenshots/Index (1.7s)
+  [OK] /ExtNsT3AB/Support (1.78s)
+
+=== Batch 15/35 (10 pages) ===
+  [OK] /ExtNsT3AB/SystemRequirements/Index (1.18s)
+  [OK] /ExtNsT3AB/T3ABAIBuilder/Index (3.37s)
+  [OK] /ExtNsT3AB/T3ABContentBlocks/Index (2.24s)
+  [OK] /ExtNsT3AB/UpdateGuide/Index (2.23s)
+  [OK] /ExtNsT3AB/UpdateVersion/Index (2.05s)
+  [OK] /ExtNsT3AC/BuyNow (1.99s)
+  [OK] /ExtNsT3AC/Configuration/Index (2.34s)
+  [OK] /ExtNsT3AC/CustomLLMSupport/Index (1.83s)
+  [OK] /ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index (2.06s)
+  [OK] /ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index (1.75s)
+
+=== Batch 16/35 (10 pages) ===
+  [OK] /ExtNsT3AC/FeatureGuide/AILogs/Index (1.26s)
+  [OK] /ExtNsT3AC/FeatureGuide/AIStatistics/Index (2.57s)
+  [OK] /ExtNsT3AC/FeatureGuide/Chatbot/Index (3.65s)
+  [OK] /ExtNsT3AC/FeatureGuide/Dashboard/Index (3.7s)
+  [OK] /ExtNsT3AC/FeatureGuide/DataSource/Index (2.63s)
+  [FAIL] /ExtNsT3AC/FeatureGuide/Index (12.67s) ["broken_images:['https://docs.t3planet.de/en/latest/_images/Dashboard2.png', 'https://docs.t3planet.de/en/latest/_images/T3AC_Embed.png', 'https://docs.t3planet.de/en/latest/_images/Command_crawl.png', 'https://docs.t3planet.de/en/latest/_images/Show_Hide_page.png', 'https://docs.t3planet.de/en/latest/_images/Basic_Authentication.png', 'https://docs.t3planet.de/en/latest/_images/Chunk_Size.png']"]
+  [OK] /ExtNsT3AC/FeatureGuide/TrainingCenter/Index (2.83s)
+  [OK] /ExtNsT3AC/FeatureGuide/UsageAnalytics/Index (3.53s)
+  [OK] /ExtNsT3AC/Installation/Index (7.65s)
+  [OK] /ExtNsT3AC/Introduction/Index (2.04s)
+
+=== Batch 17/35 (10 pages) ===
+  [OK] /ExtNsT3AC/KnownProblems/Index (1.21s)
+  [OK] /ExtNsT3AC/ReInstallEverything/Index (2.44s)
+  [OK] /ExtNsT3AC/RetrievalConfidenceThreshold/Index (3.28s)
+  [OK] /ExtNsT3AC/Screenshots/Index (4.4s)
+  [OK] /ExtNsT3AC/Support (1.81s)
+  [OK] /ExtNsT3AC/UpdateGuide/Index (2.0s)
+  [OK] /ExtNsT3AC/UpdateVersion/Index (1.98s)
+  [OK] /ExtNsT3AF/Configuration/AIContext/Index (2.51s)
+  [OK] /ExtNsT3AF/Configuration/AIFeatures/Index (2.78s)
+  [OK] /ExtNsT3AF/Configuration/AIPermissions/Index (6.25s)
+
+=== Batch 18/35 (10 pages) ===
+  [OK] /ExtNsT3AF/Configuration/AIPrompts/Index (2.72s)
+  [OK] /ExtNsT3AF/Configuration/AIProviders/Index (1.94s)
+  [OK] /ExtNsT3AF/Configuration/AIUsageAndLogs/Index (2.14s)
+  [OK] /ExtNsT3AF/Configuration/Dashboard/Index (3.03s)
+  [OK] /ExtNsT3AF/Configuration/Index (2.81s)
+  [OK] /ExtNsT3AF/DeveloperGuide/Architecture/Index (2.48s)
+  [OK] /ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index (2.48s)
+  [OK] /ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index (2.14s)
+  [OK] /ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index (3.74s)
+  [OK] /ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index (2.19s)
+
+=== Batch 19/35 (10 pages) ===
+  [OK] /ExtNsT3AF/DeveloperGuide/CustomProviders/Index (1.31s)
+  [OK] /ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index (2.49s)
+  [OK] /ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index (1.92s)
+  [OK] /ExtNsT3AF/DeveloperGuide/Index (1.89s)
+  [OK] /ExtNsT3AF/HelpfulLinks/Index (1.76s)
+  [OK] /ExtNsT3AF/Installation/Index (2.23s)
+  [OK] /ExtNsT3AF/Integrations/Index (1.9s)
+  [OK] /ExtNsT3AF/Integrations/MCPServer/Index (2.04s)
+  [OK] /ExtNsT3AF/Integrations/MCPTesting/Index (2.29s)
+  [OK] /ExtNsT3AF/Integrations/MCPTools/Index (2.58s)
+
+=== Batch 20/35 (10 pages) ===
+  [OK] /ExtNsT3AF/Introduction/Index (1.19s)
+  [OK] /ExtNsT3AF/Support/Index (2.04s)
+  [OK] /ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index (1.66s)
+  [OK] /ExtNsT3AF/T3Planet-Credit-System/Configuration/Index (1.97s)
+  [OK] /ExtNsT3AF/T3Planet-Credit-System/Dashboard/Index (1.89s)
+  [OK] /ExtNsT3AF/T3Planet-Credit-System/MCPIntegration/Index (1.78s)
+  [OK] /ExtNsT3AF/T3Planet-Credit-System/Overview/Index (1.78s)
+  [OK] /ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index (1.73s)
+  [OK] /ExtNsT3AF/Troubleshooting/FAQ/Index (2.01s)
+  [OK] /ExtNsT3AF/Troubleshooting/Index (1.74s)
+
+=== Batch 21/35 (10 pages) ===
+  [OK] /ExtNsT3AF/Troubleshooting/KnownProblems/Index (1.46s)
+  [OK] /ExtNsT3AF/UserGuide/Index (2.18s)
+  [OK] /ExtNsT3AF/UserGuide/RolesAndDailyUse/Index (1.77s)
+  [OK] /ExtNsT3AI/AISettings/Index (2.19s)
+  [OK] /ExtNsT3AI/Appendix/Index (3.04s)
+  [OK] /ExtNsT3AI/BuyNow (1.85s)
+  [OK] /ExtNsT3AI/Configuration/Index (2.5s)
+  [OK] /ExtNsT3AI/Content/Index (2.58s)
+  [OK] /ExtNsT3AI/FAQ/Index (1.92s)
+  [OK] /ExtNsT3AI/Installation/Index (1.94s)
+
+=== Batch 22/35 (10 pages) ===
+  [OK] /ExtNsT3AI/Introduction/Index (1.22s)
+  [OK] /ExtNsT3AI/KnownProblems/Index (2.36s)
+  [OK] /ExtNsT3AI/MassSEO/Index (1.8s)
+  [OK] /ExtNsT3AI/Media/Index (3.36s)
+  [OK] /ExtNsT3AI/Pages/Index (2.9s)
+  [OK] /ExtNsT3AI/Prompts/Index (4.06s)
+  [OK] /ExtNsT3AI/ReInstallEverything/Index (15.63s)
+  [OK] /ExtNsT3AI/Releases/Index (2.09s)
+  [FAIL] /ExtNsT3AI/SEO/Index (17.92s) ["broken_images:['https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png']"]
+  [OK] /ExtNsT3AI/Screenshots/Index (21.73s)
+
+=== Batch 23/35 (10 pages) ===
+  [OK] /ExtNsT3AI/Support (1.68s)
+  [OK] /ExtNsT3AI/SystemRequirements/Index (2.65s)
+  [OK] /ExtNsT3AI/Translation/Index (3.08s)
+  [OK] /ExtNsT3AI/UpdateGuide/Index (2.56s)
+  [OK] /ExtNsT3AI/UpdateVersion/Index (1.7s)
+  [OK] /ExtNsT3AI/UpgradeGuide/Index (1.97s)
+  [OK] /ExtNsT3AI/VideoTutorials/Index (2.56s)
+  [OK] /ExtNsT3AL/AILocalization/Index (2.38s)
+  [OK] /ExtNsT3AL/AILocalizationLogs/Index (4.15s)
+  [OK] /ExtNsT3AL/BuyNow (1.92s)
+
+=== Batch 24/35 (10 pages) ===
+  [OK] /ExtNsT3AL/Configuration/Index (1.21s)
+  [OK] /ExtNsT3AL/Installation/Index (1.87s)
+  [OK] /ExtNsT3AL/Introduction/Index (1.75s)
+  [OK] /ExtNsT3AL/KnownProblems/Index (1.9s)
+  [OK] /ExtNsT3AL/Screenshots/Index (1.8s)
+  [OK] /ExtNsT3AL/SeamlessXLIFFImport&Export/Index (1.8s)
+  [OK] /ExtNsT3AL/StartManualLocalization/Index (1.94s)
+  [OK] /ExtNsT3AL/Support (1.73s)
+  [OK] /ExtNsT3AL/SystemRequirements/Index (2.28s)
+  [OK] /ExtNsT3AL/T3ALTerms(Glossary)/Index (1.73s)
+
+=== Batch 25/35 (10 pages) ===
+  [OK] /ExtNsT3AL/T3ALforEveryone/Index (1.13s)
+  [OK] /ExtNsT3AL/UpdateGuide/Index (1.84s)
+  [OK] /ExtNsT3AL/UpdateVersion/Index (1.97s)
+  [OK] /ExtNsT3AL/VideoTutorials/Index (1.74s)
+  [OK] /ExtNsT3AS/BasicAuthentication/Index (1.94s)
+  [OK] /ExtNsT3AS/BuyNow (1.7s)
+  [OK] /ExtNsT3AS/Configuration/Index (1.94s)
+  [OK] /ExtNsT3AS/CustomLLMSupport/Index (1.98s)
+  [OK] /ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index (1.7s)
+  [OK] /ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index (1.86s)
+
+=== Batch 26/35 (10 pages) ===
+  [OK] /ExtNsT3AS/DatabaseChunking/Index (1.21s)
+  [OK] /ExtNsT3AS/FrontendPlugin/Index (3.5s)
+  [OK] /ExtNsT3AS/Installation/Index (1.78s)
+  [OK] /ExtNsT3AS/Introduction/Index (2.02s)
+  [OK] /ExtNsT3AS/KnownProblems/Index (1.87s)
+  [OK] /ExtNsT3AS/PerformanceConfiguration/Index (1.75s)
+  [OK] /ExtNsT3AS/ReInstallEverything/Index (1.86s)
+  [OK] /ExtNsT3AS/RetrievalConfidenceThreshold/Index (1.86s)
+  [OK] /ExtNsT3AS/Screenshots/Index (2.66s)
+  [OK] /ExtNsT3AS/Support (1.87s)
+
+=== Batch 27/35 (10 pages) ===
+  [OK] /ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index (1.17s)
+  [OK] /ExtNsT3AS/UpdateGuide/Index (1.82s)
+  [OK] /ExtNsT3AS/UpdateVersion/Index (1.65s)
+  [OK] /ExtNsT3AS/VerifyIndexedData/Index (1.69s)
+  [OK] /ExtNsTimeLine/BuyNow (1.74s)
+  [OK] /ExtNsTimeLine/ExtensionConfigurations/Index (1.64s)
+  [OK] /ExtNsTimeLine/Installation/Index (1.69s)
+  [OK] /ExtNsTimeLine/Introduction/Index (1.67s)
+  [OK] /ExtNsTimeLine/Support (1.71s)
+  [OK] /ExtNsTimeLine/UpdateVersion/Index (1.79s)
+
+=== Batch 28/35 (10 pages) ===
+  [OK] /ExtNsTwitter/BuyNow (1.16s)
+  [OK] /ExtNsTwitter/Configuration/Index (1.88s)
+  [OK] /ExtNsTwitter/Installation/Index (1.63s)
+  [OK] /ExtNsTwitter/Introduction/Index (1.87s)
+  [OK] /ExtNsTwitter/Support (1.89s)
+  [OK] /ExtNsTwitter/UpdateVersion/Index (1.75s)
+  [OK] /ExtNsWhatsapp/BuyNow (1.66s)
+  [OK] /ExtNsWhatsapp/GlobalSettings/Index (1.87s)
+  [OK] /ExtNsWhatsapp/Installation/Index (1.8s)
+  [OK] /ExtNsWhatsapp/Introduction/Index (3.67s)
+
+=== Batch 29/35 (10 pages) ===
+  [OK] /ExtNsWhatsapp/Support (1.17s)
+  [OK] /ExtNsWhatsapp/UpdateVersion/Index (2.45s)
+  [OK] /ExtNsWpMigration/BuyNow (2.09s)
+  [OK] /ExtNsWpMigration/Configuration/Index (1.86s)
+  [OK] /ExtNsWpMigration/Installation/Index (1.83s)
+  [OK] /ExtNsWpMigration/Introduction/Index (1.7s)
+  [OK] /ExtNsWpMigration/Support (2.11s)
+  [OK] /ExtNsWpMigration/UpdateVersion/Index (1.88s)
+  [OK] /ExtNsYoutube/BuyNow (1.98s)
+  [OK] /ExtNsYoutube/Configuration/Index (2.27s)
+
+=== Batch 30/35 (10 pages) ===
+  [OK] /ExtNsYoutube/Installation/Index (1.37s)
+  [OK] /ExtNsYoutube/Introduction/Index (2.98s)
+  [OK] /ExtNsYoutube/Support (1.72s)
+  [OK] /ExtNsYoutube/UpdateVersion/Index (1.84s)
+  [OK] /ExtNsZoho/BuyNow (1.73s)
+  [OK] /ExtNsZoho/Configuration/Index (1.94s)
+  [OK] /ExtNsZoho/Installation/Index (1.98s)
+  [OK] /ExtNsZoho/Introduction/Index (3.22s)
+  [OK] /ExtNsZoho/Support (1.82s)
+  [OK] /ExtNsZoho/UpdateVersion/Index (2.5s)
+
+=== Batch 31/35 (10 pages) ===
+  [OK] /ExtRTECKEditorPack/AccessibilityFeatures/Index (1.39s)
+  [OK] /ExtRTECKEditorPack/CKEditorAI/Index (2.58s)
+  [OK] /ExtRTECKEditorPack/Configurationsave/Index (2.09s)
+  [OK] /ExtRTECKEditorPack/ContentSecurityPolicy/Index (2.27s)
+  [OK] /ExtRTECKEditorPack/GetThisExtension (1.76s)
+  [OK] /ExtRTECKEditorPack/HowPresetsWork/Index (1.72s)
+  [OK] /ExtRTECKEditorPack/Introduction/Index (3.3s)
+  [OK] /ExtRTECKEditorPack/PremiumFeatures/Index (4.09s)
+  [OK] /ExtRTECKEditorPack/PremiumPack/Index (3.98s)
+  [OK] /ExtRTECKEditorPack/QuickInstallation/Index (2.23s)
+
+=== Batch 32/35 (10 pages) ===
+  [OK] /ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index (1.25s)
+  [OK] /ExtRTECKEditorPack/Support (2.0s)
+  [OK] /ExtRTECKEditorPack/SystemRequirements/Index (3.96s)
+  [OK] /ExtRTECKEditorPack/Updating/Index (2.42s)
+  [OK] /ExtThemes/CustomElements/Index (2.23s)
+  [OK] /ExtThemes/Customization/Index (2.0s)
+  [OK] /ExtThemes/DemoSite/Index (1.82s)
+  [OK] /ExtThemes/FAQ/Index (1.83s)
+  [OK] /ExtThemes/FrontendBuild/Index (1.92s)
+  [OK] /ExtThemes/GlobalSettingsConfiguration/Index (1.75s)
+
+=== Batch 33/35 (10 pages) ===
+  [OK] /ExtThemes/HelpSupport/Index (2.02s)
+  [OK] /ExtThemes/Installation/Index (2.38s)
+  [OK] /ExtThemes/Introduction/Index (2.18s)
+  [OK] /ExtThemes/Localization/Index (1.67s)
+  [OK] /ExtThemes/SEO/Index (1.83s)
+  [OK] /ExtThemes/SpeedPerformance/Index (2.03s)
+  [OK] /ExtThemes/TemplatesLayouts/Index (1.73s)
+  [OK] /ExtThemes/UpgradeGuide/Index (1.8s)
+  [OK] /License/ExtendTrial/Index (5.85s)
+  [OK] /License/GenerateLicenseKey/Index (2.62s)
+
+=== Batch 34/35 (10 pages) ===
+  [OK] /License/HelpSupport/Index (1.17s)
+  [OK] /License/Introduction/Index (1.89s)
+  [OK] /License/LicenseActivation/Index (1.93s)
+  [OK] /License/LicenseDeActivation/Index (2.46s)
+  [OK] /License/LicenseManager/Index (2.29s)
+  [OK] /License/Migration/Composer/Index (1.91s)
+  [OK] /License/Migration/Index (1.91s)
+  [OK] /License/Migration/License/Index (1.67s)
+  [OK] /License/OtherProducts/Index (2.64s)
+  [OK] /License/RegisterAndManageDomains/Index (2.22s)
+
+=== Batch 35/35 (7 pages) ===
+  [OK] /License/RenewPurchase/Index (1.15s)
+  [OK] /License/SiteSets/Index (1.75s)
+  [OK] /License/UpdateVersion/CheckNewVersion/Index (2.65s)
+  [OK] /License/UpdateVersion/Composer/Index (4.02s)
+  [OK] /License/UpdateVersion/Index (1.91s)
+  [OK] /License/UpdateVersion/NonComposer/Index (1.92s)
+  [OK] /index (2.25s)
+
+# Phase 5 - Playwright E2E / UI / Responsive Report
+
+- Total pages: **683**
+- OK: **681**
+- FAIL (issues found): **2**
+- ERROR (couldn't load/check): **0**
+- Not yet checked: **0**
+
+## Pages with issues (2)
+- `/ExtNsT3AC/FeatureGuide/Index`: ["broken_images:['https://docs.t3planet.de/en/latest/_images/Dashboard2.png', 'https://docs.t3planet.de/en/latest/_images/T3AC_Embed.png', 'https://docs.t3planet.de/en/latest/_images/Command_crawl.png', 'https://docs.t3planet.de/en/latest/_images/Show_Hide_page.png', 'https://docs.t3planet.de/en/latest/_images/Basic_Authentication.png', 'https://docs.t3planet.de/en/latest/_images/Chunk_Size.png']"]
+- `/ExtNsT3AI/SEO/Index`: ["broken_images:['https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png']"]
+
+
+Full report: /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/remigration/E2E_REPORT.md
+[runner 2026-08-21 14:55:20] round=2 left=2
+Total nav paths: 683; already done: 681; to check: 2
+
+=== Batch 1/1 (2 pages) ===
+  [FAIL] /ExtNsT3AC/FeatureGuide/Index (9.53s) ["broken_images:['https://docs.t3planet.de/en/latest/_images/Dashboard2.png', 'https://docs.t3planet.de/en/latest/_images/T3AC_Embed.png', 'https://docs.t3planet.de/en/latest/_images/Command_crawl.png', 'https://docs.t3planet.de/en/latest/_images/Show_Hide_page.png', 'https://docs.t3planet.de/en/latest/_images/Basic_Authentication.png', 'https://docs.t3planet.de/en/latest/_images/Chunk_Size.png']"]
+  [FAIL] /ExtNsT3AI/SEO/Index (11.06s) ["broken_images:['https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png']"]
+
+# Phase 5 - Playwright E2E / UI / Responsive Report
+
+- Total pages: **683**
+- OK: **681**
+- FAIL (issues found): **2**
+- ERROR (couldn't load/check): **0**
+- Not yet checked: **0**
+
+## Pages with issues (2)
+- `/ExtNsT3AC/FeatureGuide/Index`: ["broken_images:['https://docs.t3planet.de/en/latest/_images/Dashboard2.png', 'https://docs.t3planet.de/en/latest/_images/T3AC_Embed.png', 'https://docs.t3planet.de/en/latest/_images/Command_crawl.png', 'https://docs.t3planet.de/en/latest/_images/Show_Hide_page.png', 'https://docs.t3planet.de/en/latest/_images/Basic_Authentication.png', 'https://docs.t3planet.de/en/latest/_images/Chunk_Size.png']"]
+- `/ExtNsT3AI/SEO/Index`: ["broken_images:['https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png']"]
+
+
+Full report: /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/remigration/E2E_REPORT.md
+[runner 2026-08-21 14:55:48] round=3 left=2
+Total nav paths: 683; already done: 681; to check: 2
+
+=== Batch 1/1 (2 pages) ===
+  [OK] /ExtNsT3AC/FeatureGuide/Index (1.57s)
+  [FAIL] /ExtNsT3AI/SEO/Index (22.94s) ["broken_images:['https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png']"]
+
+# Phase 5 - Playwright E2E / UI / Responsive Report
+
+- Total pages: **683**
+- OK: **682**
+- FAIL (issues found): **1**
+- ERROR (couldn't load/check): **0**
+- Not yet checked: **0**
+
+## Pages with issues (1)
+- `/ExtNsT3AI/SEO/Index`: ["broken_images:['https://docs.t3planet.de/en/latest/ExtNsT3AI/SEO/ExtNsT3AI/SEO/Images/ai_schema3.png']"]
+
+
+Full report: /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/remigration/E2E_REPORT.md
+[runner 2026-08-21 14:56:16] round=4 left=1
+Total nav paths: 683; already done: 682; to check: 1
+
+=== Batch 1/1 (1 pages) ===
+  [OK] /ExtNsT3AI/SEO/Index (2.63s)
+
+# Phase 5 - Playwright E2E / UI / Responsive Report
+
+- Total pages: **683**
+- OK: **683**
+- FAIL (issues found): **0**
+- ERROR (couldn't load/check): **0**
+- Not yet checked: **0**
+
+
+Full report: /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/remigration/E2E_REPORT.md
+[runner 2026-08-21 14:56:23] round=5 left=0
+[runner] COMPLETE
+Total nav paths: 683; already done: 683; to check: 0
+Nothing to do.
+
+# Phase 5 - Playwright E2E / UI / Responsive Report
+
+- Total pages: **683**
+- OK: **683**
+- FAIL (issues found): **0**
+- ERROR (couldn't load/check): **0**
+- Not yet checked: **0**
+
+
+Full report: /Users/nitsan/www/AI Agents/Mintilify Doc/scripts/remigration/E2E_REPORT.md

@@ -1,0 +1,125 @@
+[
+  {
+    "path": "/",
+    "goto_s": 1.984,
+    "http": 200,
+    "ttfb": 1679.5,
+    "dcl": 1978.3,
+    "load": 2655.8,
+    "transfer": 123638,
+    "resources": 74,
+    "contentImgs": 0,
+    "contentLazy": 0,
+    "iframeSrc": 0,
+    "iframeDeferred": 0,
+    "bodyText": 3962,
+    "deferHold": true
+  },
+  {
+    "path": "/ExtNsT3AF/Index",
+    "goto_s": 20.238,
+    "http": 200,
+    "ttfb": 20083.7,
+    "dcl": 20234.8,
+    "load": 20760.8,
+    "transfer": 120871,
+    "resources": 76,
+    "contentImgs": 0,
+    "contentLazy": 0,
+    "iframeSrc": 0,
+    "iframeDeferred": 0,
+    "bodyText": 2501,
+    "deferHold": true
+  },
+  {
+    "path": "/ExtNsT3AF/Introduction/Index",
+    "goto_s": 19.158,
+    "http": 200,
+    "ttfb": 18942.1,
+    "dcl": 19153.9,
+    "load": 0,
+    "transfer": 123251,
+    "resources": 50,
+    "contentImgs": 1,
+    "contentLazy": 0,
+    "iframeSrc": 0,
+    "iframeDeferred": 0,
+    "bodyText": 3402,
+    "deferHold": true
+  },
+  {
+    "path": "/ExtThemes/Index",
+    "goto_s": 10.555,
+    "http": 200,
+    "ttfb": 10443.4,
+    "dcl": 10551.2,
+    "load": 10742.6,
+    "transfer": 120506,
+    "resources": 67,
+    "contentImgs": 0,
+    "contentLazy": 0,
+    "iframeSrc": 0,
+    "iframeDeferred": 0,
+    "bodyText": 3214,
+    "deferHold": true
+  },
+  {
+    "path": "/ExtNsT3AI/Translation/Index",
+    "goto_s": 8.767,
+    "http": 200,
+    "ttfb": 8695.4,
+    "dcl": 8764,
+    "load": 0,
+    "transfer": 139073,
+    "resources": 76,
+    "contentImgs": 7,
+    "contentLazy": 7,
+    "iframeSrc": 0,
+    "iframeDeferred": 21,
+    "bodyText": 13134,
+    "deferHold": true
+  },
+  {
+    "client_nav_intro_s": 9.499
+  },
+  {
+    "integrity": [
+      {
+        "path": "/ExtNsT3AF/Introduction/Index",
+        "ok": true,
+        "h1": "Introduction",
+        "t": 4412,
+        "imgs": 1
+      },
+      {
+        "path": "/ExtNsT3AI/Translation/Index",
+        "ok": true,
+        "h1": "Translation",
+        "t": 13134,
+        "imgs": 7
+      },
+      {
+        "path": "/ExtThemes/Introduction/Index",
+        "ok": true,
+        "h1": "Introduction",
+        "t": 2876,
+        "imgs": 0
+      },
+      {
+        "path": "/EXTKarma/Installation/Index",
+        "ok": true,
+        "h1": "Installation",
+        "t": 3893,
+        "imgs": 3
+      }
+    ]
+  },
+  {
+    "mobile_translation": {
+      "t": 11406,
+      "iframeSrc": 0,
+      "iframeDeferred": 21,
+      "overflowX": false
+    }
+  }
+]

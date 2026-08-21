@@ -1,0 +1,51 @@
+{
+  "verdict": "PASS",
+  "results": [
+    {
+      "name": "back",
+      "ok": true,
+      "detail": "http://127.0.0.1:3000/ExtNsT3AF/Introduction/Index"
+    },
+    {
+      "name": "forward",
+      "ok": true,
+      "detail": "http://127.0.0.1:3000/ExtNsT3AF/Support/Index"
+    },
+    {
+      "name": "bf settled",
+      "ok": true,
+      "detail": "{'busy': False, 'holding': False}"
+    },
+    {
+      "name": "progress tablet",
+      "ok": true,
+      "detail": "{'op': '1', 'h': '2px', 'w': '768px'}"
+    },
+    {
+      "name": "progress desktop-wide",
+      "ok": true,
+      "detail": "{'op': '1', 'h': '2px', 'w': '1920px'}"
+    },
+    {
+      "name": "progress mobile-narrow",
+      "ok": true,
+      "detail": "{'op': '1', 'h': '2px', 'w': '320px'}"
+    },
+    {
+      "name": "loader DOM ready",
+      "ok": true,
+      "detail": "True"
+    }
+  ],
+  "failed": [],
+  "prior": [
+    "progress active after transition PASS",
+    "nav Introduction PASS",
+    "settled clean PASS",
+    "nested AIProviders PASS",
+    "dark token PASS",
+    "mobile reduced-motion PASS",
+    "3001 Support PASS",
+    "3001 settled PASS"
+  ]
+}

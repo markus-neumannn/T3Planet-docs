@@ -866,7 +866,7 @@ sidebarTitle: "Home"
 <div className="t3-home-landing">
 
 {hub_nav(lang, "home")}
-{render_hero_panel(lang, "T3Planet Documentation", "Welcome to T3Planet Docs", "Build faster with TYPO3 extensions, templates and AI — official guides for installation, licensing, configuration, and updates.")}
+{render_hero_panel(lang, "T3Planet Documentation", "Welcome to T3Planet Docs", "Build faster with TYPO3 extensions, templates and AI — official guides for installation, license, configuration, and updates.")}
 {render_stats_bar(lang)}
 
 <CardGroup cols={{4}}>

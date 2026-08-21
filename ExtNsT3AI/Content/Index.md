@@ -246,6 +246,8 @@ Your content element will be translated
 
 ## Content Fields
 
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqju3jw0yyq130uvav5h5r1?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
 The **Content Field** feature allows you to generate AI-powered content for all fields using a single prompt.
 This helps streamline content creation by automatically filling multiple fields with relevant, high-quality text.
 

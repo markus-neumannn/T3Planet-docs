@@ -1,0 +1,132 @@
+{
+  "status": "REDIRECTION AND NAVIGATION PERFORMANCE OPTIMIZED \u2014 READY FOR QA REVIEW",
+  "root_cause": [
+    "Local Mintlify SPA/RSC left click\u2192route incomplete for multi-seconds despite fast curl cache HIT",
+    "Browser HTTP/1.1 HOL blocking: mint-bound BYPASS held connections so document HIT waited ~10s (curl HIT remained 1\u20138ms)",
+    "Background warm acquired upstream gate with block=True, amplifying stalls"
+  ],
+  "fixes": [
+    "Hard location.assign for all local mint (:3000/:3001)",
+    "Proxy-side /__t3_cache_warm only (no browser HTML prefetch downloads)",
+    "window.stop() immediately before assign to clear stalled connections",
+    "Static assets skip compile gate; warm uses block=False"
+  ],
+  "before": {
+    "spa_click_median_ms": 3083,
+    "blocked_browser_document_hit_ms": 9500,
+    "curl_hit_ms": "1-8"
+  },
+  "after_desktop": {
+    "/EXTBootstrap/Index \u2192 Introduction": {
+      "samples_ms": [
+        274,
+        299,
+        215,
+        290,
+        296,
+        250
+      ],
+      "median_ms": 282,
+      "proxy_ttfb_ms": [
+        6,
+        3,
+        3,
+        2,
+        22,
+        8
+      ]
+    },
+    "/ExtNsT3AF/Index \u2192 Introduction": {
+      "samples_ms": [
+        251,
+        212,
+        742,
+        207,
+        260,
+        260
+      ],
+      "median_ms": 255.5,
+      "proxy_ttfb_ms": [
+        8,
+        5,
+        5,
+        4,
+        10,
+        21
+      ]
+    },
+    "/ExtNsT3AF/Introduction \u2192 Installation": {
+      "samples_ms": [
+        290,
+        366,
+        273,
+        234,
+        254,
+        240
+      ],
+      "median_ms": 263.5,
+      "proxy_ttfb_ms": [
+        93,
+        32,
+        5,
+        5,
+        6,
+        5
+      ]
+    },
+    "/ExtNsT3AI/Index \u2192 Content": {
+      "samples_ms": [
+        325,
+        157,
+        203,
+        193,
+        211
+      ],
+      "median_ms": 203
+    }
+  },
+  "mobile_Index_to_Introduction": {
+    "samples": [
+      222,
+      196,
+      168,
+      279
+    ],
+    "median_ms": 209.0,
+    "ok": "4/4"
+  },
+  "tablet_Index_to_Introduction": {
+    "samples": [
+      217,
+      277,
+      293,
+      264
+    ],
+    "median_ms": 270.5,
+    "ok": "4/4"
+  },
+  "history": {
+    "back_ms": 205,
+    "forward_ms": 88
+  },
+  "redirects": [
+    {
+      "path": "/ExtNsT3AF",
+      "error": "timeout"
+    },
+    {
+      "path": "/ExtNsT3AF/",
+      "error": "timeout"
+    },
+    {
+      "path": "/ExtNsT3AF/Index",
+      "status": 200,
+      "loc": null,
+      "cache": "HIT"
+    },
+    {
+      "path": "/ExtNsT3AF/Index/",
+      "error": "timeout"
+    }
+  ]
+}

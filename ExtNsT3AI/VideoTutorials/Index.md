@@ -12,3 +12,5 @@ sidebarTitle: "Video Tutorials"
 ## User Guide in Videos
 
 Experience the power of TYPO3 AI with ease! T3AI’s GUIDIE feature provides step-by-step instructions, making your TYPO3 AI journey smoother and faster than ever before.
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cm1gm7tws00c214kkyqjyrdhz?demo=1" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>

@@ -1,0 +1,54 @@
+{
+  "warm": [
+    {
+      "path": "/",
+      "goto_s": 0.648,
+      "ttfb": 19.300000000745058,
+      "resources": 88,
+      "iframeSrc": 0,
+      "iframeDeferred": 0,
+      "contentLazy": 0,
+      "contentImgs": 0,
+      "transfer": 771270
+    },
+    {
+      "path": "/ExtNsT3AF/Index",
+      "goto_s": 1.042,
+      "ttfb": 577.0999999996275,
+      "resources": 93,
+      "iframeSrc": 0,
+      "iframeDeferred": 0,
+      "contentLazy": 0,
+      "contentImgs": 0,
+      "transfer": 767301
+    },
+    {
+      "path": "/ExtNsT3AF/Introduction/Index",
+      "goto_s": 10.229,
+      "ttfb": 9733.599999999627,
+      "resources": 69,
+      "iframeSrc": 0,
+      "iframeDeferred": 6,
+      "contentLazy": 0,
+      "contentImgs": 1,
+      "transfer": 744504
+    },
+    {
+      "path": "/ExtNsT3AI/Translation/Index",
+      "goto_s": 10.322,
+      "ttfb": 9753.900000000373,
+      "resources": 86,
+      "iframeSrc": 0,
+      "iframeDeferred": 21,
+      "contentLazy": 7,
+      "contentImgs": 7,
+      "transfer": 878532
+    }
+  ],
+  "nav_times": [
+    0.218,
+    0.118,
+    0.1
+  ],
+  "nav_avg": 0.14533333333333331
+}

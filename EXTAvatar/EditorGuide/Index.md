@@ -60,6 +60,17 @@ Into the General Tab you can Enable & Disable Breadcrumb, Searchbar, Multilangua
 
 ![ns-theme-t3avatar-editor-guide-WebsiteStyle](./images/Editor_style.webp)
   </Step>
+</Steps>
+
+<Note>
+**How To enable Mega menu on my Website?**
+
+Answer is, Enable the option from the Styles Tab of Page Property. that's it Now your page having the mega menu.
+
+![ns-theme-t3avatar-editor-guide-MegaMenu](./images/Enable_Megamenu.webp)
+</Note>
+
+<Steps>
   <Step title="Step 10">
 Inserting the Container Element & Mask Elements on your webpage.
 You can use the Custom & TYPO3 Default element within the container to provide more flexibility in content area.!

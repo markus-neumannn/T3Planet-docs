@@ -111,14 +111,16 @@ With this feature, you do not need complex TypoScript changes. You can easily ad
 You don’t need any special setup. Just follow the steps shown in the demo:
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmniq0bxe113labure9s9bwho?preview=true&step=1" loading="lazy" title="Editor Guide" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmetrfmf3ka2nr99usu9m6b9?utm_source=link" loading="lazy" title="Page-Level Constant Editor" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 Steps:
 
-1. Go to the page where you want to apply changes
-2. Create an additional TypoScript record
-3. Open the Constant Editor
+1. Open the **TypoScript** module.
+2. Select the page where you want to apply changes.
+3. Click **Create an additional TypoScript record**.
+4. Open **Theme Options**.
+5. Use the **General** tab (and other tabs) to adjust page-level settings, such as the website logo.
 
 Now you can update the available options based on your requirements.
 
@@ -146,3 +148,23 @@ You will see a frontend preview inside the backend.
 From here, you can edit content directly and instantly view the changes.
 
 This improves editing speed and makes content management more intuitive.
+
+### Use Existing T3Karma Demo
+
+If you installed T3Karma with demo pages, you can use one of those demos as your main website instead of creating a new root page from scratch.
+
+Follow this walkthrough:
+
+<div className="t3-embed">
+  <iframe src="https://app.supademo.com/embed/cmqj7pkqm0pqbqmx1daefyh68?utm_source=link" loading="lazy" title="Use Existing T3Karma Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+</div>
+
+1. In the page tree, move the demo page you want to use (for example **Business Consulting**) to the required position.
+2. Confirm the relocation with **Move this item**.
+3. Select the demo page and open **Edit page properties**.
+4. Enable **Use as Root Page** and click **Save**.
+5. Open **Sites** and edit the site configuration for that demo.
+6. Select **Fluid Styled Content CSS**, then close the site configuration.
+7. Open the site settings and set the **Main Menu Id**.
+8. Click **Save**.
+9. Use **View webpage** to preview the demo as your main website.

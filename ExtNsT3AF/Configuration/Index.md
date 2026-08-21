@@ -17,6 +17,10 @@ This section also covers the T3AF backend modules used day to day: providers, co
 
 **AI Providers** — **Path:**T3AF > AI Providers. API keys, models, and defaults.
 
+**AI Features** — **Path:**T3AF > AI Features. Per-site cards for connected extensions. AI Foundation's own card is **Access & Notifications** (Basic Auth and quota email alerts). MCP options are on T3AF > MCP Server > Advanced.
+
+![AI Features cards including Access and Notifications](./images/ai-features-cards.webp)
+
 **Extension settings** — Translation APIs, Basic Auth, notifications, and MCP switches (including `enableMcpServer`). Prefer T3AF > MCP Server > Advanced for MCP options. These keys live in T3AF settings, not the classic TYPO3 Admin Tools > Settings > Extension Configuration form.
 
 ## Minimum working setup
@@ -52,6 +56,8 @@ Where a classic Extension Configuration form is still used for optional keys, op
 - `openai_admin_api_key` — Organization usage charts (not the chat API key)
 
 ### HTTP Basic Auth (optional)
+
+![Access and Notifications drawer with Basic Auth and email alerts](./images/access-notifications.webp)
 
 - `basicAuthEnabled` — Enable helper
 - `basicAuthUsername` — Username

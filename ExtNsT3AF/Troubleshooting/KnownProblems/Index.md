@@ -22,7 +22,8 @@ T3AF includes an MCP server and conflicts with other MCP server packages such as
 1. Confirm `ns_t3af` is active.
 2. Flush all caches.
 3. Run:
-  ```
+
+  ```bash
   ./vendor/bin/typo3 extension:setup
   ./vendor/bin/typo3 cache:flush
   ```

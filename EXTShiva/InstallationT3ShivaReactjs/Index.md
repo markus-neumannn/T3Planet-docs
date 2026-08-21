@@ -37,7 +37,7 @@ We require many packages (dependencies) to run our site. So, We are at â€œrootâ€
 "yarn"
 ```
 
-![install](https://docs.t3planet.de/en/latest/_images/install5.png)
+![install](./images/install5.png)
 
 **Step 4.** How To Run > To start our development server run command below.
 
@@ -47,7 +47,7 @@ We require many packages (dependencies) to run our site. So, We are at â€œrootâ€
 
 Now, Open your browser and visit [http://localhost:3000](http://localhost:3000) You should see a page like below.
 
-![landing_screen](https://docs.t3planet.de/en/latest/_images/landing_screen5.png)
+![landing_screen](./images/landing_screen5.webp)
 
 Wow! You are a genius. Now open the code editor and start hacking!
 
@@ -68,6 +68,6 @@ One of them is [https://vercel.com/](https://vercel.com/)
 - Connect vercel with our your gitlab, github, etc.
 - When perform commit on the master branch vercel will automatically deploy and serve output on the defined domain.
 
-![vercel_login](https://docs.t3planet.de/en/latest/_images/vercel_login5.jpg)
+![vercel_login](./images/vercel_login5.jpg)
 
 Awesome! Now Your Site Is Ready To Publish.!

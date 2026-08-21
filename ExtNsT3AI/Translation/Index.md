@@ -12,9 +12,19 @@ sidebarTitle: "Translation"
 The T3AI Translation feature is a powerful tool designed to simplify content translation. With this feature, you can automatically translate your website’s content into multiple languages with just a few clicks.
 
 <Note>
-Translation is only supported for TCA columns, where fields with `l10n_mode` set to `prefixLangTitle` are detected as translatable. This is handled via a DataHandler hook, which only applies to TCA records, not to FlexForm fields.
+Translation is supported only for **TCA-based fields**. Fields are considered translatable when the `l10n_mode` is set to `prefixLangTitle`. This functionality is implemented via a DataHandler hook, which applies exclusively to TCA records and **does not support FlexForm fields by default**.
 
-FlexForm translation is supported only when using the **Standard FlexForm Structure**. For details, refer to the TYPO3 Official Documentation for [Standard FlexForm Structure](https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/FlexForms/Index.html).
+For **Mask elements**, ensure that the option **Copy with prefix [prefixLangTitle]** is enabled for each field that should be translated. Without this configuration, the fields will be ignored during the translation process.
+
+![MaskElement_L10NConfigurtion](./images/MaskElement_L10NConfigurtion.webp)
+</Note>
+
+<Note>
+**FlexForm translation** is supported only when using the **Standard FlexForm Structure**. Custom or non-standard FlexForm configurations may not be processed correctly.
+
+For more details, refer to the TYPO3 official documentation: [Standard FlexForm Structure](https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/FlexForms/Index.html)
+
+Additionally, **Flux-based content elements** support translation only **after the content element has been created and saved at least once**.
 </Note>
 
 ## Mass Translation

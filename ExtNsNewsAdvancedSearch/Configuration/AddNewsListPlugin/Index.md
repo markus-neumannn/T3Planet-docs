@@ -22,7 +22,7 @@ Add News System plugin & select the search option from setting tab.
 
 **Lat/Long & Address**: Latitude, Longitude and Address textboxes will be auto-generated with location selected above.
 
-![Add Google Locations (Info Content tab)](https://docs.t3planet.de/en/latest/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Images/add_location_2.jpeg)
+![Add Google Locations (Info Content tab)](./images/add_location_2.jpeg)
 
 **Infocontent**: Set the address you want to display with Location title in plugin
 

@@ -1,0 +1,15 @@
+{
+  "nav_paths": 683,
+  "redirects": 1408,
+  "nav_missing_file": [],
+  "dup_redirect_sources": [],
+  "self_redirects": [],
+  "redirect_to_parent_of_self": [],
+  "redirect_dest_unresolved": [],
+  "redirect_dest_unresolved_count": 0,
+  "files_scanned_for_links": 798,
+  "total_internal_links": 544,
+  "broken_internal_links": [],
+  "http_failures": [],
+  "http_checked": 683
+}

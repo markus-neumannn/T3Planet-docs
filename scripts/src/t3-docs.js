@@ -98,11 +98,14 @@
 
   routePath = path || "/";
 
-  var progressEl = null;
+  var progressEl = null; // legacy alias → nav loader overlay
   var progressBar = null;
   var progressTimer = null;
   var progressDelay = null;
   var progressValue = 0;
+  var loaderEl = null;
+  var loaderHideTimer = null;
+  var loaderSafetyTimer = null;
   var veilEl = null;
   var veilTimer = null;
   var holdEl = null;
@@ -112,6 +115,11 @@
   var scrollLocked = false;
   var navStartedAt = 0;
   var navToken = 0;
+  var progressVisible = false;
+  var PROGRESS_SHOW_MS = 120;
+  var LOADER_MAX_MS = 12000;
+  var userNavPriority = false;
+  var docPrefetchControllers = [];
   var pendingNavHref = "";
   var reducedMotion = false;
   try {
@@ -679,19 +687,82 @@
   }
 
 
+  function dotsMarkup() {
+    return (
+      '<div class="t3-dots-container" aria-hidden="true">' +
+      '<span class="t3-dot"></span>' +
+      '<span class="t3-dot"></span>' +
+      '<span class="t3-dot"></span>' +
+      "</div>" +
+      '<span class="t3-nav-loader-sr sr-only">Loading documentation</span>'
+    );
+  }
+
+  function ensureNavLoader() {
+    if (loaderEl) return loaderEl;
+    loaderEl = document.createElement("div");
+    loaderEl.id = "t3-nav-loader";
+    loaderEl.setAttribute("aria-hidden", "true");
+    loaderEl.innerHTML =
+      '<div class="t3-nav-loader-panel" role="status" aria-live="polite" aria-atomic="true">' +
+      dotsMarkup() +
+      "</div>";
+    document.documentElement.appendChild(loaderEl);
+    progressEl = loaderEl; // keep legacy callers / cleanup paths safe
+    return loaderEl;
+  }
+
   function ensureProgress() {
-    if (progressEl) return progressEl;
-    progressEl = document.createElement("div");
-    progressEl.id = "t3-nav-progress";
-    progressEl.setAttribute("role", "progressbar");
-    progressEl.setAttribute("aria-hidden", "true");
-    progressEl.setAttribute("aria-valuemin", "0");
-    progressEl.setAttribute("aria-valuemax", "100");
-    progressBar = document.createElement("div");
-    progressBar.className = "t3-nav-progress-bar";
-    progressEl.appendChild(progressBar);
-    document.documentElement.appendChild(progressEl);
-    return progressEl;
+    return ensureNavLoader();
+  }
+
+  function showNavLoader() {
+    ensureNavLoader();
+    if (loaderHideTimer) {
+      clearTimeout(loaderHideTimer);
+      loaderHideTimer = null;
+    }
+    loaderEl.classList.remove("t3-nav-loader-exit");
+    loaderEl.classList.add("t3-nav-loader-active");
+    loaderEl.setAttribute("aria-hidden", "false");
+    document.documentElement.classList.add("t3-loader-on");
+    lockPageScroll();
+    bindHoldScrollBlock(true);
+  }
+
+  function hideNavLoader(immediate) {
+    if (!loaderEl) {
+      document.documentElement.classList.remove("t3-loader-on", "t3-holding");
+      bindHoldScrollBlock(false);
+      unlockPageScroll();
+      return;
+    }
+    function clearUi() {
+      loaderHideTimer = null;
+      loaderEl.classList.remove("t3-nav-loader-active", "t3-nav-loader-exit");
+      loaderEl.setAttribute("aria-hidden", "true");
+      document.documentElement.classList.remove("t3-loader-on", "t3-holding");
+      bindHoldScrollBlock(false);
+      unlockPageScroll();
+    }
+    if (loaderHideTimer) {
+      clearTimeout(loaderHideTimer);
+      loaderHideTimer = null;
+    }
+    if (immediate || reducedMotion || !loaderEl.classList.contains("t3-nav-loader-active")) {
+      clearUi();
+      return;
+    }
+    loaderEl.classList.add("t3-nav-loader-exit");
+    loaderHideTimer = setTimeout(clearUi, 220);
+    // Hard clear — never leave blur overlay / scroll lock stuck
+    setTimeout(function () {
+      if (document.documentElement.classList.contains("t3-loader-on")) clearUi();
+    }, 400);
+  }
+
+  function holdStatusMarkup() {
+    return dotsMarkup();
   }
 
   function veilMarkup() {
@@ -921,35 +992,14 @@
   }
 
   function captureHold(href) {
-    // Opaque content-panel replacement — never a translucent overlay on old content.
-    ensureHold();
-    applyOverlayBounds(holdEl);
-    holdEl.classList.remove("t3-page-hold-exit", "t3-page-hold-dim", "t3-page-hold-rich");
-    holdEl.classList.add("t3-page-hold-active", "t3-page-hold-plain");
-    holdInner.style.transform = "";
-    holdInner.innerHTML = ""; // solid cover first (no skeleton flash on instant hops)
+    // Legacy path: full-screen blur loader replaces opaque skeleton hold.
+    showNavLoader();
     document.documentElement.classList.add("t3-holding");
-    lockPageScroll();
-    bindHoldScrollBlock(true);
-
-    // After ~100ms show layout-matched skeleton on slow hops only
-    if (veilTimer) clearTimeout(veilTimer);
-    var kind = skeletonKindForHref(href || "");
-    veilTimer = setTimeout(function () {
-      if (!document.documentElement.classList.contains("t3-nav-busy")) return;
-      holdInner.innerHTML = docsSkeletonMarkup(kind);
-      holdEl.classList.add("t3-page-hold-rich");
-      holdEl.classList.remove("t3-page-hold-plain");
-      applyOverlayBounds(holdEl);
-    }, reducedMotion ? 0 : 100);
     return true;
   }
 
   function setProgressWidth(v) {
     progressValue = Math.max(0, Math.min(99.5, v));
-    ensureProgress();
-    if (progressBar) progressBar.style.width = progressValue + "%";
-    progressEl.setAttribute("aria-valuenow", String(Math.round(progressValue)));
   }
 
   function clearProgressTimers() {
@@ -969,6 +1019,12 @@
       clearTimeout(holdReleaseTimer);
       holdReleaseTimer = null;
     }
+    if (loaderSafetyTimer) {
+      clearTimeout(loaderSafetyTimer);
+      loaderSafetyTimer = null;
+    }
+    // Intentionally do NOT clear loaderHideTimer here — progress(false) settle
+    // relies on the fade-out completing. progress(true) clears via hideNavLoader(true).
   }
 
   function showVeil() {
@@ -985,35 +1041,15 @@
   }
 
   function releaseHold(immediate) {
-    if (!holdEl) {
-      document.documentElement.classList.remove("t3-holding");
-      bindHoldScrollBlock(false);
-      unlockPageScroll();
-      return;
-    }
-    holdEl.classList.remove("t3-page-hold-dim");
-    if (immediate || reducedMotion) {
-      holdEl.classList.remove("t3-page-hold-active", "t3-page-hold-exit");
+    document.documentElement.classList.remove("t3-holding");
+    if (holdEl) {
+      holdEl.classList.remove("t3-page-hold-active", "t3-page-hold-exit", "t3-page-hold-dim", "t3-page-hold-rich", "t3-page-hold-plain");
       if (holdInner) {
         holdInner.innerHTML = "";
         holdInner.style.transform = "";
       }
-      document.documentElement.classList.remove("t3-holding");
-      bindHoldScrollBlock(false);
-      unlockPageScroll();
-      return;
     }
-    holdEl.classList.add("t3-page-hold-exit");
-    holdReleaseTimer = setTimeout(function () {
-      holdEl.classList.remove("t3-page-hold-active", "t3-page-hold-exit");
-      if (holdInner) {
-        holdInner.innerHTML = "";
-        holdInner.style.transform = "";
-      }
-      document.documentElement.classList.remove("t3-holding");
-      bindHoldScrollBlock(false);
-      unlockPageScroll();
-    }, 120);
+    hideNavLoader(immediate);
   }
 
   function announceNav(msg) {
@@ -1030,91 +1066,77 @@
   }
 
   function progress(active) {
-    ensureProgress();
+    ensureNavLoader();
     if (active) {
       clearProgressTimers();
       navToken += 1;
       navStartedAt = Date.now();
-      progressEl.classList.remove("t3-nav-progress-done");
+      progressVisible = false;
+      hideNavLoader(true);
       document.documentElement.classList.add("t3-nav-busy");
       document.documentElement.setAttribute("aria-busy", "true");
-      announceNav("Loading page");
 
-      // Local mint: opaque hold covers multi-second compiles.
-      // Production CDN: progress bar only — same feel as live Sphinx (no hold).
-      // Behind :3000 cache proxy, full HTML is usually warm — progress bar only.
-      // Opaque skeleton hold is reserved for raw mint :3001 (multi-second compiles).
-      if (isLocalMintDev() && !isBehindCacheProxy()) {
-        captureHold(pendingNavHref || currentPath());
-      }
-
-      // Fast hops: delay bar to avoid flicker (<~80–150ms)
+      // Flicker guard: show full-screen blur loader only when nav is still busy.
+      var showMs = reducedMotion ? 0 : PROGRESS_SHOW_MS;
       progressDelay = setTimeout(function () {
-        progressEl.classList.add("t3-nav-progress-active");
-        setProgressWidth(18);
-        progressTimer = setInterval(function () {
-          var step = progressValue < 40 ? 10 : progressValue < 70 ? 4.5 : progressValue < 85 ? 1.6 : 0.45;
-          setProgressWidth(progressValue + step * (0.6 + Math.random() * 0.8));
-        }, 140);
-      }, reducedMotion ? 0 : 50);
+        if (!document.documentElement.classList.contains("t3-nav-busy")) return;
+        progressVisible = true;
+        showNavLoader();
+        announceNav("Loading page");
+      }, showMs);
 
-      // Light hold already paints skeleton placeholders — skip second full veil overlay
-      // (keeps main thread free; progress bar remains the slow-path signal).
+      // Hard safety: never leave blur overlay stuck.
+      var tokenSafety = navToken;
+      loaderSafetyTimer = setTimeout(function () {
+        if (tokenSafety !== navToken) return;
+        if (!document.documentElement.classList.contains("t3-nav-busy")) return;
+        progress(false);
+      }, LOADER_MAX_MS);
       return;
     }
 
-    // Complete — wait until next page content is actually present, then crossfade
+    // Complete — wait until destination content is present, then settle UI.
     clearProgressTimers();
     var token = navToken;
     var elapsed = Date.now() - (navStartedAt || Date.now());
     var tries = 0;
+    var wasVisible = progressVisible;
 
     function finish() {
       if (token !== navToken) return;
       document.documentElement.classList.remove("t3-nav-busy");
       document.documentElement.removeAttribute("aria-busy");
       pendingNavHref = "";
+      userNavPriority = false;
       prefetchGateOpen = false;
+      try {
+        window.__t3PrefetchGateOpen = false;
+      } catch (eGate2) {}
       hideVeil();
 
-      // Fast hops: skip enter animation so perceived SPA stays under ~300ms.
-      // Slow hops (mint compile / cold RSC): short enter cue only.
-      if (elapsed >= 300 && !reducedMotion) {
+      if (elapsed >= 280 && !reducedMotion) {
         document.documentElement.classList.add("t3-route-enter");
         setTimeout(function () {
           document.documentElement.classList.remove("t3-route-enter");
-        }, 160);
+        }, 180);
       }
 
-      // Always drop hold immediately once content is ready — exit animation
-      // previously added 120ms+ of artificial "busy" after paint.
-      releaseHold(true);
-      announceNav("Page loaded");
-
-      if (elapsed < 120 && progressEl && !progressEl.classList.contains("t3-nav-progress-active")) {
-        progressEl.classList.remove("t3-nav-progress-active");
-        setProgressWidth(0);
+      if (!wasVisible) {
+        progressVisible = false;
+        releaseHold(true);
         return;
       }
-      if (!progressEl) return;
-      progressEl.classList.add("t3-nav-progress-active");
-      setProgressWidth(100);
-      progressEl.classList.add("t3-nav-progress-done");
-      setTimeout(function () {
-        progressEl.classList.remove("t3-nav-progress-active", "t3-nav-progress-done");
-        setProgressWidth(0);
-      }, 160);
+
+      announceNav("Page loaded");
+      progressVisible = false;
+      releaseHold(false);
     }
 
     function waitReady() {
       if (token !== navToken) return;
-      // Cap ~100ms wait for content paint; beyond that mint/RSC dominates.
-      if (contentLooksReady() || tries > 6) {
-        if (typeof requestAnimationFrame === "function") {
-          requestAnimationFrame(finish);
-        } else {
-          setTimeout(finish, 0);
-        }
+      if (contentLooksReady() || tries > 8) {
+        if (typeof requestAnimationFrame === "function") requestAnimationFrame(finish);
+        else setTimeout(finish, 0);
         return;
       }
       tries += 1;
@@ -1147,16 +1169,8 @@
       if (row[2]) l.crossOrigin = row[2];
       frag.appendChild(l);
     });
-    // Preload the most common sidebar icons used on every page
-    [
-      "house",
-      "rocket",
-      "sparkles",
-      "layout-template",
-      "puzzle",
-      "book-open",
-      "life-buoy",
-    ].forEach(function (name) {
+    // Preload only the most common first-paint sidebar icons (avoid connection thrash).
+    ["house", "sparkles", "puzzle"].forEach(function (name) {
       var l = document.createElement("link");
       l.rel = "preload";
       l.as = "image";
@@ -1299,21 +1313,112 @@
     }, 1200);
   }
 
-  function prefetchDocument(href) {
+  function abortBackgroundPrefetch() {
+    // Free browser connections so a real click→location.assign is never queued.
+    try {
+      for (var i = 0; i < docPrefetchControllers.length; i++) {
+        try {
+          docPrefetchControllers[i].abort();
+        } catch (eAb) {}
+      }
+    } catch (eList) {}
+    docPrefetchControllers = [];
+    // Drop link[rel=prefetch] tags we added — they also occupy HTTP/2 slots.
+    try {
+      var nodes = document.querySelectorAll('link[data-t3-doc-prefetch="1"]');
+      for (var n = 0; n < nodes.length; n++) {
+        try {
+          nodes[n].parentNode.removeChild(nodes[n]);
+        } catch (eRm) {}
+      }
+    } catch (eNodes) {}
+  }
+
+  function pauseBackgroundWarmForUserNav() {
+    userNavPriority = true;
+    abortBackgroundPrefetch();
+  }
+
+  function hardNavigate(go) {
+    // Cancel in-flight page requests so the new document is not stuck behind
+    // HTTP/1.1 head-of-line blocking on mint-bound BYPASS connections (~10s).
+    // Call stop() in the same turn immediately before assign — not earlier.
+    try {
+      if (typeof window.stop === "function") window.stop();
+    } catch (eStop) {}
+    try {
+      window.location.assign(go);
+    } catch (eAssign) {
+      window.location.href = go;
+    }
+  }
+
+  function warmPathViaProxy(href) {
+    // Proxy-side warm returns 202 quickly and does not download HTML in the browser.
     href = cleanRoute(href || "");
-    if (!href || href[0] !== "/" || prefetched["doc:" + href]) return;
+    if (!href || href[0] !== "/") return;
+    if (!isBehindCacheProxy()) return;
+    if (userNavPriority) return;
+    try {
+      if (typeof fetch !== "function") return;
+      var ctrl = null;
+      var init = { credentials: "same-origin", cache: "no-store" };
+      if (typeof AbortController === "function") {
+        ctrl = new AbortController();
+        init.signal = ctrl.signal;
+        docPrefetchControllers.push(ctrl);
+      }
+      fetch("/__t3_cache_warm?path=" + encodeURIComponent(href), init)
+        .catch(function () {})
+        .finally(function () {
+          if (!ctrl) return;
+          var ix = docPrefetchControllers.indexOf(ctrl);
+          if (ix >= 0) docPrefetchControllers.splice(ix, 1);
+        });
+    } catch (eWarm) {}
+  }
+
+  function prefetchDocument(href, opts) {
+    href = cleanRoute(href || "");
+    if (!href || href[0] !== "/") return;
+    opts = opts || {};
+    // Background warm must never compete with an in-flight user navigation.
+    if (userNavPriority && !opts.priority) return;
+    if (prefetched["doc:" + href] && !opts.force) return;
     prefetched["doc:" + href] = 1;
+
+    // Behind :3000: warm server-side only. Full-document fetch/prefetch in the
+    // browser saturated the connection pool and delayed location.assign by 10–30s.
+    if (isBehindCacheProxy() && !opts.browserFetch) {
+      warmPathViaProxy(href);
+      return;
+    }
+
     try {
       var l = document.createElement("link");
       l.rel = "prefetch";
       l.as = "document";
       l.href = href;
+      l.setAttribute("data-t3-doc-prefetch", "1");
       document.head.appendChild(l);
     } catch (ePref) {}
-    // Warm mint compile / HTTP cache for full-page navigations (logo → home).
+    // Raw mint / explicit browserFetch: warm compile via a cancellable fetch.
     try {
       if (typeof fetch === "function") {
-        fetch(href, { credentials: "same-origin", cache: "force-cache" }).catch(function () {});
+        var ctrl = null;
+        var init = { credentials: "same-origin", cache: "force-cache" };
+        if (typeof AbortController === "function") {
+          ctrl = new AbortController();
+          init.signal = ctrl.signal;
+          docPrefetchControllers.push(ctrl);
+        }
+        fetch(href, init)
+          .catch(function () {})
+          .finally(function () {
+            if (!ctrl) return;
+            var ix = docPrefetchControllers.indexOf(ctrl);
+            if (ix >= 0) docPrefetchControllers.splice(ix, 1);
+          });
       }
     } catch (eFetch) {}
   }
@@ -1339,21 +1444,81 @@
 
   function warmHubsBehindProxy() {
     // Behind :3000 the HTML cache proxy absorbs cold mint compiles.
-    // Document fetches warm proxy entries without flooding ?_rsc compiles.
+    // Warm more hubs, but still sequential + spaced so we never saturate
+    // the browser connection pool (that made location.assign hang).
     if (!isBehindCacheProxy()) return;
-    var hubs = HUB_ROUTES.slice();
+    var hubs = HUB_ROUTES.slice(0, 6);
     var i = 0;
     function next() {
       if (i >= hubs.length) return;
-      var href = hubs[i++];
-      if (href === currentPath()) {
-        idle(next, 50);
+      // Yield immediately when the user is navigating (hard assign needs free sockets).
+      if (
+        userNavPriority ||
+        document.documentElement.classList.contains("t3-nav-busy") ||
+        document.documentElement.classList.contains("t3-holding")
+      ) {
+        idle(next, 2500);
         return;
       }
-      prefetchDocument(href);
-      idle(next, 350);
+      var href = hubs[i++];
+      if (href === currentPath()) {
+        idle(next, 40);
+        return;
+      }
+      // Proxy-side warm only (no browser HTML download).
+      warmPathViaProxy(href);
+      idle(next, 1600);
     }
-    idle(next, 600);
+    idle(next, 1500);
+  }
+
+  function prefetchAdjacentBehindProxy() {
+    // After a warm page settles, quietly warm likely next hops into the proxy.
+    if (!isBehindCacheProxy()) return;
+    try {
+      var pag = document.getElementById("pagination");
+      if (pag) {
+        pag.querySelectorAll('a[href^="/"]').forEach(function (a) {
+          prefetchDocument(a.getAttribute("href") || "");
+        });
+      }
+      var sb = document.getElementById("sidebar-content");
+      if (!sb) return;
+      var links = sb.querySelectorAll('a[href^="/"]');
+      var cur = currentPath();
+      var idx = -1;
+      var hrefs = [];
+      for (var i = 0; i < links.length; i++) {
+        var h = cleanRoute(links[i].getAttribute("href") || "");
+        if (!h) continue;
+        hrefs.push(h);
+        if (h === cur) idx = hrefs.length - 1;
+      }
+      var picks = [];
+      if (idx >= 0) {
+        if (hrefs[idx - 1]) picks.push(hrefs[idx - 1]);
+        if (hrefs[idx + 1]) picks.push(hrefs[idx + 1]);
+        if (hrefs[idx + 2]) picks.push(hrefs[idx + 2]);
+      }
+      // Also first few siblings under the same product prefix
+      var prefix = cur.split("/").slice(0, 2).join("/") + "/";
+      for (var j = 0; j < hrefs.length && picks.length < 6; j++) {
+        if (hrefs[j].indexOf(prefix) === 0 && hrefs[j] !== cur && picks.indexOf(hrefs[j]) === -1) {
+          picks.push(hrefs[j]);
+        }
+      }
+      picks.slice(0, 4).forEach(function (href, n) {
+        setTimeout(function () {
+          try {
+            fetch("/__t3_cache_warm?path=" + encodeURIComponent(href), {
+              credentials: "same-origin",
+              cache: "no-store",
+            }).catch(function () {});
+          } catch (e1) {}
+          prefetchDocument(href);
+        }, 800 + n * 900);
+      });
+    } catch (eAdj) {}
   }
 
   function bindLogoHomePrefetch() {
@@ -1464,12 +1629,33 @@
   }
 
   function applyLazyImage(img, idx) {
-    if (img.getAttribute("data-t3")) return;
+    if (!img || img.getAttribute("data-t3")) return;
+    // Skip chrome logos / decorative nav marks
+    var src = img.getAttribute("src") || img.getAttribute("data-src") || "";
+    if (/\/_static\/(t3planet|logo|favicon)/i.test(src)) {
+      img.setAttribute("data-t3", "1");
+      if (!img.getAttribute("decoding")) img.decoding = "async";
+      return;
+    }
     img.setAttribute("data-t3", "1");
-    // Mark all but the first content image lazy immediately — waiting for
-    // IntersectionObserver lets the browser start eager downloads first.
-    if (idx > 0) {
-      if (!img.getAttribute("loading")) img.loading = "lazy";
+    // Reserve space when dimensions are known (reduces CLS on long docs).
+    try {
+      if (!img.getAttribute("width") && img.naturalWidth > 0) {
+        img.setAttribute("width", String(img.naturalWidth));
+      }
+      if (!img.getAttribute("height") && img.naturalHeight > 0) {
+        img.setAttribute("height", String(img.naturalHeight));
+      }
+    } catch (eDim) {}
+    // First in-content image stays eager for LCP; everything else lazy.
+    // Also lazy any image whose top is below the first viewport.
+    var belowFold = false;
+    try {
+      var top = img.getBoundingClientRect().top;
+      belowFold = top > (window.innerHeight || 800) * 0.9;
+    } catch (eRect) {}
+    if (idx > 0 || belowFold) {
+      img.loading = "lazy";
       if (!img.getAttribute("fetchpriority")) img.setAttribute("fetchpriority", "low");
     } else if (!img.getAttribute("fetchpriority")) {
       img.setAttribute("fetchpriority", "high");
@@ -1477,7 +1663,7 @@
     if (!img.getAttribute("decoding")) img.decoding = "async";
   }
 
-  function lazyImages() {
+  function collectContentRoots() {
     var roots = [];
     var primary = contentRoot();
     if (primary) roots.push(primary);
@@ -1485,8 +1671,12 @@
     if (main && roots.indexOf(main) === -1) roots.push(main);
     var article = document.querySelector("article");
     if (article && roots.indexOf(article) === -1) roots.push(article);
-    if (!roots.length) return;
+    return roots;
+  }
 
+  function lazyImages() {
+    var roots = collectContentRoots();
+    if (!roots.length) return;
     var seen = [];
     for (var r = 0; r < roots.length; r++) {
       var imgs = roots[r].querySelectorAll("img:not([data-t3])");
@@ -1500,6 +1690,23 @@
     }
   }
 
+  function observeLateMedia() {
+    if (observeLateMedia.done || !("MutationObserver" in window)) return;
+    observeLateMedia.done = true;
+    var sched = null;
+    var mo = new MutationObserver(function () {
+      if (sched) return;
+      sched = setTimeout(function () {
+        sched = null;
+        lazyImages();
+        lazyIframes();
+      }, 40);
+    });
+    try {
+      mo.observe(document.documentElement, { childList: true, subtree: true });
+    } catch (eMo) {}
+  }
+
   function ensureIframeObserver() {
     if (iframeIo || !("IntersectionObserver" in window)) return iframeIo;
     iframeIo = new IntersectionObserver(
@@ -1510,7 +1717,7 @@
           iframeIo.unobserve(entry.target);
         });
       },
-      { rootMargin: "48px 0px" }
+      { rootMargin: "120px 0px" }
     );
     return iframeIo;
   }
@@ -1629,14 +1836,18 @@
   function enhanceContentCritical() {
     applyContentClasses();
     rewriteContentLinks();
+    // Defer heavy iframes BEFORE the browser starts dozens of embed navigations.
+    lazyIframes();
     lazyImages();
   }
 
   function enhanceContentDeferred() {
-    var root = contentRoot();
-    if (root && root.querySelector("iframe[src]")) lazyIframes();
-    // Neighbor prefetch triggers RSC compiles on local mint — production only.
+    lazyIframes();
+    lazyImages();
+    // Production CDN: RSC neighbor prefetch.
+    // Cache proxy: document warm into :3000 memory (no RSC flood).
     if (!isLocalMintDev()) prefetchNeighbors();
+    else if (isBehindCacheProxy()) prefetchAdjacentBehindProxy();
   }
 
   var onRouteChange = debounce(function () {
@@ -1699,17 +1910,25 @@
     return href;
   }
 
-  function beginNavFromLink(href) {
+  function beginNavFromLink(href, opts) {
     if (!href) return;
+    opts = opts || {};
     pendingNavHref = href;
     prefetchGateOpen = true;
+    // Keep the early-inline RSC gate in sync (it only checks __t3PrefetchGateOpen).
+    try {
+      window.__t3PrefetchGateOpen = true;
+    } catch (eGate) {}
     try {
       prefetch(href);
     } catch (ePrefetch) {}
     // Do NOT auto-close the gate on a timer. Mint local RSC often takes >4s;
     // closing early 204s the in-flight navigation. Gate closes in progress(false).
     // Production CDN: progress bar only (matches live Sphinx — no opaque hold).
-    // Local mint: keep hold to cover multi-second on-demand compiles.
+    // Local mint: opaque hold only when navigation is committed (click), never on
+    // pointerdown — a hold with pointer-events between pointerdown and click
+    // steals the click, so location.assign never runs and the skeleton sticks.
+    if (opts.deferHold) return;
     if (isLocalMintDev()) {
       if (!document.documentElement.classList.contains("t3-nav-busy")) {
         progress(true);
@@ -1729,7 +1948,13 @@
         var a = e.target.closest && e.target.closest('a[href^="/"]');
         var href = isInternalNavAnchor(a);
         if (!href) return;
-        beginNavFromLink(href);
+        // Warm prefetch only — do not paint hold/busy until click commits nav.
+        beginNavFromLink(href, { deferHold: true });
+        if (isLocalMintDev()) {
+          try {
+            prefetchDocument(href, { priority: true });
+          } catch (eDoc) {}
+        }
       },
       { capture: true, passive: true }
     );
@@ -1799,6 +2024,14 @@
     if (window.__t3EmptyRecovered) return;
     // Only on local preview behind proxy
     if (!isBehindCacheProxy()) return;
+    // Never fight an in-flight hard navigation (would yank user back with ?_t3r=).
+    if (
+      pendingNavHref ||
+      document.documentElement.classList.contains("t3-nav-busy") ||
+      document.documentElement.classList.contains("t3-holding")
+    ) {
+      return;
+    }
     var root = contentRoot();
     if (!root) return;
     var text = (root.innerText || "").replace(/\s+/g, " ").trim();
@@ -1809,14 +2042,26 @@
       var t2 = (root.innerText || "").replace(/\s+/g, " ").trim();
       if (t2.length > 40) return;
     }
+    // Hub / landing routes with a real title are never "empty cache" — skip.
+    if (/\/Index\/?$/i.test(currentPath()) && root.querySelector("h1")) return;
     window.__t3EmptyRecovered = 1;
     try {
+      var pathAtRecover = currentPath();
       var u = new URL(location.href);
       if (u.searchParams.get("_t3r")) return;
       u.searchParams.set("_t3r", String(Date.now()));
       // Ask proxy to drop bad entry then reload
       fetch("/__t3_cache_purge", { cache: "no-store" }).catch(function () {});
       setTimeout(function () {
+        // Abort if the user already navigated away or a nav started.
+        if (currentPath() !== pathAtRecover) return;
+        if (
+          pendingNavHref ||
+          document.documentElement.classList.contains("t3-nav-busy") ||
+          document.documentElement.classList.contains("t3-holding")
+        ) {
+          return;
+        }
         location.replace(u.pathname + u.search + u.hash);
       }, 150);
     } catch (eRec) {}
@@ -1867,24 +2112,24 @@
         var href = isInternalNavAnchor(a);
         if (!href) return;
         if (href !== a.getAttribute("href")) a.setAttribute("href", href);
-        // Local mint: force full document navigation (like live Sphinx).
-        // Client RSC hops recompile for 6–15s; cached full HTML loads are ~0.5–1.5s.
+        // Local mint (both :3000 proxy and raw :3001): force full document navigation.
+        // Measured: Mintlify SPA/RSC on local often never completes the route (multi-second
+        // hang with loader). Cached HTML via location.assign is ~0.2–0.5s on :3000 HITs.
+        // Production CDN keeps SPA (beginNavFromLink below).
         if (isLocalMintDev()) {
+          var go = href === "/Index" ? "/" : href;
+          pendingNavHref = go;
+          pauseBackgroundWarmForUserNav();
           e.preventDefault();
           e.stopPropagation();
           try {
             e.stopImmediatePropagation();
           } catch (eStop) {}
-          var go = href === "/Index" ? "/" : href;
-          // Warm proxy cache for the destination, then hard-navigate (instant on HIT).
-          prefetchDocument(go);
-          if (isBehindCacheProxy()) {
-            document.documentElement.classList.add("t3-nav-busy");
-            ensureProgress();
-            progressEl.classList.add("t3-nav-progress-active");
-            setProgressWidth(30);
-          }
-          window.location.assign(go);
+          // No browser prefetch here — stop in-flight loads, then assign.
+          try {
+            progress(true);
+          } catch (eUi) {}
+          hardNavigate(go);
           return;
         }
         beginNavFromLink(href);
@@ -1903,11 +2148,19 @@
 
     rewriteStaticLinks();
     enhanceContentCritical();
+    observeLateMedia();
     setTimeout(recoverEmptyDocOnce, 1200);
     bindMobileNavEnhancements();
     bindLogoHomePrefetch();
-    // Re-apply lazy hints after Mintlify finishes hydrating MDX images
-    setTimeout(lazyImages, 350);
+    // Re-apply after Mintlify hydrates MDX images / embeds
+    setTimeout(function () {
+      lazyIframes();
+      lazyImages();
+    }, 120);
+    setTimeout(function () {
+      lazyIframes();
+      lazyImages();
+    }, 600);
     idle(enhanceContentDeferred, 200);
     idle(hydrateDocStats, 50);
     warmHomeOnLocal();

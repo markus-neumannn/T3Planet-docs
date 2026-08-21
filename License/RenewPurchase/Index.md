@@ -26,6 +26,12 @@ license without losing extension setup continuity.
 4. Retrieve the updated license key from email or account portal.
 5. Apply the new key in T3Planet License and confirm active status and validity period.
 
+<Tip>
+
+Buying a new extension? Use **Get New License** in T3Planet Shop. See [Generating a License Key](/License/GenerateLicenseKey/Index).
+
+</Tip>
+
 ## From Trial to Paid
 
 What changes:

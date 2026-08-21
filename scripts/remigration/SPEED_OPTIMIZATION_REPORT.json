@@ -1,0 +1,57 @@
+{
+  "direct": [
+    {
+      "path": "/",
+      "wall_ms": 280,
+      "ttfb": 1,
+      "cache": "HIT"
+    },
+    {
+      "path": "/ExtNsT3AF/Index",
+      "wall_ms": 71,
+      "ttfb": 1,
+      "cache": "HIT"
+    },
+    {
+      "path": "/ExtNsT3AF/Introduction/Index",
+      "wall_ms": 41,
+      "ttfb": 1,
+      "cache": "HIT"
+    },
+    {
+      "path": "/EXTBootstrap/Index",
+      "wall_ms": 114,
+      "ttfb": 1,
+      "cache": "HIT"
+    }
+  ],
+  "nav": {
+    "samples": [
+      503,
+      4399,
+      1629,
+      4820,
+      3083
+    ],
+    "avg": 2887,
+    "median": 3083
+  },
+  "cached_assign": {
+    "samples": [
+      140,
+      147,
+      172,
+      108,
+      140
+    ],
+    "avg": 141,
+    "median": 140
+  },
+  "cache_stats": {
+    "hits": 432,
+    "misses": 206,
+    "bypass": 85,
+    "rejected_incomplete": 0,
+    "entries": 101
+  }
+}

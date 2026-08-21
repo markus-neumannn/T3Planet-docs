@@ -1,0 +1,337 @@
+{
+  "candidates": 203,
+  "processed": 41,
+  "bytes_saved": 2421828,
+  "mb_saved": 2.31,
+  "results": [
+    {
+      "path": "EXTReactBootstrap/InstallationT3ReactBootstrapjs/images/landing_screen2.png",
+      "action": "reencode",
+      "before": 1093537,
+      "after": 819119,
+      "saved": 274418,
+      "dims": "1910x741"
+    },
+    {
+      "path": "EXTAyu/InstallationT3AyuReactjs/images/landing_screen.png",
+      "action": "reencode",
+      "before": 884038,
+      "after": 668023,
+      "saved": 216015,
+      "dims": "1905x862"
+    },
+    {
+      "path": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/images/TYPO3-Revolution-Slider-Backend1.png",
+      "action": "reencode",
+      "before": 698263,
+      "after": 275226,
+      "saved": 423037,
+      "dims": "2972x1246"
+    },
+    {
+      "path": "EXTReva/InstallationT3RevaReactjs/images/landing_screen3.png",
+      "action": "reencode",
+      "before": 428712,
+      "after": 350902,
+      "saved": 77810,
+      "dims": "1904x746"
+    },
+    {
+      "path": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/images/TYPO3-Revolution-Slider-Include-TypoScript1.png",
+      "action": "reencode",
+      "before": 427442,
+      "after": 376868,
+      "saved": 50574,
+      "dims": "2630x1234"
+    },
+    {
+      "path": "EXTReactBootstrap/Introduction/images/Theme_T3Bootstrap1.png",
+      "action": "reencode",
+      "before": 402858,
+      "after": 335612,
+      "saved": 67246,
+      "dims": "1253x516"
+    },
+    {
+      "path": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/images/TYPO3-Revolution-Slider-Plugin1.png",
+      "action": "reencode",
+      "before": 367520,
+      "after": 346527,
+      "saved": 20993,
+      "dims": "2038x1402"
+    },
+    {
+      "path": "EXTShiva/InstallationT3ShivaReactjs/images/landing_screen5.png",
+      "action": "webp+md",
+      "before": 359480,
+      "webp": 43312,
+      "md": 1,
+      "dims": "1567x664->1567x664"
+    },
+    {
+      "path": "ExtNsPWA/Installation/images/activate_typoscript2.png",
+      "action": "reencode",
+      "before": 266941,
+      "after": 260163,
+      "saved": 6778,
+      "dims": "1906x804"
+    },
+    {
+      "path": "ExtNsOpenStreetMap/Configuration/AddMapLocations/images/add_location_general1.jpeg",
+      "action": "reencode",
+      "before": 260155,
+      "after": 123671,
+      "saved": 136484,
+      "dims": "1893x891"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/AIUsageAndLogs/images/scheduler.png",
+      "action": "reencode",
+      "before": 244577,
+      "after": 237716,
+      "saved": 6861,
+      "dims": "1893x884"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/Dashboard/images/t3af-dashboard-01.png",
+      "action": "reencode",
+      "before": 244050,
+      "after": 199653,
+      "saved": 44397,
+      "dims": "1905x901"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/Dashboard/images/t3af-dashboard-04.png",
+      "action": "reencode",
+      "before": 242731,
+      "after": 206239,
+      "saved": 36492,
+      "dims": "1904x896"
+    },
+    {
+      "path": "ExtNsPersonio/Installation/images/activate_typoscript3.png",
+      "action": "reencode",
+      "before": 241276,
+      "after": 235552,
+      "saved": 5724,
+      "dims": "1918x782"
+    },
+    {
+      "path": "ExtNsOpenStreetMap/Installation/images/activate_typoscript22.jpeg",
+      "action": "reencode",
+      "before": 239917,
+      "after": 145620,
+      "saved": 94297,
+      "dims": "1816x839"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/AIProviders/images/provider-02.png",
+      "action": "reencode",
+      "before": 236986,
+      "after": 229730,
+      "saved": 7256,
+      "dims": "1906x903"
+    },
+    {
+      "path": "ExtNsT3AF/Installation/images/quick-setups.png",
+      "action": "reencode",
+      "before": 236289,
+      "after": 229330,
+      "saved": 6959,
+      "dims": "1888x876"
+    },
+    {
+      "path": "ExtNsT3AF/Integrations/MCPServer/images/mcp-server-01.png",
+      "action": "reencode",
+      "before": 233706,
+      "after": 227137,
+      "saved": 6569,
+      "dims": "1897x873"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/AIProviders/images/provider-01.png",
+      "action": "reencode",
+      "before": 230285,
+      "after": 223500,
+      "saved": 6785,
+      "dims": "1899x888"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/GovernanceAndAccess/images/ai-permission.png",
+      "action": "reencode",
+      "before": 212122,
+      "after": 205955,
+      "saved": 6167,
+      "dims": "1900x878"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/AIPermissions/images/ai-permission.png",
+      "action": "reencode",
+      "before": 212122,
+      "after": 205955,
+      "saved": 6167,
+      "dims": "1900x878"
+    },
+    {
+      "path": "ExtNsT3AF/T3Planet-Credit-System/images/t3planet-credits-dashboard.png",
+      "action": "reencode",
+      "before": 211837,
+      "after": 202309,
+      "saved": 9528,
+      "dims": "1024x447"
+    },
+    {
+      "path": "ExtNsT3AF/T3Planet-Credit-System/AIUsage/images/t3planet-credits-dashboard.png",
+      "action": "reencode",
+      "before": 211837,
+      "after": 202309,
+      "saved": 9528,
+      "dims": "1024x447"
+    },
+    {
+      "path": "ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/images/TYPO3-Revolution-Slider-System-Check1.png",
+      "action": "reencode",
+      "before": 209438,
+      "after": 115196,
+      "saved": 94242,
+      "dims": "1436x866"
+    },
+    {
+      "path": "ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/images/map_settings1.jpeg",
+      "action": "reencode",
+      "before": 208058,
+      "after": 109406,
+      "saved": 98652,
+      "dims": "1459x889"
+    },
+    {
+      "path": "ExtNsT3AS/Configuration/images/CLI011.png",
+      "action": "reencode",
+      "before": 198809,
+      "after": 162154,
+      "saved": 36655,
+      "dims": "1533x864"
+    },
+    {
+      "path": "ExtNsHubspot/Installation/images/activate_typoscript1.png",
+      "action": "reencode",
+      "before": 196949,
+      "after": 191650,
+      "saved": 5299,
+      "dims": "1885x764"
+    },
+    {
+      "path": "ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/images/marker_settings1.jpeg",
+      "action": "reencode",
+      "before": 196757,
+      "after": 103023,
+      "saved": 93734,
+      "dims": "1259x870"
+    },
+    {
+      "path": "ExtNsT3AF/T3Planet-Credit-System/Configuration/images/t3planet-credits-providers.png",
+      "action": "reencode",
+      "before": 196581,
+      "after": 189451,
+      "saved": 7130,
+      "dims": "1024x441"
+    },
+    {
+      "path": "ExtNsT3AF/Integrations/MCPTools/images/mcp-tool.png",
+      "action": "reencode",
+      "before": 196219,
+      "after": 190238,
+      "saved": 5981,
+      "dims": "1906x879"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/Dashboard/images/t3af-dashboard-03.png",
+      "action": "reencode",
+      "before": 195026,
+      "after": 151593,
+      "saved": 43433,
+      "dims": "1904x899"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/AIContext/images/ai-context-02.png",
+      "action": "reencode",
+      "before": 189715,
+      "after": 184426,
+      "saved": 5289,
+      "dims": "1905x883"
+    },
+    {
+      "path": "ExtNsT3AF/DeveloperGuide/Architecture/images/for-developers.png",
+      "action": "reencode",
+      "before": 178534,
+      "after": 172448,
+      "saved": 6086,
+      "dims": "1894x860"
+    },
+    {
+      "path": "ExtNsInstagram/Installation/images/activate_typoscript1.jpg",
+      "action": "reencode",
+      "before": 177377,
+      "after": 126734,
+      "saved": 50643,
+      "dims": "1339x782"
+    },
+    {
+      "path": "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/images/TYPO3-Revolution-Slider-License-Registered1.png",
+      "action": "reencode",
+      "before": 165772,
+      "after": 90403,
+      "saved": 75369,
+      "dims": "1448x796"
+    },
+    {
+      "path": "ExtNsFeedback/Installation/images/activate_typoscript12.jpeg",
+      "action": "reencode",
+      "before": 163352,
+      "after": 159060,
+      "saved": 4292,
+      "dims": "1869x581"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/AIContext/images/ai-context-01.png",
+      "action": "reencode",
+      "before": 161458,
+      "after": 156350,
+      "saved": 5108,
+      "dims": "1907x883"
+    },
+    {
+      "path": "ExtNsCookieYes/Installation/images/activate_typoscript.jpeg",
+      "action": "reencode",
+      "before": 159542,
+      "after": 148732,
+      "saved": 10810,
+      "dims": "1600x697"
+    },
+    {
+      "path": "ExtNsT3AS/Configuration/images/CLI021.png",
+      "action": "reencode",
+      "before": 156173,
+      "after": 123304,
+      "saved": 32869,
+      "dims": "1570x839"
+    },
+    {
+      "path": "ExtNsT3AF/Configuration/AIFeatures/images/ai-feature.png",
+      "action": "reencode",
+      "before": 155981,
+      "after": 151799,
+      "saved": 4182,
+      "dims": "1904x876"
+    },
+    {
+      "path": "ExtNsT3AF/T3Planet-Credit-System/Configuration/images/t3planet-credits-activate.png",
+      "action": "reencode",
+      "before": 154687,
+      "after": 148886,
+      "saved": 5801,
+      "dims": "1024x419"
+    }
+  ],
+  "result_count": 41
+}

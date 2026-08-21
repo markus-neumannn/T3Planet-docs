@@ -27,6 +27,19 @@ Click on "Form Setting" menu
 
 ![ns-helpdesk-typo3-form-settings5](./images/ns-helpdesk-typo3-form-settings5.webp)
   </Step>
+</Steps>
+
+<Note>
+
+Front end look of the ticket creation form.
+
+</Note>
+
+![ns-helpdesk-typo3-form-fe](./images/ns-helpdesk-typo3-form-fe.jpeg)
+
+## Popup Form Settings
+
+<Steps>
   <Step title="Step 1">
 Go to Admin Tools > Helpdesk Configuration
   </Step>

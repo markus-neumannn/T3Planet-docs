@@ -1,0 +1,97 @@
+{
+  "results": [
+    {
+      "name": "3001 video pointerdown\u2192Introduction",
+      "ok": true,
+      "detail": "preHold=False http://127.0.0.1:3001/ExtNsT3AF/Introduction/Index h1=Introduction"
+    },
+    {
+      "name": "3001 nested AIProviders",
+      "ok": false,
+      "detail": "http://127.0.0.1:3001/ExtNsT3AF/Index h1=None"
+    },
+    {
+      "name": "3001 nested Credits Overview",
+      "ok": true,
+      "detail": "http://127.0.0.1:3001/ExtNsT3AF/T3Planet-Credit-System/Overview/Index"
+    },
+    {
+      "name": "3001 ExtThemes Introduction",
+      "ok": false,
+      "detail": "http://127.0.0.1:3001/ExtThemes/Index"
+    },
+    {
+      "name": "3001 EXTKarma Installation",
+      "ok": false,
+      "detail": "http://127.0.0.1:3001/EXTKarma/Index"
+    },
+    {
+      "name": "3001 direct deep",
+      "ok": true,
+      "detail": "{'t': 4402, 'h1': 'AI Features'}"
+    },
+    {
+      "name": "3000 video pointerdown\u2192Introduction",
+      "ok": false,
+      "detail": "preHold=False http://127.0.0.1:3000/ExtNsT3AF/Index h1=None"
+    },
+    {
+      "name": "3000 nested AIProviders",
+      "ok": true,
+      "detail": "http://127.0.0.1:3000/ExtNsT3AF/Configuration/AIProviders/Index h1=AI Providers"
+    },
+    {
+      "name": "3000 nested Credits Overview",
+      "ok": true,
+      "detail": "http://127.0.0.1:3000/ExtNsT3AF/T3Planet-Credit-System/Overview/Index"
+    },
+    {
+      "name": "3000 ExtThemes Introduction",
+      "ok": false,
+      "detail": "http://127.0.0.1:3000/ExtThemes/Introduction/Index"
+    },
+    {
+      "name": "3000 EXTKarma Installation",
+      "ok": false,
+      "detail": "http://127.0.0.1:3000/EXTKarma/Index"
+    },
+    {
+      "name": "3000 direct deep",
+      "ok": true,
+      "detail": "{'t': 4402, 'h1': 'AI Features'}"
+    }
+  ],
+  "failed": [
+    {
+      "name": "3001 nested AIProviders",
+      "ok": false,
+      "detail": "http://127.0.0.1:3001/ExtNsT3AF/Index h1=None"
+    },
+    {
+      "name": "3001 ExtThemes Introduction",
+      "ok": false,
+      "detail": "http://127.0.0.1:3001/ExtThemes/Index"
+    },
+    {
+      "name": "3001 EXTKarma Installation",
+      "ok": false,
+      "detail": "http://127.0.0.1:3001/EXTKarma/Index"
+    },
+    {
+      "name": "3000 video pointerdown\u2192Introduction",
+      "ok": false,
+      "detail": "preHold=False http://127.0.0.1:3000/ExtNsT3AF/Index h1=None"
+    },
+    {
+      "name": "3000 ExtThemes Introduction",
+      "ok": false,
+      "detail": "http://127.0.0.1:3000/ExtThemes/Introduction/Index"
+    },
+    {
+      "name": "3000 EXTKarma Installation",
+      "ok": false,
+      "detail": "http://127.0.0.1:3000/EXTKarma/Index"
+    }
+  ],
+  "verdict": "FAIL"
+}

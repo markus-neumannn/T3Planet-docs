@@ -47,7 +47,7 @@ We require many packages (dependencies) to run our site. So, We are at â€œrootâ€
 
 Now, Open your browser and visit [http://localhost:3000](http://localhost:3000) You should see a page like below.
 
-![landing_screen](https://docs.t3planet.de/en/latest/_images/landing_screen.png)
+![landing_screen](./images/landing_screen.webp)
 
 Wow! You are a genius. Now open the code editor and start hacking!
 

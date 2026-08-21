@@ -58,6 +58,27 @@ Please configure schedular for fatching Data from personio API
 
 **All done now you can configure plugins to your pages!**
 
+<Warning>
+
+**Common setup for multi-language sites:**
+
+One scheduler imports jobs for **one language only**. If your site has German and English, you need **two schedulers**.
+
+For each language, configure:
+
+1. **Personio API URL for that language** — copy it from your Personio account (German feed for German, English feed for English) and cross-verify the endpoint URL in your Personio account before saving
+2. **Language UID** for that language from **Site Management > Sites**
+3. **Page ID** where jobs should be stored
+
+Example (replace with the URL from your Personio account):
+
+- Scheduler for German → `https://YOUR_COMPANY.jobs.personio.de/xml?language=de` + German Language UID
+- Scheduler for English → `https://YOUR_COMPANY.jobs.personio.de/xml?language=en` + English Language UID
+
+Always cross-verify each language endpoint URL from your Personio account. If you create pages in both languages but only one scheduler, jobs will only be complete in that one language.
+
+</Warning>
+
 # Server-Side Cron Job Configuration
 
 Please refer to the official [Typo3 Documentation](https://docs.typo3.org/c/typo3/cms-scheduler/main/en-/us/Installatio/CronJob/Index#unix-mac) for detailed guidance on setting up cron jobs on server.

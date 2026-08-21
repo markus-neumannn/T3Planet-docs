@@ -27,6 +27,7 @@ LISTEN_HOST = os.environ.get("PROXY_HOST", "0.0.0.0")
 LISTEN_PORT = int(os.environ.get("PROXY_PORT", "3000"))
 MINT_ORIGIN = os.environ.get("MINT_ORIGIN", "http://127.0.0.1:3001")
 CACHE_TTL_SEC = int(os.environ.get("CACHE_TTL", "14400"))
+STALE_GRACE_SEC = int(os.environ.get("CACHE_STALE_GRACE", "3600"))
 MAX_BODY = int(os.environ.get("CACHE_MAX_BODY", str(5 * 1024 * 1024)))
 WARM_PATHS = [
     p.strip()
@@ -41,6 +42,7 @@ WARM_PATHS = [
                 "/ExtNsT3AF/Configuration/Index",
                 "/ExtNsT3AF/Configuration/Dashboard/Index",
                 "/ExtNsT3AF/Configuration/AIProviders/Index",
+                "/ExtNsT3AF/Support/Index",
                 "/AllExtensions/Index",
                 "/AllTemplates/Index",
                 "/AIFoundationExtensions/Index",
@@ -48,7 +50,10 @@ WARM_PATHS = [
                 "/License/ExtendTrial/Index",
                 "/License/GenerateLicenseKey/Index",
                 "/ExtThemes/Index",
+                "/EXTBootstrap/Index",
+                "/EXTBootstrap/Introduction/Index",
                 "/EXTKarma/Index",
+                "/EXTAvatar/Index",
                 "/ExtNsT3AI/Index",
                 "/ExtNsT3AA/Index",
                 "/ExtNsT3AC/Index",
@@ -57,8 +62,60 @@ WARM_PATHS = [
                 "/ExtNsT3AB/Index",
                 "/ExtRTECKEditorPack/Index",
                 "/ExtNsRevolutionSlider/Index",
-                "/EXTAvatar/Index",
-                "/EXTBootstrap/Index",
+                "/EXTAyu/Index",
+                "/EXTNsZohoCrm/Index",
+                "/EXTReactBootstrap/Index",
+                "/EXTReva/Index",
+                "/EXTShiva/Index",
+                "/EXTShop/Index",
+                "/ExtNitsanHellobar/Index",
+                "/ExtNitsanMaintenance/Index",
+                "/ExtNsAllChat/Index",
+                "/ExtNsAllLightbox/Index",
+                "/ExtNsAllSliders/Index",
+                "/ExtNsBackup/Index",
+                "/ExtNsCacheWebhook/Index",
+                "/ExtNsCloudflare/Index",
+                "/ExtNsComments/Index",
+                "/ExtNsCookieYes/Index",
+                "/ExtNsCookiebot/Index",
+                "/ExtNsCookiesHint/Index",
+                "/ExtNsDisqusComment/Index",
+                "/ExtNsEvent/Index",
+                "/ExtNsExtCompatibility/Index",
+                "/ExtNsFAQ/Index",
+                "/ExtNsFacebookComment/Index",
+                "/ExtNsFeedback/Index",
+                "/ExtNsFriendlyCaptcha/Index",
+                "/ExtNsGallery/Index",
+                "/ExtNsGoogleDocs/Index",
+                "/ExtNsGoogleMap/Index",
+                "/ExtNsGoogleSiteKit/Index",
+                "/ExtNsGridtoContainer/Index",
+                "/ExtNsGuestbook/Index",
+                "/ExtNsHelpDesk/Index",
+                "/ExtNsHubspot/Index",
+                "/ExtNsInstagram/Index",
+                "/ExtNsLazyload/Index",
+                "/ExtNsNewsAdvancedSearch/Index",
+                "/ExtNsNewsComments/Index",
+                "/ExtNsNewsSlickSlider/Index",
+                "/ExtNsNewsSlider/Index",
+                "/ExtNsOpenStreetMap/Index",
+                "/ExtNsPWA/Index",
+                "/ExtNsPersonio/Index",
+                "/ExtNsProtectSite/Index",
+                "/ExtNsPublicationComment/Index",
+                "/ExtNsSharethis/Index",
+                "/ExtNsSnow/Index",
+                "/ExtNsSocialLogin/Index",
+                "/ExtNsStatcounter/Index",
+                "/ExtNsTimeLine/Index",
+                "/ExtNsTwitter/Index",
+                "/ExtNsWhatsapp/Index",
+                "/ExtNsWpMigration/Index",
+                "/ExtNsYoutube/Index",
+                "/ExtNsZoho/Index"
             ]
         ),
     ).split(",")
@@ -223,7 +280,42 @@ def _send_cached(
         handler.wfile.write(body)
 
 
-def _upstream(method: str, path: str, headers_in, body_in: bytes):
+def _path_needs_compile_gate(path: str) -> bool:
+    """Static/media can hit mint in parallel; HTML/RSC compiles must stay serialized."""
+    p = path.split("?", 1)[0]
+    if p.startswith("/_next/static/") or p.startswith("/_static/"):
+        return False
+    if p.startswith("/favicons/") or p.startswith("/images/"):
+        return False
+    lower = p.lower()
+    if lower.endswith(
+        (
+            ".woff2",
+            ".woff",
+            ".ttf",
+            ".css",
+            ".js",
+            ".mjs",
+            ".map",
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".gif",
+            ".svg",
+            ".webp",
+            ".ico",
+            ".avif",
+        )
+    ):
+        return False
+    return True
+
+
+def _upstream(method: str, path: str, headers_in, body_in: bytes, *, block: bool = True):
+    """Fetch from mint. User traffic uses block=True; warm/revalidate uses block=False
+    so background compiles never queue ahead of interactive navigation.
+    Static assets skip the compile gate entirely (avoids browser connection HOL blocking).
+    """
     host, port = _origin_parts()
     headers_out = {
         k: v for k, v in headers_in.items() if k.lower() not in ("host", "connection")
@@ -231,8 +323,14 @@ def _upstream(method: str, path: str, headers_in, body_in: bytes):
     headers_out["Host"] = f"{host}:{port}"
     headers_out["Connection"] = "keep-alive"
 
+    use_gate = _path_needs_compile_gate(path)
+    acquired = True
+    if use_gate:
+        acquired = _upstream_gate.acquire(blocking=block)
+        if not acquired:
+            return None  # signal caller to skip / retry later
     last_exc = None
-    with _upstream_gate:
+    try:
         for _attempt in range(2):
             try:
                 conn = _get_conn()
@@ -245,32 +343,67 @@ def _upstream(method: str, path: str, headers_in, body_in: bytes):
             except Exception as exc:
                 last_exc = exc
                 _reset_conn()
+    finally:
+        if use_gate and acquired:
+            _upstream_gate.release()
     raise last_exc  # type: ignore[misc]
+
+
+def _store(path: str, status: int, headers, raw: bytes) -> bool:
+    ct = _content_type(headers)
+    if not (_cacheable("GET", path, status, ct) and len(raw) <= MAX_BODY and _complete_enough(path, status, ct, raw)):
+        return False
+    with _lock:
+        _cache[_key("GET", path)] = (
+            time.time() + CACHE_TTL_SEC,
+            status,
+            headers,
+            raw,
+        )
+        _stats["misses"] += 1
+    return True
+
+
+def _revalidate_async(path: str) -> None:
+    """Background refresh for stale-while-revalidate hits."""
+    def run():
+        try:
+            res = _upstream("GET", path, {}, b"", block=False)
+            if res is None:
+                return  # mint busy with a user request — skip
+            status, headers, raw = res
+            _store(path, status, headers, raw)
+        except Exception as exc:
+            print(f"[cache-proxy] revalidate failed {path}: {exc}", flush=True)
+            _reset_conn()
+    threading.Thread(target=run, name=f"t3-reval-{path[:24]}", daemon=True).start()
+
+
+def _warm_one(path: str) -> None:
+    try:
+        t0 = time.time()
+        # Never hold the upstream gate against interactive traffic.
+        # If mint is busy serving a user, skip and retry later via another warm.
+        res = _upstream("GET", path, {}, b"", block=False)
+        if res is None:
+            print(f"[cache-proxy] warm skipped {path} (busy)", flush=True)
+            return
+        status, headers, raw = res
+        ok = _store(path, status, headers, raw)
+        dt = time.time() - t0
+        print(f"[cache-proxy] warm {path} → {status} {len(raw)}B in {dt:.1f}s cached={ok}", flush=True)
+        time.sleep(0.15)  # let interactive traffic slip between warms
+    except Exception as exc:
+        print(f"[cache-proxy] warm failed {path}: {exc}", flush=True)
+        _reset_conn()
 
 
 def _warm_paths() -> None:
     """Compile + cache hub routes so the first human visit is already warm."""
-    time.sleep(3.0)
+    time.sleep(1.0)
     print(f"[cache-proxy] warming {len(WARM_PATHS)} routes sequentially…", flush=True)
     for path in WARM_PATHS:
-        try:
-            t0 = time.time()
-            status, headers, raw = _upstream("GET", path, {}, b"")
-            ct = _content_type(headers)
-            if _cacheable("GET", path, status, ct) and len(raw) <= MAX_BODY and _complete_enough(path, status, ct, raw):
-                with _lock:
-                    _cache[_key("GET", path)] = (
-                        time.time() + CACHE_TTL_SEC,
-                        status,
-                        headers,
-                        raw,
-                    )
-                    _stats["misses"] += 1
-            dt = time.time() - t0
-            print(f"[cache-proxy] warm {path} → {status} {len(raw)}B in {dt:.1f}s", flush=True)
-        except Exception as exc:
-            print(f"[cache-proxy] warm failed {path}: {exc}", flush=True)
-            _reset_conn()
+        _warm_one(path)
     print(f"[cache-proxy] warm done; cache_entries={len(_cache)}", flush=True)
 
 
@@ -312,6 +445,28 @@ class Handler(BaseHTTPRequestHandler):
             self.wfile.write(payload)
             return
 
+        if method == "GET" and path.startswith("/__t3_cache_warm"):
+            from urllib.parse import parse_qs, urlsplit
+
+            qs = parse_qs(urlsplit(path).query or "")
+            target = (qs.get("path") or ["/"])[0]
+            if not target.startswith("/"):
+                target = "/" + target
+            # Only allow same-origin doc paths (no open proxy)
+            if ".." in target or target.startswith("//"):
+                self.send_error(400, "bad path")
+                return
+            threading.Thread(target=_warm_one, args=(target.split("?")[0],), daemon=True).start()
+            import json as _json
+            payload = _json.dumps({"warming": target.split("?")[0]}).encode()
+            self.send_response(202)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Cache-Control", "no-store")
+            self.send_header("Content-Length", str(len(payload)))
+            self.end_headers()
+            self.wfile.write(payload)
+            return
+
         if method == "GET" and path in ("/__t3_cache_stats", "/__t3_cache_stats/"):
             import json
 
@@ -329,20 +484,34 @@ class Handler(BaseHTTPRequestHandler):
         now = time.time()
 
         if method in ("GET", "HEAD"):
+            serve_cached = False
+            serve_stale = False
+            cached_payload = None
             with _lock:
                 hit = _cache.get(key)
-                if hit and hit[0] > now:
+                if hit:
                     _exp, status, headers, body = hit
-                    ct_hit = _content_type(headers)
-                    path_only = path.split("?", 1)[0]
-                    if not _complete_enough(path_only, status, ct_hit, body):
-                        _cache.pop(key, None)
-                        _stats["rejected_incomplete"] = _stats.get("rejected_incomplete", 0) + 1
-                        hit = None
-                    else:
-                        _stats["hits"] += 1
-                        _send_cached(self, status, headers, body, path, "HIT", _exp)
-                        return
+                    fresh = _exp > now
+                    stale = (not fresh) and (_exp + STALE_GRACE_SEC > now)
+                    if fresh or stale:
+                        ct_hit = _content_type(headers)
+                        path_only = path.split("?", 1)[0]
+                        if not _complete_enough(path_only, status, ct_hit, body):
+                            _cache.pop(key, None)
+                            _stats["rejected_incomplete"] = _stats.get("rejected_incomplete", 0) + 1
+                        else:
+                            _stats["hits"] += 1
+                            if stale:
+                                _stats["stale"] = _stats.get("stale", 0) + 1
+                            cached_payload = (_exp, status, headers, body, "HIT" if fresh else "STALE")
+                            serve_cached = True
+                            serve_stale = stale
+            if serve_cached and cached_payload:
+                _exp, status, headers, body, tag = cached_payload
+                _send_cached(self, status, headers, body, path, tag, _exp)
+                if serve_stale and method == "GET" and "_rsc=" not in path:
+                    _revalidate_async(path.split("?", 1)[0])
+                return
 
         length = int(self.headers.get("Content-Length") or 0)
         body_in = self.rfile.read(length) if length > 0 else b""

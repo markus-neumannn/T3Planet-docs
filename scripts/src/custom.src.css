@@ -663,6 +663,76 @@ main .mdx-content > svg,
   display: block;
 }
 
+/* ── Icon ↔ text spacing (cards + common icon/text rows) ─────────
+   Mintlify cards stack icon above title. Mobile density rules had
+   collapsed title margin-top to 0, making icons touch titles.
+   Prefer a shared gap via the icon's following sibling. */
+.card [data-component-part="card-icon"] + .w-full,
+.card [data-component-part="card-icon"] + div,
+[data-component-part="card"] [data-component-part="card-icon"] + .w-full,
+[data-component-part="card"] [data-component-part="card-icon"] + div,
+.t3-landing-section .card [data-component-part="card-icon"] + .w-full,
+.t3-template-landing .card [data-component-part="card-icon"] + .w-full,
+.t3-home-landing .card [data-component-part="card-icon"] + .w-full,
+.t3-hub-landing .card [data-component-part="card-icon"] + .w-full {
+  margin-top: 0.65rem !important;
+}
+
+/* Title itself — small breathing room when it follows icon block */
+.card [data-component-part="card-icon"] + .w-full [data-component-part="card-title"],
+.card [data-component-part="card-icon"] + .w-full .font-semibold,
+.card [data-component-part="card-icon"] + div [data-component-part="card-title"],
+.card [data-component-part="card-icon"] + div .font-semibold {
+  margin-top: 0 !important; /* gap owned by sibling wrapper above */
+}
+
+/* Horizontal icon+text rows used across docs/nav — ensure a minor gap */
+@media (max-width: 1023px) {
+  /* Sidebar / mobile nav rows: Mintlify uses gap-x-3; reinforce minimum */
+  #sidebar-content a.flex.items-start,
+  #sidebar-content button.flex.items-start,
+  #mobile-nav a.flex.items-start,
+  #mobile-nav button.flex.items-start,
+  #mobile-nav a.flex.items-center,
+  aside a.flex.items-start,
+  aside button.flex.items-start {
+    column-gap: 0.75rem !important;
+  }
+
+  /* Generic content flex rows that place an svg beside label text */
+  article a.inline-flex.items-center,
+  article button.inline-flex.items-center,
+  main a.inline-flex.items-center,
+  .mdx-content a.inline-flex.items-center,
+  .prose a.inline-flex.items-center,
+  article .flex.items-center:has(> svg),
+  main .flex.items-center:has(> svg),
+  .mdx-content .flex.items-center:has(> svg) {
+    column-gap: 0.5rem;
+  }
+
+  /* Callouts / tips with leading icons */
+  article [class*="callout"] .flex.items-start,
+  .mdx-content [class*="callout"] .flex.items-start,
+  article [role="note"] .flex.items-start {
+    column-gap: 0.65rem;
+  }
+
+  /* Slightly tighter card icon→text on very small phones still visible */
+  .card [data-component-part="card-icon"] + .w-full,
+  .card [data-component-part="card-icon"] + div {
+    margin-top: 0.7rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .card [data-component-part="card-icon"] + .w-full,
+  .card [data-component-part="card-icon"] + div {
+    margin-top: 0.75rem !important;
+  }
+}
+
+
 /* ── Supademo / iframe embeds ──────────────────────────────────── */
 .t3-embed {
   position: relative;
@@ -3205,40 +3275,203 @@ main,
   to { opacity: 1; }
 }
 
+
+/* === T3 NAV LOADER: full-viewport blur + pulsing dots === */
+#t3-nav-loader {
+  --t3-dot: #8eb6ff;
+  --t3-dot-active: #0052ff;
+  --t3-dot-glow: rgba(0, 82, 255, 0.35);
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right))
+    max(1rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(12px) saturate(1.15);
+  -webkit-backdrop-filter: blur(12px) saturate(1.15);
+  transition: opacity 0.22s ease, visibility 0.22s ease;
+}
+
+.dark #t3-nav-loader {
+  --t3-dot: #6b9fff;
+  --t3-dot-active: #9bc0ff;
+  --t3-dot-glow: rgba(107, 159, 255, 0.4);
+  background: rgba(8, 12, 22, 0.55);
+}
+
+#t3-nav-loader.t3-nav-loader-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+#t3-nav-loader.t3-nav-loader-exit {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.t3-nav-loader-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  transform: translateZ(0);
+}
+
+.t3-dots-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.t3-dot {
+  height: 0.9rem;
+  width: 0.9rem;
+  border-radius: 999px;
+  background-color: var(--t3-dot);
+  animation: t3-dot-pulse 1.45s infinite ease-in-out;
+  will-change: transform, background-color, box-shadow;
+}
+
+.t3-dot:nth-child(1) { animation-delay: -0.32s; }
+.t3-dot:nth-child(2) { animation-delay: -0.16s; }
+.t3-dot:nth-child(3) { animation-delay: 0s; }
+
+@keyframes t3-dot-pulse {
+  0%, 100% {
+    transform: scale(0.82);
+    background-color: var(--t3-dot);
+    box-shadow: 0 0 0 0 var(--t3-dot-glow);
+  }
+  50% {
+    transform: scale(1.18);
+    background-color: var(--t3-dot-active);
+    box-shadow: 0 0 0 0.55rem transparent;
+  }
+}
+
+html.t3-loader-on,
+html.t3-loader-on body {
+  overflow: hidden !important;
+  overscroll-behavior: none !important;
+}
+
+/* Hide legacy thin progress / content hold while new loader is the source of truth */
+#t3-nav-progress,
+#t3-page-hold.t3-page-hold-active,
+#t3-page-veil.t3-page-veil-active {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+@media (max-width: 480px) {
+  .t3-dot {
+    height: 0.78rem;
+    width: 0.78rem;
+  }
+  .t3-dots-container {
+    gap: 0.55rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #t3-nav-loader,
+  .t3-dot {
+    transition: none !important;
+    animation: none !important;
+  }
+  .t3-dot {
+    transform: none;
+    box-shadow: none;
+    background-color: var(--t3-dot-active);
+    opacity: 0.85;
+  }
+  .t3-dot:nth-child(2) { opacity: 1; }
+  .t3-dot:nth-child(3) { opacity: 0.7; }
+}
+
 /* === T3 PERF: NAV PROGRESS + ROUTE VEIL === */
+/* Premium top progress — thin brand line, no heavy glow */
 #t3-nav-progress {
+  --t3-loader-primary: #0052ff;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 3px;
+  height: 2px;
   z-index: 99999;
   pointer-events: none;
   opacity: 0;
+  visibility: hidden;
   transition: opacity 0.16s ease;
 }
 
 #t3-nav-progress.t3-nav-progress-active {
   opacity: 1;
+  visibility: visible;
 }
 
 #t3-nav-progress .t3-nav-progress-bar {
+  position: relative;
   height: 100%;
   width: 0;
-  background: linear-gradient(90deg, #0052ff 0%, #3d7eff 55%, #7aa7ff 100%);
-  box-shadow: 0 0 6px rgba(0, 82, 255, 0.28);
-  transition: width 0.18s ease-out;
+  overflow: hidden;
+  background: var(--t3-loader-primary, #0052ff);
+  transition: width 0.22s cubic-bezier(0.22, 1, 0.36, 1);
   border-radius: 0 1px 1px 0;
   will-change: width;
 }
 
-#t3-nav-progress.t3-nav-progress-done .t3-nav-progress-bar {
-  transition: width 0.12s ease-in;
+#t3-nav-progress .t3-nav-progress-shimmer {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 36%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.55) 50%,
+    transparent 100%
+  );
+  transform: translateX(-120%);
+  animation: t3-progress-shimmer 1.1s ease-in-out infinite;
 }
 
-.dark #t3-nav-progress .t3-nav-progress-bar {
-  background: linear-gradient(90deg, #3d7eff 0%, #7aa7ff 60%, #b6d0ff 100%);
-  box-shadow: 0 0 10px rgba(122, 167, 255, 0.45);
+#t3-nav-progress.t3-nav-progress-done .t3-nav-progress-bar {
+  transition: width 0.14s ease-in, opacity 0.18s ease;
+}
+
+#t3-nav-progress.t3-nav-progress-done {
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+
+.dark #t3-nav-progress {
+  --t3-loader-primary: #6b9fff;
+}
+
+.dark #t3-nav-progress .t3-nav-progress-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 100%
+  );
+}
+
+@keyframes t3-progress-shimmer {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(320%); }
 }
 
 /*
@@ -3271,8 +3504,9 @@ main,
   opacity: 1;
   visibility: visible;
   background: #ffffff;
-  /* Capture wheel/touch so the page underneath cannot scroll */
-  pointer-events: auto;
+  /* Never steal clicks — pointerdown→hold→click races used to swallow the
+     click so location.assign never ran and the skeleton stuck forever. */
+  pointer-events: none;
 }
 
 /* Freeze document scroll while route hold / nav busy (single scrollbar only) */
@@ -3361,16 +3595,70 @@ html.t3-nav-busy [data-toc] {
   width: 100%;
 }
 
+
+/* Slow-path hold: brand status before skeleton */
+.t3-hold-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  min-height: min(52vh, 28rem);
+  padding: 2rem 1.25rem;
+  text-align: center;
+  animation: t3-hold-in 0.28s ease both;
+}
+
+.t3-hold-logo {
+  height: 1.75rem;
+  width: auto;
+  opacity: 0.92;
+}
+
+.t3-hold-meter {
+  width: min(11rem, 46vw);
+  height: 2px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--t3-loader-primary, #0052ff) 16%, transparent);
+}
+
+.t3-hold-meter-bar {
+  display: block;
+  height: 100%;
+  width: 40%;
+  border-radius: inherit;
+  background: var(--t3-loader-primary, #0052ff);
+  animation: t3-hold-meter 1.05s cubic-bezier(0.45, 0, 0.2, 1) infinite;
+}
+
+.dark .t3-hold-meter-bar {
+  background: #6b9fff;
+}
+
+.t3-hold-label {
+  margin: 0;
+  font-size: 0.8125rem;
+  letter-spacing: 0.01em;
+  color: color-mix(in srgb, CanvasText 62%, transparent);
+  font-weight: 500;
+}
+
+@keyframes t3-hold-meter {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(280%); }
+}
+
 .t3-skel {
-  border-radius: 0.4rem;
+  border-radius: 0.45rem;
   background: linear-gradient(
     105deg,
-    #e8eef6 0%,
-    #f4f7fb 40%,
-    #e8eef6 80%
+    #eef2f7 0%,
+    #f7f9fc 42%,
+    #eef2f7 84%
   );
   background-size: 220% 100%;
-  animation: t3-shimmer 1.35s ease-in-out infinite;
+  animation: t3-shimmer 1.7s ease-in-out infinite;
 }
 
 .dark .t3-skel {
@@ -3542,11 +3830,15 @@ html.t3-route-enter main {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  #t3-nav-progress,
   #t3-nav-progress .t3-nav-progress-bar,
+  #t3-nav-progress .t3-nav-progress-shimmer,
   #t3-page-veil,
   #t3-page-hold,
   .t3-skel,
   .t3-page-veil-spinner,
+  .t3-hold-status,
+  .t3-hold-meter-bar,
   html.t3-route-enter #content-area,
   html.t3-route-enter #content,
   html.t3-route-enter main,
@@ -3556,6 +3848,7 @@ html.t3-route-enter main {
     filter: none !important;
     transform: none !important;
   }
+
 }
 
 /* Keep real footer visible during route loading (do not hide) */
@@ -4541,12 +4834,17 @@ html.t3-mobile-nav-open .t3-drawer-close {
 
   .t3-home-landing [data-component-part="card-title"],
   .t3-landing-section [data-component-part="card-title"],
+  .t3-template-landing [data-component-part="card-title"],
+  .t3-hub-landing [data-component-part="card-title"],
   .t3-home-landing .card h2,
   .t3-home-landing .card h3,
   .t3-landing-section .card h2,
-  .t3-landing-section .card h3 {
+  .t3-landing-section .card h3,
+  .t3-template-landing .card h2,
+  .t3-template-landing .card h3 {
     font-size: 0.9375rem !important;
     line-height: 1.3 !important;
+    /* Keep a small top gap under icons — do not collapse to 0 */
     margin: 0 0 0.35rem !important;
   }
 
@@ -5632,3 +5930,32 @@ html.t3-mobile-nav-closing button[class*="lg:hidden"] * {
 img, video, iframe { max-width: 100%; height: auto; }
 .t3-embed iframe { content-visibility: auto; contain-intrinsic-size: 400px 225px; }
 #content-area img { content-visibility: auto; }
+
+
+/* === Perf pack: long-doc rendering + media stability (content preserved) === */
+@supports (content-visibility: auto) {
+  /* Below-fold media only — never delay LCP candidates. */
+  .mdx-content img[loading="lazy"],
+  .mdx-content figure:has(img[loading="lazy"]),
+  .mdx-content iframe[data-t3-src],
+  .mdx-content iframe[loading="lazy"],
+  .mdx-content video[loading="lazy"] {
+    content-visibility: auto;
+    contain-intrinsic-size: 800px 450px;
+  }
+}
+
+/* font-display hints for any face Mintlify injects remain under platform control.
+   Avoid invalid bare @font-face rules here. */
+
+img[data-t3] {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reserved iframe boxes avoid layout jump when Supademo activates */
+iframe[data-t3-iframe],
+iframe[data-t3-src] {
+  background: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+  min-height: 220px;
+}

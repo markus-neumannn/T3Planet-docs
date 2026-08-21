@@ -34,7 +34,7 @@ Step 3. Get it from the Extension Manager: Press the “Retrieve/Update” butto
 
 Step 4. Get it from typo3.org: You can always get the current version from [https://extensions.typo3.org/extension/ns_personio/](https://extensions.typo3.org/extension/ns_personio/) by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![Install Extension](https://docs.t3planet.de/en/latest/_images/install_extension2.png)
+![Install Extension](./images/install_extension2.png)
 
 ## 2. Activate the TypoScript
 
@@ -50,7 +50,7 @@ Step 4. Select [NITSAN] Personio at the field Include static (from extensions):
 
 Step 5. Include [NITSAN] Personio at the last place.
 
-[![Activate Typoscript](https://docs.t3planet.de/en/latest/_images/activate_typoscript3.png)](../../_images/activate_typoscript3.png)
+[![Activate Typoscript](./images/activate_typoscript3.webp)](../../_images/activate_typoscript3.webp)
 
 ## Pre-configured Speaking URLs for Job Pages
 

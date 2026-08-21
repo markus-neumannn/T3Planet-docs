@@ -91,4 +91,4 @@ Remove conflicting MCP server packages before installing T3AF through your T3Pla
 
 ## Still stuck?
 
-Open [Support](/ExtNsT3AF/Support) with TYPO3 version, PHP version, `ns_t3af` version, error text, and billing mode (BYOK vs credits).
+Open [Support](/ExtNsT3AF/Support/Index) with TYPO3 version, PHP version, `ns_t3af` version, error text, and billing mode (BYOK vs credits).

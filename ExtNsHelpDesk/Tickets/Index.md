@@ -21,6 +21,19 @@ Click on Tickets Menu.
 
 ![ns-helpdesk-typo3-ticket-listing-be](./images/ns-helpdesk-typo3-ticket-listing-be.webp)
   </Step>
+</Steps>
+
+<Note>
+
+Front end look of ticket listing page.
+
+</Note>
+
+![ns-helpdesk-typo3-ticket-listing-fe](./images/ns-helpdesk-typo3-ticket-listing-fe.jpeg)
+
+## Ticket Detail
+
+<Steps>
   <Step title="Step 1">
 Click on specific ticket.
   </Step>

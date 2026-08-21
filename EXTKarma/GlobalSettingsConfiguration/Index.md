@@ -10,6 +10,17 @@ keywords:
 sidebarTitle: "Theme Options"
 ---
 
+Use the configuration method that matches your TYPO3 version:
+
+- **TYPO3 v14 and above** — Site Sets
+- **TYPO3 v13 and below** — Theme Options (global and page-level)
+
+<Note>
+
+Theme Options is supported on **TYPO3 v13 and below**. On TYPO3 v14 and above, use [Site Sets and Configuration](#site-sets-and-configuration) instead.
+
+</Note>
+
 ## Global-Level Configuration
 
 <div className="t3-embed">
@@ -58,6 +69,12 @@ Using these options, you can easily integrate external services and apply additi
 
 ## Page-Level Configuration
 
+<Note>
+
+This page-level Theme Options flow applies to **TYPO3 v13 and below**.
+
+</Note>
+
 <div className="t3-embed">
   <iframe src="https://app.supademo.com/embed/cmmetrfmf3ka2nr99usu9m6b9" loading="lazy" title="Page-Level Configuration" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
@@ -69,6 +86,12 @@ After creating the extension template for the selected page, you can configure a
 This allows you to customize the **layout or styling of individual pages** without affecting the overall settings of the website.
 
 ## Site Sets and Configuration
+
+<Note>
+
+Site Sets apply to **TYPO3 v14 and above**.
+
+</Note>
 
 Site Sets provide a more structured and organized way to manage TYPO3 configuration.
 

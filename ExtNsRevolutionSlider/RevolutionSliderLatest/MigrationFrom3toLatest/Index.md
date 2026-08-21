@@ -111,8 +111,8 @@ To migrate Asset path please follow below Steps,
 
 **Step 2:** Click on Run Upgrade wizard
 
-> [![TYPO3-Revolution-Slider](./images/Upgarde_wizard.webp)](../../../_images/Upgarde_wizard.png)
+> [![TYPO3-Revolution-Slider](./images/Upgarde_wizard.webp)](../../../_images/Upgarde_wizard.webp)
 
 **Step 3:** Click on Execute Button
 
-> [![TYPO3-Revolution-Slider](./images/Migrate_asset_path.webp)](../../../_images/Migrate_asset_path.png)
+> [![TYPO3-Revolution-Slider](./images/Migrate_asset_path.webp)](../../../_images/Migrate_asset_path.webp)

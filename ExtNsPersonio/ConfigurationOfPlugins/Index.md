@@ -99,7 +99,7 @@ When the scheduler runs to fetch new jobs and departments:
 
 **Step 2.** Create New Content Element > Insert Plugin > Personio Job Details
 
-![detail page](https://docs.t3planet.de/en/latest/ExtNsPersonio/ConfigurationOfPlugins/ExtNsPersonio/ConfigurationOfPlugins/Images/detailpage_1.png)
+![detail page](./images/detailpage_1.png)
 
 **Dark Theme:** You can enable/Disable dark mode
 
@@ -143,7 +143,7 @@ You can configure Comapny id and Access token from your personio account,learn m
 
 ## 3.2 View
 
-![detail page](https://docs.t3planet.de/en/latest/ExtNsPersonio/ConfigurationOfPlugins/ExtNsPersonio/ConfigurationOfPlugins/Images/applicationview_1.png)
+![detail page](./images/applicationview_1.png)
 
 **Dark theme:** You can enable or disble dark theme for application form page
 

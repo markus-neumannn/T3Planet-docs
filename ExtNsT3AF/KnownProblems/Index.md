@@ -84,4 +84,4 @@ Include:
 - Provider mode (BYOK vs T3Planet Credits)
 - Whether MCP is enabled
 
-Submit via [Support](/ExtNsT3AF/Support) or [https://t3planet.de/support](https://t3planet.de/support)
+Submit via [Support](/ExtNsT3AF/Support/Index) or [https://t3planet.de/support](https://t3planet.de/support)

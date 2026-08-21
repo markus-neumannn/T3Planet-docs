@@ -80,4 +80,4 @@ The extension ships some static TypoScript code which needs to be included.
 
 **Step 5.** Include ‘Nitsan Whatsapp at the last place.
 
-![Typoscript](images/Active_Typoscript.png)
+![Typoscript](images/Active_Typoscript.webp)

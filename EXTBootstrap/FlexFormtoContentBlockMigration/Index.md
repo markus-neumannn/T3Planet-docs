@@ -22,7 +22,8 @@ From version **13.1.0** onwards, this product introduces major changes by migrat
 2. Make sure the **Content Blocks extension (EXT)** is installed, as it is required for this migration.
 3. Go to **Admin Tools → Maintenance** module and clear the cache. Also, click on the **Dump Autoload** button.
   For composer-based TYPO3 installations, run the following command:
-  ```
+
+  ```bash
   composer dump-autoload
   ```
 

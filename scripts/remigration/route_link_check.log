@@ -1,0 +1,31 @@
+Nav paths discovered: 769
+Redirect entries: 1408
+HTTP-checking 769 nav paths against http://localhost:3000 ...
+  100/769 checked, 1 failures so far
+  200/769 checked, 1 failures so far
+  300/769 checked, 1 failures so far
+  400/769 checked, 1 failures so far
+  500/769 checked, 1 failures so far
+  600/769 checked, 1 failures so far
+  700/769 checked, 9 failures so far
+
+# Route & Link Validation Report
+
+- Nav paths: **769**
+- Redirect entries: **1408**
+- Nav paths missing a file: **17**
+- Duplicate redirect sources (conflicting dest): **0**
+- Self-redirects: **738**
+- Redirect-to-parent-of-self (License Activation bug class): **0**
+- Redirect destinations unresolved: **19**
+- Files scanned for internal links: **798**
+- Total internal markdown links found: **544**
+- Broken internal links: **3**
+- Nav paths HTTP-checked: **769**
+- HTTP failures (non-200): **24**
+
+## Nav paths missing a file
+- `/Configuration`
+- `/Features`
+- `/Home`
+- `/Integrations`
