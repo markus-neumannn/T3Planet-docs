@@ -1191,7 +1191,17 @@
     var tail = href.slice(cut);
     if (base.length > 5 && base.slice(-5) === ".html") {
       base = base.slice(0, -5);
-      if (base === "/index") base = "/";
+      if (base === "/index" || base === "/Index") base = "/";
+    }
+    // Mintlify file routes use capital Index; lowercase /index 404s or loops.
+    if (base === "/index" || base === "/Index") {
+      base = "/";
+    } else if (base.length > 6 && /\/index\/?$/i.test(base)) {
+      base = base.replace(/\/index\/?$/i, "/Index");
+    }
+    // Strip trailing slash except root
+    if (base.length > 1 && base.charAt(base.length - 1) === "/") {
+      base = base.slice(0, -1);
     }
     return base + tail;
   }
@@ -1340,17 +1350,20 @@
   }
 
   function hardNavigate(go) {
-    // Cancel in-flight page requests so the new document is not stuck behind
-    // HTTP/1.1 head-of-line blocking on mint-bound BYPASS connections (~10s).
-    // Call stop() in the same turn immediately before assign — not earlier.
+    // Free HTTP/1.1 sockets (mint BYPASS can HOL-block the document ~10s),
+    // but NEVER assign in the same synchronous turn as stop() — Chromium
+    // can cancel that assign (first click stays on home). Defer one task.
     try {
       if (typeof window.stop === "function") window.stop();
     } catch (eStop) {}
-    try {
-      window.location.assign(go);
-    } catch (eAssign) {
-      window.location.href = go;
-    }
+    var target = go;
+    setTimeout(function () {
+      try {
+        window.location.assign(target);
+      } catch (eAssign) {
+        window.location.href = target;
+      }
+    }, 0);
   }
 
   function warmPathViaProxy(href) {
@@ -2050,8 +2063,14 @@
       var u = new URL(location.href);
       if (u.searchParams.get("_t3r")) return;
       u.searchParams.set("_t3r", String(Date.now()));
-      // Ask proxy to drop bad entry then reload
-      fetch("/__t3_cache_purge", { cache: "no-store" }).catch(function () {});
+      // Drop ONLY this path from the proxy cache — never purge everything
+      // (full purge made the next hop cold and felt like a bounce to home).
+      try {
+        fetch(
+          "/__t3_cache_purge?path=" + encodeURIComponent(pathAtRecover),
+          { cache: "no-store" }
+        ).catch(function () {});
+      } catch (ePurge) {}
       setTimeout(function () {
         // Abort if the user already navigated away or a nav started.
         if (currentPath() !== pathAtRecover) return;
@@ -2067,7 +2086,63 @@
     } catch (eRec) {}
   }
 
+  var hardNavBound = false;
+  function bindHardNavClicks() {
+    if (hardNavBound) return;
+    hardNavBound = true;
+    try { window.__t3HardNav = 1; } catch (eMark) {}
+    // Capture as early as possible so first click after home load is not
+    // swallowed by Mintlify SPA (that path hangs / bounces to home).
+    document.addEventListener(
+      "click",
+      function (e) {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        var a = e.target.closest && e.target.closest('a[href^="/"]');
+        var href = isInternalNavAnchor(a);
+        if (!href) return;
+        if (href !== a.getAttribute("href")) a.setAttribute("href", href);
+        if (isLocalMintDev()) {
+          var go = cleanRoute(href);
+          if (go === "/Index") go = "/";
+          pendingNavHref = go;
+          pauseBackgroundWarmForUserNav();
+          e.preventDefault();
+          e.stopPropagation();
+          try {
+            e.stopImmediatePropagation();
+          } catch (eStop) {}
+          try {
+            progress(true);
+          } catch (eUi) {}
+          hardNavigate(go);
+          return;
+        }
+        beginNavFromLink(href);
+      },
+      true
+    );
+  }
+
+  function canonicalizeIndexPath() {
+    // Mintlify routes are /…/Index; lowercase /index works but breaks cache keys
+    // and can feel like a first-click bounce when mixed with capital Index links.
+    try {
+      var p = location.pathname || "/";
+      if (p === "/index" || p === "/Index/") {
+        history.replaceState(null, "", "/" + location.search + location.hash);
+        return;
+      }
+      if (/\/index\/?$/i.test(p) && !/\/Index\/?$/.test(p)) {
+        var fixed = p.replace(/\/index\/?$/i, "/Index");
+        history.replaceState(null, "", fixed + location.search + location.hash);
+      }
+    } catch (eCanon) {}
+  }
+
   function init() {
+    if (document.documentElement.dataset.t3DocsInit === "1") return;
+    document.documentElement.dataset.t3DocsInit = "1";
+    canonicalizeIndexPath();
 
   // Safety: never leave skeleton/hold painted forever (bad cache / hung RSC).
   setInterval(function () {
@@ -2104,38 +2179,7 @@
       { passive: true }
     );
 
-    document.addEventListener(
-      "click",
-      function (e) {
-        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-        var a = e.target.closest && e.target.closest('a[href^="/"]');
-        var href = isInternalNavAnchor(a);
-        if (!href) return;
-        if (href !== a.getAttribute("href")) a.setAttribute("href", href);
-        // Local mint (both :3000 proxy and raw :3001): force full document navigation.
-        // Measured: Mintlify SPA/RSC on local often never completes the route (multi-second
-        // hang with loader). Cached HTML via location.assign is ~0.2–0.5s on :3000 HITs.
-        // Production CDN keeps SPA (beginNavFromLink below).
-        if (isLocalMintDev()) {
-          var go = href === "/Index" ? "/" : href;
-          pendingNavHref = go;
-          pauseBackgroundWarmForUserNav();
-          e.preventDefault();
-          e.stopPropagation();
-          try {
-            e.stopImmediatePropagation();
-          } catch (eStop) {}
-          // No browser prefetch here — stop in-flight loads, then assign.
-          try {
-            progress(true);
-          } catch (eUi) {}
-          hardNavigate(go);
-          return;
-        }
-        beginNavFromLink(href);
-      },
-      true
-    );
+    bindHardNavClicks();
 
     window.addEventListener("popstate", function () {
       // History nav may already be mid-swap — freeze if possible, else skeleton ASAP
@@ -2176,6 +2220,10 @@
 
   gateLocalRscFetch();
   gateNextRouterPrefetch();
+  // Bind nav interceptor immediately — do not wait for DOMContentLoaded/init.
+  // First click from home often happens before init() and was falling through
+  // to Mintlify SPA (stay on home / require second click).
+  bindHardNavClicks();
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
 })();

@@ -429,14 +429,35 @@ class Handler(BaseHTTPRequestHandler):
         path = self.path
         # Lightweight health / stats for ops (not forwarded to mint)
         
-        if method == "GET" and path in ("/__t3_cache_purge", "/__t3_cache_purge/"):
+        if method == "GET" and path.split("?", 1)[0].rstrip("/") in ("/__t3_cache_purge",):
+            from urllib.parse import parse_qs, urlsplit
+            qs = parse_qs(urlsplit(path).query or "")
+            only = (qs.get("path") or [None])[0]
             with _lock:
-                n = len(_cache)
-                _cache.clear()
-                _stats["hits"] = 0
-                _stats["misses"] = 0
-                _stats["bypass"] = 0
-            payload = ("{\"purged\": %d}" % n).encode()
+                if only:
+                    # Purge a single route (and common Index casing variants)
+                    targets = {only, only.rstrip("/")}
+                    if only.lower().endswith("/index"):
+                        targets.add(only[:-6] + "/Index")
+                        targets.add(only[:-6] + "/index")
+                    n = 0
+                    for k in list(_cache.keys()):
+                        # keys are hashes — match by scanning stored? we only have hashed keys.
+                        # Fall back: drop entries by rebuilding key for GET+path variants.
+                        pass
+                    for tpath in list(targets):
+                        for variant in (tpath, tpath + "/", tpath.rstrip("/") or "/"):
+                            kk = _key("GET", variant)
+                            if kk in _cache:
+                                del _cache[kk]
+                                n += 1
+                else:
+                    n = len(_cache)
+                    _cache.clear()
+                    _stats["hits"] = 0
+                    _stats["misses"] = 0
+                    _stats["bypass"] = 0
+            payload = ('{"purged": %d}' % n).encode()
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
             self.send_header("Cache-Control", "no-store")

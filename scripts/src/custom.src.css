@@ -1201,43 +1201,84 @@ button:focus-visible {
 }
 
 .t3-product-icon-shell {
-  width: 2.25rem;
-  height: 2.25rem;
-  min-width: 2.25rem;
-  min-height: 2.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  box-sizing: border-box;
 }
 
 .t3-extension-icon-shell {
-  width: 1.75rem;
-  height: 1.75rem;
-  min-width: 1.75rem;
-  min-height: 1.75rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  min-width: 1.875rem;
+  min-height: 1.875rem;
   border-radius: 0.375rem;
+  box-sizing: border-box;
+}
+
+/* Mintlify <Icon> often renders as span[style*=mask] — size the glyph, center in shell */
+.t3-icon-shell .t3-product-icon,
+.t3-icon-shell .t3-extension-icon,
+.t3-icon-shell .t3-product-icon span,
+.t3-icon-shell .t3-extension-icon span,
+.t3-icon-shell .t3-product-icon svg,
+.t3-icon-shell .t3-extension-icon svg,
+.t3-icon-shell > span,
+.t3-icon-shell > svg,
+.t3-icon-shell > img {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  /* mask-based icons use background-color as the visible glyph */
+  background-color: var(--t3-primary) !important;
+  color: var(--t3-primary) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
 }
 
 .t3-icon-shell .t3-product-icon,
-.t3-icon-shell .t3-extension-icon {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  border-radius: 0;
-  background-color: var(--t3-primary) !important;
-  color: var(--t3-primary) !important;
+.t3-icon-shell .t3-product-icon span,
+.t3-icon-shell .t3-product-icon svg,
+.t3-icon-shell > .t3-product-icon {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  min-width: 1.25rem !important;
+  min-height: 1.25rem !important;
 }
 
-.t3-icon-shell .t3-product-icon {
-  width: 1.125rem !important;
-  height: 1.125rem !important;
-  min-width: 1.125rem;
-  min-height: 1.125rem;
+.t3-icon-shell .t3-extension-icon,
+.t3-icon-shell .t3-extension-icon span,
+.t3-icon-shell .t3-extension-icon svg {
+  width: 1.05rem !important;
+  height: 1.05rem !important;
+  min-width: 1.05rem !important;
+  min-height: 1.05rem !important;
 }
 
-.t3-icon-shell .t3-extension-icon {
-  width: 1rem !important;
-  height: 1rem !important;
-  min-width: 1rem;
-  min-height: 1rem;
+@media (max-width: 640px) {
+  .t3-product-icon-shell {
+    width: 2.75rem !important;
+    height: 2.75rem !important;
+    min-width: 2.75rem !important;
+    min-height: 2.75rem !important;
+  }
+  .t3-icon-shell .t3-product-icon,
+  .t3-icon-shell .t3-product-icon span,
+  .t3-icon-shell .t3-product-icon svg {
+    width: 1.35rem !important;
+    height: 1.35rem !important;
+    min-width: 1.35rem !important;
+    min-height: 1.35rem !important;
+  }
+  .t3-product-card-header {
+    align-items: center !important;
+    gap: 0.85rem !important;
+  }
 }
 
 .dark .t3-icon-shell .t3-product-icon,

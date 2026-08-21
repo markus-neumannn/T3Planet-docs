@@ -1,0 +1,117 @@
+{
+  "tests": [
+    {
+      "name": "home_first_click",
+      "ok": true,
+      "detail": {
+        "fails": 0,
+        "n": 15,
+        "p50": 237,
+        "hubs": [
+          "/AllTemplates/Index",
+          "/AllExtensions/Index",
+          "/AIFoundationExtensions/Index",
+          "/License/Index",
+          "/ExtNsT3AF/Index"
+        ]
+      }
+    },
+    {
+      "name": "icons_390",
+      "ok": true,
+      "detail": {
+        "bad": 0,
+        "n": 8,
+        "sample": [
+          {
+            "sw": 44,
+            "gw": 22,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "sw": 44,
+            "gw": 22,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "icons_420",
+      "ok": true,
+      "detail": {
+        "bad": 0,
+        "n": 8,
+        "sample": [
+          {
+            "sw": 44,
+            "gw": 22,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "sw": 44,
+            "gw": 22,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "icons_768",
+      "ok": true,
+      "detail": {
+        "bad": 0,
+        "n": 8,
+        "sample": [
+          {
+            "sw": 40,
+            "gw": 20,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "sw": 40,
+            "gw": 20,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "lowercase_index_canon",
+      "ok": true,
+      "detail": {
+        "path": "/AllTemplates/Index"
+      }
+    },
+    {
+      "name": "warm_usable",
+      "ok": true,
+      "detail": {
+        "samples": [
+          305,
+          288,
+          257,
+          256
+        ],
+        "p50": 288
+      }
+    },
+    {
+      "name": "mobile_home_click",
+      "ok": true,
+      "detail": {
+        "path": "/AllTemplates/Index",
+        "dest": "/AllTemplates/Index"
+      }
+    }
+  ],
+  "pass": 7,
+  "fail": 0,
+  "verdict": "PASS"
+}
