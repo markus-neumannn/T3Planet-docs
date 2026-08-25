@@ -1,17 +1,17 @@
 ---
-title: "T3 Shiva"
+title: "Shiva"
 description: "T3 Shiva documentation for TYPO3"
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3 Shiva"
-sidebarTitle: "T3 Shiva"
+sidebarTitle: "Shiva"
 ---
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
     <p className="t3-landing-eyebrow">TYPO3 Template</p>
-    <h1 className="t3-landing-title">Start building with T3 Shiva</h1>
+    <h1 className="t3-landing-title">Shiva</h1>
     <p className="t3-landing-subtitle">Everything you need to install, configure, and customize T3 Shiva in TYPO3. From first setup to production.</p>
   </div>
 

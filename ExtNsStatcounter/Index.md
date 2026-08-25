@@ -1,12 +1,12 @@
 ---
-title: "NS Statcounter"
+title: "Statcounter"
 description: "NS Statcounter — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Statcounter"
   - "NS Statcounter"
-sidebarTitle: "NS Statcounter"
+sidebarTitle: "Statcounter"
 ---
 
 <CardGroup cols={2}>

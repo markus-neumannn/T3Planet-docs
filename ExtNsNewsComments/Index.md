@@ -1,12 +1,12 @@
 ---
-title: "NS News Comments"
+title: "News Comments"
 description: "NS News Comments — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_NewsComments"
   - "NS News Comments"
-sidebarTitle: "NS News Comments"
+sidebarTitle: "News Comments"
 ---
 
 <CardGroup cols={2}>

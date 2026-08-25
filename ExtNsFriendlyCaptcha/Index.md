@@ -1,12 +1,12 @@
 ---
-title: "NS Friendlycaptcha"
+title: "Friendlycaptcha"
 description: "NS Friendlycaptcha — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_FriendlyCaptcha"
   - "NS Friendlycaptcha"
-sidebarTitle: "NS Friendlycaptcha"
+sidebarTitle: "Friendlycaptcha"
 ---
 
 <CardGroup cols={2}>

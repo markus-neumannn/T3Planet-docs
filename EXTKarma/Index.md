@@ -1,17 +1,17 @@
 ---
-title: "T3 Karma"
+title: "Karma"
 description: "T3 Karma documentation for TYPO3"
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3 Karma"
-sidebarTitle: "T3 Karma"
+sidebarTitle: "Karma"
 ---
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
     <p className="t3-landing-eyebrow">TYPO3 Template</p>
-    <h1 className="t3-landing-title">Start building with T3 Karma</h1>
+    <h1 className="t3-landing-title">Karma</h1>
     <p className="t3-landing-subtitle">Everything you need to install, configure, and customize T3 Karma in TYPO3. From first setup to production.</p>
   </div>
 

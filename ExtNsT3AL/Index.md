@@ -1,19 +1,19 @@
 ---
-title: "NS T3AL"
+title: "AI Localization"
 description: "NS T3AL — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AL"
   - "NS T3AL"
-sidebarTitle: "NS T3AL"
+sidebarTitle: "AI Localization"
 ---
 
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
-    <p className="t3-landing-eyebrow">AI Universe Extensions</p>
-    <h1 className="t3-landing-title">T3AL — TYPO3 AI Localization</h1>
+    <p className="t3-landing-eyebrow">AI Extensions</p>
+    <h1 className="t3-landing-title">AI Localization</h1>
     <p className="t3-landing-subtitle">Automate TYPO3 translations with AI localization, XLIFF workflows, and glossary support.</p>
   </div>
 

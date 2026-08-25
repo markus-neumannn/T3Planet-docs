@@ -1,12 +1,12 @@
 ---
-title: "NS Google Map"
+title: "Google Map"
 description: "NS Google Map — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_GoogleMap"
   - "NS Google Map"
-sidebarTitle: "NS Google Map"
+sidebarTitle: "Google Map"
 ---
 
 <CardGroup cols={2}>

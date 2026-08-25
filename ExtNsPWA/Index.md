@@ -1,12 +1,12 @@
 ---
-title: "NS PWA"
+title: "PWA"
 description: "NS PWA — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_PWA"
   - "NS PWA"
-sidebarTitle: "NS PWA"
+sidebarTitle: "PWA"
 ---
 
 <CardGroup cols={2}>

@@ -1,12 +1,12 @@
 ---
-title: "NS All Chat"
+title: "All Chat"
 description: "NS All Chat — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_AllChat"
   - "NS All Chat"
-sidebarTitle: "NS All Chat"
+sidebarTitle: "All Chat"
 ---
 
 <CardGroup cols={2}>

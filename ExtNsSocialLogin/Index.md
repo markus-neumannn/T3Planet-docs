@@ -1,12 +1,12 @@
 ---
-title: "NS Social Login"
+title: "Social Login"
 description: "NS Social Login — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_SocialLogin"
   - "NS Social Login"
-sidebarTitle: "NS Social Login"
+sidebarTitle: "Social Login"
 ---
 
 <CardGroup cols={2}>

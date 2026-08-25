@@ -1,12 +1,12 @@
 ---
-title: "NS Facebook Comment"
+title: "Facebook Comment"
 description: "NS Facebook Comment — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_FacebookComment"
   - "NS Facebook Comment"
-sidebarTitle: "NS Facebook Comment"
+sidebarTitle: "Facebook Comment"
 ---
 
 <CardGroup cols={2}>

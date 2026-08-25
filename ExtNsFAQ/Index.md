@@ -1,12 +1,12 @@
 ---
-title: "NS FAQ"
+title: "FAQ"
 description: "NS FAQ — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_FAQ"
   - "NS FAQ"
-sidebarTitle: "NS FAQ"
+sidebarTitle: "FAQ"
 ---
 
 <CardGroup cols={2}>

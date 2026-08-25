@@ -1,12 +1,12 @@
 ---
-title: "NS Personio"
+title: "Personio"
 description: "NS Personio — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Personio"
   - "NS Personio"
-sidebarTitle: "NS Personio"
+sidebarTitle: "Personio"
 ---
 
 <CardGroup cols={2}>

@@ -1,5 +1,5 @@
 ---
-title: "T3AF"
+title: "AI Foundation"
 description: "T3AF (EXT:ns_t3af) — shared AI providers, MCP server, prompts, permissions, and usage logging for all T3Planet AI extensions in TYPO3."
 keywords:
   - "TYPO3"
@@ -7,13 +7,13 @@ keywords:
   - "T3AF"
   - "ns_t3af"
   - "EXT:ns_t3af"
-sidebarTitle: "T3AF"
+sidebarTitle: "AI Foundation"
 ---
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
-    <p className="t3-landing-eyebrow">AI Universe Extensions</p>
-    <h1 className="t3-landing-title">T3AF</h1>
+    <p className="t3-landing-eyebrow">AI Extensions</p>
+    <h1 className="t3-landing-title">AI Foundation</h1>
     <p className="t3-landing-subtitle">Shared AI infrastructure for TYPO3 — providers, MCP, context, prompts, features, permissions, and usage logs for every T3Planet AI extension.</p>
   </div>
 

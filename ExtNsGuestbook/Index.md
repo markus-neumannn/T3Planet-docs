@@ -1,12 +1,12 @@
 ---
-title: "NS Guestbook"
+title: "Guestbook"
 description: "NS Guestbook — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Guestbook"
   - "NS Guestbook"
-sidebarTitle: "NS Guestbook"
+sidebarTitle: "Guestbook"
 ---
 
 <CardGroup cols={2}>

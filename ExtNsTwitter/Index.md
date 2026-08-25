@@ -1,12 +1,12 @@
 ---
-title: "NS Twitter"
+title: "Twitter"
 description: "NS Twitter — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Twitter"
   - "NS Twitter"
-sidebarTitle: "NS Twitter"
+sidebarTitle: "Twitter"
 ---
 
 <CardGroup cols={2}>

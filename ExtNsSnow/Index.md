@@ -1,12 +1,12 @@
 ---
-title: "NS Snow"
+title: "Snow"
 description: "NS Snow — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Snow"
   - "NS Snow"
-sidebarTitle: "NS Snow"
+sidebarTitle: "Snow"
 ---
 
 <CardGroup cols={2}>

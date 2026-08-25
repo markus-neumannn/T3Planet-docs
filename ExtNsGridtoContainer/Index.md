@@ -1,12 +1,12 @@
 ---
-title: "NS Gridtocontainer"
+title: "Gridtocontainer"
 description: "NS Gridtocontainer — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_GridtoContainer"
   - "NS Gridtocontainer"
-sidebarTitle: "NS Gridtocontainer"
+sidebarTitle: "Gridtocontainer"
 ---
 
 <CardGroup cols={2}>

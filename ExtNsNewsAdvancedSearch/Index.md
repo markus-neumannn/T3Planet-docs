@@ -1,12 +1,12 @@
 ---
-title: "NS News Advance Search"
+title: "News Advance Search"
 description: "NS News Advance Search — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_NewsAdvancedSearch"
   - "NS News Advance Search"
-sidebarTitle: "NS News Advance Search"
+sidebarTitle: "News Advance Search"
 ---
 
 <CardGroup cols={2}>

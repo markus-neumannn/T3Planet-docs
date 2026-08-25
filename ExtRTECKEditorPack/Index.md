@@ -1,12 +1,12 @@
 ---
-title: "NS CKEditor Pack"
+title: "CKEditor Pack"
 description: "NS CKEditor Pack — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ExtRTECKEditorPack"
   - "NS CKEditor Pack"
-sidebarTitle: "NS CKEditor Pack"
+sidebarTitle: "CKEditor Pack"
 ---
 
 <CardGroup cols={2}>

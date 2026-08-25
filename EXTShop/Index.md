@@ -1,17 +1,17 @@
 ---
-title: "T3 Shop"
+title: "Shop"
 description: "T3 Shop documentation for TYPO3"
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3 Shop"
-sidebarTitle: "T3 Shop"
+sidebarTitle: "Shop"
 ---
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
     <p className="t3-landing-eyebrow">TYPO3 Template</p>
-    <h1 className="t3-landing-title">Start building with T3 Shop</h1>
+    <h1 className="t3-landing-title">Shop</h1>
     <p className="t3-landing-subtitle">Everything you need to install, configure, and customize T3 Shop in TYPO3. From first setup to production.</p>
   </div>
 

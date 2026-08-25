@@ -1,12 +1,12 @@
 ---
-title: "NS Maintenance"
+title: "Maintenance"
 description: "NS Maintenance — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ExtNitsanMaintenance"
   - "NS Maintenance"
-sidebarTitle: "NS Maintenance"
+sidebarTitle: "Maintenance"
 ---
 
 <CardGroup cols={2}>

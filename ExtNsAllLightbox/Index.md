@@ -1,12 +1,12 @@
 ---
-title: "NS All Lightbox"
+title: "All Lightbox"
 description: "NS All Lightbox — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_AllLightbox"
   - "NS All Lightbox"
-sidebarTitle: "NS All Lightbox"
+sidebarTitle: "All Lightbox"
 ---
 
 <CardGroup cols={2}>

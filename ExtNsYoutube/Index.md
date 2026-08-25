@@ -1,12 +1,12 @@
 ---
-title: "NS Youtube"
+title: "Youtube"
 description: "NS Youtube — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Youtube"
   - "NS Youtube"
-sidebarTitle: "NS Youtube"
+sidebarTitle: "Youtube"
 ---
 
 <CardGroup cols={2}>

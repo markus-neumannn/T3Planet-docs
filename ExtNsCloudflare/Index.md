@@ -1,12 +1,12 @@
 ---
-title: "NS Cloudflare"
+title: "Cloudflare"
 description: "NS Cloudflare — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Cloudflare"
   - "NS Cloudflare"
-sidebarTitle: "NS Cloudflare"
+sidebarTitle: "Cloudflare"
 ---
 
 <CardGroup cols={2}>

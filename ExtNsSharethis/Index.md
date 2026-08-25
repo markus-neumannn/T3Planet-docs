@@ -1,12 +1,12 @@
 ---
-title: "NS Sharethis"
+title: "Sharethis"
 description: "NS Sharethis — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Sharethis"
   - "NS Sharethis"
-sidebarTitle: "NS Sharethis"
+sidebarTitle: "Sharethis"
 ---
 
 <CardGroup cols={2}>

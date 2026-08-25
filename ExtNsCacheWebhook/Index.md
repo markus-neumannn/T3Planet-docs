@@ -1,12 +1,12 @@
 ---
-title: "NS Cache Webhook"
+title: "Cache Webhook"
 description: "NS Cache Webhook — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_CacheWebhook"
   - "NS Cache Webhook"
-sidebarTitle: "NS Cache Webhook"
+sidebarTitle: "Cache Webhook"
 ---
 
 <CardGroup cols={2}>

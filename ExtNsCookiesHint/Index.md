@@ -1,12 +1,12 @@
 ---
-title: "NS Cookies"
+title: "Cookies"
 description: "NS Cookies — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_CookiesHint"
   - "NS Cookies"
-sidebarTitle: "NS Cookies"
+sidebarTitle: "Cookies"
 ---
 
 <CardGroup cols={2}>

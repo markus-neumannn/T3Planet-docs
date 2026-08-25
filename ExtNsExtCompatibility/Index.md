@@ -1,12 +1,12 @@
 ---
-title: "NS Ext Compatibility"
+title: "Ext Compatibility"
 description: "NS Ext Compatibility — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_ExtCompatibility"
   - "NS Ext Compatibility"
-sidebarTitle: "NS Ext Compatibility"
+sidebarTitle: "Ext Compatibility"
 ---
 
 <CardGroup cols={2}>

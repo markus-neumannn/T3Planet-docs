@@ -1,19 +1,19 @@
 ---
-title: "NS T3AB"
+title: "AI Builder"
 description: "NS T3AB — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AB"
   - "NS T3AB"
-sidebarTitle: "NS T3AB"
+sidebarTitle: "AI Builder"
 ---
 
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
-    <p className="t3-landing-eyebrow">AI Universe Extensions</p>
-    <h1 className="t3-landing-title">T3AB — TYPO3 AI Builder</h1>
+    <p className="t3-landing-eyebrow">AI Extensions</p>
+    <h1 className="t3-landing-title">AI Builder</h1>
     <p className="t3-landing-subtitle">Build TYPO3 content elements, forms, and blocks with AI-assisted workflows.</p>
   </div>
 

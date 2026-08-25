@@ -1,12 +1,12 @@
 ---
-title: "NS News Slider"
+title: "News Slider"
 description: "NS News Slider — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_NewsSlider"
   - "NS News Slider"
-sidebarTitle: "NS News Slider"
+sidebarTitle: "News Slider"
 ---
 
 <CardGroup cols={2}>

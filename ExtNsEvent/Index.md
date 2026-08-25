@@ -1,12 +1,12 @@
 ---
-title: "NS Event"
+title: "Event"
 description: "NS Event — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Event"
   - "NS Event"
-sidebarTitle: "NS Event"
+sidebarTitle: "Event"
 ---
 
 <CardGroup cols={2}>

@@ -1,12 +1,12 @@
 ---
-title: "NS Helpdesk"
+title: "Helpdesk"
 description: "NS Helpdesk — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_HelpDesk"
   - "NS Helpdesk"
-sidebarTitle: "NS Helpdesk"
+sidebarTitle: "Helpdesk"
 ---
 
 <CardGroup cols={2}>

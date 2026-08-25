@@ -1,12 +1,12 @@
 ---
-title: "NS Open Streetmap"
+title: "Open Streetmap"
 description: "NS Open Streetmap — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_OpenStreetMap"
   - "NS Open Streetmap"
-sidebarTitle: "NS Open Streetmap"
+sidebarTitle: "Open Streetmap"
 ---
 
 <CardGroup cols={2}>

@@ -1,19 +1,19 @@
 ---
-title: "AI Universe Extensions"
-description: "Browse all T3Planet AI extensions — T3AI, T3AC, T3AS, T3AL, T3AA, T3AB, and T3AF for TYPO3."
+title: "AI Extensions"
+description: "Browse all T3Planet AI extensions — AI Foundation, AI Search, AI Chatbot, localization, accessibility, and more for TYPO3."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "AI Universe Extensions"
+  - "AI Extensions"
   - "AI extensions"
-sidebarTitle: "AI Universe Extensions"
+sidebarTitle: "AI Extensions"
 ---
 
 <div className="t3-hub-landing t3-template-landing">
-<div className="t3-category-nav" role="navigation"><a className="" href="/">Home</a><a className="active" href="/AIFoundationExtensions/Index">AI Universe Extensions</a><a className="" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></div>
+<div className="t3-category-nav" role="navigation"><a className="" href="/">Home</a><a className="active" href="/AIFoundationExtensions/Index">AI Extensions</a><a className="" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></div>
 <div className="t3-hero-panel">
   <div className="t3-landing-hero t3-hero-large">
-    <p className="t3-landing-eyebrow">AI Universe Extensions</p>
+    <p className="t3-landing-eyebrow">AI Extensions</p>
     <h1 className="t3-landing-title">TYPO3 AI solutions from T3Planet</h1>
     <p className="t3-landing-subtitle">Chatbots, search, localization, accessibility, and content automation — one AI ecosystem for TYPO3.</p>
     <button type="button" className="t3-search-trigger" data-t3-search-trigger aria-label="Search documentation...">
@@ -21,7 +21,7 @@ sidebarTitle: "AI Universe Extensions"
       <kbd>⌘K</kbd>
     </button>
   </div>
-  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">798</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">67</span><span className="t3-stat-label">Products</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="ai_products">7</span><span className="t3-stat-label">AI products</span></div></div>
+  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">798</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">67</span><span className="t3-stat-label">Products</span></div></div>
 </div>
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">All AI products</p>
@@ -30,7 +30,7 @@ sidebarTitle: "AI Universe Extensions"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="cpu" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3AF</h3>
+          <h3 className="t3-product-name">AI Foundation</h3>
           <p className="t3-product-tagline">Shared AI engine</p>
         </div>
       </div>
@@ -44,8 +44,8 @@ sidebarTitle: "AI Universe Extensions"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="sparkles" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3AI</h3>
-          <p className="t3-product-tagline">AI Content & SEO</p>
+          <h3 className="t3-product-name">AI Assistant</h3>
+          <p className="t3-product-tagline">Content, SEO &amp; more</p>
         </div>
       </div>
       <p className="t3-product-desc">Generate content, translations, SEO metadata, and media with AI directly in TYPO3.</p>
@@ -59,8 +59,8 @@ sidebarTitle: "AI Universe Extensions"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="message-circle" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3AC</h3>
-          <p className="t3-product-tagline">AI Chatbot</p>
+          <h3 className="t3-product-name">AI Chatbot</h3>
+          <p className="t3-product-tagline">Chatbot</p>
         </div>
       </div>
       <p className="t3-product-desc">AI chatbot trained on your TYPO3 content with analytics, logs, and custom LLM support.</p>
@@ -74,8 +74,8 @@ sidebarTitle: "AI Universe Extensions"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="search" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3AS</h3>
-          <p className="t3-product-tagline">AI Search</p>
+          <h3 className="t3-product-name">AI Search</h3>
+          <p className="t3-product-tagline">Search</p>
         </div>
       </div>
       <p className="t3-product-desc">AI-powered search across your TYPO3 content with embeddings, custom LLM, and performance tuning.</p>
@@ -89,8 +89,8 @@ sidebarTitle: "AI Universe Extensions"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="languages" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3AL</h3>
-          <p className="t3-product-tagline">AI Localization</p>
+          <h3 className="t3-product-name">AI Localization</h3>
+          <p className="t3-product-tagline">Localization</p>
         </div>
       </div>
       <p className="t3-product-desc">Automate TYPO3 translations with AI localization, XLIFF workflows, and glossary support.</p>
@@ -104,8 +104,8 @@ sidebarTitle: "AI Universe Extensions"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="accessibility" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3AA</h3>
-          <p className="t3-product-tagline">AI Accessibility</p>
+          <h3 className="t3-product-name">AI Accessibility</h3>
+          <p className="t3-product-tagline">Accessibility</p>
         </div>
       </div>
       <p className="t3-product-desc">Improve accessibility with AI alt text, voiceover, CKEditor checks, and simplified text.</p>
@@ -119,8 +119,8 @@ sidebarTitle: "AI Universe Extensions"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="blocks" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3AB</h3>
-          <p className="t3-product-tagline">AI Builder</p>
+          <h3 className="t3-product-name">AI Builder</h3>
+          <p className="t3-product-tagline">Builder</p>
         </div>
       </div>
       <p className="t3-product-desc">Build TYPO3 content elements, forms, and blocks with AI-powered workflows.</p>

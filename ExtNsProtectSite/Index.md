@@ -1,12 +1,12 @@
 ---
-title: "NS Protect Site"
+title: "Protect Site"
 description: "NS Protect Site — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_ProtectSite"
   - "NS Protect Site"
-sidebarTitle: "NS Protect Site"
+sidebarTitle: "Protect Site"
 ---
 
 <CardGroup cols={2}>

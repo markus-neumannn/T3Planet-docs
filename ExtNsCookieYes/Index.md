@@ -1,12 +1,12 @@
 ---
-title: "NS Cookieyes"
+title: "Cookieyes"
 description: "NS Cookieyes — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_CookieYes"
   - "NS Cookieyes"
-sidebarTitle: "NS Cookieyes"
+sidebarTitle: "Cookieyes"
 ---
 
 <CardGroup cols={2}>

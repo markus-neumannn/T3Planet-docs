@@ -1,12 +1,12 @@
 ---
-title: "NS Google Site Kit"
+title: "Google Site Kit"
 description: "NS Google Site Kit — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_GoogleSiteKit"
   - "NS Google Site Kit"
-sidebarTitle: "NS Google Site Kit"
+sidebarTitle: "Google Site Kit"
 ---
 
 <CardGroup cols={2}>

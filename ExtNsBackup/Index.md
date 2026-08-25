@@ -1,12 +1,12 @@
 ---
-title: "NS Backup"
+title: "Backup"
 description: "NS Backup — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Backup"
   - "NS Backup"
-sidebarTitle: "NS Backup"
+sidebarTitle: "Backup"
 ---
 
 <CardGroup cols={2}>

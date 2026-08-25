@@ -1,12 +1,12 @@
 ---
-title: "NS Timeline"
+title: "Timeline"
 description: "NS Timeline — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_TimeLine"
   - "NS Timeline"
-sidebarTitle: "NS Timeline"
+sidebarTitle: "Timeline"
 ---
 
 <CardGroup cols={2}>

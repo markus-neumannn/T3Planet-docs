@@ -1,12 +1,12 @@
 ---
-title: "NS Hubspot"
+title: "Hubspot"
 description: "NS Hubspot — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Hubspot"
   - "NS Hubspot"
-sidebarTitle: "NS Hubspot"
+sidebarTitle: "Hubspot"
 ---
 
 <CardGroup cols={2}>

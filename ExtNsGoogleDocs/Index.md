@@ -1,12 +1,12 @@
 ---
-title: "NS Googledocs"
+title: "Googledocs"
 description: "NS Googledocs — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_GoogleDocs"
   - "NS Googledocs"
-sidebarTitle: "NS Googledocs"
+sidebarTitle: "Googledocs"
 ---
 
 <CardGroup cols={2}>

@@ -1,5 +1,5 @@
 ---
-title: "T3AA — TYPO3 AI Accessibility"
+title: "AI Accessibility"
 description: "T3AA (EXT:ns_t3aa) — AI accessibility assistant for TYPO3 with alt text, audio, voiceover, simplified text, and CKEditor checks."
 keywords:
   - "TYPO3"
@@ -7,13 +7,13 @@ keywords:
   - "T3AA"
   - "EXT:ns_t3aa"
   - "Accessibility"
-sidebarTitle: "EXT:ns_t3aa"
+sidebarTitle: "AI Accessibility"
 ---
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
-    <p className="t3-landing-eyebrow">AI Universe Extensions</p>
-    <h1 className="t3-landing-title">T3AA — TYPO3 AI Accessibility</h1>
+    <p className="t3-landing-eyebrow">AI Extensions</p>
+    <h1 className="t3-landing-title">AI Accessibility</h1>
     <p className="t3-landing-subtitle">Improve accessibility workflows with AI-assisted alt text, file metadata, audio, voiceover, simplified text, and editor checks.</p>
   </div>
 

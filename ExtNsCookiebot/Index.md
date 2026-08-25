@@ -1,12 +1,12 @@
 ---
-title: "NS Cookiebot"
+title: "Cookiebot"
 description: "NS Cookiebot — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Cookiebot"
   - "NS Cookiebot"
-sidebarTitle: "NS Cookiebot"
+sidebarTitle: "Cookiebot"
 ---
 
 <CardGroup cols={2}>

@@ -1,12 +1,12 @@
 ---
-title: "NS Lazy Load"
+title: "Lazy Load"
 description: "NS Lazy Load — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Lazyload"
   - "NS Lazy Load"
-sidebarTitle: "NS Lazy Load"
+sidebarTitle: "Lazy Load"
 ---
 
 <CardGroup cols={2}>

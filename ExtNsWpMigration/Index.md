@@ -1,12 +1,12 @@
 ---
-title: "NS Wp Migration"
+title: "Wp Migration"
 description: "NS Wp Migration — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_WpMigration"
   - "NS Wp Migration"
-sidebarTitle: "NS Wp Migration"
+sidebarTitle: "Wp Migration"
 ---
 
 <CardGroup cols={2}>

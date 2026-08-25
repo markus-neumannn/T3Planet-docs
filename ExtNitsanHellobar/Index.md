@@ -1,12 +1,12 @@
 ---
-title: "NS Hellobar"
+title: "Hellobar"
 description: "NS Hellobar — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ExtNitsanHellobar"
   - "NS Hellobar"
-sidebarTitle: "NS Hellobar"
+sidebarTitle: "Hellobar"
 ---
 
 <CardGroup cols={2}>

@@ -1,18 +1,18 @@
 ---
-title: "T3AI — TYPO3 AI Extension"
+title: "AI Assistant"
 description: "T3AI (EXT:ns_t3ai) — all-in-one TYPO3 AI for content, SEO, translation, media, prompts, and AI settings."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AI"
   - "EXT:ns_t3ai"
-sidebarTitle: "EXT:ns_t3ai"
+sidebarTitle: "AI Assistant"
 ---
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
-    <p className="t3-landing-eyebrow">AI Universe Extensions</p>
-    <h1 className="t3-landing-title">T3AI — TYPO3 AI Extension</h1>
+    <p className="t3-landing-eyebrow">AI Extensions</p>
+    <h1 className="t3-landing-title">AI Assistant</h1>
     <p className="t3-landing-subtitle">Create, translate, optimize, and manage TYPO3 content with AI — pages, SEO, media, prompts, and shared T3AF providers.</p>
   </div>
 

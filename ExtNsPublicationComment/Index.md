@@ -1,12 +1,12 @@
 ---
-title: "NS Publication Comment"
+title: "Publication Comment"
 description: "NS Publication Comment — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_PublicationComment"
   - "NS Publication Comment"
-sidebarTitle: "NS Publication Comment"
+sidebarTitle: "Publication Comment"
 ---
 
 <CardGroup cols={2}>

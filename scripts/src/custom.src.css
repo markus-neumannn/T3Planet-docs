@@ -6000,3 +6000,69 @@ iframe[data-t3-src] {
   background: color-mix(in srgb, Canvas 92%, CanvasText 8%);
   min-height: 220px;
 }
+
+
+/* Feedback: consistent home/hub card & section spacing */
+.t3-home-landing > [data-component-part="card-group"],
+.t3-home-landing > .card-group {
+  margin-bottom: 0.5rem !important;
+}
+.t3-home-landing > .t3-landing-section:first-of-type {
+  margin-top: 0.35rem !important;
+}
+.t3-home-landing .t3-landing-section,
+.t3-hub-landing .t3-landing-section {
+  margin-bottom: 1.75rem !important;
+}
+.t3-home-landing [data-component-part="card-title"],
+.t3-home-landing .card h2,
+.t3-home-landing .card h3,
+.t3-landing-section [data-component-part="card-title"],
+.t3-landing-section .card h2,
+.t3-landing-section .card h3 {
+  margin: 0 0 0.35rem !important;
+  min-height: 2.5em;
+}
+.t3-home-landing [data-component-part="card-content"],
+.t3-home-landing .card p,
+.t3-landing-section [data-component-part="card-content"],
+.t3-landing-section .card p {
+  margin-top: 0 !important;
+}
+.t3-home-landing .card [data-component-part="card-icon"] + .w-full,
+.t3-home-landing .card [data-component-part="card-icon"] + div,
+.t3-landing-section .card [data-component-part="card-icon"] + .w-full,
+.t3-landing-section .card [data-component-part="card-icon"] + div {
+  margin-top: 0.55rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.35rem !important;
+}
+
+
+/* Feedback: clearer home section separation + dark-mode card spacing */
+.t3-home-landing > [data-component-part="card-group"],
+.t3-home-landing > .card-group {
+  margin-bottom: 1.25rem !important;
+}
+.t3-home-landing > .t3-landing-section:first-of-type {
+  margin-top: 0.25rem !important;
+  padding-top: 0.75rem !important;
+  border-top: 1px solid var(--t3-border);
+}
+.t3-home-landing .t3-landing-section {
+  margin-bottom: 2rem !important;
+}
+.t3-home-landing .t3-section-header {
+  margin-bottom: 0.85rem !important;
+}
+.t3-home-landing [data-component-part="card-title"],
+.t3-home-landing .card h2,
+.t3-home-landing .card h3 {
+  min-height: 2.6em;
+  margin: 0 0 0.4rem !important;
+}
+html.dark .t3-home-landing > .t3-landing-section:first-of-type,
+.dark .t3-home-landing > .t3-landing-section:first-of-type {
+  border-top-color: rgba(255,255,255,0.1);
+}

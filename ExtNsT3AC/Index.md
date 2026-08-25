@@ -1,5 +1,5 @@
 ---
-title: "T3AC — TYPO3 AI Chatbot"
+title: "AI Chatbot"
 description: "T3AC (EXT:ns_t3ac) — AI-powered TYPO3 chatbot with training, data sources, analytics, and T3AF integration."
 keywords:
   - "TYPO3"
@@ -7,13 +7,13 @@ keywords:
   - "T3AC"
   - "EXT:ns_t3ac"
   - "AI Chatbot"
-sidebarTitle: "EXT:ns_t3ac"
+sidebarTitle: "AI Chatbot"
 ---
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
-    <p className="t3-landing-eyebrow">AI Universe Extensions</p>
-    <h1 className="t3-landing-title">T3AC — TYPO3 AI Chatbot</h1>
+    <p className="t3-landing-eyebrow">AI Extensions</p>
+    <h1 className="t3-landing-title">AI Chatbot</h1>
     <p className="t3-landing-subtitle">Add an AI-powered chatbot to TYPO3 with trained project data, data sources, analytics, and shared T3AF providers.</p>
   </div>
 

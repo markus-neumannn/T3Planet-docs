@@ -1,11 +1,11 @@
 ---
-title: "T3 ReactBootstrap"
+title: "ReactBootstrap"
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ReactBootstrap"
   - "T3 ReactBootstrap"
-sidebarTitle: "T3 ReactBootstrap"
+sidebarTitle: "ReactBootstrap"
 ---
 
 <div className="t3-template-landing">

@@ -1,12 +1,12 @@
 ---
-title: "NS Gallery"
+title: "Gallery"
 description: "NS Gallery — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Gallery"
   - "NS Gallery"
-sidebarTitle: "NS Gallery"
+sidebarTitle: "Gallery"
 ---
 
 <CardGroup cols={2}>

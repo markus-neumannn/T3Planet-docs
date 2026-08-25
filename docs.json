@@ -16,7 +16,7 @@
   "navbar": {
     "links": [
       {
-        "label": "AI Universe",
+        "label": "AI Extensions",
         "href": "/AIFoundationExtensions/Index"
       },
       {
@@ -28,7 +28,7 @@
         "href": "/AllExtensions/Index"
       },
       {
-        "label": "T3Planet",
+        "label": "T3Planet.de",
         "href": "https://t3planet.de/en/"
       },
       {
@@ -89,12 +89,12 @@
         ]
       },
       {
-        "group": "AI Universe Extensions",
+        "group": "AI Extensions",
         "icon": "sparkles",
         "expanded": false,
         "pages": [
           {
-            "group": "T3AF",
+            "group": "AI Foundation",
             "root": "ExtNsT3AF/Index",
             "expanded": false,
             "pages": [
@@ -174,7 +174,7 @@
             ]
           },
           {
-            "group": "T3AA",
+            "group": "AI Accessibility",
             "root": "ExtNsT3AA/Index",
             "expanded": false,
             "pages": [
@@ -205,7 +205,7 @@
             ]
           },
           {
-            "group": "T3AB",
+            "group": "AI Builder",
             "root": "ExtNsT3AB/Index",
             "expanded": false,
             "pages": [
@@ -234,7 +234,7 @@
             ]
           },
           {
-            "group": "T3AC",
+            "group": "AI Chatbot",
             "root": "ExtNsT3AC/Index",
             "expanded": false,
             "pages": [
@@ -281,7 +281,7 @@
             ]
           },
           {
-            "group": "T3AI",
+            "group": "AI Assistant",
             "root": "ExtNsT3AI/Index",
             "expanded": false,
             "pages": [
@@ -318,7 +318,7 @@
             ]
           },
           {
-            "group": "T3AL",
+            "group": "AI Localization",
             "root": "ExtNsT3AL/Index",
             "expanded": false,
             "pages": [
@@ -348,7 +348,7 @@
             ]
           },
           {
-            "group": "T3AS",
+            "group": "AI Search",
             "root": "ExtNsT3AS/Index",
             "expanded": false,
             "pages": [
@@ -389,12 +389,12 @@
         ]
       },
       {
-        "group": "T3 Templates & Themes",
+        "group": "Templates & Themes",
         "icon": "layout-template",
         "expanded": false,
         "pages": [
           {
-            "group": "T3 Avatar",
+            "group": "Avatar",
             "root": "EXTAvatar/Index",
             "expanded": false,
             "pages": [
@@ -421,7 +421,7 @@
             ]
           },
           {
-            "group": "T3 Ayu",
+            "group": "Ayu",
             "root": "EXTAyu/Index",
             "expanded": false,
             "pages": [
@@ -446,7 +446,7 @@
             ]
           },
           {
-            "group": "T3 Bootstrap",
+            "group": "Bootstrap",
             "root": "EXTBootstrap/Index",
             "expanded": false,
             "pages": [
@@ -473,7 +473,7 @@
             ]
           },
           {
-            "group": "T3 Karma",
+            "group": "Karma",
             "root": "EXTKarma/Index",
             "expanded": false,
             "pages": [
@@ -502,7 +502,7 @@
             ]
           },
           {
-            "group": "T3 React Bootstrap",
+            "group": "React Bootstrap",
             "root": "EXTReactBootstrap/Index",
             "expanded": false,
             "pages": [
@@ -526,7 +526,7 @@
             ]
           },
           {
-            "group": "T3 Reva",
+            "group": "Reva",
             "root": "EXTReva/Index",
             "expanded": false,
             "pages": [
@@ -551,7 +551,7 @@
             ]
           },
           {
-            "group": "T3 Shiva",
+            "group": "Shiva",
             "root": "EXTShiva/Index",
             "expanded": false,
             "pages": [
@@ -576,7 +576,7 @@
             ]
           },
           {
-            "group": "T3 Shop",
+            "group": "Shop",
             "root": "EXTShop/Index",
             "expanded": false,
             "pages": [
@@ -596,7 +596,7 @@
             ]
           },
           {
-            "group": "T3 Themes",
+            "group": "Themes",
             "root": "ExtThemes/Index",
             "expanded": false,
             "pages": [
@@ -624,7 +624,7 @@
         "expanded": false,
         "pages": [
           {
-            "group": "NS All Chat",
+            "group": "All Chat",
             "root": "ExtNsAllChat/Index",
             "expanded": false,
             "pages": [
@@ -643,7 +643,7 @@
             ]
           },
           {
-            "group": "NS All Lightbox",
+            "group": "All Lightbox",
             "root": "ExtNsAllLightbox/Index",
             "expanded": false,
             "pages": [
@@ -662,7 +662,7 @@
             ]
           },
           {
-            "group": "NS All Sliders",
+            "group": "All Sliders",
             "root": "ExtNsAllSliders/Index",
             "expanded": false,
             "pages": [
@@ -681,7 +681,7 @@
             ]
           },
           {
-            "group": "NS Backup",
+            "group": "Backup",
             "root": "ExtNsBackup/Index",
             "expanded": false,
             "pages": [
@@ -705,7 +705,7 @@
             ]
           },
           {
-            "group": "NS Cache Webhook",
+            "group": "Cache Webhook",
             "root": "ExtNsCacheWebhook/Index",
             "expanded": false,
             "pages": [
@@ -717,7 +717,7 @@
             ]
           },
           {
-            "group": "NS CKEditor Pack",
+            "group": "CKEditor Pack",
             "root": "ExtRTECKEditorPack/Index",
             "expanded": false,
             "pages": [
@@ -738,7 +738,7 @@
             ]
           },
           {
-            "group": "NS Cloudflare",
+            "group": "Cloudflare",
             "root": "ExtNsCloudflare/Index",
             "expanded": false,
             "pages": [
@@ -757,7 +757,7 @@
             ]
           },
           {
-            "group": "NS Comments",
+            "group": "Comments",
             "root": "ExtNsComments/Index",
             "expanded": false,
             "pages": [
@@ -779,7 +779,7 @@
             ]
           },
           {
-            "group": "NS Cookiebot",
+            "group": "Cookiebot",
             "root": "ExtNsCookiebot/Index",
             "expanded": false,
             "pages": [
@@ -798,7 +798,7 @@
             ]
           },
           {
-            "group": "NS Cookies",
+            "group": "Cookies",
             "root": "ExtNsCookiesHint/Index",
             "expanded": false,
             "pages": [
@@ -818,7 +818,7 @@
             ]
           },
           {
-            "group": "NS Cookieyes",
+            "group": "Cookieyes",
             "root": "ExtNsCookieYes/Index",
             "expanded": false,
             "pages": [
@@ -837,7 +837,7 @@
             ]
           },
           {
-            "group": "NS Disqus Comments",
+            "group": "Disqus Comments",
             "root": "ExtNsDisqusComment/Index",
             "expanded": false,
             "pages": [
@@ -856,7 +856,7 @@
             ]
           },
           {
-            "group": "NS Event",
+            "group": "Event",
             "root": "ExtNsEvent/Index",
             "expanded": false,
             "pages": [
@@ -878,7 +878,7 @@
             ]
           },
           {
-            "group": "NS Ext Compatibility",
+            "group": "Ext Compatibility",
             "root": "ExtNsExtCompatibility/Index",
             "expanded": false,
             "pages": [
@@ -898,7 +898,7 @@
             ]
           },
           {
-            "group": "NS Facebook Comment",
+            "group": "Facebook Comment",
             "root": "ExtNsFacebookComment/Index",
             "expanded": false,
             "pages": [
@@ -917,7 +917,7 @@
             ]
           },
           {
-            "group": "NS FAQ",
+            "group": "FAQ",
             "root": "ExtNsFAQ/Index",
             "expanded": false,
             "pages": [
@@ -939,7 +939,7 @@
             ]
           },
           {
-            "group": "NS Feedback",
+            "group": "Feedback",
             "root": "ExtNsFeedback/Index",
             "expanded": false,
             "pages": [
@@ -960,7 +960,7 @@
             ]
           },
           {
-            "group": "NS Friendlycaptcha",
+            "group": "Friendlycaptcha",
             "root": "ExtNsFriendlyCaptcha/Index",
             "expanded": false,
             "pages": [
@@ -981,7 +981,7 @@
             ]
           },
           {
-            "group": "NS Gallery",
+            "group": "Gallery",
             "root": "ExtNsGallery/Index",
             "expanded": false,
             "pages": [
@@ -1008,7 +1008,7 @@
             ]
           },
           {
-            "group": "NS Google Map",
+            "group": "Google Map",
             "root": "ExtNsGoogleMap/Index",
             "expanded": false,
             "pages": [
@@ -1030,7 +1030,7 @@
             ]
           },
           {
-            "group": "NS Google Site Kit",
+            "group": "Google Site Kit",
             "root": "ExtNsGoogleSiteKit/Index",
             "expanded": false,
             "pages": [
@@ -1053,7 +1053,7 @@
             ]
           },
           {
-            "group": "NS Googledocs",
+            "group": "Googledocs",
             "root": "ExtNsGoogleDocs/Index",
             "expanded": false,
             "pages": [
@@ -1075,7 +1075,7 @@
             ]
           },
           {
-            "group": "NS Gridtocontainer",
+            "group": "Gridtocontainer",
             "root": "ExtNsGridtoContainer/Index",
             "expanded": false,
             "pages": [
@@ -1094,7 +1094,7 @@
             ]
           },
           {
-            "group": "NS Guestbook",
+            "group": "Guestbook",
             "root": "ExtNsGuestbook/Index",
             "expanded": false,
             "pages": [
@@ -1113,7 +1113,7 @@
             ]
           },
           {
-            "group": "NS Hellobar",
+            "group": "Hellobar",
             "root": "ExtNitsanHellobar/Index",
             "expanded": false,
             "pages": [
@@ -1132,7 +1132,7 @@
             ]
           },
           {
-            "group": "NS Helpdesk",
+            "group": "Helpdesk",
             "root": "ExtNsHelpDesk/Index",
             "expanded": false,
             "pages": [
@@ -1157,7 +1157,7 @@
             ]
           },
           {
-            "group": "NS Hubspot",
+            "group": "Hubspot",
             "root": "ExtNsHubspot/Index",
             "expanded": false,
             "pages": [
@@ -1177,7 +1177,7 @@
             ]
           },
           {
-            "group": "NS Instagram",
+            "group": "Instagram",
             "root": "ExtNsInstagram/Index",
             "expanded": false,
             "pages": [
@@ -1197,7 +1197,7 @@
             ]
           },
           {
-            "group": "NS Lazy Load",
+            "group": "Lazy Load",
             "root": "ExtNsLazyload/Index",
             "expanded": false,
             "pages": [
@@ -1216,7 +1216,7 @@
             ]
           },
           {
-            "group": "NS Maintenance",
+            "group": "Maintenance",
             "root": "ExtNitsanMaintenance/Index",
             "expanded": false,
             "pages": [
@@ -1235,7 +1235,7 @@
             ]
           },
           {
-            "group": "NS News Advance Search",
+            "group": "News Advance Search",
             "root": "ExtNsNewsAdvancedSearch/Index",
             "expanded": false,
             "pages": [
@@ -1256,7 +1256,7 @@
             ]
           },
           {
-            "group": "NS News Comments",
+            "group": "News Comments",
             "root": "ExtNsNewsComments/Index",
             "expanded": false,
             "pages": [
@@ -1279,7 +1279,7 @@
             ]
           },
           {
-            "group": "NS News Slick",
+            "group": "News Slick",
             "root": "ExtNsNewsSlickSlider/Index",
             "expanded": false,
             "pages": [
@@ -1299,7 +1299,7 @@
             ]
           },
           {
-            "group": "NS News Slider",
+            "group": "News Slider",
             "root": "ExtNsNewsSlider/Index",
             "expanded": false,
             "pages": [
@@ -1323,7 +1323,7 @@
             ]
           },
           {
-            "group": "NS Open Streetmap",
+            "group": "Open Streetmap",
             "root": "ExtNsOpenStreetMap/Index",
             "expanded": false,
             "pages": [
@@ -1345,7 +1345,7 @@
             ]
           },
           {
-            "group": "NS Personio",
+            "group": "Personio",
             "root": "ExtNsPersonio/Index",
             "expanded": false,
             "pages": [
@@ -1365,7 +1365,7 @@
             ]
           },
           {
-            "group": "NS Protect Site",
+            "group": "Protect Site",
             "root": "ExtNsProtectSite/Index",
             "expanded": false,
             "pages": [
@@ -1384,7 +1384,7 @@
             ]
           },
           {
-            "group": "NS Publication Comment",
+            "group": "Publication Comment",
             "root": "ExtNsPublicationComment/Index",
             "expanded": false,
             "pages": [
@@ -1403,7 +1403,7 @@
             ]
           },
           {
-            "group": "NS PWA",
+            "group": "PWA",
             "root": "ExtNsPWA/Index",
             "expanded": false,
             "pages": [
@@ -1422,7 +1422,7 @@
             ]
           },
           {
-            "group": "NS Revolution Slider",
+            "group": "Revolution Slider",
             "root": "ExtNsRevolutionSlider/Index",
             "expanded": false,
             "pages": [
@@ -1470,7 +1470,7 @@
             ]
           },
           {
-            "group": "NS Sharethis",
+            "group": "Sharethis",
             "root": "ExtNsSharethis/Index",
             "expanded": false,
             "pages": [
@@ -1489,7 +1489,7 @@
             ]
           },
           {
-            "group": "NS Snow",
+            "group": "Snow",
             "root": "ExtNsSnow/Index",
             "expanded": false,
             "pages": [
@@ -1508,7 +1508,7 @@
             ]
           },
           {
-            "group": "NS Social Login",
+            "group": "Social Login",
             "root": "ExtNsSocialLogin/Index",
             "expanded": false,
             "pages": [
@@ -1531,7 +1531,7 @@
             ]
           },
           {
-            "group": "NS Statcounter",
+            "group": "Statcounter",
             "root": "ExtNsStatcounter/Index",
             "expanded": false,
             "pages": [
@@ -1550,7 +1550,7 @@
             ]
           },
           {
-            "group": "NS Timeline",
+            "group": "Timeline",
             "root": "ExtNsTimeLine/Index",
             "expanded": false,
             "pages": [
@@ -1569,7 +1569,7 @@
             ]
           },
           {
-            "group": "NS Twitter",
+            "group": "Twitter",
             "root": "ExtNsTwitter/Index",
             "expanded": false,
             "pages": [
@@ -1588,7 +1588,7 @@
             ]
           },
           {
-            "group": "NS Whatsapp",
+            "group": "Whatsapp",
             "root": "ExtNsWhatsapp/Index",
             "expanded": false,
             "pages": [
@@ -1607,7 +1607,7 @@
             ]
           },
           {
-            "group": "NS Wp Migration",
+            "group": "Wp Migration",
             "root": "ExtNsWpMigration/Index",
             "expanded": false,
             "pages": [
@@ -1626,7 +1626,7 @@
             ]
           },
           {
-            "group": "NS Youtube",
+            "group": "Youtube",
             "root": "ExtNsYoutube/Index",
             "expanded": false,
             "pages": [
@@ -1645,7 +1645,7 @@
             ]
           },
           {
-            "group": "NS Zoho",
+            "group": "Zoho",
             "root": "ExtNsZoho/Index",
             "expanded": false,
             "pages": [
@@ -1664,7 +1664,7 @@
             ]
           },
           {
-            "group": "NS Zoho CRM",
+            "group": "Zoho CRM",
             "root": "EXTNsZohoCrm/Index",
             "expanded": false,
             "pages": [
@@ -7366,7 +7366,11 @@
         "header": "Documentation",
         "items": [
           {
-            "label": "AI Universe",
+            "label": "License & Get Started",
+            "href": "/License/Index"
+          },
+          {
+            "label": "AI Extensions",
             "href": "/AIFoundationExtensions/Index"
           },
           {
@@ -7376,10 +7380,6 @@
           {
             "label": "TYPO3 Extensions",
             "href": "/AllExtensions/Index"
-          },
-          {
-            "label": "License & Get Started",
-            "href": "/License/Index"
           }
         ]
       },
@@ -7387,20 +7387,20 @@
         "header": "Products",
         "items": [
           {
-            "label": "T3AF",
+            "label": "AI Foundation",
             "href": "/ExtNsT3AF/Index"
           },
           {
-            "label": "All Extensions",
-            "href": "https://t3planet.de/en/typo3-extensions"
+            "label": "AI Assistant",
+            "href": "/ExtNsT3AI/Index"
           },
           {
-            "label": "All Templates",
-            "href": "https://t3planet.de/en/typo3-templates"
+            "label": "AI Chatbot",
+            "href": "/ExtNsT3AC/Index"
           },
           {
-            "label": "T3Planet Website",
-            "href": "https://t3planet.de/en/"
+            "label": "AI Search",
+            "href": "/ExtNsT3AS/Index"
           }
         ]
       },

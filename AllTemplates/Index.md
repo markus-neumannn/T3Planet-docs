@@ -9,12 +9,12 @@ sidebarTitle: "TYPO3 Templates & Themes"
 ---
 
 <div className="t3-hub-landing t3-template-landing">
-<div className="t3-category-nav" role="navigation"><a className="" href="/">Home</a><a className="" href="/AIFoundationExtensions/Index">AI Universe Extensions</a><a className="active" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></div>
+<div className="t3-category-nav" role="navigation"><a className="" href="/">Home</a><a className="" href="/AIFoundationExtensions/Index">AI Extensions</a><a className="active" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></div>
 <div className="t3-hero-panel">
   <div className="t3-landing-hero t3-hero-large">
     <p className="t3-landing-eyebrow">TYPO3 Templates & Themes</p>
     <h1 className="t3-landing-title">All TYPO3 Templates & Themes</h1>
-    <p className="t3-landing-subtitle">Browse every T3Planet TYPO3 theme — from business templates to React.js and e-commerce solutions.</p>
+    <p className="t3-landing-subtitle">Karma (business), Bootstrap, Shop (e-commerce), Avatar (portfolio), plus Ayu, Reva, Shiva, and ReactBootstrap.</p>
     <button type="button" className="t3-search-trigger" data-t3-search-trigger aria-label="Search documentation...">
       <span>Search documentation...</span>
       <kbd>⌘K</kbd>
@@ -42,7 +42,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="palette" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3 Karma</h3>
+          <h3 className="t3-product-name">Karma</h3>
           <span className="t3-category-badge">Business</span>
         </div>
       </div>
@@ -55,7 +55,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="circle-user" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3 Avatar</h3>
+          <h3 className="t3-product-name">Avatar</h3>
           <span className="t3-category-badge">Portfolio</span>
         </div>
       </div>
@@ -68,7 +68,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="zap" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3 Ayu</h3>
+          <h3 className="t3-product-name">Ayu</h3>
           <span className="t3-category-badge">React</span>
         </div>
       </div>
@@ -81,7 +81,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="grid-3x3" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3 Bootstrap</h3>
+          <h3 className="t3-product-name">Bootstrap</h3>
           <span className="t3-category-badge">Bootstrap</span>
         </div>
       </div>
@@ -94,7 +94,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="square-code" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3 ReactBootstrap</h3>
+          <h3 className="t3-product-name">ReactBootstrap</h3>
           <span className="t3-category-badge">React + Bootstrap</span>
         </div>
       </div>
@@ -107,7 +107,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="sparkle" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3 Reva</h3>
+          <h3 className="t3-product-name">Reva</h3>
           <span className="t3-category-badge">React</span>
         </div>
       </div>
@@ -120,7 +120,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="mountain" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3 Shiva</h3>
+          <h3 className="t3-product-name">Shiva</h3>
           <span className="t3-category-badge">React</span>
         </div>
       </div>
@@ -133,7 +133,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="shopping-bag" size={22} className="t3-product-icon" /></span>
         <div>
-          <h3 className="t3-product-name">T3 Shop</h3>
+          <h3 className="t3-product-name">Shop</h3>
           <span className="t3-category-badge">E-Commerce</span>
         </div>
       </div>

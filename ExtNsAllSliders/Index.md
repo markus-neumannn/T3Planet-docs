@@ -1,12 +1,12 @@
 ---
-title: "NS All Sliders"
+title: "All Sliders"
 description: "NS All Sliders — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_AllSliders"
   - "NS All Sliders"
-sidebarTitle: "NS All Sliders"
+sidebarTitle: "All Sliders"
 ---
 
 <CardGroup cols={2}>

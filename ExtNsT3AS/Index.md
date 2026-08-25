@@ -1,5 +1,5 @@
 ---
-title: "T3AS — TYPO3 AI Search"
+title: "AI Search"
 description: "T3AS (EXT:ns_t3as) — AI-powered TYPO3 search with trained answers, indexing, and T3AF integration."
 keywords:
   - "TYPO3"
@@ -7,13 +7,13 @@ keywords:
   - "T3AS"
   - "EXT:ns_t3as"
   - "AI Search"
-sidebarTitle: "EXT:ns_t3as"
+sidebarTitle: "AI Search"
 ---
 
 <div className="t3-template-landing">
   <div className="t3-landing-hero">
-    <p className="t3-landing-eyebrow">AI Universe Extensions</p>
-    <h1 className="t3-landing-title">T3AS — TYPO3 AI Search</h1>
+    <p className="t3-landing-eyebrow">AI Extensions</p>
+    <h1 className="t3-landing-title">AI Search</h1>
     <p className="t3-landing-subtitle">Deliver AI answers from your TYPO3 content — works with site content, Solr, ke_search, or indexed_search and shared T3AF providers.</p>
   </div>
 

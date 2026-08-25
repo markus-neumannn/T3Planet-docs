@@ -1,12 +1,12 @@
 ---
-title: "NS Zoho CRM"
+title: "Zoho CRM"
 description: "NS Zoho CRM — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "NsZohoCrm"
   - "NS Zoho CRM"
-sidebarTitle: "NS Zoho CRM"
+sidebarTitle: "Zoho CRM"
 ---
 
 <CardGroup cols={2}>

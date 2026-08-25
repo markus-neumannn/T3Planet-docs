@@ -1,12 +1,12 @@
 ---
-title: "NS Disqus Comments"
+title: "Disqus Comments"
 description: "NS Disqus Comments — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_DisqusComment"
   - "NS Disqus Comments"
-sidebarTitle: "NS Disqus Comments"
+sidebarTitle: "Disqus Comments"
 ---
 
 <CardGroup cols={2}>

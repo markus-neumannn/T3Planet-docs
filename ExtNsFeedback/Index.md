@@ -1,12 +1,12 @@
 ---
-title: "NS Feedback"
+title: "Feedback"
 description: "NS Feedback — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Feedback"
   - "NS Feedback"
-sidebarTitle: "NS Feedback"
+sidebarTitle: "Feedback"
 ---
 
 <CardGroup cols={2}>

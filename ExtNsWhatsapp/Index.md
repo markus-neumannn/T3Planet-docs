@@ -1,12 +1,12 @@
 ---
-title: "NS Whatsapp"
+title: "Whatsapp"
 description: "NS Whatsapp — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Whatsapp"
   - "NS Whatsapp"
-sidebarTitle: "NS Whatsapp"
+sidebarTitle: "Whatsapp"
 ---
 
 <CardGroup cols={2}>

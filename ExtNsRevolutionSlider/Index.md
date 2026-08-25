@@ -1,12 +1,12 @@
 ---
-title: "NS Revolution Slider"
+title: "Revolution Slider"
 description: "NS Revolution Slider — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_RevolutionSlider"
   - "NS Revolution Slider"
-sidebarTitle: "NS Revolution Slider"
+sidebarTitle: "Revolution Slider"
 ---
 
 <CardGroup cols={2}>

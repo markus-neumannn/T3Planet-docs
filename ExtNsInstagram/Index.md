@@ -1,12 +1,12 @@
 ---
-title: "NS Instagram"
+title: "Instagram"
 description: "NS Instagram — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_Instagram"
   - "NS Instagram"
-sidebarTitle: "NS Instagram"
+sidebarTitle: "Instagram"
 ---
 
 <CardGroup cols={2}>

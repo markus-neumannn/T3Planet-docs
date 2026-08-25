@@ -1,12 +1,12 @@
 ---
-title: "NS News Slick"
+title: "News Slick"
 description: "NS News Slick — T3Planet documentation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ns_NewsSlickSlider"
   - "NS News Slick"
-sidebarTitle: "NS News Slick"
+sidebarTitle: "News Slick"
 ---
 
 <CardGroup cols={2}>
