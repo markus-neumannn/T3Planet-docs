@@ -110,6 +110,7 @@
                   "ExtNsT3AF/Configuration/AIContext/Index",
                   "ExtNsT3AF/Configuration/AIPrompts/Index",
                   "ExtNsT3AF/Configuration/AIFeatures/Index",
+                  "ExtNsT3AF/Configuration/AILabel/Index",
                   "ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
                   "ExtNsT3AF/Configuration/AIPermissions/Index"
                 ]

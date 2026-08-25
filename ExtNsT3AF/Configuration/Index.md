@@ -11,7 +11,7 @@ sidebarTitle: "Configuration"
 
 Configure **T3AF** after installation. You need a minimum working setup before connected extensions can use AI.
 
-This section also covers the T3AF backend modules used day to day: providers, context, prompts, features, usage, and access control.
+This section also covers the T3AF backend modules used day to day: providers, context, prompts, features, AI Label, usage, and access control.
 
 ## Two configuration areas
 
@@ -79,6 +79,14 @@ Full guide: [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index)
 Override the default provider per task: SEO, Pages, Content, Translation.
 
 See [AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
+
+## AI Label
+
+**Path:** T3AF > AI Label
+
+Record, confirm, and disclose AI-generated or AI-modified content for EU AI Act Article 50 workflows. Covers module tabs, settings, visitor labels, bulk actions, and evidence export.
+
+Full guide: [AI Label](/ExtNsT3AF/Configuration/AILabel/Index)
 
 ## Security checklist
 
