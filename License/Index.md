@@ -12,7 +12,8 @@ sidebarTitle: "License & Installation"
 <CardGroup cols={2}>
   <Card title="Introduction" href="/License/Introduction/Index" />
   <Card title="Generating a License Key" href="/License/GenerateLicenseKey/Index" />
-  <Card title="Using License Key in T3Planet License" href="/License/LicenseManager/Index" />
+  <Card title="All Licenses in T3Planet Shop" href="/License/AllLicenses/Index" />
+  <Card title="Using License Key in T3Planet Shop" href="/License/LicenseManager/Index" />
   <Card title="Extending Trial License" href="/License/ExtendTrial/Index" />
   <Card title="Renewing or Purchasing a License" href="/License/RenewPurchase/Index" />
   <Card title="License Activation" href="/License/LicenseActivation/Index" />

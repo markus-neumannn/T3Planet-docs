@@ -1,25 +1,31 @@
 ---
 title: "Introduction"
-description: "T3Planet’s all premium TYPO3 products extensions and templates are secured with Licensekey validation. If you are a premium customer of T3Planet, please follow this guideline to…"
+description: "The ns_license extension is the TYPO3 T3Planet Shop for requesting, activating, monitoring, extending, and renewing extension licenses."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "License"
   - "Introduction"
+  - "T3Planet Shop"
+  - "ns_license"
 sidebarTitle: "Introduction"
 ---
 
-## About This Documentation
+The `ns_license` extension is the TYPO3 T3Planet Shop that helps you request, activate, monitor, extend, and renew extension licenses in one place.
 
-- T3Planet’s all premium TYPO3 products (extensions and templates) are secured with License-key validation.
-- If you are a premium customer of T3Planet, please follow this guideline to activate the license key and install your premium TYPO3 extension.
+Previously, getting a trial or buying a license needed a few manual steps outside TYPO3. Now you can start a free trial or purchase an extension right from the TYPO3 backend using **T3Planet Shop**. Details are here: [Generating a License Key](/License/GenerateLicenseKey/Index).
 
-## How to Get License Key?
+This documentation covers:
 
-- Whenever you buy a premium TYPO3 product, you will get an email with the subject line “[T3Planet] License Access of Your TYPO3 Product(s)”.
-- In that email, you will get a license key for each purchased product.
-- In case, if you did not such “license email”, please submit support ticket and our executive will get back to you asap [https://t3planet.de/support](https://t3planet.de/support)
+- Generating or requesting a user license key
+- Activating and managing licenses in T3Planet Shop
+- Reviewing all licenses in the **All Licenses** tab
+- Extending trial licenses
+- Renewing or purchasing licenses after trial
+- Exploring other T3Planet products and services
 
-## Sample License Email
+If you are a premium customer and cannot find your license email, submit a support request: [https://t3planet.de/support](https://t3planet.de/support)
 
-![License Email](./images/LicenseEmail.webp)
+## Sample license email
+
+![Sample license email](./images/Sample_mail_license.png)

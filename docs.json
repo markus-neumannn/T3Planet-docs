@@ -67,6 +67,7 @@
             "pages": [
               "License/Introduction/Index",
               "License/GenerateLicenseKey/Index",
+              "License/AllLicenses/Index",
               "License/LicenseManager/Index",
               "License/ExtendTrial/Index",
               "License/RenewPurchase/Index",

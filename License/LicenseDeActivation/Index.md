@@ -1,16 +1,15 @@
 ---
 title: "License De-Activation"
-description: "We have the flexibility to use your license key to your any TYPO3 site/domain."
+description: "De-activate a license key so you can reuse it on another TYPO3 site or domain."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "License"
   - "License De-Activation"
   - "LicenseDeActivation"
+  - "T3Planet Shop"
 sidebarTitle: "License De-Activation"
 ---
-
-# License De-Activation
 
 ## Why De-Activate License Key?
 
@@ -18,33 +17,18 @@ We have the flexibility to use your license key to your any TYPO3 site/domain. W
 
 ## How to De-Activate License Key?
 
+To de-activate or de-register your purchased license key from your TYPO3 instance, follow these steps.
+
+**Step 1.** Login to your TYPO3 Instance
+
+**Step 2.** Switch to Admin Tools > T3Planet Shop.
+
+**Step 3.** Click on "Deactivate License" of your particular purchased TYPO3 product.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4aw73y0ooaz3qm7owt0691?embed_v=2&utm_source=embed" loading="lazy" title="License De-Activation Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-To de-activate or de-register your purchased license key from your TYPO3 instance, You can follow these steps.
 
-<Steps>
-  <Step title="Step 1">
-Login to your TYPO3 Instance
-  </Step>
-  <Step title="Step 2">
-Switch to Admin Tools > T3Planet License.
-  </Step>
-  <Step title="Step 3">
-Click on "Deactivate License" of your particular purchased TYPO3 product.
-  </Step>
-  <Step title="Step 4">
-Go to Admin Tools > Extensions > De-Activate Your Installed Extension.
-  </Step>
-</Steps>
+**Step 4.** Go to Admin Tools > Extensions > De-Activate Your Installed Extension.
 
 <Warning>
-
 Now, you can use this license key to your another TYPO3 instance because it's been de-activated from your TYPO3 instance.
-
 </Warning>
-
-
-![LicenseDeActivate](./images/LicenseDeActivate.webp)
-
-
-![InactiveExtension](./images/InactiveExtension.webp)
