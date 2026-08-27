@@ -73,7 +73,7 @@ See **typotonic-professional** for details.
 ## Helpful Links
 
 <Note>
-- Product:
+- Product: [https://t3planet.de/tonictypes](https://t3planet.de/tonictypes)
 - Get support: [https://t3planet.de/support](https://t3planet.de/support)
 - License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
 </Note>
