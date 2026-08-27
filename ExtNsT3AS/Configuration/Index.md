@@ -349,31 +349,69 @@ This ensures that the **AI training process** completes successfully without bei
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmf3pam6q1hj739ozoob79v4h?utm_source=link" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-## Injecting AI Search result in TYPO3 Search Extensions
+## Injecting AI Search result in TYPO3 Search Extensions {#inject-ai-search-results}
 
-This integration allows you to inject AI-generated results into an existing search form
+Use this when you already run **ke_search**, **indexed_search**, or **Solr** and want the T3AS AI overview to appear together with that search UI.
+
+Setup has two parts:
+
+1. Set **Search Class** in **T3AS → Search → Settings** so T3AS can read the visitor query from the third-party search field (see [Search tab](#5-search-tab)).
+2. Add the Fluid injection snippet to that extension’s search template (preferably in a **site package override**, not by editing the extension in `vendor/` / `typo3conf/ext` directly).
+
+### Search Class values
+
+| Search extension | Search Class (CSS class) | Template to extend |
+| --- | --- | --- |
+| **ke_search** | `ke_search_sword` | `EXT:ke_search/Resources/Private/Templates/SearchForm.html` |
+| **indexed_search** | `tx-indexedsearch-searchbox-sword` | `EXT:indexed_search/Resources/Private/Templates/Search/Search.fluid.html` |
+| **Solr** | `tx-solr-q` | `EXT:solr/Resources/Private/Templates/Search/Results.html` |
 
 <Note>
-Make sure you have added the Search Class/id in the site settings as described in [https://docs.t3planet.de/en/latest/ExtNsT3AS/Configuration/Index.html#search-engine-settings](/ExtNsT3AS/Configuration/Index#search-engine-settings)
+Enter **only the class name** in **Search Class** (for example `tx-solr-q`), without a leading `.`. The value must match the CSS class on the live search input for your setup. If your theme renames the input class, use that class instead.
 </Note>
 
-For example, If you want to render the AI search result on below the ke_search form, Please add below code at
+### Fluid injection snippet
 
-**EXT:ke_search/Resources/Private/Templates/SearchForm.html**
+Add this line where the AI overview should render (usually near the search form or above the classic result list):
 
-```python
+```html
 <f:cObject typoscriptObjectPath="lib.injectAiSearchResults" />
 ```
 
-![Extension](./images/extend.webp)
+### ke_search
+
+1. Set **Search Class** to `ke_search_sword`.
+2. In your override of `SearchForm.html`, add the injection snippet.
+
+![AI overview injected below a ke_search form](./images/extend.png)
+
+*Example: AI overview rendered with the ke_search form after the Fluid snippet is in place.*
+
+### indexed_search
+
+1. Set **Search Class** to `tx-indexedsearch-searchbox-sword`.
+2. In your override of `EXT:indexed_search/Resources/Private/Templates/Search/Search.fluid.html`, add the injection snippet (typically after the search form and before the result loop).
+
+![Fluid injectAiSearchResults snippet in indexed_search Search.fluid.html](./images/inject-indexed-search.png)
+
+*indexed_search template — add `<f:cObject typoscriptObjectPath="lib.injectAiSearchResults" />` after the form render.*
+
+### Solr
+
+1. Set **Search Class** to `tx-solr-q`.
+2. In your override of `EXT:solr/Resources/Private/Templates/Search/Results.html`, add the injection snippet (typically after the search form partial).
+
+![Fluid injectAiSearchResults snippet in Solr Results.html](./images/inject-solr.png)
+
+*Solr `Results.html` — add `<f:cObject typoscriptObjectPath="lib.injectAiSearchResults" />` after the search form.*
+
+After saving the Search Class and template override, flush TYPO3 caches and test a search on the frontend. The AI overview should appear with the existing search results when a matching query is submitted.
 
 ## Enable AI Search plugin using TypoScript
 
-To enable this, Add the following TypoScript object to any template where you want the AI Search plugin to be rendered. The searchPid value should be set to the page ID where the plugin is placed (for example: 4).
+To render the standalone AI Search plugin via TypoScript (not the third-party form injection above), add the following Fluid view helper where the plugin should appear. Set `searchPid` to the page ID that contains the T3AS Search plugin (for example `4`):
 
-Add the following TypoScript object to any template where you want the AI Search plugin to be rendered:
-
-```python
+```html
 <f:cObject typoscriptObjectPath="lib.renderAiSearchPlugin" data="{searchPid:4}"/>
 ```
 
@@ -967,7 +1005,7 @@ Turn AI search on and control answer behaviour.
 - **Enable Search Feedback** — Shows thumbs up/down; ratings appear in **Usage Analytics**
 - **Enable Chatbot Mode** — Lets visitors ask follow-up questions
 - **Result Style** — **Summarize** (short) or **Long Answer** (detailed)
-- **Search Class** — CSS class for Ke Search and similar integrations (see [Injecting AI Search result in TYPO3 Search Extensions](#inject-ai-search-results))
+- **Search Class** — CSS class of the third-party search input used when injecting the AI overview (ke_search, indexed_search, or Solr). See [Injecting AI Search result in TYPO3 Search Extensions](#inject-ai-search-results).
 - **Instructions** — Custom rules for how the AI should write answers
 
 **Widget**

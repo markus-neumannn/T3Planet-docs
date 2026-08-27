@@ -16,6 +16,9 @@ for p in 3000 3001; do
 done
 sleep 1
 
+echo "Refreshing homepage Documentation pages / Products counts..."
+python3 "$ROOT/scripts/compute_doc_stats.py"
+
 echo "Starting mint on :3001..."
 node /opt/homebrew/lib/node_modules/mint/node_modules/@mintlify/cli/bin/start.js dev --no-open --port 3001 \
   > /tmp/mint-fast-3001.log 2>&1 &

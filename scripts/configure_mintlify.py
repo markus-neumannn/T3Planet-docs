@@ -173,3 +173,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    from sync_doc_stats import sync_homepage_stats
+    sync_homepage_stats()

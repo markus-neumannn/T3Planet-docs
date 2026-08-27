@@ -52,6 +52,8 @@ Before creating events you need to add below Records a you need to select it whi
 
 While creating events you will see multiple tabs, let’s show one by one how it works,
 
+## General
+
 ![Event](./images/Event_1.webp)
 
 - **Title** -> Add event title
@@ -65,12 +67,16 @@ While creating events you will see multiple tabs, let’s show one by one how it
 - **Poster image** -> Upload Event poster image
 - **Gallery** -> Add more Photos of event,it will show in Frontend.
 
+## Location
+
 ![Event](./images/Event_3.webp)
 
 - **Address** -> Add address of event
 - **Latitude** ->add Latitude
 - **Longitude** ->add Longitude
 - **Include Map** ->By enabling this you can see map in frontend
+
+## Configuration
 
 ![Event](./images/Event_4.webp)
 
@@ -80,6 +86,8 @@ While creating events you will see multiple tabs, let’s show one by one how it
 ![Event](./images/Event_4.webp)
 
 **Select Contact Person,Organizer,Sponsors,Speaker and topic for event from this tab**
+
+## Enable Registration
 
 ![Event](./images/Event_6.webp)
 
@@ -92,9 +100,13 @@ While creating events you will see multiple tabs, let’s show one by one how it
 - **Message Before Registration Opens** -> This Message will show Before registration starts.
 - **Message After Registration Closed** -> This Message will Show After registration ends.
 
+## Event Registration
+
 ![Event](./images/Event_Registration.webp)
 
 You can see User details,who registred for events on FE!
+
+## Category
 
 ![Event](./images/Categories.webp)
 

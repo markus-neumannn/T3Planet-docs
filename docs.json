@@ -1570,6 +1570,39 @@
             ]
           },
           {
+            "group": "TypoTonic",
+            "root": "ExtTypoTonic/Index",
+            "expanded": false,
+            "pages": [
+              "ExtTypoTonic/Introduction/Index",
+              "ExtTypoTonic/Installation/Index",
+              {
+                "group": "Getting Started",
+                "expanded": false,
+                "pages": [
+                  "ExtTypoTonic/GettingStarted/Index",
+                  "ExtTypoTonic/GettingStarted/CreatingAField/Index",
+                  "ExtTypoTonic/GettingStarted/CreatingADatatype/Index",
+                  "ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index",
+                  "ExtTypoTonic/GettingStarted/Templating/Index"
+                ]
+              },
+              {
+                "group": "Frontend Plugins",
+                "expanded": false,
+                "pages": [
+                  "ExtTypoTonic/FrontendPlugins/Index",
+                  "ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index"
+                ]
+              },
+              "ExtTypoTonic/ViewHelpers/Index",
+              "ExtTypoTonic/Screenshots/Index",
+              "ExtTypoTonic/TypoTonicProfessional/Index",
+              "ExtTypoTonic/FAQ/Index",
+              "ExtTypoTonic/Support/Index"
+            ]
+          },
+          {
             "group": "Twitter",
             "root": "ExtNsTwitter/Index",
             "expanded": false,

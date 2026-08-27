@@ -1,0 +1,16 @@
+---
+description: Keep homepage Documentation pages and Products counts real after adding pages or products
+alwaysApply: true
+---
+
+# Homepage stats (pages + products)
+
+Never hardcode, invent, or leave stale **Documentation pages** / **Products** numbers on hub pages.
+
+After adding, removing, renaming, or moving a documentation page or product (including `docs.json` navigation changes):
+
+1. Run `python3 scripts/compute_doc_stats.py` (or `from sync_doc_stats import sync_homepage_stats; sync_homepage_stats()`).
+2. That updates `_static/t3-stats.json`, `_static/t3-stats-inline.js`, `index.md`, `AllTemplates/Index.md`, `AllExtensions/Index.md`, and `AIFoundationExtensions/Index.md` from real `docs.json` + existing `.md` files.
+3. If the LAN preview on `:3000` is running, purge cache: `curl -s http://127.0.0.1:3000/__t3_cache_purge`.
+
+Do not paste leftover counts like 798/67. Counts must come from the generator.

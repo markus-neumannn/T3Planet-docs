@@ -812,6 +812,8 @@ def main(argv: list[str] | None = None) -> int:
         out = ROOT / "scripts" / "migrate_from_live_report.json"
         out.write_text(json.dumps(results, indent=2), encoding="utf-8")
         print(f"Report: {out.relative_to(ROOT)}")
+        from sync_doc_stats import sync_homepage_stats
+        sync_homepage_stats()
         return 1 if results["failed"] else 0
 
     if not args.live:
@@ -823,6 +825,8 @@ def main(argv: list[str] | None = None) -> int:
             print(f"FAIL: {result.get('error')}", file=sys.stderr)
             return 1
         print(f"Merged {result['mint']} (changed={result.get('merged')})")
+        from sync_doc_stats import sync_homepage_stats
+        sync_homepage_stats()
         return 0
 
     result = migrate_one(args.live, args.mint)
@@ -830,6 +834,8 @@ def main(argv: list[str] | None = None) -> int:
         print(f"FAIL: {result.get('error')}", file=sys.stderr)
         return 1
     print(f"Wrote {result['mint']} ({result['chars']} chars)")
+    from sync_doc_stats import sync_homepage_stats
+    sync_homepage_stats()
     return 0
 
 

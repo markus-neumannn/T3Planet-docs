@@ -1,0 +1,16 @@
+#!/bin/sh
+# Refresh homepage Documentation pages / Products counts when docs change.
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT" || exit 1
+changed="$(git diff --cached --name-only)"
+echo "$changed" | grep -qE '(^docs\.json$|\.md$|^_static/t3-stats)' || exit 0
+python3 "$ROOT/scripts/compute_doc_stats.py" || exit 1
+git add \
+  _static/t3-stats.json \
+  _static/t3-stats-inline.js \
+  index.md \
+  AllTemplates/Index.md \
+  AllExtensions/Index.md \
+  AIFoundationExtensions/Index.md \
+  2>/dev/null || true
+exit 0

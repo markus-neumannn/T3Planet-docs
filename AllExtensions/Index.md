@@ -20,7 +20,7 @@ sidebarTitle: "TYPO3 Extensions"
       <kbd>⌘K</kbd>
     </button>
   </div>
-  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">798</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">67</span><span className="t3-stat-label">Products</span></div></div>
+  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">769</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
 </div>
 <Tip>Open <strong>TYPO3 Extensions</strong> in the product menu at the top of the sidebar to jump to any extension by category.</Tip>
 <section className="t3-landing-section t3-extension-section">
@@ -50,6 +50,8 @@ sidebarTitle: "TYPO3 Extensions"
   <div className="t3-extension-list">
     <a className="t3-extension-row" href="/ExtNsEvent/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="calendar" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Event</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Content</span></span></a>
     <a className="t3-extension-row" href="/ExtNsFAQ/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="circle-question-mark" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">FAQ</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Content</span></span></a>
+    <a className="t3-extension-row" href="/ExtTypoTonic/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="database" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">TypoTonic</span></span><span className="t3-extension-meta"><span className="t3-category-badge">Content</span></span></a>
+
     <a className="t3-extension-row" href="/ExtNsTimeLine/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="clock" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Timeline</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Content</span></span></a>
   </div>
 </section>

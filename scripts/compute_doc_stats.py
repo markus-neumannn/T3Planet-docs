@@ -23,7 +23,7 @@ STAT_MARKDOWN_FILES = [
     "de/T3AF/Index.md",
 ]
 
-SKIP_PARTS = {"scripts", "node_modules", ".git", ".venv-translate", "de"}
+SKIP_PARTS = {"scripts", "node_modules", ".git", ".venv-translate", "de", "docs"}
 HUB_SLUGS = {"index", "AIFoundationExtensions", "AllTemplates", "AllExtensions"}
 
 AI_SLUGS = {
@@ -36,22 +36,61 @@ AI_SLUGS = {
 }
 
 
-def count_pages(lang: str = "en") -> int:
-    """Count published documentation pages for a language."""
-    skip_roots = SKIP_PARTS if lang == "en" else SKIP_PARTS - {"de"}
-    total = 0
-    for md in ROOT.rglob("*.md"):
-        rel = md.relative_to(ROOT).as_posix()
+def _collect_nav_paths(node, paths: set[str]) -> None:
+    """Collect page paths from docs.json navigation (pages + roots)."""
+    if isinstance(node, dict):
+        for key in ("root", "href", "page"):
+            value = node.get(key)
+            if isinstance(value, str) and value and not value.startswith("http"):
+                paths.add(value.split("#", 1)[0].rstrip("/"))
+        for page in node.get("pages", []) or []:
+            if isinstance(page, str):
+                paths.add(page.split("#", 1)[0].rstrip("/"))
+            else:
+                _collect_nav_paths(page, paths)
+        for key, value in node.items():
+            if key != "pages":
+                _collect_nav_paths(value, paths)
+    elif isinstance(node, list):
+        for item in node:
+            _collect_nav_paths(item, paths)
+
+
+def _resolve_md_path(path: str, lang: str) -> Path | None:
+    """Resolve a nav path to an existing markdown file."""
+    candidates = [ROOT / f"{path}.md", ROOT / path / "Index.md"]
+    for candidate in candidates:
+        if not candidate.exists():
+            continue
+        rel = candidate.relative_to(ROOT).as_posix()
         if lang == "de":
             if not rel.startswith("de/"):
                 continue
         elif rel.startswith("de/"):
             continue
         parts = rel.split("/")
-        if any(part in skip_roots for part in parts):
+        if any(part in SKIP_PARTS for part in parts):
             continue
-        total += 1
-    return total
+        return candidate
+    return None
+
+
+def count_pages(lang: str = "en") -> int:
+    """Count real published documentation pages from docs.json navigation."""
+    docs = json.loads(DOCS.read_text(encoding="utf-8"))
+    nav_paths: set[str] = set()
+    _collect_nav_paths(docs.get("navigation", {}), nav_paths)
+
+    resolved: set[str] = set()
+    for path in nav_paths:
+        if lang == "de" and not path.startswith("de/"):
+            continue
+        if lang == "en" and path.startswith("de/"):
+            continue
+        md = _resolve_md_path(path, lang)
+        if md is not None:
+            resolved.add(md.relative_to(ROOT).as_posix())
+    return len(resolved)
 
 
 def _walk_nav_products(groups: list, lang: str, products: set[str]) -> None:
@@ -263,14 +302,26 @@ def render_stats_bar(lang: str, keys: list[tuple[str, str]] | None = None) -> st
     return f'<div className="t3-stats-bar">{"".join(cards)}</div>'
 
 
-def main() -> None:
+def sync_homepage_stats(*, quiet: bool = False) -> dict:
+    """Regenerate homepage Documentation pages / Products counts from docs.json.
+
+    Call this after adding, removing, or renaming a documentation page or
+    product. Updates `_static/t3-stats.json`, `_static/t3-stats-inline.js`,
+    and the fallback numbers in hub markdown files.
+    """
     payload = write_stats_json()
-    en = payload["en"]
-    de = payload["de"]
-    print(f"Wrote {STATS_JSON.relative_to(ROOT)}")
-    print(f"Wrote {STATS_INLINE_JS.relative_to(ROOT)}")
-    print(f"  EN: {en['pages']} pages, {en['products']} products, {en['ai_products']} AI products")
-    print(f"  DE: {de['pages']} pages, {de['products']} products")
+    if not quiet:
+        en = payload["en"]
+        de = payload["de"]
+        print(f"Wrote {STATS_JSON.relative_to(ROOT)}")
+        print(f"Wrote {STATS_INLINE_JS.relative_to(ROOT)}")
+        print(f"  EN: {en['pages']} pages, {en['products']} products, {en['ai_products']} AI products")
+        print(f"  DE: {de['pages']} pages, {de['products']} products")
+    return payload
+
+
+def main() -> None:
+    sync_homepage_stats()
 
 
 if __name__ == "__main__":
