@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "T3Planet Docs",
+  "basePath": "/en/latest",
   "theme": "mint",
   "logo": {
     "light": "/_static/t3planet-light.svg",
