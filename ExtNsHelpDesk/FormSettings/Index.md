@@ -1,59 +1,54 @@
 ---
 title: "Form Settings"
-description: "You can easily setup your ticket form from the typo3 backend."
+description: "Configure Helpdesk ticket form labels and popup options in the Constant Editor."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "ns_HelpDesk"
-  - "Form Settings"
-  - "FormSettings"
+  - "ns_helpdesk"
+  - "Helpdesk"
 sidebarTitle: "Form Settings"
 ---
 
-You can easily setup your ticket form from the typo3 backend. you can configure the popup support also.
 
-<Steps>
-  <Step title="Step 1">
-Go to Admin Tools > Helpdesk Configuration
-  </Step>
-  <Step title="Step 2">
-Click on "Form Setting" menu
+Configure the ticket form in the **Constant Editor**. Include the Helpdesk
+TypoScript first. See [Include TypoScript](/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript)
+and [Constant Editor](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
 
-![ns-helpdesk-typo3-form-settings1](./images/ns-helpdesk-typo3-form-settings1.webp)
+**Step 1.** Open the **TypoScript** module and select the root page.
 
-![ns-helpdesk-typo3-form-settings2](./images/ns-helpdesk-typo3-form-settings2.webp)
+**Step 2.** Switch to **Constant Editor**.
 
-![ns-helpdesk-typo3-form-settings4](./images/ns-helpdesk-typo3-form-settings4.webp)
+**Step 3.** Choose the Helpdesk form settings category from the category dropdown.
 
-![ns-helpdesk-typo3-form-settings5](./images/ns-helpdesk-typo3-form-settings5.webp)
-  </Step>
-</Steps>
+**Step 4.** Adjust field labels, placeholders, include/required flags, and popup options, then save.
+
+The walkthrough below covers both global constants and form constants:
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8g5y71dmuqmctgof78avq?embed_v=2&utm_source=embed" loading="lazy" title="Configure Helpdesk form settings in the Constant Editor" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+You can control, among others:
+
+- Name, email, subject, and description fields (include, label, placeholder, required)
+- Categories field label
+- Attachment field
+- Google reCaptcha
+- Submit button label
+- Minimum character count for the description
 
 <Note>
-
-Front end look of the ticket creation form.
-
+Frontend look of the ticket creation form.
 </Note>
 
-![ns-helpdesk-typo3-form-fe](./images/ns-helpdesk-typo3-form-fe.jpeg)
+![ns-helpdesk-typo3-form-fe](./Images/ns-helpdesk-typo3-form-fe.jpeg)
 
 ## Popup Form Settings
 
-<Steps>
-  <Step title="Step 1">
-Go to Admin Tools > Helpdesk Configuration
-  </Step>
-  <Step title="Step 2">
-Click on "Form Setting" menu
+Popup support is configured in the same Constant Editor category.
 
-![ns-helpdesk-typo3-form-settings](./images/ns-helpdesk-typo3-popup-form-settings3.webp)
-  </Step>
-</Steps>
+Set popup appearance, layout, title, and color, then save.
 
 <Note>
-
-Front end look of the Popup support form
-
+Frontend look of the popup support form.
 </Note>
 
-![ns-helpdesk-typo3-popup-form-fe](./images/ns-helpdesk-typo3-popup-form-fe.jpeg)
+![ns-helpdesk-typo3-popup-form-fe](./Images/ns-helpdesk-typo3-popup-form-fe.jpeg)

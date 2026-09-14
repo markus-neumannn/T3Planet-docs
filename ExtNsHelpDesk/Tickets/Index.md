@@ -1,57 +1,45 @@
 ---
 title: "Ticket Listing"
-description: "You can easily create & see all tickets from tickets menu from your typo3 backend."
+description: "Display and manage Helpdesk tickets on the frontend (ns_helpdesk 14+)."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "ns_HelpDesk"
-  - "Ticket Listing"
-  - "Tickets"
+  - "ns_helpdesk"
+  - "Helpdesk"
 sidebarTitle: "Ticket Listing"
 ---
 
-You can easily create & see all tickets from tickets menu from your typo3 backend. you can find any tickets via filtration located at sidebar. as well as you can search any tickets within seconds via search feature.
 
-<Steps>
-  <Step title="Step 1">
-Go to Admin Tools > NS Helpdesk
-  </Step>
-  <Step title="Step 2">
-Click on Tickets Menu.
+From **ns_helpdesk 14.0.0**, the dedicated Helpdesk backend module for ticket listing
+is removed. Add the **Helpdesk - List View** plugin on the page where tickets should appear.
 
-![ns-helpdesk-typo3-ticket-listing-be](./images/ns-helpdesk-typo3-ticket-listing-be.webp)
-  </Step>
-</Steps>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8pazd1edjqmctkkvb7bym?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk list view plugin" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+**Step 1.** On the ticket listing page, create a new content element.
+
+**Step 2.** Select **Helpdesk - List View**.
+
+**Step 3.** Open the **Plugin** tab and set the list page, ticket create page, and listing layout.
+
+**Step 4.** Save.
+
+Full plugin options: [Plugin Configurations](/ExtNsHelpDesk/PluginConfigurations/Index).
 
 <Note>
-
-Front end look of ticket listing page.
-
+Frontend look of the ticket listing page.
 </Note>
 
-![ns-helpdesk-typo3-ticket-listing-fe](./images/ns-helpdesk-typo3-ticket-listing-fe.jpeg)
+![ns-helpdesk-typo3-ticket-listing-fe](./Images/ns-helpdesk-typo3-ticket-listing-fe.jpeg)
 
 ## Ticket Detail
 
-<Steps>
-  <Step title="Step 1">
-Click on specific ticket.
-  </Step>
-  <Step title="Step 2">
-Now admin Can add comment & close/reopen ticket from Backend as well.
-
-![ns-helpdesk-typo3-ticket-detail1](./images/ns-helpdesk-typo3-ticket-detail1.webp)
-
-![ns-helpdesk-typo3-ticket-detail2](./images/ns-helpdesk-typo3-ticket-detail2.webp)
-  </Step>
-</Steps>
+Open a ticket from the list to view details, add comments, and close or reopen
+the ticket from the frontend.
 
 <Note>
-
-Front end look of ticket Detail page.
-
+Frontend look of the ticket detail page.
 </Note>
 
-![ns-helpdesk-typo3-ticket-detail-fe1](./images/ns-helpdesk-typo3-ticket-detail-fe1.webp)
+![ns-helpdesk-typo3-ticket-detail-fe1](./Images/ns-helpdesk-typo3-ticket-detail-fe1.jpeg)
 
-![ns-helpdesk-typo3-ticket-detail-fe2](./images/ns-helpdesk-typo3-ticket-detail-fe2.webp)
+![ns-helpdesk-typo3-ticket-detail-fe2](./Images/ns-helpdesk-typo3-ticket-detail-fe2.jpeg)

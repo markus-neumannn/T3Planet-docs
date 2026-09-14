@@ -27,10 +27,29 @@ For more details, refer to the TYPO3 official documentation: [Standard FlexForm 
 Additionally, **Flux-based content elements** support translation only **after the content element has been created and saved at least once**.
 </Note>
 
+
+<Important>
+By default, TYPO3 prefixes translated headlines with a label such as **Translate to: [Language]**.
+This comes from TYPO3's `TCEMAIN.translateToMessage` setting, not from T3AI.
+
+If you do not want this prefix in translated titles, disable it globally on the **root page**:
+
+1. Open the TYPO3 Backend.
+2. Select the **root page**.
+3. Open **Page TSconfig**.
+4. Add:
+
+```typoscript
+TCEMAIN {
+    translateToMessage =
+}
+```
+</Important>
+
 ## Mass Translation
 
-
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpei6sj2kta1d3n7mns6mnh?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
 The **Mass Translate** module is designed to manage and schedule translation tasks for multiple pages.
 With this feature, you can select or deselect languages, or delete scheduled translation tasks.
 
@@ -40,7 +59,51 @@ With this feature, you can select or deselect languages, or delete scheduled tra
 - Change target languages for mass translation.
 - Automate translation for multiple pages at once, saving time and effort.
 
-## One-Clck Page Translations
+## Manage Mass Translation
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyv0zu149lqmgz7dxycp3b?embed_v=2&utm_source=embed" loading="lazy" title="Manage Mass Translation Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+The **Manage Mass Translation** module lets you queue, configure, and monitor translation tasks for multiple pages from one place.
+
+Open it from **AI Assistant → Translation → Manage Mass Translation**.
+
+**Key Features:**
+
+- Select pages and add them to the translation queue.
+- Configure target languages for mass translation and save the language mapping.
+- Remove pages from the queue when they are no longer needed.
+- Re-queue failed translation jobs so they can run again.
+- Filter the queue by status: **Pending**, **Completed**, **Failed**, or **All**.
+- Filter by site root or view pages across all sites.
+- Add pages to the queue by page ID and choose the target language.
+- Run the related Scheduler task to process queued translations.
+
+**How to manage mass translations:**
+
+1. Open **AI Assistant** and go to the **Translation** tab.
+2. Click **Manage Mass Translation**.
+3. Select the pages you want to translate (or use **Add pages to queue** and enter a page ID).
+4. Open the language configuration, select the target languages, and click **Save**.
+5. Review queue tabs (**Pending**, **Completed**, **Failed**, **All**) as needed.
+6. Use **Re-queue failed** if any jobs failed and should be retried.
+7. Open **Scheduler** and run the mass translation task to process the queue.
+
+**Scheduler settings for Manage Mass Translation:**
+
+Use the schedulable command:
+
+`t3af:bulk:translate` — *Translate pages from bulk translation queue*
+
+Configure these command options in the Scheduler task settings:
+
+- **batch-size** — Number of pages processed per batch within one run.
+- **limit** — Cap one run at N pending queue pages; the rest stay for the next scheduler tick. `0` = unlimited.
+
+![Scheduler options batch-size and limit for Manage Mass Translation](./Images/mass_translation_scheduler_limit.png)
+
+Example: set **batch-size** to `10` and **limit** to `10` so each scheduler run processes up to 10 pending pages in batches of 10. Remaining pending pages stay in the queue for the next tick.
+
+## One-Click Page Translations
 
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgwbd60vav130ug612bduz?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
@@ -223,25 +286,57 @@ Whenever you add any content in Default language it will automatically translate
 
 ## Language Glossary
 
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyhrun13nbqmgzw4bkjqz0?embed_v=2&utm_source=embed" loading="lazy" title="Language Glossary Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqh1der0vd4130u3i14bm4f?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-The **Glossary** feature allows you to define specific terms and their replacements for use during translations.
-This ensures consistency in terminology across all pages and languages.
+The **Glossary** feature lets you define source terms and their target-language replacements for AI translations.
+This keeps terminology consistent across pages and languages.
+
+Open it from **AI Assistant → Translation → Manage Glossary**.
 
 **How to Add Glossary Terms:**
 
-1. Go to the **List Module** in the TYPO3 Backend.
-2. Select any page and click on **“New Records.”**
-3. Navigate to the **“Create Glossary”** module and select the glossary.
-4. Add your term in the text field (e.g., **“TYPO3 Developer”**) and the term you want to replace it with (e.g., **“TYPO3 Agency”**).
+1. Open **AI Assistant** and go to the **Translation** tab.
+2. Click **Manage Glossary**.
+3. Enter the source term (for example, **"TYPO3 Developer"**).
+4. Enter the target term for the selected language (for example, **"TYPO3 Agency"**).
+5. Select the **Target language** (for example, German `[de]`).
+6. Click **Save** to store the glossary entry.
+
+When you translate a page with an AI provider (for example, ChatGPT), matching terms are applied using your glossary entries for that language.
 
 **Additional Options:**
 
-- Set glossary terms for a particular language so that, during content translation, the system will automatically apply the translated glossary.
+- Set glossary terms per language so translations automatically use the correct replacement.
 
-**To enable tagging for automatically translated pages and content, the process of activating translated pages was updated to include a control option. This information is passed to the Page Context Fluid template, where it can be used to customize the page’s appearance. You can also use this feature easily in the extension’s Partial.**
+## DeepL Official Glossary
 
-```Python
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttypodo141fqmgzv3bctixh?embed_v=2&utm_source=embed" loading="lazy" title="DeepL Glossary Mapping Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+T3AI also supports **DeepL Official Glossary** mapping.
+Use this when you translate with DeepL and want DeepL glossaries applied for specific language pairs.
+
+<Note>
+DeepL Official Glossary works with the **DeepL provider only**.
+It is not applied when you translate with other AI providers (for example, ChatGPT).
+</Note>
+
+**How to map a DeepL glossary:**
+
+1. Open **AI Assistant** and go to the **Translation** tab.
+2. Click **Manage Glossary**.
+3. Open the **DeepL Official Glossary** tab.
+4. Select the target language.
+5. Select the DeepL glossary to map for that language pair.
+6. Click **Save mapping**.
+7. Optionally open the saved mapping (eye icon) to review the details.
+
+When you localize a page and choose **Translate with DeepL**, the mapped DeepL glossary is used for that language.
+
+
+
+**To enable tagging for automatically translated pages and content, the process of activating translated pages was updated to include a control option. This information is passed to the Page Context Fluid template, where it can be used to customize the page's appearance. You can also use this feature easily in the extension's Partial.**
+
+```html
 <f:if condition="{data.tx_nst3ai_content_not_checked}" >
     <div style="background: #006494; border: #0000cc 1px solid; color: #fff; padding: 10px; text-align: center">
         <f:translate key="LLL:EXT:ns_t3ai/Resources/Private/Language/locallang_be:preview.flag" extensionName="ns_t3ai" />
@@ -254,31 +349,25 @@ This ensures consistency in terminology across all pages and languages.
 
 **Backend Image**
 
-![AI log](./images/Backend_Image.png)
+![AI log](./Images/Backend_Image.png)
 
 **Frontend image without preview mode**
 
-![Frontend image without preview](./images/Frontend_without_Preview.webp)
+![Frontend image without preview](./Images/Frontend_without_Preview.png)
 
-To enable tagging for automatically translated pages and content, the “Page Turned On” process for translated pages was updated to include a control option.
 
-During each translation, the fields are automatically updated. The fields “Last translation date” and “T3AI Translated Content has not been checked” are transferred to the page object and can be used in Fluid templates.
-
-This allows you to control information and notes in the Fluid template if needed, but a TYPO3 administrator or developer must add this feature to the template first.
-
-When an editor previews a hidden page translated by T3AI, a T3AI badge will appear alongside the “Preview” badge in the upper right corner.
 
 **Backend Image**
 
-![Backend image](./images/Backend_Image.png)
+![Backend image](./Images/Backend_Image.png)
 
 **Preview mode image**
 
-![Preview mode image](./images/Frontend_with_Preview.webp)
+![Preview mode image](./Images/Frontend_with_Preview.png)
 
 **Frontend image without preview mode**
 
-![Frontend image without preview](./images/Frontend_without_Preview.webp)
+![Frontend image without preview](./Images/Frontend_without_Preview.png)
 
 ## Activate Translated Content
 
@@ -313,6 +402,25 @@ Follow below steps to enable this feature.
 2. Click **Edit Page Properties**.
 3. Navigate to the **T3AI** tab.
 4. Enable the **Activate All Content Elements** option.
+
+### Auto Activate All Content Elements
+
+After translation, this feature controls how hidden content elements are handled.
+
+- **Enabled:** All hidden content elements are automatically activated in every language after translation.
+- **Disabled:** Only those content elements that were active in the main language before translation are activated afterward.
+
+### How to Enable
+
+Follow below steps to enable this feature.
+
+![AI log](./Images/activate.png)
+
+1. Open the desired **Page** in TYPO3.
+2. Click **Edit Page Properties**.
+3. Navigate to the **T3AI** tab.
+4. Enable the **Activate All Content Elements** option.
+
 
 ## Interactive demos
 

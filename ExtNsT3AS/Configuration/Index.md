@@ -930,6 +930,43 @@ Example showing queue processing and training completion summary.
 For more options and details, see the TYPO3 Scheduler documentation:
 [https://docs.typo3.org/c/typo3/cms-scheduler/13.4/en-us/Administration/ConsoleTools/Running.html#providing-options-to-the-shell-script](https://docs.typo3.org/c/typo3/cms-scheduler/13.4/en-us/Administration/ConsoleTools/Running.html#providing-options-to-the-shell-script)
 
+
+## Command `t3af:history:cleanup` — history log cleanup {#t3as-history-cleanup}
+
+**T3AF History Cleanup** is the shared console command `t3af:history:cleanup` (AI Foundation / T3CS). It deletes **AI Search** and **Chatbot** usage history older than the retention period.
+
+This is separate from training-queue cleanup (`--retention-days` on `nst3af:training`). Use it to keep **Usage Analytics** history within a privacy or storage limit.
+
+If the task does not exist yet, create it in the TYPO3 **Scheduler** module:
+
+1. Create a new task and select **Execute console commands**.
+2. Choose `t3af:history:cleanup`.
+3. Set the **days** argument and the frequency on the **Timing** tab.
+4. Save the task.
+
+**Argument**
+
+`days`
+: Retention in days before deletion. Edit this argument on the scheduler task. Default is `90` when omitted.
+
+**Example commands**
+
+Composer / TYPO3 v13+ (typical):
+
+```bash
+ddev typo3 t3af:history:cleanup
+ddev typo3 t3af:history:cleanup 3
+ddev typo3 t3af:history:cleanup 90
+```
+
+The first command uses the default of **90** days. Setting `days` to `3` deletes usage history older than 3 days (CLI: `t3af:history:cleanup 3`).
+
+![Scheduler task t3af:history:cleanup with days argument set to 3](./Images/t3af-history-cleanup.png)
+
+*Configure **days** on the `t3af:history:cleanup` scheduler task. Default retention is 90 days when the argument is omitted.*
+
+More options for other AI Foundation scheduler commands (MCP cleanup, and so on) are listed under **AI Foundation → Scheduler & CLI** in the TYPO3 backend.
+
 ## 4.Training Center
 
 **Purpose**
@@ -985,9 +1022,9 @@ When the task runs, it:
 - After success, the item is marked **Completed**; on error, **Failed**.
 - How often training runs depends on the Sync interval of your data sources and on the Scheduler actually being triggered (e.g. via cron).
 
-## 5. Search tab
+## 5. Search tab {#t3as-search-global-settings}
 
-The **Search** tab controls AI search for the whole site. Here you turn search on, set how answers look, style the widget, and manage suggested questions. Settings on a single page plugin can override these defaults.
+The **Search** tab controls AI search for the whole site. Here you turn search on, set how answers look, enable **Save search history**, style the widget, and manage suggested questions. Settings on a single page plugin can override these defaults.
 
 **Step 1:** Open the **T3AS** module.
 
@@ -1000,6 +1037,7 @@ The **Search** tab controls AI search for the whole site. Here you turn search o
 Turn AI search on and control answer behaviour.
 
 - **Enable AI Search Globally** — Activates AI search across the site
+- **Save search history** — Stores visitor search queries and answers for analytics
 - **Enable Reference Links** — Shows source links below the answer (pages, PDFs, etc.)
 - **Enable Voiceover** — Adds a play button so visitors can hear the answer
 - **Enable Search Feedback** — Shows thumbs up/down; ratings appear in **Usage Analytics**
@@ -1078,6 +1116,10 @@ Enable **Search Feedback** in **Search → Settings** or in the plugin **Search 
 </Note>
 
 When no data exists yet: *“No interaction logs yet. Search and search history will appear here when the modules are loaded and users interact.”*
+
+Enable **Save search history** in **Search → Settings** so visitor queries and answers appear in this log.
+
+To delete old usage history automatically, use the `t3af:history:cleanup` scheduler task (see **Scheduler** on this page). Default retention is **90** days.
 
 ## 7. AILogs
 

@@ -1,31 +1,47 @@
 ---
 title: "Global Settings"
+description: "Configure ns_helpdesk in the TypoScript Constant Editor (ns_helpdesk 14+)."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "ns_HelpDesk"
-  - "Global Settings"
-  - "GlobalSettings"
+  - "ns_helpdesk"
+  - "Helpdesk"
 sidebarTitle: "Global Settings"
 ---
 
-Once you install this extension, Your first-step should be to configure all the settings from "Global Configuration".
 
-<Steps>
-  <Step title="Step 1">
-Go to Admin Tools > Helpdesk Configurations
-  </Step>
-  <Step title="Step 2">
-Click on "Global Settings" menu, Fill-up all the information and click on "Save Changes" button.
+<span id="ns-helpdesk-constant-editor"></span>
 
-![ns-helpdesk-typo3-global-settings1](./images/ns-helpdesk-typo3-global-settings1.webp)
+From **ns_helpdesk 14.0.0**, Helpdesk is no longer configured in a backend module.
+After you [include the Helpdesk TypoScript](/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript),
+use the **Constant Editor**.
 
-![ns-helpdesk-typo3-global-settings2](./images/ns-helpdesk-typo3-global-settings2.webp)
-  </Step>
-</Steps>
+**Step 1.** Open the **TypoScript** module and select the root page.
+
+**Step 2.** Switch to **Constant Editor**.
+
+**Step 3.** Choose the Helpdesk global settings category from the category dropdown.
+
+**Step 4.** Set the values required for your site, then save.
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8g5y71dmuqmctgof78avq?embed_v=2&utm_source=embed" loading="lazy" title="Configure ns_helpdesk in the Constant Editor" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+Typical global constants include:
+
+- **Admin Email** and **Admin Name**
+- **Notify Admin via email**
+- **jQuery library** (enable only if your site does not already load jQuery)
+- **Global Storage PID** for Helpdesk records
+- **Login Page ID** and **Registration Page ID**
+- **Google reCaptcha** site key
+- **Default ticket status ID**
+- **Default Assignee ID** (backend user used for automatic assignment)
 
 <Note>
-
-If you will not enable the automatic ticket assignment field then category wise assignee would not be work. so you must enable that field as well as you should have the categories on your helpdesk extension.
-
+Category-wise assignment requires a default assignee and ticket categories.
+Set **Default Assignee ID** in the Constant Editor, and keep categories on
+the storage page. See [Ticket Categories](/ExtNsHelpDesk/CategoryStatus/Index).
 </Note>
+
+Ticket form labels, placeholders, and popup options are configured in the same
+Constant Editor. See [Form Settings](/ExtNsHelpDesk/FormSettings/Index).

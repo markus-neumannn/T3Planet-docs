@@ -29,6 +29,10 @@ For generating the Site and Secret key, please refer to the following link:
 
 ![Configuration1](./images/Friendlycaptcha_Configuration_1.webp)
 
+![Configuration2](./images/Friendlycaptcha_Configuration_2.png)
+
+![Configuration3](./images/Friendlycaptcha_Configuration_3.png)
+
 ![Configuration4](./images/Friendlycaptcha_Configuration_4.webp)
 
 ---
@@ -45,5 +49,9 @@ If you want to test this extension on a local server without an official domain 
 - To whitelist a development or staging domain, contact our support center: [https://t3planet.de/support](https://t3planet.de/support)
 
 ![Configuration1](images/Friendlycaptcha_Configuration_1.png)
+
+![Configuration2](images/Friendlycaptcha_Configuration_2.png)
+
+![Configuration3](images/Friendlycaptcha_Configuration_3.png)
 
 ![Configuration4](images/Friendlycaptcha_Configuration_4.jpeg)

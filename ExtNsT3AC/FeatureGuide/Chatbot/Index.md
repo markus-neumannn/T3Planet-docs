@@ -1,64 +1,79 @@
 ---
-title: "Chabot Features"
-description: "Chabot Features."
+title: "Chatbot Features"
+description: "Configure T3AC chatbot settings, Save chatbot history, prompts, appearance, and visibility."
 keywords:
   - "TYPO3"
   - "T3Planet"
-sidebarTitle: "Chabot Features"
+  - "T3AC"
+  - "Chatbot"
+sidebarTitle: "Chatbot Features"
 ---
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragm93i0mj0qmhx6fir2bke?utm_source=link&embed_v=2&utm_source=embed" loading="lazy" title="T3AC Chatbot Functionality Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Configuration
 
+**Step 1:** Open **AI Chatbot** in the TYPO3 backend.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragm93i0mj0qmhx6fir2bke?utm_source=link" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-While creating or editing a chatbot, you can configure:
+**Step 2:** Click the **Chatbot** tab.
 
-- Title (e.g., AI Chatbot)
-- Short Description
-- Bubble Message (example: “Hey there, How can I help you?”)
-- Welcome Message (example: “Hi, how can I help you?”)
-- Chatbot Language
-- Chatbot Instructions
+**Step 3:** Enable the chatbot, then configure feedback, **Save chatbot history**, messages, and instructions.
+
+### Settings {#t3ac-save-chatbot-history}
+
+Turn the chatbot on and control how it greets visitors and whether **Save chatbot history** is enabled.
+
+- **Enable AI Chatbot** — Activates the chatbot on your site
+- **Chatbot Feedback** — Shows thumbs up/down on responses; ratings appear in **Usage Analytics**
+- **Save chatbot history** — Saves conversations for analytics and past chats. Turn this off for stricter privacy.
+- **Title** — Name shown in the chatbot (e.g. AI Chatbot)
+- **Short Description** — Brief text describing the assistant
+- **Bubble Message** — Trigger bubble text (e.g. "Hey there, How can I help you?")
+- **Welcome Message** — First message visitors see (e.g. "Hi, how can I help you?")
+- **Chatbot Language** — Default language for the chatbot
+- **Chatbot Instructions** — Custom rules for how the chatbot should answer
+
+Use the live preview panel (click the chatbot avatar) to check title, messages, and appearance before you click **Save Configuration**.
 
 ## AI Prompts
 
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbodcvo0dj7qmo5ds4mf5m4?utm_source=link" loading="lazy" title="T3AC AI Prompts Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Use AI Prompts when you want to refine how the chatbot greets users, answers questions, follows project-specific rules, or stays within the right tone. This is useful when different websites or teams need chatbot output to stay consistent without editing the answer manually every time.
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbodcvo0dj7qmo5ds4mf5m4?utm_source=link&embed_v=2&utm_source=embed" loading="lazy" title="T3AC AI Prompts Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Best practices:
 
 - Keep instructions short and easy to test.
 - Use prompts to define greeting style, answer tone, and response limits.
 - Test prompts with real user questions before rollout.
-- Review T3AF AI Prompts when you want shared prompt behavior across multiple AI Universe extensions.
+- Review [AI Foundation AI Prompts](/ExtNsT3AF/AIPrompts/Index) when you want shared prompt behavior across multiple AI Universe extensions.
 
 ## Customization
 
-Customize the appearance and behavior of the chatbot:
+Open the **Customize** tab to match the chatbot appearance to your website. Changes appear in the live preview panel.
 
-- Upload Logo
-- Upload Avatar
-- Avatar Size
-- Chatbot Color
-- Show/Hide Logo
-- Show/Hide Date & Time
-- Transparent Trigger Option
-- Chatbot Position (e.g., bottom-right)
-- Widget Bottom Space (In Pixel Min: 15px, Max: 200px)
+- **Upload Logo** — Add your company logo to the chatbot header
+- **Upload Avatar** — Set the chatbot profile image
+- **Avatar Size** — Adjust the profile image size with the slider, then check the preview
+- **Chatbot Color** — Choose the chatbot appearance color
+- **Show Logo** — Show or hide the logo in the chatbot
+- **Show Date & Time** — Display the current date and time in the chat
+- **Transparent Trigger** — Make the chatbot trigger appear more discreetly on the page
+- **Chatbot Position** — Reposition the widget (e.g., bottom-right)
+- **Widget Bottom Space** — Set the distance from the bottom of the page (min: 15px, max: 200px)
 
 ## General
 
-Use the General settings to control where the chatbot appears and how it looks.
+Open the **General** tab to control where the chatbot appears, whether source links are shown, and how custom CSS is applied.
 
-# Page Visibility
+### Page Visibility
 
 Use Page Visibility to decide on which pages the chatbot is shown.
 
 - You can show the chatbot only on selected pages.
 - You can also hide it on selected pages, even when it is enabled globally.
 
-# Show Chatbot on Specific Pages
+### Show Chatbot on Specific Pages
 
 Use this option to show the chatbot only on pages you choose.
 
@@ -66,7 +81,7 @@ Use this option to show the chatbot only on pages you choose.
 - Example: `10, 22, 35`
 - The chatbot will be visible on these pages.
 
-# Hide Chatbot on Specific Pages
+### Hide Chatbot on Specific Pages
 
 Use this option to hide the chatbot on specific pages.
 
@@ -74,11 +89,11 @@ Use this option to hide the chatbot on specific pages.
 - Example: `45, 60, 72`
 - These pages stay hidden even if chatbot is enabled globally.
 
-# Sources Links
+### Sources Links
 
 Enable **Source Links** to attach reference URLs to chatbot responses based on the data used.
 
-When enabled, the chatbot adds clickable links from indexed sources (e.g., TYPO3 pages or documents,etc..) used to generate the answer.
+When enabled, the chatbot adds clickable links from indexed sources (for example TYPO3 pages or documents) used to generate the answer.
 
 **How it works:**
 
@@ -88,20 +103,20 @@ When enabled, the chatbot adds clickable links from indexed sources (e.g., TYPO3
 
 This allows users to verify information and access the original content. If disabled, no source links are shown.
 
-# Custom Styling
+### Custom Styling
 
 Use Custom Styling to match the chatbot design with your website style.
 
 - Add your custom CSS for colors, spacing, and font styles.
 - Keep styling simple for better readability and user experience.
 
-# Custom Internal CSS
+### Custom Internal CSS
 
 Use this field when you want to apply CSS directly inside the chatbot widget.
 
 Example:
 
-```
+```css
 .chatbot-header {
   background: #your-color;
 }
@@ -111,12 +126,12 @@ This CSS is injected inside the chatbot widget, so it affects only chatbot UI el
 
 ## External Embed
 
-If you’d like to use this chatbot on another domain, follow these steps:
+If you would like to use this chatbot on another domain, follow these steps:
 
 - Open the **External Embed** area in T3AC.
 - Add the allowed domain, or enable the option that allows any approved domain policy used by your project.
 - Copy the embed code.
-- Paste the code inside the **&lt;body&gt;** tag of your website.
+- Paste the code inside the `<body>` tag of your website.
 
 For the full setup flow, see [Configuration](/ExtNsT3AC/Configuration/Index).
 

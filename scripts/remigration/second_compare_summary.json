@@ -1,0 +1,67 @@
+{
+  "generated": "second_compare",
+  "rst_pages": 757,
+  "matrix_status_counts": {
+    "INTENTIONALLY_ADDED": 61,
+    "MIGRATED_CORRECTLY": 755,
+    "REVIEWED_OK": 2
+  },
+  "flagged_for_review": [],
+  "images": {
+    "source_files": 1307,
+    "figure_directives": 829,
+    "mint_missing_count": 6
+  },
+  "supademo": {
+    "pages": 81,
+    "missing_refs_count": 0
+  },
+  "intentional_leftovers": [
+    {
+      "rst": "docs/docs/history.rst",
+      "reason": "include-only stub \u2014 intentional skip"
+    },
+    {
+      "note": "INTENTIONALLY_ADDED Mintlify-only pages",
+      "count": 61
+    },
+    {
+      "note": "REVIEWED_OK",
+      "count": 2
+    }
+  ],
+  "unexplained_gaps": 0,
+  "image_basename_aliases": [
+    {
+      "rst": "manage-source-groups.png",
+      "mint": "manage-source-groups1.png",
+      "status": "INTENTIONAL_ALIAS"
+    },
+    {
+      "rst": "page-level-source-groups.png",
+      "mint": "page-level-source-groups1.png",
+      "status": "INTENTIONAL_ALIAS"
+    },
+    {
+      "rst": "header-footer-index.png",
+      "mint": "header-footer-index1.png",
+      "status": "INTENTIONAL_ALIAS"
+    },
+    {
+      "rst": "retrieval-confidence-threshold.jpg",
+      "mint": "retrieval-confidence-threshold1.jpg",
+      "status": "INTENTIONAL_ALIAS"
+    },
+    {
+      "rst": "basic-authentication-support.png",
+      "mint": "basic-authentication-support1.webp",
+      "status": "INTENTIONAL_ALIAS"
+    },
+    {
+      "rst": "configurable-database-chunking.png",
+      "mint": "configurable-database-chunking1.webp",
+      "status": "INTENTIONAL_ALIAS"
+    }
+  ],
+  "verdict_note": "Matrix clean; Supademo IDs all present; remaining image basename diffs are known aliases with files on disk."
+}

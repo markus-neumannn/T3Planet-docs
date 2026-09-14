@@ -297,3 +297,40 @@ More options for other AI Foundation scheduler commands (MCP cleanup, and so on)
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraclzms0e0pqmhxm0sztm2a?embed_v=2&utm_source=embed" loading="lazy" title="Interactive demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragsj3t0n4vqmhx0pe4jtgt?embed_v=2&utm_source=embed" loading="lazy" title="Interactive demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+## Command `t3af:history:cleanup` — history log cleanup {#t3as-history-cleanup}
+
+**T3AF History Cleanup** is the shared console command `t3af:history:cleanup` (AI Foundation / T3CS). It deletes **AI Search** and **Chatbot** usage history older than the retention period.
+
+This is separate from training-queue cleanup (`--retention-days` on `nst3af:training`). Use it to keep **Usage Analytics** history within a privacy or storage limit.
+
+If the task does not exist yet, create it in the TYPO3 **Scheduler** module:
+
+1. Create a new task and select **Execute console commands**.
+2. Choose `t3af:history:cleanup`.
+3. Set the **days** argument and the frequency on the **Timing** tab.
+4. Save the task.
+
+**Argument**
+
+`days`
+: Retention in days before deletion. Edit this argument on the scheduler task. Default is `90` when omitted.
+
+**Example commands**
+
+Composer / TYPO3 v13+ (typical):
+
+```bash
+ddev typo3 t3af:history:cleanup
+ddev typo3 t3af:history:cleanup 3
+ddev typo3 t3af:history:cleanup 90
+```
+
+The first command uses the default of **90** days. Setting `days` to `3` deletes usage history older than 3 days (CLI: `t3af:history:cleanup 3`).
+
+![Scheduler task t3af:history:cleanup with days argument set to 3](./Images/t3af-history-cleanup.png)
+
+*Configure **days** on the `t3af:history:cleanup` scheduler task. Default retention is 90 days when the argument is omitted.*
+
+More options for other AI Foundation scheduler commands (MCP cleanup, and so on) are listed under **AI Foundation → Scheduler & CLI** in the TYPO3 backend.
+

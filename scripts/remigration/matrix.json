@@ -1,8 +1,8 @@
 {
-  "generated_pages": 799,
+  "generated_pages": 818,
   "status_counts": {
-    "INTENTIONALLY_ADDED": 46,
-    "MIGRATED_CORRECTLY": 751,
+    "INTENTIONALLY_ADDED": 61,
+    "MIGRATED_CORRECTLY": 755,
     "REVIEWED_OK": 2
   },
   "matrix": [
@@ -16,7 +16,7 @@
       "mint": {
         "page_id": "AIFoundationExtensions",
         "mint_path": "AIFoundationExtensions/Index.md",
-        "title": "AI Universe Extensions",
+        "title": "AI Extensions",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -27,7 +27,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 8021
+        "char_len": 7899
       }
     },
     {
@@ -53,7 +53,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 27620
+        "char_len": 27810
       }
     },
     {
@@ -77,7 +77,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 7325
+        "char_len": 7305
       }
     },
     {
@@ -133,7 +133,7 @@
       "mint": {
         "page_id": "EXTAvatar",
         "mint_path": "EXTAvatar/Index.md",
-        "title": "T3 Avatar",
+        "title": "Avatar",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -144,7 +144,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 3130
+        "char_len": 3107
       }
     },
     {
@@ -866,7 +866,7 @@
       "mint": {
         "page_id": "EXTAyu",
         "mint_path": "EXTAyu/Index.md",
-        "title": "T3 Ayu",
+        "title": "Ayu",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -877,7 +877,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2935
+        "char_len": 2912
       }
     },
     {
@@ -1198,8 +1198,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 3,
-        "char_len": 2478
+        "external_link_count": 2,
+        "char_len": 2445
       }
     },
     {
@@ -1525,7 +1525,7 @@
       "mint": {
         "page_id": "EXTBootstrap",
         "mint_path": "EXTBootstrap/Index.md",
-        "title": "T3 Bootstrap",
+        "title": "Bootstrap",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -1536,7 +1536,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 3183
+        "char_len": 3160
       }
     },
     {
@@ -2246,7 +2246,7 @@
       "mint": {
         "page_id": "EXTKarma",
         "mint_path": "EXTKarma/Index.md",
-        "title": "T3 Karma",
+        "title": "Karma",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -2257,7 +2257,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 3651
+        "char_len": 3628
       }
     },
     {
@@ -3115,7 +3115,7 @@
       "mint": {
         "page_id": "ExtNitsanHellobar",
         "mint_path": "ExtNitsanHellobar/Index.md",
-        "title": "NS Hellobar",
+        "title": "Hellobar",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -3438,7 +3438,7 @@
       "mint": {
         "page_id": "ExtNitsanMaintenance",
         "mint_path": "ExtNitsanMaintenance/Index.md",
-        "title": "NS Maintenance",
+        "title": "Maintenance",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -3765,7 +3765,7 @@
       "mint": {
         "page_id": "ExtNsAllChat",
         "mint_path": "ExtNsAllChat/Index.md",
-        "title": "NS All Chat",
+        "title": "All Chat",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -4106,7 +4106,7 @@
       "mint": {
         "page_id": "ExtNsAllLightbox",
         "mint_path": "ExtNsAllLightbox/Index.md",
-        "title": "NS All Lightbox",
+        "title": "All Lightbox",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -4432,7 +4432,7 @@
       "mint": {
         "page_id": "ExtNsAllSliders",
         "mint_path": "ExtNsAllSliders/Index.md",
-        "title": "NS All Sliders",
+        "title": "All Sliders",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -4760,7 +4760,7 @@
       "mint": {
         "page_id": "ExtNsBackup",
         "mint_path": "ExtNsBackup/Index.md",
-        "title": "NS Backup",
+        "title": "Backup",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -5343,7 +5343,7 @@
       "mint": {
         "page_id": "ExtNsCacheWebhook",
         "mint_path": "ExtNsCacheWebhook/Index.md",
-        "title": "NS Cache Webhook",
+        "title": "Cache Webhook",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -5618,7 +5618,7 @@
       "mint": {
         "page_id": "ExtNsCloudflare",
         "mint_path": "ExtNsCloudflare/Index.md",
-        "title": "NS Cloudflare",
+        "title": "Cloudflare",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -5945,7 +5945,7 @@
       "mint": {
         "page_id": "ExtNsComments",
         "mint_path": "ExtNsComments/Index.md",
-        "title": "NS Comments",
+        "title": "Comments",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -6422,7 +6422,7 @@
       "mint": {
         "page_id": "ExtNsCookiebot",
         "mint_path": "ExtNsCookiebot/Index.md",
-        "title": "NS Cookiebot",
+        "title": "Cookiebot",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -6749,7 +6749,7 @@
       "mint": {
         "page_id": "ExtNsCookiesHint",
         "mint_path": "ExtNsCookiesHint/Index.md",
-        "title": "NS Cookies",
+        "title": "Cookies",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -7109,7 +7109,7 @@
       "mint": {
         "page_id": "ExtNsCookieYes",
         "mint_path": "ExtNsCookieYes/Index.md",
-        "title": "NS Cookieyes",
+        "title": "Cookieyes",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -7427,7 +7427,7 @@
       "mint": {
         "page_id": "ExtNsDisqusComment",
         "mint_path": "ExtNsDisqusComment/Index.md",
-        "title": "NS Disqus Comments",
+        "title": "Disqus Comments",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -7752,7 +7752,7 @@
       "mint": {
         "page_id": "ExtNsEvent",
         "mint_path": "ExtNsEvent/Index.md",
-        "title": "NS Event",
+        "title": "Event",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -7989,9 +7989,15 @@
           "Speakers",
           "Sponsors",
           "Topic",
-          "Create event"
+          "Create event",
+          "General",
+          "Location",
+          "Configuration",
+          "Enable Registration",
+          "Event Registration",
+          "Category"
         ],
-        "heading_count": 7,
+        "heading_count": 13,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
@@ -8000,7 +8006,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2676
+        "char_len": 2779
       }
     },
     {
@@ -8265,7 +8271,7 @@
       "mint": {
         "page_id": "ExtNsExtCompatibility",
         "mint_path": "ExtNsExtCompatibility/Index.md",
-        "title": "NS Ext Compatibility",
+        "title": "Ext Compatibility",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -8653,7 +8659,7 @@
       "mint": {
         "page_id": "ExtNsFacebookComment",
         "mint_path": "ExtNsFacebookComment/Index.md",
-        "title": "NS Facebook Comment",
+        "title": "Facebook Comment",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -8971,7 +8977,7 @@
       "mint": {
         "page_id": "ExtNsFAQ",
         "mint_path": "ExtNsFAQ/Index.md",
-        "title": "NS FAQ",
+        "title": "FAQ",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -9463,7 +9469,7 @@
       "mint": {
         "page_id": "ExtNsFeedback",
         "mint_path": "ExtNsFeedback/Index.md",
-        "title": "NS Feedback",
+        "title": "Feedback",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -9895,7 +9901,7 @@
       "mint": {
         "page_id": "ExtNsFriendlyCaptcha",
         "mint_path": "ExtNsFriendlyCaptcha/Index.md",
-        "title": "NS Friendlycaptcha",
+        "title": "Friendlycaptcha",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -9999,12 +10005,12 @@
           "Note"
         ],
         "code_blocks": 0,
-        "image_count": 4,
+        "image_count": 8,
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 2,
-        "char_len": 2318
+        "char_len": 2574
       }
     },
     {
@@ -10307,7 +10313,7 @@
       "mint": {
         "page_id": "ExtNsGallery",
         "mint_path": "ExtNsGallery/Index.md",
-        "title": "NS Gallery",
+        "title": "Gallery",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -11031,7 +11037,7 @@
       "mint": {
         "page_id": "ExtNsGoogleDocs",
         "mint_path": "ExtNsGoogleDocs/Index.md",
-        "title": "NS Googledocs",
+        "title": "Googledocs",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -11512,7 +11518,7 @@
       "mint": {
         "page_id": "ExtNsGoogleMap",
         "mint_path": "ExtNsGoogleMap/Index.md",
-        "title": "NS Google Map",
+        "title": "Google Map",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -11981,7 +11987,7 @@
       "mint": {
         "page_id": "ExtNsGoogleSiteKit",
         "mint_path": "ExtNsGoogleSiteKit/Index.md",
-        "title": "NS Google Site Kit",
+        "title": "Google Site Kit",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -12529,7 +12535,7 @@
       "mint": {
         "page_id": "ExtNsGridtoContainer",
         "mint_path": "ExtNsGridtoContainer/Index.md",
-        "title": "NS Gridtocontainer",
+        "title": "Gridtocontainer",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -12870,7 +12876,7 @@
       "mint": {
         "page_id": "ExtNsGuestbook",
         "mint_path": "ExtNsGuestbook/Index.md",
-        "title": "NS Guestbook",
+        "title": "Guestbook",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -13193,7 +13199,7 @@
       "mint": {
         "page_id": "ExtNsHelpDesk",
         "mint_path": "ExtNsHelpDesk/Index.md",
-        "title": "NS Helpdesk",
+        "title": "Helpdesk",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -13259,42 +13265,38 @@
         "src_path": "docs/docs/ExtNsHelpDesk/CategoryStatus/Index.rst",
         "title": "Ticket Categories",
         "headings": [
-          "Ticket Categories",
-          "Create Ticket Status"
-        ],
-        "heading_count": 2,
-        "callouts": 0,
-        "callout_types": [],
-        "code_blocks": 0,
-        "images": [
-          "Images/ns-helpdesk-typo3-category-status.png",
-          "Images/ns-helpdesk-typo3-create-category-status.png"
-        ],
-        "image_count": 2,
-        "tables": 0,
-        "supademo_count": 0,
-        "external_links": [],
-        "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 617
-      },
-      "mint": {
-        "page_id": "ExtNsHelpDesk/CategoryStatus",
-        "mint_path": "ExtNsHelpDesk/CategoryStatus/Index.md",
-        "title": "Ticket Categories",
-        "headings": [
-          "Create Ticket Status"
+          "Ticket Categories"
         ],
         "heading_count": 1,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
-        "image_count": 2,
+        "images": [],
+        "image_count": 0,
+        "tables": 0,
+        "supademo_count": 0,
+        "external_links": [],
+        "external_link_count": 0,
+        "internal_doc_refs": 2,
+        "char_len": 744
+      },
+      "mint": {
+        "page_id": "ExtNsHelpDesk/CategoryStatus",
+        "mint_path": "ExtNsHelpDesk/CategoryStatus/Index.md",
+        "title": "Ticket Categories",
+        "headings": [],
+        "heading_count": 0,
+        "callouts": 1,
+        "callout_types": [
+          "Note"
+        ],
+        "code_blocks": 0,
+        "image_count": 0,
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 590
+        "char_len": 711
       }
     },
     {
@@ -13306,42 +13308,36 @@
         "src_path": "docs/docs/ExtNsHelpDesk/CustomizeForm/Index.rst",
         "title": "Customize Form",
         "headings": [
-          "Customize Form",
-          "Create Custom Fields"
-        ],
-        "heading_count": 2,
-        "callouts": 0,
-        "callout_types": [],
-        "code_blocks": 0,
-        "images": [
-          "Images/ns-helpdesk-typo3-CustomizeFormAdd.png",
-          "Images/ns-helpdesk-typo3-CustomizeForm.png"
-        ],
-        "image_count": 2,
-        "tables": 0,
-        "supademo_count": 0,
-        "external_links": [],
-        "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 810
-      },
-      "mint": {
-        "page_id": "ExtNsHelpDesk/CustomizeForm",
-        "mint_path": "ExtNsHelpDesk/CustomizeForm/Index.md",
-        "title": "Customize Form",
-        "headings": [
-          "Create Custom Fields"
+          "Customize Form"
         ],
         "heading_count": 1,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
-        "image_count": 2,
+        "images": [],
+        "image_count": 0,
+        "tables": 0,
+        "supademo_count": 1,
+        "external_links": [],
+        "external_link_count": 0,
+        "internal_doc_refs": 2,
+        "char_len": 1458
+      },
+      "mint": {
+        "page_id": "ExtNsHelpDesk/CustomizeForm",
+        "mint_path": "ExtNsHelpDesk/CustomizeForm/Index.md",
+        "title": "Customize Form",
+        "headings": [],
+        "heading_count": 0,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 0,
         "tables": 0,
         "table_rows": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 791
+        "char_len": 1208
       }
     },
     {
@@ -13361,21 +13357,16 @@
         "callout_types": [],
         "code_blocks": 0,
         "images": [
-          "Images/ns-helpdesk-typo3-form-settings1.png",
-          "Images/ns-helpdesk-typo3-form-settings2.png",
-          "Images/ns-helpdesk-typo3-form-settings4.png",
-          "Images/ns-helpdesk-typo3-form-settings5.png",
           "Images/ns-helpdesk-typo3-form-fe.jpeg",
-          "Images/ns-helpdesk-typo3-popup-form-settings3.png",
           "Images/ns-helpdesk-typo3-popup-form-fe.jpeg"
         ],
-        "image_count": 7,
+        "image_count": 2,
         "tables": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_links": [],
         "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 1228
+        "internal_doc_refs": 2,
+        "char_len": 1961
       },
       "mint": {
         "page_id": "ExtNsHelpDesk/FormSettings",
@@ -13391,12 +13382,12 @@
           "Note"
         ],
         "code_blocks": 0,
-        "image_count": 7,
+        "image_count": 2,
         "tables": 0,
         "table_rows": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1150
+        "char_len": 1649
       }
     },
     {
@@ -13414,17 +13405,14 @@
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
-        "images": [
-          "Images/ns-helpdesk-typo3-global-settings1.png",
-          "Images/ns-helpdesk-typo3-global-settings2.png"
-        ],
-        "image_count": 2,
+        "images": [],
+        "image_count": 0,
         "tables": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_links": [],
         "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 794
+        "internal_doc_refs": 3,
+        "char_len": 1890
       },
       "mint": {
         "page_id": "ExtNsHelpDesk/GlobalSettings",
@@ -13437,12 +13425,12 @@
           "Note"
         ],
         "code_blocks": 0,
-        "image_count": 2,
+        "image_count": 0,
         "tables": 0,
         "table_rows": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 750
+        "char_len": 1664
       }
     },
     {
@@ -13457,10 +13445,11 @@
           "Installation",
           "For Premium Version - License Activation",
           "For Free Version",
+          "Include TypoScript",
           "For Premium Version - License Activation",
           "How to Install TYPO3 Extension ns_helpdesk"
         ],
-        "heading_count": 5,
+        "heading_count": 6,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
@@ -13469,33 +13458,31 @@
         ],
         "image_count": 1,
         "tables": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_links": [],
         "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 1707
+        "internal_doc_refs": 1,
+        "char_len": 2891
       },
       "mint": {
         "page_id": "ExtNsHelpDesk/Installation",
         "mint_path": "ExtNsHelpDesk/Installation/Index.md",
         "title": "Installation",
         "headings": [
-          "Installation",
           "For Premium Version - License Activation",
           "For Free Version",
-          "For Premium Version - License Activation",
-          "How to Install TYPO3 Extension ns_helpdesk"
+          "Include TypoScript {#ns-helpdesk-include-typoscript}"
         ],
-        "heading_count": 5,
+        "heading_count": 3,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 1,
         "image_count": 1,
         "tables": 0,
         "table_rows": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1561
+        "char_len": 2004
       }
     },
     {
@@ -13524,8 +13511,8 @@
         "supademo_count": 0,
         "external_links": [],
         "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 1275
+        "internal_doc_refs": 2,
+        "char_len": 1584
       },
       "mint": {
         "page_id": "ExtNsHelpDesk/Introduction",
@@ -13537,8 +13524,9 @@
           "Helpful Links"
         ],
         "heading_count": 3,
-        "callouts": 1,
+        "callouts": 2,
         "callout_types": [
+          "Note",
           "Note"
         ],
         "code_blocks": 0,
@@ -13547,7 +13535,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 1162
+        "char_len": 1523
       }
     },
     {
@@ -13561,26 +13549,21 @@
         "headings": [
           "Plugin Configurations",
           "Helpdesk list view",
-          "Helpdesk-Ticket Submission (Forms)",
-          "Helpdesk-Front-End user Registration"
+          "Helpdesk ticket submission",
+          "Helpdesk front-end user registration"
         ],
         "heading_count": 4,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
-        "images": [
-          "Images/Plugin.png",
-          "Images/Helpdesk-List.png",
-          "Images/Helpdesk-Ticket-Submission.png",
-          "Images/USER_REGISTRATION.png"
-        ],
-        "image_count": 4,
+        "images": [],
+        "image_count": 0,
         "tables": 0,
-        "supademo_count": 0,
+        "supademo_count": 3,
         "external_links": [],
         "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 1677
+        "internal_doc_refs": 3,
+        "char_len": 3416
       },
       "mint": {
         "page_id": "ExtNsHelpDesk/PluginConfigurations",
@@ -13588,19 +13571,19 @@
         "title": "Plugin Configurations",
         "headings": [
           "Helpdesk list view",
-          "Helpdesk-Ticket Submission (Forms)",
-          "Helpdesk-Front-End user Registration"
+          "Helpdesk ticket submission",
+          "Helpdesk front-end user registration"
         ],
         "heading_count": 3,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
-        "image_count": 4,
+        "image_count": 0,
         "tables": 0,
         "table_rows": 0,
-        "supademo_count": 0,
+        "supademo_count": 3,
         "external_link_count": 0,
-        "char_len": 1446
+        "char_len": 2505
       }
     },
     {
@@ -13665,20 +13648,17 @@
         "callout_types": [],
         "code_blocks": 0,
         "images": [
-          "Images/ns-helpdesk-typo3-ticket-listing-be.png",
           "Images/ns-helpdesk-typo3-ticket-listing-fe.jpeg",
-          "Images/ns-helpdesk-typo3-ticket-detail1.png",
-          "Images/ns-helpdesk-typo3-ticket-detail2.png",
           "Images/ns-helpdesk-typo3-ticket-detail-fe1.jpeg",
           "Images/ns-helpdesk-typo3-ticket-detail-fe2.jpeg"
         ],
-        "image_count": 6,
+        "image_count": 3,
         "tables": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_links": [],
         "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 1289
+        "internal_doc_refs": 1,
+        "char_len": 1667
       },
       "mint": {
         "page_id": "ExtNsHelpDesk/Tickets",
@@ -13694,12 +13674,12 @@
           "Note"
         ],
         "code_blocks": 0,
-        "image_count": 6,
+        "image_count": 3,
         "tables": 0,
         "table_rows": 0,
-        "supademo_count": 0,
+        "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1205
+        "char_len": 1324
       }
     },
     {
@@ -13711,42 +13691,36 @@
         "src_path": "docs/docs/ExtNsHelpDesk/TicketStatus/Index.rst",
         "title": "Ticket Status",
         "headings": [
-          "Ticket Status",
-          "Create Ticket Status"
-        ],
-        "heading_count": 2,
-        "callouts": 0,
-        "callout_types": [],
-        "code_blocks": 0,
-        "images": [
-          "Images/ns-helpdesk-typo3-ticket-status.png",
-          "Images/ns-helpdesk-typo3-create-ticket-status.png"
-        ],
-        "image_count": 2,
-        "tables": 0,
-        "supademo_count": 0,
-        "external_links": [],
-        "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 595
-      },
-      "mint": {
-        "page_id": "ExtNsHelpDesk/TicketStatus",
-        "mint_path": "ExtNsHelpDesk/TicketStatus/Index.md",
-        "title": "Ticket Status",
-        "headings": [
-          "Create Ticket Status"
+          "Ticket Status"
         ],
         "heading_count": 1,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
-        "image_count": 2,
+        "images": [],
+        "image_count": 0,
+        "tables": 0,
+        "supademo_count": 0,
+        "external_links": [],
+        "external_link_count": 0,
+        "internal_doc_refs": 1,
+        "char_len": 657
+      },
+      "mint": {
+        "page_id": "ExtNsHelpDesk/TicketStatus",
+        "mint_path": "ExtNsHelpDesk/TicketStatus/Index.md",
+        "title": "Ticket Status",
+        "headings": [],
+        "heading_count": 0,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 0,
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 580
+        "char_len": 616
       }
     },
     {
@@ -13770,8 +13744,8 @@
         "supademo_count": 0,
         "external_links": [],
         "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 218
+        "internal_doc_refs": 2,
+        "char_len": 661
       },
       "mint": {
         "page_id": "ExtNsHelpDesk/UpdateVersion",
@@ -13787,7 +13761,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 136
+        "char_len": 619
       }
     },
     {
@@ -13817,7 +13791,7 @@
       "mint": {
         "page_id": "ExtNsHubspot",
         "mint_path": "ExtNsHubspot/Index.md",
-        "title": "NS Hubspot",
+        "title": "Hubspot",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -14220,7 +14194,7 @@
       "mint": {
         "page_id": "ExtNsInstagram",
         "mint_path": "ExtNsInstagram/Index.md",
-        "title": "NS Instagram",
+        "title": "Instagram",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -14603,7 +14577,7 @@
       "mint": {
         "page_id": "ExtNsLazyload",
         "mint_path": "ExtNsLazyload/Index.md",
-        "title": "NS Lazy Load",
+        "title": "Lazy Load",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -14922,7 +14896,7 @@
       "mint": {
         "page_id": "ExtNsNewsAdvancedSearch",
         "mint_path": "ExtNsNewsAdvancedSearch/Index.md",
-        "title": "NS News Advance Search",
+        "title": "News Advance Search",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -15110,8 +15084,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 1,
-        "char_len": 935
+        "external_link_count": 0,
+        "char_len": 790
       }
     },
     {
@@ -15334,7 +15308,7 @@
       "mint": {
         "page_id": "ExtNsNewsComments",
         "mint_path": "ExtNsNewsComments/Index.md",
-        "title": "NS News Comments",
+        "title": "News Comments",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -15871,7 +15845,7 @@
       "mint": {
         "page_id": "ExtNsNewsSlickSlider",
         "mint_path": "ExtNsNewsSlickSlider/Index.md",
-        "title": "NS News Slick",
+        "title": "News Slick",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -16237,7 +16211,7 @@
       "mint": {
         "page_id": "ExtNsNewsSlider",
         "mint_path": "ExtNsNewsSlider/Index.md",
-        "title": "NS News Slider",
+        "title": "News Slider",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -16770,7 +16744,7 @@
       "mint": {
         "page_id": "ExtNsOpenStreetMap",
         "mint_path": "ExtNsOpenStreetMap/Index.md",
-        "title": "NS Open Streetmap",
+        "title": "Open Streetmap",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -17238,7 +17212,7 @@
       "mint": {
         "page_id": "ExtNsPersonio",
         "mint_path": "ExtNsPersonio/Index.md",
-        "title": "NS Personio",
+        "title": "Personio",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -17367,8 +17341,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 3,
-        "char_len": 5170
+        "external_link_count": 1,
+        "char_len": 4956
       }
     },
     {
@@ -17478,8 +17452,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 5,
-        "char_len": 2825
+        "external_link_count": 3,
+        "char_len": 2759
       }
     },
     {
@@ -17647,7 +17621,7 @@
       "mint": {
         "page_id": "ExtNsProtectSite",
         "mint_path": "ExtNsProtectSite/Index.md",
-        "title": "NS Protect Site",
+        "title": "Protect Site",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -17973,7 +17947,7 @@
       "mint": {
         "page_id": "ExtNsPublicationComment",
         "mint_path": "ExtNsPublicationComment/Index.md",
-        "title": "NS Publication Comment",
+        "title": "Publication Comment",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -18298,7 +18272,7 @@
       "mint": {
         "page_id": "ExtNsPWA",
         "mint_path": "ExtNsPWA/Index.md",
-        "title": "NS PWA",
+        "title": "PWA",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -18614,7 +18588,7 @@
       "mint": {
         "page_id": "ExtNsRevolutionSlider",
         "mint_path": "ExtNsRevolutionSlider/Index.md",
-        "title": "NS Revolution Slider",
+        "title": "Revolution Slider",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -19561,8 +19535,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 1,
-        "char_len": 1834
+        "external_link_count": 0,
+        "char_len": 1800
       }
     },
     {
@@ -19620,7 +19594,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 1,
-        "char_len": 3964
+        "char_len": 3966
       }
     },
     {
@@ -19788,7 +19762,7 @@
       "mint": {
         "page_id": "ExtNsSharethis",
         "mint_path": "ExtNsSharethis/Index.md",
-        "title": "NS Sharethis",
+        "title": "Sharethis",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -20112,7 +20086,7 @@
       "mint": {
         "page_id": "ExtNsSnow",
         "mint_path": "ExtNsSnow/Index.md",
-        "title": "NS Snow",
+        "title": "Snow",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -20431,7 +20405,7 @@
       "mint": {
         "page_id": "ExtNsSocialLogin",
         "mint_path": "ExtNsSocialLogin/Index.md",
-        "title": "NS Social Login",
+        "title": "Social Login",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -20924,7 +20898,7 @@
       "mint": {
         "page_id": "ExtNsStatcounter",
         "mint_path": "ExtNsStatcounter/Index.md",
-        "title": "NS Statcounter",
+        "title": "Statcounter",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -21249,7 +21223,7 @@
       "mint": {
         "page_id": "ExtNsT3AA",
         "mint_path": "ExtNsT3AA/Index.md",
-        "title": "T3AA \u2014 TYPO3 AI Accessibility",
+        "title": "AI Accessibility",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -21260,7 +21234,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2704
+        "char_len": 2682
       }
     },
     {
@@ -22185,7 +22159,7 @@
       "mint": {
         "page_id": "ExtNsT3AB",
         "mint_path": "ExtNsT3AB/Index.md",
-        "title": "NS T3AB",
+        "title": "AI Builder",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -22196,7 +22170,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2092
+        "char_len": 2070
       }
     },
     {
@@ -22911,12 +22885,12 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 0,
-        "char_len": 390
+        "char_len": 410
       },
       "mint": {
         "page_id": "ExtNsT3AC",
         "mint_path": "ExtNsT3AC/Index.md",
-        "title": "T3AC \u2014 TYPO3 AI Chatbot",
+        "title": "AI Chatbot",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -22927,7 +22901,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 3243
+        "char_len": 3300
       }
     },
     {
@@ -23191,6 +23165,54 @@
       }
     },
     {
+      "page_id": "extnst3ac/dpaandgdpr",
+      "status": "MIGRATED_CORRECTLY",
+      "issues": [],
+      "rst": {
+        "page_id": "ExtNsT3AC/DPAandGDPR",
+        "src_path": "docs/docs/ExtNsT3AC/DPAandGDPR/Index.rst",
+        "title": "Data Processing Agreement (DPA) & General Data Protection Regulation (GDPR)",
+        "headings": [
+          "Data Processing Agreement (DPA) & General Data Protection Regulation (GDPR)",
+          "Save Chatbot History",
+          "Data Processing Agreement (DPA) Considerations"
+        ],
+        "heading_count": 3,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "images": [],
+        "image_count": 0,
+        "tables": 0,
+        "supademo_count": 1,
+        "external_links": [],
+        "external_link_count": 0,
+        "internal_doc_refs": 3,
+        "char_len": 2893
+      },
+      "mint": {
+        "page_id": "ExtNsT3AC/DPAandGDPR",
+        "mint_path": "ExtNsT3AC/DPAandGDPR/Index.md",
+        "title": "Data Processing Agreement (DPA) & General Data Protection Regulation (GDPR)",
+        "headings": [
+          "Save Chatbot History",
+          "Data Processing Agreement (DPA) Considerations"
+        ],
+        "heading_count": 2,
+        "callouts": 1,
+        "callout_types": [
+          "Note"
+        ],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 1,
+        "external_link_count": 0,
+        "char_len": 2426
+      }
+    },
+    {
       "page_id": "extnst3ac/featureguide",
       "status": "MIGRATED_CORRECTLY",
       "issues": [],
@@ -23240,8 +23262,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 6,
-        "external_link_count": 6,
-        "char_len": 6644
+        "external_link_count": 0,
+        "char_len": 6440
       }
     },
     {
@@ -23343,9 +23365,9 @@
       "rst": {
         "page_id": "ExtNsT3AC/FeatureGuide/Chatbot",
         "src_path": "docs/docs/ExtNsT3AC/FeatureGuide/Chatbot/Index.rst",
-        "title": "Chabot Features",
+        "title": "Chatbot Features",
         "headings": [
-          "Chabot Features",
+          "Chatbot Features",
           "Configuration",
           "AI Prompts",
           "Customization",
@@ -23375,14 +23397,15 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 2,
-        "char_len": 6689
+        "char_len": 8308
       },
       "mint": {
         "page_id": "ExtNsT3AC/FeatureGuide/Chatbot",
         "mint_path": "ExtNsT3AC/FeatureGuide/Chatbot/Index.md",
-        "title": "Chabot Features",
+        "title": "Chatbot Features",
         "headings": [
           "Configuration",
+          "Settings {#t3ac-save-chatbot-history}",
           "AI Prompts",
           "Customization",
           "General",
@@ -23397,7 +23420,7 @@
           "Basic Authentication Support",
           "Configurable Database Chunking for various types of Dataset Processing"
         ],
-        "heading_count": 14,
+        "heading_count": 15,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 1,
@@ -23406,7 +23429,7 @@
         "table_rows": 0,
         "supademo_count": 2,
         "external_link_count": 0,
-        "char_len": 5672
+        "char_len": 7235
       }
     },
     {
@@ -23480,20 +23503,22 @@
           "Sync",
           "Scheduler",
           "Command ``nst3af:training`` \u2014 all options",
-          "Extension settings used by training (AI Foundation -> AI Features)"
+          "Extension settings used by training (AI Foundation -> AI Features)",
+          "Command ``t3af:history:cleanup`` \u2014 history log cleanup"
         ],
-        "heading_count": 15,
+        "heading_count": 16,
         "callouts": 0,
         "callout_types": [],
-        "code_blocks": 1,
+        "code_blocks": 2,
         "images": [
           "Images/manage-source-groups.png",
           "Images/page-level-source-groups.png",
           "Images/header-footer-index.png",
           "Images/CLI01.png",
-          "Images/CLI02.png"
+          "Images/CLI02.png",
+          "Images/t3af-history-cleanup.png"
         ],
-        "image_count": 5,
+        "image_count": 6,
         "tables": 0,
         "supademo_count": 2,
         "external_links": [
@@ -23501,7 +23526,7 @@
         ],
         "external_link_count": 1,
         "internal_doc_refs": 0,
-        "char_len": 14189
+        "char_len": 15678
       },
       "mint": {
         "page_id": "ExtNsT3AC/FeatureGuide/DataSource",
@@ -23519,9 +23544,10 @@
           "Practical Example",
           "Header / Footer for Sitemap and Web-Page Source Types",
           "Sync",
-          "Scheduler"
+          "Scheduler",
+          "Command `t3af:history:cleanup` \u2014 history log cleanup {#t3as-history-cleanup}"
         ],
-        "heading_count": 12,
+        "heading_count": 13,
         "callouts": 6,
         "callout_types": [
           "Note",
@@ -23531,13 +23557,13 @@
           "Info",
           "Note"
         ],
-        "code_blocks": 1,
-        "image_count": 5,
+        "code_blocks": 2,
+        "image_count": 6,
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 2,
         "external_link_count": 1,
-        "char_len": 12872
+        "char_len": 14410
       }
     },
     {
@@ -23626,8 +23652,8 @@
         "supademo_count": 1,
         "external_links": [],
         "external_link_count": 0,
-        "internal_doc_refs": 0,
-        "char_len": 1455
+        "internal_doc_refs": 1,
+        "char_len": 1868
       },
       "mint": {
         "page_id": "ExtNsT3AC/FeatureGuide/UsageAnalytics",
@@ -23649,7 +23675,7 @@
         "table_rows": 0,
         "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1090
+        "char_len": 1555
       }
     },
     {
@@ -23789,12 +23815,15 @@
         "title": "Known Problems",
         "headings": [
           "Known Problems",
+          "Streaming chatbot response does not work (T3AC 14.2.2 or older)",
+          "Cause",
+          "Workaround (14.2.2 or older)",
           "Report a Problem"
         ],
-        "heading_count": 2,
+        "heading_count": 5,
         "callouts": 0,
         "callout_types": [],
-        "code_blocks": 0,
+        "code_blocks": 4,
         "images": [],
         "image_count": 0,
         "tables": 0,
@@ -23802,25 +23831,31 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 0,
-        "char_len": 264
+        "char_len": 2230
       },
       "mint": {
         "page_id": "ExtNsT3AC/KnownProblems",
         "mint_path": "ExtNsT3AC/KnownProblems/Index.md",
         "title": "Known Problems",
         "headings": [
+          "Streaming chatbot response does not work (T3AC 14.2.2 or older)",
+          "Cause",
+          "Workaround (14.2.2 or older)",
           "Report a Problem"
         ],
-        "heading_count": 1,
-        "callouts": 0,
-        "callout_types": [],
-        "code_blocks": 0,
+        "heading_count": 4,
+        "callouts": 2,
+        "callout_types": [
+          "Note",
+          "Tip"
+        ],
+        "code_blocks": 4,
         "image_count": 0,
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 0,
-        "char_len": 171
+        "external_link_count": 1,
+        "char_len": 1962
       }
     },
     {
@@ -24102,7 +24137,7 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 0,
-        "char_len": 227
+        "char_len": 228
       },
       "mint": {
         "page_id": "ExtNsT3AC/UpdateVersion",
@@ -24148,7 +24183,7 @@
       "mint": {
         "page_id": "ExtNsT3AF",
         "mint_path": "ExtNsT3AF/Index.md",
-        "title": "T3AF",
+        "title": "AI Foundation",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -24329,7 +24364,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2223
+        "char_len": 2229
       }
     },
     {
@@ -24430,7 +24465,7 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 8,
-        "char_len": 4943
+        "char_len": 4970
       },
       "mint": {
         "page_id": "ExtNsT3AF/Configuration",
@@ -24446,10 +24481,11 @@
           "HTTP Basic Auth (optional)",
           "MCP Server",
           "Per-feature providers",
+          "AI Label",
           "Security checklist",
           "When to reconfigure"
         ],
-        "heading_count": 11,
+        "heading_count": 12,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
@@ -24458,7 +24494,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 3454
+        "char_len": 3752
       }
     },
     {
@@ -24583,6 +24619,92 @@
         "supademo_count": 0,
         "external_link_count": 4,
         "char_len": 2828
+      }
+    },
+    {
+      "page_id": "extnst3af/configuration/ailabel",
+      "status": "MIGRATED_CORRECTLY",
+      "issues": [],
+      "rst": {
+        "page_id": "ExtNsT3AF/Configuration/AiLabel",
+        "src_path": "docs/docs/ExtNsT3AF/Configuration/AiLabel/Index.rst",
+        "title": "AI Label",
+        "headings": [
+          "AI Label",
+          "Purpose",
+          "Who uses it",
+          "Module layout",
+          "Overview tab",
+          "Media tab",
+          "Texts tab",
+          "Settings tab",
+          "Frontend label appearance",
+          "Machine-readable marking and rules",
+          "Automatic confirmation",
+          "Record drawer fields",
+          "Bulk actions",
+          "Evidence export",
+          "How records get AI metadata",
+          "Activate visitor labels (text vs media)",
+          "Prerequisite (both domains)",
+          "Media (files / ``sys_file_metadata``)",
+          "Text (pages / content elements)",
+          "Quick checklist",
+          "Frontend labels",
+          "TCA integration",
+          "Security & permissions"
+        ],
+        "heading_count": 23,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "images": [],
+        "image_count": 0,
+        "tables": 4,
+        "supademo_count": 1,
+        "external_links": [],
+        "external_link_count": 0,
+        "internal_doc_refs": 4,
+        "char_len": 15242
+      },
+      "mint": {
+        "page_id": "ExtNsT3AF/Configuration/AILabel",
+        "mint_path": "ExtNsT3AF/Configuration/AILabel/Index.md",
+        "title": "AI Label",
+        "headings": [
+          "Purpose",
+          "Who uses it",
+          "Module layout",
+          "Overview tab",
+          "Media tab",
+          "Texts tab",
+          "Settings tab",
+          "Frontend label appearance",
+          "Machine-readable marking and rules",
+          "Automatic confirmation",
+          "Record drawer fields",
+          "Bulk actions",
+          "Evidence export",
+          "How records get AI metadata",
+          "Activate visitor labels (text vs media) {#activate-visitor-labels-text-vs-media}",
+          "Prerequisite (both domains)",
+          "Media (files / `sys_file_metadata`)",
+          "Text (pages / content elements)",
+          "Quick checklist",
+          "Frontend labels {#frontend-labels}",
+          "TCA integration",
+          "Security & permissions"
+        ],
+        "heading_count": 22,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 1,
+        "table_rows": 26,
+        "supademo_count": 1,
+        "external_link_count": 0,
+        "char_len": 13569
       }
     },
     {
@@ -25695,7 +25817,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2904
+        "char_len": 2910
       }
     },
     {
@@ -26262,7 +26384,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 1,
-        "char_len": 2247
+        "char_len": 2253
       }
     },
     {
@@ -26654,12 +26776,15 @@
         "mint_path": "ExtNsT3AF/T3Planet-Credit-System/Index.md",
         "title": "T3Planet Credits",
         "headings": [
-          "Purpose",
-          "What you get",
-          "What\u2019s covered",
+          "What it is",
+          "What it is not",
+          "BYOK vs T3Planet Credits",
+          "Licensing and billing",
+          "Where to configure it",
+          "What's covered",
           "When to use it"
         ],
-        "heading_count": 4,
+        "heading_count": 7,
         "callouts": 1,
         "callout_types": [
           "Note"
@@ -26670,7 +26795,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 1666
+        "char_len": 2554
       }
     },
     {
@@ -27514,7 +27639,7 @@
       "mint": {
         "page_id": "ExtNsT3AI",
         "mint_path": "ExtNsT3AI/Index.md",
-        "title": "T3AI \u2014 TYPO3 AI Extension",
+        "title": "AI Assistant",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -27525,7 +27650,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 3038
+        "char_len": 3016
       }
     },
     {
@@ -27838,7 +27963,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 1,
-        "char_len": 210
+        "char_len": 652
       }
     },
     {
@@ -28479,12 +28604,12 @@
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
-        "image_count": 2,
+        "image_count": 1,
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 21,
-        "external_link_count": 1,
-        "char_len": 16144
+        "external_link_count": 0,
+        "char_len": 16039
       }
     },
     {
@@ -28581,8 +28706,8 @@
         "title": "Translation",
         "headings": [
           "Translation",
-          "Mass Translation",
-          "One-Clck Page Translations",
+          "Manage Mass Translation",
+          "One-Click Page Translations",
           "Translate Pages",
           "News Translation",
           "Records TCA Translation",
@@ -28594,17 +28719,19 @@
           "Recursive Mass-Translate",
           "Auto re-Translate Page",
           "Language Glossary",
+          "DeepL Official Glossary",
           "Activate Translated Content",
           "Auto Activate All Content Elements",
           "How to Enable",
           "FlexForm field keys to skip from AI translation (comma-separated)"
         ],
-        "heading_count": 18,
+        "heading_count": 19,
         "callouts": 0,
         "callout_types": [],
-        "code_blocks": 3,
+        "code_blocks": 4,
         "images": [
           "Images/MaskElement_L10NConfigurtion.png",
+          "Images/mass_translation_scheduler_limit.png",
           "Images/Backend_Image.png",
           "Images/Frontend_without_Preview.png",
           "Images/Backend_Image.png",
@@ -28612,16 +28739,16 @@
           "Images/Frontend_without_Preview.png",
           "Images/activate.png"
         ],
-        "image_count": 7,
+        "image_count": 8,
         "tables": 0,
-        "supademo_count": 14,
+        "supademo_count": 15,
         "external_links": [
           "https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/FlexForms/Index.html",
           "https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/FlexForms/Index.html"
         ],
         "external_link_count": 2,
         "internal_doc_refs": 0,
-        "char_len": 21994
+        "char_len": 26076
       },
       "mint": {
         "page_id": "ExtNsT3AI/Translation",
@@ -28629,7 +28756,8 @@
         "title": "Translation",
         "headings": [
           "Mass Translation",
-          "One-Clck Page Translations",
+          "Manage Mass Translation",
+          "One-Click Page Translations",
           "Translate Pages",
           "News Translation",
           "Records TCA Translation",
@@ -28641,25 +28769,29 @@
           "Recursive Mass-Translate",
           "Auto re-Translate Page",
           "Language Glossary",
+          "DeepL Official Glossary",
           "Activate Translated Content",
+          "Auto Activate All Content Elements",
+          "How to Enable",
           "Interactive demos"
         ],
-        "heading_count": 15,
-        "callouts": 5,
+        "heading_count": 19,
+        "callouts": 6,
         "callout_types": [
+          "Note",
           "Note",
           "Note",
           "Note",
           "Note",
           "Note"
         ],
-        "code_blocks": 3,
-        "image_count": 7,
+        "code_blocks": 4,
+        "image_count": 9,
         "tables": 0,
         "table_rows": 0,
-        "supademo_count": 21,
+        "supademo_count": 23,
         "external_link_count": 1,
-        "char_len": 18599
+        "char_len": 22649
       }
     },
     {
@@ -28864,7 +28996,7 @@
       "mint": {
         "page_id": "ExtNsT3AL",
         "mint_path": "ExtNsT3AL/Index.md",
-        "title": "NS T3AL",
+        "title": "AI Localization",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -28875,7 +29007,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2473
+        "char_len": 2451
       }
     },
     {
@@ -29313,7 +29445,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 1021
+        "char_len": 1023
       }
     },
     {
@@ -29686,12 +29818,12 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 0,
-        "char_len": 520
+        "char_len": 540
       },
       "mint": {
         "page_id": "ExtNsT3AS",
         "mint_path": "ExtNsT3AS/Index.md",
-        "title": "T3AS \u2014 TYPO3 AI Search",
+        "title": "AI Search",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -29702,7 +29834,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 3074
+        "char_len": 3131
       }
     },
     {
@@ -29813,6 +29945,7 @@
           "Scheduler",
           "Command ``nst3af:training`` \u2014 all options",
           "Extension settings used by training (AI Foundation -> AI Features)",
+          "Command ``t3af:history:cleanup`` \u2014 history log cleanup",
           "4.Training Center",
           "5. Search tab",
           "6. Usage Analytics",
@@ -29827,23 +29960,29 @@
           "Additional Fields Support",
           "Using ke_search and indexed_search",
           "Injecting AI Search result in TYPO3 Search Extensions",
+          "ke_search",
+          "indexed_search",
+          "Solr",
           "Enable AI Search plugin using TypoScript"
         ],
-        "heading_count": 30,
+        "heading_count": 34,
         "callouts": 0,
         "callout_types": [],
-        "code_blocks": 3,
+        "code_blocks": 4,
         "images": [
           "Images/manage-source-groups.png",
           "Images/page-level-source-groups.png",
           "Images/header-footer-index.png",
           "Images/CLI01.png",
           "Images/CLI02.png",
+          "Images/t3af-history-cleanup.png",
           "Images/solr_host.png",
-          "Images/extend.png"
+          "Images/extend.png",
+          "Images/inject-indexed-search.png",
+          "Images/inject-solr.png"
         ],
-        "image_count": 7,
-        "tables": 0,
+        "image_count": 10,
+        "tables": 1,
         "supademo_count": 17,
         "external_links": [
           "https://docs.typo3.org/c/typo3/cms-scheduler/13.4/en-us/Administration/ConsoleTools/Running.html",
@@ -29852,7 +29991,7 @@
         ],
         "external_link_count": 3,
         "internal_doc_refs": 13,
-        "char_len": 47749
+        "char_len": 52407
       },
       "mint": {
         "page_id": "ExtNsT3AS/Configuration",
@@ -29880,7 +30019,12 @@
           "Adjust PHP Timeout During Training",
           "3. **Retrain Scheduler** \u2013 Updates the model with new or changed content.",
           "4. **Clear Logs Scheduler** \u2013 Cleans up old logs to maintain performance.",
-          "Injecting AI Search result in TYPO3 Search Extensions",
+          "Injecting AI Search result in TYPO3 Search Extensions {#inject-ai-search-results}",
+          "Search Class values",
+          "Fluid injection snippet",
+          "ke_search",
+          "indexed_search",
+          "Solr",
           "Enable AI Search plugin using TypoScript",
           "T3AS History Logs",
           "Interactive demos",
@@ -29912,8 +30056,9 @@
           "How to run the scheduler task",
           "What happens after running the command?",
           "Example output",
+          "Command `t3af:history:cleanup` \u2014 history log cleanup {#t3as-history-cleanup}",
           "4.Training Center",
-          "5. Search tab",
+          "5. Search tab {#t3as-search-global-settings}",
           "6. Usage Analytics",
           "7. AILogs",
           "8. AI Statistics",
@@ -29922,7 +30067,7 @@
           "Command `nst3af:training` \u2014 all options",
           "Extension settings used by training (AI Foundation -> AI Features)"
         ],
-        "heading_count": 62,
+        "heading_count": 68,
         "callouts": 17,
         "callout_types": [
           "Note",
@@ -29943,13 +30088,13 @@
           "Note",
           "Note"
         ],
-        "code_blocks": 9,
-        "image_count": 18,
-        "tables": 0,
-        "table_rows": 0,
+        "code_blocks": 10,
+        "image_count": 21,
+        "tables": 1,
+        "table_rows": 5,
         "supademo_count": 18,
         "external_link_count": 5,
-        "char_len": 49010
+        "char_len": 53208
       }
     },
     {
@@ -30167,6 +30312,56 @@
       }
     },
     {
+      "page_id": "extnst3as/dpaandgdpr",
+      "status": "MIGRATED_CORRECTLY",
+      "issues": [],
+      "rst": {
+        "page_id": "ExtNsT3AS/DPAandGDPR",
+        "src_path": "docs/docs/ExtNsT3AS/DPAandGDPR/Index.rst",
+        "title": "Data Processing Agreement (DPA) & General Data Protection Regulation (GDPR)",
+        "headings": [
+          "Data Processing Agreement (DPA) & General Data Protection Regulation (GDPR)",
+          "Save Search History",
+          "Data Processing Agreement (DPA) Considerations",
+          "Data Processing Agreement (DPA) Questions"
+        ],
+        "heading_count": 4,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "images": [],
+        "image_count": 0,
+        "tables": 0,
+        "supademo_count": 1,
+        "external_links": [],
+        "external_link_count": 0,
+        "internal_doc_refs": 3,
+        "char_len": 3072
+      },
+      "mint": {
+        "page_id": "ExtNsT3AS/DPAandGDPR",
+        "mint_path": "ExtNsT3AS/DPAandGDPR/Index.md",
+        "title": "Data Processing Agreement (DPA) & General Data Protection Regulation (GDPR)",
+        "headings": [
+          "Save Search History",
+          "Data Processing Agreement (DPA) Considerations",
+          "Data Processing Agreement (DPA) Questions"
+        ],
+        "heading_count": 3,
+        "callouts": 1,
+        "callout_types": [
+          "Note"
+        ],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 1,
+        "external_link_count": 0,
+        "char_len": 2560
+      }
+    },
+    {
       "page_id": "extnst3as/frontendplugin",
       "status": "MIGRATED_CORRECTLY",
       "issues": [],
@@ -30365,12 +30560,15 @@
         "title": "Known Problems",
         "headings": [
           "Known Problems",
+          "Streaming search response does not work (T3AS 14.2.2 or older)",
+          "Cause",
+          "Workaround (14.2.2 or older)",
           "Report a Problem"
         ],
-        "heading_count": 2,
+        "heading_count": 5,
         "callouts": 0,
         "callout_types": [],
-        "code_blocks": 0,
+        "code_blocks": 4,
         "images": [],
         "image_count": 0,
         "tables": 0,
@@ -30378,25 +30576,31 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 0,
-        "char_len": 264
+        "char_len": 2207
       },
       "mint": {
         "page_id": "ExtNsT3AS/KnownProblems",
         "mint_path": "ExtNsT3AS/KnownProblems/Index.md",
         "title": "Known Problems",
         "headings": [
+          "Streaming search response does not work (T3AS 14.2.2 or older)",
+          "Cause",
+          "Workaround (14.2.2 or older)",
           "Report a Problem"
         ],
-        "heading_count": 1,
-        "callouts": 0,
-        "callout_types": [],
-        "code_blocks": 0,
+        "heading_count": 4,
+        "callouts": 2,
+        "callout_types": [
+          "Note",
+          "Tip"
+        ],
+        "code_blocks": 4,
         "image_count": 0,
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 0,
-        "char_len": 171
+        "external_link_count": 1,
+        "char_len": 1940
       }
     },
     {
@@ -30782,7 +30986,7 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 0,
-        "char_len": 227
+        "char_len": 228
       },
       "mint": {
         "page_id": "ExtNsT3AS/UpdateVersion",
@@ -30871,7 +31075,7 @@
       "mint": {
         "page_id": "ExtNsTimeLine",
         "mint_path": "ExtNsTimeLine/Index.md",
-        "title": "NS Timeline",
+        "title": "Timeline",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -31195,7 +31399,7 @@
       "mint": {
         "page_id": "ExtNsTwitter",
         "mint_path": "ExtNsTwitter/Index.md",
-        "title": "NS Twitter",
+        "title": "Twitter",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -31531,7 +31735,7 @@
       "mint": {
         "page_id": "ExtNsWhatsapp",
         "mint_path": "ExtNsWhatsapp/Index.md",
-        "title": "NS Whatsapp",
+        "title": "Whatsapp",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -31689,7 +31893,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2343
+        "char_len": 2344
       }
     },
     {
@@ -31861,7 +32065,7 @@
       "mint": {
         "page_id": "ExtNsWpMigration",
         "mint_path": "ExtNsWpMigration/Index.md",
-        "title": "NS Wp Migration",
+        "title": "Wp Migration",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -32208,7 +32412,7 @@
       "mint": {
         "page_id": "ExtNsYoutube",
         "mint_path": "ExtNsYoutube/Index.md",
-        "title": "NS Youtube",
+        "title": "Youtube",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -32539,7 +32743,7 @@
       "mint": {
         "page_id": "ExtNsZoho",
         "mint_path": "ExtNsZoho/Index.md",
-        "title": "NS Zoho",
+        "title": "Zoho",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -32862,7 +33066,7 @@
       "mint": {
         "page_id": "EXTNsZohoCrm",
         "mint_path": "EXTNsZohoCrm/Index.md",
-        "title": "NS Zoho CRM",
+        "title": "Zoho CRM",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -33188,7 +33392,7 @@
       "mint": {
         "page_id": "EXTReactBootstrap",
         "mint_path": "EXTReactBootstrap/Index.md",
-        "title": "T3 ReactBootstrap",
+        "title": "ReactBootstrap",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -33476,8 +33680,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 7,
-        "char_len": 2861
+        "external_link_count": 3,
+        "char_len": 2726
       }
     },
     {
@@ -33740,7 +33944,7 @@
       "mint": {
         "page_id": "EXTReva",
         "mint_path": "EXTReva/Index.md",
-        "title": "T3 Reva",
+        "title": "Reva",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -33751,7 +33955,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2951
+        "char_len": 2928
       }
     },
     {
@@ -34074,8 +34278,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 6,
-        "char_len": 2585
+        "external_link_count": 2,
+        "char_len": 2450
       }
     },
     {
@@ -34402,7 +34606,7 @@
       "mint": {
         "page_id": "ExtRTECKEditorPack",
         "mint_path": "ExtRTECKEditorPack/Index.md",
-        "title": "NS CKEditor Pack",
+        "title": "CKEditor Pack",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -35264,7 +35468,7 @@
       "mint": {
         "page_id": "EXTShiva",
         "mint_path": "EXTShiva/Index.md",
-        "title": "T3 Shiva",
+        "title": "Shiva",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -35275,7 +35479,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 2973
+        "char_len": 2950
       }
     },
     {
@@ -35597,8 +35801,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 5,
-        "char_len": 2552
+        "external_link_count": 2,
+        "char_len": 2451
       }
     },
     {
@@ -35810,8 +36014,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 10,
-        "char_len": 4973
+        "external_link_count": 6,
+        "char_len": 4409
       }
     },
     {
@@ -35925,7 +36129,7 @@
       "mint": {
         "page_id": "EXTShop",
         "mint_path": "EXTShop/Index.md",
-        "title": "T3 Shop",
+        "title": "Shop",
         "headings": [],
         "heading_count": 0,
         "callouts": 0,
@@ -35936,7 +36140,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 1993
+        "char_len": 1970
       }
     },
     {
@@ -36433,8 +36637,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 0,
-        "external_link_count": 2,
-        "char_len": 8153
+        "external_link_count": 1,
+        "char_len": 8119
       }
     },
     {
@@ -37052,6 +37256,466 @@
       }
     },
     {
+      "page_id": "exttypotonic",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic",
+        "mint_path": "ExtTypoTonic/Index.md",
+        "title": "TypoTonic",
+        "headings": [],
+        "heading_count": 0,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 840
+      }
+    },
+    {
+      "page_id": "exttypotonic/faq",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/FAQ",
+        "mint_path": "ExtTypoTonic/FAQ/Index.md",
+        "title": "FAQ",
+        "headings": [
+          "General",
+          "What is TypoTonic?",
+          "What can I use TypoTonic for?",
+          "Installation and Compatibility",
+          "How do I install TypoTonic?",
+          "Templates and Rendering",
+          "How do I use my own templates?",
+          "Didn't find your question?"
+        ],
+        "heading_count": 8,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 1322
+      }
+    },
+    {
+      "page_id": "exttypotonic/frontendplugins",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/FrontendPlugins",
+        "mint_path": "ExtTypoTonic/FrontendPlugins/Index.md",
+        "title": "Frontend Plugins",
+        "headings": [],
+        "heading_count": 0,
+        "callouts": 1,
+        "callout_types": [
+          "Note"
+        ],
+        "code_blocks": 0,
+        "image_count": 1,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 620
+      }
+    },
+    {
+      "page_id": "exttypotonic/frontendplugins/displayrecordsplugin",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin",
+        "mint_path": "ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index.md",
+        "title": "Display Records Plugin",
+        "headings": [
+          "Configuration",
+          "Plugin Type",
+          "Datatype",
+          "Record",
+          "Page for Detail View",
+          "Record Storage Page",
+          "Field/Value Filter Settings",
+          "Repository Settings",
+          "Template Settings",
+          "Overrides",
+          "Developer Settings"
+        ],
+        "heading_count": 11,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 1,
+        "image_count": 3,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 4009
+      }
+    },
+    {
+      "page_id": "exttypotonic/gettingstarted",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/GettingStarted",
+        "mint_path": "ExtTypoTonic/GettingStarted/Index.md",
+        "title": "Getting Started",
+        "headings": [],
+        "heading_count": 0,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 412
+      }
+    },
+    {
+      "page_id": "exttypotonic/gettingstarted/creatingadatatype",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/GettingStarted/CreatingADatatype",
+        "mint_path": "ExtTypoTonic/GettingStarted/CreatingADatatype/Index.md",
+        "title": "Creating a Datatype",
+        "headings": [
+          "Tab: General",
+          "Tab: Fields",
+          "Tab: Tab Configuration",
+          "Tab: Appearance",
+          "Next Step"
+        ],
+        "heading_count": 5,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 2,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 2326
+      }
+    },
+    {
+      "page_id": "exttypotonic/gettingstarted/creatingafield",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/GettingStarted/CreatingAField",
+        "mint_path": "ExtTypoTonic/GettingStarted/CreatingAField/Index.md",
+        "title": "Creating a Field",
+        "headings": [
+          "Tab: General",
+          "Tab: Frontend Settings",
+          "Tab: Backend Settings",
+          "Tab: Database Settings",
+          "Tab: Field Values",
+          "Tab: Display Conditions",
+          "Next Step"
+        ],
+        "heading_count": 7,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 3,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 4007
+      }
+    },
+    {
+      "page_id": "exttypotonic/gettingstarted/creatingatemplatevariable",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/GettingStarted/CreatingATemplateVariable",
+        "mint_path": "ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index.md",
+        "title": "Creating a Template Variable",
+        "headings": [
+          "Configuration",
+          "Available Types",
+          "Typical Use Cases",
+          "GET and POST Variables",
+          "Next Step"
+        ],
+        "heading_count": 5,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 2,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 2668
+      }
+    },
+    {
+      "page_id": "exttypotonic/gettingstarted/templating",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/GettingStarted/Templating",
+        "mint_path": "ExtTypoTonic/GettingStarted/Templating/Index.md",
+        "title": "Templating",
+        "headings": [
+          "Namespace",
+          "Available Variables",
+          "Predefining Templates in TypoScript",
+          "Next Step"
+        ],
+        "heading_count": 4,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 3,
+        "image_count": 1,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 2161
+      }
+    },
+    {
+      "page_id": "exttypotonic/installation",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/Installation",
+        "mint_path": "ExtTypoTonic/Installation/Index.md",
+        "title": "Installation",
+        "headings": [
+          "Step 1 - Install the Extension",
+          "Step 2 - Include the Static Template",
+          "Step 3 - Clear the Caches",
+          "Additional Configuration",
+          "Predefine Templates in TypoScript",
+          "Toolbar Item (Professional Feature)",
+          "Frontend Record Editing (Professional Feature)",
+          "Add Record Creation Buttons to the DocHeader",
+          "Next Steps"
+        ],
+        "heading_count": 9,
+        "callouts": 2,
+        "callout_types": [
+          "Note",
+          "Note"
+        ],
+        "code_blocks": 4,
+        "image_count": 6,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 1,
+        "char_len": 3952
+      }
+    },
+    {
+      "page_id": "exttypotonic/introduction",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/Introduction",
+        "mint_path": "ExtTypoTonic/Introduction/Index.md",
+        "title": "Introduction",
+        "headings": [
+          "What This Extension Does",
+          "What You Can Build",
+          "Highlights",
+          "How It Works",
+          "TypoTonic Professional",
+          "Helpful Links"
+        ],
+        "heading_count": 6,
+        "callouts": 2,
+        "callout_types": [
+          "Note",
+          "Note"
+        ],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 2,
+        "char_len": 3334
+      }
+    },
+    {
+      "page_id": "exttypotonic/screenshots",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/Screenshots",
+        "mint_path": "ExtTypoTonic/Screenshots/Index.md",
+        "title": "Screenshots",
+        "headings": [
+          "Creating Datatypes",
+          "Field Configuration",
+          "Display Records Plugin",
+          "Editing Records"
+        ],
+        "heading_count": 4,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 11,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 1231
+      }
+    },
+    {
+      "page_id": "exttypotonic/support",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/Support",
+        "mint_path": "ExtTypoTonic/Support/Index.md",
+        "title": "Support",
+        "headings": [
+          "For TYPO3 Integration Questions",
+          "For Extension or Professional Version Questions"
+        ],
+        "heading_count": 2,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 1,
+        "char_len": 692
+      }
+    },
+    {
+      "page_id": "exttypotonic/typotonicprofessional",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/TypoTonicProfessional",
+        "mint_path": "ExtTypoTonic/TypoTonicProfessional/Index.md",
+        "title": "TypoTonic Professional",
+        "headings": [
+          "What It Adds",
+          "TypoTonic Components",
+          "Component 'API'",
+          "TypoTonic Fields",
+          "Field 'Content'",
+          "Field 'Fluid'",
+          "Field 'User'"
+        ],
+        "heading_count": 7,
+        "callouts": 1,
+        "callout_types": [
+          "Note"
+        ],
+        "code_blocks": 0,
+        "image_count": 3,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 2,
+        "char_len": 2104
+      }
+    },
+    {
+      "page_id": "exttypotonic/viewhelpers",
+      "status": "INTENTIONALLY_ADDED",
+      "issues": [
+        "No RST source found for this Mintlify page (review manually)."
+      ],
+      "rst": null,
+      "mint": {
+        "page_id": "ExtTypoTonic/ViewHelpers",
+        "mint_path": "ExtTypoTonic/ViewHelpers/Index.md",
+        "title": "ViewHelpers",
+        "headings": [
+          "Template.RenderViewHelper",
+          "Datatype.GetViewHelper",
+          "Record.GetViewHelper",
+          "Link.RecordViewHelper",
+          "Uri.RecordViewHelper",
+          "Filter.RecordsViewHelper",
+          "Basic filter structure",
+          "Each filter rule",
+          "Operators",
+          "Group.RecordsByPropertyViewHelper"
+        ],
+        "heading_count": 10,
+        "callouts": 0,
+        "callout_types": [],
+        "code_blocks": 8,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 0,
+        "external_link_count": 0,
+        "char_len": 4281
+      }
+    },
+    {
       "page_id": "history",
       "status": "REVIEWED_OK",
       "issues": [
@@ -37115,7 +37779,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 7434
+        "char_len": 8356
       }
     },
     {
@@ -37140,7 +37804,7 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 0,
-        "char_len": 460
+        "char_len": 481
       },
       "mint": {
         "page_id": "License",
@@ -37156,7 +37820,69 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 0,
-        "char_len": 1073
+        "char_len": 1153
+      }
+    },
+    {
+      "page_id": "license/alllicenses",
+      "status": "MIGRATED_CORRECTLY",
+      "issues": [],
+      "rst": {
+        "page_id": "License/AllLicenses",
+        "src_path": "docs/docs/License/AllLicenses/Index.rst",
+        "title": "All Licenses in T3Planet Shop",
+        "headings": [
+          "All Licenses in T3Planet Shop",
+          "Purpose",
+          "Demo",
+          "Open All Licenses",
+          "Verify your email",
+          "View assigned domains",
+          "Export, search, and refresh",
+          "Sort the license table",
+          "Result"
+        ],
+        "heading_count": 9,
+        "callouts": 1,
+        "callout_types": [
+          "note"
+        ],
+        "code_blocks": 0,
+        "images": [],
+        "image_count": 0,
+        "tables": 0,
+        "supademo_count": 1,
+        "external_links": [],
+        "external_link_count": 0,
+        "internal_doc_refs": 0,
+        "char_len": 2458
+      },
+      "mint": {
+        "page_id": "License/AllLicenses",
+        "mint_path": "License/AllLicenses/Index.md",
+        "title": "All Licenses in T3Planet Shop",
+        "headings": [
+          "Purpose",
+          "Demo",
+          "Open All Licenses",
+          "Verify your email",
+          "View assigned domains",
+          "Export, search, and refresh",
+          "Sort the license table",
+          "Result"
+        ],
+        "heading_count": 8,
+        "callouts": 1,
+        "callout_types": [
+          "Note"
+        ],
+        "code_blocks": 0,
+        "image_count": 0,
+        "tables": 0,
+        "table_rows": 0,
+        "supademo_count": 1,
+        "external_link_count": 0,
+        "char_len": 1969
       }
     },
     {
@@ -37212,7 +37938,7 @@
         "table_rows": 0,
         "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1270
+        "char_len": 1253
       }
     },
     {
@@ -37362,18 +38088,16 @@
         "external_links": [],
         "external_link_count": 0,
         "internal_doc_refs": 1,
-        "char_len": 968
+        "char_len": 1021
       },
       "mint": {
         "page_id": "License/Introduction",
         "mint_path": "License/Introduction/Index.md",
         "title": "Introduction",
         "headings": [
-          "About This Documentation",
-          "How to Get License Key?",
-          "Sample License Email"
+          "Sample license email"
         ],
-        "heading_count": 3,
+        "heading_count": 1,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
@@ -37382,7 +38106,7 @@
         "table_rows": 0,
         "supademo_count": 0,
         "external_link_count": 1,
-        "char_len": 776
+        "char_len": 968
       }
     },
     {
@@ -37421,15 +38145,13 @@
         "title": "License Activation",
         "headings": [
           "Install via Extension Manager",
+          "Create and Get your License Key (Interactive Demo)",
           "Install via Composer",
           "Multiple Extensions Installation via Composer",
           "Adding More Extensions (Up to 99)",
-          "License Migration from Free Trial to Premium",
-          "Interactive demos",
-          "Additional content from live docs",
-          "Create and Get your License Key (Interactive Demo)"
+          "License Migration from Free Trial to Premium"
         ],
-        "heading_count": 8,
+        "heading_count": 6,
         "callouts": 3,
         "callout_types": [
           "Note",
@@ -37441,8 +38163,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 1,
-        "external_link_count": 1,
-        "char_len": 5858
+        "external_link_count": 2,
+        "char_len": 6403
       }
     },
     {
@@ -37478,22 +38200,21 @@
         "mint_path": "License/LicenseDeActivation/Index.md",
         "title": "License De-Activation",
         "headings": [
-          "License De-Activation",
           "Why De-Activate License Key?",
           "How to De-Activate License Key?"
         ],
-        "heading_count": 3,
+        "heading_count": 2,
         "callouts": 1,
         "callout_types": [
           "Warning"
         ],
         "code_blocks": 0,
-        "image_count": 2,
+        "image_count": 0,
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1469
+        "char_len": 1217
       }
     },
     {
@@ -37530,7 +38251,7 @@
       "mint": {
         "page_id": "License/LicenseManager",
         "mint_path": "License/LicenseManager/Index.md",
-        "title": "Using License Key in T3Planet License",
+        "title": "Using License Key in T3Planet Shop",
         "headings": [
           "Purpose",
           "Demo",
@@ -37549,7 +38270,7 @@
         "table_rows": 0,
         "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1420
+        "char_len": 1396
       }
     },
     {
@@ -37750,8 +38471,8 @@
         "tables": 0,
         "table_rows": 0,
         "supademo_count": 1,
-        "external_link_count": 0,
-        "char_len": 1096
+        "external_link_count": 1,
+        "char_len": 1025
       }
     },
     {
@@ -37784,10 +38505,9 @@
         "mint_path": "License/RegisterAndManageDomains/Index.md",
         "title": "Register and Manage Domains in License",
         "headings": [
-          "Register and Manage Domains in License",
           "Step-by-step Instructions"
         ],
-        "heading_count": 2,
+        "heading_count": 1,
         "callouts": 0,
         "callout_types": [],
         "code_blocks": 0,
@@ -37796,7 +38516,7 @@
         "table_rows": 0,
         "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1284
+        "char_len": 1204
       }
     },
     {
@@ -37854,7 +38574,7 @@
         "table_rows": 0,
         "supademo_count": 1,
         "external_link_count": 0,
-        "char_len": 1462
+        "char_len": 1426
       }
     },
     {
@@ -38387,23 +39107,39 @@
         "title": "",
         "headings": [
           "T3Planet Docs (Mintlify)",
-          "Stack",
+          "What Mintlify covers",
+          "What this documentation covers",
+          "1. Get started \u2014 License & installation",
+          "2. AI Universe (AI Extensions)",
+          "3. TYPO3 Templates & Themes",
+          "4. TYPO3 Extensions",
+          "How to use the documentation (readers)",
+          "How to work on this repo (authors)",
+          "Prerequisites",
           "Local preview",
-          "Use Node 22 (Node 26+ breaks Mintlify)",
+          "Fast LAN preview (recommended)",
+          "http://127.0.0.1:3000/  or  http://<lan-ip>:3000/",
+          "Add or edit a page",
+          "Page conventions",
+          "Homepage stats (pages & products)",
+          "same as:",
+          "Useful scripts",
           "Important paths",
           "Deploy to Mintlify",
           "License"
         ],
-        "heading_count": 7,
-        "callouts": 0,
-        "callout_types": [],
-        "code_blocks": 1,
+        "heading_count": 21,
+        "callouts": 1,
+        "callout_types": [
+          "Note"
+        ],
+        "code_blocks": 4,
         "image_count": 0,
         "tables": 1,
-        "table_rows": 7,
+        "table_rows": 44,
         "supademo_count": 0,
-        "external_link_count": 2,
-        "char_len": 1211
+        "external_link_count": 8,
+        "char_len": 7671
       }
     },
     {

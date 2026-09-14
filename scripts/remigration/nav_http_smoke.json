@@ -1,0 +1,19 @@
+{
+  "nav": 701,
+  "ok": 699,
+  "failures": [
+    {
+      "path": "/ExtNsT3AF/Configuration/AILabel/Index",
+      "code": 0,
+      "msg": "timed out"
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/AIPermissions/Index",
+      "code": 0,
+      "msg": "timed out"
+    }
+  ],
+  "failures_after_retry": [],
+  "ok_after_retry": 701,
+  "note": "2 transient timeouts on AILabel/AIPermissions retried successfully as HTTP 200"
+}

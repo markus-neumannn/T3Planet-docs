@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-09-14T09:59:45.249040+00:00",
+  "source_root": "/Users/nitsan/www/AI Agents/Mintilify Doc/docs/docs",
+  "compare_counts": {
+    "MATCH": 756,
+    "INTENTIONAL_SKIP": 1
+  },
+  "defects": [],
+  "missing_pages": [],
+  "matrix_counts": {
+    "INTENTIONALLY_ADDED": 61,
+    "MIGRATED_CORRECTLY": 755,
+    "REVIEWED_OK": 2
+  },
+  "http": {
+    "nav_total": 701,
+    "ok": 701,
+    "fail": 0,
+    "all_200": true
+  },
+  "static": {
+    "broken_internal_links": 0,
+    "missing_files": []
+  },
+  "e2e": {
+    "ok": 701
+  },
+  "stats": {
+    "pages": 771,
+    "products": 68,
+    "ai_products": 7,
+    "languages": 2
+  }
+}

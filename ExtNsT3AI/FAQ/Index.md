@@ -11,6 +11,20 @@ sidebarTitle: "FAQ"
 
 ## General FAQ
 
-You can explore product related FAQ at [https://t3planet.de/t3ai-typo3-extension](https://t3planet.de/t3ai-typo3-extension)
+**Is T3AI available as a free TYPO3 extension?**
 
-We are working on other FAQ content, and we will publish soon here.
+No. T3AI is a premium extension. It is not distributed through TER. You can
+evaluate it with the 30-day trial, then activate a production license.
+
+**What does T3AI require to run?**
+
+T3AI requires AI Foundation (`EXT:ns_t3af`), a valid T3AI license, and a
+working AI provider configuration in AI Foundation.
+
+**Which TYPO3 and PHP versions are supported?**
+
+T3AI supports TYPO3 12.4 LTS, 13.4 LTS, and 14.x with PHP 8.2 or higher.
+
+**Where can I learn more about the product?**
+
+Product page: [https://t3planet.de/en/t3ai-typo3-extension](https://t3planet.de/en/t3ai-typo3-extension)

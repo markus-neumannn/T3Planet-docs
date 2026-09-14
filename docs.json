@@ -244,6 +244,7 @@
               "ExtNsT3AC/Installation/Index",
               "ExtNsT3AC/ReInstallEverything/Index",
               "ExtNsT3AC/Configuration/Index",
+              "ExtNsT3AC/DPAandGDPR/Index",
               "ExtNsT3AC/UpdateGuide/Index",
               "ExtNsT3AC/KnownProblems/Index",
               "ExtNsT3AC/Support",
@@ -358,6 +359,7 @@
               "ExtNsT3AS/Installation/Index",
               "ExtNsT3AS/ReInstallEverything/Index",
               "ExtNsT3AS/Configuration/Index",
+              "ExtNsT3AS/DPAandGDPR/Index",
               "ExtNsT3AS/BasicAuthentication/Index",
               "ExtNsT3AS/FrontendPlugin/Index",
               "ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index",
@@ -7352,6 +7354,22 @@
     {
       "source": "/ExtNsFriendlyCaptcha/FAQ/Index.html",
       "destination": "/ExtNsFriendlyCaptcha/FAQ"
+    },
+    {
+      "source": "/ExtNsT3AC/DPAandGDPR/Index.html",
+      "destination": "/ExtNsT3AC/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AC/DPAandGDPR.html",
+      "destination": "/ExtNsT3AC/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AS/DPAandGDPR/Index.html",
+      "destination": "/ExtNsT3AS/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AS/DPAandGDPR.html",
+      "destination": "/ExtNsT3AS/DPAandGDPR/Index"
     }
   ],
   "description": "Official T3Planet documentation for TYPO3 extensions, templates, AI solutions, licensing, and installation guides.",

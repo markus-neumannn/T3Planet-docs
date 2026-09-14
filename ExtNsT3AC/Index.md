@@ -60,6 +60,7 @@ sidebarTitle: "AI Chatbot"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
+  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AC/DPAandGDPR/Index" />
   <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AC/KnownProblems/Index" />
   <Card title="Support" icon="life-buoy" href="/ExtNsT3AC/Support" />
   <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AC/BuyNow" />

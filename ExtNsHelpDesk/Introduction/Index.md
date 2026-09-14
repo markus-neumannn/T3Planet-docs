@@ -18,6 +18,14 @@ sidebarTitle: "Introduction"
 TYPO3 Help Desk extension that helps you balance everything your customers need to be happy. The easiest to use TYPO3 Help Desk & Support Ticket extension allows you to create a support help desk quickly and easily with Support Tickets.
 The TYPO3 Help Desk Extension provides a dedicated support dashboard and portal, rich ticketing system, email notifications, restricted access, file and media uploads. You can also add your own fields to extend the ticket forms using custom fields. It integrates seamlessly to your TYPO3 website, allowing you full control over your support system.
 
+
+<Note>
+From **ns_helpdesk 14.0.0**, the dedicated Helpdesk backend module is removed.
+Include the Helpdesk TypoScript, then configure the extension in the Constant Editor.
+See [Include TypoScript](/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript) and
+[Constant Editor](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
+</Note>
+
 ## Helpful Links
 
 <Note>

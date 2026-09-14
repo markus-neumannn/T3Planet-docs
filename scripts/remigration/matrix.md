@@ -1,11 +1,11 @@
 # Re-Migration Matrix - Summary
 
-Total page ids compared: **799**
+Total page ids compared: **818**
 
 | Status | Count |
 |---|---|
-| MIGRATED_CORRECTLY | 751 |
-| INTENTIONALLY_ADDED | 46 |
+| MIGRATED_CORRECTLY | 755 |
+| INTENTIONALLY_ADDED | 61 |
 | REVIEWED_OK | 2 |
 
 ## Flagged pages requiring review (0)

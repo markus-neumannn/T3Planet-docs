@@ -1,0 +1,37 @@
+{
+  "source_image_files": 1307,
+  "figure_directives": 829,
+  "mint_missing_basenames_count": 6,
+  "mint_missing": [
+    {
+      "rst": "docs/docs/ExtNsT3AS/Configuration/Index.rst",
+      "figure": "Images/manage-source-groups.png",
+      "basename": "manage-source-groups.png"
+    },
+    {
+      "rst": "docs/docs/ExtNsT3AS/Configuration/Index.rst",
+      "figure": "Images/page-level-source-groups.png",
+      "basename": "page-level-source-groups.png"
+    },
+    {
+      "rst": "docs/docs/ExtNsT3AS/Configuration/Index.rst",
+      "figure": "Images/header-footer-index.png",
+      "basename": "header-footer-index.png"
+    },
+    {
+      "rst": "docs/docs/ExtNsT3AS/RetrievalConfidenceThreshold/Index.rst",
+      "figure": "Images/retrieval-confidence-threshold.jpg",
+      "basename": "retrieval-confidence-threshold.jpg"
+    },
+    {
+      "rst": "docs/docs/ExtNsT3AS/BasicAuthentication/Index.rst",
+      "figure": "Images/basic-authentication-support.png",
+      "basename": "basic-authentication-support.png"
+    },
+    {
+      "rst": "docs/docs/ExtNsT3AS/DatabaseChunking/Index.rst",
+      "figure": "Images/configurable-database-chunking.png",
+      "basename": "configurable-database-chunking.png"
+    }
+  ]
+}

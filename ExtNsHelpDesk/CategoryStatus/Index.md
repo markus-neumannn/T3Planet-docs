@@ -1,34 +1,33 @@
 ---
 title: "Ticket Categories"
+description: "Create Helpdesk ticket categories on the storage page (ns_helpdesk 14+)."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "ns_HelpDesk"
-  - "Ticket Categories"
-  - "CategoryStatus"
+  - "ns_helpdesk"
+  - "Helpdesk"
 sidebarTitle: "Ticket Categories"
 ---
 
-To manage your ticket categories by setting up create,edit,delete,search ticket categories.
 
-![ns-helpdesk-typo3-category-status](./images/ns-helpdesk-typo3-category-status.webp)
+From **ns_helpdesk 14.0.0**, ticket categories are no longer managed in the
+Helpdesk backend module.
 
-## Create Ticket Status
+Show or hide the categories field, and set its label, in the Constant Editor.
+See [Form Settings](/ExtNsHelpDesk/FormSettings/Index).
 
-<Steps>
-  <Step title="Step 1">
-Go to Admin Tools > NS Helpdesk
-  </Step>
-  <Step title="Step 2">
-Click on "Categories" menu
-  </Step>
-  <Step title="Step 3">
-Click on "Add New" button
-  </Step>
-  <Step title="Step 4">
-Add category title, color and save Changes.
+Create or edit category records on the Helpdesk storage page (the **Global Storage PID**
+from global settings):
 
-![ns-helpdesk-typo3-create-category-status](./images/ns-helpdesk-typo3-create-category-status.webp)
-  </Step>
-</Steps>
+**Step 1.** Open the **List** module.
 
+**Step 2.** Select the storage page.
+
+**Step 3.** Create a category record.
+
+**Step 4.** Set the category title and color, then save.
+
+<Note>
+Category-wise assignment also needs a **Default Assignee ID** in global settings.
+See [Constant Editor](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
+</Note>

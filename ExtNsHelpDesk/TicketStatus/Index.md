@@ -1,34 +1,30 @@
 ---
 title: "Ticket Status"
+description: "Create Helpdesk ticket status records on the storage page (ns_helpdesk 14+)."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "ns_HelpDesk"
-  - "Ticket Status"
-  - "TicketStatus"
+  - "ns_helpdesk"
+  - "Helpdesk"
 sidebarTitle: "Ticket Status"
 ---
 
-To manage your ticket status by setting up create,edit,delete,search ticket status.
 
-![ns-helpdesk-typo3-ticket-status](./images/ns-helpdesk-typo3-ticket-status.webp)
+From **ns_helpdesk 14.0.0**, ticket statuses are no longer managed in the
+Helpdesk backend module.
 
-## Create Ticket Status
+Set the **Default ticket status ID** in the Constant Editor. See
+[Constant Editor](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
 
-<Steps>
-  <Step title="Step 1">
-Go to Admin Tools > Helpdesk Dashboard
-  </Step>
-  <Step title="Step 2">
-Click on "Ticket Status" menu
-  </Step>
-  <Step title="Step 3">
-Click on "Add New" button
-  </Step>
-  <Step title="Step 4">
-Add status title, color & save Changes.
+Create or edit status records on the Helpdesk storage page (the **Global Storage PID**
+from global settings):
 
-![ns-helpdesk-typo3-create-ticket-status](./images/ns-helpdesk-typo3-create-ticket-status.webp)
-  </Step>
-</Steps>
+**Step 1.** Open the **List** module.
 
+**Step 2.** Select the storage page.
+
+**Step 3.** Create a Ticket Status record.
+
+**Step 4.** Set the status title and color, then save.
+
+Use that record UID as the default ticket status ID in the Constant Editor.

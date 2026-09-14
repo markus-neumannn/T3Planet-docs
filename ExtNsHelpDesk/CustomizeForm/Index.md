@@ -1,35 +1,34 @@
 ---
 title: "Customize Form"
+description: "Create custom Helpdesk ticket fields on the storage page (ns_helpdesk 14+)."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "ns_HelpDesk"
-  - "Customize Form"
-  - "CustomizeForm"
+  - "ns_helpdesk"
+  - "Helpdesk"
 sidebarTitle: "Customize Form"
 ---
 
-Add your custom form fields from the customize form module.
 
-![ns-helpdesk-typo3-CustomizeFormAdd.jpeg](./images/ns-helpdesk-typo3-CustomizeFormAdd.webp)
+From **ns_helpdesk 14.0.0**, the **Customize Form** backend module is removed.
 
-## Create Custom Fields
+Add extra ticket fields as records on the Helpdesk storage page (the **Global Storage PID**
+from [Global Settings](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor)).
 
-<Steps>
-  <Step title="Step 1">
-Go to Admin Tools > Helpdesk Dashboard
-  </Step>
-  <Step title="Step 2">
-Click on "Customize Form" menu
-  </Step>
-  <Step title="Step 3">
-Click on "Add New" Link
-  </Step>
-  <Step title="Step 4">
-Insert title to the group of form fields. Than after add a Title of specific field, Variable name & select the type of the field. Its a nested, so you may add your own form fields to suite your site.
-We have given a Input field, Text area, Select field, Checkbox & radio button.
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8wrfr1f50qmcthi8ia2qo?embed_v=2&utm_source=embed" loading="lazy" title="Create custom Helpdesk ticket fields" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-![ns-helpdesk-typo3-CustomizeForm](./images/ns-helpdesk-typo3-CustomizeForm.webp)
-  </Step>
-</Steps>
+**Step 1.** Open the **List** module (Records) and select the ticket storage page.
 
+**Step 2.** Create a new **Fields Group** record and enter a group title.
+
+**Step 3.** Click **Create new Form Custom Fields**.
+
+**Step 4.** Enter the field title and a unique variable name, then choose the field type.
+Available types include Input, Textarea, Select, Checkbox, and Radio.
+
+**Step 5.** For select, checkbox, or radio fields, set the **Options** as required.
+
+**Step 6.** Save.
+
+Default form field labels, placeholders, and include/required flags stay in the
+Constant Editor. See [Form Settings](/ExtNsHelpDesk/FormSettings/Index).

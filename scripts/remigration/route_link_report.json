@@ -1,15 +1,2408 @@
 {
-  "nav_paths": 683,
-  "redirects": 1408,
+  "nav_paths": 701,
+  "redirects": 1412,
   "nav_missing_file": [],
   "dup_redirect_sources": [],
   "self_redirects": [],
   "redirect_to_parent_of_self": [],
   "redirect_dest_unresolved": [],
   "redirect_dest_unresolved_count": 0,
-  "files_scanned_for_links": 798,
-  "total_internal_links": 544,
+  "files_scanned_for_links": 817,
+  "total_internal_links": 588,
   "broken_internal_links": [],
-  "http_failures": [],
-  "http_checked": 683
+  "http_failures": [
+    {
+      "path": "/EXTShop/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/EXTShop/ShopConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/EXTShop/ThemeConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/EXTShop/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanHellobar/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanHellobar/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanHellobar/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanHellobar/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanHellobar/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanHellobar/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanMaintenance/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanMaintenance/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanMaintenance/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanMaintenance/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanMaintenance/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNitsanMaintenance/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllChat/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllChat/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllChat/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllChat/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllChat/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllChat/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllLightbox/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllLightbox/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllLightbox/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllLightbox/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllLightbox/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllLightbox/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllSliders/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllSliders/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllSliders/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllSliders/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllSliders/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsAllSliders/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/ConnectClouds/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/DownloadsLogsHistory/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/GlobalSettings/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/ScheduleBackup/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/StartOneClickBackup/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/SystemRequirement/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsBackup/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCacheWebhook/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCacheWebhook/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCacheWebhook/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCacheWebhook/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCacheWebhook/Usage/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCloudflare/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCloudflare/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCloudflare/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCloudflare/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCloudflare/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCloudflare/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/CommentModeration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/CommentOnAllPages",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/CommentPluginSettings/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/GlobalConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsComments/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookieYes/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookieYes/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookieYes/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookieYes/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookieYes/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookieYes/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiebot/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiebot/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiebot/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiebot/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiebot/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiebot/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiesHint/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiesHint/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiesHint/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiesHint/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiesHint/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsCookiesHint/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsDisqusComment/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsDisqusComment/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsDisqusComment/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsDisqusComment/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsDisqusComment/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsDisqusComment/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/Configuration/AddEventPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/Configuration/AddEvents/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/GlobalConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsEvent/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsExtCompatibility/ActionResults/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsExtCompatibility/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsExtCompatibility/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsExtCompatibility/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsExtCompatibility/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsExtCompatibility/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsExtCompatibility/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/FAQModeration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/FAQPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/NSFaqBackendModule/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/SubmitFAQForm/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFAQ/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFacebookComment/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFacebookComment/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFacebookComment/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFacebookComment/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFacebookComment/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFacebookComment/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFeedback/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFeedback/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFeedback/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFeedback/NSFeedbackModules/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFeedback/SetFeedbackFormForEntireSite/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFeedback/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFeedback/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFriendlyCaptcha/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFriendlyCaptcha/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFriendlyCaptcha/CustomIntegration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFriendlyCaptcha/FAQ",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFriendlyCaptcha/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFriendlyCaptcha/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFriendlyCaptcha/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsFriendlyCaptcha/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/AlbumView/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/GoogleSearchView/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/HowToSetupAndDisplayGallery/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/IsotopeView/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/MasonryView/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/MosaicView/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/NSGalleryModule/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/SliderView/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGallery/ZoomView/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/GoogleDocsConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/ImportGoogleDocToPage/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/NSGoogleDocsModule/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/PrepareGoogleDocWithMarkers/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleDocs/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/Configuration/AddMapAPI/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/Configuration/AddMapLocations/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleMap/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/GettingStarted/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/GuidetoFreeVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/HowToIntegrateGoogleSitekit/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/Troubleshooting/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGoogleSiteKit/UsingSiteKit/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGridtoContainer/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGridtoContainer/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGridtoContainer/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGridtoContainer/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGridtoContainer/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGridtoContainer/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGuestbook/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGuestbook/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGuestbook/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGuestbook/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGuestbook/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsGuestbook/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/CategoryStatus/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/CustomizeForm/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/FormSettings/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/GlobalSettings/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/PluginConfigurations/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/TicketStatus/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/Tickets/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHelpDesk/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHubspot/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHubspot/FreeVersionConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHubspot/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHubspot/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHubspot/PremiumVersionConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHubspot/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsHubspot/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsInstagram/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsInstagram/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsInstagram/InstagramApiToken/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsInstagram/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsInstagram/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsInstagram/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsInstagram/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsLazyload/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsLazyload/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsLazyload/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsLazyload/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsLazyload/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsLazyload/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsAdvancedSearch/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsAdvancedSearch/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsAdvancedSearch/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsAdvancedSearch/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsAdvancedSearch/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsAdvancedSearch/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/CommentModeration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/CommentPluginSettings/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/ForDevelopers/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/GlobalConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/NewsCommentModule/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsComments/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlickSlider/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlickSlider/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlickSlider/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlickSlider/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlickSlider/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlickSlider/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Configuration/AddNewsSliderPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Configuration/NivoSlider/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Configuration/OwlcarouselSlider/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Configuration/RoyalSlider/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Configuration/SlickSlider/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsNewsSlider/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/Configuration/AddMapLocations/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsOpenStreetMap/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPWA/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPWA/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPWA/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPWA/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPWA/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPWA/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPersonio/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPersonio/ConfigurationOfPlugins/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPersonio/ConfigurePersonioAPIandScheduler/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPersonio/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPersonio/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPersonio/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPersonio/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsProtectSite/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsProtectSite/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsProtectSite/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsProtectSite/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsProtectSite/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsProtectSite/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPublicationComment/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPublicationComment/ExtensionConfigurations/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPublicationComment/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPublicationComment/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPublicationComment/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsPublicationComment/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/KnownIssues/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider1.0/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider1.0/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider1.0/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider2.0/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider2.0/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider2.0/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider2.0/MigrationFrom1to2/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider3.0/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider3.0/MigrationFrom2to3/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSlider3.0/SystemRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSliderLatest/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsRevolutionSlider/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSharethis/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSharethis/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSharethis/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSharethis/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSharethis/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSharethis/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSnow/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSnow/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSnow/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSnow/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSnow/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSnow/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/BeforeGettingStarted/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/FAQ/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/Screenshots/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/SystemRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsSocialLogin/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsStatcounter/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsStatcounter/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsStatcounter/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsStatcounter/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsStatcounter/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsStatcounter/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/AIAudioGenerator/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/AIFilemeta/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/AccessibilityWidgets/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/KnownProblems/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/ReInstallEverything/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/Screenshots/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/SimplifiedText/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/SpeedCoreWebVitals/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/SystemRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/T3AAVoiceover/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/UpdateGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AA/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/AIBuilder/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/AIContentBlock/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/AIForm/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/Forms/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/HowT3ABWorks/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/Screenshots/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/SystemRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/T3ABAIBuilder/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/T3ABContentBlocks/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/UpdateGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AB/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/CustomLLMSupport/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/DPAandGDPR/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/FeatureGuide/AILogs/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/FeatureGuide/AIStatistics/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/FeatureGuide/Chatbot/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/FeatureGuide/Dashboard/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/FeatureGuide/DataSource/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/FeatureGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/FeatureGuide/TrainingCenter/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/FeatureGuide/UsageAnalytics/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/KnownProblems/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/ReInstallEverything/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/RetrievalConfidenceThreshold/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/Screenshots/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/UpdateGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AC/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/AIContext/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/AIFeatures/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/AILabel/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/AIPermissions/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/AIPrompts/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/AIProviders/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/Dashboard/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/Architecture/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/CustomPromptCatalogs/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/CustomProviders/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/DeveloperGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/HelpfulLinks/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Integrations/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Integrations/MCPServer/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Integrations/MCPTesting/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Integrations/MCPTools/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Support/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/T3Planet-Credit-System/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/T3Planet-Credit-System/Dashboard/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/T3Planet-Credit-System/MCPIntegration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/T3Planet-Credit-System/Overview/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Troubleshooting/FAQ/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Troubleshooting/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/Troubleshooting/KnownProblems/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/UserGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/AISettings/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Appendix/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Content/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/FAQ/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/KnownProblems/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/MassSEO/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Media/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Pages/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Prompts/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/ReInstallEverything/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Releases/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/SEO/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Screenshots/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/SystemRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/Translation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/UpdateGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/UpgradeGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AI/VideoTutorials/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/AILocalization/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/AILocalizationLogs/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/KnownProblems/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/Screenshots/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/StartManualLocalization/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/SystemRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/T3ALTerms(Glossary)/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/T3ALforEveryone/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/UpdateGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AL/VideoTutorials/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/BasicAuthentication/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/CustomLLMSupport/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/DPAandGDPR/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/DatabaseChunking/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/FrontendPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/KnownProblems/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/PerformanceConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/ReInstallEverything/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/RetrievalConfidenceThreshold/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/Screenshots/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/UpdateGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsT3AS/VerifyIndexedData/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTimeLine/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTimeLine/ExtensionConfigurations/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTimeLine/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTimeLine/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTimeLine/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTimeLine/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTwitter/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTwitter/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTwitter/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTwitter/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTwitter/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsTwitter/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWhatsapp/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWhatsapp/GlobalSettings/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWhatsapp/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWhatsapp/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWhatsapp/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWhatsapp/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWpMigration/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWpMigration/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWpMigration/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWpMigration/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWpMigration/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsWpMigration/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsYoutube/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsYoutube/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsYoutube/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsYoutube/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsYoutube/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsYoutube/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsZoho/BuyNow",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsZoho/Configuration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsZoho/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsZoho/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsZoho/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtNsZoho/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/AccessibilityFeatures/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/CKEditorAI/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/Configurationsave/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/ContentSecurityPolicy/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/GetThisExtension",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/HowPresetsWork/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/PremiumFeatures/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/PremiumPack/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/QuickInstallation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/Support",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/SystemRequirements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtRTECKEditorPack/Updating/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/CustomElements/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/Customization/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/DemoSite/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/FAQ/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/FrontendBuild/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/GlobalSettingsConfiguration/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/HelpSupport/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/Localization/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/SEO/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/SpeedPerformance/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/TemplatesLayouts/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtThemes/UpgradeGuide/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/FAQ/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/FrontendPlugins/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/GettingStarted/CreatingADatatype/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/GettingStarted/CreatingAField/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/GettingStarted/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/GettingStarted/Templating/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/Installation/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/Screenshots/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/Support/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/TypoTonicProfessional/Index",
+      "code": 0
+    },
+    {
+      "path": "/ExtTypoTonic/ViewHelpers/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/AllLicenses/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/ExtendTrial/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/GenerateLicenseKey/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/HelpSupport/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/Introduction/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/LicenseActivation/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/LicenseDeActivation/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/LicenseManager/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/Migration/Composer/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/Migration/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/Migration/License/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/OtherProducts/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/RegisterAndManageDomains/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/RenewPurchase/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/SiteSets/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/UpdateVersion/CheckNewVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/UpdateVersion/Composer/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/UpdateVersion/Index",
+      "code": 0
+    },
+    {
+      "path": "/License/UpdateVersion/NonComposer/Index",
+      "code": 0
+    },
+    {
+      "path": "/index",
+      "code": 0
+    }
+  ],
+  "http_checked": 701
 }

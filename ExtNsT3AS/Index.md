@@ -58,6 +58,7 @@ sidebarTitle: "AI Search"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
+  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AS/DPAandGDPR/Index" />
   <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AS/KnownProblems/Index" />
   <Card title="Support" icon="life-buoy" href="/ExtNsT3AS/Support" />
   <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AS/BuyNow" />
