@@ -23,7 +23,7 @@ To migrate from Slider Revolution v1 to v2, You will need to perform below steps
 > Please follows the Step-by-step Guide to migrate from TYPO3 Slider Revolution v1 to v2.
 >
 >
-> 1. Download latest Slider Revolution v2 from T3Planet > My Products > https://t3planet.de/downloadable/customer/products/
+> 1. Download latest Slider Revolution v2 from T3Planet customer account (My Products): https://t3planet.de/customer/account/login
 > 2. Switch to the module “Extension Manager”.
 > 3. Find ns_revolution_slider extension, in-active & remove it.
 > 4. Go to NITSAN > License Management > De-Activate License, Check [documentation](/License/LicenseDeActivation/Index#how-to-de-activate-license-key)

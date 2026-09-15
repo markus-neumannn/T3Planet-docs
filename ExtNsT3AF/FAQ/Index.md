@@ -77,7 +77,7 @@ Yes with OpenAI and Claude unless you use EU options (Azure EU, Mistral). Check 
 
 **Are prompts logged?**
 
-Depends on [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index) privacy level. Use **Minimal** or **Standard** for GDPR-friendly defaults.
+Depends on [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) privacy level. Use **Minimal** or **Standard** for GDPR-friendly defaults.
 
 ## Installation
 

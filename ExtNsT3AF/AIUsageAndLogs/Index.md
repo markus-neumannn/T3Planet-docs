@@ -60,7 +60,7 @@ Set `openai_admin_api_key` in Extension Configuration for organization-level usa
 
 ## Privacy
 
-Log detail depends on [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index) privacy level. Configure for GDPR needs before enabling **Full** logging.
+Log detail depends on [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) privacy level. Configure for GDPR needs before enabling **Full** logging.
 
 ## Weekly admin habit
 
@@ -72,7 +72,7 @@ Log detail depends on [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index) pri
 ## When logs show high usage
 
 - Check [AI Features](/ExtNsT3AF/AIFeatures/Index) — bulk tasks may need a cheaper model
-- Review [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index) budgets and rate limits
+- Review [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) budgets and rate limits
 - Ask editors if a script or loop triggered many requests
 
 ## When logs show failures

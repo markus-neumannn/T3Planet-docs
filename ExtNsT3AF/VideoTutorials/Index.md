@@ -20,7 +20,7 @@ Video guides help admins and managers learn **T3AF** setup and daily operation. 
 3. **Configure AI providers** — Admins. Pair with [AI Providers](/ExtNsT3AF/AIProviders/Index).
 4. **T3Planet Credits vs Your Own API Keys** — Admins. Pair with [T3Planet Credits](/ExtNsT3AF/T3PlanetCredits/Index).
 5. **MCP Server — connect Cursor** — Admins and developers. Pair with [MCP Server](/ExtNsT3AF/MCPServer/Index).
-6. **AI Permissions** — Admins. Pair with [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index).
+6. **AI Permissions** — Admins. Pair with [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index).
 7. **Usage logs and cost control** — Admins and managers. Pair with [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index).
 
 ## Where to find videos

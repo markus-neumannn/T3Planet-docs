@@ -21,9 +21,8 @@ Are you looking to utilize the full visual editing power with simple drag and dr
 
 <Note>
 
-- **Product:** https://t3planet.de/revolution-slider-typo3-extension
+- **Product:** https://t3planet.de/en/typo3-slider-revolution-extension
 - **TYPO3 Backend Live Demo:** https://demo.t3terminal.com/live-typo3/t3t-extensions/typo3/?TYPO3_AUTOLOGIN_USER=editor-revolution-slider
-- **Front End Demo:** https://demo.t3planet.de/t3-extensions/revolution-slider
 - To make any domain-related changes or whitelist any development and staging domains, please reach our support center: https://t3planet.de/support
 
 </Note>

@@ -66,7 +66,7 @@ Pick a model that supports what you need. **Test connection** validates your cho
 
 - Rotate keys every 90 days
 - Use one key per environment (dev, staging, live)
-- Restrict access via [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index)
+- Restrict access via [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
 - Never commit API keys to Git
 
 ## Where to get API keys

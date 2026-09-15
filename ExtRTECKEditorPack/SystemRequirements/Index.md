@@ -33,15 +33,23 @@ Use this demo to see tutorials for CKEditor Pack features:
 
 ![CKEditor Pack Dashboard](./images/image9.webp)
 
+CKEditor Pack Dashboard showing installed extensions
+
 ## CKEditor Premium Settings
 
 ![CKEditor Premium Settings](./images/image5.webp)
+
+CKEditor Pack Premium Settings interface
 
 ## CKEditor Pack Collaboration Feature
 
 ![CKEditor Pack Collaboration Feature](./images/image10.webp)
 
+CKEditor Pack Collaboration features interface
+
 ## Features Overview
 
 ![CKEditor Pack Features](./images/image3.webp)
+
+CKEditor Pack Features overview
 

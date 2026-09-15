@@ -50,6 +50,7 @@ sidebarTitle: "AI Accessibility"
   <CardGroup cols={2}>
   <Card title="Update Guide" icon="arrow-up" href="/ExtNsT3AA/UpdateGuide/Index" />
   <Card title="Update Version" icon="refresh-cw" href="/ExtNsT3AA/UpdateVersion/Index" />
+  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AA/DPAandGDPR/Index" />
   <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AA/KnownProblems/Index" />
   <Card title="Support" icon="life-buoy" href="/ExtNsT3AA/Support" />
   <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AA/BuyNow" />

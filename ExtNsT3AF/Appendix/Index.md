@@ -23,7 +23,7 @@ Terms used in **T3AF** documentation.
 ## G–M
 
 - **GDPR** — EU data protection regulation (DSGVO in German).
-- **Governance** — Access control, budgets, and rate limits for AI. See [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index).
+- **Governance** — Access control, budgets, and rate limits for AI. See [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index).
 - **JSON-LD** — Schema markup format for structured data.
 - **MCP** — Model Context Protocol. Connects AI agents to TYPO3. See [MCP Server](/ExtNsT3AF/MCPServer/Index).
 - **Meta description** — Short text shown in Google search results.

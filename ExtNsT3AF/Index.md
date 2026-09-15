@@ -67,6 +67,7 @@ sidebarTitle: "AI Foundation"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
+  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AF/DPAandGDPR/Index" />
   <Card title="Troubleshooting" icon="triangle-alert" href="/ExtNsT3AF/Troubleshooting/Index" />
   <Card title="Known Problems" icon="bug" href="/ExtNsT3AF/Troubleshooting/KnownProblems/Index" />
   <Card title="FAQ" icon="circle-help" href="/ExtNsT3AF/Troubleshooting/FAQ/Index" />

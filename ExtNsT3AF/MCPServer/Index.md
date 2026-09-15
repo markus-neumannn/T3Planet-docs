@@ -88,7 +88,7 @@ MCP edits respect the active workspace. Test writes in workspace `1` before live
 - Treat URL tokens like passwords
 - Limit which backend users can authorize OAuth
 - Test in draft workspace before live writes
-- Enable [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index) for multi-user sites
+- Enable [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) for multi-user sites
 
 ## When to enable MCP
 

@@ -29,8 +29,8 @@ sidebarTitle: "Introduction"
 <Note>
 
 - [Product Page](https://t3planet.de/t3-karma-multi-purpose-typo3-template)
-- [TYPO3 Backend Live Demo](https://demo.t3planet.de/live-typo3/t3t-karma/typo3/?TYPO3_AUTOLOGIN_USER=editor)
-- [Frontend Demo](https://demo.t3planet.de/?theme=t3t-karma)
+- [TYPO3 Backend Live Demo](https://demo.t3planet.de/t3-karma/typo3/?TYPO3_AUTOLOGIN_USER=editor)
+- [Frontend Demo](https://demo.t3planet.de/t3-karma/)
 - For domain-related changes or to whitelist development and staging domains, please contact our [Support Center](https://t3planet.de/support)
 
 </Note>

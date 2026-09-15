@@ -26,7 +26,7 @@ T3AI now works as a child extension of T3AF (`ns_t3af`), which provides the shar
 ## Helpful Links
 
 <Note>
-- Product: [https://t3planet.de/t3ai-typo3-extension](https://t3planet.de/t3ai-typo3-extension)
-- TYPO3 Backend Live Demo: [https://t3-extension-live.t3planet.de/typo3/?TYPO3_AUTOLOGIN_USER=editor-ns-t3ai](https://t3-extension-live.t3planet.de/typo3/?TYPO3_AUTOLOGIN_USER=editor-ns-t3ai)
+- Product: [https://t3planet.de/en/t3ai-typo3-extension](https://t3planet.de/en/t3ai-typo3-extension)
+- TYPO3 Backend Demo: [https://t3-extension.t3planet.de](https://t3-extension.t3planet.de)
 - Get Support- [https://t3planet.de/support](https://t3planet.de/support)
 </Note>

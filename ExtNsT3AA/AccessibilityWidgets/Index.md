@@ -8,7 +8,7 @@ keywords:
 sidebarTitle: "Accessibility Widgets"
 ---
 
-## What it is
+## What it is {#ns-t3aa-accessibility-widgets}
 
 **Accessibility Widgets** configures the frontend accessibility widget in
 T3AA (`EXT:ns_t3aa`).

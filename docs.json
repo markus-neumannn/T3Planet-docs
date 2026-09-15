@@ -63,9 +63,9 @@
         "pages": [
           {
             "group": "License & Installation",
-            "root": "License/Index",
             "expanded": false,
             "pages": [
+              "License/Index",
               "License/Introduction/Index",
               "License/GenerateLicenseKey/Index",
               "License/AllLicenses/Index",
@@ -129,6 +129,7 @@
                   "ExtNsT3AF/T3Planet-Credit-System/Dashboard/Index"
                 ]
               },
+              "ExtNsT3AF/DPAandGDPR/Index",
               {
                 "group": "Integrations",
                 "expanded": false,
@@ -187,6 +188,7 @@
               "ExtNsT3AA/ReInstallEverything/Index",
               "ExtNsT3AA/Configuration/Index",
               "ExtNsT3AA/AccessibilityWidgets/Index",
+              "ExtNsT3AA/DPAandGDPR/Index",
               "ExtNsT3AA/SpeedCoreWebVitals/Index",
               "ExtNsT3AA/AIFilemeta/Index",
               "ExtNsT3AA/AIAudioGenerator/Index",
@@ -303,6 +305,7 @@
               "ExtNsT3AI/Media/Index",
               "ExtNsT3AI/Prompts/Index",
               "ExtNsT3AI/AISettings/Index",
+              "ExtNsT3AI/DPAandGDPR/Index",
               "ExtNsT3AI/UpgradeGuide/Index",
               "ExtNsT3AI/UpdateGuide/Index",
               "ExtNsT3AI/FAQ/Index",
@@ -1879,14 +1882,6 @@
     {
       "source": "/ExtNsT3AF/GetThisExtension.html",
       "destination": "/ExtNsT3AF/GetThisExtension/Index"
-    },
-    {
-      "source": "/ExtNsT3AF/GovernanceAndAccess/Index.html",
-      "destination": "/ExtNsT3AF/GovernanceAndAccess/Index"
-    },
-    {
-      "source": "/ExtNsT3AF/GovernanceAndAccess.html",
-      "destination": "/ExtNsT3AF/GovernanceAndAccess/Index"
     },
     {
       "source": "/ExtNsT3AF/HelpfulLinks/Index.html",
@@ -7371,6 +7366,62 @@
     {
       "source": "/ExtNsT3AS/DPAandGDPR.html",
       "destination": "/ExtNsT3AS/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/DPAandGDPR/Index.html",
+      "destination": "/ExtNsT3AA/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/DPAandGDPR.html",
+      "destination": "/ExtNsT3AA/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/GovernanceAndAccess/Index.html",
+      "destination": "/ExtNsT3AF/Configuration/AIPermissions/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/GovernanceAndAccess.html",
+      "destination": "/ExtNsT3AF/Configuration/AIPermissions/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/GovernanceAndAccess/Index",
+      "destination": "/ExtNsT3AF/Configuration/AIPermissions/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/GovernanceAndAccess",
+      "destination": "/ExtNsT3AF/Configuration/AIPermissions/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/Configuration/GovernanceAndAccess/Index.html",
+      "destination": "/ExtNsT3AF/Configuration/AIPermissions/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/Configuration/GovernanceAndAccess.html",
+      "destination": "/ExtNsT3AF/Configuration/AIPermissions/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/Configuration/GovernanceAndAccess/Index",
+      "destination": "/ExtNsT3AF/Configuration/AIPermissions/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/Configuration/GovernanceAndAccess",
+      "destination": "/ExtNsT3AF/Configuration/AIPermissions/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/DPAandGDPR/Index.html",
+      "destination": "/ExtNsT3AF/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AF/DPAandGDPR.html",
+      "destination": "/ExtNsT3AF/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AI/DPAandGDPR/Index.html",
+      "destination": "/ExtNsT3AI/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AI/DPAandGDPR.html",
+      "destination": "/ExtNsT3AI/DPAandGDPR/Index"
     }
   ],
   "description": "Official T3Planet documentation for TYPO3 extensions, templates, AI solutions, licensing, and installation guides.",

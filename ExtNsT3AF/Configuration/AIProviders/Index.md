@@ -167,7 +167,7 @@ vision).
 
 - Rotate keys every 90 days
 - Use one key per environment (dev, staging, live)
-- Restrict access via [AI Permissions](/ExtNsT3AF/Configuration/GovernanceAndAccess/Index#ns-t3af-ai-permissions)
+- Restrict access via [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index#ns-t3af-ai-permissions)
 - Never commit API keys to Git
 
 ## Where to get API keys

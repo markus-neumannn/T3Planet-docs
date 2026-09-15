@@ -92,7 +92,7 @@ See [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index).
 
 Control who uses which provider, which capabilities, budgets, rate limits, and log privacy. Off by default — enable when your team grows.
 
-See [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index).
+See [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index).
 
 ## Supported providers
 
@@ -124,7 +124,7 @@ Full reference: [Developer Guide](/ExtNsT3AF/DeveloperGuide/Index)
 2. Add provider and run **Test connection** → [AI Providers](/ExtNsT3AF/AIProviders/Index)
 3. Run Quick Setup → [Quick Setup](/ExtNsT3AF/SetupWizard/Index)
 4. (Optional) Enable MCP → [MCP Server](/ExtNsT3AF/MCPServer/Index)
-5. (Optional) Set governance rules → [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index)
+5. (Optional) Set governance rules → [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
 6. Monitor usage weekly → [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index)
 
 ## Requirements at a glance

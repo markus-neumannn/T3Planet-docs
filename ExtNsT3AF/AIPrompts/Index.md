@@ -73,4 +73,4 @@ If results worsen after edits, use **Reset to default** in the UI. Then change o
 
 ## Governance note
 
-Prompt changes affect all users. Coordinate with [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index) before large template changes on production.
+Prompt changes affect all users. Coordinate with [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) before large template changes on production.

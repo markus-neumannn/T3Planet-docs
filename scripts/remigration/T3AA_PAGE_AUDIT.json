@@ -1,0 +1,675 @@
+[
+  {
+    "source": "AIAudioGenerator/Index.rst",
+    "mintlify": "AIAudioGenerator/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cmram4jch0zcbqmhxk0m25nvu",
+      "cmraov52q15ozqmhxzbdsxf7a"
+    ],
+    "supademo_mint": [
+      "cm9lah50g4haxljv5o2c0sxy8",
+      "cm9lb394f03mkx40iobwpfsia",
+      "cmram4jch0zcbqmhxk0m25nvu",
+      "cmraov52q15ozqmhxzbdsxf7a"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [
+      "cm9lah50g4haxljv5o2c0sxy8",
+      "cm9lb394f03mkx40iobwpfsia"
+    ],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "Audio Generation with ElevenLabs ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+      "Audio Generattion with OpenAI ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+      "Step 1 : Go to T3AA Extension > Dashboard > AI Audio .",
+      "Step 2 : Choose your AI model , voice type , speed , and output format .",
+      "Step 3 : Select the target folder for audio storage."
+    ],
+    "missing_phrase_count": 6,
+    "headings_live": [
+      "AI Audio Generator",
+      "Audio Generation with ElevenLabs",
+      "Audio Generattion with OpenAI"
+    ],
+    "headings_mint": [
+      "Audio Generation with ElevenLabs",
+      "Audio Generattion with OpenAI"
+    ],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "AIFilemeta/Index.rst",
+    "mintlify": "AIFilemeta/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cm9ldiyrj4jjtljv57t7unmsv",
+      "cmd7fds316tuhc4kjv76erv7o",
+      "cmraru0z91h11qmhxwzq9omc7",
+      "cmraryza91hd3qmhxpq8887qs",
+      "cmras49y91hl2qmhxltv9w9d6"
+    ],
+    "supademo_mint": [
+      "cm9l8fads4fnmljv5ala8pvfg",
+      "cm9l8y105022nxu0imradkih5",
+      "cm9ldiyrj4jjtljv57t7unmsv",
+      "cmd7fds316tuhc4kjv76erv7o",
+      "cmfw69mbh2urm10k87q2yb338",
+      "cmraru0z91h11qmhxwzq9omc7",
+      "cmraryza91hd3qmhxpq8887qs",
+      "cmras49y91hl2qmhxltv9w9d6"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [
+      "cm9l8fads4fnmljv5ala8pvfg",
+      "cm9l8y105022nxu0imradkih5",
+      "cmfw69mbh2urm10k87q2yb338"
+    ],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "AI FileMeta (TextAlt.ai API) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+      "With TextAlt.ai API , you can easily generate SEO-friendly and accessible metadata (title, description, alt text) for any image.",
+      "Step 1 : Navigate to the File List in the TYPO3 backend.",
+      "Step 5 : Click the Generate AI Alt Metadata button.",
+      "Step 8 : Click Save to apply the generated metadata."
+    ],
+    "missing_phrase_count": 16,
+    "headings_live": [
+      "AI FileMeta",
+      "AI FileMeta (TextAlt.ai API)",
+      "FileMeta (Vision API)",
+      "Multilingual Metadata Creation",
+      "Manual Metadata Generation per Image",
+      "Bulk Metadata Generation with Multilingual Support using a Scheduler"
+    ],
+    "headings_mint": [
+      "AI FileMeta (TextAlt.ai API)",
+      "FileMeta (Vision API)",
+      "Multilingual Metadata Creation",
+      "Manual Metadata Generation per Image",
+      "Bulk Metadata Generation with Multilingual Support using a Scheduler"
+    ],
+    "status": "ISSUES:content_gap"
+  },
+  {
+    "source": "AccessibilityWidgets/Index.rst",
+    "mintlify": "AccessibilityWidgets/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cmspx6nk71m45qm339sebmr9a"
+    ],
+    "supademo_mint": [
+      "cmspx6nk71m45qm339sebmr9a"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "====================== Accessibility Widgets ======================",
+      "Accessibility Widgets configures the frontend accessibility widget in T3AA ( EXT:ns t3aa ).",
+      "Whether the widget is shown How the button and panel look (icon, size, color, position, layout) Which tools and accessibility profiles are available",
+      "Settings are saved per site in config.yaml . They do not change page content in the database.",
+      "1. Open AI Foundation \u2192 AI Features . 2. Open General Settings . 3. Enable Enable Assistant Widget and save."
+    ],
+    "missing_phrase_count": 11,
+    "headings_live": [
+      "Accessibility Widgets",
+      "What it is",
+      "How to use it",
+      "Widget configuration",
+      "Widget Icon and Size",
+      "Widget Position",
+      "Widget Style",
+      "Widget Layout",
+      "Profile Selection",
+      "Widget Settings",
+      "Accessibility tools",
+      "Reading and text"
+    ],
+    "headings_mint": [
+      "What it is {#ns-t3aa-accessibility-widgets}",
+      "How to use it",
+      "Widget configuration",
+      "Widget Icon and Size",
+      "Widget Position",
+      "Widget Style",
+      "Widget Layout",
+      "Profile Selection",
+      "Widget Settings",
+      "Accessibility tools",
+      "Reading and text",
+      "Vision and color"
+    ],
+    "status": "ISSUES:content_gap"
+  },
+  {
+    "source": "BuyNow.rst",
+    "mintlify": "BuyNow.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "================== Get This Extension =================="
+    ],
+    "missing_phrase_count": 1,
+    "headings_live": [
+      "Get This Extension"
+    ],
+    "headings_mint": [],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "CkeditorAccessibilityChecker/Index.rst",
+    "mintlify": "CkeditorAccessibilityChecker/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cmfwkejeo3bm410k81iqujedw"
+    ],
+    "supademo_mint": [
+      "cmfwkejeo3bm410k81iqujedw"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "CKEditor Accessibility Check using T3AA ------------------------------------------",
+      "Step 1 Add your content in the RTE (Rich Text Editor).",
+      "Step 2: Click the Accessibility Check option to scan your content and find potential issues.",
+      "Step 3: For images added in the RTE, the tool will highlight if alt text is missing.",
+      "Step 4: If alt text is missing, you can then use T3AA to generate and insert appropriate alt text."
+    ],
+    "missing_phrase_count": 5,
+    "headings_live": [
+      "CKEditor Accessibility Check using T3AA"
+    ],
+    "headings_mint": [],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "Configuration/Index.rst",
+    "mintlify": "Configuration/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cmral44e20xqkqmhxbcch9g65",
+      "cmral5ln50xu7qmhx0cqoj5mu",
+      "cmrascwby1i72qmhxfeue5to5",
+      "cmrase4m61ib5qmhxmxn7g5j8",
+      "cmrborirv0dr9qmo5w1fothof"
+    ],
+    "supademo_mint": [
+      "cmral44e20xqkqmhxbcch9g65",
+      "cmral5ln50xu7qmhx0cqoj5mu",
+      "cmrascwby1i72qmhxfeue5to5",
+      "cmrase4m61ib5qmhxmxn7g5j8",
+      "cmrborirv0dr9qmo5w1fothof"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "T3AA uses AI Foundation for shared provider setup, model selection, prompts, and core AI services. Complete the parent setup first, then review the T3AA-specific options below.",
+      "Step 1: Open AI Features in AI Foundation =========================================",
+      "1. Go to the TYPO3 backend . 2. Open AI Foundation \u2192 AI Features . 3. Open the T3AA ( ns t3aa ) feature card. 4. Review and update the T3AA options described below.",
+      "Step 2: Review Shared Provider Setup =====================================",
+      "In the T3AA card under AI Foundation > AI Features , review the options that control how accessibility and content-support features behave in your project."
+    ],
+    "missing_phrase_count": 9,
+    "headings_live": [
+      "Configuration",
+      "Step 1: Open AI Features in AI Foundation",
+      "Step 2: Review Shared Provider Setup",
+      "Step 3: Feature-Specific Configuration Options",
+      "Step 4: Save the Configuration",
+      "AI Features",
+      "AI Prompts",
+      "AI Usage",
+      "AI Logs",
+      "Providers & MCP Tools"
+    ],
+    "headings_mint": [
+      "Step 1: Open AI Features in T3AF",
+      "Step 2: Review Shared Provider Setup",
+      "Step 3: Feature-Specific Configuration Options",
+      "Step 4: Save the Configuration",
+      "AI Features",
+      "AI Prompts",
+      "AI Usage",
+      "AI Logs",
+      "Providers & MCP Tools"
+    ],
+    "status": "ISSUES:content_gap"
+  },
+  {
+    "source": "DPAandGDPR/Index.rst",
+    "mintlify": "DPAandGDPR/Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "Question: Does T3AA collect frontend visitor search or conversation logs? Answer: No. T3AA does not write visitor query/conversation transcript tables.",
+      "Question: What else does T3AA store on the server? Answer: Ops / editor data, for example:",
+      "See AI Usage & Logs <https://docs.t3planet.de/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index.html> .",
+      "- Vision via T3AF (BYOK or Credits) - alttext.ai if that adapter/provider is configured (image data goes to that vendor)",
+      "- OpenAI and/or ElevenLabs (own keys) - Credits mode can route OpenAI TTS via T3Planet; ElevenLabs is not supported in Credits mode"
+    ],
+    "missing_phrase_count": 7,
+    "headings_live": [
+      "Data Processing Agreement (DPA) & General Data Protection Regulation (GDPR)",
+      "Product controls",
+      "Data Processing Agreement (DPA) Considerations",
+      "Data Processing Agreement (DPA) Questions"
+    ],
+    "headings_mint": [
+      "Product controls",
+      "Data Processing Agreement (DPA) Considerations",
+      "Data Processing Agreement (DPA) Questions"
+    ],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "Index.rst",
+    "mintlify": "Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [],
+    "missing_phrase_count": 0,
+    "headings_live": [
+      "EXT:ns_t3aa"
+    ],
+    "headings_mint": [],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "Installation/Index.rst",
+    "mintlify": "Installation/Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "T3AA needs AI Foundation ( EXT:ns t3af ). AI Foundation connects your AI providers (API keys, models, prompts, and shared AI services). Without it, T3AA cannot run.",
+      "Quick overview for new customers ================================",
+      "Step 1 \u2014 Install the License Manager ====================================",
+      "Install the latest version of EXT:ns license before continuing.",
+      "Step 2 \u2014 Activate the License ============================="
+    ],
+    "missing_phrase_count": 21,
+    "headings_live": [
+      "Installation",
+      "Quick overview for new customers",
+      "Before you start",
+      "Step 1 \u2014 Install the License Manager",
+      "Step 2 \u2014 Activate the License",
+      "Non-Composer Installation",
+      "Composer Installation",
+      "Step 3 \u2014 Install AI Foundation",
+      "AI Foundation has two provider modes",
+      "Option 1 \u2014 Extension Manager (TER)",
+      "Option 2 \u2014 Composer",
+      "Step 4 \u2014 Run Database Analyzer"
+    ],
+    "headings_mint": [
+      "Quick overview for new customers",
+      "Before you start",
+      "Step 1 \u2014 Install the License Manager",
+      "Step 2 \u2014 Activate the License",
+      "Non-Composer Installation",
+      "Composer Installation",
+      "Step 3 \u2014 Install AI Foundation",
+      "AI Foundation has two provider modes",
+      "Option 1 \u2014 Extension Manager (TER)",
+      "Option 2 \u2014 Composer",
+      "Step 4 \u2014 Run Database Analyzer",
+      "Step 5 \u2014 Configure the AI Provider"
+    ],
+    "status": "ISSUES:content_gap"
+  },
+  {
+    "source": "Introduction/Index.rst",
+    "mintlify": "Introduction/Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 1,
+    "images_mint_count": 1,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "======================================= T3AA - TYPO3 AI Accessibility Assistant =======================================",
+      "EXT:ns t3aa - What does it do? ==============================",
+      "T3AA now works as a child extension of AI Foundation ( ns t3af ), which provides the shared AI providers, authentication, common configuration, and core AI services used by the extension.",
+      "- Product Page: https://t3planet.de/en/t3aa-typo3-extension - Support Portal: https://t3planet.de/support"
+    ],
+    "missing_phrase_count": 4,
+    "headings_live": [
+      "T3AA - TYPO3 AI Accessibility Assistant",
+      "EXT:ns_t3aa",
+      "EXT:ns_t3aa - What does it do?",
+      "Helpful Links"
+    ],
+    "headings_mint": [
+      "EXT:ns_t3aa",
+      "EXT:ns_t3aa - What does it do?",
+      "Helpful Links"
+    ],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "KnownProblems/Index.rst",
+    "mintlify": "KnownProblems/Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "We're here to help! Please report your issues through our support portal:https://t3planet.de/support"
+    ],
+    "missing_phrase_count": 1,
+    "headings_live": [
+      "Known Problems",
+      "Report a Problem"
+    ],
+    "headings_mint": [
+      "Report a Problem"
+    ],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "ReInstallEverything/Index.rst",
+    "mintlify": "ReInstallEverything/Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "================================================= Reinstall After Upgrading to Extension v14.x.x =================================================",
+      "1. Install T3AA directly 2. Configure AI-related services inside the extension flow 3. Start using metadata, audio, accessibility, or optimization features",
+      "What users should do after updating ===================================",
+      "Recommended Post-Update Checks =============================="
+    ],
+    "missing_phrase_count": 4,
+    "headings_live": [
+      "Reinstall After Upgrading to Extension v14.x.x",
+      "Overview",
+      "Previous Version",
+      "New Architecture",
+      "Before Updating",
+      "Migration Steps",
+      "What users should do after updating",
+      "Recommended Post-Update Checks",
+      "Common Migration Issues",
+      "Related Documentation"
+    ],
+    "headings_mint": [
+      "Overview",
+      "Previous Version",
+      "New Architecture",
+      "Before Updating",
+      "Migration Steps",
+      "What users should do after updating",
+      "Recommended Post-Update Checks",
+      "Common Migration Issues",
+      "Related Documentation"
+    ],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "Screenshots/Index.rst",
+    "mintlify": "Screenshots/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cm9moyq2n02y8wv0jr3dn54o5"
+    ],
+    "supademo_mint": [
+      "cm9moyq2n02y8wv0jr3dn54o5"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "===================== Backend Screenshots ====================="
+    ],
+    "missing_phrase_count": 1,
+    "headings_live": [
+      "Screenshots",
+      "Backend Screenshots"
+    ],
+    "headings_mint": [
+      "Backend Screenshots"
+    ],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "SimplifiedText/Index.rst",
+    "mintlify": "SimplifiedText/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cmbru14gpcoj6sn1ropd357ss"
+    ],
+    "supademo_mint": [
+      "cmbru14gpcoj6sn1ropd357ss"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "Before You Begin ---------------- - Make sure the page is already translated."
+    ],
+    "missing_phrase_count": 1,
+    "headings_live": [
+      "Simplify Text with T3AA",
+      "Before You Begin"
+    ],
+    "headings_mint": [
+      "Before You Begin"
+    ],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "SpeedCoreWebVitals/Index.rst",
+    "mintlify": "SpeedCoreWebVitals/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cmral0kaf0xl0qmhxbkapwh0q"
+    ],
+    "supademo_mint": [
+      "cmfxndn2d47mr10k8vnuldqol",
+      "cmral0kaf0xl0qmhxbkapwh0q"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [
+      "cmfxndn2d47mr10k8vnuldqol"
+    ],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "Step 1: Navigate to the Dashboard tab and click on \u201cSpeed Core Web Vital\u201d .",
+      "Step 2: Enter your website URL and click on \u201cAnalyze\u201d ."
+    ],
+    "missing_phrase_count": 2,
+    "headings_live": [
+      "Speed Core Web Vital"
+    ],
+    "headings_mint": [
+      "Interactive demos"
+    ],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "Support.rst",
+    "mintlify": "Support.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "Have any questions or need help with T3AA \u2013 TYPO3 AI Accessibility Assistant ?",
+      "Submit your support request here: T3Planet Support Portal <https://t3planet.de/support>"
+    ],
+    "missing_phrase_count": 2,
+    "headings_live": [
+      "Support"
+    ],
+    "headings_mint": [],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "SystemRequirements/Index.rst",
+    "mintlify": "SystemRequirements/Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "=================== System Requirements ===================",
+      "- PHP v7.4 - v8.4 - TYPO3 v11 - v13 - EXT:backend - EXT:filelist - EXT:dashboard - EXT:fluid - EXT:seo - EXT:ns t3af - EXT:ns license",
+      "AI Foundation ( ns t3af ) provides the shared provider and service layer required by T3AA. See for the parent-extension requirements and shared setup notes."
+    ],
+    "missing_phrase_count": 3,
+    "headings_live": [
+      "System Requirements"
+    ],
+    "headings_mint": [],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "T3AAVoiceover/Index.rst",
+    "mintlify": "T3AAVoiceover/Index.md",
+    "exists": true,
+    "supademo_live": [
+      "cmrap6idu16mpqmhxipbc4qvl",
+      "cmrapcuhh17atqmhxhxh0i79l",
+      "cmrapfm8c17ngqmhxpuzr9t66"
+    ],
+    "supademo_mint": [
+      "cm9lbdtgb4i18ljv5576yk9sq",
+      "cmrap6idu16mpqmhxipbc4qvl",
+      "cmrapcuhh17atqmhxhxh0i79l",
+      "cmrapfm8c17ngqmhxpuzr9t66"
+    ],
+    "supademo_missing": [],
+    "supademo_extra": [
+      "cm9lbdtgb4i18ljv5576yk9sq"
+    ],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "With T3AA Voiceover , you can add AI-generated audio voiceovers to any TYPO3 page, enhancing accessibility and user engagement.",
+      "Step 2 : Open the AI Voiceover tab in Page Properties.",
+      "Step 3 : Choose your desired AI model , tone , speed , and audio format .",
+      "Step 5 : The generated voiceover will be saved to the page properties.",
+      "Step 6 : Add the T3AA Voiceover Plugin in Page to render voice in the frontend."
+    ],
+    "missing_phrase_count": 10,
+    "headings_live": [
+      "T3AA Voiceover",
+      "OpenAI Voiceover",
+      "AI Voiceover for Blog",
+      "Voiceover Plugin"
+    ],
+    "headings_mint": [
+      "OpenAI Voiceover",
+      "AI Voiceover for Blog",
+      "Voiceover Plugin",
+      "Interactive demos"
+    ],
+    "status": "ISSUES:content_gap"
+  },
+  {
+    "source": "UpdateGuide/Index.rst",
+    "mintlify": "UpdateGuide/Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [
+      "Uninstall EXT:ns t3aa from your TYPO3 installation before proceeding with the update.",
+      "Go to Admin Tools \u2192 License Manager , remove the existing license key, enter the license key again, and activate it. The new extension version will be downloaded automatically.",
+      "Download / TER page: https://extensions.typo3.org/extension/ns t3af",
+      "Full details: https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html",
+      "Go to Admin Tools \u2192 Maintenance \u2192 Database Analyzer and apply all pending database changes."
+    ],
+    "missing_phrase_count": 6,
+    "headings_live": [
+      "Update Guide"
+    ],
+    "headings_mint": [],
+    "status": "OK_OR_IMPROVED"
+  },
+  {
+    "source": "UpdateVersion/Index.rst",
+    "mintlify": "UpdateVersion/Index.md",
+    "exists": true,
+    "supademo_live": [],
+    "supademo_mint": [],
+    "supademo_missing": [],
+    "supademo_extra": [],
+    "images_live_count": 0,
+    "images_mint_count": 0,
+    "broken_local_images": [],
+    "missing_phrase_sample": [],
+    "missing_phrase_count": 0,
+    "headings_live": [
+      "Update Version"
+    ],
+    "headings_mint": [],
+    "status": "OK_OR_IMPROVED"
+  }
+]

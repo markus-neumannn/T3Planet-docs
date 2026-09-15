@@ -49,6 +49,7 @@ sidebarTitle: "AI Assistant"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Updates & support</h2>
   <CardGroup cols={2}>
+  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AI/DPAandGDPR/Index" />
   <Card title="Upgrade Guide" icon="arrow-up-right" href="/ExtNsT3AI/UpgradeGuide/Index" />
   <Card title="Update Guide" icon="arrow-up" href="/ExtNsT3AI/UpdateGuide/Index" />
   <Card title="Update Version" icon="refresh-cw" href="/ExtNsT3AI/UpdateVersion/Index" />

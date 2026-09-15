@@ -54,7 +54,7 @@ Use these follow-up tasks after the wizard completes:
 
 - **Brand context** — [AI Context](/ExtNsT3AF/AIContext/Index)
 - **Tune prompts** — [AI Prompts](/ExtNsT3AF/AIPrompts/Index)
-- **Enable governance** — [AI Permissions](/ExtNsT3AF/GovernanceAndAccess/Index)
+- **Enable governance** — [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
 - **Connect MCP** — [MCP Server](/ExtNsT3AF/MCPServer/Index)
 - **Daily health check** — [Dashboard](/ExtNsT3AF/Dashboard/Index)
 

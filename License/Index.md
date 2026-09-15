@@ -1,4 +1,5 @@
 ---
+next: "/License/Introduction/Index"
 title: "License, Installation & Updates"
 description: "License, Installation & Updates — T3Planet documentation."
 keywords:
