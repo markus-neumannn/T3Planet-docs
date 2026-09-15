@@ -10,8 +10,6 @@ keywords:
 sidebarTitle: "DPA & GDPR"
 ---
 
-{#ns-t3af-dpa-gdpr}
-
 This page describes GDPR-related questions about providers, prompts, usage,
 and logs, and the **technical data-management capabilities** in AI Foundation.
 

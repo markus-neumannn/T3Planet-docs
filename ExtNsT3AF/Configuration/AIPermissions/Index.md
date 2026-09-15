@@ -9,8 +9,6 @@ keywords:
 sidebarTitle: "AI Permissions"
 ---
 
-{#ns-t3af-ai-permissions}
-
 Guided setup wizard for TYPO3 backend usergroup AI permissions.
 
 **Path:**T3AF > AI Permissions
