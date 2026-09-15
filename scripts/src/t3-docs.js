@@ -1836,11 +1836,17 @@
 
   function rewriteLinksIn(root) {
     if (!root) return;
+    // Never rewrite Mintlify chrome/sidebar — Host-at + SPA nav break if we mutate those hrefs.
     var links = root.querySelectorAll("a[href]");
     for (var i = 0; i < links.length; i++) {
       var a = links[i];
+      if (a.closest && (a.closest("#sidebar-content") || a.closest("#navbar") || a.closest("footer") || a.closest("[data-footer]") || a.closest("nav"))) {
+        continue;
+      }
       var href = a.getAttribute("href");
       if (!href || href[0] !== "/" || href.indexOf("//") === 0 || href[0] === "#") continue;
+      // Already under Host-at base — leave alone
+      if (href === DOCS_BASE || href.indexOf(DOCS_BASE + "/") === 0) continue;
       var next = cleanRoute(href);
       next = withDocsBase(next);
       if (next !== href) a.setAttribute("href", next);
@@ -1916,23 +1922,17 @@
   }
 
   function ensureDocsBaseOnClick(e) {
+    // Soft rewrite only for in-content anchors; never hijack navigation.
     try {
-      if (e.defaultPrevented) return;
-      if (e.button != null && e.button !== 0) return;
-      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
       var t = e.target;
       while (t && t.tagName !== "A") t = t.parentElement;
-      if (!t || t.target === "_blank") return;
+      if (!t) return;
+      if (t.closest && (t.closest("#sidebar-content") || t.closest("#navbar") || t.closest("footer") || t.closest("nav"))) return;
       var href = t.getAttribute("href");
       if (!href || href[0] !== "/" || href.indexOf("//") === 0) return;
+      if (href === DOCS_BASE || href.indexOf(DOCS_BASE + "/") === 0) return;
       var next = withDocsBase(cleanRoute(href));
-      if (!next || next === href) return;
-      // Force corrected Host-at path before Mintlify SPA uses the bare href.
-      e.preventDefault();
-      e.stopPropagation();
-      t.setAttribute("href", next);
-      if (window.location && window.location.assign) window.location.assign(next);
-      else window.location.href = next;
+      if (next && next !== href) t.setAttribute("href", next);
     } catch (eClick) {}
   }
 
@@ -1948,12 +1948,8 @@
     if (!window.__t3DocsBaseClickBound) {
       window.__t3DocsBaseClickBound = 1;
       document.addEventListener("click", ensureDocsBaseOnClick, true);
-      document.addEventListener("mousedown", ensureDocsBaseOnClick, true);
-      rewriteAllDocLinks();
-      try {
-        var obs = new MutationObserver(function () { rewriteAllDocLinks(); });
-        obs.observe(document.documentElement, { childList: true, subtree: true });
-      } catch (eObs) {}
+      // Content-only rewrite once; do not observe mutations (breaks Mintlify sidebar SPA).
+      try { rewriteLinksIn(contentRoot()); } catch (eRew) {}
     }
     applyContentClasses();
     rewriteContentLinks();
