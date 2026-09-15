@@ -5,7 +5,7 @@
   "logo": {
     "light": "/_static/t3planet-light.svg",
     "dark": "/_static/t3planet-white-logo.svg",
-    "href": "/"
+    "href": "/en/latest"
   },
   "favicon": "/_static/favicon.png",
   "colors": {
@@ -17,15 +17,15 @@
     "links": [
       {
         "label": "AI Extensions",
-        "href": "/AIFoundationExtensions/Index"
+        "href": "/en/latest/AIFoundationExtensions/Index"
       },
       {
         "label": "Templates",
-        "href": "/AllTemplates/Index"
+        "href": "/en/latest/AllTemplates/Index"
       },
       {
         "label": "Extensions",
-        "href": "/AllExtensions/Index"
+        "href": "/en/latest/AllExtensions/Index"
       },
       {
         "label": "T3Planet.de",
@@ -39,7 +39,7 @@
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "/License/Index"
+      "href": "/en/latest/License/Index"
     }
   },
   "navigation": {
@@ -7470,19 +7470,19 @@
         "items": [
           {
             "label": "License & Get Started",
-            "href": "/License/Index"
+            "href": "/en/latest/License/Index"
           },
           {
             "label": "AI Extensions",
-            "href": "/AIFoundationExtensions/Index"
+            "href": "/en/latest/AIFoundationExtensions/Index"
           },
           {
             "label": "Templates & Themes",
-            "href": "/AllTemplates/Index"
+            "href": "/en/latest/AllTemplates/Index"
           },
           {
             "label": "TYPO3 Extensions",
-            "href": "/AllExtensions/Index"
+            "href": "/en/latest/AllExtensions/Index"
           }
         ]
       },
@@ -7491,19 +7491,19 @@
         "items": [
           {
             "label": "AI Foundation",
-            "href": "/ExtNsT3AF/Index"
+            "href": "/en/latest/ExtNsT3AF/Index"
           },
           {
             "label": "AI Assistant",
-            "href": "/ExtNsT3AI/Index"
+            "href": "/en/latest/ExtNsT3AI/Index"
           },
           {
             "label": "AI Chatbot",
-            "href": "/ExtNsT3AC/Index"
+            "href": "/en/latest/ExtNsT3AC/Index"
           },
           {
             "label": "AI Search",
-            "href": "/ExtNsT3AS/Index"
+            "href": "/en/latest/ExtNsT3AS/Index"
           }
         ]
       },
