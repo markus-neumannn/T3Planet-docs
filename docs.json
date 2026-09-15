@@ -186,14 +186,34 @@
               "ExtNsT3AA/Installation/Index",
               "ExtNsT3AA/ReInstallEverything/Index",
               "ExtNsT3AA/Configuration/Index",
-              "ExtNsT3AA/AccessibilityWidgets/Index",
+              {
+                "group": "Feature Guide",
+                "expanded": true,
+                "pages": [
+                  "ExtNsT3AA/FeatureGuide/Index",
+                  "ExtNsT3AA/FeatureGuide/Dashboard/Index",
+                  "ExtNsT3AA/FeatureGuide/AIAltText/Index",
+                  "ExtNsT3AA/FeatureGuide/AccessibilityWidgets/Index",
+                  {
+                    "group": "Scanner",
+                    "expanded": false,
+                    "pages": [
+                      "ExtNsT3AA/FeatureGuide/Scans/Index",
+                      "ExtNsT3AA/FeatureGuide/Scans/Scanner/Index",
+                      "ExtNsT3AA/FeatureGuide/Scans/BulkScans/Index",
+                      "ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index"
+                    ]
+                  },
+                  "ExtNsT3AA/FeatureGuide/FixHub/Index",
+                  "ExtNsT3AA/FeatureGuide/Content/Index",
+                  "ExtNsT3AA/FeatureGuide/HumanExpertAudit/Index",
+                  "ExtNsT3AA/FeatureGuide/AIVoiceover/Index",
+                  "ExtNsT3AA/FeatureGuide/AIAudio/Index",
+                  "ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index",
+                  "ExtNsT3AA/FeatureGuide/SimplifiedText/Index"
+                ]
+              },
               "ExtNsT3AA/DPAandGDPR/Index",
-              "ExtNsT3AA/SpeedCoreWebVitals/Index",
-              "ExtNsT3AA/AIFilemeta/Index",
-              "ExtNsT3AA/AIAudioGenerator/Index",
-              "ExtNsT3AA/T3AAVoiceover/Index",
-              "ExtNsT3AA/CkeditorAccessibilityChecker/Index",
-              "ExtNsT3AA/SimplifiedText/Index",
               "ExtNsT3AA/UpdateGuide/Index",
               "ExtNsT3AA/KnownProblems/Index",
               "ExtNsT3AA/Support",
@@ -5643,32 +5663,8 @@
       "destination": "/ExtNsStatcounter/UpdateVersion/Index"
     },
     {
-      "source": "/ExtNsT3AA/AIAudioGenerator/Index.html",
-      "destination": "/ExtNsT3AA/AIAudioGenerator/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/AIAudioGenerator.html",
-      "destination": "/ExtNsT3AA/AIAudioGenerator/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/AIFilemeta/Index.html",
-      "destination": "/ExtNsT3AA/AIFilemeta/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/AIFilemeta.html",
-      "destination": "/ExtNsT3AA/AIFilemeta/Index"
-    },
-    {
       "source": "/ExtNsT3AA/BuyNow.html",
       "destination": "/ExtNsT3AA/BuyNow"
-    },
-    {
-      "source": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index.html",
-      "destination": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/CkeditorAccessibilityChecker.html",
-      "destination": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index"
     },
     {
       "source": "/ExtNsT3AA/Configuration/Index.html",
@@ -5719,22 +5715,6 @@
       "destination": "/ExtNsT3AA/Screenshots/Index"
     },
     {
-      "source": "/ExtNsT3AA/SimplifiedText/Index.html",
-      "destination": "/ExtNsT3AA/SimplifiedText/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/SimplifiedText.html",
-      "destination": "/ExtNsT3AA/SimplifiedText/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/SpeedCoreWebVitals/Index.html",
-      "destination": "/ExtNsT3AA/SpeedCoreWebVitals/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/SpeedCoreWebVitals.html",
-      "destination": "/ExtNsT3AA/SpeedCoreWebVitals/Index"
-    },
-    {
       "source": "/ExtNsT3AA/Support.html",
       "destination": "/ExtNsT3AA/Support"
     },
@@ -5745,14 +5725,6 @@
     {
       "source": "/ExtNsT3AA/SystemRequirements.html",
       "destination": "/ExtNsT3AA/SystemRequirements/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/T3AAVoiceover/Index.html",
-      "destination": "/ExtNsT3AA/T3AAVoiceover/Index"
-    },
-    {
-      "source": "/ExtNsT3AA/T3AAVoiceover.html",
-      "destination": "/ExtNsT3AA/T3AAVoiceover/Index"
     },
     {
       "source": "/ExtNsT3AA/UpdateGuide/Index.html",
@@ -7421,6 +7393,118 @@
     {
       "source": "/ExtNsT3AI/DPAandGDPR.html",
       "destination": "/ExtNsT3AI/DPAandGDPR/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AIFilemeta/Index",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIAltText/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AIFilemeta/Index.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIAltText/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AIFilemeta.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIAltText/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AIFilemeta",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIAltText/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AIAudioGenerator/Index",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIAudio/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AIAudioGenerator/Index.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIAudio/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AIAudioGenerator.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIAudio/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AIAudioGenerator",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIAudio/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/T3AAVoiceover/Index",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIVoiceover/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/T3AAVoiceover/Index.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIVoiceover/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/T3AAVoiceover.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIVoiceover/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/T3AAVoiceover",
+      "destination": "/ExtNsT3AA/FeatureGuide/AIVoiceover/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/SpeedCoreWebVitals/Index",
+      "destination": "/ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/SpeedCoreWebVitals/Index.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/SpeedCoreWebVitals.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/SpeedCoreWebVitals",
+      "destination": "/ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AccessibilityWidgets/Index",
+      "destination": "/ExtNsT3AA/FeatureGuide/AccessibilityWidgets/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AccessibilityWidgets/Index.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/AccessibilityWidgets/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AccessibilityWidgets.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/AccessibilityWidgets/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/AccessibilityWidgets",
+      "destination": "/ExtNsT3AA/FeatureGuide/AccessibilityWidgets/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index",
+      "destination": "/ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/CkeditorAccessibilityChecker/Index.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/CkeditorAccessibilityChecker.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/CkeditorAccessibilityChecker",
+      "destination": "/ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/SimplifiedText/Index",
+      "destination": "/ExtNsT3AA/FeatureGuide/SimplifiedText/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/SimplifiedText/Index.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/SimplifiedText/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/SimplifiedText.html",
+      "destination": "/ExtNsT3AA/FeatureGuide/SimplifiedText/Index"
+    },
+    {
+      "source": "/ExtNsT3AA/SimplifiedText",
+      "destination": "/ExtNsT3AA/FeatureGuide/SimplifiedText/Index"
     }
   ],
   "description": "Official T3Planet documentation for TYPO3 extensions, templates, AI solutions, licensing, and installation guides.",

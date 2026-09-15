@@ -1,12 +1,11 @@
 ---
 title: "T3AA - TYPO3 AI Accessibility Assistant"
-description: "T3AA helps TYPO3 teams improve accessibilityrelated content work with AIassisted tools. It supports workflows such as image metadata, alt text, AI audio, voiceover, simplified…"
+description: "T3AA helps TYPO3 teams improve accessibility-related content work with AI-assisted tools. It supports workflows such as image metadata, alt text, AI audio,"
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AA"
-  - "T3AA - TYPO3 AI Accessibility Assistant"
-sidebarTitle: "T3AA - TYPO3 AI Accessibility Assistant"
+sidebarTitle: "Introduction"
 ---
 
 ## EXT:ns_t3aa
@@ -18,17 +17,15 @@ sidebarTitle: "T3AA - TYPO3 AI Accessibility Assistant"
 T3AA helps TYPO3 teams improve accessibility-related content work with AI-assisted tools.
 It supports workflows such as image metadata, alt text, AI audio, voiceover, simplified text, CKEditor accessibility checks, and performance-related guidance.
 
-T3AA now works as a child extension of T3AF (`ns_t3af`), which provides the shared AI providers, authentication, common configuration, and core AI services used by the extension.
+T3AA now works as a child extension of AI Foundation (`ns_t3af`), which provides the shared AI providers, authentication, common configuration, and core AI services used by the extension.
 
 For the shared setup, see:
 
-- [T3AF Introduction](/en/latest/ExtNsT3AF/Introduction/Index)
-- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
-- T3AF System Requirements
+- [AI Foundation Introduction](/en/latest/ExtNsT3AF/Introduction/Index)
+- [AI Foundation Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [AI Foundation System Requirements](/en/latest/ExtNsT3AF/SystemRequirements/Index)
 
 ## Helpful Links
 
-<Note>
-- Product Page: [https://t3planet.de/en/t3aa-typo3-extension](https://t3planet.de/en/t3aa-typo3-extension)
-- Support Portal: [https://t3planet.de/support](https://t3planet.de/support)
-</Note>
+    - Product Page: https://t3planet.de/en/t3aa-typo3-extension
+    - Support Portal: https://t3planet.de/support

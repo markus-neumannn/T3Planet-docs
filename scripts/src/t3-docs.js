@@ -847,8 +847,10 @@
   function contentLooksReady(root) {
     root = root || contentRoot();
     if (!root) return false;
-    if (root.querySelector(".t3-page-veil, #t3-page-hold")) return false;
-    var text = (root.innerText || "").replace(/\s+/g, " ").trim();
+    // Ignore our own nav overlays if they ever land under the content root.
+    var cloneText = (root.innerText || "").replace(/\s+/g, " ").trim();
+    // Strip loader copy so "Loading page…" alone never counts as ready content.
+    var text = cloneText.replace(/Loading page[…\.]*/gi, "").replace(/\s+/g, " ").trim();
     if (text.length >= 48) return true;
     if (root.querySelector("h1, h2, img, pre, table, .mdx-content, article")) {
       return text.length >= 12;
@@ -1147,15 +1149,28 @@
         }, 180);
       }
 
+      // Always force-clear loader UI. A late showNavLoader timeout / failed fade
+      // previously left html.t3-loader-on + "Loading page…" stuck on some routes.
       if (!wasVisible) {
         progressVisible = false;
         releaseHold(true);
+        hideNavLoader(true);
+        hideVeil();
         return;
       }
 
       announceNav("Page loaded");
       progressVisible = false;
       releaseHold(false);
+      hideNavLoader(true);
+      hideVeil();
+      // Belt-and-suspenders after fade path
+      setTimeout(function () {
+        if (token !== navToken) return;
+        hideNavLoader(true);
+        hideVeil();
+        document.documentElement.classList.remove("t3-loader-on", "t3-holding", "t3-route-loading", "t3-nav-busy");
+      }, 450);
     }
 
     function waitReady() {
@@ -1762,6 +1777,10 @@
   }
 
 
+  function isSupademoSrc(src) {
+    return /supademo\.com/i.test(src || "");
+  }
+
   function ensureSupademoFullscreen(root) {
     root = root || document;
     try {
@@ -1769,7 +1788,13 @@
       for (var i = 0; i < frames.length; i++) {
         var iframe = frames[i];
         var src = iframe.getAttribute("src") || iframe.getAttribute("data-t3-src") || "";
-        if (!/supademo\.com/i.test(src)) continue;
+        if (!isSupademoSrc(src)) continue;
+        // Keep Supademo src attached — deferred blank iframes cannot enter fullscreen.
+        if (!iframe.getAttribute("src") && iframe.getAttribute("data-t3-src")) {
+          iframe.setAttribute("src", iframe.getAttribute("data-t3-src"));
+          iframe.removeAttribute("data-t3-src");
+          iframe.removeAttribute("data-t3-iframe");
+        }
         var allow = iframe.getAttribute("allow") || "";
         var parts = allow.split(/[;,]/).map(function (p) { return p.trim(); }).filter(Boolean);
         var seen = {};
@@ -1786,8 +1811,30 @@
         iframe.setAttribute("allowFullScreen", "");
         iframe.setAttribute("webkitallowfullscreen", "true");
         iframe.setAttribute("mozallowfullscreen", "true");
+        iframe.setAttribute("data-t3-supademo", "1");
+        var emb = iframe.closest ? iframe.closest(".t3-embed") : null;
+        if (emb) emb.setAttribute("data-t3-supademo-embed", "1");
       }
     } catch (eFs) {}
+  }
+
+  function syncSupademoFullscreenClass() {
+    try {
+      var fe = document.fullscreenElement || document.webkitFullscreenElement;
+      var on = !!(fe && fe.tagName === "IFRAME" && isSupademoSrc(fe.getAttribute("src") || ""));
+      document.documentElement.classList.toggle("t3-supademo-fs", on);
+      var embeds = document.querySelectorAll(".t3-embed[data-t3-supademo-embed]");
+      for (var i = 0; i < embeds.length; i++) {
+        embeds[i].classList.toggle("t3-supademo-fs-active", on && embeds[i].contains(fe));
+      }
+    } catch (eSync) {}
+  }
+
+  function bindSupademoFullscreenEvents() {
+    if (window.__t3SupademoFsBound) return;
+    window.__t3SupademoFsBound = 1;
+    document.addEventListener("fullscreenchange", syncSupademoFullscreenClass);
+    document.addEventListener("webkitfullscreenchange", syncSupademoFullscreenClass);
   }
 
   function activateIframe(iframe) {
@@ -1797,10 +1844,12 @@
     iframe.setAttribute("src", src);
     iframe.removeAttribute("data-t3-src");
     iframe.removeAttribute("data-t3-iframe");
+    if (isSupademoSrc(src)) ensureSupademoFullscreen(iframe.parentNode || document);
   }
 
   function lazyIframes() {
     ensureSupademoFullscreen();
+    bindSupademoFullscreenEvents();
     var root = contentRoot();
     if (!root) return;
     var frames = root.querySelectorAll("iframe[src]:not([data-t3-iframe])");
@@ -1809,6 +1858,11 @@
       var iframe = frames[i];
       var src = iframe.getAttribute("src");
       if (!src) continue;
+      // Never defer Supademo — fullscreen + interactive controls require a live src.
+      if (isSupademoSrc(src)) {
+        iframe.setAttribute("data-t3-supademo", "1");
+        continue;
+      }
       iframe.setAttribute("data-t3-iframe", "1");
       iframe.setAttribute("data-t3-src", src);
       iframe.removeAttribute("src");
@@ -2251,11 +2305,25 @@
   // Safety: never leave skeleton/hold painted forever (bad cache / hung RSC).
   setInterval(function () {
     try {
-      if (!document.documentElement.classList.contains("t3-holding") &&
-          !document.documentElement.classList.contains("t3-nav-busy")) return;
-      if (!navStartedAt) return;
-      if (Date.now() - navStartedAt < 12000) return;
+      var html = document.documentElement;
+      var stuck =
+        html.classList.contains("t3-holding") ||
+        html.classList.contains("t3-nav-busy") ||
+        html.classList.contains("t3-loader-on") ||
+        html.classList.contains("t3-route-loading");
+      if (!stuck) return;
+      if (!navStartedAt) {
+        // Loader classes without a nav session — force clear.
+        hideNavLoader(true);
+        hideVeil();
+        html.classList.remove("t3-loader-on", "t3-holding", "t3-route-loading", "t3-nav-busy");
+        return;
+      }
+      if (Date.now() - navStartedAt < 8000) return;
       progress(false);
+      hideNavLoader(true);
+      hideVeil();
+      html.classList.remove("t3-loader-on", "t3-holding", "t3-route-loading", "t3-nav-busy");
     } catch (eSafe) {}
   }, 2000);
 

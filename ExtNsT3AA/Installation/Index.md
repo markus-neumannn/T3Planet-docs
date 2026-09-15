@@ -1,11 +1,10 @@
 ---
 title: "Installation"
-description: "This guide helps you install T3AA Premium EXT:nst3aa on a TYPO3 project for the first time."
+description: "This guide helps you install **T3AA Premium** (`EXT:ns_t3aa`) on a TYPO3 project for the first time."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AA"
-  - "Installation"
 sidebarTitle: "Installation"
 ---
 
@@ -26,10 +25,10 @@ You will install and activate these pieces:
 
 Follow the steps below in order. Choose **either** Non-Composer **or** Composer in Step 2 — not both.
 
-<Info>
+<Warning>
 If you are upgrading from an older version (**1.5.2** or earlier) to the latest release,
-follow [Reinstall After Upgrading](/en/latest/ExtNsT3AA/ReInstallEverything/Index) instead of this installation guide.
-</Info>
+follow [Reinstall After Upgrading](/en/latest/ReInstallEverything/Index) instead of this installation guide.
+</Warning>
 
 ## Before you start
 
@@ -50,7 +49,7 @@ The License Manager controls access to T3Planet Premium packages and is required
 
 Pick the path that matches your project.
 
-### Non-Composer Installation
+## Non-Composer Installation
 
 Use this workflow when your project installs T3Planet extensions from the TYPO3 backend:
 
@@ -60,30 +59,30 @@ Use this workflow when your project installs T3Planet extensions from the TYPO3 
 4. Confirm that the latest T3AA package is downloaded.
 5. Confirm that AI Foundation (`EXT:ns_t3af`) is installed automatically or available after activation.
 
-### Composer Installation
+## Composer Installation
 
 Use this workflow when your TYPO3 project is managed with Composer:
 
 1. Check the T3Planet Composer repository configuration.
 2. Update the `only` parameter so the project can download T3AA:
 
-```json
-"only": [
-  "nitsan/ns-t3aa"
-]
-```
+   .. code-block:: json
+
+      "only": [
+        "nitsan/ns-t3aa"
+      ]
 
 3. Install the T3AA package:
 
-```bash
-composer require nitsan/ns-t3aa
-```
+   .. code-block:: bash
+
+      composer require nitsan/ns-t3aa
 
 4. Verify that the installation completed successfully.
 5. Confirm that AI Foundation (`nitsan/ns-t3af` / `EXT:ns_t3af`) is installed. If it is missing, install it using **Step 3 — Install AI Foundation**.
 
 Full license activation details:
-[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/en/latest/License/LicenseActivation/Index)
+https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html
 
 ## Step 3 — Install AI Foundation
 
@@ -92,14 +91,14 @@ It provides the shared AI provider configuration, models, API access, logs, and 
 
 If AI Foundation was already installed in Step 2, you can skip to Step 4.
 
-**AI Foundation** is the shared AI infrastructure for T3Planet AI Universe extensions.
+**AI Foundation** is the shared AI infrastructure for T3Planet AI Foundation extensions.
 Complete the parent setup first, then continue with the remaining T3AA steps below.
 
 AI Foundation is available from the TYPO3 Extension Repository (TER).
 
-Download / TER page: [https://extensions.typo3.org/extension/ns_t3af](https://extensions.typo3.org/extension/ns_t3af)
+Download / TER page: https://extensions.typo3.org/extension/ns_t3af
 
-### AI Foundation has two provider modes
+## AI Foundation has two provider modes
 
 In **AI Foundation → AI Providers**, choose how T3AA gets AI access:
 
@@ -117,7 +116,7 @@ API keys**.
 
 **Link for T3Planet Credits:** [T3Planet Credits Documentation](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
-### Option 1 — Extension Manager (TER)
+## Option 1 — Extension Manager (TER)
 
 1. Open **Admin Tools** → **Extensions**.
 2. Select **Get Extensions**.
@@ -125,13 +124,11 @@ API keys**.
 4. Install and activate the extension.
 5. Flush all TYPO3 caches.
 
-### Option 2 — Composer
+## Option 2 — Composer
 
 If AI Foundation is not already present after installing T3AA, install it with:
 
-```bash
-composer require nitsan/ns-t3af
-```
+   composer require nitsan/ns-t3af
 
 Then flush all TYPO3 caches.
 
@@ -181,4 +178,4 @@ If all items above are true, installation is complete and you can start using T3
 ## Premium Version
 
 For license activation and premium feature access, see:
-[https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
+https://docs.t3planet.de/en/latest/License/Index.html

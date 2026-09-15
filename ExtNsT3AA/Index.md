@@ -1,6 +1,6 @@
 ---
 title: "AI Accessibility"
-description: "T3AA (EXT:ns_t3aa) — AI accessibility assistant for TYPO3 with alt text, audio, voiceover, simplified text, and CKEditor checks."
+description: "T3AA (EXT:ns_t3aa) — AI accessibility for TYPO3: Dashboard, AI Alt Text, Scanner, Fix Hub, widgets, audio, and voiceover."
 keywords:
   - "TYPO3"
   - "T3Planet"
@@ -14,7 +14,7 @@ sidebarTitle: "AI Accessibility"
   <div className="t3-landing-hero">
     <p className="t3-landing-eyebrow">AI Extensions</p>
     <h1 className="t3-landing-title">AI Accessibility</h1>
-    <p className="t3-landing-subtitle">Improve accessibility workflows with AI-assisted alt text, file metadata, audio, voiceover, simplified text, and editor checks.</p>
+    <p className="t3-landing-subtitle">Scan pages, fix issues, generate AI alt text, and improve accessibility workflows in TYPO3 with T3AA.</p>
   </div>
 
 <section className="t3-landing-section">
@@ -26,21 +26,22 @@ sidebarTitle: "AI Accessibility"
   <Card title="System Requirements" icon="server" href="/en/latest/ExtNsT3AA/SystemRequirements/Index" />
   <Card title="Installation" icon="download" href="/en/latest/ExtNsT3AA/Installation/Index" />
   <Card title="Configuration" icon="settings" href="/en/latest/ExtNsT3AA/Configuration/Index" />
-  <Card title="Accessibility Widgets" icon="sliders" href="/en/latest/ExtNsT3AA/AccessibilityWidgets/Index" />
   <Card title="Reinstall After Upgrade" icon="wrench" href="/en/latest/ExtNsT3AA/ReInstallEverything/Index" />
   </CardGroup>
 </section>
 
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">Features</p>
-  <h2 className="t3-landing-section-title">Accessibility tools</h2>
+  <h2 className="t3-landing-section-title">Feature Guide</h2>
   <CardGroup cols={2}>
-  <Card title="Speed & Core Web Vitals" icon="gauge" href="/en/latest/ExtNsT3AA/SpeedCoreWebVitals/Index" />
-  <Card title="AI File Meta" icon="file-image" href="/en/latest/ExtNsT3AA/AIFilemeta/Index" />
-  <Card title="AI Audio Generator" icon="audio-lines" href="/en/latest/ExtNsT3AA/AIAudioGenerator/Index" />
-  <Card title="Voiceover" icon="mic" href="/en/latest/ExtNsT3AA/T3AAVoiceover/Index" />
-  <Card title="CKEditor Accessibility" icon="accessibility" href="/en/latest/ExtNsT3AA/CkeditorAccessibilityChecker/Index" />
-  <Card title="Simplified Text" icon="text" href="/en/latest/ExtNsT3AA/SimplifiedText/Index" />
+  <Card title="Feature Guide" icon="map" href="/en/latest/ExtNsT3AA/FeatureGuide/Index" />
+  <Card title="Dashboard" icon="layout-dashboard" href="/en/latest/ExtNsT3AA/FeatureGuide/Dashboard/Index" />
+  <Card title="AI Alt Text" icon="image" href="/en/latest/ExtNsT3AA/FeatureGuide/AIAltText/Index" />
+  <Card title="Accessibility Widgets" icon="sliders" href="/en/latest/ExtNsT3AA/FeatureGuide/AccessibilityWidgets/Index" />
+  <Card title="Scanner" icon="scan" href="/en/latest/ExtNsT3AA/FeatureGuide/Scans/Index" />
+  <Card title="Fix Hub" icon="wrench" href="/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index" />
+  <Card title="AI Voiceover" icon="mic" href="/en/latest/ExtNsT3AA/FeatureGuide/AIVoiceover/Index" />
+  <Card title="AI Audio" icon="audio-lines" href="/en/latest/ExtNsT3AA/FeatureGuide/AIAudio/Index" />
   </CardGroup>
 </section>
 

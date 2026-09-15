@@ -5965,8 +5965,14 @@ html.t3-mobile-nav-closing button[class*="lg:hidden"] * {
 }
 
 /* === T3 PERF HELPERS (Aug 10 2026) ===================================== */
-img, video, iframe { max-width: 100%; height: auto; }
-.t3-embed iframe { content-visibility: auto; contain-intrinsic-size: 400px 225px; }
+img, video { max-width: 100%; height: auto; }
+iframe { max-width: 100%; }
+/* Do NOT set iframe { height:auto } — breaks embed fill + fullscreen. */
+/* Do NOT content-visibility Supademo iframes — breaks fullscreen paint. */
+.t3-embed iframe:not([data-t3-supademo]):not([src*="supademo.com"]):not([data-t3-src*="supademo.com"]) {
+  content-visibility: auto;
+  contain-intrinsic-size: 400px 225px;
+}
 #content-area img { content-visibility: auto; }
 
 
@@ -6076,21 +6082,77 @@ footer a[href*="mintlify.com"][href*="utm_campaign=poweredBy"] {
   pointer-events: none !important;
 }
 
-/* Supademo fullscreen: lift container constraints */
+/* Supademo embeds: never paint-contain / clip — required for fullscreen API */
+.t3-embed:has(iframe[src*="supademo.com"]),
+.t3-embed:has(iframe[data-t3-src*="supademo.com"]),
+.t3-embed[data-t3-supademo-embed],
+.t3-embed:has(iframe[data-t3-supademo]) {
+  overflow: visible !important;
+  contain: none !important;
+  content-visibility: visible !important;
+}
+
+.t3-embed iframe[src*="supademo.com"],
+.t3-embed iframe[data-t3-src*="supademo.com"],
+.t3-embed iframe[data-t3-supademo],
+iframe[src*="supademo.com"],
+iframe[data-t3-src*="supademo.com"],
+iframe[data-t3-supademo] {
+  content-visibility: visible !important;
+  contain: none !important;
+  max-height: none !important;
+  height: 100% !important;
+}
+
+/* Supademo fullscreen: fill viewport; lift parent constraints */
 iframe[src*="supademo.com"]:fullscreen,
 iframe[src*="supademo.com"]:-webkit-full-screen,
-.t3-embed:has(iframe[src*="supademo.com"]:fullscreen),
-.t3-embed:has(iframe[src*="supademo.com"]:-webkit-full-screen) {
+iframe[data-t3-supademo]:fullscreen,
+iframe[data-t3-supademo]:-webkit-full-screen {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
   max-width: none !important;
   max-height: none !important;
-  width: 100% !important;
-  height: 100% !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #000 !important;
+  z-index: 2147483647 !important;
+  content-visibility: visible !important;
+  contain: none !important;
+  overflow: visible !important;
+}
+
+.t3-embed:has(iframe[src*="supademo.com"]:fullscreen),
+.t3-embed:has(iframe[src*="supademo.com"]:-webkit-full-screen),
+.t3-embed:has(iframe[data-t3-supademo]:fullscreen),
+.t3-embed.t3-supademo-fs-active,
+html.t3-supademo-fs .t3-embed[data-t3-supademo-embed] {
+  max-width: none !important;
+  max-height: none !important;
+  width: auto !important;
+  height: auto !important;
   overflow: visible !important;
   contain: none !important;
   content-visibility: visible !important;
   border-radius: 0 !important;
   padding: 0 !important;
   margin: 0 !important;
-  background: #000 !important;
+  background: transparent !important;
+  border: 0 !important;
+}
+
+/* Also skip content-visibility auto rules for deferred/lazy non-supademo only */
+@supports (content-visibility: auto) {
+  .mdx-content iframe[src*="supademo.com"],
+  .mdx-content iframe[data-t3-src*="supademo.com"],
+  .mdx-content iframe[data-t3-supademo],
+  #content-area .t3-embed:has(iframe[src*="supademo.com"]),
+  #content-area .t3-embed[data-t3-supademo-embed] {
+    content-visibility: visible !important;
+  }
 }
 

@@ -1,52 +1,50 @@
 ---
 title: "Configuration"
-description: "T3AA uses T3AF for shared provider setup, model selection, prompts, and core AI services. Complete the parent setup first, then review the T3AAspecific options below."
+description: "T3AA uses AI Foundation for shared provider setup, model selection, prompts, and core AI services. Complete the parent setup first, then review the T3AA-sp"
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AA"
-  - "Configuration"
 sidebarTitle: "Configuration"
 ---
 
-T3AA uses T3AF for shared provider setup, model selection, prompts, and core AI services.
+T3AA uses AI Foundation for shared provider setup, model selection, prompts, and core AI services.
 Complete the parent setup first, then review the T3AA-specific options below.
 
-Helpful T3AF references:
+Helpful AI Foundation references:
 
-- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
+- [AI Foundation Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
 - [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 - [AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index)
-- AI Prompts
-- AI Usage and Logs
+- [AI Prompts](/en/latest/ExtNsT3AF/AIPrompts/Index)
+- [AI Usage and Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index)
 
-## Step 1: Open AI Features in T3AF
+## Step 1: Open AI Features in AI Foundation
 
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmral44e20xqkqmhxbcch9g65?utm_source=link" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-All T3AA feature settings are managed in T3AF — not under **Admin Tools > Settings > Configure Extensions**.
+All T3AA feature settings are managed in AI Foundation — not under **Admin Tools > Settings > Configure Extensions**.
 
 1. Go to the **TYPO3 backend**.
-2. Open **T3AF** → **AI Features**.
+2. Open **AI Foundation** → **AI Features**.
 3. Open the **T3AA** (`ns_t3aa`) feature card.
 4. Review and update the T3AA options described below.
 
-For the shared module overview, see [T3AF AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
+For the shared module overview, see [AI Foundation AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmral44e20xqkqmhxbcch9g65?utm_source=link" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Step 2: Review Shared Provider Setup
 
-Provider credentials and shared model setup belong to T3AF, not to T3AA.
+Provider credentials and shared model setup belong to AI Foundation, not to T3AA.
 Before testing T3AA, confirm that the required provider is already configured in the parent extension.
 
 Common provider-related references:
 
 - [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
-- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
+- [AI Foundation Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
 
 ## Step 3: Feature-Specific Configuration Options
 
-
-In the **T3AA** card under **T3AF > AI Features**, review the options that control how accessibility and content-support features behave in your project.
+In the **T3AA** card under **AI Foundation > AI Features**, review the options that control how accessibility and content-support features behave in your project.
 
 **AI Audio:**
 
@@ -55,33 +53,33 @@ In the **T3AA** card under **T3AF > AI Features**, review the options that contr
 **AI FileMeta (Alt Text & Metadata):**
 
 - Enable **AI Metadata for Images**
--> Activates the AI-powered file metadata feature.
+  -> Activates the AI-powered file metadata feature.
 - Enable **Only alternative text generation**
--> Use this when you want alt text only.
+  -> Use this when you want alt text only.
 - Set **Default Metadata Model**
 - Enable **Metadata Generation During Uploads**
--> Automatically triggers metadata generation when uploading files via TYPO3 Core.
+  -> Automatically triggers metadata generation when uploading files via TYPO3 Core.
 - Choose **Alternative Text Length**
--> Short for brief alt text or Long for detailed alt text.
+  -> Short for brief alt text or Long for detailed alt text.
 
 **CKEditor:**
 
 - Enable **Live Audit for CKEditor**
--> Run accessibility checks in the RTE element.
+  -> Run accessibility checks in the RTE element.
 
 ## Step 4: Save the Configuration
 
-Click **Save** in **T3AF > AI Features** after reviewing the T3AA-specific options.
+Click **Save** in **AI Foundation > AI Features** after reviewing the T3AA-specific options.
 
 Your settings will now be active and ready for use.
 
 <Note>
-If a T3AA feature does not run, first check the shared provider setup in **T3AF > AI Providers** before changing feature settings.
+If a T3AA feature does not run, first check the shared provider setup in **AI Foundation > AI Providers** before changing feature settings.
 </Note>
 
 ## AI Features
 
-T3AA focuses on accessibility and content-support workflows that build on the shared T3AF setup.
+T3AA focuses on accessibility and content-support workflows that build on the shared AI Foundation setup.
 Use these features when you want to improve metadata, accessibility support, and editor assistance without repeating the same manual tasks.
 
 Key T3AA capabilities include:
@@ -92,44 +90,43 @@ Key T3AA capabilities include:
 - CKEditor accessibility checks while editing
 - Performance and accessibility-related support features
 
-For shared model behavior and feature routing, see [T3AF AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
+For shared model behavior and feature routing, see [AI Foundation AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## AI Prompts
 
+T3AA can use shared AI prompts from AI Foundation to keep metadata, audio, accessibility, and page suggestions consistent across your TYPO3 project.
+Customize prompts when you want stricter writing rules, clearer accessibility wording, or reusable instructions for repeated editor tasks.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrborirv0dr9qmo5w1fothof?utm_source=link" loading="lazy" title="T3AA AI Prompts Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-T3AA can use shared AI prompts from T3AF to keep metadata, audio, accessibility, and page suggestions consistent across your TYPO3 project.
-Customize prompts when you want stricter writing rules, clearer accessibility wording, or reusable instructions for repeated editor tasks.
 
 Best practices:
 
 - Keep prompts short and task-specific.
 - Test prompt changes with one real record before wider use.
-- Review T3AF AI Prompts when you want shared prompt control across multiple AI Universe extensions.
+- Review [AI Foundation AI Prompts](/en/latest/ExtNsT3AF/AIPrompts/Index) when you want shared prompt control across multiple AI Foundation extensions.
 
 ## AI Usage
 
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrascwby1i72qmhxfeue5to5?utm_source=link" loading="lazy" title="T3AA AI Usage Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Use AI Usage to review token and request activity generated by T3AA features.
 This helps teams understand how often metadata, audio, and accessibility-related AI actions are being used.
 
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrascwby1i72qmhxfeue5to5?utm_source=link" loading="lazy" title="T3AA AI Usage Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
 ## AI Logs
 
+Use AI Logs to inspect individual T3AA requests when you need to debug output, check failures, or review what happened during metadata and audio generation.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrase4m61ib5qmhxmxn7g5j8?utm_source=link" loading="lazy" title="T3AA AI Logs Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Use AI Logs to inspect individual T3AA requests when you need to debug output, check failures, or review what happened during metadata and audio generation.
 
 ## Providers & MCP Tools
 
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmral5ln50xu7qmhx0cqoj5mu?utm_source=link" loading="lazy" title="T3AA Providers and MCP Tools Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-T3AA depends on the shared provider and MCP setup from T3AF.
+T3AA depends on the shared provider and MCP setup from AI Foundation.
 Use this area to confirm the correct AI provider is available and to review any MCP tools that support connected automation workflows.
 
 See also:
 
 - [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
-- MCP Server
-- MCP Tools
+- [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index)
+- [MCP Tools](/en/latest/ExtNsT3AF/MCPTools/Index)
 
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmral5ln50xu7qmhx0cqoj5mu?utm_source=link" loading="lazy" title="T3AA Providers and MCP Tools Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>

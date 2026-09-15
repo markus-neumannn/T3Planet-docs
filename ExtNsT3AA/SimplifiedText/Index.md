@@ -1,22 +1,13 @@
 ---
-title: "Simplify Text with T3AA"
+title: "Moved: SimplifiedText"
+description: "This page moved to the T3AA Feature Guide."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AA"
-  - "Simplify Text with T3AA"
-sidebarTitle: "Simplify Text with T3AA"
+sidebarTitle: "SimplifiedText"
 ---
 
-Turn complex content into easy, accessible text — in just one click.
+This topic now lives under the **Feature Guide**.
 
-T3AA’s smart tool helps you rewrite complicated text into simple, clear language.
-This supports better understanding for all users and helps your website stay accessibility compliant.
-
-## Before You Begin
-
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmbru14gpcoj6sn1ropd357ss?step=1" loading="lazy" title="T3AA Simplification Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-- Make sure the page is already translated.
-
-Watch the demo below to learn how it works, step by step.
+<Card title="Open updated page" icon="arrow-right" href="/en/latest/ExtNsT3AA/FeatureGuide/SimplifiedText/Index" />

@@ -1,15 +1,14 @@
 ---
 title: "Reinstall After Upgrading to Extension v14.x.x"
-description: "The steps below are required only when upgrading to Extension v14.x.x from an earlier version."
+description: "This upgrade introduces major breaking changes."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AA"
-  - "Reinstall After Upgrading to Extension v14.x.x"
-sidebarTitle: "Reinstall After Upgrading to Extension v14.x.x"
+sidebarTitle: "Reinstall v14"
 ---
 
-<Info>
+<Warning>
 This upgrade introduces major breaking changes.
 
 The steps below are required **only when upgrading to Extension v14.x.x** from an earlier version.
@@ -18,13 +17,13 @@ Before starting the reinstallation process, ensure that you review and complete 
 
 Skipping or changing the sequence of these steps may result in configuration issues, missing functionality, or data inconsistencies.
 
-If you are performing a fresh installation or upgrade extension, please follow the instructions in the [Installation](/en/latest/ExtNsT3AA/Installation/Index) section.
-</Info>
+If you are performing a fresh installation or upgrade extension, please follow the instructions in the [Installation](/en/latest/Installation/Index) section.
+</Warning>
 
 ## Overview
 
-T3AA now works as a child extension of T3AF (`ns_t3af`).
-If you used T3AA before the new architecture, this guide explains how to move your accessibility-related workflows to the shared T3AF setup.
+T3AA now works as a child extension of AI Foundation (`ns_t3af`).
+If you used T3AA before the new architecture, this guide explains how to move your accessibility-related workflows to the shared AI Foundation setup.
 
 ## Previous Version
 
@@ -36,7 +35,7 @@ Earlier T3AA projects usually followed this pattern:
 
 ## New Architecture
 
-T3AA still provides the editor-facing accessibility and content-support features, but the shared AI setup now belongs to T3AF.
+T3AA still provides the editor-facing accessibility and content-support features, but the shared AI setup now belongs to AI Foundation.
 That means provider setup, common AI features, prompts, and shared services should be managed in the parent extension first.
 
 ## Before Updating
@@ -46,22 +45,22 @@ Before you update, make sure you:
 - back up your files and database
 - test the migration on staging first
 - verify TYPO3 and PHP compatibility
-- install or update T3AF
+- install or update AI Foundation
 - prepare the provider credentials used for metadata, audio, or related workflows
 
 Helpful references:
 
-- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
-- T3AF System Requirements
-- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
+- [AI Foundation Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [AI Foundation System Requirements](/en/latest/ExtNsT3AF/SystemRequirements/Index)
+- [AI Foundation Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
 - [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 
 ## Migration Steps
 
 1. Back up the TYPO3 project.
-2. Install or update T3AF (`ns_t3af`).
-3. Configure the required providers in T3AF.
-4. Verify that T3AF can complete a basic AI request.
+2. Install or update AI Foundation (`ns_t3af`).
+3. Configure the required providers in AI Foundation.
+4. Verify that AI Foundation can complete a basic AI request.
 5. Install or update T3AA.
 6. Run the Database Analyzer and apply pending changes.
 7. Clear TYPO3 caches.
@@ -87,15 +86,7 @@ After the update, ask users or project owners to confirm that:
 
 ## Common Migration Issues
 
-- **T3AF is not installed**: T3AA now depends on `ns_t3af` and cannot run correctly without it.
+- **AI Foundation is not installed**: T3AA now depends on `ns_t3af` and cannot run correctly without it.
 - **Provider setup is incomplete**: audio, metadata, or other AI actions may fail until the provider configuration is finished.
 - **Output changed after the update**: review prompts and feature settings if your project used custom wording or provider rules.
 - **A feature opens but does not complete**: clear caches and review the related AI logs.
-
-## Related Documentation
-
-- [Installation](/en/latest/ExtNsT3AA/Installation/Index)
-- [System Requirements](/en/latest/ExtNsT3AA/SystemRequirements/Index)
-- [Update Guide](/en/latest/ExtNsT3AA/UpdateGuide/Index)
-- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
-- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
