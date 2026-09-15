@@ -15,7 +15,7 @@ Guided setup wizard for TYPO3 backend usergroup AI permissions.
 
 Follow this interactive walkthrough, then continue with the details below.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpvc5y0g0vqmo5l30iq6mc?utm_source=link" loading="lazy" title="T3AF AI Permissions Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpvc5y0g0vqmo5l30iq6mc?utm_source=link" loading="lazy" title="T3AF AI Permissions Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ![AI Permissions with TYPO3 backend usergroups and permission matrix](./images/ai-permission.webp)
 

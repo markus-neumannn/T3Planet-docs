@@ -16,7 +16,7 @@ This supports better understanding for all users and helps your website stay acc
 ## Before You Begin
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmbru14gpcoj6sn1ropd357ss?step=1" loading="lazy" title="T3AA Simplification Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmbru14gpcoj6sn1ropd357ss?step=1" loading="lazy" title="T3AA Simplification Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 - Make sure the page is already translated.
 
 Watch the demo below to learn how it works, step by step.

@@ -29,7 +29,7 @@ Types of extensions you can create:
 # Creating Extensions with AI Builder
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmdfsxyx71uhs6n9n0d1zy6l7?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmdfsxyx71uhs6n9n0d1zy6l7?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 Steps:
@@ -55,7 +55,7 @@ Includes:
 # Creating Content Blocks with AI Builder
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmdyd94lv8lbw9f9643kq97l5?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmdyd94lv8lbw9f9643kq97l5?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 Steps:

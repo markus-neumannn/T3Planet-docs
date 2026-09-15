@@ -17,7 +17,7 @@ Move from trial to paid licensing, or renew an existing paid license, from T3Pla
 
 ## Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4aw73y0ooaz3qm7owt0691?embed_v=2&utm_source=embed" loading="lazy" title="Purchase License Key after Free Trial" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4aw73y0ooaz3qm7owt0691?embed_v=2&utm_source=embed" loading="lazy" title="Purchase License Key after Free Trial" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Steps
 

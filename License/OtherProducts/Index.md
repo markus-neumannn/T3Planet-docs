@@ -17,7 +17,7 @@ Browse additional T3Planet extensions, AI solutions, and services from T3Planet 
 
 ## Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4b46bo0oyiz3qmxs5p4kxr?embed_v=2&utm_source=embed" loading="lazy" title="Explore TYPO3 Extensions, Services and Solutions" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4b46bo0oyiz3qmxs5p4kxr?embed_v=2&utm_source=embed" loading="lazy" title="Explore TYPO3 Extensions, Services and Solutions" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Overview
 

@@ -17,7 +17,7 @@ sidebarTitle: "AI Label"
 
 **Path:** AI Foundation > AI Label
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmt8jvbrj0r0bqmvh7s9pw5zg?embed_v=2&utm_source=embed" loading="lazy" title="Configure and Manage AI Labels" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmt8jvbrj0r0bqmvh7s9pw5zg?embed_v=2&utm_source=embed" loading="lazy" title="Configure and Manage AI Labels" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 AI Foundation provides the **technical tooling** — coverage scores, review lists, visitor-facing badges, and evidence export. It does **not** guarantee legal compliance. A high coverage number means internal checks pass, not that your site is compliant.
 

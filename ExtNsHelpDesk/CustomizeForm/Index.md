@@ -15,7 +15,7 @@ From **ns_helpdesk 14.0.0**, the **Customize Form** backend module is removed.
 Add extra ticket fields as records on the Helpdesk storage page (the **Global Storage PID**
 from [Global Settings](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor)).
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8wrfr1f50qmcthi8ia2qo?embed_v=2&utm_source=embed" loading="lazy" title="Create custom Helpdesk ticket fields" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8wrfr1f50qmcthi8ia2qo?embed_v=2&utm_source=embed" loading="lazy" title="Create custom Helpdesk ticket fields" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 **Step 1.** Open the **List** module (Records) and select the ticket storage page.
 

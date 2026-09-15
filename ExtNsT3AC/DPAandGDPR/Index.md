@@ -24,7 +24,7 @@ Follow these steps in the backend (see the demo below):
 2. Click the **Chatbot** tab.
 3. In **Settings**, enable or disable **Save chatbot history**.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragm93i0mj0qmhx6fir2bke?embed_v=2&utm_source=embed" loading="lazy" title="T3AC Chatbot settings — Save chatbot history" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragm93i0mj0qmhx6fir2bke?embed_v=2&utm_source=embed" loading="lazy" title="T3AC Chatbot settings — Save chatbot history" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 When enabled, T3AC can store chatbot-related history such as visitor conversations and generated answers.
 

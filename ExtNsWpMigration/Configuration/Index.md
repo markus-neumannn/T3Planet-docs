@@ -94,7 +94,7 @@ To demonstrate the process visually, refer to the interactive walkthrough below:
     <iframe src="https://app.supademo.com/embed/cmbq89vheb9h0sn1r5toepmbv"
             loading="lazy"
             title="AI Co pilot"
-            allow="clipboard-write"
+            allow="clipboard-write; fullscreen"
             frameBorder="0"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"

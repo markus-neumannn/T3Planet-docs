@@ -13,7 +13,7 @@ sidebarTitle: "Speed and Performance"
 # Speed and Performance
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmeyl7is3r4hnr99y6u8s0es" loading="lazy" title="Speed & Performance" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmeyl7is3r4hnr99y6u8s0es" loading="lazy" title="Speed & Performance" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 To improve your website’s **speed and performance**, please configure the following options:

@@ -21,7 +21,7 @@ from there.
 
 ### Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmshc993i0pb3qmaaoqrn3oma?embed_v=2&utm_source=embed" loading="lazy" title="Get Trial License from Backend" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmshc993i0pb3qmaaoqrn3oma?embed_v=2&utm_source=embed" loading="lazy" title="Get Trial License from Backend" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ### Steps
 
@@ -55,7 +55,7 @@ the payment.
 
 ### Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmshcdtkx0pe3qmaa5qqg8dw1?embed_v=2&utm_source=embed" loading="lazy" title="Purchase License from Backend" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmshcdtkx0pe3qmaa5qqg8dw1?embed_v=2&utm_source=embed" loading="lazy" title="Purchase License from Backend" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ### Steps
 
@@ -89,7 +89,7 @@ it in T3Planet Shop.
 
 ### Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn60qf154j64z3qmr0j91jdo?embed_v=2&utm_source=embed" loading="lazy" title="Get Your News Comment License Key in Minutes" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn60qf154j64z3qmr0j91jdo?embed_v=2&utm_source=embed" loading="lazy" title="Get Your News Comment License Key in Minutes" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ### Steps
 

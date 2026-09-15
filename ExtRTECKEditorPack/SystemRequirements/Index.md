@@ -20,11 +20,11 @@ To run CKEditor Pack without compatibility problems, use these versions:
 ## Feature Demo
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cmi2zqurw02nhzj0i1dtuu5vr?utm_source=link&demo=1&step=1" loading="lazy" title="CKEditor Pack Features Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cmi2zqurw02nhzj0i1dtuu5vr?utm_source=link&demo=1&step=1" loading="lazy" title="CKEditor Pack Features Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Use this demo to see tutorials for CKEditor Pack features:
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/showcase/cmi2zqurw02nhzj0i1dtuu5vr?utm_source=link&demo=1&step=1" loading="lazy" title="CKEditor Pack Features Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/showcase/cmi2zqurw02nhzj0i1dtuu5vr?utm_source=link&demo=1&step=1" loading="lazy" title="CKEditor Pack Features Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 ## Backend Screenshots

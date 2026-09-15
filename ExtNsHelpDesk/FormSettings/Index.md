@@ -24,7 +24,7 @@ and [Constant Editor](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-
 
 The walkthrough below covers both global constants and form constants:
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8g5y71dmuqmctgof78avq?embed_v=2&utm_source=embed" loading="lazy" title="Configure Helpdesk form settings in the Constant Editor" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8g5y71dmuqmctgof78avq?embed_v=2&utm_source=embed" loading="lazy" title="Configure Helpdesk form settings in the Constant Editor" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 You can control, among others:
 

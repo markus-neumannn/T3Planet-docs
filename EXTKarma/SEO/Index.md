@@ -15,7 +15,7 @@ sidebarTitle: "SEO (Search Engine Optimi..."
 ## 1. Sitemap
 
 <div className="t3-embed">
-<iframe src="https://app.supademo.com/embed/cmmfypjyh01n9030j4xehir6y" loading="lazy" title="Sitemap" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+<iframe src="https://app.supademo.com/embed/cmmfypjyh01n9030j4xehir6y" loading="lazy" title="Sitemap" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 You can access the sitemap of the template by appending `sitemap.xml` to the end of your website’s base URL.
@@ -35,7 +35,7 @@ If new pages are added to your website, they will automatically be included in t
 ## 2. Robots.txt
 
 <div className="t3-embed">
-<iframe src="https://app.supademo.com/embed/cmmfxrg044zhinr99o4v0i5li" loading="lazy" title="robots.txt" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+<iframe src="https://app.supademo.com/embed/cmmfxrg044zhinr99o4v0i5li" loading="lazy" title="robots.txt" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 You can access the `robots.txt` file of the template by appending `robots.txt` to the end of your website’s base URL.
@@ -49,7 +49,7 @@ The `robots.txt` file helps control how search engines crawl and index your webs
 ## 3. Set Meta Description & Tags
 
 <div className="t3-embed">
-<iframe src="https://app.supademo.com/embed/cmmisdx4002puvi0jqtvgsj2a" loading="lazy" title="Meta Description & Tags" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+<iframe src="https://app.supademo.com/embed/cmmisdx4002puvi0jqtvgsj2a" loading="lazy" title="Meta Description & Tags" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 You can set the **Meta Description** and **Meta Tags** for any page from the **Metadata** tab in **Page Properties**.
@@ -57,7 +57,7 @@ You can set the **Meta Description** and **Meta Tags** for any page from the **M
 ## 4. Setup OG tags for Social Media
 
 <div className="t3-embed">
-<iframe src="https://app.supademo.com/embed/cmmfy7ga14zrsnr99r4clriqw" loading="lazy" title="Social Media" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+<iframe src="https://app.supademo.com/embed/cmmfy7ga14zrsnr99r4clriqw" loading="lazy" title="Social Media" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 When a page is shared on social media platforms such as **Facebook** or **Twitter**, the **Open Graph (OG) tags** configured for that page are used to generate the preview.
@@ -67,7 +67,7 @@ You can configure these tags in the **Metadata** tab of the **Page Properties**.
 ## 5. Setup 404 page
 
 <div className="t3-embed">
-<iframe src="https://app.supademo.com/embed/cmmfyqsav03ycx10jw9hrubzk" loading="lazy" title="404 Page" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+<iframe src="https://app.supademo.com/embed/cmmfyqsav03ycx10jw9hrubzk" loading="lazy" title="404 Page" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 The template comes with a **pre-configured 404 page**. You can access and modify it from:

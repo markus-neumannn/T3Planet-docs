@@ -12,7 +12,7 @@ sidebarTitle: "Prompts"
 ## Chat Assistance
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpjwwxx067g130uuav6b6sq?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpjwwxx067g130uuav6b6sq?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Make your TYPO3 site smarter with T3AI Chat Assistance. This feature allows you to engage in natural conversations with the improved ChatGPT Assistant right in the TYPO3 backend. Get quick answers, content insights, and support for your daily tasks effortlessly.
 
 **Note: AI may generate inaccurate information about people, places, or facts**
@@ -28,7 +28,7 @@ Make your TYPO3 site smarter with T3AI Chat Assistance. This feature allows you 
 ## Chat Helpful Prompts
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkai8o06mg130u4dvpjoan?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkai8o06mg130u4dvpjoan?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 No more manual prompt writing or searching. T3AI saves you time and effort with access to hundreds of pre-added AI prompts, tested by expert prompt engineers across various models. Simply select your preferred prompt, customize it, and execute it effortlessly.
 
 **Note - T3AI allows you to customize and create your prompts directly from your backend.**
@@ -54,7 +54,7 @@ Additionally, you can select and filter prompts using advanced search filters.
 ## Manage Chat Helpful Prompts Manage
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkecu106q2130u1w5xnekv?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkecu106q2130u1w5xnekv?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Keep your AI prompts organized with the Helpful Prompts Manager. Simplify your tasks and work more efficiently.
 
 **Step 1:** Navigate to T3AI Module and select the ‘Prompt’ tab, then go to the **‘Prompt’** tab and click on **Manage Chat Helpful Prompts**.
@@ -75,7 +75,7 @@ Keep your AI prompts organized with the Helpful Prompts Manager. Simplify your t
 ## Sidebar AI Assistant
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqfvlzj0unp130up8lud0f0?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqfvlzj0unp130up8lud0f0?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Manage all your work in one place without switching between multiple tabs. T3AI Sidebar AI can handle everything with just a few clicks. Simply click on the ‘Sidebar’ icon or open the sidebar module. Simplify your workflow with features like summarization, creation, and text rewriting.
 
 **Step 1:** Open T3AI Sidebar AI and select the prompt type.
@@ -99,7 +99,7 @@ Manage all your work in one place without switching between multiple tabs. T3AI 
 ## Sidebar AI Prompts
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkgj0d06rg130u7evk6piv?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkgj0d06rg130u7evk6piv?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Customize your Sidebar AI prompts if you can’t find what you’re looking for. The Sidebar AI Prompt Manager lets you create, edit, and add your own prompts.
 
 **Step 1:** Open the Sidebar AI Prompts Manager.
@@ -117,7 +117,7 @@ Customize your Sidebar AI prompts if you can’t find what you’re looking for.
 ## SEO Prompts
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkimrh06tk130ulso8mpwg?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkimrh06tk130ulso8mpwg?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Keep your AI SEO prompts organized and easily accessible with our Prompts Manager. Manage all your ideas efficiently in one convenient location.
 
 **Step 1** : Open the Sidebar SEO Prompts Manager.
@@ -136,7 +136,7 @@ Keep your AI SEO prompts organized and easily accessible with our Prompts Manage
 ## Pages Prompts
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpklrw606vo130u1j6u3gwe?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpklrw606vo130u1j6u3gwe?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Make organising and managing AI Page prompts easy with the Prompts Manager. Keep all your creative ideas in one convenient and accessible place.
 
 **Step 1** : Navigate to T3AI Module, then go to the **‘Prompt’** tab and click on **Manage Pages Prompts**.
@@ -157,7 +157,7 @@ Make organising and managing AI Page prompts easy with the Prompts Manager. Keep
 ## Content Prompts
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkng2006xg130umdw5w8pw?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkng2006xg130umdw5w8pw?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Manage your AI content efficiently by organising AI content prompts with the Prompts Manager. Keep all your creative ideas in one place, always accessible and ready to use.
 
 **Step 1** : Navigate to T3AI Module and select the Prompt tab.
@@ -190,7 +190,7 @@ Write a prompt like: ‘Generate [X] word content for my blog post. The writing 
 ## Translation Prompts
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkphe1073c130uhe6btlen?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkphe1073c130uhe6btlen?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Manage all your daily translation tasks in one place. With the T3AI Translation Prompt Manager, you can easily organise and handle all your AI translation prompts. Keep your ideas in one convenient spot, ready to use whenever you need them.
 
 **Step 1** : Navigate to T3AI Module and select the Prompt tab,Open the **‘Translation Prompts’** module.
@@ -222,7 +222,7 @@ Write a prompt like: Translate this content [content] for my blog post. Generate
 ## Media Prompts
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkr90b077i130uew1a1unt?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpkr90b077i130uew1a1unt?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Effortlessly organise and manage AI Media prompts with the Prompts Manager. Keep all your creative ideas together in one easily accessible and ready-to-use location.
 
 **Step 1** : Navigate to T3AI Module and select the Prompt tab.
@@ -245,7 +245,7 @@ Effortlessly organise and manage AI Media prompts with the Prompts Manager. Keep
 
 ## Interactive demos
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraru3lk1h13qmhxc5zr98ut?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraru3lk1h13qmhxc5zr98ut?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ---
 

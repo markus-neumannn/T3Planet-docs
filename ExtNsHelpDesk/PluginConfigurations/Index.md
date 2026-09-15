@@ -18,7 +18,7 @@ Add Helpdesk plugins as content elements on the relevant pages. Three plugins ar
 
 ## Helpdesk list view
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8pazd1edjqmctkkvb7bym?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk list view plugin" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8pazd1edjqmctkkvb7bym?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk list view plugin" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Use this plugin to display tickets on the frontend.
 
@@ -36,7 +36,7 @@ Use this plugin to display tickets on the frontend.
 
 ## Helpdesk ticket submission
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8qmiq1eh4qmctryn4m43z?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk ticket submission plugin" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8qmiq1eh4qmctryn4m43z?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk ticket submission plugin" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Use this plugin to show the ticket creation form.
 
@@ -54,7 +54,7 @@ See [Customize Form](/en/latest/ExtNsHelpDesk/CustomizeForm/Index).
 
 ## Helpdesk front-end user registration
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8say21ep8qmctob2pqhov?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk front-end user registration plugin" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8say21ep8qmctob2pqhov?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk front-end user registration plugin" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Use this plugin when visitors must register before creating tickets.
 

@@ -15,7 +15,7 @@ T3AB includes an intelligent **AI Form Builder**. Just describe your form (e.g.,
         loading="lazy"
         frameBorder="0"
         allowfullscreen
-        style={{width: '100%', height: '400px'}}></iframe>
+        style={{width: '100%', height: '400px'}} allow="clipboard-write; fullscreen" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 
 Features:
 

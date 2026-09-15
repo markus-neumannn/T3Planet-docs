@@ -26,5 +26,5 @@ No external tool is required.
 This helps teams improve accessibility earlier and better follow WCAG and European accessibility requirements.
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmjcxd8y24oqmf6zpcgobnrr2?embed_v=2&utm_source=embed" loading="lazy" title="Premium Pack Configuration Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmjcxd8y24oqmf6zpcgobnrr2?embed_v=2&utm_source=embed" loading="lazy" title="Premium Pack Configuration Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>

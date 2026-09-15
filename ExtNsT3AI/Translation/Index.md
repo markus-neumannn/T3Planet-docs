@@ -48,7 +48,7 @@ TCEMAIN {
 
 ## Mass Translation
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpei6sj2kta1d3n7mns6mnh?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpei6sj2kta1d3n7mns6mnh?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 The **Mass Translate** module is designed to manage and schedule translation tasks for multiple pages.
 With this feature, you can select or deselect languages, or delete scheduled translation tasks.
@@ -61,7 +61,7 @@ With this feature, you can select or deselect languages, or delete scheduled tra
 
 ## Manage Mass Translation
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyv0zu149lqmgz7dxycp3b?embed_v=2&utm_source=embed" loading="lazy" title="Manage Mass Translation Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyv0zu149lqmgz7dxycp3b?embed_v=2&utm_source=embed" loading="lazy" title="Manage Mass Translation Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 The **Manage Mass Translation** module lets you queue, configure, and monitor translation tasks for multiple pages from one place.
 
@@ -106,7 +106,7 @@ Example: set **batch-size** to `10` and **limit** to `10` so each scheduler run 
 ## One-Click Page Translations
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgwbd60vav130ug612bduz?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgwbd60vav130ug612bduz?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 This feature allows you to translate pages and their content elements from the default language to other languages.
 
 There are two options for Translation
@@ -117,7 +117,7 @@ There are two options for Translation
 ## Translate Pages
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpe68xb2k5k1d3ndubefrlw?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpe68xb2k5k1d3ndubefrlw?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 - **Go to Your TYPO3 Page, Then Translate Your Content element.**
 - Go to your TYPO3 page and select the content element you want to translate.
 - Click on **“Translate with AI.”**
@@ -128,7 +128,7 @@ There are two options for Translation
 ## News Translation
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgbidb0v1k130u4y4ewz6p?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgbidb0v1k130u4y4ewz6p?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Expand your knowledge base with News Translations. Click ‘Translate with T3AI’ to get translated news directly in your backend.
 
 **Step 1** - Go to the List module and choose the storage folder from the News list. Then, select the news item you want.
@@ -153,7 +153,7 @@ To ensure proper news translation, always set the container type to **News** in 
 ## Records TCA Translation
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgjyt10v3v130usjypjaae?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgjyt10v3v130usjypjaae?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Looking for a quick solution to transform your data and language? This T3AI feature lets you easily translate your records and data into different languages using a user-friendly tool.
 
 **Note: We recommend using GPT-4.0 for better results.**
@@ -192,7 +192,7 @@ $GLOBALS['TCA']['<table_name>']['columns']['<field_name>']['l10n_mode'] = 'prefi
 ## Re-Translate Pages
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpiu19404xj130u5ah2ekrs?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpiu19404xj130u5ah2ekrs?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Forget about tedious manual translations. With one click, you can refresh and redo your translations instantly. No more manual translation is needed! Just click the ‘Re-Translate’ button. It will delete the current translations and start the language wizard to begin the translation process.
 
 **Step 1**: Go to the **“Page”** tab and click on **“Pages.”**
@@ -259,7 +259,7 @@ Example: /usr/bin/php typo3/sysext/core/bin/typo3 scheduler:run --task=2 -f
 ## Recursive Mass-Translate
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpeyoww2l6g1d3ns8fsb5z6?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpeyoww2l6g1d3ns8fsb5z6?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 It will Translate all pages from the default language into other languages with one action, simplifying the translation process,follow below steps to use this feature
 
 <Note>
@@ -274,7 +274,7 @@ Whenever the Scheduler will run successfully, all the pages will translate
 ## Auto re-Translate Page
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpfnj6801l3130u1i9exdl7?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpfnj6801l3130u1i9exdl7?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 This feature Automatically translate pages and content from the site’s default language to all other languages, ensuring consistency,follow below steps to use this feature
 
 - **Step 1** - go to page module
@@ -286,7 +286,7 @@ Whenever you add any content in Default language it will automatically translate
 
 ## Language Glossary
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyhrun13nbqmgzw4bkjqz0?embed_v=2&utm_source=embed" loading="lazy" title="Language Glossary Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyhrun13nbqmgzw4bkjqz0?embed_v=2&utm_source=embed" loading="lazy" title="Language Glossary Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 The **Glossary** feature lets you define source terms and their target-language replacements for AI translations.
 This keeps terminology consistent across pages and languages.
@@ -310,7 +310,7 @@ When you translate a page with an AI provider (for example, ChatGPT), matching t
 
 ## DeepL Official Glossary
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttypodo141fqmgzv3bctixh?embed_v=2&utm_source=embed" loading="lazy" title="DeepL Glossary Mapping Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttypodo141fqmgzv3bctixh?embed_v=2&utm_source=embed" loading="lazy" title="DeepL Glossary Mapping Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 T3AI also supports **DeepL Official Glossary** mapping.
 Use this when you translate with DeepL and want DeepL glossaries applied for specific language pairs.
@@ -372,7 +372,7 @@ When you localize a page and choose **Translate with DeepL**, the mapped DeepL g
 ## Activate Translated Content
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpid1c3048o130uzzi54lbw?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpid1c3048o130uzzi54lbw?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Tired of spending time manually enabling or disabling translated content on your TYPO3 pages? T3AI makes it easy and quick! By default, translated content is turned off, but with just one click on the “Activate Translated Content” button, you can instantly enable it. Save time and let T3AI handle the work for you!
 
 **Step 1**: Open your TYPO3 backend.
@@ -424,25 +424,25 @@ Follow below steps to enable this feature.
 
 ## Interactive demos
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmmj3g9hy27jqzdh1s0clods6?embed_v=2&utm_source=embed" loading="lazy" title="AI Co-pilot Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmmj3g9hy27jqzdh1s0clods6?embed_v=2&utm_source=embed" loading="lazy" title="AI Co-pilot Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmoclot811hxfs2tq5kqtysxw?embed_v=2&utm_source=embed" loading="lazy" title="AI Co-pilot Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmoclot811hxfs2tq5kqtysxw?embed_v=2&utm_source=embed" loading="lazy" title="AI Co-pilot Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakc1xg0vwcqmhxzehlh60d?utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakc1xg0vwcqmhxzehlh60d?utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakfkin0w8pqmhxhm36f6l4?utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakfkin0w8pqmhxhm36f6l4?utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakzni30xkaqmhxdqvhvky7?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakzni30xkaqmhxdqvhvky7?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmral3lv90xpgqmhxzmi2p048?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmral3lv90xpgqmhxzmi2p048?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmralcltn0ycwqmhx52pq7pre?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmralcltn0ycwqmhx52pq7pre?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraloedr0yqmqmhxmejplhxg?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraloedr0yqmqmhxmejplhxg?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmramdz3d0zs0qmhxu84rlt2k?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmramdz3d0zs0qmhxu84rlt2k?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmran3ygl11dgqmhx8kbvjcfc?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmran3ygl11dgqmhx8kbvjcfc?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmran84i811r1qmhxkpvvp2rw?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmran84i811r1qmhxkpvvp2rw?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 

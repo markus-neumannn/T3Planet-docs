@@ -13,7 +13,7 @@ sidebarTitle: "Ticket Listing"
 From **ns_helpdesk 14.0.0**, the dedicated Helpdesk backend module for ticket listing
 is removed. Add the **Helpdesk - List View** plugin on the page where tickets should appear.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8pazd1edjqmctkkvb7bym?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk list view plugin" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8pazd1edjqmctkkvb7bym?embed_v=2&utm_source=embed" loading="lazy" title="Helpdesk list view plugin" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 **Step 1.** On the ticket listing page, create a new content element.
 

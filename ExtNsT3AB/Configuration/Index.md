@@ -17,7 +17,7 @@ To configure the T3AB extension:
 4. Select **T3AB (ns_t3ab)** and customize settings.
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmdy6mkbl8a2j9f96fxtfioeu?step=15" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmdy6mkbl8a2j9f96fxtfioeu?step=15" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 You can also manage API keys and personalization options here.

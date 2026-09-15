@@ -14,7 +14,7 @@ Make AI-generated images, audio, and videos quickly and easily. Use trusted tool
 ## DALL-E AI Images
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkhpxd0z50130uzyzl117z?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkhpxd0z50130uzyzl117z?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Your T3AI’s image generation capabilities are now even stronger with DALL-E integration. Create high-quality AI-generated images with just one click!
 
 **Note: Before Starting AI image generation, you need to select folders from Your folder tree.**
@@ -55,7 +55,7 @@ Create any image you can imagine in seconds! With T3AI’s powerful integration 
 ## Stability AI Images
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqklmcs0za6130urytvd8w4?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqklmcs0za6130urytvd8w4?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Create cutting-edge AI images and videos with advanced AI technology. Stability AI media can do it with one click!
 
 **Step 1** : Navigate to Your T3AI Module and select the Media tab.
@@ -75,7 +75,7 @@ Create cutting-edge AI images and videos with advanced AI technology. Stability 
 ## Unsplash AI
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkmi8z0zb6130utw8gvpbm?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkmi8z0zb6130utw8gvpbm?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Looking for a collection of stock images? Explore a diverse selection of AI-generated images, perfect for any project or theme. Easily integrated into your work, these images are ready to enhance your creativity.
 
 **Step 1** : Navigate to Your T3AI Module and select the Media tab.
@@ -93,7 +93,7 @@ Looking for a collection of stock images? Explore a diverse selection of AI-gene
 ## Openverse AI
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqknksy0zda130u8yqeb2jx?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqknksy0zda130u8yqeb2jx?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Discover a vast collection of freely licensed media. Easily search for and use images, audio, and videos from Openverse for all your creative projects. Whether you’re working on a website, presentation, or any other project, Openverse provides high-quality resources that are easy to integrate and use.
 
 **Step 1** : Navigate to Your T3AI Module and select the Media tab.
@@ -112,7 +112,7 @@ Discover a vast collection of freely licensed media. Easily search for and use i
 ## Pixabay
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkoe5s0zeo130uin27pkh8?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkoe5s0zeo130uin27pkh8?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Choose from a wide variety of images and videos to fit any project with Pixabay integration. Whether you’re designing a website, creating a presentation, or working on a marketing campaign, Pixabay offers a rich collection of high-quality media that’s easy to access and use in your projects.
 
 **Step 1** : Navigate to Your T3AI Module and select the Media tab.
@@ -131,7 +131,7 @@ Choose from a wide variety of images and videos to fit any project with Pixabay 
 ## Pexels
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkpjae0zga130uix5y1g49?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkpjae0zga130uix5y1g49?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Generate and use high-quality, free stock photos from Pexels to easily enhance your content. Whether you’re working on a blog, social media post, or any other project, Pexels provides a wide selection of beautiful images that can be seamlessly integrated to make your content stand out.
 
 **Step 1** : Navigate to Your T3AI Module and select the Media tab.
@@ -149,7 +149,7 @@ Generate and use high-quality, free stock photos from Pexels to easily enhance y
 
 ## Interactive demos
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraqyvk01egeqmhxy26psv3d?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraqyvk01egeqmhxy26psv3d?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrar00ng1el4qmhxadb8be0z?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrar00ng1el4qmhxadb8be0z?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 

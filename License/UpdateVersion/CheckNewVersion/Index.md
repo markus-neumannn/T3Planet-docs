@@ -19,7 +19,7 @@ Otherwise, you can check whether a new update is available for your purchased TY
 
 ## Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn5xv5kn4c3lz3qmrr926g9m?embed_v=2&utm_source=embed" loading="lazy" title="Check New Version Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn5xv5kn4c3lz3qmrr926g9m?embed_v=2&utm_source=embed" loading="lazy" title="Check New Version Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe></div>
 
 ## Screenshots
 

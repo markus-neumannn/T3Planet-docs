@@ -6078,3 +6078,22 @@ footer a[href*="mintlify.com"][href*="utm_campaign=poweredBy"] {
   overflow: hidden !important;
   pointer-events: none !important;
 }
+
+/* Supademo fullscreen: lift container constraints */
+iframe[src*="supademo.com"]:fullscreen,
+iframe[src*="supademo.com"]:-webkit-full-screen,
+.t3-embed:has(iframe[src*="supademo.com"]:fullscreen),
+.t3-embed:has(iframe[src*="supademo.com"]:-webkit-full-screen) {
+  max-width: none !important;
+  max-height: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: visible !important;
+  contain: none !important;
+  content-visibility: visible !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: #000 !important;
+}
+

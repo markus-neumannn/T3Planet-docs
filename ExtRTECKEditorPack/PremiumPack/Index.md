@@ -22,7 +22,7 @@ Do you want to try all the premium features of the CKEditor Pack TYPO3 extension
 
 ## Configuration for Premium Pack
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3" loading="lazy" title="Premium Pack Configuration Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3" loading="lazy" title="Premium Pack Configuration Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Configure your settings in simple steps to start using the premium features.
 
@@ -30,7 +30,7 @@ Configure your settings in simple steps to start using the premium features.
 
 ## Step 1: Access Extension Configuration
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=2" loading="lazy" title="Access Extension Configuration Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=2" loading="lazy" title="Access Extension Configuration Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 To access and update extension settings:
 
@@ -44,7 +44,7 @@ CKEditor Pack Premium Settings interface showing License key, Authorization Type
 
 ## Step 2: License Key Setup Overview
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=4" loading="lazy" title="License Key Setup Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=4" loading="lazy" title="License Key Setup Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Certain premium CKEditor 5 features require a valid license key. This includes:
 
@@ -97,31 +97,31 @@ To generate or retrieve a key:
 
 ## Add Required License Keys
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=7" loading="lazy" title="Add Required License Keys Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=7" loading="lazy" title="Add Required License Keys Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 The license key is required for Real-time Collaboration, Revision History, Track changes, Comments, Productivity Pack and Features Pack.
 
 ## Step 3: Select the Authorization Type
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=8" loading="lazy" title="Select Authorization Type Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=8" loading="lazy" title="Select Authorization Type Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Select the Authorization Type from the dropdown. (Access Key, Development Token)
 
 ## Step 4: Token URL
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=9" loading="lazy" title="Token URL Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=9" loading="lazy" title="Token URL Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 The development token URL should be used carefully as it does not provide sufficient permission validation.
 
 ## Step 5: Organization ID
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=10" loading="lazy" title="Organization ID Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=10" loading="lazy" title="Organization ID Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 The Organization ID can be found in the CKEditor Pack Backend and can be used for the Real-time collaboration and API requests.
 
 ## Step 6: API Key
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=11" loading="lazy" title="API Key Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=11" loading="lazy" title="API Key Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 The API Key can be found in the CKEditor Pack Backend.
 
@@ -131,13 +131,13 @@ You can access the Advanced settings by clicking on the dropdown.
 
 ## Step 8: Add the Web Socket URL
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=13" loading="lazy" title="Web Socket URL Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=13" loading="lazy" title="Web Socket URL Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Leave this field empty - the system will automatically generate this URL using Organization ID field
 
 ## Step 9: API base URL
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=14" loading="lazy" title="API base URL Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmhzwd9lp05meqnb9utf0xde3?step=14" loading="lazy" title="API base URL Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Leave this field empty - the system will automatically generate this URL using Organization ID and Environment ID fields
 

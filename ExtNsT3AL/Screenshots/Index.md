@@ -11,7 +11,7 @@ sidebarTitle: "Screenshots"
 
 Explore the demo for tutorials on all T3-AL features.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cm9imedc504rtyx0i3vpbye1o?demo=1&step=1" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cm9imedc504rtyx0i3vpbye1o?demo=1&step=1" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe></div>
 
 ## Backend Screenshots
 

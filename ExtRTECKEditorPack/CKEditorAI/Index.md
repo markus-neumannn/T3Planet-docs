@@ -12,13 +12,13 @@ sidebarTitle: "CKEditor AI"
 ## configuration
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmiel3r9wb1glb7b4qrj978xw?step=2" loading="lazy" title="Premium Pack Configuration Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmiel3r9wb1glb7b4qrj978xw?step=2" loading="lazy" title="Premium Pack Configuration Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Adjust the AI configuration as needed
 
 ### AI Chat
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmiel9hefb1seb7b4cxqxc0o4?step=2" loading="lazy" title="Premium Pack Configuration Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmiel9hefb1seb7b4cxqxc0o4?step=2" loading="lazy" title="Premium Pack Configuration Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 The AI Chat feature provides a conversational AI assistant that supports content creation, editing, and ideation within CKEditor. It enables dynamic, multi-turn interactions through a chat interface, offering a collaborative and context-aware writing experience beyond single-prompt text generation.
 
 ### 1. Working with the Document

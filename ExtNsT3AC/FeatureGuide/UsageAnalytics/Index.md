@@ -11,7 +11,7 @@ sidebarTitle: "Usage Analytics"
 
 ## Purpose
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmracyax70em8qmhxmigmckrv?utm_source=link&embed_v=2&utm_source=embed" loading="lazy" title="T3AC Usage Analytics Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmracyax70em8qmhxmigmckrv?utm_source=link&embed_v=2&utm_source=embed" loading="lazy" title="T3AC Usage Analytics Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 View recent search and chatbot activity (if the corresponding extensions are installed).
 

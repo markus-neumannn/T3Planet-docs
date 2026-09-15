@@ -24,7 +24,7 @@ use the **Constant Editor**.
 
 **Step 4.** Set the values required for your site, then save.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8g5y71dmuqmctgof78avq?embed_v=2&utm_source=embed" loading="lazy" title="Configure ns_helpdesk in the Constant Editor" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8g5y71dmuqmctgof78avq?embed_v=2&utm_source=embed" loading="lazy" title="Configure ns_helpdesk in the Constant Editor" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Typical global constants include:
 

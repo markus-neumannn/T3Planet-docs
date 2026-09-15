@@ -12,7 +12,7 @@ sidebarTitle: "Content"
 ## RTE AI Copilot
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfparfqb2e1z1d3nuc7u27hg?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfparfqb2e1z1d3nuc7u27hg?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 This feature adds an AI copilot to the TYPO3 Rich Text Editor (RTE), making it easier for users to add and update content. The copilot offers helpful suggestions and simplifies editing and formatting, improving the overall user experience.
 
 Follow below Step to Use this feature,
@@ -53,7 +53,7 @@ This feature allows you to translate selected content into your chosen language.
 ## Content Rewriter
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfo05vp51bih1d3nx2mm01pa?step=1" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfo05vp51bih1d3nx2mm01pa?step=1" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Stop spending hours rewriting content by hand. T3AI Content Writer lets you generate fresh and unique content quickly and easily. Whether you need blog posts, news articles, or website content, T3AI Content Writer has you covered. Generate tailored content in seconds.
 
 **Note: Please select the Storage folder from the page tree. We recommend using GPT-4.0 for better results.**
@@ -111,7 +111,7 @@ Stop spending hours rewriting content by hand. T3AI Content Writer lets you gene
 ## News Content Rewriter
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqja3b60yda130uutqwjfwr?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqja3b60yda130uutqwjfwr?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 No more manual rewriting! T3AI Content Writer helps you create fresh content quickly and easily. Use our AI tool to generate original articles in seconds. Our online AI tool helps you generate original articles in just a few seconds.
 
 **Note: Please select the Storage folder from the page tree. We recommend using GPT-4.0 for better results.**
@@ -163,7 +163,7 @@ No more manual rewriting! T3AI Content Writer helps you create fresh content qui
 ## Blog Content Rewriter
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqj657f0y6c130ud3zh0goi?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqj657f0y6c130ud3zh0goi?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Generate fresh and unique content in seconds with our T3AI rewriting tool.Create original articles and contents with the assistance of our online AI content rewriting tool in just a few seconds.
 
 **Note: Please select the Storage folder from the page tree. We recommend using GPT-4.0 for better results.**
@@ -205,7 +205,7 @@ Generate fresh and unique content in seconds with our T3AI rewriting tool.Create
 ## Content Elements (Create)
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqip70w0xi6130um9g1ndwf?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqip70w0xi6130um9g1ndwf?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Create AI-powered content elements effortlessly. With advanced AI, you can easily generate TYPO3 core elements, along with custom content elements and blocks that match your design. This feature allows you to quickly build and customize content, saving you time and making your work more efficient.
 
 **Step 1:** Go to the Page module and select the page where you want to create an element.
@@ -225,7 +225,7 @@ Create AI-powered content elements effortlessly. With advanced AI, you can easil
 ### Guidance
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqju3jw0yyq130uvav5h5r1" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqju3jw0yyq130uvav5h5r1" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Didn’t get the information you wanted? T3AI lets you edit and regenerate elements in seconds, saving you time and effort. Easily edit AI-generated TYPO3 core components, as well as custom content elements and blocks you’ve created.
 
 **Note - Follow the steps outlined above under -**
@@ -235,7 +235,7 @@ Didn’t get the information you wanted? T3AI lets you edit and regenerate eleme
 ## Content Translate
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpdagob2ias1d3n5w7nptm0?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpdagob2ias1d3n5w7nptm0?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 With this T3AI feature, you can easily translate your page content elements with just one click! It simplifies the translation process, saving you time and effort. No more manual copying and pasting—just select the content, choose your language, and let T3AI handle the rest
 
 - **Step 1** - Go to your T3AI module and select the **‘Page’** module.
@@ -246,7 +246,7 @@ Your content element will be translated
 
 ## Content Fields
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqju3jw0yyq130uvav5h5r1?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqju3jw0yyq130uvav5h5r1?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 The **Content Field** feature allows you to generate AI-powered content for all fields using a single prompt.
 This helps streamline content creation by automatically filling multiple fields with relevant, high-quality text.

@@ -16,7 +16,7 @@ The **All Licenses** tab in T3Planet Shop lists every license linked to your acc
 
 ## Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmt79ez3i4u9mqm83j83sqmlm?embed_v=2&utm_source=embed" loading="lazy" title="All License Tab" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmt79ez3i4u9mqm83j83sqmlm?embed_v=2&utm_source=embed" loading="lazy" title="All License Tab" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Open All Licenses
 

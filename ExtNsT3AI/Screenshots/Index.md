@@ -18,5 +18,5 @@ You can view backend screenshots of the T3AI TYPO3 AI extension at [https://t3pl
 ## Interactive demos
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cm1gm7tws00c214kkyqjyrdhz?demo=1" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cm1gm7tws00c214kkyqjyrdhz?demo=1" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 

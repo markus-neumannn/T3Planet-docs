@@ -21,7 +21,7 @@ T3AB offers a powerful **AI Content Block Builder**. Just describe your content 
         loading="lazy"
         frameBorder="0"
         allowfullscreen
-        style={{width: '100%', height: '400px'}}></iframe>
+        style={{width: '100%', height: '400px'}} allow="clipboard-write; fullscreen" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 
 You can build:
 

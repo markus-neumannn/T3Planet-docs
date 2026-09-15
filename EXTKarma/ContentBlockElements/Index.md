@@ -15,7 +15,7 @@ sidebarTitle: "Content Block Elements"
 ## Template’s Elements
 
 <div className="t3-embed">
-<iframe src="https://app.supademo.com/embed/cmmeybbi93qv4nr99fcjsa2xl" loading="lazy" title="Content Block Elements" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+<iframe src="https://app.supademo.com/embed/cmmeybbi93qv4nr99fcjsa2xl" loading="lazy" title="Content Block Elements" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 When adding a new content element, you can find the **Content Block Elements** tab in the element wizard. This tab contains all **template-related content block elements** that have been configured for the template.

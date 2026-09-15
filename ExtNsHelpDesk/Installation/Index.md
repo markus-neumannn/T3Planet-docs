@@ -53,6 +53,6 @@ you configure Helpdesk in the Constant Editor.
 
 **Step 5.** Save the TypoScript record.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8d2cj1derqmctvhkyf4yv?embed_v=2&utm_source=embed" loading="lazy" title="Include ns_helpdesk TypoScript" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8d2cj1derqmctvhkyf4yv?embed_v=2&utm_source=embed" loading="lazy" title="Include ns_helpdesk TypoScript" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 After the TypoScript is included, continue with [Global Settings](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).

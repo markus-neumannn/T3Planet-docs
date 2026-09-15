@@ -17,7 +17,7 @@ Activate a license key, bind it to your domain, and monitor license health from 
 
 ## Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4aw73y0ooaz3qm7owt0691?embed_v=2&utm_source=embed&step=1" loading="lazy" title="Activate and Manage Extension Licenses with Statistics" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4aw73y0ooaz3qm7owt0691?embed_v=2&utm_source=embed&step=1" loading="lazy" title="Activate and Manage Extension Licenses with Statistics" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Steps
 

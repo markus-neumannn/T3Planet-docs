@@ -11,7 +11,7 @@ sidebarTitle: "Migration Guide:FlexForm to Content Block"
 ---
 
 <div className="t3-embed">
-<iframe src="https://app.supademo.com/embed/cmpf1zpbo2ciaqm8q3ng5amnj?preview=true&step=1" loading="lazy" title="Upgrade Product >= v13.0.2" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+<iframe src="https://app.supademo.com/embed/cmpf1zpbo2ciaqm8q3ng5amnj?preview=true&step=1" loading="lazy" title="Upgrade Product allow="clipboard-write; fullscreen" allowFullScreen webkitallowfullscreen="true" mozallowfullscreen="true">= v13.0.2" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 ## Upgrade Product ≥ v13.1.0 (Migration from FlexForm Elements to Content Blocks)

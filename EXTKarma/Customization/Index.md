@@ -43,9 +43,9 @@ Disable Style Switcher from the Layouts section.
 
 ## Interactive demos
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmmeyy37n3rxnnr99ch0v9hqs?utm_source=embed" loading="lazy" title="Google Fonts" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmmeyy37n3rxnnr99ch0v9hqs?utm_source=embed" loading="lazy" title="Google Fonts" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmmf0792y3waynr99pdtajlei?utm_source=embed" loading="lazy" title="Custom Fonts" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmmf0792y3waynr99pdtajlei?utm_source=embed" loading="lazy" title="Custom Fonts" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ---
 

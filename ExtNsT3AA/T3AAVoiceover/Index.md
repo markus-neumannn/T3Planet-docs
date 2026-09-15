@@ -28,8 +28,8 @@ With **T3AA Voiceover**, you can add AI-generated audio voiceovers to any TYPO3 
 # OpenAI Voiceover
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrapfm8c17ngqmhxpuzr9t66?utm_source=link" loading="lazy" title="T3AA OpenAI Voiceover Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cm9lbdtgb4i18ljv5576yk9sq" loading="lazy" title="T3AA Voiceover Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrapfm8c17ngqmhxpuzr9t66?utm_source=link" loading="lazy" title="T3AA OpenAI Voiceover Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cm9lbdtgb4i18ljv5576yk9sq" loading="lazy" title="T3AA Voiceover Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Use this option when you want to generate page voiceovers with OpenAI voices instead of ElevenLabs. The workflow stays the same, but the voice provider and output are handled through the OpenAI audio setup.
 
@@ -52,12 +52,12 @@ Add engaging audio to your TYPO3 blog articles with just a few clicks.
 # Voiceover Plugin
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrap6idu16mpqmhxipbc4qvl?utm_source=link" loading="lazy" title="T3AA Voiceover Plugin Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrap6idu16mpqmhxipbc4qvl?utm_source=link" loading="lazy" title="T3AA Voiceover Plugin Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Use the voiceover plugin to render the generated audio in the frontend. This is useful when editors want visitors to play page or blog voiceovers directly on the website.
 
 Add the plugin to the target page, connect it to the generated voiceover record, and check the frontend output after saving.
 
 ## Interactive demos
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrapcuhh17atqmhxhxh0i79l?utm_source=link" loading="lazy" title="T3AA Voiceover Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrapcuhh17atqmhxhxh0i79l?utm_source=link" loading="lazy" title="T3AA Voiceover Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 

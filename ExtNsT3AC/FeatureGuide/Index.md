@@ -19,7 +19,7 @@ sidebarTitle: "Feature Guide"
 ## Configuration
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjbg1qui2wjxf6zpfv4miwkc?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjbg1qui2wjxf6zpfv4miwkc?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 While creating or editing a chatbot, you can configure:
 
 - Title (e.g., AI Chatbot)
@@ -32,7 +32,7 @@ While creating or editing a chatbot, you can configure:
 ## Customization
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjbh6aie2zhgf6zpxhn57f6t?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjbh6aie2zhgf6zpxhn57f6t?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Customize the appearance and behavior of the chatbot:
 
 - Upload Logo
@@ -48,7 +48,7 @@ Customize the appearance and behavior of the chatbot:
 ## Training
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjbj5eum33fkf6zpon3rvzgz?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjbj5eum33fkf6zpon3rvzgz?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 T3AC offers multiple methods to train your chatbot for better and specific responses:
 
 **Meaning of Status Labels:**
@@ -93,20 +93,20 @@ If you’d like to use this chatbot on another domain, follow these simple steps
 ## Chat Logs
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcpqrew4eb4f6zpv7o7s06c?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcpqrew4eb4f6zpv7o7s06c?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 - Access all conversations recorded by the chatbot.
 - Monitor interactions, review conversations, and improve chatbot training based on real user inputs.
 
 ## Multilanguage
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcqdwzn4fewf6zpp0xvswuc?embed_v=2&utm_source=embed" loading="lazy" title="Multilanguage Feature Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcqdwzn4fewf6zpp0xvswuc?embed_v=2&utm_source=embed" loading="lazy" title="Multilanguage Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure your chatbot to support multiple languages directly from the **Configuration** tab by selecting the default language from the dropdown menu. Only the languages that have already been added to your domain will be available for selection.
 
 ## Scheduler
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcqxd4f4g3gf6zpaxu4str4?embed_v=2&utm_source=embed" loading="lazy" title="Scheduler Feature Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcqxd4f4g3gf6zpaxu4str4?embed_v=2&utm_source=embed" loading="lazy" title="Scheduler Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Use the **Scheduler** under the **Website** section of the **Training** tab to automate training tasks on large website datasets—ideal for frequent content updates or large-scale web crawling.
 
 ## Sitemap Crwaling

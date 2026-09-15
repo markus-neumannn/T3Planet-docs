@@ -11,7 +11,7 @@ sidebarTitle: "AI Settings"
 You can also customize your preferences with any model or feature directly from Settings
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp1kwdp23xb1d3nf2y9woib?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp1kwdp23xb1d3nf2y9woib?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 - Navigate to the “Extension Settings” tab.
 - Verify your settings.
 - Click on “NS_AI Setting.”
@@ -24,8 +24,8 @@ You can also customize your preferences with any model or feature directly from 
 
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpsdl20frlqmo521y5if8m?utm_source=link" loading="lazy" title="T3AI AI Logs Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnzbytm19xg1d3nv60rq329?embed_v=2&utm_source=embed" loading="lazy" title="TYPO3 AI Setup wizard" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpsdl20frlqmo521y5if8m?utm_source=link" loading="lazy" title="T3AI AI Logs Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnzbytm19xg1d3nv60rq329?embed_v=2&utm_source=embed" loading="lazy" title="TYPO3 AI Setup wizard" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Track all AI system activities and monitor how your backend users interact with the AI models,follow below steps to check AI log.
 
 - **Step 1** - Log in to your TYPO3 backend and navigate to the T3AI Module.
@@ -45,13 +45,13 @@ After Selecting Your Required field Click on Filter and your AI model Logs are g
 ## Statastics
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnzchrg19yk1d3nfyx5nru0?embed_v=2&utm_source=embed" loading="lazy" title="TYPO3 AI Setup wizard" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnzchrg19yk1d3nfyx5nru0?embed_v=2&utm_source=embed" loading="lazy" title="TYPO3 AI Setup wizard" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Access all your AI model analytics in one place with predefined AI model statistics.
 
 ## Persona
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfo1ibx61e271d3ndexk4qdw?embed_v=2&utm_source=embed" loading="lazy" title="TYPO3 AI Setup wizard" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfo1ibx61e271d3ndexk4qdw?embed_v=2&utm_source=embed" loading="lazy" title="TYPO3 AI Setup wizard" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Get started with T3AI quickly and easily using our Persona ! Follow simple steps to set up T3AI on your TYPO3 site, so you can start enjoying AI-powered features in no time. The wizard guides you through the process, making installation smooth!
 
 This features help you during installtion of T3AI TYPO3 AI Extension.
@@ -59,7 +59,7 @@ This features help you during installtion of T3AI TYPO3 AI Extension.
 ## Feature Toggles
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp0kk7e23451d3nu1ohify7?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp0kk7e23451d3nu1ohify7?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Activate or deactivate features in Global Settings and use only what you need.
 
 ## System AI Log
@@ -85,19 +85,19 @@ Track all AI system activities and monitor how your backend users interact with 
 ## Setting AI SEO
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp29si124pg1d3nfiuqj3mj?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp29si124pg1d3nfiuqj3mj?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure global AI SEO settings: metadata, OG data, schema, scores, and more.
 
 ## Pages
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2btj324qa1d3ncufn5gb3?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2btj324qa1d3ncufn5gb3?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure the AI Page module globally with standard page attributes, news extensions, and blog setup.
 
 ## Content
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2e2yy24rw1d3nu6pr8z3r?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2e2yy24rw1d3nu6pr8z3r?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Customize AI Content settings for Rewriter, Elements, Translation, RTE Assistant, and more.
 
 ## T3AI Co-Pilot
@@ -117,85 +117,85 @@ The **T3AI Co-Pilot** is your easy-to-use AI assistant in TYPO3. It helps you wr
 ## Translation
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2fsgn24us1d3ny6e506rn?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2fsgn24us1d3ny6e506rn?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure AI Translation with glossaries, pages, metadata, TCA, XLF, and more.
 
 ## Custom LLM
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2h7n524xu1d3nmcapna1t?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2h7n524xu1d3nmcapna1t?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Manage LLM settings, enable features, and adjust preferences in one place.
 
 ## OpenAI ChatGPT
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2jszv251o1d3nsktdojhf?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2jszv251o1d3nsktdojhf?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Set up OpenAI ChatGPT API with key, model, tokens, temperature, and more.
 
 ## Gemini
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2l9eh25461d3n5wsiqwrj?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2l9eh25461d3n5wsiqwrj?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure access to Gemini’s API, including API key, model selection, and more.
 
 ## DeepL
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2mar0257c1d3nytqfa9h8?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2mar0257c1d3nytqfa9h8?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure access to DeepL’s API, including API key, API URL, and more.
 
 ## Google Translate
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2nftg259o1d3n80siqcmb?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2nftg259o1d3n80siqcmb?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Set up your connection to Google Translator’s API, including the API URL and other parameters.
 
 ## Claude
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2oh9225b01d3ne9yfqa7t?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2oh9225b01d3ne9yfqa7t?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure access to Claude’s API, including API key, model selection, and additional options.
 
 ## DALL-E
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2pimb25cw1d3nr6une6df?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2pimb25cw1d3nr6une6df?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure access to DALL-E’s API, including API key, endpoint, model selection, and more.
 
 ## Stability
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2r1fq25e21d3nfjczu8x8?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2r1fq25e21d3nfjczu8x8?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure access to Stability’s API, including API key, endpoint, model selection, and other options.
 
 ## MidJourney
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2sb3925f01d3njcz0t29r?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2sb3925f01d3njcz0t29r?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Set up access to MidJourney’s API, including API key, endpoint, model selection, and more.
 
 ## Unsplash
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2t9dp25fw1d3nmcnes1fh?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2t9dp25fw1d3nmcnes1fh?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Set up Unsplash API access by configuring the access key and other settings.
 
 ## Openverse
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2u9jt25go1d3nvp7c6nej?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2u9jt25go1d3nvp7c6nej?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure Openverse API access, including Client ID, Client Secret, and other key parameters.
 
 ## Pixabay
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2ve1025hm1d3nl8zkprxo?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2ve1025hm1d3nl8zkprxo?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Configure Pixabay API access by setting the API key, access key, and additional options.
 
 ## Pexels
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2wh2t25ii1d3nrduadpef?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfp2wh2t25ii1d3nrduadpef?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Set up Pexels API access by configuring the access key and other customizable options.
 
 ## For Integrators
@@ -212,11 +212,11 @@ Explore T3AI - TYPO3 AI Chatbot
 ## Report an Issue
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpg5l59022j130uk8ek60xr?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpg5l59022j130uk8ek60xr?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 ## Suggest Features
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpgljut032r130uobcgvex7?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpgljut032r130uobcgvex7?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 If you find any issues or want to add any custom feature contact us at [Contact](https://t3planet.de/contact)
 
 ## Restrict Prompts
@@ -230,7 +230,7 @@ If you find any issues or want to add any custom feature contact us at [Contact]
 ## Block AI Scrapping
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfph5l5q03ea130uj100dsfm?embed_v=2&utm_source=embed" loading="lazy" title="Block AI Scrapping" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfph5l5q03ea130uj100dsfm?embed_v=2&utm_source=embed" loading="lazy" title="Block AI Scrapping" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Protect your website’s content from unwanted AI bots with our Block AI Scraping feature. Keep your content safe and secure with just one click!
 
 - **Step 1** - Go to site management module in your TYPO3 Backend.
@@ -278,7 +278,7 @@ To grant more granular control, you can also allow specific features within a pa
 
 ## Interactive demos
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrabnhz30bh0qmhx012m66o5?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrabnhz30bh0qmhx012m66o5?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ---
 

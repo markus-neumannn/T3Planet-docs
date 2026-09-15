@@ -17,9 +17,9 @@ The **AI FileMeta** feature in T3AA helps you automatically generate metadata fo
 
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraryza91hd3qmhxpq8887qs?utm_source=link" loading="lazy" title="FileMeta TextAlt.ai Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cm9l8y105022nxu0imradkih5" loading="lazy" title="FileMeta TextAlt.ai Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cm9ldiyrj4jjtljv57t7unmsv" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraryza91hd3qmhxpq8887qs?utm_source=link" loading="lazy" title="FileMeta TextAlt.ai Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cm9l8y105022nxu0imradkih5" loading="lazy" title="FileMeta TextAlt.ai Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cm9ldiyrj4jjtljv57t7unmsv" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 With **TextAlt.ai API**, you can easily generate SEO-friendly and accessible metadata (title, description, alt text) for any image.
 
@@ -45,8 +45,8 @@ With **TextAlt.ai API**, you can easily generate SEO-friendly and accessible met
 
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraru0z91h11qmhxwzq9omc7?utm_source=link" loading="lazy" title="FileMeta Vision API Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cm9l8fads4fnmljv5ala8pvfg" loading="lazy" title="FileMeta Vision API Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraru0z91h11qmhxwzq9omc7?utm_source=link" loading="lazy" title="FileMeta Vision API Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cm9l8fads4fnmljv5ala8pvfg" loading="lazy" title="FileMeta Vision API Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 With **Vision API**, you can extract and generate metadata from images using advanced visual recognition.
 
 **Steps to generate metadata using Vision API:**
@@ -72,13 +72,13 @@ You have two options for generating multilingual image metadata:
 # Manual Metadata Generation per Image
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmd7fds316tuhc4kjv76erv7o?embed_v=2" loading="lazy" title="Multilingual Metadata Manual Option Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmd7fds316tuhc4kjv76erv7o?embed_v=2" loading="lazy" title="Multilingual Metadata Manual Option Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 # Bulk Metadata Generation with Multilingual Support using a Scheduler
 
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmras49y91hl2qmhxltv9w9d6?utm_source=link" loading="lazy" title="AI Bulk Metadata Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfw69mbh2urm10k87q2yb338?utm_source=link" loading="lazy" title="AI Bulk Metadata Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmras49y91hl2qmhxltv9w9d6?utm_source=link" loading="lazy" title="AI Bulk Metadata Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfw69mbh2urm10k87q2yb338?utm_source=link" loading="lazy" title="AI Bulk Metadata Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Manually writing alt texts for images can be repetitive. With AI Bulk Metadata, you can generate or update image metadata for entire folders at once — even across multiple languages.
 
 Steps to Generate Bulk Metadata

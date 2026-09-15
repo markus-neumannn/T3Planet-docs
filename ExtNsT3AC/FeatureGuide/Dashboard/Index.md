@@ -11,7 +11,7 @@ sidebarTitle: "Dashboard"
 ## Purpose
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraci4jy0dt1qmhxv2wo4p5p?utm_source=link" loading="lazy" title="T3AC Dashboard Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraci4jy0dt1qmhxv2wo4p5p?utm_source=link" loading="lazy" title="T3AC Dashboard Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 The Dashboard gives an overview of your AI training pipeline for the current site.
 
 ## What you see

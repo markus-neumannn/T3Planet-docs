@@ -25,7 +25,7 @@ To de-activate or de-register your purchased license key from your TYPO3 instanc
 
 **Step 3.** Click on "Deactivate License" of your particular purchased TYPO3 product.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4aw73y0ooaz3qm7owt0691?embed_v=2&utm_source=embed" loading="lazy" title="License De-Activation Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4aw73y0ooaz3qm7owt0691?embed_v=2&utm_source=embed" loading="lazy" title="License De-Activation Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 **Step 4.** Go to Admin Tools > Extensions > De-Activate Your Installed Extension.
 

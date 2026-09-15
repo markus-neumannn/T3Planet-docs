@@ -24,7 +24,7 @@ Follow these steps in the backend (see the demo below):
 2. Click the **Search** tab.
 3. In **Settings**, enable or disable **Save search history**.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajjqug0tgfqmhx211jb110?embed_v=2&utm_source=embed" loading="lazy" title="T3AS Search settings — Save search history" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajjqug0tgfqmhx211jb110?embed_v=2&utm_source=embed" loading="lazy" title="T3AS Search settings — Save search history" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 When enabled, T3AS can store search-related history such as visitor queries and generated answers.
 

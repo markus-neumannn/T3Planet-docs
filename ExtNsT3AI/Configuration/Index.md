@@ -13,7 +13,7 @@ Before using the extensions, you need to configure them. Please follow the setti
 
 ## Setup Default AI Model
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqfbb6z0tt0130u29fwj54f?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqfbb6z0tt0130u29fwj54f?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe></div>
 
 To set up the API for your AI models, follow these steps:
 

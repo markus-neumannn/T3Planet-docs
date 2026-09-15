@@ -12,7 +12,7 @@ sidebarTitle: "Training Center"
 ## Purpose
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmracqklk0e92qmhxeuqwubf8?utm_source=link" loading="lazy" title="T3AC Training Center Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmracqklk0e92qmhxeuqwubf8?utm_source=link" loading="lazy" title="T3AC Training Center Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 View the training queue (items collected from all data sources) and control training and cleanup.
 
 ## What you see

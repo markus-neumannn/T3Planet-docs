@@ -42,7 +42,7 @@ Get **T3Planet Shop** (`ns_license`) from the TYPO3 Extension Repository (TER): 
 You can also create a license key from the website, then activate it in T3Planet Shop.
 For the backend flow, see [Generating a License Key](/en/latest/License/GenerateLicenseKey/Index).
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cmmyt7j5c0075wy0imx44tkvn?demo=1&step=1" loading="lazy" title="Create and Get your License Key" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cmmyt7j5c0075wy0imx44tkvn?demo=1&step=1" loading="lazy" title="Create and Get your License Key" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 **Step 1.** Click `Get Started` on the demo page.
 

@@ -11,7 +11,7 @@ sidebarTitle: "Templates & Layouts"
 ---
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmexvjqj3qabnr994b4gec0g" loading="lazy" title="Templates & Layout" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmexvjqj3qabnr994b4gec0g" loading="lazy" title="Templates & Layout" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 You can set up layouts for your pages by following the steps below:

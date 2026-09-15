@@ -24,7 +24,7 @@ Theme Options is supported on **TYPO3 v13 and below**. On TYPO3 v14 and above, u
 ## Global-Level Configuration
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmevcuuj3lk6nr99m7i3h5af" loading="lazy" title="Global-Level Configuration" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmevcuuj3lk6nr99m7i3h5af" loading="lazy" title="Global-Level Configuration" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 This module allows you to configure global settings for the theme and control important aspects of your website from a central place.
@@ -76,7 +76,7 @@ This page-level Theme Options flow applies to **TYPO3 v13 and below**.
 </Note>
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmetrfmf3ka2nr99usu9m6b9" loading="lazy" title="Page-Level Configuration" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmetrfmf3ka2nr99usu9m6b9" loading="lazy" title="Page-Level Configuration" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 From the **Theme Options** tab, you can directly select a page and create an **Extension Template** to configure the desired style for that specific page.
@@ -98,7 +98,7 @@ Site Sets provide a more structured and organized way to manage TYPO3 configurat
 Instead of handling everything manually, you can group configurations into reusable sets. This makes your setup cleaner and easier to maintain.
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmniqpv2812claburo4qx4t52?preview=true&step=1" loading="lazy" title="Editor Guide" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmniqpv2812claburo4qx4t52?preview=true&step=1" loading="lazy" title="Editor Guide" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 With Site Sets:

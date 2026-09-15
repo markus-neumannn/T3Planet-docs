@@ -19,7 +19,7 @@ Improve your TYPO3 site’s online presence with Smart T3AI SEO Suggestions. Opt
 ## One-Click SEO Optimization
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnpq0nh0sqx1d3nhc543m2a?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnpq0nh0sqx1d3nhc543m2a?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Tired of manual SEO tasks? It’s time to upgrade your SEO techniques! With T3AI’s One-Click SEO feature, you can instantly generate all your SEO metadata, like titles, keywords, descriptions, and social media tags, including OG titles, descriptions, and images in Seconds!
 
 **Note: Please select pages from the page tree. We recommend using GPT-4.0 for better results**
@@ -48,7 +48,7 @@ Tired of manual SEO tasks? It’s time to upgrade your SEO techniques! With T3AI
 ## New SEO
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnv8rz311qk1d3ny5x3424r?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnv8rz311qk1d3ny5x3424r?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Define your SEO strategy and create smarter, AI-driven SEO. Start a new page and set up your SEO by adding titles, meta keywords, descriptions, and OG metadata.
 
 **Note: Please select pages from the page tree. We recommend using GPT-4.0 for better results.**
@@ -91,7 +91,7 @@ Generate SEO metadata for your page by letting AI analyze the content. It will c
 ## Social Meta
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqibpkz0wx4130u4uuh6lez?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqibpkz0wx4130u4uuh6lez?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 This feature ensures your content is optimized for social media by managing OG tags, descriptions, and images to improve how your content is displayed.
 
 **Note: Please select pages from the page tree.**
@@ -114,7 +114,7 @@ This feature ensures your content is optimized for social media by managing OG t
 ## SERP Snippet
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnvcgn0126v1d3n0nb2jiav?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnvcgn0126v1d3n0nb2jiav?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Check how your website appears on Google by previewing the snippet with Advance T3AI SERP Snippet. Adjust the title, description, and content to make it more appealing to visitors.
 
 **Note: Please select pages from the page tree.**
@@ -124,7 +124,7 @@ Check how your website appears on Google by previewing the snippet with Advance 
 ## Content Analysis
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnw8uie13g11d3norwrr1f2?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnw8uie13g11d3norwrr1f2?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Looking for an efficient way to analyze your TYPO3 content? T3AI simplifies the process with one-click analysis and AI recommendations to boost your global audience.
 
 **Note: Please select pages from the page tree. We recommend using GPT-4.0 for better results.**
@@ -143,7 +143,7 @@ Looking for an efficient way to analyze your TYPO3 content? T3AI simplifies the 
 ## SEO Page Score
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnwcerb13ps1d3n72xx9h6s?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfnwcerb13ps1d3n72xx9h6s?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Get a quick look at your TYPO3 website’s SEO score with just one click! You can easily check your SEO score, see how to improve your ranking, and get recommendations.
 
 **Note: Please select pages from the page tree. We recommend using GPT-4.0 for better results.**
@@ -163,7 +163,7 @@ Get a quick look at your TYPO3 website’s SEO score with just one click! You ca
 ## 1.AI Schema for Page
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfo1q8ti1exm1d3n6ocpte99?embed_v=2&utm_source=embed" loading="lazy" title="AI schema" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfo1q8ti1exm1d3n6ocpte99?embed_v=2&utm_source=embed" loading="lazy" title="AI schema" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Boost your site’s visibility with T3AI’s AI Schema feature! Instantly generate structured data, helping search engines understand your content better and improving your SEO performance. With just a few clicks, make your TYPO3 site more search-friendly and accessible!
 
 - **Step 1** - Select a page from the page tree and choose ‘AI Schema’ from the T3AI dropdown menu.
@@ -194,7 +194,7 @@ Before using the Generate AI Schema feature for news, you need to configure and 
 ### T3AI Slug
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqip70w0xi6130um9g1ndwf?embed_v=2&utm_source=embed" loading="lazy" title="AI Slug" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqip70w0xi6130um9g1ndwf?embed_v=2&utm_source=embed" loading="lazy" title="AI Slug" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Easily create SEO-friendly URLs with the AI Slug feature! T3AI helps you generate clear, optimized slugs for your pages,blogs and news , making your content easier for search engines and users to understand.
 
 - **Step 1** - Move to your TYPO3 Page and select any type of page from list.
@@ -204,33 +204,33 @@ Easily create SEO-friendly URLs with the AI Slug feature! T3AI helps you generat
 
 ## Interactive demos
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmranl2rf12m9qmhxqwmx41z4?utm_source=link" loading="lazy" title="T3AI Mass SEO Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmranl2rf12m9qmhxqwmx41z4?utm_source=link" loading="lazy" title="T3AI Mass SEO Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmq7sizd80nqcqml6hobhev7r?utm_source=embed" loading="lazy" title="T3AI Mass SEO Scheduler Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmq7sizd80nqcqml6hobhev7r?utm_source=embed" loading="lazy" title="T3AI Mass SEO Scheduler Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrc2khs118r3qmo5stu972a6?utm_source=link" loading="lazy" title="T3AI Page Wise Mass SEO Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrc2khs118r3qmo5stu972a6?utm_source=link" loading="lazy" title="T3AI Page Wise Mass SEO Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrc2s2uw19cnqmo5qdlz7g7h?utm_source=link" loading="lazy" title="T3AI Recursive Mass SEO Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrc2s2uw19cnqmo5qdlz7g7h?utm_source=link" loading="lazy" title="T3AI Recursive Mass SEO Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95u4pt21q0qm3agmdu390p?utm_source=link" loading="lazy" title="AI schema" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95u4pt21q0qm3agmdu390p?utm_source=link" loading="lazy" title="AI schema" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ### Edit Generated Schema
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmpkvewkb2mhxqms9l3b4ikuh?embed_v=2&utm_source=embed" loading="lazy" title="Edit Generated Schema" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmpkvewkb2mhxqms9l3b4ikuh?embed_v=2&utm_source=embed" loading="lazy" title="Edit Generated Schema" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr94eqvt1zdaqm3a1p8ofvxi?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr94eqvt1zdaqm3a1p8ofvxi?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95394o20qzqm3ab4lc8iau?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95394o20qzqm3ab4lc8iau?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbsktxn0l6fqmo5uizi0x3x?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbsktxn0l6fqmo5uizi0x3x?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmranwwej12ywqmhxd1dkm9mm?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmranwwej12ywqmhxd1dkm9mm?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbngb3z0camqmo5q29vt80k?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbngb3z0camqmo5q29vt80k?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr958hz620v5qm3acmu4m2c4?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr958hz620v5qm3acmu4m2c4?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95o3j821g3qm3amu8k68ox?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95o3j821g3qm3amu8k68ox?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ---
 

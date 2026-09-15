@@ -15,7 +15,7 @@ You can add and manage domains directly from T3Planet Shop. This lets you contro
 
 Whether you are working with staging, production, or multiple domains, you can update domain access anytime from the module.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4basmy0p91z3qm5apxuqtc?step=1" loading="lazy" title="Register and Manage Domains in TYPO3" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4basmy0p91z3qm5apxuqtc?step=1" loading="lazy" title="Register and Manage Domains in TYPO3" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Step-by-step Instructions
 

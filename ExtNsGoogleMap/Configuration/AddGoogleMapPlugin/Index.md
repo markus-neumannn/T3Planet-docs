@@ -67,7 +67,7 @@ After Enabling Marker Cluster checkbox, "Max Zoom level, Grid Size & Marker Clus
 
 ## 2.5 Search Settings
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmk0yijk21odegmn84gi0c88e?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmk0yijk21odegmn84gi0c88e?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe></div>
 
 - **Search Type** -> Select type of search you want to display on your site, select none to display only map & saved locations otherwise choose "Record Based Search OR Radius Search" accordingly.
 

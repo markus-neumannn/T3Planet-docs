@@ -17,7 +17,7 @@ Identify trial licenses and request additional trial time from T3Planet Shop whe
 
 ## Demo
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4b10nh0osjz3qma0vnk50h?embed_v=2&utm_source=embed" loading="lazy" title="Extend Trial final Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4b10nh0osjz3qma0vnk50h?embed_v=2&utm_source=embed" loading="lazy" title="Extend Trial final Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Steps
 

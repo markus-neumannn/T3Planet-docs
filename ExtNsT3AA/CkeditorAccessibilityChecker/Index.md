@@ -11,7 +11,7 @@ sidebarTitle: "CKEditor Accessibility Check using T3AA"
 
 T3AA’s integration with CKEditor helps you check and improve accessibility for both text and images directly inside the editor. This ensures your content stays clear, compliant, and user-friendly for everyone.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfwkejeo3bm410k81iqujedw?utm_source=link" loading="lazy" title="T3AA Simplification Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfwkejeo3bm410k81iqujedw?utm_source=link" loading="lazy" title="T3AA Simplification Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 **Step 1** Add your content in the RTE (Rich Text Editor).
 

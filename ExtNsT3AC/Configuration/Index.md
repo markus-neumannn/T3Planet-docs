@@ -22,7 +22,7 @@ Helpful T3AF references:
 ## Step 1: Open AI Features in T3AF
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrabse4l0btvqmhx59tvn83q?utm_source=link" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrabse4l0btvqmhx59tvn83q?utm_source=link" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Shared AI settings for T3AC are managed in T3AF — not under **Admin Tools > Settings > Configure Extensions**.
 
 1. Go to the **TYPO3 backend**.
@@ -56,7 +56,7 @@ For shared model routing and central AI behavior, see [T3AF AI Features](/en/lat
 
 ## Step 4: Chatbot Configuration
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcy43b44pnzf6zpnlmzp7nj?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcy43b44pnzf6zpnlmzp7nj?embed_v=2&utm_source=embed" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 - **Show and Hide Chatbot on Specific Pages**
 
@@ -95,7 +95,7 @@ Enable this option to permit embedding on any domain without restrictions.
 ## Providers & MCP Tools
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrabygkm0chzqmhx3nanm13o?utm_source=link" loading="lazy" title="T3AC Providers and MCP Tools Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrabygkm0chzqmhx3nanm13o?utm_source=link" loading="lazy" title="T3AC Providers and MCP Tools Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 T3AC uses T3AF for provider selection and any shared MCP-based integrations.
 Review this setup when you want to confirm the active provider, available models, and connected MCP tools that support chatbot workflows.
 

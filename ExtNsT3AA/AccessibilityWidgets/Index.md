@@ -174,4 +174,4 @@ When a visitor selects a profile, the widget enables this tool set:
 Selecting another profile replaces the previous one. Visitors can also use
 individual tools without a profile.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmspx6nk71m45qm339sebmr9a?embed_v=2&utm_source=embed" loading="lazy" title="Interactive demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmspx6nk71m45qm339sebmr9a?embed_v=2&utm_source=embed" loading="lazy" title="Interactive demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>

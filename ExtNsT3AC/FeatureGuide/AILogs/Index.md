@@ -15,7 +15,7 @@ View log entries for the current site, including sync, training, and error event
 ## What you see
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrah70oo0o6vqmhxgl0j1vvx?utm_source=link" loading="lazy" title="AI Logs Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrah70oo0o6vqmhxgl0j1vvx?utm_source=link" loading="lazy" title="AI Logs Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 - **Search**: Use the search box (for example: `Search in message...`) to find specific log text.
 - **Channel**: Filter by channel (default: `[all]`).
 - **Level**: Filter by log level (for example: `Any`, Error, Warning, Info).

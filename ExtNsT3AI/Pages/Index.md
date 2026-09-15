@@ -16,7 +16,7 @@ Generated content elements are stored on colpos 0
 ## Page (Simple)
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpb58t72efv1d3n9wg7p1vc?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpb58t72efv1d3n9wg7p1vc?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Launch AI Page
 
 Create an AI-powered page with titles, content, meta data, AI images, and elements in a single click.
@@ -37,7 +37,7 @@ Create an AI-powered page with titles, content, meta data, AI images, and elemen
 ## Page (Advanced)
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpbi59j2ewq1d3n4y86429w?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpbi59j2ewq1d3n4y86429w?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Launch AI Page
 
 Build an AI-powered page by selecting topics, outlining, and adding elements and images in a few clicks.
@@ -58,7 +58,7 @@ Build an AI-powered page by selecting topics, outlining, and adding elements and
 ## Page Tree
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpc1dkp2fs31d3nswhel36q?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpc1dkp2fs31d3nswhel36q?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Build AI Page Tree
 
 Automatically generate a hierarchical structure of web pages and menus using AI for efficient site organization.
@@ -78,8 +78,8 @@ Automatically generate a hierarchical structure of web pages and menus using AI 
 
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr94376n1yy8qm3akt7qcya0?utm_source=link" loading="lazy" title="AI Blog tree" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqhfk6p0vmi130uwfz3julq?embed_v=2&utm_source=embed" loading="lazy" title="AI Blog tree" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr94376n1yy8qm3akt7qcya0?utm_source=link" loading="lazy" title="AI Blog tree" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqhfk6p0vmi130uwfz3julq?embed_v=2&utm_source=embed" loading="lazy" title="AI Blog tree" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Build AI Blog Tree
 
 Create a hierarchical structure of web pages and menus automatically using AI for efficient site organization.
@@ -98,7 +98,7 @@ Create a hierarchical structure of web pages and menus automatically using AI fo
 ## News (Simple)
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpco2552gvu1d3nh0mom5lq?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpco2552gvu1d3nh0mom5lq?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Publish AI News
 
 Generate compelling news articles by adding topics, keywords, and news types in just a few steps.
@@ -117,7 +117,7 @@ Generate compelling news articles by adding topics, keywords, and news types in 
 ## News (Advanced)
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpcrrvz2h4l1d3nagqpnejh?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpcrrvz2h4l1d3nagqpnejh?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Publish AI News
 
 Create an AI-powered news platform by choosing topics, drafting stories, and adding elements and images in clicks.
@@ -137,7 +137,7 @@ Create an AI-powered news platform by choosing topics, drafting stories, and add
 ## Blog (Simple)
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpc5nm82g181d3n6o8ik3p9?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpc5nm82g181d3n6o8ik3p9?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Generate AI Blog
 
 Generate compelling AI-powered blogs by adding topics, keywords, and blog types in just a few steps.
@@ -155,7 +155,7 @@ Generate compelling AI-powered blogs by adding topics, keywords, and blog types 
 ## Blog (Advanced)
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfo11pg21cum1d3ne0q1fnfp?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfo11pg21cum1d3ne0q1fnfp?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Generate AI Blog
 
 Create an AI-driven blog by choosing topics, outlining, and adding elements and images in a few clicks.
@@ -170,17 +170,17 @@ Create an AI-driven blog by choosing topics, outlining, and adding elements and 
 
 ## Interactive demos
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr93kk611xl1qm3aruhhood7?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr93kk611xl1qm3aruhhood7?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr93vofp1yezqm3a9tewxyn3?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr93vofp1yezqm3a9tewxyn3?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr93ztmb1ynjqm3awsok5811?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr93ztmb1ynjqm3awsok5811?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajvz700ukzqmhxqr0lmo42?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajvz700ukzqmhxqr0lmo42?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajyl2e0uswqmhxdgb2jlzl?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajyl2e0uswqmhxdgb2jlzl?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajl4zr0tngqmhxpncd89qr?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajl4zr0tngqmhxpncd89qr?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajo09x0tz1qmhxe0qsssrm?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajo09x0tz1qmhxe0qsssrm?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 

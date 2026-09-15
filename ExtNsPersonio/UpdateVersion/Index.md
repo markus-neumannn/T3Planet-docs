@@ -17,7 +17,7 @@ If you are currently using lower than 2.0.0 or 2.0.0 and want to upgrade to a ne
   <iframe src="https://app.supademo.com/embed/cmcbvdh5f2zte8qszpvf5nvz3?embed_v=2"
           loading="lazy"
           title="Upgrade Wizard"
-          allow="clipboard-write"
+          allow="clipboard-write; fullscreen"
           frameBorder="0"
           webkitallowfullscreen="true"
           mozallowfullscreen="true"

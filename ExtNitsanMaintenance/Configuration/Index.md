@@ -14,7 +14,7 @@ sidebarTitle: "Configuration"
 To enable maintenance mode for a specific page, add the page ID and create additional TypoScript. You can also set the admin email address here, which will receive subscription emails from visitors if the subscription box is added on the maintenance screen.
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cml6i42nf5jzqzsadvl00rgbe/edit?step=16" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cml6i42nf5jzqzsadvl00rgbe/edit?step=16" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 ## Configure Maintenance Mode Settings
@@ -24,7 +24,7 @@ Once you have installed extension successfully, you will find **Maintenance Mode
 Select Root page to apply Maintenance Mode to whole site. Click on Maintenance Mode module. You will find Maintenance settings as below:
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cml6j3nr65llrzsadejx3f0sl/edit?step=13" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cml6j3nr65llrzsadejx3f0sl/edit?step=13" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 - **Visibility:** Enable/Disable Maintenance Mode.

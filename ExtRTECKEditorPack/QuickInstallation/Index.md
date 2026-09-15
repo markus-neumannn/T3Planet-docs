@@ -34,7 +34,7 @@ You can also install it in the TYPO3 backend with Extension Manager.
 Follow the demo to configure free features, toolbar drag-and-drop, and preset management.
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmhyjl7xp4l1617y0gi1erk6t" loading="lazy" title="Drag-n-Drop Toolbar & Manage Preset Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmhyjl7xp4l1617y0gi1erk6t" loading="lazy" title="Drag-n-Drop Toolbar & Manage Preset Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 ## Figures

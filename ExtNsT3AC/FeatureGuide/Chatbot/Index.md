@@ -9,7 +9,7 @@ keywords:
 sidebarTitle: "Chatbot Features"
 ---
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragm93i0mj0qmhx6fir2bke?utm_source=link&embed_v=2&utm_source=embed" loading="lazy" title="T3AC Chatbot Functionality Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmragm93i0mj0qmhx6fir2bke?utm_source=link&embed_v=2&utm_source=embed" loading="lazy" title="T3AC Chatbot Functionality Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Configuration
 
@@ -39,7 +39,7 @@ Use the live preview panel (click the chatbot avatar) to check title, messages, 
 
 Use AI Prompts when you want to refine how the chatbot greets users, answers questions, follows project-specific rules, or stays within the right tone. This is useful when different websites or teams need chatbot output to stay consistent without editing the answer manually every time.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbodcvo0dj7qmo5ds4mf5m4?utm_source=link&embed_v=2&utm_source=embed" loading="lazy" title="T3AC AI Prompts Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbodcvo0dj7qmo5ds4mf5m4?utm_source=link&embed_v=2&utm_source=embed" loading="lazy" title="T3AC AI Prompts Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Best practices:
 

@@ -11,7 +11,7 @@ sidebarTitle: "Editor Guide"
 ---
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmg0jype50zrnr99x6ac5i2o" loading="lazy" title="Editor Guide" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmg0jype50zrnr99x6ac5i2o" loading="lazy" title="Editor Guide" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 After setting up your website, follow the steps below to make it fully functional and versatile.
@@ -65,7 +65,7 @@ In the **General** tab, you can enable or disable features such as **Breadcrumbs
 ### How to Enable the Mega Menu on Your Website
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmiu10pc1hguzdh1b0z964u0" loading="lazy" title="Mega Menu" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmiu10pc1hguzdh1b0z964u0" loading="lazy" title="Mega Menu" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 To enable the **Mega Menu**, follow the steps below:
@@ -79,7 +79,7 @@ Once enabled, the selected page will display the **Mega Menu** on your website.
 ### Subtitles
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmiua0yh1idtzdh15219n642" loading="lazy" title="Subtitle" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmiua0yh1idtzdh15219n642" loading="lazy" title="Subtitle" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 To add a subtitle, enter the **subtitle** in the **General** tab of the **Page Properties**.
@@ -93,7 +93,7 @@ The subtitle will only be visible on the frontend if the **Navigation Layout** i
 **Step 10.** Inserting the Container Element & Content Block Element on your webpage. You can use the Custom & TYPO3 Default element within the container to provide more flexibility in content area.!
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmiul6yf1j0tzdh1o5ixwvhd" loading="lazy" title="Container Element & Content Block Element" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmiul6yf1j0tzdh1o5ixwvhd" loading="lazy" title="Container Element & Content Block Element" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 <Tip>
@@ -111,7 +111,7 @@ With this feature, you do not need complex TypoScript changes. You can easily ad
 You don’t need any special setup. Just follow the steps shown in the demo:
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmmetrfmf3ka2nr99usu9m6b9?utm_source=link" loading="lazy" title="Page-Level Constant Editor" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmmetrfmf3ka2nr99usu9m6b9?utm_source=link" loading="lazy" title="Page-Level Constant Editor" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 Steps:
@@ -135,7 +135,7 @@ It bridges the gap between backend and frontend, so you can see changes while ed
 You don’t need any extra configuration. Just follow the demo:
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmnip567h0z31aburhqag0y29/edit?step=1" loading="lazy" title="Editor Guide" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmnip567h0z31aburhqag0y29/edit?step=1" loading="lazy" title="Editor Guide" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 Steps:
@@ -156,7 +156,7 @@ If you installed T3Karma with demo pages, you can use one of those demos as your
 Follow this walkthrough:
 
 <div className="t3-embed">
-  <iframe src="https://app.supademo.com/embed/cmqj7pkqm0pqbqmx1daefyh68?utm_source=link" loading="lazy" title="Use Existing T3Karma Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+  <iframe src="https://app.supademo.com/embed/cmqj7pkqm0pqbqmx1daefyh68?utm_source=link" loading="lazy" title="Use Existing T3Karma Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
 1. In the page tree, move the demo page you want to use (for example **Business Consulting**) to the required position.
