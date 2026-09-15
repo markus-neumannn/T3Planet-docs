@@ -1,7 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "T3Planet Docs",
-  "basePath": "/en/latest",
   "theme": "mint",
   "logo": {
     "light": "/_static/t3planet-light.svg",
@@ -1727,6 +1726,34 @@
     ]
   },
   "redirects": [
+    {
+      "source": "/en/latest",
+      "destination": "/"
+    },
+    {
+      "source": "/en/latest/",
+      "destination": "/"
+    },
+    {
+      "source": "/en/latest/index",
+      "destination": "/"
+    },
+    {
+      "source": "/en/latest/Index",
+      "destination": "/"
+    },
+    {
+      "source": "/en/latest/index.html",
+      "destination": "/"
+    },
+    {
+      "source": "/en/latest/Index.html",
+      "destination": "/"
+    },
+    {
+      "source": "/en/latest/:path*",
+      "destination": "/:path*"
+    },
     {
       "source": "/undefined",
       "destination": "/"
