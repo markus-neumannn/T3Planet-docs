@@ -30,6 +30,32 @@
   var imgIo = null;
   var iframeIo = null;
   var routePath = "";
+  var DOCS_BASE = "/en/latest";
+  function docsBasePath() {
+    var p = window.location.pathname || "";
+    if (p === DOCS_BASE || p.indexOf(DOCS_BASE + "/") === 0) return DOCS_BASE;
+    return "";
+  }
+  function withDocsBase(href) {
+    if (!href || href[0] !== "/" || href[1] === "/") return href;
+    var base = docsBasePath();
+    if (!base) return href;
+    if (href === base || href.indexOf(base + "/") === 0) return href;
+    // Keep Mintlify/platform asset paths at domain root
+    if (
+      href.indexOf("/_next") === 0 ||
+      href.indexOf("/mintlify-assets") === 0 ||
+      href.indexOf("/cdn-cgi") === 0 ||
+      href.indexOf("/_mintlify") === 0 ||
+      href.indexOf("/api/") === 0 ||
+      href.indexOf("/.well-known") === 0
+    ) {
+      return href;
+    }
+    if (href === "/") return base;
+    return base + href;
+  }
+
   var HUB_ROUTES = [
     "/",
     "/ExtNsT3AF/Index",
@@ -1779,12 +1805,13 @@
 
   function rewriteLinksIn(root) {
     if (!root) return;
-    var links = root.querySelectorAll('a[href*=".html"]');
+    var links = root.querySelectorAll("a[href]");
     for (var i = 0; i < links.length; i++) {
       var a = links[i];
       var href = a.getAttribute("href");
-      if (!href || href[0] !== "/" || href[0] === "#") continue;
+      if (!href || href[0] !== "/" || href.indexOf("//") === 0 || href[0] === "#") continue;
       var next = cleanRoute(href);
+      next = withDocsBase(next);
       if (next !== href) a.setAttribute("href", next);
     }
   }
@@ -1837,7 +1864,7 @@
       applyDocStats(window.__T3_DOC_STATS__);
       return;
     }
-    fetch("/_static/t3-stats.json", { priority: "low" })
+    fetch(withDocsBase("/_static/t3-stats.json"), { priority: "low" })
       .then(function (res) {
         if (!res.ok) throw new Error("stats");
         return res.json();
@@ -1857,8 +1884,24 @@
     } catch (eHide) {}
   }
 
+  function ensureDocsBaseOnClick(e) {
+    try {
+      var t = e.target;
+      while (t && t.tagName !== "A") t = t.parentElement;
+      if (!t) return;
+      var href = t.getAttribute("href");
+      if (!href || href[0] !== "/") return;
+      var next = withDocsBase(cleanRoute(href));
+      if (next && next !== href) t.setAttribute("href", next);
+    } catch (eClick) {}
+  }
+
   function enhanceContentCritical() {
     hideMintlifyPoweredBy();
+    if (!window.__t3DocsBaseClickBound) {
+      window.__t3DocsBaseClickBound = 1;
+      document.addEventListener("click", ensureDocsBaseOnClick, true);
+    }
     applyContentClasses();
     rewriteContentLinks();
     // Defer heavy iframes BEFORE the browser starts dozens of embed navigations.
