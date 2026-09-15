@@ -23,9 +23,45 @@ JS_LEGACY = ROOT / "_static" / "t3-docs.js"
 JS_OUT = ROOT / "_static" / "t3-docs.min.js"
 
 
+def _strip_js_line_comment(line: str) -> str:
+    """Remove // comments without touching // inside strings or URLs (://)."""
+    in_single = False
+    in_double = False
+    escaped = False
+    i = 0
+    while i < len(line) - 1:
+        ch = line[i]
+        nxt = line[i + 1]
+        if escaped:
+            escaped = False
+            i += 1
+            continue
+        if ch == "\\" and (in_single or in_double):
+            escaped = True
+            i += 1
+            continue
+        if not in_single and not in_double:
+            if ch == "'" :
+                in_single = True
+            elif ch == '"':
+                in_double = True
+            elif ch == "/" and nxt == "/" and (i == 0 or line[i - 1] != ":"):
+                return line[:i].rstrip()
+            elif ch == "/" and nxt == "*":
+                # block comments handled globally; leave alone here
+                pass
+        else:
+            if in_double and ch == '"':
+                in_double = False
+            elif in_single and ch == "'":
+                in_single = False
+        i += 1
+    return line
+
+
 def minify_js(text: str) -> str:
     text = re.sub(r"/\*[\s\S]*?\*/", "", text)
-    text = re.sub(r"(^|[^:])//.*$", "", text, flags=re.MULTILINE)
+    text = "\n".join(_strip_js_line_comment(line) for line in text.splitlines())
     text = re.sub(r"\n\s+", "\n", text)
     text = re.sub(r"\n{2,}", "\n", text)
     return text.strip()
@@ -77,6 +113,17 @@ def main() -> None:
             JS_LEGACY.unlink()
             print("Removed published _static/t3-docs.js (source-only under scripts/src/)")
         print(f"Wrote {CSS_PUB.name} + {JS_OUT.name}")
+        # Fail closed: never publish JS that does not parse.
+        import subprocess
+        check = subprocess.run(
+            ["node", "--check", str(JS_OUT)],
+            capture_output=True,
+            text=True,
+        )
+        if check.returncode != 0:
+            print(check.stderr, file=sys.stderr)
+            raise SystemExit(f"ERROR: {JS_OUT.name} failed node --check")
+
         try:
             from compute_doc_stats import write_stats_json
 

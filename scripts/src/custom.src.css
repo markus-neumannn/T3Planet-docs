@@ -1428,10 +1428,7 @@ button:focus-visible {
 }
 
 /* First paint: hide section lists until sidebar-nav.js finishes (prevents chevron flash) */
-html:not(.t3-sidebar-ready) #sidebar-content .sidebar-group-header + ul,
-html:not(.t3-sidebar-ready) #sidebar-content .sidebar-group-header ~ ul {
-  display: none !important;
-}
+/* t3-sidebar-ready FOUC gate removed: broken JS must not hide all sidebar groups permanently */
 
 html:not(.t3-sidebar-ready) #sidebar-content button[aria-expanded] > div.h-\[1lh\],
 html:not(.t3-sidebar-ready) #sidebar-content button[aria-expanded] .t3-sidebar-chevron-wrap {

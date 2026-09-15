@@ -1844,7 +1844,7 @@
         continue;
       }
       var href = a.getAttribute("href");
-      if (!href || href[0] !== "/" || href.indexOf("//") === 0 || href[0] === "#") continue;
+      if (!href || href[0] !== "/" || href.charAt(0) === '/' && href.charAt(1) === '/' || href[0] === "#") continue;
       // Already under Host-at base — leave alone
       if (href === DOCS_BASE || href.indexOf(DOCS_BASE + "/") === 0) continue;
       var next = cleanRoute(href);
@@ -1929,7 +1929,7 @@
       if (!t) return;
       if (t.closest && (t.closest("#sidebar-content") || t.closest("#navbar") || t.closest("footer") || t.closest("nav"))) return;
       var href = t.getAttribute("href");
-      if (!href || href[0] !== "/" || href.indexOf("//") === 0) return;
+      if (!href || href[0] !== "/" || href.charAt(0) === '/' && href.charAt(1) === '/') return;
       if (href === DOCS_BASE || href.indexOf(DOCS_BASE + "/") === 0) return;
       var next = withDocsBase(cleanRoute(href));
       if (next && next !== href) t.setAttribute("href", next);
