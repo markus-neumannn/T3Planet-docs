@@ -20,7 +20,7 @@ Prerequisites > React & Next is built on top of Node.js. To get up and running w
 
 **Step 1.** Get Frontend Reactjs/Nextjs app-code from /typo3conf/ext/ns_theme_t3reva/frontend_t3reva.zip/ You should able to see the following structure once unzip.
 
-![root-folder-structure](./images/root-folder-structure3.png)
+![root-folder-structure](images/root-folder-structure3.webp)
 
 **Step 2.** Connection with Your Backend/API
 At the same place please create “.env” file to connecting your backend CMS or we can say API’s. and then write the following two lines.
@@ -68,6 +68,6 @@ One of them is [https://vercel.com/](https://vercel.com/)
 - Connect vercel with our your gitlab, github, etc.
 - When perform commit on the master branch vercel will automatically deploy and serve output on the defined domain.
 
-![vercel_login](./images/vercel_login3.jpg)
+![vercel_login](images/vercel_login3.webp)
 
 Awesome! Now Your Site Is Ready To Publish.!

@@ -52,7 +52,7 @@ Each dropdown lists enabled providers from **AI Providers**. The **Default (inhe
 
 ## Configuration workflow
 
-1. Register a feature card with [Custom AI Features](/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index).
+1. Register a feature card with [Custom AI Features](/en/latest/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index).
 2. Add the provider field to that feature’s settings schema.
 3. Implement `FeatureProviderFormOptionsInterface`.
 4. Tag the service with `t3af.feature_provider_form_options`.
@@ -93,7 +93,7 @@ Each dropdown lists enabled providers from **AI Providers**. The **Default (inhe
 
 ## Related documentation
 
-- [Custom AI Features](/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index)
-- [Extension Integration](/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
-- [AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index)
+- [Custom AI Features](/en/latest/ExtNsT3AF/DeveloperGuide/CustomFeatureCards/Index)
+- [Extension Integration](/en/latest/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
+- [AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index)

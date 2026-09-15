@@ -11,4 +11,4 @@ sidebarTitle: "Update Version"
 
 To update this premium product’s version, please refer to the documentation below:
 
-[License Update Version guide](/License/UpdateVersion/Index)
+[License Update Version guide](/en/latest/License/UpdateVersion/Index)

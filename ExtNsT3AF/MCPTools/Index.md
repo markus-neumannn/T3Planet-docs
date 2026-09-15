@@ -23,7 +23,7 @@ The **MCP Tools** screen lists every tool an AI agent can call against your TYPO
 
 ## Core tools (v1)
 
-These tools are available when the [MCP Server](/ExtNsT3AF/MCPServer/Index) is enabled:
+These tools are available when the [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index) is enabled:
 
 - `table_schema` — Field metadata for any database table
 - `pages_get` — Read a single page record
@@ -56,7 +56,7 @@ When T3AI, T3AC, T3AS, or other connected extensions are installed, their MCP to
 ## Security
 
 - Tools respect backend user permissions and workspace context
-- OAuth and URL tokens are configured on the [MCP Server](/ExtNsT3AF/MCPServer/Index) screen
+- OAuth and URL tokens are configured on the [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index) screen
 - Limit which admin users may authorize external agents
 - Use draft workspaces for `write_table` tests
 
@@ -65,4 +65,4 @@ When T3AI, T3AC, T3AS, or other connected extensions are installed, their MCP to
 - **MCP Server** — Enable connectivity, OAuth, and client configuration
 - **MCP Tools** — Browse tools, test calls, see extension contributions
 
-See [MCP Server](/ExtNsT3AF/MCPServer/Index) for connection setup.
+See [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index) for connection setup.

@@ -36,6 +36,6 @@ You can delete individual entries (for privacy or cleanup):
 
 Enable **Save chatbot history** in **Chatbot → Settings** so conversations appear in this log. Enable **Save search history** in **T3AS → Search → Settings** so search queries and answers appear here.
 
-To delete old usage history automatically, use the `t3af:history:cleanup` scheduler task. Set the **days** argument for the retention period (default `90`). See **Scheduler** in [Data Source](/ExtNsT3AC/FeatureGuide/DataSource/Index).
+To delete old usage history automatically, use the `t3af:history:cleanup` scheduler task. Set the **days** argument for the retention period (default `90`). See **Scheduler** in [Data Source](/en/latest/ExtNsT3AC/FeatureGuide/DataSource/Index).
 
 When no data has been recorded yet, the message shown is: *“No interaction logs yet. Search and chatbot history will appear here when the modules are loaded and users interact.”*

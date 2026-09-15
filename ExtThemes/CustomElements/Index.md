@@ -19,4 +19,4 @@ Whenever you are going to add a new element, in wizard you can find "Custom Elem
 
 ## Figures
 
-![Custom Elements](./images/custom_elements1.jpeg)
+![Custom Elements](images/custom_elements1.webp)

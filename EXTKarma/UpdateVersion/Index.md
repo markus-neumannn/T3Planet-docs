@@ -12,4 +12,4 @@ sidebarTitle: "Update Version"
 
 To update this premium product to the latest version, please follow the instructions in the documentation below:
 
-[Update Version Documentation](/License/UpdateVersion/Index)
+[Update Version Documentation](/en/latest/License/UpdateVersion/Index)

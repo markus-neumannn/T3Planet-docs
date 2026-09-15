@@ -28,7 +28,7 @@ Move from trial to paid licensing, or renew an existing paid license, from T3Pla
 5. Confirm active status and validity in T3Planet Shop.
 
 <Tip>
-Buying a new extension? Use **Get New License** in T3Planet Shop. See [Generating a License Key](/License/GenerateLicenseKey/Index).
+Buying a new extension? Use **Get New License** in T3Planet Shop. See [Generating a License Key](/en/latest/License/GenerateLicenseKey/Index).
 </Tip>
 
 ## From Trial to Paid

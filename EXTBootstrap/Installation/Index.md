@@ -17,7 +17,7 @@ You should install the TYPO3 template at the new blank TYPO3 Instance! If you ar
 
 ## License Activation & TYPO3 Installation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 ## How to Install TYPO3 Template T3 Bootstrap
 
@@ -33,7 +33,7 @@ We have already provided Site Configuration and if you want to overwrite it then
 
 Once you install your TYPO3 Template extension, it will automatically generate "Page tree" in your TYPO3 backend with all the pages and content.
 
-![Page Tree](./images/page_tree.jpeg)
+![Page Tree](images/page_tree.webp)
 
 <Note>
 

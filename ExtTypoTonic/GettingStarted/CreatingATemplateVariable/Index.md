@@ -13,7 +13,7 @@ sidebarTitle: "Creating a Template Variable"
 Template Variables inject dynamic values into TypoTonic Fluid templates. You select them in the Display Records plugin, and in other plugins.
 Use them to build filters, search, sorting, or to change what a template shows based on the current request.
 
-![Creating a new Template Variable record](./Images/new_variable.jpg)
+![Creating a new Template Variable record](Images/new_variable.webp)
 
 ## Configuration
 
@@ -54,10 +54,10 @@ GET and POST variables have extra options, because their value comes directly fr
 - **Allowed Values** — Limits the variable to a predefined list of values.
 - **Value Switch** — Changes the variable's value with Fluid, based on a Fluid condition. Each switch has its own condition, and the first matching switch is applied.
 
-![Value Switch example for reversing a sort order parameter](./Images/value_switch.jpg)
+![Value Switch example for reversing a sort order parameter](Images/value_switch.webp)
 
 *Example: a Value Switch that reverses a sort-order parameter*
 
 ## Next Step
 
-Continue with [Templating](/ExtTypoTonic/GettingStarted/Templating/Index) to use variables and records inside your Fluid templates.
+Continue with [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index) to use variables and records inside your Fluid templates.

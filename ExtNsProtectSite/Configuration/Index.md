@@ -18,7 +18,7 @@ First of all, let's configure how any protected page will look to visitor. Pleas
 - Step 3: Select Constant Editor from drop-down.
 - Step 3: Select Constant Editor > PLUGIN.TX_NSPROTECTSITE.
 
-![Select extension in Constant Editor](./images/configuration_1.jpeg)
+![Select extension in Constant Editor](images/configuration_1.webp)
 
 Once extension is selected set all the possible configuration for the Protected page. Please check following image for the available configurations.
 
@@ -47,4 +47,4 @@ That's it! Now, your page is protected. Go and check your page in browser.
 
 ## Figures
 
-![Select extension in Constant Editor](./images/configuration_11.jpeg)
+![Select extension in Constant Editor](images/configuration_11.webp)

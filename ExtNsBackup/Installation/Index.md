@@ -31,13 +31,13 @@ Get it from the Extension Manager: Press the “Retrieve/Update” button and se
   <Step title="Step 4">
 Get it from typo3.org: You can always get the current version from https://extensions.typo3.org/extension/ns_backup/ by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![ns-backup-typo3-install-extension](./images/ns-backup-typo3-install-extension.png)
+![ns-backup-typo3-install-extension](images/ns-backup-typo3-install-extension.webp)
   </Step>
 </Steps>
 
 ## For Premium Version - License Activation
 
-To activate license and install this premium TYPO3 product, Please refere this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refere this documentation [License documentation](/en/latest/License/Index)
 
 ## How to Install TYPO3 Extension ns_backup
 

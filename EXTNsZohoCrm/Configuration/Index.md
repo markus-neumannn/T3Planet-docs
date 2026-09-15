@@ -16,7 +16,7 @@ You can generate Auth Token for your site by following steps mentioned here: htt
 
 Once Auth Token is generated, you need to set this at constants.
 
-![Set Access Token at Constants](./images/set_access_token.jpeg)
+![Set Access Token at Constants](images/set_access_token.webp)
 
 ## 2. Create a Powermail Form at your TYPO3 Backend
 

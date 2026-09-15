@@ -74,7 +74,7 @@ After the yarn build command, Your Building process started. Just change your SC
 
 **Backend Cache Clear Screenshot:**
 
-![BE Clear Catch](./images/BackEnd_Clear_catch.jpeg)
+![BE Clear Catch](images/BackEnd_Clear_catch.webp)
 
 **You can detect this method if this file exists `gulpfile.js` to the following path:**
 

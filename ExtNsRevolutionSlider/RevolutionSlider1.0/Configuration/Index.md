@@ -21,7 +21,7 @@ sidebarTitle: "Configuration"
 
 3. *Include Jquery* if you have not included yet in your project.
 
-![Configuration 3](./images/TYPO3-Revolution-Slider-Include-jQuery.png)
+![Configuration 3](images/TYPO3-Revolution-Slider-Include-jQuery.webp)
 
 4. Create *Storage Folder* and Add "Slider" and "Slider Item" Records.
 

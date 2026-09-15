@@ -44,7 +44,7 @@ Now, set all the settings of Comment plugin
 - **None:** Disable Captcha
 - **Image Captcha:** Display Image Captcha. It will look like this:
 
-![Image Captcha Demo](./images/image_captcha.png)
+![Image Captcha Demo](images/image_captcha.webp)
 
 If you are using Free version and have enabled captcha then Image Captcha will be displayed at comment form.
 
@@ -54,7 +54,7 @@ If you select Image Captcha, you need to rename \_.htaccess file to .htaccess at
 
 </Note>
 
-![Captcha](./images/captcha.png)
+![Captcha](images/captcha.webp)
 
 - **Google reCAPTCHA v2 :** Display Google reCAPTCHA v2. Make sure to add Sitekey in Constant. It will look like this:
 

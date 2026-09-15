@@ -131,7 +131,7 @@ Use for internal audits; reason codes are machine-readable (for example `rule_de
 3. **Upload detection** — optional signals on file import (suggestions only until a person confirms).
 4. **Manual** — editors set fields in the record drawer or TCA **AI Label** tab on pages, content, and file metadata.
 
-See [Extension integration](/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index) for third-party bind patterns.
+See [Extension integration](/en/latest/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index) for third-party bind patterns.
 
 ## Activate visitor labels (text vs media) {#activate-visitor-labels-text-vs-media}
 

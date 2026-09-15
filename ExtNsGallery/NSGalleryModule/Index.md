@@ -54,4 +54,4 @@ This module is used to configure Global Settings for the Gallery extension. Here
 
 ## Figures
 
-![Dashboard](./images/Dashboard1.png)
+![Dashboard](images/Dashboard1.webp)

@@ -21,13 +21,13 @@ sidebarTitle: "AI Accessibility"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/ExtNsT3AA/Introduction/Index" />
-  <Card title="Screenshots" icon="image" href="/ExtNsT3AA/Screenshots/Index" />
-  <Card title="System Requirements" icon="server" href="/ExtNsT3AA/SystemRequirements/Index" />
-  <Card title="Installation" icon="download" href="/ExtNsT3AA/Installation/Index" />
-  <Card title="Configuration" icon="settings" href="/ExtNsT3AA/Configuration/Index" />
-  <Card title="Accessibility Widgets" icon="sliders" href="/ExtNsT3AA/AccessibilityWidgets/Index" />
-  <Card title="Reinstall After Upgrade" icon="wrench" href="/ExtNsT3AA/ReInstallEverything/Index" />
+  <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsT3AA/Introduction/Index" />
+  <Card title="Screenshots" icon="image" href="/en/latest/ExtNsT3AA/Screenshots/Index" />
+  <Card title="System Requirements" icon="server" href="/en/latest/ExtNsT3AA/SystemRequirements/Index" />
+  <Card title="Installation" icon="download" href="/en/latest/ExtNsT3AA/Installation/Index" />
+  <Card title="Configuration" icon="settings" href="/en/latest/ExtNsT3AA/Configuration/Index" />
+  <Card title="Accessibility Widgets" icon="sliders" href="/en/latest/ExtNsT3AA/AccessibilityWidgets/Index" />
+  <Card title="Reinstall After Upgrade" icon="wrench" href="/en/latest/ExtNsT3AA/ReInstallEverything/Index" />
   </CardGroup>
 </section>
 
@@ -35,12 +35,12 @@ sidebarTitle: "AI Accessibility"
   <p className="t3-landing-eyebrow">Features</p>
   <h2 className="t3-landing-section-title">Accessibility tools</h2>
   <CardGroup cols={2}>
-  <Card title="Speed & Core Web Vitals" icon="gauge" href="/ExtNsT3AA/SpeedCoreWebVitals/Index" />
-  <Card title="AI File Meta" icon="file-image" href="/ExtNsT3AA/AIFilemeta/Index" />
-  <Card title="AI Audio Generator" icon="audio-lines" href="/ExtNsT3AA/AIAudioGenerator/Index" />
-  <Card title="Voiceover" icon="mic" href="/ExtNsT3AA/T3AAVoiceover/Index" />
-  <Card title="CKEditor Accessibility" icon="accessibility" href="/ExtNsT3AA/CkeditorAccessibilityChecker/Index" />
-  <Card title="Simplified Text" icon="text" href="/ExtNsT3AA/SimplifiedText/Index" />
+  <Card title="Speed & Core Web Vitals" icon="gauge" href="/en/latest/ExtNsT3AA/SpeedCoreWebVitals/Index" />
+  <Card title="AI File Meta" icon="file-image" href="/en/latest/ExtNsT3AA/AIFilemeta/Index" />
+  <Card title="AI Audio Generator" icon="audio-lines" href="/en/latest/ExtNsT3AA/AIAudioGenerator/Index" />
+  <Card title="Voiceover" icon="mic" href="/en/latest/ExtNsT3AA/T3AAVoiceover/Index" />
+  <Card title="CKEditor Accessibility" icon="accessibility" href="/en/latest/ExtNsT3AA/CkeditorAccessibilityChecker/Index" />
+  <Card title="Simplified Text" icon="text" href="/en/latest/ExtNsT3AA/SimplifiedText/Index" />
   </CardGroup>
 </section>
 
@@ -48,13 +48,13 @@ sidebarTitle: "AI Accessibility"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Updates & support</h2>
   <CardGroup cols={2}>
-  <Card title="Update Guide" icon="arrow-up" href="/ExtNsT3AA/UpdateGuide/Index" />
-  <Card title="Update Version" icon="refresh-cw" href="/ExtNsT3AA/UpdateVersion/Index" />
-  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AA/DPAandGDPR/Index" />
-  <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AA/KnownProblems/Index" />
-  <Card title="Support" icon="life-buoy" href="/ExtNsT3AA/Support" />
-  <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AA/BuyNow" />
-  <Card title="T3AF" icon="layers" href="/ExtNsT3AF/Index" />
+  <Card title="Update Guide" icon="arrow-up" href="/en/latest/ExtNsT3AA/UpdateGuide/Index" />
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsT3AA/UpdateVersion/Index" />
+  <Card title="DPA & GDPR" icon="shield" href="/en/latest/ExtNsT3AA/DPAandGDPR/Index" />
+  <Card title="Known Problems" icon="triangle-alert" href="/en/latest/ExtNsT3AA/KnownProblems/Index" />
+  <Card title="Support" icon="life-buoy" href="/en/latest/ExtNsT3AA/Support" />
+  <Card title="Get Extension" icon="shopping-cart" href="/en/latest/ExtNsT3AA/BuyNow" />
+  <Card title="T3AF" icon="layers" href="/en/latest/ExtNsT3AF/Index" />
   </CardGroup>
 </section>
 

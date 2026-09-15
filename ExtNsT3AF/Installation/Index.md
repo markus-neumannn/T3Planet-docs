@@ -46,7 +46,7 @@ details below.
 
 Quick Setup wizard — guided first-time configuration in the T3AF module.
 
-Continue with [Configuration](/ExtNsT3AF/Configuration/Index#ns-t3af-configuration) for providers, MCP, and
+Continue with [Configuration](/en/latest/ExtNsT3AF/Configuration/Index#ns-t3af-configuration) for providers, MCP, and
 day-to-day module setup.
 
 ## Composer installation
@@ -152,4 +152,4 @@ If the module is missing, flush caches and run
 ## Next steps
 
 Open T3AF > AI Providers to connect at least one provider,
-then review [Configuration](/ExtNsT3AF/Configuration/Index#ns-t3af-configuration).
+then review [Configuration](/en/latest/ExtNsT3AF/Configuration/Index#ns-t3af-configuration).

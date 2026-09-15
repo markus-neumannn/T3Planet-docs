@@ -13,7 +13,7 @@ sidebarTitle: "Global Settings"
 <span id="ns-helpdesk-constant-editor"></span>
 
 From **ns_helpdesk 14.0.0**, Helpdesk is no longer configured in a backend module.
-After you [include the Helpdesk TypoScript](/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript),
+After you [include the Helpdesk TypoScript](/en/latest/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript),
 use the **Constant Editor**.
 
 **Step 1.** Open the **TypoScript** module and select the root page.
@@ -40,8 +40,8 @@ Typical global constants include:
 <Note>
 Category-wise assignment requires a default assignee and ticket categories.
 Set **Default Assignee ID** in the Constant Editor, and keep categories on
-the storage page. See [Ticket Categories](/ExtNsHelpDesk/CategoryStatus/Index).
+the storage page. See [Ticket Categories](/en/latest/ExtNsHelpDesk/CategoryStatus/Index).
 </Note>
 
 Ticket form labels, placeholders, and popup options are configured in the same
-Constant Editor. See [Form Settings](/ExtNsHelpDesk/FormSettings/Index).
+Constant Editor. See [Form Settings](/en/latest/ExtNsHelpDesk/FormSettings/Index).

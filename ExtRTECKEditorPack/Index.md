@@ -10,18 +10,18 @@ sidebarTitle: "CKEditor Pack"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtRTECKEditorPack/Introduction/Index" />
-  <Card title="System Requirements" href="/ExtRTECKEditorPack/SystemRequirements/Index" />
-  <Card title="Quick Installation" href="/ExtRTECKEditorPack/QuickInstallation/Index" />
-  <Card title="Premium Pack" href="/ExtRTECKEditorPack/PremiumPack/Index" />
-  <Card title="Content Security Policy (CSP) Requirements" href="/ExtRTECKEditorPack/ContentSecurityPolicy/Index" />
-  <Card title="How Presets Work?" href="/ExtRTECKEditorPack/HowPresetsWork/Index" />
-  <Card title="Configuration Save" href="/ExtRTECKEditorPack/Configurationsave/Index" />
-  <Card title="Real-Time Collaboration Requirements" href="/ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index" />
-  <Card title="CKEditor AI" href="/ExtRTECKEditorPack/CKEditorAI/Index" />
-  <Card title="Editoria11y – Live Accessibility Checker in CKEditor" href="/ExtRTECKEditorPack/AccessibilityFeatures/Index" />
-  <Card title="Premium Features" href="/ExtRTECKEditorPack/PremiumFeatures/Index" />
-  <Card title="Updating" href="/ExtRTECKEditorPack/Updating/Index" />
-  <Card title="Support" href="/ExtRTECKEditorPack/Support" />
-  <Card title="Get This Extension" href="/ExtRTECKEditorPack/GetThisExtension" />
+  <Card title="Introduction" href="/en/latest/ExtRTECKEditorPack/Introduction/Index" />
+  <Card title="System Requirements" href="/en/latest/ExtRTECKEditorPack/SystemRequirements/Index" />
+  <Card title="Quick Installation" href="/en/latest/ExtRTECKEditorPack/QuickInstallation/Index" />
+  <Card title="Premium Pack" href="/en/latest/ExtRTECKEditorPack/PremiumPack/Index" />
+  <Card title="Content Security Policy (CSP) Requirements" href="/en/latest/ExtRTECKEditorPack/ContentSecurityPolicy/Index" />
+  <Card title="How Presets Work?" href="/en/latest/ExtRTECKEditorPack/HowPresetsWork/Index" />
+  <Card title="Configuration Save" href="/en/latest/ExtRTECKEditorPack/Configurationsave/Index" />
+  <Card title="Real-Time Collaboration Requirements" href="/en/latest/ExtRTECKEditorPack/RealTimeCollaborationRequirements/Index" />
+  <Card title="CKEditor AI" href="/en/latest/ExtRTECKEditorPack/CKEditorAI/Index" />
+  <Card title="Editoria11y – Live Accessibility Checker in CKEditor" href="/en/latest/ExtRTECKEditorPack/AccessibilityFeatures/Index" />
+  <Card title="Premium Features" href="/en/latest/ExtRTECKEditorPack/PremiumFeatures/Index" />
+  <Card title="Updating" href="/en/latest/ExtRTECKEditorPack/Updating/Index" />
+  <Card title="Support" href="/en/latest/ExtRTECKEditorPack/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtRTECKEditorPack/GetThisExtension" />
 </CardGroup>

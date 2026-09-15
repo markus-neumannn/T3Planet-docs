@@ -10,10 +10,10 @@ sidebarTitle: "Protect Site"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsProtectSite/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsProtectSite/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsProtectSite/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsProtectSite/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsProtectSite/Support" />
-  <Card title="Get This Extension" href="/ExtNsProtectSite/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsProtectSite/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsProtectSite/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsProtectSite/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsProtectSite/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsProtectSite/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsProtectSite/BuyNow" />
 </CardGroup>

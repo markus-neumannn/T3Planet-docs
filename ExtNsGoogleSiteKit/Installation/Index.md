@@ -19,7 +19,7 @@ Activate your license and install the premium TYPO3 product:
 - **Step 1:** Purchase the extension from the provided link. Then, log in to your TYPO3 backend and go to the "Extension Manager" module.
 - **Step 2:** Choose "Get the extension" from the dropdown menu.
 - **Step 3:** Search for the extension key "ns_license" and install the license manager. Enter the license key you received in your email.
-- **Step 4:** Install "ns_google_sitekit" just like you did with the license manager. Click "Retrieve/update" to import the extension from the repository. For detailed instructions, see the documentation at [License documentation](/License/Index)
+- **Step 4:** Install "ns_google_sitekit" just like you did with the license manager. Click "Retrieve/update" to import the extension from the repository. For detailed instructions, see the documentation at [License documentation](/en/latest/License/Index)
 
 <Warning>
 

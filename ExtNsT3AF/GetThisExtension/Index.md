@@ -34,6 +34,6 @@ sidebarTitle: "Get This Extension"
 
 After purchase, activate your T3Planet license and install the premium package by following the license documentation:
 
-[https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+[https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 
-Then continue with [Installation](/ExtNsT3AF/Installation/Index) and run [Quick Setup](/ExtNsT3AF/SetupWizard/Index).
+Then continue with [Installation](/en/latest/ExtNsT3AF/Installation/Index) and run [Quick Setup](/en/latest/ExtNsT3AF/SetupWizard/Index).

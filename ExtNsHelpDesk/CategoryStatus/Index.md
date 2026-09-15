@@ -14,7 +14,7 @@ From **ns_helpdesk 14.0.0**, ticket categories are no longer managed in the
 Helpdesk backend module.
 
 Show or hide the categories field, and set its label, in the Constant Editor.
-See [Form Settings](/ExtNsHelpDesk/FormSettings/Index).
+See [Form Settings](/en/latest/ExtNsHelpDesk/FormSettings/Index).
 
 Create or edit category records on the Helpdesk storage page (the **Global Storage PID**
 from global settings):
@@ -29,5 +29,5 @@ from global settings):
 
 <Note>
 Category-wise assignment also needs a **Default Assignee ID** in global settings.
-See [Constant Editor](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
+See [Constant Editor](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
 </Note>

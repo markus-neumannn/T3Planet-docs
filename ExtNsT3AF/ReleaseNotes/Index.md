@@ -12,4 +12,4 @@ Version-wise release notes for T3AF.
 
 ## Versions
 
-- [1.0.0](/ExtNsT3AF/ReleaseNotes/1.0.0/Index)
+- [1.0.0](/en/latest/ExtNsT3AF/ReleaseNotes/1.0.0/Index)

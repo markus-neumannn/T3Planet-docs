@@ -14,7 +14,7 @@ Just install this extension the usual way like any other TYPO3 extension..
 
 ## For Premium Version - License Activation
 
-To activate license and install this premium TYPO3 product, Please refere this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refere this documentation [License documentation](/en/latest/License/Index)
 
 ## For Free Version
 
@@ -56,6 +56,6 @@ https://www.youtube.com/watch?v=_7ILu4lwU-k
 
 ## Figures
 
-![Install Extension](./images/install_extension7.jpeg)
+![Install Extension](images/install_extension7.webp)
 
-![Activate Typoscript](./images/activate_typoscript15.jpeg)
+![Activate Typoscript](images/activate_typoscript15.webp)

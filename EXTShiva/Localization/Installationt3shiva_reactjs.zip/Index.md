@@ -33,7 +33,7 @@ Step 2: Select “Get extensions” from the drop-down at top. Update the Extens
 
 Step 3: Once Repository is updated, switch back to Installed Extension view. Install your purchased TYPO3 template zip eg., ns_theme_t3shiva_1.0.0.zip
 
-![Install T3 Shiva Template](./images/T3Terminal_T3_Shiva_install_theme.jpeg)
+![Install T3 Shiva Template](images/T3Terminal_T3_Shiva_install_theme.webp)
 
 <Tip>
 In case if you are facing memory space issue after installing Template extension then make sure that your server has minimum 100 MB upload size limit. Otherwise, You can extract template zip and copy it to typo3conf/ext folder.
@@ -43,13 +43,13 @@ In case if you are facing memory space issue after installing Template extension
 
 We have already provided Site Configuration and if you want to overwrite it then you can do it from Sites Module in Site Management.
 
-![Site Configuration](./images/how_to_configure_site.jpeg)
+![Site Configuration](images/how_to_configure_site.webp)
 
 # Page Tree
 
 Once you install your TYPO3 Template extension, it will automatically generate “Page tree” in your TYPO3 backend with all the pages and content.
 
-![Page Tree](./images/page_tree.jpeg)
+![Page Tree](images/page_tree.webp)
 
 ## Installation t3shiva_reactjs
 
@@ -61,7 +61,7 @@ React & Next is built on top of Node.js. To get up and running with Next, you’
 
 Step 1: File structure > Unzip the ns_theme_t3shiva_1.0.0.zip from the main package. Then you got frontend zip called - t3shiva_reactjs.zip unzip it and Then you will see the following folder/file structure.
 
-![root-folder-structure](./images/root-folder-structure1.jpg)
+![root-folder-structure](images/root-folder-structure1.webp)
 
 Step 2: Connection with Your Backend/API
 
@@ -79,7 +79,7 @@ Step 4: How To Run > To start our development server run command below.
 
 Now, Open your browser and visit [http://localhost:3000](http://localhost:3000) You should see a page like below.
 
-![landing_screen](./images/landing_screen.jpg)
+![landing_screen](images/landing_screen.webp)
 
 Wow! You are a genius. Now open the code editor and start hacking!
 
@@ -102,6 +102,6 @@ Step 1: Connect vercel with our your gitlab, github, etc.
 
 Step 2: When perform commit on the master branch vercel will automatically deploy and serve output on the defined domain.
 
-![vercel_login](./images/vercel_login6.jpg)
+![vercel_login](images/vercel_login6.webp)
 
 Awesome! Now Your Site Is Ready To Publish.!

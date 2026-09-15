@@ -17,17 +17,17 @@ Once Language is configured, you need to translate pages & content to new langua
 
 - Go to Page Module, select root page and switch to Language option in drop-down at top.
 
-![Language menu](./images/language_menu.png)
+![Language menu](images/language_menu.webp)
 
 - Click on Make new Translation of this page drop-down and select language
 
-![translation](./images/language_translation.png)
+![translation](images/language_translation.webp)
 
 - It will create a page in selected language. Click on Save & Close button.
 
 Once it is saved there will be 2 sections in backend, one for each language.
 
-![translate content](./images/translate_content.jpeg)
+![translate content](images/translate_content.webp)
 
 You can Translate/Copy content elements of existing language to new language using Translate button in New Language.
 

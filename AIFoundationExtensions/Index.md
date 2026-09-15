@@ -10,7 +10,7 @@ sidebarTitle: "AI Extensions"
 ---
 
 <div className="t3-hub-landing t3-template-landing">
-<div className="t3-category-nav" role="navigation"><a className="" href="/">Home</a><a className="active" href="/AIFoundationExtensions/Index">AI Extensions</a><a className="" href="/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/AllExtensions/Index">TYPO3 Extensions</a></div>
+<div className="t3-category-nav" role="navigation"><a className="" href="/en/latest">Home</a><a className="active" href="/en/latest/AIFoundationExtensions/Index">AI Extensions</a><a className="" href="/en/latest/AllTemplates/Index">TYPO3 Templates & Themes</a><a className="" href="/en/latest/AllExtensions/Index">TYPO3 Extensions</a></div>
 <div className="t3-hero-panel">
   <div className="t3-landing-hero t3-hero-large">
     <p className="t3-landing-eyebrow">AI Extensions</p>
@@ -26,7 +26,7 @@ sidebarTitle: "AI Extensions"
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">All AI products</p>
   <div className="t3-product-grid">
-    <a className="t3-product-card" href="/ExtNsT3AF/Index">
+    <a className="t3-product-card" href="/en/latest/ExtNsT3AF/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="cpu" size={22} className="t3-product-icon" /></span>
         <div>
@@ -40,7 +40,7 @@ sidebarTitle: "AI Extensions"
         <span className="t3-link-pill">Product docs</span>
       </div>
     </a>
-    <a className="t3-product-card" href="/ExtNsT3AI/Index">
+    <a className="t3-product-card" href="/en/latest/ExtNsT3AI/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="sparkles" size={22} className="t3-product-icon" /></span>
         <div>
@@ -55,7 +55,7 @@ sidebarTitle: "AI Extensions"
         <span className="t3-link-pill t3-link-pill-muted">Update</span>
       </div>
     </a>
-    <a className="t3-product-card" href="/ExtNsT3AC/Index">
+    <a className="t3-product-card" href="/en/latest/ExtNsT3AC/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="message-circle" size={22} className="t3-product-icon" /></span>
         <div>
@@ -70,7 +70,7 @@ sidebarTitle: "AI Extensions"
         <span className="t3-link-pill t3-link-pill-muted">Update</span>
       </div>
     </a>
-    <a className="t3-product-card" href="/ExtNsT3AS/Index">
+    <a className="t3-product-card" href="/en/latest/ExtNsT3AS/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="search" size={22} className="t3-product-icon" /></span>
         <div>
@@ -85,7 +85,7 @@ sidebarTitle: "AI Extensions"
         <span className="t3-link-pill t3-link-pill-muted">Update</span>
       </div>
     </a>
-    <a className="t3-product-card" href="/ExtNsT3AL/Index">
+    <a className="t3-product-card" href="/en/latest/ExtNsT3AL/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="languages" size={22} className="t3-product-icon" /></span>
         <div>
@@ -100,7 +100,7 @@ sidebarTitle: "AI Extensions"
         <span className="t3-link-pill t3-link-pill-muted">Update</span>
       </div>
     </a>
-    <a className="t3-product-card" href="/ExtNsT3AA/Index">
+    <a className="t3-product-card" href="/en/latest/ExtNsT3AA/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="accessibility" size={22} className="t3-product-icon" /></span>
         <div>
@@ -115,7 +115,7 @@ sidebarTitle: "AI Extensions"
         <span className="t3-link-pill t3-link-pill-muted">Update</span>
       </div>
     </a>
-    <a className="t3-product-card" href="/ExtNsT3AB/Index">
+    <a className="t3-product-card" href="/en/latest/ExtNsT3AB/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="blocks" size={22} className="t3-product-icon" /></span>
         <div>

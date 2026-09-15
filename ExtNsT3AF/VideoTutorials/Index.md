@@ -16,12 +16,12 @@ Video guides help admins and managers learn **T3AF** setup and daily operation. 
 ## Recommended viewing order
 
 1. **What is T3AF?** — Everyone. Start here for the big picture.
-2. **Install and activate** — Admins. Pair with [Installation](/ExtNsT3AF/Installation/Index).
-3. **Configure AI providers** — Admins. Pair with [AI Providers](/ExtNsT3AF/AIProviders/Index).
-4. **T3Planet Credits vs Your Own API Keys** — Admins. Pair with [T3Planet Credits](/ExtNsT3AF/T3PlanetCredits/Index).
-5. **MCP Server — connect Cursor** — Admins and developers. Pair with [MCP Server](/ExtNsT3AF/MCPServer/Index).
-6. **AI Permissions** — Admins. Pair with [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index).
-7. **Usage logs and cost control** — Admins and managers. Pair with [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index).
+2. **Install and activate** — Admins. Pair with [Installation](/en/latest/ExtNsT3AF/Installation/Index).
+3. **Configure AI providers** — Admins. Pair with [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index).
+4. **T3Planet Credits vs Your Own API Keys** — Admins. Pair with [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
+5. **MCP Server — connect Cursor** — Admins and developers. Pair with [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
+6. **AI Permissions** — Admins. Pair with [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index).
+7. **Usage logs and cost control** — Admins and managers. Pair with [AI Usage & Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index).
 
 ## Where to find videos
 
@@ -33,7 +33,7 @@ Enable **English subtitles** on YouTube if needed. Simple English is used in mos
 
 ## Internal training plan (1 week)
 
-**Monday** — Watch intro and install videos. Run the [Quick Setup](/ExtNsT3AF/SetupWizard/Index) on staging.
+**Monday** — Watch intro and install videos. Run the [Quick Setup](/en/latest/ExtNsT3AF/SetupWizard/Index) on staging.
 
 **Tuesday** — Configure providers. Run **Test connection** until all are green.
 
@@ -41,7 +41,7 @@ Enable **English subtitles** on YouTube if needed. Simple English is used in mos
 
 **Thursday** — Set governance rules for editor backend groups.
 
-**Friday** — Review [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index) with your team. Discuss budget and privacy settings.
+**Friday** — Review [AI Usage & Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index) with your team. Discuss budget and privacy settings.
 
 ## When to use videos vs written docs
 

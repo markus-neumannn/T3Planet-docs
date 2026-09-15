@@ -71,7 +71,7 @@ After completing these steps, all **Custom Elements (structure and data)** will 
 
 ## Figures
 
-![typo3_dumpautoload](./images/typo3_dumpautoload2.jpeg)
+![typo3_dumpautoload](images/typo3_dumpautoload2.webp)
 
 ![typo3_upgrade_wizard](images/typo3_upgrade_wizard2.webp)
 

@@ -10,10 +10,10 @@ sidebarTitle: "Publication Comment"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsPublicationComment/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsPublicationComment/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsPublicationComment/UpdateVersion/Index" />
-  <Card title="Extension Configurations" href="/ExtNsPublicationComment/ExtensionConfigurations/Index" />
-  <Card title="Help & Support" href="/ExtNsPublicationComment/Support" />
-  <Card title="Get This Extension" href="/ExtNsPublicationComment/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsPublicationComment/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsPublicationComment/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsPublicationComment/UpdateVersion/Index" />
+  <Card title="Extension Configurations" href="/en/latest/ExtNsPublicationComment/ExtensionConfigurations/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsPublicationComment/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsPublicationComment/BuyNow" />
 </CardGroup>

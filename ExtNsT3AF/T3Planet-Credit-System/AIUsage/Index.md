@@ -14,7 +14,7 @@ Monitor credit balance on the Dashboard and verify Credits traffic in AI Usage.
 
 **Path:** AI Foundation > Dashboard
 
-![AI Foundation Dashboard in T3Planet Credits mode with balance, credit burn chart, and spend by extension](images/t3planet-credits-dashboard.png)
+![AI Foundation Dashboard in T3Planet Credits mode with balance, credit burn chart, and spend by extension](images/t3planet-credits-dashboard.webp)
 
 Credits Dashboard — remaining balance, credit burn over time, spend by
 extension, and period KPIs.

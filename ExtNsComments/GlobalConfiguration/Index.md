@@ -18,7 +18,7 @@ First of all, Configure Default settings in Constants
 - Step 3: Select Constant Editor from drop-down.
 - Step 3: Select Constant Editor > PLUGIN.TX_NSCOMMENTS.
 
-![Select extension in Constant Editor](./images/configuration_1.jpeg)
+![Select extension in Constant Editor](images/configuration_1.webp)
 
 **Email Configuration**
 

@@ -22,4 +22,4 @@ Admin can approve comments by following ways:
 
 **2. Approve Comment from email sent to Admin:** If Email Configuration is set at constants then Admin will get email for every comment posted. Admin can approve comment from link available at the bottom of Email
 
-![Approve Comment from E-mail](./images/approve_comment_from_email.jpeg)
+![Approve Comment from E-mail](images/approve_comment_from_email.webp)

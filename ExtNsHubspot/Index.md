@@ -10,11 +10,11 @@ sidebarTitle: "Hubspot"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsHubspot/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsHubspot/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsHubspot/UpdateVersion/Index" />
-  <Card title="Configuration- Free version" href="/ExtNsHubspot/FreeVersionConfiguration/Index" />
-  <Card title="Configuration- Premium Version" href="/ExtNsHubspot/PremiumVersionConfiguration/Index" />
-  <Card title="Help & Support" href="/ExtNsHubspot/Support" />
-  <Card title="Get This Extension" href="/ExtNsHubspot/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsHubspot/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsHubspot/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsHubspot/UpdateVersion/Index" />
+  <Card title="Configuration- Free version" href="/en/latest/ExtNsHubspot/FreeVersionConfiguration/Index" />
+  <Card title="Configuration- Premium Version" href="/en/latest/ExtNsHubspot/PremiumVersionConfiguration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsHubspot/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsHubspot/BuyNow" />
 </CardGroup>

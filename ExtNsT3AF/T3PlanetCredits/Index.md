@@ -27,7 +27,7 @@ T3Planet Credits is optional billing for T3AF — **one credit pool** per TYPO3 
 
 ## Credits vs Your Own API Keys
 
-**Your Own API Keys (BYOK)** — Add provider keys in [AI Providers](/ExtNsT3AF/AIProviders/Index). Billing goes directly to OpenAI, Anthropic, or other vendors. Best for agencies that already have vendor accounts.
+**Your Own API Keys (BYOK)** — Add provider keys in [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index). Billing goes directly to OpenAI, Anthropic, or other vendors. Best for agencies that already have vendor accounts.
 
 **T3Planet Credits** — Toggle plus **Activate**. Billing uses T3Planet packages. Best for fast start and simple budget control.
 
@@ -55,7 +55,7 @@ After activation you see:
 - Plan name
 - Buy Credits and Pricing links
 
-Check balance regularly on the [Dashboard](/ExtNsT3AF/Dashboard/Index).
+Check balance regularly on the [Dashboard](/en/latest/ExtNsT3AF/Dashboard/Index).
 
 ## When to use credits
 
@@ -71,7 +71,7 @@ Check balance regularly on the [Dashboard](/ExtNsT3AF/Dashboard/Index).
 
 ## Troubleshooting
 
-**AI fails after toggle** — Click **Activate** again. Verify license at [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+**AI fails after toggle** — Click **Activate** again. Verify license at [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 
 **Zero balance** — Purchase credits through T3Planet.
 
@@ -79,4 +79,4 @@ Check balance regularly on the [Dashboard](/ExtNsT3AF/Dashboard/Index).
 
 **Empty token after activate** — Re-save license keys and activate again.
 
-See also [FAQ](/ExtNsT3AF/FAQ/Index) and [Known Problems](/ExtNsT3AF/KnownProblems/Index).
+See also [FAQ](/en/latest/ExtNsT3AF/FAQ/Index) and [Known Problems](/en/latest/ExtNsT3AF/KnownProblems/Index).

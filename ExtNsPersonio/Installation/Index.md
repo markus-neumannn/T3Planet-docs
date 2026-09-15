@@ -12,7 +12,7 @@ Just install this extension the usual way like any other TYPO3 extension.
 
 ## For Premium Version - License Activation
 
-To activate license and install this premium TYPO3 product, Please refere this documentation [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+To activate license and install this premium TYPO3 product, Please refere this documentation [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 
 ## 1. Get the extension
 
@@ -34,7 +34,7 @@ Step 3. Get it from the Extension Manager: Press the “Retrieve/Update” butto
 
 Step 4. Get it from typo3.org: You can always get the current version from [https://extensions.typo3.org/extension/ns_personio/](https://extensions.typo3.org/extension/ns_personio/) by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![Install Extension](./images/install_extension2.png)
+![Install Extension](images/install_extension2.webp)
 
 ## 2. Activate the TypoScript
 

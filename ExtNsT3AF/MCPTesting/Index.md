@@ -526,7 +526,7 @@ Expect: JSON with `uid`, `fields`, and `ignoredFields`. Verify with
 Select a non-live workspace in the module dropdown before issuing tokens.
 Repeat `content_list` / `pages_get` — draft overlays should differ from live.
 
-See [MCP Server](/ExtNsT3AF/MCPServer/Index) for parameter details.
+See [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index) for parameter details.
 
 ## Step 5 — Active OAuth Tokens table
 
@@ -614,4 +614,4 @@ Plaintext is only shown at issuance. Revoke and re-create, or use OAuth flow.
 ddev exec vendor/bin/typo3 nst3af:mcp:cleanup
 ```
 
-See also [Configuration](/ExtNsT3AF/Configuration/Index) and [MCP Server](/ExtNsT3AF/MCPServer/Index).
+See also [Configuration](/en/latest/ExtNsT3AF/Configuration/Index) and [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).

@@ -39,4 +39,4 @@ Follow the demo to configure free features, toolbar drag-and-drop, and preset ma
 
 ## Figures
 
-![Install Extension](./images/install_extension4.png)
+![Install Extension](images/install_extension4.webp)

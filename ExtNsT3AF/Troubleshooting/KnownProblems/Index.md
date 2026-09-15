@@ -28,7 +28,7 @@ T3AF includes an MCP server and conflicts with other MCP server packages such as
   ./vendor/bin/typo3 cache:flush
   ```
 
-Also confirm `scheduler` and `workspaces` are available. See [Installation](/ExtNsT3AF/Installation/Index).
+Also confirm `scheduler` and `workspaces` are available. See [Installation](/en/latest/ExtNsT3AF/Installation/Index).
 
 ## Providers
 
@@ -68,13 +68,13 @@ If you use the Basic Auth helper in Extension Configuration (`ns_t3af`):
 
 - Confirm the MCP server is enabled in Extension Configuration.
 - Prefer HTTPS on the site base URL.
-- For Cursor and similar clients, follow [MCP Testing](/ExtNsT3AF/Integrations/MCPTesting/Index).
+- For Cursor and similar clients, follow [MCP Testing](/en/latest/ExtNsT3AF/Integrations/MCPTesting/Index).
 - For stdio setups, keep the working directory and user/workspace flags correct.
 
 **MCP writes fail after a successful connect**
 
-Confirm the backend user has the required module, table, and workspace rights. See [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index).
+Confirm the backend user has the required module, table, and workspace rights. See [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index).
 
 ## Report an issue
 
-Include TYPO3 version, PHP version, `ns_t3af` version, exact error text, and whether MCP is enabled. Submit via [Support](/ExtNsT3AF/Support/Index).
+Include TYPO3 version, PHP version, `ns_t3af` version, exact error text, and whether MCP is enabled. Submit via [Support](/en/latest/ExtNsT3AF/Support/Index).

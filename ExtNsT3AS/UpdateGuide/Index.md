@@ -10,7 +10,7 @@ sidebarTitle: "Update Guide"
 ---
 
 To update the **T3AS Premium** extension, please follow the official update documentation before upgrading your installation:
-[https://docs.t3planet.de/en/latest/License/UpdateVersion/Index.html](/License/UpdateVersion/Index)
+[https://docs.t3planet.de/en/latest/License/UpdateVersion/Index.html](/en/latest/License/UpdateVersion/Index)
 
 <Info>
 **Migration Steps**
@@ -45,7 +45,7 @@ Install the latest T3AS package and update dependencies. Confirm that T3AF (`EXT
 Download / TER page: [https://extensions.typo3.org/extension/ns_t3af](https://extensions.typo3.org/extension/ns_t3af)
 
 Full details:
-[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/License/LicenseActivation/Index)
+[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/en/latest/License/LicenseActivation/Index)
 
 **Step 4 — Run the Database Analyzer**
 
@@ -57,14 +57,14 @@ Install and configure `EXT:ns_t3af` first. Then configure the AI Provider from T
 
 Review these pages if needed:
 
-- [T3AF Installation](/ExtNsT3AF/Installation/Index)
-- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 
 **Step 6 — Complete T3AS setup**
 
 Follow the T3AS documentation for the full setup:
-[https://docs.t3planet.de/en/latest/ExtNsT3AS/Index.html](/ExtNsT3AS/Index)
+[https://docs.t3planet.de/en/latest/ExtNsT3AS/Index.html](/en/latest/ExtNsT3AS/Index)
 </Info>
 
 <Note>

@@ -24,7 +24,7 @@ Install the extension with Composer, or upload it manually with the Extension Ma
 
 Once the extension is installed and the version matches your TYPO3 installation, it appears in your extension list.
 
-![TypoTonic extension listed in the TYPO3 Extension Manager](./Images/extension_list.jpg)
+![TypoTonic extension listed in the TYPO3 Extension Manager](Images/extension_list.webp)
 
 *The extension in the TYPO3 Extension Manager after installation*
 
@@ -38,7 +38,7 @@ This adds the fields and configuration TypoTonic needs to work.
 1. Switch to the **Includes** tab.
 1. Under **Include static (from extensions)**, add **[TypoTonic] General Configuration (tonic)**.
 
-![Including the TypoTonic static template in the site template](./Images/static_template.jpg)
+![Including the TypoTonic static template in the site template](./Images/static_template.webp)
 
 *Adding the TypoTonic static template under Includes*
 
@@ -64,17 +64,17 @@ plugin.tx_tonic.templates {
 }
 ```
 
-![Predefined template shown in the TypoTonic template selector](./Images/template_selection.jpg)
+![Predefined template shown in the TypoTonic template selector](Images/template_selection.webp)
 
 *A predefined template appearing in the template selector*
 
-Once a template is predefined this way, you can render it in Fluid with the `Template.RenderViewHelper`. See [ViewHelpers](/ExtTypoTonic/ViewHelpers/Index) for the full syntax.
+Once a template is predefined this way, you can render it in Fluid with the `Template.RenderViewHelper`. See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index) for the full syntax.
 
 ### Toolbar Item (Professional Feature)
 
 TypoTonic Professional adds a toolbar item for fast access to create and edit records.
 
-![TypoTonic Professional toolbar item in the TYPO3 backend](./Images/toolbar_item.jpg)
+![TypoTonic Professional toolbar item in the TYPO3 backend](Images/toolbar_item.webp)
 
 *The Professional toolbar item*
 
@@ -92,7 +92,7 @@ options {
 
 TypoTonic Professional can also show an edit button on the frontend detail page, so logged-in backend users can jump straight to editing a record.
 
-![Frontend record edit button added by TypoTonic Professional](./Images/record_edit_button.jpg)
+![Frontend record edit button added by TypoTonic Professional](Images/record_edit_button.webp)
 
 *The frontend edit button, shown in the top-right corner of the page*
 
@@ -117,7 +117,7 @@ tx_tonic {
 }
 ```
 
-![Record creation buttons added to the list module DocHeader](./Images/docheader_datatypes.jpg)
+![Record creation buttons added to the list module DocHeader](Images/docheader_datatypes.webp)
 
 *DocHeader buttons for creating new Datatype records*
 
@@ -127,4 +127,4 @@ This button is also added automatically when you configure the page's **Behaviou
 
 ## Next Steps
 
-Continue with [Getting Started](/ExtTypoTonic/GettingStarted/Index) to create your first field, Datatype, and record.
+Continue with [Getting Started](/en/latest/ExtTypoTonic/GettingStarted/Index) to create your first field, Datatype, and record.

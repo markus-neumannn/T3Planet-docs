@@ -14,7 +14,7 @@ Just install this extension the usual way like any other TYPO3 extension.
 
 ## For Premium Version - License Activation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 ## For Free Version
 
@@ -28,7 +28,7 @@ Step 3. Get it from the Extension Manager: Press the “Retrieve/Update” butto
 
 Step 4. Get it from typo3.org: You can always get the current version from https://extensions.typo3.org/extension/ns_news_slider/ by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![Install Extension](./images/install_extension.jpeg)
+![Install Extension](images/install_extension.webp)
 
 ## Activate the TypoScript
 
@@ -56,6 +56,6 @@ https://www.youtube.com/watch?v=_7ILu4lwU-k
 
 ## Figures
 
-![Install Extension](./images/install_extension11.jpeg)
+![Install Extension](images/install_extension11.webp)
 
-![Activate Typoscript](./images/activate_typoscript21.jpeg)
+![Activate Typoscript](images/activate_typoscript21.webp)

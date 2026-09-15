@@ -14,52 +14,52 @@ TypoTonic can build almost any kind of record. These screenshots show a few exam
 
 ## Creating Datatypes
 
-![General tab when creating a Datatype](./Images/datatype_general.jpg)
+![General tab when creating a Datatype](Images/datatype_general.webp)
 
 *General tab*
 
-![Appearance tab when creating a Datatype](./Images/datatype_appearance.jpg)
+![Appearance tab when creating a Datatype](./Images/datatype_appearance.webp)
 
 *Appearance tab*
 
-![Tab Configuration tab when creating a Datatype](./Images/datatype_tab_config.jpg)
+![Tab Configuration tab when creating a Datatype](Images/datatype_tab_config.webp)
 
 *Tab Configuration tab*
 
 ## Field Configuration
 
-![Field configuration in the General tab](./Images/field_configuration.jpg)
+![Field configuration in the General tab](Images/field_configuration.webp)
 
 *Field configuration*
 
-![Selecting fields for a Datatype](./Images/field_selection.jpg)
+![Selecting fields for a Datatype](Images/field_selection.webp)
 
 *Field selection*
 
-![Frontend Settings tab of a field](./Images/field_frontend_settings.jpg)
+![Frontend Settings tab of a field](Images/field_frontend_settings.webp)
 
 *Frontend Settings tab*
 
 ## Display Records Plugin
 
-![Display Records plugin configuration](./Images/plugin_display_records.jpg)
+![Display Records plugin configuration](Images/plugin_display_records.webp)
 
 *Plugin configuration*
 
-![Preview of records rendered by the Display Records plugin](./Images/plugin_preview.jpg)
+![Preview of records rendered by the Display Records plugin](Images/plugin_preview.webp)
 
 *Frontend preview*
 
 ## Editing Records
 
-![Editing a record, view one](./Images/record_edit_1.jpg)
+![Editing a record, view one](Images/record_edit_1.webp)
 
 *Editing a record*
 
-![Editing a record, view two](./Images/record_edit_2.jpg)
+![Editing a record, view two](Images/record_edit_2.webp)
 
 *Editing a record*
 
-![Editing a record, view three](./Images/record_edit_3.jpg)
+![Editing a record, view three](Images/record_edit_3.webp)
 
 *Editing a record*

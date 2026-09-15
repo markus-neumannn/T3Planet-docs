@@ -23,7 +23,7 @@ Otherwise, you can check whether a new update is available for your purchased TY
 
 ## Screenshots
 
-![New version available](./images/NewVersionUpdate.jpeg)
+![New version available](images/NewVersionUpdate.webp)
 
 ![Up to date version](images/UptoDateVersion.webp)
 
@@ -57,8 +57,8 @@ After the update completes, you may need to run additional system update and cac
 
 ## Update for Non-Composer TYPO3 Instance
 
-Go here [License Update Version guide](/License/UpdateVersion/NonComposer/Index)
+Go here [License Update Version guide](/en/latest/License/UpdateVersion/NonComposer/Index)
 
 ## Update for Composer-based TYPO3 Instance
 
-Go here [License Update Version guide](/License/UpdateVersion/Composer/Index)
+Go here [License Update Version guide](/en/latest/License/UpdateVersion/Composer/Index)

@@ -118,6 +118,6 @@ Provider API keys are stored encrypted on provider records. If your SDK needs th
 
 ## Related documentation
 
-- [Extension Integration](/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
-- [Configuration](/ExtNsT3AF/Configuration/Index)
+- [Extension Integration](/en/latest/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
+- [Configuration](/en/latest/ExtNsT3AF/Configuration/Index)

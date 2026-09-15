@@ -10,10 +10,10 @@ sidebarTitle: "Cloudflare"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsCloudflare/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsCloudflare/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsCloudflare/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsCloudflare/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsCloudflare/Support" />
-  <Card title="Get This Extension" href="/ExtNsCloudflare/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsCloudflare/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsCloudflare/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsCloudflare/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsCloudflare/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsCloudflare/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsCloudflare/BuyNow" />
 </CardGroup>

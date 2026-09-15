@@ -17,10 +17,10 @@ T3AF is the shared backend AI layer. It has **no frontend visitor plugin**.
 Visitors only hit AI through child extensions (T3AS, T3AC, T3AA).
 
 - T3AS / T3AC — yes, frontend search and chatbot. See
-  [T3AS DPA & GDPR](/ExtNsT3AS/DPAandGDPR/Index) and
-  [T3AC DPA & GDPR](/ExtNsT3AC/DPAandGDPR/Index).
+  [T3AS DPA & GDPR](/en/latest/ExtNsT3AS/DPAandGDPR/Index) and
+  [T3AC DPA & GDPR](/en/latest/ExtNsT3AC/DPAandGDPR/Index).
 - T3AA — accessibility overlay; different processing than LLM chat. See
-  [T3AA DPA & GDPR](/ExtNsT3AA/DPAandGDPR/Index).
+  [T3AA DPA & GDPR](/en/latest/ExtNsT3AA/DPAandGDPR/Index).
 
 ## Product controls
 
@@ -61,7 +61,7 @@ What may be transmitted in Credits mode:
   (`meta_json`) for support, fraud prevention, and cost reconciliation —
   see T3Planet terms and DPA
 
-More details: [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index).
+More details: [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 ## Logging privacy level
 
@@ -73,9 +73,9 @@ Local logs never store prompt or response text. Privacy level controls
 **local AI Usage telemetry only**. It does **not** redact, strip, or block
 prompts, brand context, or documents sent to the AI provider.
 
-See [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+See [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 (privacy level) and
-[AI Usage & Logs](/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
+[AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
 
 | Level | Local AI Usage (`tx_nst3af_request_log`) |
 | --- | --- |
@@ -125,7 +125,7 @@ Administrators should consider and document:
 - Technical `raw_meta` (adapter type, page id, error message, credits
   request uuid) at standard privacy
 
-See [AI Usage & Logs](/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
+See [AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
 
 **Question:** What is stored in AI Logs?
 
@@ -158,13 +158,13 @@ provider setting. This does not change what is sent to the AI provider.
 
 **Answer:** Feature key, request metadata, site domain, optional contact; prompts/inputs may be stored by T3Planet for billing. Do not enable Credits for a minimisation setup.
 
-See [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index).
+See [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 **Question:** MCP?
 
 **Answer:** If enabled, MCP clients can access configured TYPO3 tools. Treat as a separate access-control topic, not visitor Usage Analytics.
 
-See [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index).
+See [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index).
 
 <Note>
 This documentation describes technical data-management capabilities. It does not constitute legal advice.

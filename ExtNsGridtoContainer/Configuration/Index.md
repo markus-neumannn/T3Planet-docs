@@ -21,7 +21,7 @@ When you make the container configuration then some points are strict to follow 
 
 ### Grid Backend Layout Key
 
-![Grid Backend Layout Key](./images/Grid_Backend_Layout_Key.jpg)
+![Grid Backend Layout Key](images/Grid_Backend_Layout_Key.webp)
 
 ### Container CType
 
@@ -33,7 +33,7 @@ Like. Grid ColPos\*\* '1'[tx_gridelements_columns] and in container configuratio
 
 Then in migrating process, we make same colPos for placing Content Elements \$colPos = \$element['tx_gridelements_columns'] + 100;"
 
-![Grid_colposs](./images/Grid_colpos.jpg)
+![Grid_colposs](images/Grid_colpos.webp)
 
 While container colPos must be different like
 ![Container_colpos](./images/Container_colpos.webp)
@@ -41,7 +41,7 @@ While container colPos must be different like
 ## We provide 2 options for migrating grids
 
 **Option 1:Migration of all Grids available on the site.**
-![Migration](./images/Migration.Jpg)
+![Migration](images/Migration.webp)
 
 **Option 2:If you have a small number of grids then you can use the second option "Migration from grid elements layout key"**
 ![All_grid_layout](./images/All_grid_layout.webp)
@@ -49,22 +49,22 @@ While container colPos must be different like
 ## Migration Process:
 
 **Grid:** For example You want to migrat this gird
-![grid](./images/grid.jpg)
+![grid](images/grid.webp)
 
 **Follow this Steps>>**
 
 **Step 1:** Enter container CType with same as Grid Backend Layout Key
-![Grid_Backend_Layout_Key](./images/Grid_Backend_Layout_Key.jpg)
+![Grid_Backend_Layout_Key](images/Grid_Backend_Layout_Key.webp)
 
 **Step 2:** Click on "Migrate Button" It will show message like "Successfully migrated"
-![Success_msg](./images/Success_msg.jpg)
+![Success_msg](images/Success_msg.webp)
 
 **Step 3:** Now, check the migration!
-![Migration_Done](./images/Migration_Done.Jpg)
+![Migration_Done](images/Migration_Done.webp)
 
 **This Extension also Provide feature to migrate Hidden content Elements!**
-![hidden_1](./images/hidden_1.jpg)
+![hidden_1](images/hidden_1.webp)
 
-![Hidden_2](./images/hidden_2.jpg)
+![Hidden_2](images/hidden_2.webp)
 
 **That's it, Now you can enjoy all the benifits of this extension :)**

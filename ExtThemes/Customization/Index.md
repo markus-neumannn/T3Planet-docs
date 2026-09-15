@@ -63,7 +63,7 @@ Step 1: Go to Extension Manager
 
 Step 2: Select “Get extensions” from the drop-down at top. Update the Extension Repository by clicking on “Update Now” button at top-right.
 
-![Update Extension Repository](./images/update-ext-repository3.png)
+![Update Extension Repository](images/update-ext-repository3.webp)
 
 Step 3: Once Repository is updated, switch back to Installed Extension view. Install Ext:ns_theme_extend.
 
@@ -173,7 +173,7 @@ typo3conf/ext/ns_theme_extend/Resources/Private/Language/locallang_db.xlf
 
 **Backend Preview**
 
-![T3Planet TYPO3 Backend Preview](./images/T3Terminal-TYPO3-Backend-Preview.png)
+![T3Planet TYPO3 Backend Preview](images/T3Terminal-TYPO3-Backend-Preview.webp)
 
 ## How to override partials,constant and css/js
 

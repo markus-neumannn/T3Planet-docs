@@ -42,7 +42,7 @@ Pick a model that supports what you need. **Test connection** validates your cho
 
 **Dev and live** — Two provider rows with different API keys per environment.
 
-**Cost saving** — Cheap model as global default; premium model assigned in [AI Features](/ExtNsT3AF/AIFeatures/Index) for important tasks.
+**Cost saving** — Cheap model as global default; premium model assigned in [AI Features](/en/latest/ExtNsT3AF/AIFeatures/Index) for important tasks.
 
 **EU hosting** — Mistral or Azure in an EU region for data residency requirements.
 
@@ -50,7 +50,7 @@ Pick a model that supports what you need. **Test connection** validates your cho
 
 **Your Own API Keys (BYOK)** — Pay the vendor directly. This is the default mode.
 
-**T3Planet Credits** — Toggle in AI Providers, then click **Activate**. See [T3Planet Credits](/ExtNsT3AF/T3PlanetCredits/Index).
+**T3Planet Credits** — Toggle in AI Providers, then click **Activate**. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
 
 ## Troubleshooting
 
@@ -60,13 +60,13 @@ Pick a model that supports what you need. **Test connection** validates your cho
 
 **Vision returns empty** — Use a vision-capable model (for example GPT-4o with vision).
 
-**Module works but child extension fails** — Check [AI Features](/ExtNsT3AF/AIFeatures/Index) for per-task overrides.
+**Module works but child extension fails** — Check [AI Features](/en/latest/ExtNsT3AF/AIFeatures/Index) for per-task overrides.
 
 ## Security
 
 - Rotate keys every 90 days
 - Use one key per environment (dev, staging, live)
-- Restrict access via [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
+- Restrict access via [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index)
 - Never commit API keys to Git
 
 ## Where to get API keys
@@ -79,4 +79,4 @@ Pick a model that supports what you need. **Test connection** validates your cho
 - Azure OpenAI: [https://portal.azure.com/](https://portal.azure.com/)
 </Note>
 
-More links: [Helpful Links](/ExtNsT3AF/HelpfulLinks/Index)
+More links: [Helpful Links](/en/latest/ExtNsT3AF/HelpfulLinks/Index)

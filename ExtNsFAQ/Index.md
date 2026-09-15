@@ -10,13 +10,13 @@ sidebarTitle: "FAQ"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsFAQ/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsFAQ/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsFAQ/UpdateVersion/Index" />
-  <Card title="NS FAQ Backend Modules" href="/ExtNsFAQ/NSFaqBackendModule/Index" />
-  <Card title="FAQ Plugins" href="/ExtNsFAQ/FAQPlugin/Index" />
-  <Card title="FAQ Submission Form" href="/ExtNsFAQ/SubmitFAQForm/Index" />
-  <Card title="FAQ Moderation" href="/ExtNsFAQ/FAQModeration/Index" />
-  <Card title="Help & Support" href="/ExtNsFAQ/Support" />
-  <Card title="Get This Extension" href="/ExtNsFAQ/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsFAQ/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsFAQ/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsFAQ/UpdateVersion/Index" />
+  <Card title="NS FAQ Backend Modules" href="/en/latest/ExtNsFAQ/NSFaqBackendModule/Index" />
+  <Card title="FAQ Plugins" href="/en/latest/ExtNsFAQ/FAQPlugin/Index" />
+  <Card title="FAQ Submission Form" href="/en/latest/ExtNsFAQ/SubmitFAQForm/Index" />
+  <Card title="FAQ Moderation" href="/en/latest/ExtNsFAQ/FAQModeration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsFAQ/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsFAQ/BuyNow" />
 </CardGroup>

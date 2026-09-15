@@ -19,10 +19,10 @@ sidebarTitle: "TYPO3 Templates"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/ExtThemes/Introduction/Index">
+  <Card title="Introduction" icon="book-open" href="/en/latest/ExtThemes/Introduction/Index">
     Overview, features, and system requirements.
   </Card>
-  <Card title="Installation" icon="download" href="/ExtThemes/Installation/Index">
+  <Card title="Installation" icon="download" href="/en/latest/ExtThemes/Installation/Index">
     Install the theme extension in your TYPO3 instance.
   </Card>
   </CardGroup>
@@ -32,16 +32,16 @@ sidebarTitle: "TYPO3 Templates"
   <p className="t3-landing-eyebrow">Configure</p>
   <h2 className="t3-landing-section-title">Theme & content</h2>
   <CardGroup cols={2}>
-  <Card title="Theme Options" icon="settings" href="/ExtThemes/GlobalSettingsConfiguration/Index">
+  <Card title="Theme Options" icon="settings" href="/en/latest/ExtThemes/GlobalSettingsConfiguration/Index">
     Configure global theme settings and constants.
   </Card>
-  <Card title="Templates & Layouts" icon="layout-template" href="/ExtThemes/TemplatesLayouts/Index">
+  <Card title="Templates & Layouts" icon="layout-template" href="/en/latest/ExtThemes/TemplatesLayouts/Index">
     Assign frontend and backend page layouts.
   </Card>
-  <Card title="Custom Elements" icon="blocks" href="/ExtThemes/CustomElements/Index">
+  <Card title="Custom Elements" icon="blocks" href="/en/latest/ExtThemes/CustomElements/Index">
     Create and manage custom content elements.
   </Card>
-  <Card title="Localization" icon="languages" href="/ExtThemes/Localization/Index">
+  <Card title="Localization" icon="languages" href="/en/latest/ExtThemes/Localization/Index">
     Translate and localize your theme content.
   </Card>
   </CardGroup>
@@ -51,19 +51,19 @@ sidebarTitle: "TYPO3 Templates"
   <p className="t3-landing-eyebrow">Optimize</p>
   <h2 className="t3-landing-section-title">Performance & customization</h2>
   <CardGroup cols={2}>
-  <Card title="Speed and Performance" icon="gauge" href="/ExtThemes/SpeedPerformance/Index">
+  <Card title="Speed and Performance" icon="gauge" href="/en/latest/ExtThemes/SpeedPerformance/Index">
     Optimize loading speed and Core Web Vitals.
   </Card>
-  <Card title="SEO (Search Engine Optimization)" icon="search" href="/ExtThemes/SEO/Index">
+  <Card title="SEO (Search Engine Optimization)" icon="search" href="/en/latest/ExtThemes/SEO/Index">
     Configure SEO settings for better search visibility.
   </Card>
-  <Card title="Customization" icon="palette" href="/ExtThemes/Customization/Index">
+  <Card title="Customization" icon="palette" href="/en/latest/ExtThemes/Customization/Index">
     Extend and customize templates without losing upgrades.
   </Card>
-  <Card title="Frontend Build" icon="hammer" href="/ExtThemes/FrontendBuild/Index">
+  <Card title="Frontend Build" icon="hammer" href="/en/latest/ExtThemes/FrontendBuild/Index">
     Compile assets with the theme frontend build pipeline.
   </Card>
-  <Card title="Upgrade Guide TYPO3 v10 to v12" icon="arrow-up" href="/ExtThemes/UpgradeGuide/Index">
+  <Card title="Upgrade Guide TYPO3 v10 to v12" icon="arrow-up" href="/en/latest/ExtThemes/UpgradeGuide/Index">
     Step-by-step guide for upgrading your theme.
   </Card>
   </CardGroup>
@@ -73,13 +73,13 @@ sidebarTitle: "TYPO3 Templates"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="Demo Site" icon="monitor" href="/ExtThemes/DemoSite/Index">
+  <Card title="Demo Site" icon="monitor" href="/en/latest/ExtThemes/DemoSite/Index">
     Explore the live demo site and backend.
   </Card>
-  <Card title="FAQ" icon="circle-question-mark" href="/ExtThemes/FAQ/Index">
+  <Card title="FAQ" icon="circle-question-mark" href="/en/latest/ExtThemes/FAQ/Index">
     Answers to frequently asked questions.
   </Card>
-  <Card title="Help & Support" icon="life-buoy" href="/ExtThemes/HelpSupport/Index">
+  <Card title="Help & Support" icon="life-buoy" href="/en/latest/ExtThemes/HelpSupport/Index">
     Get help from the T3Planet support team.
   </Card>
   </CardGroup>

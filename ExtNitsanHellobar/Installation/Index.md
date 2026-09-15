@@ -32,7 +32,7 @@ Step 3. Get it from the Extension Manager: Press the “Retrieve/Update” butto
 
 Step 4. Get it from typo3.org: You can always get the current version from https://extensions.typo3.org/extension/nitsan_hellobar/ by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![Install Extension](./images/install_ext.jpeg)
+![Install Extension](images/install_ext.webp)
 
 ## 2. Activate the TypoScript
 

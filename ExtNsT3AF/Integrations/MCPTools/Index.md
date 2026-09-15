@@ -31,7 +31,7 @@ MCP Tools — Core catalog, extension cards, and tool statistics.
 
 ## Core tools
 
-These tools ship with T3AF and appear under the **TYPO3 Core** tab in T3AF > MCP Tools when the [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index) is enabled.
+These tools ship with T3AF and appear under the **TYPO3 Core** tab in T3AF > MCP Tools when the [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index) is enabled.
 
 The Core catalog covers many tools across categories such as Content, Records, Schema, Files, Workspaces, Search, Cache, and related TYPO3 operations. Open the MCP Tools module to see the complete, up-to-date list.
 
@@ -68,7 +68,7 @@ When AI Assistant, AI Chatbot, AI Search, or other connected extensions are inst
 ## Security
 
 - Tools respect backend user permissions and workspace context
-- OAuth and URL tokens are configured on the [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index) screen
+- OAuth and URL tokens are configured on the [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index) screen
 - Limit which admin users may authorize external agents
 - Use draft workspaces for `write_table` tests
 
@@ -77,4 +77,4 @@ When AI Assistant, AI Chatbot, AI Search, or other connected extensions are inst
 - **MCP Server** — Enable connectivity, OAuth, and client configuration
 - **MCP Tools** — Browse tools, test calls, see extension contributions
 
-See [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index) for connection setup.
+See [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index) for connection setup.

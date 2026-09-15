@@ -20,7 +20,7 @@ Connect external AI agents to TYPO3 through the **Model Context Protocol (MCP)**
 - Read TYPO3 pages and content
 - Inspect database schema
 - Create or update records (with permissions)
-- Call extension-registered tools (see [MCP Tools](/ExtNsT3AF/MCPTools/Index))
+- Call extension-registered tools (see [MCP Tools](/en/latest/ExtNsT3AF/MCPTools/Index))
 
 ## Enable MCP
 
@@ -88,7 +88,7 @@ MCP edits respect the active workspace. Test writes in workspace `1` before live
 - Treat URL tokens like passwords
 - Limit which backend users can authorize OAuth
 - Test in draft workspace before live writes
-- Enable [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) for multi-user sites
+- Enable [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index) for multi-user sites
 
 ## When to enable MCP
 
@@ -100,7 +100,7 @@ MCP edits respect the active workspace. Test writes in workspace `1` before live
 
 - Production site without HTTPS
 - No clear policy for which admins may authorize agents
-- Team has not completed [AI Providers](/ExtNsT3AF/AIProviders/Index) setup
+- Team has not completed [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index) setup
 
 <Note>
 - MCP protocol: [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)

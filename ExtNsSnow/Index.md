@@ -10,10 +10,10 @@ sidebarTitle: "Snow"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsSnow/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsSnow/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsSnow/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsSnow/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsSnow/Support" />
-  <Card title="Get This Extension" href="/ExtNsSnow/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsSnow/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsSnow/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsSnow/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsSnow/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsSnow/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsSnow/BuyNow" />
 </CardGroup>

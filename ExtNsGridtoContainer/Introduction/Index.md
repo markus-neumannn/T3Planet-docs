@@ -33,4 +33,4 @@ EXT:ns_gridtocontainer is a migration extension providing a Backend module for t
 
 ## Figures
 
-![Extension banner](./images/ext_banner4.jpg)
+![Extension banner](images/ext_banner4.webp)

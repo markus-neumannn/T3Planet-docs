@@ -28,7 +28,7 @@ MCP Server — online status, connection methods, and Remote OAuth endpoint deta
 - Read TYPO3 pages and content
 - Inspect database schema
 - Create or update records (with permissions)
-- Call extension-registered tools (see [MCP Tools](/ExtNsT3AF/Integrations/MCPTools/Index))
+- Call extension-registered tools (see [MCP Tools](/en/latest/ExtNsT3AF/Integrations/MCPTools/Index))
 
 ## Enable MCP
 
@@ -70,7 +70,7 @@ Set the mode in the **MCP Server** top bar (stored as `mcpMode` in the T3AF MCP 
 
 **Native (AI Generate via TYPO3)** — Server-side generation.
 
-- TYPO3 runs AI generation on the server through your configured [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index).
+- TYPO3 runs AI generation on the server through your configured [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index).
 - MCP tools receive instructions and generate or process content inside TYPO3.
 - Use this when generation must stay on your instance (provider keys, brand context, and governance already configured in T3AF).
 
@@ -115,7 +115,7 @@ MCP edits respect the active workspace. Test writes in workspace `1` before live
 - Treat URL tokens like passwords
 - Limit which backend users can authorize OAuth
 - Test in draft workspace before live writes
-- Enable [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) for multi-user sites
+- Enable [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index) for multi-user sites
 
 ## When to enable MCP
 
@@ -127,7 +127,7 @@ MCP edits respect the active workspace. Test writes in workspace `1` before live
 
 - Production site without HTTPS
 - No clear policy for which admins may authorize agents
-- Team has not completed [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index) setup
+- Team has not completed [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index) setup
 
 <Note>
 - Model Context Protocol: [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)

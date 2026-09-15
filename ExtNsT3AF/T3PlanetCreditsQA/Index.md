@@ -13,7 +13,7 @@ This guide walks QA through **connecting T3Planet Credits** on a TYPO3 install
 and verifying that AI requests (backend and MCP Native mode) route through the
 T3Planet cloud API.
 
-For product background see [T3Planet Credits (v1.1+)](/ExtNsT3AF/DeveloperGuide/T3PlanetCredits/Index) and [T3Planet Credits (v1.1+)](/ExtNsT3AF/DeveloperGuide/T3PlanetCredits/Index).
+For product background see [T3Planet Credits (v1.1+)](/en/latest/ExtNsT3AF/DeveloperGuide/T3PlanetCredits/Index) and [T3Planet Credits (v1.1+)](/en/latest/ExtNsT3AF/DeveloperGuide/T3PlanetCredits/Index).
 
 ## What “connected” means
 

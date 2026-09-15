@@ -107,7 +107,7 @@ $enabled = ($settings['enableAiFeature'] ?? '0') === '1';
 - Keep `settingsScope` stable.
 - Use clear labels because editors see them in the backend drawer.
 - Do not overload one card with unrelated feature groups.
-- Use [Feature Provider Overrides](/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index) when a feature needs its own provider dropdown.
+- Use [Feature Provider Overrides](/en/latest/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index) when a feature needs its own provider dropdown.
 - Flush caches after changing schema or DI definitions.
 
 ## Verification
@@ -134,6 +134,6 @@ $enabled = ($settings['enableAiFeature'] ?? '0') === '1';
 
 ## Related documentation
 
-- [Feature Provider Overrides](/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index)
-- [Custom AI Prompts](/ExtNsT3AF/DeveloperGuide/CustomAiPrompts/Index)
-- [AI Features](/ExtNsT3AF/AIFeatures/Index)
+- [Feature Provider Overrides](/en/latest/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index)
+- [Custom AI Prompts](/en/latest/ExtNsT3AF/DeveloperGuide/CustomAiPrompts/Index)
+- [AI Features](/en/latest/ExtNsT3AF/AIFeatures/Index)

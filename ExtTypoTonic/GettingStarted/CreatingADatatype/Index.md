@@ -15,13 +15,13 @@ A Datatype describes one record type, for example "News" or "Event". It defines 
 Open the **List** module, click **Create new record**, and select **Datatype**.
 Create your fields first, or assign them to the Datatype later.
 
-![Creating a new Datatype record in the TYPO3 list module](./Images/new_datatype.jpg)
+![Creating a new Datatype record in the TYPO3 list module](Images/new_datatype.webp)
 
 *Creating a new Datatype record*
 
 ## Tab: General
 
-![General tab of a Datatype, showing name and description](./Images/datatype_description.jpg)
+![General tab of a Datatype, showing name and description](Images/datatype_description.webp)
 
 *General tab of a Datatype*
 
@@ -49,4 +49,4 @@ The order you assign them in is the order they appear in the record edit form.
 
 ## Next Step
 
-Continue with [Creating a Template Variable](/ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index) to add dynamic values to your templates, or skip ahead to [Templating](/ExtTypoTonic/GettingStarted/Templating/Index) to start rendering records in Fluid.
+Continue with [Creating a Template Variable](/en/latest/ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index) to add dynamic values to your templates, or skip ahead to [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index) to start rendering records in Fluid.

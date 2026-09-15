@@ -11,7 +11,7 @@ sidebarTitle: "T3AA - TYPO3 AI Accessibility Assistant"
 
 ## EXT:ns_t3aa
 
-![T3AA_banner](./images/T3AA_banner.jpg)
+![T3AA_banner](images/T3AA_banner.webp)
 
 ## EXT:ns_t3aa - What does it do?
 
@@ -22,8 +22,8 @@ T3AA now works as a child extension of T3AF (`ns_t3af`), which provides the shar
 
 For the shared setup, see:
 
-- [T3AF Introduction](/ExtNsT3AF/Introduction/Index)
-- [T3AF Installation](/ExtNsT3AF/Installation/Index)
+- [T3AF Introduction](/en/latest/ExtNsT3AF/Introduction/Index)
+- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
 - T3AF System Requirements
 
 ## Helpful Links

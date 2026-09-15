@@ -10,4 +10,4 @@ sidebarTitle: "Localization"
 
 For complete details regarding localization, please see the documentation below:
 
-[Localization Documentation](/ExtThemes/Localization/Index)
+[Localization Documentation](/en/latest/ExtThemes/Localization/Index)

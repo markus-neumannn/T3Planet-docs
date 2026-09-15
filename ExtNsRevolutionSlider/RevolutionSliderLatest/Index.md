@@ -11,8 +11,8 @@ sidebarTitle: "Slider Revolution Latest ..."
 ---
 
 <CardGroup cols={2}>
-  <Card title="System Requirements" href="/ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index" />
-  <Card title="Migration from v3 to Latest (>= v12)" href="/ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index" />
-  <Card title="Installation" href="/ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index" />
-  <Card title="Configuration" href="/ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index" />
+  <Card title="System Requirements" href="/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/SystemRequirements/Index" />
+  <Card title="Migration from v3 to Latest (>= v12)" href="/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index" />
 </CardGroup>

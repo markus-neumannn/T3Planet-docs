@@ -11,7 +11,7 @@ sidebarTitle: "Migration from v3 to Latest (>= v12)"
 
 ## Non-Composer TYPO3 Instance
 
-Well, we don’t have any major migration steps from v3 to latest version >=v12. Just keep follow our mentioned steps at Update Version Guide at [https://docs.t3planet.de/en/latest/License/UpdateVersion/Index.html](/License/UpdateVersion/Index)
+Well, we don’t have any major migration steps from v3 to latest version >=v12. Just keep follow our mentioned steps at Update Version Guide at [https://docs.t3planet.de/en/latest/License/UpdateVersion/Index.html](/en/latest/License/UpdateVersion/Index)
 
 ## Composer TYPO3 Instance
 

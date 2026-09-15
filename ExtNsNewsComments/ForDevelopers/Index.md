@@ -20,7 +20,7 @@ xmlns:nscomment="http://typo3.org/ns/Nitsan/NsNewsComments/ViewHelpers"
 
 Check this for more details:
 
-![Add namespace](./images/add_namespace.png)
+![Add namespace](images/add_namespace.webp)
 
 ## Get Date of Last comment in a News
 

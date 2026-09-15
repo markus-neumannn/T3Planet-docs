@@ -14,7 +14,7 @@ Just install this extension the usual way like any other TYPO3 extension.
 
 ## For Premium Version - License Activation
 
-To activate license and install this premium TYPO3 product, please refer to this documentation: [License](/License/Index)
+To activate license and install this premium TYPO3 product, please refer to this documentation: [License](/en/latest/License/Index)
 
 ## For Free Version
 
@@ -36,7 +36,7 @@ In the TYPO3 backend you can use the extension manager (EM).
 
 **Step 4.** Get it from typo3.org: You can always get the current version from https://extensions.typo3.org/extension/ns_helpdesk/ by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![ns-helpdesk-typo3-install-extension](./Images/ns-helpdesk-typo3-install-extension.jpeg)
+![ns-helpdesk-typo3-install-extension](Images/ns-helpdesk-typo3-install-extension.webp)
 
 ## Include TypoScript {#ns-helpdesk-include-typoscript}
 
@@ -55,4 +55,4 @@ you configure Helpdesk in the Constant Editor.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8d2cj1derqmctvhkyf4yv?embed_v=2&utm_source=embed" loading="lazy" title="Include ns_helpdesk TypoScript" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-After the TypoScript is included, continue with [Global Settings](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
+After the TypoScript is included, continue with [Global Settings](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).

@@ -25,7 +25,7 @@ Just install this extension the usual way like any other TYPO3 extension.
       https://extensions.typo3.org/extension/ns_twitter/ by downloading either
       the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![TYPO3_NsTwitter_Extension_NITSAN_Install_Step1](./images/TYPO3_NsTwitter_Extension_NITSAN_Install_Step1.png)
+![TYPO3_NsTwitter_Extension_NITSAN_Install_Step1](images/TYPO3_NsTwitter_Extension_NITSAN_Install_Step1.webp)
 
 2. Activate the TypoScript
 

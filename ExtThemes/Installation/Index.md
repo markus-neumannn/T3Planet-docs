@@ -17,7 +17,7 @@ You should install the TYPO3 template at the new blank TYPO3 Instance! If you ar
 
 ## For Premium Templates
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 ## For Free Templates
 
@@ -79,7 +79,7 @@ If you have composer based TYPO3 installation, then make create folder /config/ 
 
 Once you install your TYPO3 Template extension, it will automatically generate "Page tree" in your TYPO3 backend with all the pages and content.
 
-![Page Tree](./images/pagetree.jpeg)
+![Page Tree](images/pagetree.webp)
 
 ### SEO Setup for TYPO3 9 and TYPO3 10
 
@@ -98,4 +98,4 @@ Step 4. Set appropriate HTTP Error Status Code and set how to Handle Errors fiel
 
 ## Figures
 
-![Update Extension Repository](./images/update-ext-repository4.png)
+![Update Extension Repository](images/update-ext-repository4.webp)

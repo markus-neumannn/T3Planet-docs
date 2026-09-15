@@ -25,7 +25,7 @@ Remove other MCP server packages (`marekskopal/typo3-mcp-server`, `hn/typo3-mcp-
 
 **Credits ON but AI fails**
 
-Click **Activate** again after enabling the toggle. See [T3Planet Credits](/ExtNsT3AF/T3PlanetCredits/Index).
+Click **Activate** again after enabling the toggle. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
 
 **Test connection fails**
 
@@ -33,7 +33,7 @@ Check model ID, API key, and outbound HTTPS. Verify the model exists on your ven
 
 **Empty token after activate**
 
-Verify license domain matches site URL. Re-save license keys at [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+Verify license domain matches site URL. Re-save license keys at [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 
 ## MCP
 
@@ -57,7 +57,7 @@ Set `hidden=0` after create, or adjust permissions. Test in draft workspace `1` 
 
 **Old docs mention TYPO3 11 or PHP 7.4**
 
-Incorrect for current `ns_t3af`. Use TYPO3 12.4+ and PHP 8.2+. See [System Requirements](/ExtNsT3AF/SystemRequirements/Index).
+Incorrect for current `ns_t3af`. Use TYPO3 12.4+ and PHP 8.2+. See [System Requirements](/en/latest/ExtNsT3AF/SystemRequirements/Index).
 
 ## Backend module not visible
 
@@ -70,7 +70,7 @@ vendor/bin/typo3 cache:flush
 
 ## High token usage spike
 
-Check [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index) for repeating feature names. May be a script loop. Apply rate limits in [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index).
+Check [AI Usage & Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index) for repeating feature names. May be a script loop. Apply rate limits in [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index).
 
 ## Report issues
 
@@ -84,4 +84,4 @@ Include:
 - Provider mode (BYOK vs T3Planet Credits)
 - Whether MCP is enabled
 
-Submit via [Support](/ExtNsT3AF/Support/Index) or [https://t3planet.de/support](https://t3planet.de/support)
+Submit via [Support](/en/latest/ExtNsT3AF/Support/Index) or [https://t3planet.de/support](https://t3planet.de/support)

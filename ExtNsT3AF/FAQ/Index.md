@@ -15,7 +15,7 @@ Common questions about **T3AF** (`ns_t3af`).
 
 **What is T3AF?**
 
-The shared AI foundation for T3Planet TYPO3 extensions — providers, MCP, credits, logs, and governance. See [What Does It Do?](/ExtNsT3AF/WhatDoesItDo/Index).
+The shared AI foundation for T3Planet TYPO3 extensions — providers, MCP, credits, logs, and governance. See [What Does It Do?](/en/latest/ExtNsT3AF/WhatDoesItDo/Index).
 
 **Does it work on the frontend?**
 
@@ -23,13 +23,13 @@ No standalone frontend plugin. It powers backend AI features and MCP agents. Vis
 
 **Which TYPO3 versions are supported?**
 
-TYPO3 12.4, 13.4, and 14.x with PHP 8.2 or higher. See [System Requirements](/ExtNsT3AF/SystemRequirements/Index).
+TYPO3 12.4, 13.4, and 14.x with PHP 8.2 or higher. See [System Requirements](/en/latest/ExtNsT3AF/SystemRequirements/Index).
 
 ## Providers
 
 **Which provider should I use?**
 
-OpenAI GPT-4o and Claude Sonnet are popular for quality. Gemini Flash is fast and cost-effective for bulk tasks. See [AI Providers](/ExtNsT3AF/AIProviders/Index).
+OpenAI GPT-4o and Claude Sonnet are popular for quality. Gemini Flash is fast and cost-effective for bulk tasks. See [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index).
 
 **Can I use Ollama locally?**
 
@@ -37,13 +37,13 @@ Yes — via Custom endpoint or Ollama provider type. Useful for development with
 
 **Test connection fails but key is correct.**
 
-Check model ID spelling, outbound HTTPS, and vendor service status. See [Known Problems](/ExtNsT3AF/KnownProblems/Index).
+Check model ID spelling, outbound HTTPS, and vendor service status. See [Known Problems](/en/latest/ExtNsT3AF/KnownProblems/Index).
 
 ## Credits
 
 **Toggle is ON but AI fails.**
 
-Click **Activate** after enabling credits. The toggle alone is not enough. See [T3Planet Credits](/ExtNsT3AF/T3PlanetCredits/Index).
+Click **Activate** after enabling credits. The toggle alone is not enough. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
 
 **Own keys vs credits?**
 
@@ -53,13 +53,13 @@ Click **Activate** after enabling credits. The toggle alone is not enough. See [
 
 **Zero balance error.**
 
-Purchase credits through T3Planet. Check balance on the [Dashboard](/ExtNsT3AF/Dashboard/Index).
+Purchase credits through T3Planet. Check balance on the [Dashboard](/en/latest/ExtNsT3AF/Dashboard/Index).
 
 ## MCP
 
 **What is MCP?**
 
-Model Context Protocol — a standard for AI tools (Cursor, Claude Desktop) to connect to TYPO3. See [MCP Server](/ExtNsT3AF/MCPServer/Index).
+Model Context Protocol — a standard for AI tools (Cursor, Claude Desktop) to connect to TYPO3. See [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
 
 **Is MCP safe?**
 
@@ -67,7 +67,7 @@ Yes with HTTPS and OAuth. Limit which backend users can authorize agents. Test w
 
 **Cursor won’t connect.**
 
-Check MCP is enabled, site uses HTTPS, and OAuth metadata URLs return HTTP 200. See health check in [MCP Server](/ExtNsT3AF/MCPServer/Index).
+Check MCP is enabled, site uses HTTPS, and OAuth metadata URLs return HTTP 200. See health check in [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
 
 ## Privacy
 
@@ -77,18 +77,18 @@ Yes with OpenAI and Claude unless you use EU options (Azure EU, Mistral). Check 
 
 **Are prompts logged?**
 
-Depends on [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) privacy level. Use **Minimal** or **Standard** for GDPR-friendly defaults.
+Depends on [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index) privacy level. Use **Minimal** or **Standard** for GDPR-friendly defaults.
 
 ## Installation
 
 **How do I install the premium version?**
 
-Follow [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index) then [Installation](/ExtNsT3AF/Installation/Index).
+Follow [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index) then [Installation](/en/latest/ExtNsT3AF/Installation/Index).
 
 **Composer conflict with another MCP package.**
 
-Remove conflicting MCP server packages before installing T3AF through your T3Planet Premium Composer repository. See [Known Problems](/ExtNsT3AF/KnownProblems/Index).
+Remove conflicting MCP server packages before installing T3AF through your T3Planet Premium Composer repository. See [Known Problems](/en/latest/ExtNsT3AF/KnownProblems/Index).
 
 ## Still stuck?
 
-Open [Support](/ExtNsT3AF/Support/Index) with TYPO3 version, PHP version, `ns_t3af` version, error text, and billing mode (BYOK vs credits).
+Open [Support](/en/latest/ExtNsT3AF/Support/Index) with TYPO3 version, PHP version, `ns_t3af` version, error text, and billing mode (BYOK vs credits).

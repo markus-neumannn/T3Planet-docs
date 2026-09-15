@@ -10,4 +10,4 @@ sidebarTitle: "Dashboard"
 
 Dashboard content lives with AI Usage:
 
-[Dashboard & AI Usage](/ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index#t3planet-credits-ai-usage)
+[Dashboard & AI Usage](/en/latest/ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index#t3planet-credits-ai-usage)

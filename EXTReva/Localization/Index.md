@@ -8,4 +8,4 @@ keywords:
 sidebarTitle: "Localization"
 ---
 
-For all details regarding to Localization, please refer here: [ExtThemes Localization](/ExtThemes/Localization/Index)
+For all details regarding to Localization, please refer here: [ExtThemes Localization](/en/latest/ExtThemes/Localization/Index)

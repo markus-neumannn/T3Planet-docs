@@ -10,14 +10,14 @@ sidebarTitle: "Social Login"
 ---
 
 <CardGroup cols={2}>
-  <Card title="TYPO3 Social Login Extension" href="/ExtNsSocialLogin/Introduction/Index" />
-  <Card title="Screenshots and Demo" href="/ExtNsSocialLogin/Screenshots/Index" />
-  <Card title="System Requirements" href="/ExtNsSocialLogin/SystemRequirements/Index" />
-  <Card title="Installation" href="/ExtNsSocialLogin/Installation/Index" />
-  <Card title="Before Getting Started" href="/ExtNsSocialLogin/BeforeGettingStarted/Index" />
-  <Card title="Configuration" href="/ExtNsSocialLogin/Configuration/Index" />
-  <Card title="Update Version" href="/ExtNsSocialLogin/UpdateVersion/Index" />
-  <Card title="FAQ" href="/ExtNsSocialLogin/FAQ/Index" />
-  <Card title="Support" href="/ExtNsSocialLogin/Support" />
-  <Card title="Get This Extension" href="/ExtNsSocialLogin/BuyNow" />
+  <Card title="TYPO3 Social Login Extension" href="/en/latest/ExtNsSocialLogin/Introduction/Index" />
+  <Card title="Screenshots and Demo" href="/en/latest/ExtNsSocialLogin/Screenshots/Index" />
+  <Card title="System Requirements" href="/en/latest/ExtNsSocialLogin/SystemRequirements/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsSocialLogin/Installation/Index" />
+  <Card title="Before Getting Started" href="/en/latest/ExtNsSocialLogin/BeforeGettingStarted/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsSocialLogin/Configuration/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsSocialLogin/UpdateVersion/Index" />
+  <Card title="FAQ" href="/en/latest/ExtNsSocialLogin/FAQ/Index" />
+  <Card title="Support" href="/en/latest/ExtNsSocialLogin/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsSocialLogin/BuyNow" />
 </CardGroup>

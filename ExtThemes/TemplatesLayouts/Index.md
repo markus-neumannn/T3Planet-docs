@@ -23,4 +23,4 @@ You can setup Layouts as described below:
 
 ## Figures
 
-![Set Frontend & backend Layouts](./images/templates_layouts2.jpeg)
+![Set Frontend & backend Layouts](images/templates_layouts2.webp)

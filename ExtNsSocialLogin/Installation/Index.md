@@ -15,7 +15,7 @@ You can install the TYPO3 Social Login Extension using either the Extension Mana
 **Premium Version – License Activation**
 
 To install and activate the premium version, follow the official guide:
-[License documentation](/License/Index)
+[License documentation](/en/latest/License/Index)
 
 **Free Version – Installation via Extension Manager (EM)**
 

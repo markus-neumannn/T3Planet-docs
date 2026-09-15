@@ -14,7 +14,7 @@ Just install this extension the usual way like any other TYPO3 extension.
 
 ## For Premium Version - License Activation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 ## For Free Version
 
@@ -33,7 +33,7 @@ Get it from the Extension Manager: Press the “Retrieve/Update” button and se
   <Step title="Step 4">
 Get it from typo3.org: You can always get the current version from https://extensions.typo3.org/extension/ns_timeline/ by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![ns-timeline-typo3-install-extension](./images/ns-timeline-typo3-install-extension.jpeg)
+![ns-timeline-typo3-install-extension](images/ns-timeline-typo3-install-extension.webp)
   </Step>
 </Steps>
 

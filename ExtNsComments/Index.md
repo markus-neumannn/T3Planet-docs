@@ -10,13 +10,13 @@ sidebarTitle: "Comments"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsComments/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsComments/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsComments/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsComments/GlobalConfiguration/Index" />
-  <Card title="Comment Plugin Settings" href="/ExtNsComments/CommentPluginSettings/Index" />
-  <Card title="Comment Moderation" href="/ExtNsComments/CommentModeration/Index" />
-  <Card title="Comment Plugin on All Pages" href="/ExtNsComments/CommentOnAllPages" />
-  <Card title="Help & Support" href="/ExtNsComments/Support" />
-  <Card title="Get This Extension" href="/ExtNsComments/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsComments/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsComments/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsComments/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsComments/GlobalConfiguration/Index" />
+  <Card title="Comment Plugin Settings" href="/en/latest/ExtNsComments/CommentPluginSettings/Index" />
+  <Card title="Comment Moderation" href="/en/latest/ExtNsComments/CommentModeration/Index" />
+  <Card title="Comment Plugin on All Pages" href="/en/latest/ExtNsComments/CommentOnAllPages" />
+  <Card title="Help & Support" href="/en/latest/ExtNsComments/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsComments/BuyNow" />
 </CardGroup>

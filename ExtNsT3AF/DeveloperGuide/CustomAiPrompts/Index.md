@@ -124,6 +124,6 @@ Then pass the resolved text to `AiServiceInterface` with a stable `featureKey`.
 
 ## Related documentation
 
-- [Extension Integration](/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
-- [Custom AI Features](/ExtNsT3AF/DeveloperGuide/CustomAiFeatures/Index)
-- [AI Prompts](/ExtNsT3AF/AIPrompts/Index)
+- [Extension Integration](/en/latest/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
+- [Custom AI Features](/en/latest/ExtNsT3AF/DeveloperGuide/CustomAiFeatures/Index)
+- [AI Prompts](/en/latest/ExtNsT3AF/AIPrompts/Index)

@@ -16,7 +16,7 @@ sidebarTitle: "Configuration"
 - **Step 3:** Select Constant Editor > Plugin.Tx_NsGuestbook_NsGuestbook.
 - **Step 4:** Now, you can configure all the options which you want eg., cache configuration, storage folder, views of comments etc., See below screenshot.
 
-![Guestbook Configuration](./images/configure.jpeg)
+![Guestbook Configuration](images/configure.webp)
 
 ## Add Guestbook Plugin
 

@@ -36,7 +36,7 @@ Connect to major AI vendors from one backend screen.
 - Pick models and run **Test connection**
 - Set one default provider for the whole system
 
-See [AI Providers](/ExtNsT3AF/AIProviders/Index) for step-by-step setup.
+See [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index) for step-by-step setup.
 
 ## 2. MCP Server
 
@@ -50,7 +50,7 @@ Expose TYPO3 to external AI assistants via the Model Context Protocol.
 
 Core tools: read pages, list content, read/write database records (with permissions).
 
-See [MCP Server](/ExtNsT3AF/MCPServer/Index).
+See [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
 
 ## 3. AI Context
 
@@ -58,7 +58,7 @@ See [MCP Server](/ExtNsT3AF/MCPServer/Index).
 
 Store brand identity once: company name, audience, tone, keywords. Injected into AI prompts automatically for on-brand output.
 
-See [AI Context](/ExtNsT3AF/AIContext/Index).
+See [AI Context](/en/latest/ExtNsT3AF/AIContext/Index).
 
 ## 4. AI Prompts
 
@@ -66,7 +66,7 @@ See [AI Context](/ExtNsT3AF/AIContext/Index).
 
 Central library of prompt templates. Extensions can sync and reuse them.
 
-See [AI Prompts](/ExtNsT3AF/AIPrompts/Index).
+See [AI Prompts](/en/latest/ExtNsT3AF/AIPrompts/Index).
 
 ## 5. AI Features
 
@@ -74,7 +74,7 @@ See [AI Prompts](/ExtNsT3AF/AIPrompts/Index).
 
 Assign different providers per task type (SEO, pages, content, translation).
 
-See [AI Features](/ExtNsT3AF/AIFeatures/Index).
+See [AI Features](/en/latest/ExtNsT3AF/AIFeatures/Index).
 
 ## 6. Usage & Logs
 
@@ -84,7 +84,7 @@ See [AI Features](/ExtNsT3AF/AIFeatures/Index).
 - **AI Logs** — per-request detail for audits
 - **Scheduler & CLI** — background jobs
 
-See [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index).
+See [AI Usage & Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index).
 
 ## 7. AI Permissions
 
@@ -92,7 +92,7 @@ See [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index).
 
 Control who uses which provider, which capabilities, budgets, rate limits, and log privacy. Off by default — enable when your team grows.
 
-See [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index).
+See [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index).
 
 ## Supported providers
 
@@ -116,16 +116,16 @@ Child extensions call `AiServiceInterface` only:
 
 Extensions never call vendor APIs directly — T3AF handles keys, logging, credits, and governance.
 
-Full reference: [Developer Guide](/ExtNsT3AF/DeveloperGuide/Index)
+Full reference: [Developer Guide](/en/latest/ExtNsT3AF/DeveloperGuide/Index)
 
 ## Typical admin workflow
 
-1. Install extension → [Installation](/ExtNsT3AF/Installation/Index)
-2. Add provider and run **Test connection** → [AI Providers](/ExtNsT3AF/AIProviders/Index)
-3. Run Quick Setup → [Quick Setup](/ExtNsT3AF/SetupWizard/Index)
-4. (Optional) Enable MCP → [MCP Server](/ExtNsT3AF/MCPServer/Index)
-5. (Optional) Set governance rules → [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
-6. Monitor usage weekly → [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index)
+1. Install extension → [Installation](/en/latest/ExtNsT3AF/Installation/Index)
+2. Add provider and run **Test connection** → [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index)
+3. Run Quick Setup → [Quick Setup](/en/latest/ExtNsT3AF/SetupWizard/Index)
+4. (Optional) Enable MCP → [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index)
+5. (Optional) Set governance rules → [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index)
+6. Monitor usage weekly → [AI Usage & Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index)
 
 ## Requirements at a glance
 
@@ -135,4 +135,4 @@ Full reference: [Developer Guide](/ExtNsT3AF/DeveloperGuide/Index)
 - **Billing** — API key or T3Planet Credits (at least one)
 - **Composer** — Recommended for TYPO3 installs
 
-See [System Requirements](/ExtNsT3AF/SystemRequirements/Index) for full details.
+See [System Requirements](/en/latest/ExtNsT3AF/SystemRequirements/Index) for full details.

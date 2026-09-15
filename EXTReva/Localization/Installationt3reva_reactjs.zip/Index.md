@@ -61,7 +61,7 @@ React & Next is built on top of Node.js. To get up and running with Next, you’
 
 Step 1: File structure > Unzip the ns_theme_t3reva_1.0.0.zip from the main package. Then you got frontend zip called - t3reva_reactjs.zip unzip it and Then you will see the following folder/file structure.
 
-![root-folder-structure](./images/root-folder-structure4.png)
+![root-folder-structure](images/root-folder-structure4.webp)
 
 Step 2: Connection with Your Backend/API
 
@@ -102,6 +102,6 @@ Step 1: Connect vercel with our your gitlab, github, etc.
 
 Step 2: When perform commit on the master branch vercel will automatically deploy and serve output on the defined domain.
 
-![vercel_login](./images/vercel_login4.jpg)
+![vercel_login](images/vercel_login4.webp)
 
 Awesome! Now Your Site Is Ready To Publish.!

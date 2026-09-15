@@ -17,7 +17,7 @@ Once you setup the mosaic view in tab of Gallery module, you can use them in Gal
 
 Once you add the plugin, switch to Plugin tab to configure the gallery. Here, You can set Gallery specific configuration, Lightbox related configuration and masonry layout to display in this gallery.
 
-![Add Masonry Plugin](./images/ns_gallery_mosiac_view.jpeg)
+![Add Masonry Plugin](images/ns_gallery_mosiac_view.webp)
 
 <Note>
 

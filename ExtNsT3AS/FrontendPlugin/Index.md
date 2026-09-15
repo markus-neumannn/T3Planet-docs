@@ -14,7 +14,7 @@ sidebarTitle: "T3AS Search Plugin"
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmf40ewn21x4v39ozrnrdxqmm" loading="lazy" title="AI FileMeta Overview Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 The **T3AS Search** plugin places an AI search box on your TYPO3 frontend. Visitors type a question in plain language and get an answer based on content you have trained in T3AS.
 
-You can set colours, layout, suggested questions, chatbot follow-ups, voiceover, and feedback for each page. Site-wide defaults are in **T3AS → Search** (see [5. Search tab](/ExtNsT3AS/Configuration/Index#t3as-search-global-settings)).
+You can set colours, layout, suggested questions, chatbot follow-ups, voiceover, and feedback for each page. Site-wide defaults are in **T3AS → Search** (see [5. Search tab](/en/latest/ExtNsT3AS/Configuration/Index#t3as-search-global-settings)).
 
 ## Interactive Demo
 

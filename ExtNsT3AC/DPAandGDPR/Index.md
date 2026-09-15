@@ -16,7 +16,7 @@ T3AC provides data-management capabilities for stored chatbot usage history and 
 T3AC allows administrators to control whether visitor chatbot history is stored.
 
 The **Save chatbot history** option is available under the AI Chatbot configuration.
-For this setting, see [Save chatbot history](/ExtNsT3AC/FeatureGuide/Chatbot/Index#t3ac-save-chatbot-history).
+For this setting, see [Save chatbot history](/en/latest/ExtNsT3AC/FeatureGuide/Chatbot/Index#t3ac-save-chatbot-history).
 
 Follow these steps in the backend (see the demo below):
 
@@ -38,12 +38,12 @@ When disabled:
 This option can be used when your privacy requirements do not allow visitor chatbot history to be stored.
 
 <Important>
-Disabling chatbot history affects newly generated chatbot and feedback data. Existing records are not automatically removed when this option is disabled. Use the history cleanup scheduler to remove previously stored records. See [History cleanup](/ExtNsT3AS/Configuration/Index#t3as-history-cleanup).
+Disabling chatbot history affects newly generated chatbot and feedback data. Existing records are not automatically removed when this option is disabled. Use the history cleanup scheduler to remove previously stored records. See [History cleanup](/en/latest/ExtNsT3AS/Configuration/Index#t3as-history-cleanup).
 </Important>
 
 Chatbot usage history can be removed automatically with `t3af:history:cleanup`. The default retention period is **90** days and is configurable.
 
-For the Scheduler cleanup task, see [History cleanup](/ExtNsT3AS/Configuration/Index#t3as-history-cleanup).
+For the Scheduler cleanup task, see [History cleanup](/en/latest/ExtNsT3AS/Configuration/Index#t3as-history-cleanup).
 
 ## Data Processing Agreement (DPA) Considerations
 

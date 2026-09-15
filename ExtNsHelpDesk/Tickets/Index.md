@@ -23,13 +23,13 @@ is removed. Add the **Helpdesk - List View** plugin on the page where tickets sh
 
 **Step 4.** Save.
 
-Full plugin options: [Plugin Configurations](/ExtNsHelpDesk/PluginConfigurations/Index).
+Full plugin options: [Plugin Configurations](/en/latest/ExtNsHelpDesk/PluginConfigurations/Index).
 
 <Note>
 Frontend look of the ticket listing page.
 </Note>
 
-![ns-helpdesk-typo3-ticket-listing-fe](./Images/ns-helpdesk-typo3-ticket-listing-fe.jpeg)
+![ns-helpdesk-typo3-ticket-listing-fe](Images/ns-helpdesk-typo3-ticket-listing-fe.webp)
 
 ## Ticket Detail
 
@@ -40,6 +40,6 @@ the ticket from the frontend.
 Frontend look of the ticket detail page.
 </Note>
 
-![ns-helpdesk-typo3-ticket-detail-fe1](./Images/ns-helpdesk-typo3-ticket-detail-fe1.jpeg)
+![ns-helpdesk-typo3-ticket-detail-fe1](Images/ns-helpdesk-typo3-ticket-detail-fe1.webp)
 
-![ns-helpdesk-typo3-ticket-detail-fe2](./Images/ns-helpdesk-typo3-ticket-detail-fe2.jpeg)
+![ns-helpdesk-typo3-ticket-detail-fe2](Images/ns-helpdesk-typo3-ticket-detail-fe2.webp)

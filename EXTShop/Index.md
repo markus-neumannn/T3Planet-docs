@@ -19,13 +19,13 @@ sidebarTitle: "Shop"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/EXTShop/Introduction/Index">
+  <Card title="Introduction" icon="book-open" href="/en/latest/EXTShop/Introduction/Index">
     Overview, features, and system requirements.
   </Card>
-  <Card title="Installation" icon="download" href="/EXTShop/Installation/Index">
+  <Card title="Installation" icon="download" href="/en/latest/EXTShop/Installation/Index">
     Install the theme extension in your TYPO3 instance.
   </Card>
-  <Card title="Update Version" icon="refresh-cw" href="/EXTShop/UpdateVersion/Index">
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/EXTShop/UpdateVersion/Index">
     Upgrade to the latest theme version safely.
   </Card>
   </CardGroup>
@@ -35,10 +35,10 @@ sidebarTitle: "Shop"
   <p className="t3-landing-eyebrow">Configure</p>
   <h2 className="t3-landing-section-title">Theme & content</h2>
   <CardGroup cols={2}>
-  <Card title="Theme Options" icon="settings" href="/EXTShop/ThemeConfiguration/Index">
+  <Card title="Theme Options" icon="settings" href="/en/latest/EXTShop/ThemeConfiguration/Index">
     Configure global theme settings and constants.
   </Card>
-  <Card title="Shop Configuration" icon="shopping-cart" href="/EXTShop/ShopConfiguration/Index">
+  <Card title="Shop Configuration" icon="shopping-cart" href="/en/latest/EXTShop/ShopConfiguration/Index">
     Configure shop pages, products, and checkout.
   </Card>
   </CardGroup>
@@ -48,10 +48,10 @@ sidebarTitle: "Shop"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="Demo Site" icon="monitor" href="/EXTShop/DemoSite/Index">
+  <Card title="Demo Site" icon="monitor" href="/en/latest/EXTShop/DemoSite/Index">
     Explore the live demo site and backend.
   </Card>
-  <Card title="Help & Support" icon="life-buoy" href="/EXTShop/HelpSupport/Index">
+  <Card title="Help & Support" icon="life-buoy" href="/en/latest/EXTShop/HelpSupport/Index">
     Get help from the T3Planet support team.
   </Card>
   </CardGroup>

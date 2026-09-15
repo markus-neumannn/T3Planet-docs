@@ -26,6 +26,6 @@ To migrate from Slider Revolution v1 to v2, You will need to perform below steps
 > 1. Download latest Slider Revolution v2 from T3Planet customer account (My Products): https://t3planet.de/customer/account/login
 > 2. Switch to the module “Extension Manager”.
 > 3. Find ns_revolution_slider extension, in-active & remove it.
-> 4. Go to NITSAN > License Management > De-Activate License, Check [documentation](/License/LicenseDeActivation/Index#how-to-de-activate-license-key)
+> 4. Go to NITSAN > License Management > De-Activate License, Check [documentation](/en/latest/License/LicenseDeActivation/Index#how-to-de-activate-license-key)
 > 5. Follow Installation Steps at /ExtNsRevolutionSlider/RevolutionSlider2./0/Installation/Index
 > 6. Follow Configuration Steps at /ExtNsRevolutionSlider/RevolutionSlider2./0/Configuration/Index

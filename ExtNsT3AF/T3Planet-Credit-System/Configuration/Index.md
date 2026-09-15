@@ -26,11 +26,11 @@ Turn on T3Planet Credits from AI Foundation and manage limits and top-ups.
 4. Click Activate if shown.
 5. Wait for success → page reloads.
 
-![AI Providers with T3Planet Credits selected and Activate button](images/t3planet-credits-activate.png)
+![AI Providers with T3Planet Credits selected and Activate button](images/t3planet-credits-activate.webp)
 
 Select T3Planet Credits, then click Activate.
 
-![AI Providers with T3Planet Credits active and credit balance panel](images/t3planet-credits-providers.png)
+![AI Providers with T3Planet Credits active and credit balance panel](images/t3planet-credits-providers.webp)
 
 After activation — T3Planet Credits active, balance panel, and
 Buy more credits.
@@ -38,7 +38,7 @@ Buy more credits.
 <Note>
 If Activate fails, check that your T3Planet license is valid, the server can
 reach the T3Planet API, and try again. See
-[Troubleshooting](/ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index#t3planet-credits-troubleshooting) for common fixes.
+[Troubleshooting](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index#t3planet-credits-troubleshooting) for common fixes.
 </Note>
 
 ## After activation

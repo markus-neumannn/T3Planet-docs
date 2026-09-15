@@ -60,6 +60,6 @@ https://www.youtube.com/watch?v=_7ILu4lwU-k
 
 ## Figures
 
-![Install Extension](./images/install_ext11.jpeg)
+![Install Extension](images/install_ext11.webp)
 
-![Activate Typoscript](./images/activate_typoscript26.jpeg)
+![Activate Typoscript](images/activate_typoscript26.webp)

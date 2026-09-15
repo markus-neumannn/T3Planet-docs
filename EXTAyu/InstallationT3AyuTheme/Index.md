@@ -15,7 +15,7 @@ We recommend to install fresh TYPO3 installation, sometimes TYPO3 may faces diff
 
 # License Activation & TYPO3 Installation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 # How to Install TYPO3 Template T3 Ayu
 

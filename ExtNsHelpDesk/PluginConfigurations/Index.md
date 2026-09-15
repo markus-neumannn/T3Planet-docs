@@ -49,8 +49,8 @@ Use this plugin to show the ticket creation form.
 **Step 4.** Save.
 
 Standard field labels and placeholders are set in the Constant Editor.
-See [Form Settings](/ExtNsHelpDesk/FormSettings/Index). Custom fields are added on the storage page.
-See [Customize Form](/ExtNsHelpDesk/CustomizeForm/Index).
+See [Form Settings](/en/latest/ExtNsHelpDesk/FormSettings/Index). Custom fields are added on the storage page.
+See [Customize Form](/en/latest/ExtNsHelpDesk/CustomizeForm/Index).
 
 ## Helpdesk front-end user registration
 
@@ -64,4 +64,4 @@ Use this plugin when visitors must register before creating tickets.
 
 **Step 3.** Configure the plugin options, then save.
 
-Set **Login Page ID** and **Registration Page ID** in [Global Settings](/ExtNsHelpDesk/GlobalSettings/Index).
+Set **Login Page ID** and **Registration Page ID** in [Global Settings](/en/latest/ExtNsHelpDesk/GlobalSettings/Index).

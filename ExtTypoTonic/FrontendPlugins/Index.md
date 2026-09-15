@@ -15,7 +15,7 @@ You can adjust its output to fit your needs without writing code.
 
 Add the plugin through the **New content element** wizard, like any other TYPO3 plugin.
 
-![Selecting the TypoTonic Display Records plugin in the New Content Element wizard](./Images/plugin_wizard.jpg)
+![Selecting the TypoTonic Display Records plugin in the New Content Element wizard](Images/plugin_wizard.webp)
 
 *Selecting the Display Records plugin*
 

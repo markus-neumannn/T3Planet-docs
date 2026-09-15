@@ -10,10 +10,10 @@ sidebarTitle: "All Chat"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsAllChat/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsAllChat/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsAllChat/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsAllChat/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsAllChat/Support" />
-  <Card title="Get this Extension" href="/ExtNsAllChat/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsAllChat/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsAllChat/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsAllChat/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsAllChat/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsAllChat/Support" />
+  <Card title="Get this Extension" href="/en/latest/ExtNsAllChat/BuyNow" />
 </CardGroup>

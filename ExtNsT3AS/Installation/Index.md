@@ -38,7 +38,7 @@ After installation, you will use the T3AS backend module to:
 
 <Info>
 If you are upgrading from an older version (**2.2.0** or earlier) to the latest release,
-follow [Reinstall After Upgrading](/ExtNsT3AS/ReInstallEverything/Index) instead of this installation guide.
+follow [Reinstall After Upgrading](/en/latest/ExtNsT3AS/ReInstallEverything/Index) instead of this installation guide.
 </Info>
 
 ## Before you start
@@ -94,7 +94,7 @@ composer require nitsan/ns-t3as
 5. Confirm that AI Foundation (`nitsan/ns-t3af` / `EXT:ns_t3af`) is installed. If it is missing, install it using **Step 3 — Install AI Foundation**.
 
 Full license activation details:
-[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/License/LicenseActivation/Index)
+[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/en/latest/License/LicenseActivation/Index)
 
 ## Step 3 — Install AI Foundation
 
@@ -126,7 +126,7 @@ Foundation and run AI features through those providers.
 your TYPO3 site use AI features **without storing or managing your own vendor
 API keys**.
 
-**Link for T3Planet Credits:** [T3Planet Credits Documentation](/ExtNsT3AF/T3Planet-Credit-System/Index)
+**Link for T3Planet Credits:** [T3Planet Credits Documentation](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ### Option 1 — Extension Manager (TER)
 
@@ -148,17 +148,17 @@ Then flush all TYPO3 caches.
 
 Helpful AI Foundation references:
 
-- [AI Foundation Installation](/ExtNsT3AF/Installation/Index)
-- [AI Foundation Configuration](/ExtNsT3AF/Configuration/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
-- [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index)
+- [AI Foundation Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [AI Foundation Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
+- [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ## Premium Version
 
 **T3AS** is a Premium extension and requires a valid T3Planet license for download and activation.
 
 For license activation and access to premium features, see:
-[https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+[https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 
 <Note>
 **AI Foundation** (`EXT:ns_t3af`) is free and available from the TYPO3 Extension Repository (TER).
@@ -188,7 +188,7 @@ T3AS and T3CS ship static TypoScript that must be included on your site.
   - `T3AS - TYPO3 AI Search Extension [ns-ai-search/main]`
 5. Save the template and flush TYPO3 caches.
 
-![Required TypoScript includes for T3AS and T3CS](images/include-static-typoscript.png)
+![Required TypoScript includes for T3AS and T3CS](images/include-static-typoscript.webp)
 
 Include the T3CS and T3AS static TypoScript sets.
 

@@ -31,7 +31,7 @@ Build a custom REST API by configuring an endpoint, without writing PHP. It curr
 
 Adds a page-module-like field to your Datatype. This lets you add TYPO3 content elements inside a record, similar to how you add them to a page. It works well for content-heavy records, such as blog articles.
 
-![The Content field type in a TypoTonic record](./Images/field_content.jpg)
+![The Content field type in a TypoTonic record](Images/field_content.webp)
 
 *The Content field, showing content elements inside a record*
 
@@ -39,7 +39,7 @@ Adds a page-module-like field to your Datatype. This lets you add TYPO3 content 
 
 Combines all of a record's information into a single generated field. TypoTonic generates the content when the record is saved, and stores it for use in filters, search, custom record titles, and other places.
 
-![The Fluid field type in a TypoTonic record](./Images/field_fluid.jpg)
+![The Fluid field type in a TypoTonic record](Images/field_fluid.webp)
 
 *The Fluid field*
 
@@ -47,10 +47,10 @@ Combines all of a record's information into a single generated field. TypoTonic 
 
 Runs a custom PHP user function and stores its result in the field. You can pass your own parameters to the function through the field configuration.
 
-![The User field type in a TypoTonic record](./Images/field_user.jpg)
+![The User field type in a TypoTonic record](Images/field_user.webp)
 
 *The User field*
 
 <Note>
-TypoTonic Professional features and pricing are managed entirely by the vendor. For details, visit [www.typotonic.com](https://www.typotonic.com) or see the [FAQ](/ExtTypoTonic/FAQ/Index).
+TypoTonic Professional features and pricing are managed entirely by the vendor. For details, visit [www.typotonic.com](https://www.typotonic.com) or see the [FAQ](/en/latest/ExtTypoTonic/FAQ/Index).
 </Note>

@@ -17,7 +17,7 @@ sidebarTitle: "Configuration"
 - **Step 4:** Go to the Settings of your Disqus site.
 - **Step 5:** Switch to the General Settings tab. There you would find the short name for your website.
 
-![Get Shortname from Disqus.com](./images/shortname_from_disqus.jpeg)
+![Get Shortname from Disqus.com](images/shortname_from_disqus.webp)
 
 - **Step 6:** Set this Shortname at TYPO3 constant editor, Check below screenshot.
 

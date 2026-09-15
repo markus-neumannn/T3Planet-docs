@@ -23,6 +23,6 @@ To install and activate the premium version of T3AB:
 
 3. Activate your license using the official documentation:
 
-   [License documentation](/License/Index)
+   [License documentation](/en/latest/License/Index)
 
 After installation, the extension will be ready to use in your TYPO3 backend.

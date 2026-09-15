@@ -195,5 +195,5 @@ Open **T3AF → AI Access / Roles**, select a backend group, and configure the w
 
 ## Related documentation
 
-- [Extension Integration](/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
-- [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
+- [Extension Integration](/en/latest/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
+- [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index)

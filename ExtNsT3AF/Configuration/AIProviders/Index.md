@@ -108,7 +108,7 @@ Built-in and discovered adapters include:
 - Additional Symfony AI bridges when their Composer packages are installed
 (for example Azure, DeepSeek, xAI)
 
-Custom adapters: [Custom AI Providers](/ExtNsT3AF/DeveloperGuide/CustomProviders/Index#ns-t3af-custom-ai-providers).
+Custom adapters: [Custom AI Providers](/en/latest/ExtNsT3AF/DeveloperGuide/CustomProviders/Index#ns-t3af-custom-ai-providers).
 
 ## Capabilities
 
@@ -126,7 +126,7 @@ validate the choice.
 **Dev and live** — Separate rows with different API keys per environment.
 
 **Cost saving** — Cheap model as global default; premium model assigned in
-[AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index#ns-t3af-ai-features) for important tasks.
+[AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index#ns-t3af-ai-features) for important tasks.
 
 **EU hosting** — Mistral or Azure in an EU region for data residency
 requirements.
@@ -161,13 +161,13 @@ HTTPS/firewall rules.
 vision).
 
 **Module works but child extension fails** — Check
-[AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index#ns-t3af-ai-features) for per-task overrides.
+[AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index#ns-t3af-ai-features) for per-task overrides.
 
 ## Security
 
 - Rotate keys every 90 days
 - Use one key per environment (dev, staging, live)
-- Restrict access via [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index#ns-t3af-ai-permissions)
+- Restrict access via [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index#ns-t3af-ai-permissions)
 - Never commit API keys to Git
 
 ## Where to get API keys
@@ -180,5 +180,5 @@ vision).
 - Azure OpenAI: [https://portal.azure.com/](https://portal.azure.com/)
 </Note>
 
-More links: [Helpful Links](/ExtNsT3AF/HelpfulLinks/Index#ns-t3af-helpful-links)
+More links: [Helpful Links](/en/latest/ExtNsT3AF/HelpfulLinks/Index#ns-t3af-helpful-links)
 

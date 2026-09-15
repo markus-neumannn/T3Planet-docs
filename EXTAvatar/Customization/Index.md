@@ -9,7 +9,7 @@ keywords:
 sidebarTitle: "Customization"
 ---
 
-For all customization related details, please refer here : [https://docs.t3planet.de/en/latest/ExtThemes/Customization/Index.html](/ExtThemes/Customization/Index)
+For all customization related details, please refer here : [https://docs.t3planet.de/en/latest/ExtThemes/Customization/Index.html](/en/latest/ExtThemes/Customization/Index)
 
 ## Enable/Disable Google font API Link to complaints with GDPR
 

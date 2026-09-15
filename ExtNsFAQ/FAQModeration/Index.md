@@ -22,4 +22,4 @@ Admin can enable FAQ with 2 ways:
 
 **2. Enable from E-mail:** Admin will get email when visitor add FAQ. At the bottom of the email, there is one link from where admin can enable FAQ. When user click on that link, he/she will be redirected to FAQ page and upon reloading teh FAQ page, FAQ will be enabled.
 
-![Enable from E-mail](./images/enable_from_email.jpeg)
+![Enable from E-mail](images/enable_from_email.webp)

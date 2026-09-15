@@ -44,4 +44,4 @@ https://www.youtube.com/watch?v=_7ILu4lwU-k
 
 ## Figures
 
-![Install Extension](./images/install_extension3.png)
+![Install Extension](images/install_extension3.webp)

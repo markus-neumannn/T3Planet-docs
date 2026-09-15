@@ -16,7 +16,7 @@ T3AS provides controls that help administrators manage visitor search data and a
 T3AS allows administrators to control whether visitor search history is stored.
 
 The **Save search history** option is available under the AI Search configuration.
-For this setting, see [Save search history](/ExtNsT3AS/Configuration/Index#t3as-search-global-settings).
+For this setting, see [Save search history](/en/latest/ExtNsT3AS/Configuration/Index#t3as-search-global-settings).
 
 Follow these steps in the backend (see the demo below):
 
@@ -38,12 +38,12 @@ When disabled:
 This option can be used when your privacy requirements do not allow visitor search history to be stored.
 
 <Important>
-Disabling search history affects newly generated search and feedback data. Existing records are not automatically removed when this option is disabled. Use the history cleanup scheduler to remove previously stored records. See [History cleanup](/ExtNsT3AS/Configuration/Index#t3as-history-cleanup).
+Disabling search history affects newly generated search and feedback data. Existing records are not automatically removed when this option is disabled. Use the history cleanup scheduler to remove previously stored records. See [History cleanup](/en/latest/ExtNsT3AS/Configuration/Index#t3as-history-cleanup).
 </Important>
 
 Existing search history can be removed using the TYPO3 Scheduler cleanup task. The task is configurable. The default retention period is **90** days. The command is `t3af:history:cleanup`.
 
-For this task, see [History cleanup](/ExtNsT3AS/Configuration/Index#t3as-history-cleanup).
+For this task, see [History cleanup](/en/latest/ExtNsT3AS/Configuration/Index#t3as-history-cleanup).
 
 ## Data Processing Agreement (DPA) Considerations
 

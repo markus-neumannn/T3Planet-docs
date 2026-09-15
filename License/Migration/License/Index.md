@@ -24,7 +24,7 @@ Before you start the migration, we recommend taking a backup (code & database) o
 ## Get Your License Key
 
 - We have already sent your license keys of your purchased TYPO3 products at your email address.
-- Here is the sample license email [documentation](/License/Introduction/Index#sample-license-email)
+- Here is the sample license email [documentation](/en/latest/License/Introduction/Index#sample-license-email)
 - In case, if you did not such “license email”, please submit support ticket and our executive will get back to you asap https://t3planet.de/support
 
 ## Migration on Normal TYPO3 Instance
@@ -37,7 +37,7 @@ Go to Admin Tools > Extensions > Deactivate Extension
 From Extension Manager > Delete Extension
   </Step>
   <Step title="Step 4">
-Follow step-by-step guide installation guide at [documentation](/License/LicenseActivation/Index#install-via-extension-manager)
+Follow step-by-step guide installation guide at [documentation](/en/latest/License/LicenseActivation/Index#install-via-extension-manager)
   </Step>
   <Step title="Step 1">
 Go to Admin Tools > Extensions > Deactivate Extension
@@ -55,7 +55,7 @@ composer clear-cache
 Manually remove folder from `rm -rf typo3conf/ext/extension_key`
   </Step>
   <Step title="Step 4">
-Follow step-by-step guide composer based installation guide at [documentation](/License/LicenseActivation/Index#install-via-composer)
+Follow step-by-step guide composer based installation guide at [documentation](/en/latest/License/LicenseActivation/Index#install-via-composer)
   </Step>
 </Steps>
 
@@ -77,4 +77,4 @@ composer clear-cache
 
 **Step 3.** Manually remove folder from rm -rf typo3conf/ext/extension_key
 
-**Step 4.** Follow step-by-step guide composer based installation guide at [https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html#install-via-composer](/License/LicenseActivation/Index#install-via-composer)
+**Step 4.** Follow step-by-step guide composer based installation guide at [https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html#install-via-composer](/en/latest/License/LicenseActivation/Index#install-via-composer)

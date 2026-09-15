@@ -42,13 +42,13 @@ Link a record with the `t:link.record` ViewHelper:
 <t:link.record record="{record}" pageUid="{detailPid}" additionalParams="{paramOne:'One'}">{record.title}</t:link.record>
 ```
 
-See [ViewHelpers](/ExtTypoTonic/ViewHelpers/Index) for all available ViewHelpers.
+See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index) for all available ViewHelpers.
 
 ### Record Storage Page
 
 Select the page where the records for this Datatype are stored.
 
-![Selecting the Record Storage Page in the Display Records plugin](./Images/record_storage_page.jpg)
+![Selecting the Record Storage Page in the Display Records plugin](Images/record_storage_page.webp)
 
 *Selecting a Record Storage Page*
 
@@ -58,7 +58,7 @@ Select the page where the records for this Datatype are stored.
 - **Filter Condition** — Build a filter to control which records are shown. Filters modify the underlying database query.
 - **Condition for activating the filter (Fluid)** — A Fluid condition that decides when the filter is active. Leave it empty to always activate the filter.
 
-![Example of a Field/Value Filter configuration](./Images/filters.jpg)
+![Example of a Field/Value Filter configuration](Images/filters.webp)
 
 *Example filter configuration*
 
@@ -68,7 +68,7 @@ Select the page where the records for this Datatype are stored.
 - **Sorting** — Configure one or more sort orders. Each sorting can be activated through a variable, for example a GET parameter, so you can offer several sort options on the same page.
 - **Condition for activating the filter (Fluid)** — Same as above, a Fluid condition that decides when this sorting is active.
 
-![Example sorting configuration using a GET parameter](./Images/sorting.jpg)
+![Example sorting configuration using a GET parameter](Images/sorting.webp)
 
 *Example: sorting that changes direction based on a `?argument=title-down` parameter*
 
@@ -79,7 +79,7 @@ Select the page where the records for this Datatype are stored.
   - **Debug Template** — Shows debug information. This is the default.
   - **Select a custom template path** — Choose a Fluid file from your file system.
   - **Enter custom fluid code** — Write Fluid code directly in the plugin.
-  - **Your configured template** — Shows any templates you predefined in TypoScript. See [Templating](/ExtTypoTonic/GettingStarted/Templating/Index).
+  - **Your configured template** — Shows any templates you predefined in TypoScript. See [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index).
 
 - **Render this Template without Sitetemplate** — Shows only this plugin's output, without the rest of the page template.
 - **Template Switch** — Use a different template when a Fluid condition matches, instead of the template selected above.

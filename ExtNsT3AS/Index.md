@@ -21,12 +21,12 @@ sidebarTitle: "AI Search"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/ExtNsT3AS/Introduction/Index" />
-  <Card title="Screenshots" icon="image" href="/ExtNsT3AS/Screenshots/Index" />
-  <Card title="Installation" icon="download" href="/ExtNsT3AS/Installation/Index" />
-  <Card title="Configuration" icon="settings" href="/ExtNsT3AS/Configuration/Index" />
-  <Card title="Reinstall After Upgrade" icon="wrench" href="/ExtNsT3AS/ReInstallEverything/Index" />
-  <Card title="Basic Authentication" icon="lock" href="/ExtNsT3AS/BasicAuthentication/Index" />
+  <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsT3AS/Introduction/Index" />
+  <Card title="Screenshots" icon="image" href="/en/latest/ExtNsT3AS/Screenshots/Index" />
+  <Card title="Installation" icon="download" href="/en/latest/ExtNsT3AS/Installation/Index" />
+  <Card title="Configuration" icon="settings" href="/en/latest/ExtNsT3AS/Configuration/Index" />
+  <Card title="Reinstall After Upgrade" icon="wrench" href="/en/latest/ExtNsT3AS/ReInstallEverything/Index" />
+  <Card title="Basic Authentication" icon="lock" href="/en/latest/ExtNsT3AS/BasicAuthentication/Index" />
   </CardGroup>
 </section>
 
@@ -34,11 +34,11 @@ sidebarTitle: "AI Search"
   <p className="t3-landing-eyebrow">Features</p>
   <h2 className="t3-landing-section-title">Search & indexing</h2>
   <CardGroup cols={2}>
-  <Card title="Frontend Plugin" icon="search" href="/ExtNsT3AS/FrontendPlugin/Index" />
-  <Card title="Verify Indexed Data" icon="database" href="/ExtNsT3AS/VerifyIndexedData/Index" />
-  <Card title="Database Chunking" icon="boxes" href="/ExtNsT3AS/DatabaseChunking/Index" />
-  <Card title="Performance Configuration" icon="gauge" href="/ExtNsT3AS/PerformanceConfiguration/Index" />
-  <Card title="Hosting Policy" icon="server" href="/ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index" />
+  <Card title="Frontend Plugin" icon="search" href="/en/latest/ExtNsT3AS/FrontendPlugin/Index" />
+  <Card title="Verify Indexed Data" icon="database" href="/en/latest/ExtNsT3AS/VerifyIndexedData/Index" />
+  <Card title="Database Chunking" icon="boxes" href="/en/latest/ExtNsT3AS/DatabaseChunking/Index" />
+  <Card title="Performance Configuration" icon="gauge" href="/en/latest/ExtNsT3AS/PerformanceConfiguration/Index" />
+  <Card title="Hosting Policy" icon="server" href="/en/latest/ExtNsT3AS/T3ASHostingPolicyforCustomLLM/Index" />
   </CardGroup>
 </section>
 
@@ -46,11 +46,11 @@ sidebarTitle: "AI Search"
   <p className="t3-landing-eyebrow">Advanced</p>
   <h2 className="t3-landing-section-title">Custom LLM & upgrades</h2>
   <CardGroup cols={2}>
-  <Card title="Custom LLM Support" icon="cpu" href="/ExtNsT3AS/CustomLLMSupport/Index" />
-  <Card title="Prerequisites & SOW" icon="clipboard-list" href="/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index" />
-  <Card title="Custom LLM Hosting" icon="server" href="/ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index" />
-  <Card title="Update Guide" icon="arrow-up" href="/ExtNsT3AS/UpdateGuide/Index" />
-  <Card title="Update Version" icon="refresh-cw" href="/ExtNsT3AS/UpdateVersion/Index" />
+  <Card title="Custom LLM Support" icon="cpu" href="/en/latest/ExtNsT3AS/CustomLLMSupport/Index" />
+  <Card title="Prerequisites & SOW" icon="clipboard-list" href="/en/latest/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index" />
+  <Card title="Custom LLM Hosting" icon="server" href="/en/latest/ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index" />
+  <Card title="Update Guide" icon="arrow-up" href="/en/latest/ExtNsT3AS/UpdateGuide/Index" />
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsT3AS/UpdateVersion/Index" />
   </CardGroup>
 </section>
 
@@ -58,11 +58,11 @@ sidebarTitle: "AI Search"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AS/DPAandGDPR/Index" />
-  <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AS/KnownProblems/Index" />
-  <Card title="Support" icon="life-buoy" href="/ExtNsT3AS/Support" />
-  <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AS/BuyNow" />
-  <Card title="T3AF" icon="layers" href="/ExtNsT3AF/Index" />
+  <Card title="DPA & GDPR" icon="shield" href="/en/latest/ExtNsT3AS/DPAandGDPR/Index" />
+  <Card title="Known Problems" icon="triangle-alert" href="/en/latest/ExtNsT3AS/KnownProblems/Index" />
+  <Card title="Support" icon="life-buoy" href="/en/latest/ExtNsT3AS/Support" />
+  <Card title="Get Extension" icon="shopping-cart" href="/en/latest/ExtNsT3AS/BuyNow" />
+  <Card title="T3AF" icon="layers" href="/en/latest/ExtNsT3AF/Index" />
   </CardGroup>
 </section>
 

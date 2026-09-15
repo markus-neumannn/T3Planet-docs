@@ -18,7 +18,7 @@ Before starting the reinstallation process, ensure that you review and complete 
 
 Skipping or changing the sequence of these steps may result in configuration issues, missing functionality, or data inconsistencies.
 
-If you are performing a fresh installation or upgrade extension, please follow the instructions in the [Installation](/ExtNsT3AI/Installation/Index) section.
+If you are performing a fresh installation or upgrade extension, please follow the instructions in the [Installation](/en/latest/ExtNsT3AI/Installation/Index) section.
 </Info>
 
 ## Overview
@@ -51,9 +51,9 @@ Before you update, make sure you:
 
 Review these pages before you start:
 
-- [T3AF Installation](/ExtNsT3AF/Installation/Index)
-- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 
 ## Migration Steps
 
@@ -82,8 +82,8 @@ After the update, confirm that:
 - Run one page or content generation test
 - Test one SEO action if your project uses SEO automation
 - Test one translation or media action if those modules are in use
-- Review [AI Logs](/ExtNsT3AI/AISettings/Index) for failures
-- Re-check [AI Prompts](/ExtNsT3AI/Prompts/Index) if the wording changed after migration
+- Review [AI Logs](/en/latest/ExtNsT3AI/AISettings/Index) for failures
+- Re-check [AI Prompts](/en/latest/ExtNsT3AI/Prompts/Index) if the wording changed after migration
 
 ## Common Migration Issues
 
@@ -94,8 +94,8 @@ After the update, confirm that:
 
 ## Related Documentation
 
-- [Installation](/ExtNsT3AI/Installation/Index)
-- [System Requirements](/ExtNsT3AI/SystemRequirements/Index)
-- [Upgrade Guide](/ExtNsT3AI/UpgradeGuide/Index)
-- [T3AF Installation](/ExtNsT3AF/Installation/Index)
-- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
+- [Installation](/en/latest/ExtNsT3AI/Installation/Index)
+- [System Requirements](/en/latest/ExtNsT3AI/SystemRequirements/Index)
+- [Upgrade Guide](/en/latest/ExtNsT3AI/UpgradeGuide/Index)
+- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)

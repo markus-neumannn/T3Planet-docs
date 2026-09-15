@@ -26,7 +26,7 @@ sidebarTitle: "Configuration"
 
 4. Create *Storage Folder* for this plugin.
 
-![Configuration 4](./images/create_gallery.jpeg)
+![Configuration 4](images/create_gallery.webp)
 
 5. Add those plugins in to page where you want to use these sliders. And configure it as per your requirement. Also add *Storage Folder* where your slider images are stored.
 

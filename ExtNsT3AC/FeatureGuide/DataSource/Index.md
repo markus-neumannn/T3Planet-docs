@@ -59,7 +59,7 @@ Administrators can:
 - edit Source Groups
 - delete Source Groups
 
-![Manage source groups dialog](images/manage-source-groups.png)
+![Manage source groups dialog](images/manage-source-groups.webp)
 
 Create, edit, or delete Source Groups. The **Global** group is a system default and cannot be changed.
 
@@ -91,7 +91,7 @@ This setting controls where the data source can be used after retrieval starts.
 4. Find the **Source groups** field.
 5. Select the Source Groups that should be available on that page.
 
-![Page-level Source groups in page properties](images/page-level-source-groups.png)
+![Page-level Source groups in page properties](images/page-level-source-groups.webp)
 
 Choose Source Groups under **Page Properties → AI Search** so AI Search and AI Chatbot use only those sources on that page.
 
@@ -123,7 +123,7 @@ If no custom Source Groups are selected, the **Global** Source Group remains ava
 
 These options help you keep repeated layout content out of the main page body while still making shared site information available to chatbot and search retrieval.
 
-![Index site header and Index site footer options in Add Source](images/header-footer-index.png)
+![Index site header and Index site footer options in Add Source](images/header-footer-index.webp)
 
 Enable **Index site header** and **Index site footer** when adding or editing a Sitemap XML or Web Pages data source.
 
@@ -277,11 +277,11 @@ ddev typo3 nst3af:training <rootPageId> --cleanup-only
 
 Legacy non-Composer installs may use `scheduler:execute` instead of `scheduler:run`; see [TYPO3 Scheduler CLI documentation](https://docs.typo3.org/c/typo3/cms-scheduler/13.4/en-us/Administration/ConsoleTools/Running.html).
 
-![Example command-line output for TYPO3 scheduler task run](images/CLI01.png)
+![Example command-line output for TYPO3 scheduler task run](images/CLI01.webp)
 
 Example of scheduler task output in the terminal.
 
-![Example command-line output showing queue processing and training completion](images/CLI02.png)
+![Example command-line output showing queue processing and training completion](images/CLI02.webp)
 
 Example showing queue processing and training completion summary.
 
@@ -328,7 +328,7 @@ ddev typo3 t3af:history:cleanup 90
 
 The first command uses the default of **90** days. Setting `days` to `3` deletes usage history older than 3 days (CLI: `t3af:history:cleanup 3`).
 
-![Scheduler task t3af:history:cleanup with days argument set to 3](./Images/t3af-history-cleanup.png)
+![Scheduler task t3af:history:cleanup with days argument set to 3](Images/t3af-history-cleanup.webp)
 
 *Configure **days** on the `t3af:history:cleanup` scheduler task. Default retention is 90 days when the argument is omitted.*
 

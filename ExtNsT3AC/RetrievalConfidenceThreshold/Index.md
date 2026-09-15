@@ -17,7 +17,7 @@ reliable enough for RAG (retrieval-augmented generation).
 It replaces a former hard-coded value (`0.62`) with a configurable option in
 **AI Foundation → AI Features → Training**.
 
-![Retrieval confidence threshold in AI Foundation Training settings for T3AC](images/retrieval-confidence-threshold.jpg)
+![Retrieval confidence threshold in AI Foundation Training settings for T3AC](images/retrieval-confidence-threshold.webp)
 
 Set **Retrieval confidence threshold** under **AI Foundation → AI Features →
 Training** (Embeddings pipeline — `ns_t3ac`).

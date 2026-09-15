@@ -87,7 +87,7 @@ Get your service ID from: https://webspellchecker.com/wsc-proofreader/
 For Source URL, use a CDN or your custom path.
 Example: https://svc.webspellchecker.net/spellcheck31/wscbundle/wscbundle.js
 
-![Spell and Grammar Check Style Source CSP Violation](./images/spellcheck.png)
+![Spell and Grammar Check Style Source CSP Violation](images/spellcheck.webp)
 
 ## Version
 

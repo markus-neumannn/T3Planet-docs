@@ -20,7 +20,7 @@ When Credits is active, billable AI requests go to T3Planet. T3Planet runs the A
 On **AI Providers** choose **Your Own API Keys** or **T3Planet Credits**.
 </Note>
 
-![AI Foundation Dashboard in T3Planet Credits mode with balance, credit burn, and spend by extension](images/t3planet-credits-dashboard.png)
+![AI Foundation Dashboard in T3Planet Credits mode with balance, credit burn, and spend by extension](images/t3planet-credits-dashboard.webp)
 
 *Dashboard — **T3Planet Credits** mode with remaining balance, credit burn over time, and spend by extension.*
 

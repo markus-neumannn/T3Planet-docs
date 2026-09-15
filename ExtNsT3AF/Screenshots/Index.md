@@ -15,7 +15,7 @@ sidebarTitle: "Screenshots"
 
 Shows provider status, credits balance, recent usage, and quick actions. Use this screen for a daily health check.
 
-See [Dashboard](/ExtNsT3AF/Dashboard/Index) for what each widget means.
+See [Dashboard](/en/latest/ExtNsT3AF/Dashboard/Index) for what each widget means.
 
 ## AI Providers
 
@@ -23,7 +23,7 @@ See [Dashboard](/ExtNsT3AF/Dashboard/Index) for what each widget means.
 
 List view plus drawer for API key, model, **Test connection**, default toggle, and credits toggle.
 
-See [AI Providers](/ExtNsT3AF/AIProviders/Index).
+See [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index).
 
 ## MCP Server
 
@@ -31,7 +31,7 @@ See [AI Providers](/ExtNsT3AF/AIProviders/Index).
 
 Server status, workspace selector, MCP mode, and Connect / Security / Analytics tabs.
 
-See [MCP Server](/ExtNsT3AF/MCPServer/Index).
+See [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
 
 ## MCP Tools
 
@@ -39,10 +39,10 @@ See [MCP Server](/ExtNsT3AF/MCPServer/Index).
 
 Tool catalog, playground, and extension cards (when child extensions are installed).
 
-See [MCP Tools](/ExtNsT3AF/MCPTools/Index).
+See [MCP Tools](/en/latest/ExtNsT3AF/MCPTools/Index).
 
 ## When to use this page
 
 - Onboarding new admins — show where each menu item lives
-- Internal training — pair screenshots with [Video Tutorials](/ExtNsT3AF/VideoTutorials/Index)
+- Internal training — pair screenshots with [Video Tutorials](/en/latest/ExtNsT3AF/VideoTutorials/Index)
 - Support tickets — ask users to attach a screenshot of the screen they see

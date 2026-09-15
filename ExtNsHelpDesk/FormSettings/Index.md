@@ -11,8 +11,8 @@ sidebarTitle: "Form Settings"
 
 
 Configure the ticket form in the **Constant Editor**. Include the Helpdesk
-TypoScript first. See [Include TypoScript](/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript)
-and [Constant Editor](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
+TypoScript first. See [Include TypoScript](/en/latest/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript)
+and [Constant Editor](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
 
 **Step 1.** Open the **TypoScript** module and select the root page.
 
@@ -39,7 +39,7 @@ You can control, among others:
 Frontend look of the ticket creation form.
 </Note>
 
-![ns-helpdesk-typo3-form-fe](./Images/ns-helpdesk-typo3-form-fe.jpeg)
+![ns-helpdesk-typo3-form-fe](Images/ns-helpdesk-typo3-form-fe.webp)
 
 ## Popup Form Settings
 
@@ -51,4 +51,4 @@ Set popup appearance, layout, title, and color, then save.
 Frontend look of the popup support form.
 </Note>
 
-![ns-helpdesk-typo3-popup-form-fe](./Images/ns-helpdesk-typo3-popup-form-fe.jpeg)
+![ns-helpdesk-typo3-popup-form-fe](Images/ns-helpdesk-typo3-popup-form-fe.webp)

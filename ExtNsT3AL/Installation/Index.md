@@ -18,7 +18,7 @@ Installing the T3AL—TYPO3 Extension is easy. Follow the steps below to add the
 ______________________________________________________________________
 
 To activate the license and install this premium TYPO3 product, please refer to the documentation:
-[License documentation](/License/Index)
+[License documentation](/en/latest/License/Index)
 
 **Step 1:** Go to Extension modules
 

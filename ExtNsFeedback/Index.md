@@ -10,12 +10,12 @@ sidebarTitle: "Feedback"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsFeedback/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsFeedback/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsFeedback/UpdateVersion/Index" />
-  <Card title="NS Feedback Backend Modules" href="/ExtNsFeedback/NSFeedbackModules/Index" />
-  <Card title="How to set Feedback Form for entire site?" href="/ExtNsFeedback/SetFeedbackFormForEntireSite/Index" />
-  <Card title="How to set Feedback Form on individual page?" href="/ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index" />
-  <Card title="Help & Support" href="/ExtNsFeedback/Support" />
-  <Card title="Get This Extension" href="/ExtNsFeedback/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsFeedback/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsFeedback/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsFeedback/UpdateVersion/Index" />
+  <Card title="NS Feedback Backend Modules" href="/en/latest/ExtNsFeedback/NSFeedbackModules/Index" />
+  <Card title="How to set Feedback Form for entire site?" href="/en/latest/ExtNsFeedback/SetFeedbackFormForEntireSite/Index" />
+  <Card title="How to set Feedback Form on individual page?" href="/en/latest/ExtNsFeedback/SetFeedbackFormOnIndividualPage/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsFeedback/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsFeedback/BuyNow" />
 </CardGroup>

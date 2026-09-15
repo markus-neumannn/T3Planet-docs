@@ -207,5 +207,5 @@ Open T3AF > AI Permissions, select a backend group, and configure the wizard ste
 
 ## Related documentation
 
-- [Extension Integration](/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
-- [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
+- [Extension Integration](/en/latest/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
+- [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index)

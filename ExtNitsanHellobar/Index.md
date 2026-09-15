@@ -10,10 +10,10 @@ sidebarTitle: "Hellobar"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNitsanHellobar/Introduction/Index" />
-  <Card title="Installation" href="/ExtNitsanHellobar/Installation/Index" />
-  <Card title="Update Version" href="/ExtNitsanHellobar/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNitsanHellobar/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNitsanHellobar/Support" />
-  <Card title="Get this Extension" href="/ExtNitsanHellobar/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNitsanHellobar/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNitsanHellobar/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNitsanHellobar/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNitsanHellobar/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNitsanHellobar/Support" />
+  <Card title="Get this Extension" href="/en/latest/ExtNitsanHellobar/BuyNow" />
 </CardGroup>

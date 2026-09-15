@@ -10,10 +10,10 @@ sidebarTitle: "News Slider"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsNewsSlider/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsNewsSlider/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsNewsSlider/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsNewsSlider/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsNewsSlider/Support" />
-  <Card title="Get This Extension" href="/ExtNsNewsSlider/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsNewsSlider/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsNewsSlider/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsNewsSlider/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsNewsSlider/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsNewsSlider/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsNewsSlider/BuyNow" />
 </CardGroup>

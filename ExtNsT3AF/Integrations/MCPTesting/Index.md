@@ -428,8 +428,8 @@ Input: `{ "pid": 1, "limit": 5 }` Expect: Array of `tt_content` rows for that pa
 **Workspace testing**
 Select a non-live workspace in the module dropdown before issuing tokens. Repeat `content_list` / `pages_get` — draft overlays should differ from live.
 
-See [MCP Tools](/ExtNsT3AF/Integrations/MCPTools/Index#ns-t3af-mcp-tools) for the full Core catalog and
-[MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index#ns-t3af-mcp-server) for connection details.
+See [MCP Tools](/en/latest/ExtNsT3AF/Integrations/MCPTools/Index#ns-t3af-mcp-tools) for the full Core catalog and
+[MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index#ns-t3af-mcp-server) for connection details.
 
 ## Step 5 — Active OAuth Tokens table
 
@@ -512,7 +512,7 @@ Plaintext is only shown at issuance. Revoke and re-create, or use OAuth flow.
 2. Remove MCP entries from `claude_desktop_config.json` / `.cursor/mcp.json`.
 3. Optional maintenance: ddev exec vendor/bin/typo3 nst3af:mcp:cleanup
 
-See also [Configuration](/ExtNsT3AF/Configuration/Index#ns-t3af-configuration) and [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index#ns-t3af-mcp-server).
+See also [Configuration](/en/latest/ExtNsT3AF/Configuration/Index#ns-t3af-configuration) and [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index#ns-t3af-mcp-server).
 
 ## Additional examples from live documentation
 

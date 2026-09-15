@@ -11,7 +11,7 @@ sidebarTitle: "T3AC - TYPO3 AI Chatbot Extension"
 
 ## EXT:ns_t3ac
 
-![Extension Banner](./images/AC.jpg)
+![Extension Banner](images/AC.webp)
 
 T3AC adds an AI-powered chatbot to TYPO3 so teams can answer user questions with trained project data.
 It supports chatbot configuration, training, data sources, usage tracking, and embedded chatbot delivery for supported websites.
@@ -20,9 +20,9 @@ T3AC now works as a child extension of T3AF (`ns_t3af`), which provides the shar
 
 For the shared setup, see:
 
-- [T3AF Installation](/ExtNsT3AF/Installation/Index)
-- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
-- [T3AF System Requirements](/ExtNsT3AF/Installation/Index#ns-t3af-system-requirements)
+- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
+- [T3AF System Requirements](/en/latest/ExtNsT3AF/Installation/Index#ns-t3af-system-requirements)
 
 ### System Requirements
 

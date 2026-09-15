@@ -28,7 +28,7 @@ Shows:
 
 **Use for:** budget control, team planning, anomaly detection.
 
-Compare usage trends with credit balance on the [Dashboard](/ExtNsT3AF/Dashboard/Index).
+Compare usage trends with credit balance on the [Dashboard](/en/latest/ExtNsT3AF/Dashboard/Index).
 
 ## AI Logs
 
@@ -56,27 +56,27 @@ Ensure **scheduler cron** runs every minute on production.
 
 ## OpenAI org statistics (optional)
 
-Set `openai_admin_api_key` in Extension Configuration for organization-level usage charts. This is **not** the chat API key. See [Configuration](/ExtNsT3AF/Configuration/Index).
+Set `openai_admin_api_key` in Extension Configuration for organization-level usage charts. This is **not** the chat API key. See [Configuration](/en/latest/ExtNsT3AF/Configuration/Index).
 
 ## Privacy
 
-Log detail depends on [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) privacy level. Configure for GDPR needs before enabling **Full** logging.
+Log detail depends on [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index) privacy level. Configure for GDPR needs before enabling **Full** logging.
 
 ## Weekly admin habit
 
 1. Open AI Usage → check trend vs last week
 2. Compare to T3Planet Credits balance if applicable
 3. Scan AI Logs for repeated failures (same user, same feature)
-4. Escalate persistent errors to [Support](/ExtNsT3AF/Support/Index) with log details
+4. Escalate persistent errors to [Support](/en/latest/ExtNsT3AF/Support/Index) with log details
 
 ## When logs show high usage
 
-- Check [AI Features](/ExtNsT3AF/AIFeatures/Index) — bulk tasks may need a cheaper model
-- Review [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) budgets and rate limits
+- Check [AI Features](/en/latest/ExtNsT3AF/AIFeatures/Index) — bulk tasks may need a cheaper model
+- Review [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index) budgets and rate limits
 - Ask editors if a script or loop triggered many requests
 
 ## When logs show failures
 
-- Run Test connection in [AI Providers](/ExtNsT3AF/AIProviders/Index)
+- Run Test connection in [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index)
 - Check vendor status and rate limits
-- See [Known Problems](/ExtNsT3AF/KnownProblems/Index) and [FAQ](/ExtNsT3AF/FAQ/Index)
+- See [Known Problems](/en/latest/ExtNsT3AF/KnownProblems/Index) and [FAQ](/en/latest/ExtNsT3AF/FAQ/Index)

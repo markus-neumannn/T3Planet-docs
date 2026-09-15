@@ -34,4 +34,4 @@ Do you want to make your site temporary offline like coming soon and maintenance
 
 ## EXT:nitsan_maintenance
 
-![Extension ns maintenance mode banner](images/ns-maintenance-mode.jpg)
+![Extension ns maintenance mode banner](images/ns-maintenance-mode.webp)

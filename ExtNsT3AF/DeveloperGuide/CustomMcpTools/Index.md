@@ -98,9 +98,9 @@ Cursor, Claude Desktop, MCP Inspector, and other MCP clients connect through the
 
 Use:
 
-- [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index) for transport and client connection setup.
-- [MCP Server — Testing guide](/ExtNsT3AF/Integrations/MCPTesting/Index) for Cursor and Claude Desktop validation.
-- [MCP Tools](/ExtNsT3AF/Integrations/MCPTools/Index) for backend tool browsing and playground testing.
+- [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index) for transport and client connection setup.
+- [MCP Server — Testing guide](/en/latest/ExtNsT3AF/Integrations/MCPTesting/Index) for Cursor and Claude Desktop validation.
+- [MCP Tools](/en/latest/ExtNsT3AF/Integrations/MCPTools/Index) for backend tool browsing and playground testing.
 
 ## Backend MCP Tools card
 
@@ -143,7 +143,7 @@ Use stable tool names such as `myext_action_name`. This keeps tools predictable 
 
 ## Related documentation
 
-- [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index)
-- [MCP Tools](/ExtNsT3AF/Integrations/MCPTools/Index)
-- [MCP Server — Testing guide](/ExtNsT3AF/Integrations/MCPTesting/Index)
-- [Extension Integration](/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)
+- [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index)
+- [MCP Tools](/en/latest/ExtNsT3AF/Integrations/MCPTools/Index)
+- [MCP Server — Testing guide](/en/latest/ExtNsT3AF/Integrations/MCPTesting/Index)
+- [Extension Integration](/en/latest/ExtNsT3AF/DeveloperGuide/ExtensionIntegration/Index)

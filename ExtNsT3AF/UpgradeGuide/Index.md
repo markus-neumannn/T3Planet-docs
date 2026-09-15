@@ -34,7 +34,7 @@ If you upgrade from v1 with API keys in Extension Configuration:
 vendor/bin/typo3 upgrade:run ns_t3afMigrateExtConfProviders
 ```
 
-This moves legacy API keys into the AI Providers table. Then verify providers in [AI Providers](/ExtNsT3AF/AIProviders/Index).
+This moves legacy API keys into the AI Providers table. Then verify providers in [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index).
 
 ## Post-upgrade checklist
 
@@ -64,7 +64,7 @@ Always after `composer update nitsan/ns-t3af`. TYPO3 may register new database f
 If MCP was enabled before upgrade:
 
 1. Flush all caches
-2. Re-run health check from [MCP Server](/ExtNsT3AF/MCPServer/Index)
+2. Re-run health check from [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index)
 3. Re-authorize OAuth clients if token lifetime changed
 
-See also [Update Version](/ExtNsT3AF/UpdateVersion/Index) for routine updates.
+See also [Update Version](/en/latest/ExtNsT3AF/UpdateVersion/Index) for routine updates.

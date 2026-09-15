@@ -10,10 +10,10 @@ sidebarTitle: "Timeline"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsTimeLine/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsTimeLine/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsTimeLine/UpdateVersion/Index" />
-  <Card title="Extension Configurations" href="/ExtNsTimeLine/ExtensionConfigurations/Index" />
-  <Card title="Help & Support" href="/ExtNsTimeLine/Support" />
-  <Card title="Get This Extension" href="/ExtNsTimeLine/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsTimeLine/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsTimeLine/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsTimeLine/UpdateVersion/Index" />
+  <Card title="Extension Configurations" href="/en/latest/ExtNsTimeLine/ExtensionConfigurations/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsTimeLine/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsTimeLine/BuyNow" />
 </CardGroup>

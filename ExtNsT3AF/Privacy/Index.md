@@ -37,5 +37,5 @@ Ensure your site's privacy policy mentions third-party AI processing when credit
 When using your own API keys, request log detail is controlled by governance privacy levels
 (`standard`, `reduced`, and `none`) on provider records and by UserTSconfig
 `nst3af.privacyLevel`. Per-user budgets use `nst3af.budget.*` keys (for example
-`nst3af.budget.maxCost` and `nst3af.budget.maxTokens`). See [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
+`nst3af.budget.maxCost` and `nst3af.budget.maxTokens`). See [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index)
 documentation for full details.

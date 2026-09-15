@@ -11,7 +11,7 @@ sidebarTitle: "Update Guide"
 
 To update the **T3AB Premium** extension, please follow the official update documentation:
 
-[License Update Version](/License/UpdateVersion/Index)
+[License Update Version](/en/latest/License/UpdateVersion/Index)
 
 <Note>
 

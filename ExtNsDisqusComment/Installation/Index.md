@@ -32,7 +32,7 @@ Step 3. Get it from the Extension Manager: Press the “Retrieve/Update” butto
 
 Step 4. Get it from typo3.org: You can always get the current version from https://extensions.typo3.org/extension/ns_disqus_comments/ by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![Install Extension](./images/install_extension.jpeg)
+![Install Extension](images/install_extension.webp)
 
 ## 2. Activate the TypoScript
 
@@ -60,6 +60,6 @@ https://www.youtube.com/watch?v=_7ILu4lwU-k
 
 ## Figures
 
-![Install Extension](./images/install_extension4.jpeg)
+![Install Extension](images/install_extension4.webp)
 
-![Activate Typoscript](./images/activate_typoscript8.jpeg)
+![Activate Typoscript](images/activate_typoscript8.webp)

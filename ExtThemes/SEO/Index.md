@@ -32,7 +32,7 @@ For example: https://www.domain.com/robots.txt
 
 Set Meta Description and Tags of any page from Metadata tab in page properties. Check below screenshot.
 
-![Set metadata](./images/metadata.jpeg)
+![Set metadata](images/metadata.webp)
 
 ## 4. Setup OG tags for Social Media
 
@@ -52,8 +52,8 @@ We have already take care during installation of Template but, Please make sure 
 
 ## Figures
 
-![Set metadata](./images/metadata1.jpeg)
+![Set metadata](images/metadata1.webp)
 
-![Set Social media](./images/social_media1.jpeg)
+![Set Social media](images/social_media1.webp)
 
-![404 Page](./images/4041.jpeg)
+![404 Page](images/4041.webp)

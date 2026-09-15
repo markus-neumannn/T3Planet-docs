@@ -21,7 +21,7 @@ To import Google Doc to TYPO3 Page/Blog/NEWS, perform following steps:
 3. Select the Google Doc to import. You can use searchbox at top-right to find the correct Google Doc.
 4. Click on Import Now button. It will open following pop-up
 
-![Import Google Doc popup](./images/import_pop-up.jpeg)
+![Import Google Doc popup](images/import_pop-up.webp)
 
 5. Select the Content Column from drop-down. This drop-down will list all the columns available in selected TYPO3 page and Google Doc content will be imported in this column. If you have selected News folder then it will ask you to confirm to import doc to News record.
 6. If you want to override existing content elements of selected column before importing Google Doc, check the checkbox. If it is not checked then it will append new Content elements created from Google import.

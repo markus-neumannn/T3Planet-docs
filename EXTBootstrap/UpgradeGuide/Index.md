@@ -55,7 +55,7 @@ That's it! All the grids are migrated (structure and data) from EXT.gridelements
 
 ## Figures
 
-![typo3_dumpautoload](./images/typo3_dumpautoload1.jpeg)
+![typo3_dumpautoload](images/typo3_dumpautoload1.webp)
 
 ![typo3_upgrade_wizard](images/typo3_upgrade_wizard1.webp)
 

@@ -10,7 +10,7 @@ sidebarTitle: "Update Guide"
 ---
 
 To update the **T3AI Premium** extension, please follow the official update documentation before upgrading your installation:
-[https://docs.t3planet.de/en/latest/License/UpdateVersion/Index.html](/License/UpdateVersion/Index)
+[https://docs.t3planet.de/en/latest/License/UpdateVersion/Index.html](/en/latest/License/UpdateVersion/Index)
 
 <Info>
 **Migration Steps**
@@ -44,7 +44,7 @@ Install the latest T3AI package and update dependencies. Confirm that T3AF (`EXT
 Download / TER page: [https://extensions.typo3.org/extension/ns_t3af](https://extensions.typo3.org/extension/ns_t3af)
 
 Full details:
-[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/License/LicenseActivation/Index)
+[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/en/latest/License/LicenseActivation/Index)
 
 **Step 4 — Run the Database Analyzer**
 
@@ -57,7 +57,7 @@ Install and configure `EXT:ns_t3af` first. Then configure the AI Provider from T
 **Step 6 — Complete T3AI setup**
 
 Follow the T3AI documentation for the full setup:
-[https://docs.t3planet.de/en/latest/ExtNsT3AI/Index.html](/ExtNsT3AI/Index)
+[https://docs.t3planet.de/en/latest/ExtNsT3AI/Index.html](/en/latest/ExtNsT3AI/Index)
 </Info>
 
 <Note>

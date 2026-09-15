@@ -14,18 +14,18 @@ Fields are the building blocks of a Datatype. Create every field you need before
 
 Open the **List** module, click **Create new record**, and select **Field** under the **tonic** section.
 
-![Creating a new Field record in the TYPO3 list module](./Images/new_field.jpg)
+![Creating a new Field record in the TYPO3 list module](Images/new_field.webp)
 
 *Creating a new Field record*
 
 ## Tab: General
 
-![Selecting the field type](./Images/type_selection.jpg)
+![Selecting the field type](Images/type_selection.webp)
 
 - **Type** — The type of the field, for example text, number, or select. This determines which further options are available.
 - **Field Configuration** — The configuration options for the chosen type. See the Field Types section of the official documentation for the options of each type.
 
-![General field configuration options](./Images/field_configuration_general.jpg)
+![General field configuration options](./Images/field_configuration_general.webp)
 
 *General field configuration*
 
@@ -75,4 +75,4 @@ Use this tab to show or hide the field based on the value of another field.
 
 ## Next Step
 
-Continue with [Creating a Datatype](/ExtTypoTonic/GettingStarted/CreatingADatatype/Index) to assign your fields to a Datatype.
+Continue with [Creating a Datatype](/en/latest/ExtTypoTonic/GettingStarted/CreatingADatatype/Index) to assign your fields to a Datatype.

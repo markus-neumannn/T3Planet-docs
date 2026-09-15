@@ -57,4 +57,4 @@ Now you can configure following settings on the album view gallery plugin on sam
 
 ## Figures
 
-![Create Gallery images](./images/create_gallery1.jpeg)
+![Create Gallery images](images/create_gallery1.webp)

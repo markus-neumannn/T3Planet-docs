@@ -31,14 +31,14 @@ TypoTonic is a TYPO3 extension that lets you model, manage, and render records o
 1. Include the static template in your site template.
 1. Clear the caches.
 
-See [Installation](/ExtTypoTonic/Installation/Index) for the full steps.
+See [Installation](/en/latest/ExtTypoTonic/Installation/Index) for the full steps.
 
 ## Templates and Rendering
 
 ### How do I use my own templates?
 
-Predefine templates in TypoScript, then render them with Fluid. See [Templating](/ExtTypoTonic/GettingStarted/Templating/Index). Predefined templates are then easy to select in the Display Records plugin.
+Predefine templates in TypoScript, then render them with Fluid. See [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index). Predefined templates are then easy to select in the Display Records plugin.
 
 ## Didn't find your question?
 
-For questions about the extension itself, or about TypoTonic Professional, contact the vendor directly. See [Support](/ExtTypoTonic/Support/Index).
+For questions about the extension itself, or about TypoTonic Professional, contact the vendor directly. See [Support](/en/latest/ExtTypoTonic/Support/Index).

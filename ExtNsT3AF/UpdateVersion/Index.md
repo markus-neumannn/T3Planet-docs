@@ -24,9 +24,9 @@ vendor/bin/typo3 cache:flush
 
 1. Run `extension:setup` — applies database schema changes
 2. Flush all caches — backend module and MCP routes refresh
-3. Test provider connection in [AI Providers](/ExtNsT3AF/AIProviders/Index)
-4. Test MCP if enabled — see [MCP Server](/ExtNsT3AF/MCPServer/Index)
-5. Check [AI Usage & Logs](/ExtNsT3AF/AIUsageAndLogs/Index) for errors after a test AI request
+3. Test provider connection in [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index)
+4. Test MCP if enabled — see [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index)
+5. Check [AI Usage & Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index) for errors after a test AI request
 
 ## Migration wizard
 
@@ -59,7 +59,7 @@ Restore database only if the new version changed schema and you cannot fix forwa
 ## Difference between update and upgrade
 
 - **Update** — Routine `composer update` to the latest compatible version
-- **Upgrade** — Major version jump (for example v1 to v2) — follow [Upgrade Guide](/ExtNsT3AF/UpgradeGuide/Index) with migration wizards
+- **Upgrade** — Major version jump (for example v1 to v2) — follow [Upgrade Guide](/en/latest/ExtNsT3AF/UpgradeGuide/Index) with migration wizards
 
 ## Check current version
 

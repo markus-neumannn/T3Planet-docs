@@ -27,7 +27,7 @@ Use **AI Features** only when at least one child extension is installed. This mo
 - [AI Search](https://t3planet.de/t3as-typo3-erweiterung)
 - [AI Accessibility](https://t3planet.de/t3aa-typo3-erweiterung)
 
-If no child extension is connected, the feature list stays empty or incomplete. Set a global default provider in [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index) first, then override providers for individual features on this page.
+If no child extension is connected, the feature list stays empty or incomplete. Set a global default provider in [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index) first, then override providers for individual features on this page.
 </Note>
 
 ## Feature types
@@ -43,7 +43,7 @@ When an AI request runs, T3AF picks the provider in this order:
 
 1. Provider chosen in the UI modal (if the editor selected one)
 2. **Feature default** from this page
-3. **Global default** provider from [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+3. **Global default** provider from [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 
 ## When to use per-feature providers
 
@@ -70,8 +70,8 @@ Without per-feature settings, every task uses the most expensive default. Routin
 2. For each feature row, select a provider (or leave empty for global default)
 3. Save
 4. Test one request per feature type from a connected extension
-5. Review token usage in [AI Usage & Logs](/ExtNsT3AF/Configuration/AIUsageAndLogs/Index)
+5. Review token usage in [AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index)
 
 ## Scenario: agency with dev and live keys
 
-Use global default for staging. On production, set SEO to a fast model and Pages to premium. Dev team keeps separate provider rows in [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index) with dev API keys.
+Use global default for staging. On production, set SEO to a fast model and Pages to premium. Dev team keeps separate provider rows in [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index) with dev API keys.

@@ -208,7 +208,7 @@ make sure the following conditions are met:
 1. **All Website Data Indexed**
   - Ensure that the complete website content is indexed by the respective search extension before enabling T3AS.
 2. **Scheduler Execution**
-  - Run all required schedulers as outlined in the [Scheduler configuration](/ExtNsT3AS/Configuration/Index#scheduler-tasks) section to keep the data fresh and available for AI-powered search.
+  - Run all required schedulers as outlined in the [Scheduler configuration](/en/latest/ExtNsT3AS/Configuration/Index#scheduler-tasks) section to keep the data fresh and available for AI-powered search.
 
 ## Scheduler Tasks
 
@@ -383,7 +383,7 @@ Add this line where the AI overview should render (usually near the search form 
 1. Set **Search Class** to `ke_search_sword`.
 2. In your override of `SearchForm.html`, add the injection snippet.
 
-![AI overview injected below a ke_search form](./images/extend.png)
+![AI overview injected below a ke_search form](./images/extend.webp)
 
 *Example: AI overview rendered with the ke_search form after the Fluid snippet is in place.*
 
@@ -392,7 +392,7 @@ Add this line where the AI overview should render (usually near the search form 
 1. Set **Search Class** to `tx-indexedsearch-searchbox-sword`.
 2. In your override of `EXT:indexed_search/Resources/Private/Templates/Search/Search.fluid.html`, add the injection snippet (typically after the search form and before the result loop).
 
-![Fluid injectAiSearchResults snippet in indexed_search Search.fluid.html](./images/inject-indexed-search.png)
+![Fluid injectAiSearchResults snippet in indexed_search Search.fluid.html](images/inject-indexed-search.webp)
 
 *indexed_search template — add `<f:cObject typoscriptObjectPath="lib.injectAiSearchResults" />` after the form render.*
 
@@ -401,7 +401,7 @@ Add this line where the AI overview should render (usually near the search form 
 1. Set **Search Class** to `tx-solr-q`.
 2. In your override of `EXT:solr/Resources/Private/Templates/Search/Results.html`, add the injection snippet (typically after the search form partial).
 
-![Fluid injectAiSearchResults snippet in Solr Results.html](./images/inject-solr.png)
+![Fluid injectAiSearchResults snippet in Solr Results.html](images/inject-solr.webp)
 
 *Solr `Results.html` — add `<f:cObject typoscriptObjectPath="lib.injectAiSearchResults" />` after the search form.*
 
@@ -460,7 +460,7 @@ Configure AI Foundation first, then return to T3AS for search, training, and sou
 4. Click **Save**.
 5. Return to **T3AS** to continue with source, training, and search-specific settings.
 
-For the shared module overview, see [AI Foundation AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
+For the shared module overview, see [AI Foundation AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## AI Search Features
 
@@ -475,7 +475,7 @@ Key T3AS capabilities include:
 - Usage analytics, logs, and request statistics
 - Prompt-controlled search answers and instructions
 
-For shared model routing and central AI behavior, see [AI Foundation AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
+For shared model routing and central AI behavior, see [AI Foundation AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## 2. Dashboard
 
@@ -548,7 +548,7 @@ Administrators can:
 - edit Source Groups
 - delete Source Groups
 
-![Manage source groups dialog](images/manage-source-groups1.png)
+![Manage source groups dialog](images/manage-source-groups1.webp)
 
 Create, edit, or delete Source Groups. The **Global** group is a system default and cannot be changed.
 
@@ -580,7 +580,7 @@ This setting controls where the data source can be used after retrieval starts.
 4. Find the **Source groups** field.
 5. Select the Source Groups that should be available on that page.
 
-![Page-level Source groups in page properties](images/page-level-source-groups1.png)
+![Page-level Source groups in page properties](images/page-level-source-groups1.webp)
 
 Choose Source Groups under **Page Properties → AI Search** so AI Search and AI Chatbot use only those sources on that page.
 
@@ -612,7 +612,7 @@ If no custom Source Groups are selected, the **Global** Source Group remains ava
 
 These options help you keep repeated layout content out of the main page body while still making shared site information available to AI retrieval.
 
-![Index site header and Index site footer options in Add Source](images/header-footer-index1.png)
+![Index site header and Index site footer options in Add Source](images/header-footer-index1.webp)
 
 Enable **Index site header** and **Index site footer** when adding or editing a Sitemap XML or Web Pages data source.
 
@@ -703,7 +703,7 @@ Administrators can:
 - edit Source Groups
 - delete Source Groups
 
-![Manage source groups dialog](images/manage-source-groups1.png)
+![Manage source groups dialog](images/manage-source-groups1.webp)
 
 Create, edit, or delete Source Groups. The **Global** group is a system default and cannot be changed.
 
@@ -735,7 +735,7 @@ This setting controls where the data source can be used after retrieval starts.
 4. Find the **Source groups** field.
 5. Select the Source Groups that should be available on that page.
 
-![Page-level Source groups in page properties](images/page-level-source-groups1.png)
+![Page-level Source groups in page properties](images/page-level-source-groups1.webp)
 
 Choose Source Groups under **Page Properties → AI Search** so AI Search and AI Chatbot use only those sources on that page.
 
@@ -767,7 +767,7 @@ If no custom Source Groups are selected, the **Global** Source Group remains ava
 
 These options help you keep repeated layout content out of the main page body while still making shared site information available to AI retrieval.
 
-![Index site header and Index site footer options in Add Source](images/header-footer-index1.png)
+![Index site header and Index site footer options in Add Source](images/header-footer-index1.webp)
 
 Enable **Index site header** and **Index site footer** when adding or editing a Sitemap XML or Web Pages data source.
 
@@ -874,11 +874,11 @@ ddev typo3 scheduler:run --task=<your-task-id>
 
 ### Example output
 
-![Example command-line output for TYPO3 scheduler task run](images/CLI011.png)
+![Example command-line output for TYPO3 scheduler task run](images/CLI011.webp)
 
 Example of scheduler task output in the terminal.
 
-![Example command-line output showing queue processing and training completion](images/CLI021.png)
+![Example command-line output showing queue processing and training completion](images/CLI021.webp)
 
 Example showing queue processing and training completion summary.
 
@@ -919,11 +919,11 @@ ddev typo3 scheduler:run --task=<your-task-id>
 
 ### Example output
 
-![Example command-line output for TYPO3 scheduler task run](images/CLI011.png)
+![Example command-line output for TYPO3 scheduler task run](images/CLI011.webp)
 
 Example of scheduler task output in the terminal.
 
-![Example command-line output showing queue processing and training completion](images/CLI021.png)
+![Example command-line output showing queue processing and training completion](images/CLI021.webp)
 
 Example showing queue processing and training completion summary.
 
@@ -961,7 +961,7 @@ ddev typo3 t3af:history:cleanup 90
 
 The first command uses the default of **90** days. Setting `days` to `3` deletes usage history older than 3 days (CLI: `t3af:history:cleanup 3`).
 
-![Scheduler task t3af:history:cleanup with days argument set to 3](./Images/t3af-history-cleanup.png)
+![Scheduler task t3af:history:cleanup with days argument set to 3](Images/t3af-history-cleanup.webp)
 
 *Configure **days** on the `t3af:history:cleanup` scheduler task. Default retention is 90 days when the argument is omitted.*
 
@@ -1072,7 +1072,7 @@ Set up clickable question suggestions in the search box.
 - **Questions Storage Folder(s)** — Page ID of the folder with question records (e.g. `681`)
 
 <Note>
-These settings apply site-wide. To override them on one page, use the **T3AS Search** frontend plugin. See [T3AS Search Plugin](/ExtNsT3AS/FrontendPlugin/Index).
+These settings apply site-wide. To override them on one page, use the **T3AS Search** frontend plugin. See [T3AS Search Plugin](/en/latest/ExtNsT3AS/FrontendPlugin/Index).
 </Note>
 
 ## 6. Usage Analytics
@@ -1173,7 +1173,7 @@ Review this area when you need to confirm that the correct provider, model, and 
 
 See also:
 
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 - MCP Server
 - MCP Tools
 
@@ -1244,11 +1244,11 @@ ddev typo3 nst3af:training <rootPageId> --cleanup-only
 
 Legacy non-Composer installs may use `scheduler:execute` instead of `scheduler:run`; see [TYPO3 Scheduler CLI documentation](https://docs.typo3.org/c/typo3/cms-scheduler/13.4/en-us/Administration/ConsoleTools/Running.html).
 
-![Example command-line output for TYPO3 scheduler task run](images/CLI011.png)
+![Example command-line output for TYPO3 scheduler task run](images/CLI011.webp)
 
 Example of scheduler task output in the terminal.
 
-![Example command-line output showing queue processing and training completion](images/CLI021.png)
+![Example command-line output showing queue processing and training completion](images/CLI021.webp)
 
 Example showing queue processing and training completion summary.
 

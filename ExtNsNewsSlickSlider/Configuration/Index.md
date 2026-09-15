@@ -10,5 +10,5 @@ sidebarTitle: "Configuration"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Setup News Slick Slider" href="/ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index" />
+  <Card title="Setup News Slick Slider" href="/en/latest/ExtNsNewsSlickSlider/Configuration/SlickSliderConfiguration/Index" />
 </CardGroup>

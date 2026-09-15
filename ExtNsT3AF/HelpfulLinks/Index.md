@@ -17,7 +17,7 @@ Official resources for **EXT:ns_t3af**.
 - T3Planet T3AF: [https://t3planet.de/ai-foundation-fur-typo3](https://t3planet.de/ai-foundation-fur-typo3)
 - Model Context Protocol: [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)
 - TYPO3 documentation: [https://docs.typo3.org/](https://docs.typo3.org/)
-- License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+- License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 </Note>
 
 ## API key portals
@@ -39,10 +39,10 @@ Store keys only in T3AF > AI Providers. Never commit keys to Git.
 
 ## This documentation
 
-- [Introduction](/ExtNsT3AF/Introduction/Index#ns-t3af-introduction) — Start here
-- [FAQ](/ExtNsT3AF/Troubleshooting/FAQ/Index#ns-t3af-faq) — Common questions
-- [Known Problems](/ExtNsT3AF/Troubleshooting/KnownProblems/Index#ns-t3af-known-problems) — Workarounds
-- [Support](/ExtNsT3AF/Support/Index#ns-t3af-support) — Contact T3Planet
+- [Introduction](/en/latest/ExtNsT3AF/Introduction/Index#ns-t3af-introduction) — Start here
+- [FAQ](/en/latest/ExtNsT3AF/Troubleshooting/FAQ/Index#ns-t3af-faq) — Common questions
+- [Known Problems](/en/latest/ExtNsT3AF/Troubleshooting/KnownProblems/Index#ns-t3af-known-problems) — Workarounds
+- [Support](/en/latest/ExtNsT3AF/Support/Index#ns-t3af-support) — Contact T3Planet
 
 ## Community
 
@@ -55,6 +55,6 @@ Store keys only in T3AF > AI Providers. Never commit keys to Git.
 ## When to use which link
 
 - **Installing premium** — License activation URL above
-- **Getting API keys** — Provider portals above, then [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index#ns-t3af-ai-providers)
-- **Developer integration** — [Developer Guide](/ExtNsT3AF/DeveloperGuide/Index#ns-t3af-developer-guide) for `AiServiceInterface`
-- **MCP client setup** — Model Context Protocol site plus [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index#ns-t3af-mcp-server)
+- **Getting API keys** — Provider portals above, then [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index#ns-t3af-ai-providers)
+- **Developer integration** — [Developer Guide](/en/latest/ExtNsT3AF/DeveloperGuide/Index#ns-t3af-developer-guide) for `AiServiceInterface`
+- **MCP client setup** — Model Context Protocol site plus [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index#ns-t3af-mcp-server)

@@ -48,7 +48,7 @@ HttpAuthUtility    -> Protected URL fetching with optional Basic Auth
 
 ## Configuration model
 
-Runtime AI requests resolve through provider rows in [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index). Optional extension settings cover translation helpers, Basic Auth, notifications, and MCP switches. See [Configuration](/ExtNsT3AF/Configuration/Index).
+Runtime AI requests resolve through provider rows in [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index). Optional extension settings cover translation helpers, Basic Auth, notifications, and MCP switches. See [Configuration](/en/latest/ExtNsT3AF/Configuration/Index).
 
 This includes:
 

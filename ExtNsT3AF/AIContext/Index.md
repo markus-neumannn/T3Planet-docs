@@ -61,10 +61,10 @@ Without context, AI output sounds generic. With context, text matches your brand
 - Rebrand or new product line
 - New target market (for example expand from DE to EN)
 - Compliance change (formal Sie required everywhere)
-- After [AI Prompts](/ExtNsT3AF/AIPrompts/Index) changes still produce off-brand text
+- After [AI Prompts](/en/latest/ExtNsT3AF/AIPrompts/Index) changes still produce off-brand text
 
 ## Scenario: multi-language site
 
 Set language style to “German formal (Sie) for DE; simple English for EN”. Add brand terms that must stay untranslated. Connected translation features will respect this context.
 
-See also [AI Prompts](/ExtNsT3AF/AIPrompts/Index) for task-specific instructions.
+See also [AI Prompts](/en/latest/ExtNsT3AF/AIPrompts/Index) for task-specific instructions.

@@ -59,7 +59,7 @@ Syntax: <php-path> <typo3-bin-path> nsbackup:scheduler <id>
 Example: /usr/bin/php typo3/sysext/core/bin/typo3 nsbackup:scheduler 2
 ```
 
-![ns-backup-typo3-backend-command-console](./images/ns-backup-typo3-backend-command-console.png)
+![ns-backup-typo3-backend-command-console](images/ns-backup-typo3-backend-command-console.webp)
 
 ## Cronjob for TYPO3 v9 and v10
 

@@ -24,7 +24,7 @@ The Quick Setup wizard guides you through first-time configuration. **Go live in
 ## Before you start
 
 - TYPO3 admin login
-- T3Planet license key (see [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index))
+- T3Planet license key (see [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index))
 - Decision: Your Own API Keys (BYOK) or T3Planet Credits
 - About 15 minutes
 
@@ -52,16 +52,16 @@ The wizard prevents common mistakes: missing default provider, credits toggle wi
 
 Use these follow-up tasks after the wizard completes:
 
-- **Brand context** — [AI Context](/ExtNsT3AF/AIContext/Index)
-- **Tune prompts** — [AI Prompts](/ExtNsT3AF/AIPrompts/Index)
-- **Enable governance** — [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
-- **Connect MCP** — [MCP Server](/ExtNsT3AF/MCPServer/Index)
-- **Daily health check** — [Dashboard](/ExtNsT3AF/Dashboard/Index)
+- **Brand context** — [AI Context](/en/latest/ExtNsT3AF/AIContext/Index)
+- **Tune prompts** — [AI Prompts](/en/latest/ExtNsT3AF/AIPrompts/Index)
+- **Enable governance** — [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index)
+- **Connect MCP** — [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index)
+- **Daily health check** — [Dashboard](/en/latest/ExtNsT3AF/Dashboard/Index)
 
 ## Scenario: agency onboarding a new client
 
 1. Install on staging → run wizard with client’s API key or credits
-2. Fill [AI Context](/ExtNsT3AF/AIContext/Index) with brand voice
+2. Fill [AI Context](/en/latest/ExtNsT3AF/AIContext/Index) with brand voice
 3. Test one connected extension (for example T3AI)
 4. Enable governance before handing over to client editors
 5. Repeat on production in a low-traffic window

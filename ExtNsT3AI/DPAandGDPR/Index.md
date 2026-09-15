@@ -16,15 +16,15 @@ image generation) and describes **technical data-management capabilities**.
 ## Product controls
 
 - Disable unused feature groups (SEO, page, content, translation, media) so
-  those prompts are never sent. See [T3AI Features](/ExtNsT3AI/AISettings/Index).
+  those prompts are never sent. See [T3AI Features](/en/latest/ExtNsT3AI/AISettings/Index).
 - Choose the translation engine: AI Foundation provider, **DeepL**,
   **Google Translate**, Gemini, Claude, or Mistral. Each enabled vendor is a
-  separate processor. See [Translation](/ExtNsT3AI/Translation/Index).
+  separate processor. See [Translation](/en/latest/ExtNsT3AI/Translation/Index).
 - Disable unused image/stock features (DALL-E, MidJourney, Stability,
-  Unsplash, Openverse, Pixabay, Pexels). See [Media](/ExtNsT3AI/Media/Index).
+  Unsplash, Openverse, Pixabay, Pexels). See [Media](/en/latest/ExtNsT3AI/Media/Index).
 - All LLM traffic goes through AI Foundation — same **BYOK vs Credits**
   choice as T3AF. See
-  [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index).
+  [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 ## Data Processing Agreement (DPA) Considerations
 
@@ -64,8 +64,8 @@ Administrators should consider and document:
 
 **Answer:** **No.** T3AI does not keep a local prompt/response transcript table. Operational logging goes to AI Foundation (see Logging). Prompt templates are stored in AI Foundation (`tx_nst3af_ai_prompt`).
 
-See [Prompts](/ExtNsT3AI/Prompts/Index) and
-[AI Usage & Logs](/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
+See [Prompts](/en/latest/ExtNsT3AI/Prompts/Index) and
+[AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
 
 **Question:** Extra processors besides the LLM?
 
@@ -85,7 +85,7 @@ See [Prompts](/ExtNsT3AI/Prompts/Index) and
 - DeepL official glossary IDs if that integration is on (those IDs are sent
   to DeepL with the translation job)
 
-See [Translation](/ExtNsT3AI/Translation/Index).
+See [Translation](/en/latest/ExtNsT3AI/Translation/Index).
 
 **Question:** Bulk translation queue?
 
@@ -95,7 +95,7 @@ See [Translation](/ExtNsT3AI/Translation/Index).
 
 **Answer:** `tx_nst3ai_domain_model_bulkseo` stores queued pages for mass SEO. Schema markup can be stored in `tx_nst3ai_domain_model_schema` / page field `tx_nst3ai_schema_content` when that feature is used.
 
-See [Mass SEO](/ExtNsT3AI/MassSEO/Index).
+See [Mass SEO](/en/latest/ExtNsT3AI/MassSEO/Index).
 
 **Question:** Can logging be reduced?
 
@@ -104,7 +104,7 @@ See [Mass SEO](/ExtNsT3AI/MassSEO/Index).
 A user may only tighten logging (UserTSconfig), never loosen a stricter
 provider setting. This does not change what is sent to the AI provider.
 
-See [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+See [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 (privacy level).
 
 **Question:** IP / cookies / FE users of website visitors?
@@ -115,7 +115,7 @@ See [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
 
 **Answer:** If AI Foundation MCP is enabled, T3AI tools can generate or update editorial content through connected clients. That is backend/editor access, not public-visitor processing. Restrict MCP as an access-control topic.
 
-See [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index).
+See [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index).
 
 <Note>
 This documentation describes technical data-management capabilities. It does not constitute legal advice.

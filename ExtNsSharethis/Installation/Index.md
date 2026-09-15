@@ -25,7 +25,7 @@ Just install this extension the usual way like any other TYPO3 extension.
       https://extensions.typo3.org/extension/ns_sharethis/ by downloading either
       the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![installation with the extension manager in the backend](./images/TYPO3-EXTns_sharethis-Install_1.jpeg)
+![installation with the extension manager in the backend](images/TYPO3-EXTns_sharethis-Install_1.webp)
 
 2. Activate the TypoScript
 

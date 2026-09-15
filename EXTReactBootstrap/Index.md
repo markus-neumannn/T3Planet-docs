@@ -19,16 +19,16 @@ sidebarTitle: "ReactBootstrap"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/EXTReactBootstrap/Introduction/Index">
+  <Card title="Introduction" icon="book-open" href="/en/latest/EXTReactBootstrap/Introduction/Index">
     Overview, features, and system requirements.
   </Card>
-  <Card title="Important notes before Installation" icon="circle-alert" href="/EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index">
+  <Card title="Important notes before Installation" icon="circle-alert" href="/en/latest/EXTReactBootstrap/InstallationT3ReactBootstrapTheme/Index">
     Important prerequisites before you begin installation.
   </Card>
-  <Card title="React.js Setup" icon="code" href="/EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index">
+  <Card title="React.js Setup" icon="code" href="/en/latest/EXTReactBootstrap/InstallationT3ReactBootstrapjs/Index">
     Set up the React.js frontend build for this theme.
   </Card>
-  <Card title="Update Version" icon="refresh-cw" href="/EXTReactBootstrap/UpdateVersion/Index">
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/EXTReactBootstrap/UpdateVersion/Index">
     Upgrade to the latest theme version safely.
   </Card>
   </CardGroup>
@@ -38,16 +38,16 @@ sidebarTitle: "ReactBootstrap"
   <p className="t3-landing-eyebrow">Configure</p>
   <h2 className="t3-landing-section-title">Theme & content</h2>
   <CardGroup cols={2}>
-  <Card title="Theme Options" icon="settings" href="/EXTReactBootstrap/GlobalSettingsConfiguration/Index">
+  <Card title="Theme Options" icon="settings" href="/en/latest/EXTReactBootstrap/GlobalSettingsConfiguration/Index">
     Configure global theme settings and constants.
   </Card>
-  <Card title="Custom Elements" icon="blocks" href="/EXTReactBootstrap/CustomElements/Index">
+  <Card title="Custom Elements" icon="blocks" href="/en/latest/EXTReactBootstrap/CustomElements/Index">
     Create and manage custom content elements.
   </Card>
-  <Card title="Localization" icon="languages" href="/EXTReactBootstrap/Localization/Index">
+  <Card title="Localization" icon="languages" href="/en/latest/EXTReactBootstrap/Localization/Index">
     Translate and localize your theme content.
   </Card>
-  <Card title="Customization" icon="palette" href="/EXTReactBootstrap/Customization/Index">
+  <Card title="Customization" icon="palette" href="/en/latest/EXTReactBootstrap/Customization/Index">
     Extend and customize templates without losing upgrades.
   </Card>
   </CardGroup>
@@ -57,7 +57,7 @@ sidebarTitle: "ReactBootstrap"
   <p className="t3-landing-eyebrow">Optimize</p>
   <h2 className="t3-landing-section-title">Performance & customization</h2>
   <CardGroup cols={2}>
-  <Card title="Preview Feature" icon="eye" href="/EXTReactBootstrap/PreviewFeature/Index">
+  <Card title="Preview Feature" icon="eye" href="/en/latest/EXTReactBootstrap/PreviewFeature/Index">
     Preview content changes before publishing.
   </Card>
   </CardGroup>
@@ -67,10 +67,10 @@ sidebarTitle: "ReactBootstrap"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="FAQ" icon="circle-question-mark" href="/EXTReactBootstrap/FAQ/Index">
+  <Card title="FAQ" icon="circle-question-mark" href="/en/latest/EXTReactBootstrap/FAQ/Index">
     Answers to frequently asked questions.
   </Card>
-  <Card title="Help & Support" icon="life-buoy" href="/EXTReactBootstrap/HelpSupport/Index">
+  <Card title="Help & Support" icon="life-buoy" href="/en/latest/EXTReactBootstrap/HelpSupport/Index">
     Get help from the T3Planet support team.
   </Card>
   </CardGroup>

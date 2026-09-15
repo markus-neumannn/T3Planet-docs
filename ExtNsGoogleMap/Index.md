@@ -10,10 +10,10 @@ sidebarTitle: "Google Map"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsGoogleMap/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsGoogleMap/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsGoogleMap/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsGoogleMap/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsGoogleMap/Support" />
-  <Card title="Get This Extension" href="/ExtNsGoogleMap/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsGoogleMap/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsGoogleMap/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsGoogleMap/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsGoogleMap/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsGoogleMap/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsGoogleMap/BuyNow" />
 </CardGroup>

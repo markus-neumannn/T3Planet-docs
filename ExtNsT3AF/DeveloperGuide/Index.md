@@ -13,8 +13,8 @@ Build TYPO3 extensions on top of T3AF. Use the public contracts for providers, p
 
 ## Prerequisites
 
-- T3AF is installed and configured — [Installation](/ExtNsT3AF/Installation/Index)
-- At least one AI provider is connected when your feature needs AI requests — [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- T3AF is installed and configured — [Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- At least one AI provider is connected when your feature needs AI requests — [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 - You understand TYPO3 extension development, Composer, and Symfony dependency injection
 
 ## Reference extension

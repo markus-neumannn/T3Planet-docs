@@ -46,7 +46,7 @@ Best practices:
 - Keep instructions short and easy to test.
 - Use prompts to define greeting style, answer tone, and response limits.
 - Test prompts with real user questions before rollout.
-- Review [AI Foundation AI Prompts](/ExtNsT3AF/AIPrompts/Index) when you want shared prompt behavior across multiple AI Universe extensions.
+- Review [AI Foundation AI Prompts](/en/latest/ExtNsT3AF/AIPrompts/Index) when you want shared prompt behavior across multiple AI Universe extensions.
 
 ## Customization
 
@@ -133,7 +133,7 @@ If you would like to use this chatbot on another domain, follow these steps:
 - Copy the embed code.
 - Paste the code inside the `<body>` tag of your website.
 
-For the full setup flow, see [Configuration](/ExtNsT3AC/Configuration/Index).
+For the full setup flow, see [Configuration](/en/latest/ExtNsT3AC/Configuration/Index).
 
 ## Multilanguage
 

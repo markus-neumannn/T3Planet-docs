@@ -209,4 +209,4 @@ Check and correct spelling and grammar throughout your document to ensure accura
 
 ## Configuration
 
-![Spell and Grammar Check Configuration](./images/spell_grammar_check_config.png)
+![Spell and Grammar Check Configuration](images/spell_grammar_check_config.webp)

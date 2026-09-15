@@ -11,7 +11,7 @@ sidebarTitle: "Mass SEO"
 
 Mass SEO is documented in the main SEO guide so there is only one canonical workflow.
 
-See [Mass SEO](/ExtNsT3AI/SEO/Index) in [SEO](/ExtNsT3AI/SEO/Index) for:
+See [Mass SEO](/en/latest/ExtNsT3AI/SEO/Index) in [SEO](/en/latest/ExtNsT3AI/SEO/Index) for:
 
 - queue-based SEO generation
 - scheduler-based Mass SEO

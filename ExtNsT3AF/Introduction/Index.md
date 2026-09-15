@@ -34,7 +34,7 @@ T3AF connects TYPO3 to AI models, manages API keys, exposes an MCP server for AI
 <Note>
 - Product: [https://t3planet.de/ai-foundation-fur-typo3](https://t3planet.de/ai-foundation-fur-typo3)
 - Get support: [https://t3planet.de/support](https://t3planet.de/support)
-- License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+- License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 </Note>
 
 ## Video Tutorials
@@ -49,7 +49,7 @@ Follow the recommended order below and practice on a staging TYPO3 instance.
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbp02gg0dysqmo5wfd0olu1?utm_source=link" loading="lazy" title="T3AF Dashboard Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Start here for a high-level tour of the T3AF Dashboard.
 
-Next: [Dashboard](/ExtNsT3AF/Configuration/Dashboard/Index)
+Next: [Dashboard](/en/latest/ExtNsT3AF/Configuration/Dashboard/Index)
 
 ### Install and Quick Setup
 
@@ -57,7 +57,7 @@ Next: [Dashboard](/ExtNsT3AF/Configuration/Dashboard/Index)
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbnnxgy0cp3qmo5e1ciofeq?utm_source=link" loading="lazy" title="T3AF Quick Setup Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Learn how to activate T3AF and complete first-time setup.
 
-Next: [Installation](/ExtNsT3AF/Installation/Index)
+Next: [Installation](/en/latest/ExtNsT3AF/Installation/Index)
 
 ### Configure AI providers
 
@@ -65,7 +65,7 @@ Next: [Installation](/ExtNsT3AF/Installation/Index)
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbo0w7i0d96qmo57ifnabvz?utm_source=link" loading="lazy" title="T3AF Providers Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Connect vendors, save credentials, and verify provider health.
 
-Next: [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+Next: [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 
 ### MCP Server
 
@@ -73,7 +73,7 @@ Next: [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbp5q660ej4qmo546ztyk1h?utm_source=link" loading="lazy" title="T3AF MCP Server Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Connect Cursor and other MCP clients to your TYPO3 instance.
 
-Next: [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index)
+Next: [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index)
 
 ### AI Permissions
 
@@ -81,7 +81,7 @@ Next: [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index)
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpvc5y0g0vqmo5l30iq6mc?utm_source=link" loading="lazy" title="T3AF AI Permissions Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Control usergroup access, modules, features, and credit limits.
 
-Next: [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
+Next: [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index)
 
 ### Usage and cost control
 
@@ -89,7 +89,7 @@ Next: [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index)
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpqbgz0fn3qmo5oaq6j1t9?utm_source=link" loading="lazy" title="T3AF AI Usage Demo" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Review tokens, spend trends, and request history.
 
-Next: [AI Usage & Logs](/ExtNsT3AF/Configuration/AIUsageAndLogs/Index)
+Next: [AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index)
 
 ## Credits
 

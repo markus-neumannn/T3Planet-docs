@@ -16,7 +16,7 @@ sidebarTitle: "Important notes before In..."
 
 # License Activation & TYPO3 Installation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 # How to Install TYPO3 Template T3 Reva
 
@@ -38,4 +38,4 @@ Once you install your TYPO3 Template extension, it will automatically generate "
 
 ![Site Configuration](images/how_to_configure_site3.webp)
 
-![Page Tree](./images/page_Tree2.png)
+![Page Tree](images/page_Tree2.webp)

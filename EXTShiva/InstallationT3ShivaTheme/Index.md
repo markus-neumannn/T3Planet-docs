@@ -16,7 +16,7 @@ sidebarTitle: "Important notes before In..."
 
 # License Activation & TYPO3 Installation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 # How to Install TYPO3 Template T3 Shiva
 
@@ -32,10 +32,10 @@ We have already provided Site Configuration and if you want to overwrite it then
 
 Once you install your TYPO3 Template extension, it will automatically generate "Page tree" in your TYPO3 backend with all the pages and content.
 
-![Page Tree](./images/page_tree.png)
+![Page Tree](images/page_tree.webp)
 
 ## Figures
 
-![Site Configuration](./images/how_to_configure_site5.png)
+![Site Configuration](images/how_to_configure_site5.webp)
 
-![Page Tree](./images/page_tree3.png)
+![Page Tree](images/page_tree3.webp)

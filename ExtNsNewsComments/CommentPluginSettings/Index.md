@@ -79,7 +79,7 @@ If you select Image Captcha, you need to rename `_.htaccess` to `.htaccess` in t
 
 </Note>
 
-![CAPTCHA Example](./images/captcha.jpeg)
+![CAPTCHA Example](images/captcha.webp)
 
 - **Google reCAPTCHA v2:** Shows Google reCAPTCHA v2. Ensure you add your site key in the plugin constants.
 

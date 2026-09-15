@@ -33,4 +33,4 @@ Hello Bar is a tool for a website that gives you a chance to configure and desig
 
 ## EXT:nitsan_hellobar
 
-![Hellobar Extension Banner](images/TYPO3_EXT_nitsan_hellobar.jpg)
+![Hellobar Extension Banner](images/TYPO3_EXT_nitsan_hellobar.webp)

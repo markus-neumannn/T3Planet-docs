@@ -21,10 +21,10 @@ sidebarTitle: "AI Chatbot"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/ExtNsT3AC/Introduction/Index" />
-  <Card title="Screenshots" icon="image" href="/ExtNsT3AC/Screenshots/Index" />
-  <Card title="Installation" icon="download" href="/ExtNsT3AC/Installation/Index" />
-  <Card title="Configuration" icon="settings" href="/ExtNsT3AC/Configuration/Index" />
+  <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsT3AC/Introduction/Index" />
+  <Card title="Screenshots" icon="image" href="/en/latest/ExtNsT3AC/Screenshots/Index" />
+  <Card title="Installation" icon="download" href="/en/latest/ExtNsT3AC/Installation/Index" />
+  <Card title="Configuration" icon="settings" href="/en/latest/ExtNsT3AC/Configuration/Index" />
   </CardGroup>
 </section>
 
@@ -32,14 +32,14 @@ sidebarTitle: "AI Chatbot"
   <p className="t3-landing-eyebrow">Features</p>
   <h2 className="t3-landing-section-title">Chatbot & training</h2>
   <CardGroup cols={2}>
-  <Card title="Feature Guide" icon="sparkles" href="/ExtNsT3AC/FeatureGuide/Index" />
-  <Card title="Dashboard" icon="layout-dashboard" href="/ExtNsT3AC/FeatureGuide/Dashboard/Index" />
-  <Card title="Data Source" icon="database" href="/ExtNsT3AC/FeatureGuide/DataSource/Index" />
-  <Card title="Training Center" icon="graduation-cap" href="/ExtNsT3AC/FeatureGuide/TrainingCenter/Index" />
-  <Card title="Chatbot" icon="bot" href="/ExtNsT3AC/FeatureGuide/Chatbot/Index" />
-  <Card title="Usage Analytics" icon="chart-column" href="/ExtNsT3AC/FeatureGuide/UsageAnalytics/Index" />
-  <Card title="AI Statistics" icon="chart-pie" href="/ExtNsT3AC/FeatureGuide/AIStatistics/Index" />
-  <Card title="AI Logs" icon="scroll-text" href="/ExtNsT3AC/FeatureGuide/AILogs/Index" />
+  <Card title="Feature Guide" icon="sparkles" href="/en/latest/ExtNsT3AC/FeatureGuide/Index" />
+  <Card title="Dashboard" icon="layout-dashboard" href="/en/latest/ExtNsT3AC/FeatureGuide/Dashboard/Index" />
+  <Card title="Data Source" icon="database" href="/en/latest/ExtNsT3AC/FeatureGuide/DataSource/Index" />
+  <Card title="Training Center" icon="graduation-cap" href="/en/latest/ExtNsT3AC/FeatureGuide/TrainingCenter/Index" />
+  <Card title="Chatbot" icon="bot" href="/en/latest/ExtNsT3AC/FeatureGuide/Chatbot/Index" />
+  <Card title="Usage Analytics" icon="chart-column" href="/en/latest/ExtNsT3AC/FeatureGuide/UsageAnalytics/Index" />
+  <Card title="AI Statistics" icon="chart-pie" href="/en/latest/ExtNsT3AC/FeatureGuide/AIStatistics/Index" />
+  <Card title="AI Logs" icon="scroll-text" href="/en/latest/ExtNsT3AC/FeatureGuide/AILogs/Index" />
   </CardGroup>
 </section>
 
@@ -47,12 +47,12 @@ sidebarTitle: "AI Chatbot"
   <p className="t3-landing-eyebrow">Advanced</p>
   <h2 className="t3-landing-section-title">Custom LLM & upgrades</h2>
   <CardGroup cols={2}>
-  <Card title="Custom LLM Support" icon="cpu" href="/ExtNsT3AC/CustomLLMSupport/Index" />
-  <Card title="Prerequisites & SOW" icon="clipboard-list" href="/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index" />
-  <Card title="Hosting Policy" icon="server" href="/ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index" />
-  <Card title="Reinstall After Upgrade" icon="wrench" href="/ExtNsT3AC/ReInstallEverything/Index" />
-  <Card title="Update Version" icon="refresh-cw" href="/ExtNsT3AC/UpdateVersion/Index" />
-  <Card title="Update Guide" icon="arrow-up" href="/ExtNsT3AC/UpdateGuide/Index" />
+  <Card title="Custom LLM Support" icon="cpu" href="/en/latest/ExtNsT3AC/CustomLLMSupport/Index" />
+  <Card title="Prerequisites & SOW" icon="clipboard-list" href="/en/latest/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index" />
+  <Card title="Hosting Policy" icon="server" href="/en/latest/ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index" />
+  <Card title="Reinstall After Upgrade" icon="wrench" href="/en/latest/ExtNsT3AC/ReInstallEverything/Index" />
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsT3AC/UpdateVersion/Index" />
+  <Card title="Update Guide" icon="arrow-up" href="/en/latest/ExtNsT3AC/UpdateGuide/Index" />
   </CardGroup>
 </section>
 
@@ -60,11 +60,11 @@ sidebarTitle: "AI Chatbot"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AC/DPAandGDPR/Index" />
-  <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AC/KnownProblems/Index" />
-  <Card title="Support" icon="life-buoy" href="/ExtNsT3AC/Support" />
-  <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AC/BuyNow" />
-  <Card title="T3AF" icon="layers" href="/ExtNsT3AF/Index" />
+  <Card title="DPA & GDPR" icon="shield" href="/en/latest/ExtNsT3AC/DPAandGDPR/Index" />
+  <Card title="Known Problems" icon="triangle-alert" href="/en/latest/ExtNsT3AC/KnownProblems/Index" />
+  <Card title="Support" icon="life-buoy" href="/en/latest/ExtNsT3AC/Support" />
+  <Card title="Get Extension" icon="shopping-cart" href="/en/latest/ExtNsT3AC/BuyNow" />
+  <Card title="T3AF" icon="layers" href="/en/latest/ExtNsT3AF/Index" />
   </CardGroup>
 </section>
 

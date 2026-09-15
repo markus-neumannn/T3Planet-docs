@@ -79,7 +79,7 @@ activated automatically, paste the license key in T3Planet Shop.
 
 <Tip>
 If you already have a trial and want to upgrade, see
-[Renewing or Purchasing a License](/License/RenewPurchase/Index).
+[Renewing or Purchasing a License](/en/latest/License/RenewPurchase/Index).
 </Tip>
 
 ## Generate License Key from Website

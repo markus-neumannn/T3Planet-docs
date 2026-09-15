@@ -19,13 +19,13 @@ sidebarTitle: "Avatar"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/EXTAvatar/Introduction/Index">
+  <Card title="Introduction" icon="book-open" href="/en/latest/EXTAvatar/Introduction/Index">
     Overview, features, and system requirements.
   </Card>
-  <Card title="Installation" icon="download" href="/EXTAvatar/Installation/Index">
+  <Card title="Installation" icon="download" href="/en/latest/EXTAvatar/Installation/Index">
     Install the theme extension in your TYPO3 instance.
   </Card>
-  <Card title="Update Version" icon="refresh-cw" href="/EXTAvatar/UpdateVersion/Index">
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/EXTAvatar/UpdateVersion/Index">
     Upgrade to the latest theme version safely.
   </Card>
   </CardGroup>
@@ -35,19 +35,19 @@ sidebarTitle: "Avatar"
   <p className="t3-landing-eyebrow">Configure</p>
   <h2 className="t3-landing-section-title">Theme & content</h2>
   <CardGroup cols={2}>
-  <Card title="Theme Options" icon="settings" href="/EXTAvatar/GlobalSettingsConfiguration/Index">
+  <Card title="Theme Options" icon="settings" href="/en/latest/EXTAvatar/GlobalSettingsConfiguration/Index">
     Configure global theme settings and constants.
   </Card>
-  <Card title="Templates & Layouts" icon="layout-template" href="/EXTAvatar/TemplatesLayouts/Index">
+  <Card title="Templates & Layouts" icon="layout-template" href="/en/latest/EXTAvatar/TemplatesLayouts/Index">
     Assign frontend and backend page layouts.
   </Card>
-  <Card title="Mask Elements" icon="blocks" href="/EXTAvatar/MaskElements/Index">
+  <Card title="Mask Elements" icon="blocks" href="/en/latest/EXTAvatar/MaskElements/Index">
     Configure Mask-based content elements.
   </Card>
-  <Card title="Editor Guide" icon="pencil" href="/EXTAvatar/EditorGuide/Index">
+  <Card title="Editor Guide" icon="pencil" href="/en/latest/EXTAvatar/EditorGuide/Index">
     Guide for editors working with theme content.
   </Card>
-  <Card title="Localization" icon="languages" href="/EXTAvatar/Localization/Index">
+  <Card title="Localization" icon="languages" href="/en/latest/EXTAvatar/Localization/Index">
     Translate and localize your theme content.
   </Card>
   </CardGroup>
@@ -57,16 +57,16 @@ sidebarTitle: "Avatar"
   <p className="t3-landing-eyebrow">Optimize</p>
   <h2 className="t3-landing-section-title">Performance & customization</h2>
   <CardGroup cols={2}>
-  <Card title="Speed and Performance" icon="gauge" href="/EXTAvatar/SpeedPerformance/Index">
+  <Card title="Speed and Performance" icon="gauge" href="/en/latest/EXTAvatar/SpeedPerformance/Index">
     Optimize loading speed and Core Web Vitals.
   </Card>
-  <Card title="SEO (Search Engine Optimization)" icon="search" href="/EXTAvatar/SEO/Index">
+  <Card title="SEO (Search Engine Optimization)" icon="search" href="/en/latest/EXTAvatar/SEO/Index">
     Configure SEO settings for better search visibility.
   </Card>
-  <Card title="Customization" icon="palette" href="/EXTAvatar/Customization/Index">
+  <Card title="Customization" icon="palette" href="/en/latest/EXTAvatar/Customization/Index">
     Extend and customize templates without losing upgrades.
   </Card>
-  <Card title="Upgrade Guide" icon="arrow-up" href="/EXTAvatar/UpgradeGuide/Index">
+  <Card title="Upgrade Guide" icon="arrow-up" href="/en/latest/EXTAvatar/UpgradeGuide/Index">
     Step-by-step guide for upgrading your theme.
   </Card>
   </CardGroup>
@@ -76,7 +76,7 @@ sidebarTitle: "Avatar"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="Helpful Links" icon="link" href="/EXTAvatar/HelpfulLinks/Index">
+  <Card title="Helpful Links" icon="link" href="/en/latest/EXTAvatar/HelpfulLinks/Index">
     Quick links to demos, product pages, and tools.
   </Card>
   </CardGroup>

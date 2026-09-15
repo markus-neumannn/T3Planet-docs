@@ -61,7 +61,7 @@ Extensions can sync default prompts from T3AF.
 Write a friendly greeting for [audience] mentioning [topic].
 ```
 
-Pair prompts with [AI Context](/ExtNsT3AF/Configuration/AIContext/Index) for brand voice. Context handles who you are; prompts handle what to do.
+Pair prompts with [AI Context](/en/latest/ExtNsT3AF/Configuration/AIContext/Index) for brand voice. Context handles who you are; prompts handle what to do.
 
 ## Reset to default
 
@@ -77,9 +77,9 @@ If results worsen after edits, use **Reset to default** in the UI. Then change o
 ## When to leave defaults
 
 - Small team still learning AI features
-- You have not yet filled [AI Context](/ExtNsT3AF/Configuration/AIContext/Index)
+- You have not yet filled [AI Context](/en/latest/ExtNsT3AF/Configuration/AIContext/Index)
 - Results are already good — do not over-edit
 
 ## Governance note
 
-Prompt changes affect all users. Coordinate with [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) before large template changes on production.
+Prompt changes affect all users. Coordinate with [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index) before large template changes on production.

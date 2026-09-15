@@ -18,7 +18,7 @@ Before starting the reinstallation process, ensure that you review and complete 
 
 Skipping or changing the sequence of these steps may result in configuration issues, missing functionality, or data inconsistencies.
 
-If you are performing a fresh installation or upgrade extension, please follow the instructions in the [Installation](/ExtNsT3AC/Installation/Index) section.
+If you are performing a fresh installation or upgrade extension, please follow the instructions in the [Installation](/en/latest/ExtNsT3AC/Installation/Index) section.
 </Info>
 
 ## Overview
@@ -50,9 +50,9 @@ Before you update, make sure you:
 
 Helpful references:
 
-- [T3AF Installation](/ExtNsT3AF/Installation/Index)
-- [T3AF Configuration](/ExtNsT3AF/Configuration/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 
 ## Migration Steps
 
@@ -103,7 +103,7 @@ After the update, confirm that:
 
 ## Related Documentation
 
-- [Installation](/ExtNsT3AC/Installation/Index)
-- [Configuration](/ExtNsT3AC/Configuration/Index)
-- [T3AF Installation](/ExtNsT3AF/Installation/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+- [Installation](/en/latest/ExtNsT3AC/Installation/Index)
+- [Configuration](/en/latest/ExtNsT3AC/Configuration/Index)
+- [T3AF Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)

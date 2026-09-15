@@ -45,7 +45,7 @@ plugin.tx_tonic.templates {
 }
 ```
 
-![Predefined template shown in the TypoTonic template selector](./Images/template_selection.jpg)
+![Predefined template shown in the TypoTonic template selector](Images/template_selection.webp)
 
 *A predefined template appearing in the template selector*
 
@@ -55,8 +55,8 @@ Once a template is predefined, render it in Fluid with the `Template.RenderViewH
 <t:template.render template="myTemplateIdentifier" arguments="{record:record}" />
 ```
 
-See [ViewHelpers](/ExtTypoTonic/ViewHelpers/Index) for the full list of ViewHelpers and their arguments.
+See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index) for the full list of ViewHelpers and their arguments.
 
 ## Next Step
 
-Continue with [Frontend Plugins](/ExtTypoTonic/FrontendPlugins/Index) to display your records on a page.
+Continue with [Frontend Plugins](/en/latest/ExtTypoTonic/FrontendPlugins/Index) to display your records on a page.

@@ -21,7 +21,7 @@ sidebarTitle: "Configuration"
 
 3. Use "Default Installation Instructions" to get all to get Project Id and Security Key.
 
-![Configuration 1](./images/TYPO3_Allchats_Chatcode.png)
+![Configuration 1](images/TYPO3_Allchats_Chatcode.webp)
 
 ### Setup all the configuration of Live chat:
 

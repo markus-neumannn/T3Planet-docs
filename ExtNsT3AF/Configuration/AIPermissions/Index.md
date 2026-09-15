@@ -107,6 +107,6 @@ Administrators always keep full access to configure AI Permissions.
 - Per-group credit or request caps are required
 - Child extensions must show only allowed tabs, features, and write actions
 
-Developer extensions can register additional modules, features, and records through [Custom Access Catalogs](/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index).
+Developer extensions can register additional modules, features, and records through [Custom Access Catalogs](/en/latest/ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index).
 
 Product overview: [T3AF on GitHub](https://github.com/nitsan-technologies/ns_t3af).

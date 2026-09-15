@@ -21,10 +21,10 @@ sidebarTitle: "AI Localization"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/ExtNsT3AL/Introduction/Index" />
-  <Card title="Installation" icon="download" href="/ExtNsT3AL/Installation/Index" />
-  <Card title="Configuration" icon="settings" href="/ExtNsT3AL/Configuration/Index" />
-  <Card title="Update Version" icon="refresh-cw" href="/ExtNsT3AL/UpdateVersion/Index" />
+  <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsT3AL/Introduction/Index" />
+  <Card title="Installation" icon="download" href="/en/latest/ExtNsT3AL/Installation/Index" />
+  <Card title="Configuration" icon="settings" href="/en/latest/ExtNsT3AL/Configuration/Index" />
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsT3AL/UpdateVersion/Index" />
   </CardGroup>
 </section>
 
@@ -32,10 +32,10 @@ sidebarTitle: "AI Localization"
   <p className="t3-landing-eyebrow">Build</p>
   <h2 className="t3-landing-section-title">Features & configuration</h2>
   <CardGroup cols={2}>
-  <Card title="AI Localization" icon="languages" href="/ExtNsT3AL/AILocalization/Index" />
-  <Card title="Manual Localization" icon="pen-line" href="/ExtNsT3AL/StartManualLocalization/Index" />
-  <Card title="XLIFF Import & Export" icon="file-text" href="/ExtNsT3AL/SeamlessXLIFFImport&Export/Index" />
-  <Card title="T3AL for Everyone" icon="bot" href="/ExtNsT3AL/T3ALforEveryone/Index" />
+  <Card title="AI Localization" icon="languages" href="/en/latest/ExtNsT3AL/AILocalization/Index" />
+  <Card title="Manual Localization" icon="pen-line" href="/en/latest/ExtNsT3AL/StartManualLocalization/Index" />
+  <Card title="XLIFF Import & Export" icon="file-text" href="/en/latest/ExtNsT3AL/SeamlessXLIFFImport&Export/Index" />
+  <Card title="T3AL for Everyone" icon="bot" href="/en/latest/ExtNsT3AL/T3ALforEveryone/Index" />
   </CardGroup>
 </section>
 
@@ -43,9 +43,9 @@ sidebarTitle: "AI Localization"
   <p className="t3-landing-eyebrow">Advanced</p>
   <h2 className="t3-landing-section-title">Upgrades & optimization</h2>
   <CardGroup cols={2}>
-  <Card title="Localization Logs" icon="sliders-horizontal" href="/ExtNsT3AL/AILocalizationLogs/Index" />
-  <Card title="Video Tutorials" icon="play-circle" href="/ExtNsT3AL/VideoTutorials/Index" />
-  <Card title="Glossary" icon="message-square" href="/ExtNsT3AL/T3ALTerms(Glossary)/Index" />
+  <Card title="Localization Logs" icon="sliders-horizontal" href="/en/latest/ExtNsT3AL/AILocalizationLogs/Index" />
+  <Card title="Video Tutorials" icon="play-circle" href="/en/latest/ExtNsT3AL/VideoTutorials/Index" />
+  <Card title="Glossary" icon="message-square" href="/en/latest/ExtNsT3AL/T3ALTerms(Glossary)/Index" />
   </CardGroup>
 </section>
 
@@ -53,9 +53,9 @@ sidebarTitle: "AI Localization"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="Known Problems" icon="triangle-alert" href="/ExtNsT3AL/KnownProblems/Index" />
-  <Card title="Support" icon="life-buoy" href="/ExtNsT3AL/Support" />
-  <Card title="Get Extension" icon="shopping-cart" href="/ExtNsT3AL/BuyNow" />
+  <Card title="Known Problems" icon="triangle-alert" href="/en/latest/ExtNsT3AL/KnownProblems/Index" />
+  <Card title="Support" icon="life-buoy" href="/en/latest/ExtNsT3AL/Support" />
+  <Card title="Get Extension" icon="shopping-cart" href="/en/latest/ExtNsT3AL/BuyNow" />
   </CardGroup>
 </section>
 

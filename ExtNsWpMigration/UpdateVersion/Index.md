@@ -9,4 +9,4 @@ keywords:
 sidebarTitle: "Update Version"
 ---
 
-To update this product's version, Please refer this documentation [License Update Version guide](/License/UpdateVersion/Index)
+To update this product's version, Please refer this documentation [License Update Version guide](/en/latest/License/UpdateVersion/Index)

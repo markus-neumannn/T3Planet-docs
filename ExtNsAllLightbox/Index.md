@@ -10,10 +10,10 @@ sidebarTitle: "All Lightbox"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsAllLightbox/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsAllLightbox/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsAllLightbox/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsAllLightbox/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsAllLightbox/Support" />
-  <Card title="Get This Extension" href="/ExtNsAllLightbox/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsAllLightbox/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsAllLightbox/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsAllLightbox/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsAllLightbox/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsAllLightbox/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsAllLightbox/BuyNow" />
 </CardGroup>

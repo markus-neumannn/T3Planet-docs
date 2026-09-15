@@ -38,4 +38,4 @@ The TYPO3 Google site kit is a powerful tool that integrates with typo3. It lets
 
 ## EXT:ns_google_sitekit
 
-![Extension Banner](images/ext_banner3.jpg)
+![Extension Banner](images/ext_banner3.webp)

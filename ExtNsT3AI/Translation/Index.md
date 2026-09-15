@@ -99,7 +99,7 @@ Configure these command options in the Scheduler task settings:
 - **batch-size** — Number of pages processed per batch within one run.
 - **limit** — Cap one run at N pending queue pages; the rest stay for the next scheduler tick. `0` = unlimited.
 
-![Scheduler options batch-size and limit for Manage Mass Translation](./Images/mass_translation_scheduler_limit.png)
+![Scheduler options batch-size and limit for Manage Mass Translation](Images/mass_translation_scheduler_limit.webp)
 
 Example: set **batch-size** to `10` and **limit** to `10` so each scheduler run processes up to 10 pending pages in batches of 10. Remaining pending pages stay in the queue for the next tick.
 
@@ -349,25 +349,25 @@ When you localize a page and choose **Translate with DeepL**, the mapped DeepL g
 
 **Backend Image**
 
-![AI log](./Images/Backend_Image.png)
+![AI log](Images/Backend_Image.webp)
 
 **Frontend image without preview mode**
 
-![Frontend image without preview](./Images/Frontend_without_Preview.png)
+![Frontend image without preview](./Images/Frontend_without_Preview.webp)
 
 
 
 **Backend Image**
 
-![Backend image](./Images/Backend_Image.png)
+![Backend image](Images/Backend_Image.webp)
 
 **Preview mode image**
 
-![Preview mode image](./Images/Frontend_with_Preview.png)
+![Preview mode image](./Images/Frontend_with_Preview.webp)
 
 **Frontend image without preview mode**
 
-![Frontend image without preview](./Images/Frontend_without_Preview.png)
+![Frontend image without preview](./Images/Frontend_without_Preview.webp)
 
 ## Activate Translated Content
 
@@ -414,7 +414,7 @@ After translation, this feature controls how hidden content elements are handled
 
 Follow below steps to enable this feature.
 
-![AI log](./Images/activate.png)
+![AI log](./Images/activate.webp)
 
 1. Open the desired **Page** in TYPO3.
 2. Click **Edit Page Properties**.

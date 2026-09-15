@@ -112,11 +112,11 @@ Optional record context used for drilldown and troubleshooting.
 **Request is missing in logs**
 
 - Confirm `extensionKey` and `featureKey` are set in `AiOptions`.
-- Check [AI Usage & Logs](/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
+- Check [AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
 
 ## Related documentation
 
-- [Feature Provider Overrides](/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index)
-- [Custom AI Providers](/ExtNsT3AF/DeveloperGuide/CustomProviders/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
-- [AI Usage & Logs](/ExtNsT3AF/Configuration/AIUsageAndLogs/Index)
+- [Feature Provider Overrides](/en/latest/ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index)
+- [Custom AI Providers](/en/latest/ExtNsT3AF/DeveloperGuide/CustomProviders/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
+- [AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index)

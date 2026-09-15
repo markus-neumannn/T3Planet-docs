@@ -37,7 +37,7 @@ This section also covers the T3AF backend modules used day to day: providers, co
 
 Connect at least one provider, set a model, run Test connection, and mark exactly one row as Default.
 
-Full field reference: [Provider fields](/ExtNsT3AF/Configuration/AIProviders/Index). Guide: [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
+Full field reference: [Provider fields](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index). Guide: [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 
 ## Extension settings
 
@@ -70,7 +70,7 @@ Where a classic Extension Configuration form is still used for optional keys, op
 - `requireAuth` — Require login (default: on)
 - `accessTokenLifetime` — OAuth token TTL
 
-Full guide: [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index)
+Full guide: [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index)
 
 ## Per-feature providers
 
@@ -78,7 +78,7 @@ Full guide: [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index)
 
 Override the default provider per task: SEO, Pages, Content, Translation.
 
-See [AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
+See [AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## AI Label
 
@@ -86,19 +86,19 @@ See [AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 Record, confirm, and disclose AI-generated or AI-modified content for EU AI Act Article 50 workflows. Covers module tabs, settings, visitor labels, bulk actions, and evidence export.
 
-Full guide: [AI Label](/ExtNsT3AF/Configuration/AILabel/Index)
+Full guide: [AI Label](/en/latest/ExtNsT3AF/Configuration/AILabel/Index)
 
 ## Security checklist
 
 - Limit backend admin access
 - Use HTTPS in production
 - Rotate API keys every 90 days
-- Enable [AI Permissions](/ExtNsT3AF/Configuration/AIPermissions/Index) for large teams
+- Enable [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index) for large teams
 - Never store keys in Git or email
 
 ## When to reconfigure
 
 - After key rotation — run **Test connection** again
-- When adding a new child extension — check [AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index)
-- Before enabling MCP in production — read [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index) security section
+- When adding a new child extension — check [AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index)
+- Before enabling MCP in production — read [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index) security section
 - After license renewal — confirm the extension license is still valid

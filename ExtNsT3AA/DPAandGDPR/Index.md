@@ -18,19 +18,19 @@ This page describes GDPR-related questions about accessibility features
 
 - Do not place the frontend accessibility widget if browser storage or
   Accesstive third-party requests must be avoided. See
-  [Accessibility Widgets](/ExtNsT3AA/AccessibilityWidgets/Index#ns-t3aa-accessibility-widgets).
+  [Accessibility Widgets](/en/latest/ExtNsT3AA/AccessibilityWidgets/Index#ns-t3aa-accessibility-widgets).
 - Alt text: Vision AI via T3AF, and/or **alttext.ai** if that provider is
-  configured. See [AI FileMeta](/ExtNsT3AA/AIFilemeta/Index).
+  configured. See [AI FileMeta](/en/latest/ExtNsT3AA/AIFilemeta/Index).
 - Voiceover: **OpenAI** TTS and/or **ElevenLabs**. Files are stored in TYPO3
   FAL with **no automatic expiry**. See
-  [T3AA Voiceover](/ExtNsT3AA/T3AAVoiceover/Index) and
-  [AI Audio Generator](/ExtNsT3AA/AIAudioGenerator/Index).
+  [T3AA Voiceover](/en/latest/ExtNsT3AA/T3AAVoiceover/Index) and
+  [AI Audio Generator](/en/latest/ExtNsT3AA/AIAudioGenerator/Index).
 - PageSpeed: **Google PageSpeed Insights API** when a key is set (page URL
   sent from the backend). See
-  [Speed Core Web Vitals](/ExtNsT3AA/SpeedCoreWebVitals/Index).
+  [Speed Core Web Vitals](/en/latest/ExtNsT3AA/SpeedCoreWebVitals/Index).
 - LLM text features (simplify, and similar) follow T3AF **BYOK vs Credits**.
-  See [Simplified Text](/ExtNsT3AA/SimplifiedText/Index) and
-  [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index).
+  See [Simplified Text](/en/latest/ExtNsT3AA/SimplifiedText/Index) and
+  [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 - ElevenLabs is **own-keys only**.
 
 ## Data Processing Agreement (DPA) Considerations
@@ -53,13 +53,13 @@ Administrators should consider and document:
 
 **Answer:** Accessibility preferences (contrast, profiles, fonts, and similar) are typically kept in the visitor’s **browser local storage**. That is not a TYPO3 database log.
 
-See [Accessibility Widgets](/ExtNsT3AA/AccessibilityWidgets/Index#ns-t3aa-accessibility-widgets).
+See [Accessibility Widgets](/en/latest/ExtNsT3AA/AccessibilityWidgets/Index#ns-t3aa-accessibility-widgets).
 
 **Question:** Voiceover files?
 
 **Answer:** Generated audio is stored in fileadmin / FAL (`pages.voiceover` flag; `sys_file_metadata.t3aa_audio_source_identifier`). **No built-in expiry.** Delete files operationally if required.
 
-See [T3AA Voiceover](/ExtNsT3AA/T3AAVoiceover/Index).
+See [T3AA Voiceover](/en/latest/ExtNsT3AA/T3AAVoiceover/Index).
 
 **Question:** What else does T3AA store on the server?
 
@@ -72,13 +72,13 @@ See [T3AA Voiceover](/ExtNsT3AA/T3AAVoiceover/Index).
 | Page flag | `pages.voiceover` |
 | Activity | AI Foundation logs for T3AA operations |
 
-See [AI Usage & Logs](/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
+See [AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index).
 
 **Question:** PageSpeed?
 
 **Answer:** When used, the **absolute page URL** is sent from the **backend** to `https://www.googleapis.com/pagespeedonline/v5/runPagespeed`. Visitor IP and visitor queries are not part of that payload.
 
-See [Speed Core Web Vitals](/ExtNsT3AA/SpeedCoreWebVitals/Index).
+See [Speed Core Web Vitals](/en/latest/ExtNsT3AA/SpeedCoreWebVitals/Index).
 
 **Question:** Alt text processors?
 
@@ -87,7 +87,7 @@ See [Speed Core Web Vitals](/ExtNsT3AA/SpeedCoreWebVitals/Index).
 - Vision via T3AF (BYOK or Credits)
 - **alttext.ai** if that adapter/provider is configured (image data goes to that vendor)
 
-See [AI FileMeta](/ExtNsT3AA/AIFilemeta/Index).
+See [AI FileMeta](/en/latest/ExtNsT3AA/AIFilemeta/Index).
 
 **Question:** TTS processors?
 
@@ -96,7 +96,7 @@ See [AI FileMeta](/ExtNsT3AA/AIFilemeta/Index).
 - **OpenAI** and/or **ElevenLabs** (own keys)
 - Credits mode can route OpenAI TTS via T3Planet; ElevenLabs is not supported in Credits mode
 
-See [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index).
+See [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 **Question:** IP / cookies / FE users of website visitors?
 
@@ -106,7 +106,7 @@ See [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 **Answer:** If AI Foundation MCP is enabled, T3AA tools can run accessibility and media operations through connected clients. That is backend/editor access, not public-visitor processing. Restrict MCP as an access-control topic.
 
-See [MCP Server](/ExtNsT3AF/Integrations/MCPServer/Index).
+See [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index).
 
 <Note>
 This documentation describes technical data-management capabilities. It does not constitute legal advice.

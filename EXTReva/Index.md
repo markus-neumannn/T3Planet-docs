@@ -19,16 +19,16 @@ sidebarTitle: "Reva"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/EXTReva/Introduction/Index">
+  <Card title="Introduction" icon="book-open" href="/en/latest/EXTReva/Introduction/Index">
     Overview, features, and system requirements.
   </Card>
-  <Card title="Important notes before Installation" icon="circle-alert" href="/EXTReva/InstallationT3RevaTheme/Index">
+  <Card title="Important notes before Installation" icon="circle-alert" href="/en/latest/EXTReva/InstallationT3RevaTheme/Index">
     Important prerequisites before you begin installation.
   </Card>
-  <Card title="React.js Setup" icon="code" href="/EXTReva/InstallationT3RevaReactjs/Index">
+  <Card title="React.js Setup" icon="code" href="/en/latest/EXTReva/InstallationT3RevaReactjs/Index">
     Set up the React.js frontend build for this theme.
   </Card>
-  <Card title="Update Version" icon="refresh-cw" href="/EXTReva/UpdateVersion/Index">
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/EXTReva/UpdateVersion/Index">
     Upgrade to the latest theme version safely.
   </Card>
   </CardGroup>
@@ -38,16 +38,16 @@ sidebarTitle: "Reva"
   <p className="t3-landing-eyebrow">Configure</p>
   <h2 className="t3-landing-section-title">Theme & content</h2>
   <CardGroup cols={2}>
-  <Card title="Theme Options" icon="settings" href="/EXTReva/GlobalSettingsConfiguration/Index">
+  <Card title="Theme Options" icon="settings" href="/en/latest/EXTReva/GlobalSettingsConfiguration/Index">
     Configure global theme settings and constants.
   </Card>
-  <Card title="Mask Elements" icon="blocks" href="/EXTReva/CustomElements/Index">
+  <Card title="Mask Elements" icon="blocks" href="/en/latest/EXTReva/CustomElements/Index">
     Configure Mask-based content elements.
   </Card>
-  <Card title="Localization" icon="languages" href="/EXTReva/Localization/Index">
+  <Card title="Localization" icon="languages" href="/en/latest/EXTReva/Localization/Index">
     Translate and localize your theme content.
   </Card>
-  <Card title="Customization" icon="palette" href="/EXTReva/Customization/Index">
+  <Card title="Customization" icon="palette" href="/en/latest/EXTReva/Customization/Index">
     Extend and customize templates without losing upgrades.
   </Card>
   </CardGroup>
@@ -57,7 +57,7 @@ sidebarTitle: "Reva"
   <p className="t3-landing-eyebrow">Optimize</p>
   <h2 className="t3-landing-section-title">Performance & customization</h2>
   <CardGroup cols={2}>
-  <Card title="Preview Feature" icon="eye" href="/EXTReva/PreviewFeature/Index">
+  <Card title="Preview Feature" icon="eye" href="/en/latest/EXTReva/PreviewFeature/Index">
     Preview content changes before publishing.
   </Card>
   </CardGroup>
@@ -67,13 +67,13 @@ sidebarTitle: "Reva"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="Demo Site" icon="monitor" href="/EXTReva/DemoSite/Index">
+  <Card title="Demo Site" icon="monitor" href="/en/latest/EXTReva/DemoSite/Index">
     Explore the live demo site and backend.
   </Card>
-  <Card title="FAQ" icon="circle-question-mark" href="/EXTReva/FAQ/Index">
+  <Card title="FAQ" icon="circle-question-mark" href="/en/latest/EXTReva/FAQ/Index">
     Answers to frequently asked questions.
   </Card>
-  <Card title="Help & Support" icon="life-buoy" href="/EXTReva/HelpSupport/Index">
+  <Card title="Help & Support" icon="life-buoy" href="/en/latest/EXTReva/HelpSupport/Index">
     Get help from the T3Planet support team.
   </Card>
   </CardGroup>

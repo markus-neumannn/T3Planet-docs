@@ -10,10 +10,10 @@ sidebarTitle: "Cookiebot"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsCookiebot/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsCookiebot/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsCookiebot/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsCookiebot/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsCookiebot/Support" />
-  <Card title="Get This Extension" href="/ExtNsCookiebot/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsCookiebot/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsCookiebot/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsCookiebot/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsCookiebot/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsCookiebot/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsCookiebot/BuyNow" />
 </CardGroup>

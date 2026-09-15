@@ -13,7 +13,7 @@ sidebarTitle: "Composer Update Guide"
 Whenever you run composer update, You’ll automatically get the latest version of your purcahsed TYPO3 extension.
 
 <Note>
-If you are still using old-way of composer installation e.g., install extension with :@dev then consider to update with our modern and automated composer-way - just like packagist.org ;) then we highly recommend to follow our “Migration To New Composer” at [https://docs.t3planet.de/en/latest/License/Migration/Composer/Index.html](/License/Migration/Composer/Index)
+If you are still using old-way of composer installation e.g., install extension with :@dev then consider to update with our modern and automated composer-way - just like packagist.org ;) then we highly recommend to follow our “Migration To New Composer” at [https://docs.t3planet.de/en/latest/License/Migration/Composer/Index.html](/en/latest/License/Migration/Composer/Index)
 </Note>
 
 <Warning>

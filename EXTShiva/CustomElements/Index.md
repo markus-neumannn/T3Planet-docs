@@ -15,10 +15,10 @@ sidebarTitle: "Custom Elements"
 
 Whenever you are going to add a new element, in wizard you can find "Custom Elements" tab where template related custom elements been configured.
 
-![Custom Elements](./images/custom_elements.png)
+![Custom Elements](images/custom_elements.webp)
 
-![custom_elements1](./images/custom_elements1.png)
+![custom_elements1](images/custom_elements1.webp)
 
 ## Figures
 
-![custom_elements1](./images/custom_elements11.png)
+![custom_elements1](images/custom_elements11.webp)

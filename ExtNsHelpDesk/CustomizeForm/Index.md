@@ -13,7 +13,7 @@ sidebarTitle: "Customize Form"
 From **ns_helpdesk 14.0.0**, the **Customize Form** backend module is removed.
 
 Add extra ticket fields as records on the Helpdesk storage page (the **Global Storage PID**
-from [Global Settings](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor)).
+from [Global Settings](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor)).
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmti8wrfr1f50qmcthi8ia2qo?embed_v=2&utm_source=embed" loading="lazy" title="Create custom Helpdesk ticket fields" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
@@ -31,4 +31,4 @@ Available types include Input, Textarea, Select, Checkbox, and Radio.
 **Step 6.** Save.
 
 Default form field labels, placeholders, and include/required flags stay in the
-Constant Editor. See [Form Settings](/ExtNsHelpDesk/FormSettings/Index).
+Constant Editor. See [Form Settings](/en/latest/ExtNsHelpDesk/FormSettings/Index).

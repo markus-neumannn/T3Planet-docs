@@ -41,7 +41,7 @@ If you plan to use the MCP server:
 - **HTTPS** — Required for OAuth in production
 - **mcp/sdk** — Bundled with T3AF
 
-See [MCP Server](/ExtNsT3AF/MCPServer/Index).
+See [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
 
 ## Server resources
 
@@ -54,7 +54,7 @@ See [MCP Server](/ExtNsT3AF/MCPServer/Index).
 You need at least one of these before AI features work:
 
 - **AI provider API key** — BYOK (Bring Your Own Key) mode
-- **T3Planet Credits** — Managed billing mode (see [T3Planet Credits](/ExtNsT3AF/T3PlanetCredits/Index))
+- **T3Planet Credits** — Managed billing mode (see [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index))
 - **DeepL / Google keys** — Optional, for translation settings in Extension Configuration
 
 ## Pre-install checklist
@@ -64,6 +64,6 @@ You need at least one of these before AI features work:
 - HTTPS on production
 - Scheduler cron active (every minute)
 - API key or credits plan ready
-- T3Planet license key for premium install — see [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+- T3Planet license key for premium install — see [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 
-When you are ready, continue with [Installation](/ExtNsT3AF/Installation/Index).
+When you are ready, continue with [Installation](/en/latest/ExtNsT3AF/Installation/Index).

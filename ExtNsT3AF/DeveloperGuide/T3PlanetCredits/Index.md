@@ -16,7 +16,7 @@ When **T3Planet Credits** mode is active, `AiServiceInterface` routes
 
 ## Credit mode changes (streaming)
 
-The following applies when credits mode is **on** (see [T3Planet Credits](/ExtNsT3AF/T3PlanetCredits/Index) for activation):
+The following applies when credits mode is **on** (see [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index) for activation):
 
 - **`POST /API/AI/Charge.php`** — `AiServiceInterface::complete()` returns `AiResponse` plus `CreditsUsage`.
 - **`POST /API/AI/Stream.php`** — `AiServiceInterface::stream()` returns incremental `string` chunks; read `StreamSummary` via `getReturn()`.
@@ -296,5 +296,5 @@ inject `AiServiceInterface` and call `embed()` / `complete()` as in the backend.
 
 ## Further reading
 
-- [T3Planet Credits](/ExtNsT3AF/T3PlanetCredits/Index) — product overview
-- [Privacy — T3Planet Credits](/ExtNsT3AF/Privacy/Index) — data sent when credits mode is on
+- [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index) — product overview
+- [Privacy — T3Planet Credits](/en/latest/ExtNsT3AF/Privacy/Index) — data sent when credits mode is on

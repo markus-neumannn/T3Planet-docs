@@ -13,7 +13,7 @@ sidebarTitle: "License Activation"
 
 Install **T3Planet Shop** (`ns_license`), then start a free trial, purchase a license, or add an existing key from the TYPO3 backend.
 
-For trial and purchase from the backend, see [Generating a License Key](/License/GenerateLicenseKey/Index).
+For trial and purchase from the backend, see [Generating a License Key](/en/latest/License/GenerateLicenseKey/Index).
 
 ## Install via Extension Manager
 
@@ -29,7 +29,7 @@ Get **T3Planet Shop** (`ns_license`) from the TYPO3 Extension Repository (TER): 
 
 **Step 3.** Switch to Admin Tools > T3Planet Shop. Start a free trial, purchase, or add your license key.
 
-![License Management](./images/LicenseModule.jpeg)
+![License Management](images/LicenseModule.webp)
 
 ![License Activated](./images/LicenseActivated.webp)
 
@@ -40,7 +40,7 @@ Get **T3Planet Shop** (`ns_license`) from the TYPO3 Extension Repository (TER): 
 ## Create and Get your License Key (Interactive Demo)
 
 You can also create a license key from the website, then activate it in T3Planet Shop.
-For the backend flow, see [Generating a License Key](/License/GenerateLicenseKey/Index).
+For the backend flow, see [Generating a License Key](/en/latest/License/GenerateLicenseKey/Index).
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cmmyt7j5c0075wy0imx44tkvn?demo=1&step=1" loading="lazy" title="Create and Get your License Key" allow="clipboard-write" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
@@ -93,7 +93,7 @@ vendor/bin/typo3 extension:setup
 
 **Step 2.** Go to TYPO3 Backend > T3Planet Shop. Start a free trial, purchase, browse products, or add your license key.
 
-![License Management](./images/LicenseModule.jpeg)
+![License Management](images/LicenseModule.webp)
 
 ![License Activated](./images/LicenseActivated.webp)
 
@@ -195,4 +195,4 @@ To migrate from a **Free Trial** license to a **Premium** license, follow the st
 
 **Step 4:** Activate the extension from T3Planet Shop / Extension Manager and start using it.
 
-For more detailed instructions on license activation and installation, please refer to the [License documentation](/License/Index).
+For more detailed instructions on license activation and installation, please refer to the [License documentation](/en/latest/License/Index).

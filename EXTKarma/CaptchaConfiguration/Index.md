@@ -16,7 +16,7 @@ forms from spam and automated submissions.
 Please refer to the documentation below for configuration details
 and setup instructions:
 
-- [Friendly Captcha Documentation](/ExtNsFriendlyCaptcha/Index) –
+- [Friendly Captcha Documentation](/en/latest/ExtNsFriendlyCaptcha/Index) –
   A privacy-friendly captcha solution designed to comply with **GDPR requirements**.
 - [Google reCAPTCHA Documentation](https://docs.typo3.org/p/evoweb/recaptcha/14.0/en-us/UsersManual/Index.html) –
   A widely used captcha service provided by **Google** for protecting forms from bots.

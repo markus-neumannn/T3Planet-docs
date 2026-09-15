@@ -58,6 +58,6 @@ https://www.youtube.com/watch?v=_7ILu4lwU-k
 
 ## Figures
 
-![Install Extension](./images/install_ext3.jpeg)
+![Install Extension](images/install_ext3.webp)
 
 ![Activate Typoscript](images/activate_typoscript5.webp)

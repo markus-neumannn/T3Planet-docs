@@ -223,7 +223,7 @@ If you find any issues or want to add any custom feature contact us at [Contact]
 
 As an integrator, If you want to restrict the prompts managers add/edit/delete data (like SEO prompts, Page prompts, etc) to editors. You can simply exclude all prompts management while configuring your editor’s users or user groups..
 
-Using your integrator-level access, You can easily manage prompts with this “Manage Prompts” guidance - [View Prompts](/ExtNsT3AI/Prompts/Index)
+Using your integrator-level access, You can easily manage prompts with this “Manage Prompts” guidance - [View Prompts](/en/latest/ExtNsT3AI/Prompts/Index)
 
 If you find any issues or want to add any custom feature contact us at [Contact](https://t3planet.de/contact)
 
@@ -239,7 +239,7 @@ Protect your website’s content from unwanted AI bots with our Block AI Scrapin
 > Navigate to tab and Edit your site configurations.
 > Go to static routes in Site configurations.
 
-![AI log](./images/Scrappng.png)
+![AI log](images/Scrappng.webp)
 
 **Step 2** - Prevent bots for scraping your content with customizing required confugurqationns.
 
@@ -287,7 +287,7 @@ To grant more granular control, you can also allow specific features within a pa
 ## Overview
 
 Use this area to confirm which T3AI features are available in your project and whether the shared AI Foundation setup is ready.
-For provider selection, model setup, and shared AI rules, also review [AI Foundation Configuration](/ExtNsT3AF/Configuration/Index), [AI Foundation Providers](/ExtNsT3AF/Configuration/AIProviders/Index), and [AI Foundation AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
+For provider selection, model setup, and shared AI rules, also review [AI Foundation Configuration](/en/latest/ExtNsT3AF/Configuration/Index), [AI Foundation Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index), and [AI Foundation AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## Key capabilities
 
@@ -306,4 +306,4 @@ T3AI feature settings are managed in AI Foundation — not under **Admin Tools >
 5. Confirm the required feature options are enabled.
 6. Click **Save**, then test the related T3AI modules.
 
-For the shared module overview, see [AI Foundation AI Features](/ExtNsT3AF/Configuration/AIFeatures/Index).
+For the shared module overview, see [AI Foundation AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).

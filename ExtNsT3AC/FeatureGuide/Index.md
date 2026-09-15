@@ -11,7 +11,7 @@ sidebarTitle: "Feature Guide"
 
 ## Dashboard
 
-![Extension](./images/Dashboard2.png)
+![Extension](images/Dashboard2.webp)
 
 - View, activate, deactivate, and manage all created chatbots.
 - Create new chatbot instances.
@@ -83,7 +83,7 @@ After feeding the data, simply select and click *Train GPT*.
 
 If you’d like to use this chatbot on another domain, follow these simple steps:
 
-![Extension](./images/T3AC_Embed.png)
+![Extension](images/T3AC_Embed.webp)
 
 - Go to tab Embed
 - Click the Copy button to copy the embed code.
@@ -121,11 +121,11 @@ vendor/bin/typo3 nst3ac:crawl:sitemap "https://v13-composer.ddev.site/sitemap.xm
 - When executed via the CLI, it displays the crawl progress.
 - After execution, a summary of successfully processed and failed URLs is shown.
 
-![Crawl Command](./images/Command_crawl.png)
+![Crawl Command](images/Command_crawl.webp)
 
 ## Chatbot visibility
 
-![Sites Feature](./images/Show_Hide_page.png)
+![Sites Feature](images/Show_Hide_page.webp)
 
 **Show Chatbot on Specific Pages**
 
@@ -139,7 +139,7 @@ vendor/bin/typo3 nst3ac:crawl:sitemap "https://v13-composer.ddev.site/sitemap.xm
 
 If you want to crawl URLs protected by htaccess, simply enable the Basic Authentication checkbox and enter the htaccess username and password.
 
-![Basic Authentication](./images/Basic_Authentication.png)
+![Basic Authentication](images/Basic_Authentication.webp)
 
 ## Configurable Database Chunking for various types of Dataset Processing
 
@@ -153,4 +153,4 @@ If you want to crawl URLs protected by htaccess, simply enable the Basic Authent
 - By default, database chunking is enabled with a chunk size of 1000 records.
 - If required, this value can be modified in the extension settings to better suit the execution environment.
 
-![Chunk Size](./images/Chunk_Size.png)
+![Chunk Size](images/Chunk_Size.webp)

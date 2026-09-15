@@ -67,4 +67,4 @@ Please use the buttons 'Flush frontend caches' and 'Flush general caches' from t
 
 ![TYPO3-Revolution-Slider-Plugin.png](images/TYPO3-Revolution-Slider-Plugin1.webp)
 
-![TYPO3-Revolution-Slider-Frontend-Plugin](./images/TYPO3-Revolution-Slider-Frontend-Plugin2.png)
+![TYPO3-Revolution-Slider-Frontend-Plugin](images/TYPO3-Revolution-Slider-Frontend-Plugin2.webp)

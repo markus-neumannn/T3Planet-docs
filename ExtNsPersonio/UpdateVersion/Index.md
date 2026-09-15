@@ -9,7 +9,7 @@ keywords:
 sidebarTitle: "Update Version"
 ---
 
-To update this premium product's version, Please refer this documentation [License Update Version guide](/License/UpdateVersion/Index)
+To update this premium product's version, Please refer this documentation [License Update Version guide](/en/latest/License/UpdateVersion/Index)
 
 If you are currently using lower than 2.0.0 or 2.0.0 and want to upgrade to a newer version, please refer to the demo below for a step-by-step guide on how to perform the version upgrade:
 

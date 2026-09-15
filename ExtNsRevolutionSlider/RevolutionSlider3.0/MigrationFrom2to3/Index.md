@@ -31,6 +31,6 @@ You will need to manually re-create all your sliders in v3. Unfortunately techni
 > 2. Please make sure to latest released version EXT.ns_license https://extensions.typo3.org/extension/ns_license
 > 3. Go to Admin Tools > Extensions Manager > De-Activate EXT.ns_revolution_slider v2.
 > 4. Go to Admin Tools > Extensions Manager > Delete EXT.ns_revolution_slider from your Extension manager or composer.
-> 5. Go to NITSAN > License Management > De-Activate License, Check [documentation](/License/LicenseDeActivation/Index#how-to-de-activate-license-key)
+> 5. Go to NITSAN > License Management > De-Activate License, Check [documentation](/en/latest/License/LicenseDeActivation/Index#how-to-de-activate-license-key)
 > 6. Follow Installation Steps at /ExtNsRevolutionSlider/RevolutionSlider3./0/Installation/Index
 > 7. Follow Configuration Steps at /ExtNsRevolutionSlider/RevolutionSlider3./0/Configuration/Index

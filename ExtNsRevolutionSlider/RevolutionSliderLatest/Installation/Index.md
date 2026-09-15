@@ -11,7 +11,7 @@ sidebarTitle: "Installation"
 
 ## License Activation & Installation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 
 <Warning>
 For TYPO3 >= v11 composer-based TYPO3 instance, Please don’t forget to run below commands.
@@ -52,4 +52,4 @@ For the composer based instance, it is very imporatnt to Symlink all the assets 
 > Click on “Updates” and check system requirements. Please make sure to have all green-signals ;) If something is wrong then adjust your server according to needs.
 >
 >
-> [![TYPO3-Revolution-Slider-System-Check](./images/TYPO3-Revolution-Slider-System-Check1.png)](../../../_images/TYPO3-Revolution-Slider-System-Check1.png)
+> [![TYPO3-Revolution-Slider-System-Check](./images/TYPO3-Revolution-Slider-System-Check1.webp)](../../../_images/TYPO3-Revolution-Slider-System-Check1.png)

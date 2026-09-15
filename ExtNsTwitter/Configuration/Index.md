@@ -29,7 +29,7 @@ sidebarTitle: "Configuration"
 
 ### 1. Switch to the module Admin tools *Extensions* and then edit **configuration**
 
-![screenshot "TYPO3_NsTwitter_Extension_NITSAN_Configuration_Step2"](./images/TYPO3_NsTwitter_Extension_NITSAN_Configuration_Step2.jpeg)
+![screenshot "TYPO3_NsTwitter_Extension_NITSAN_Configuration_Step2"](images/TYPO3_NsTwitter_Extension_NITSAN_Configuration_Step2.webp)
 
 ### 2. Paste your required keys into this **settings**
 

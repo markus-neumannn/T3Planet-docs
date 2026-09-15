@@ -13,7 +13,7 @@ sidebarTitle: "Introduction"
 
 The `ns_license` extension is the TYPO3 T3Planet Shop that helps you request, activate, monitor, extend, and renew extension licenses in one place.
 
-Previously, getting a trial or buying a license needed a few manual steps outside TYPO3. Now you can start a free trial or purchase an extension right from the TYPO3 backend using **T3Planet Shop**. Details are here: [Generating a License Key](/License/GenerateLicenseKey/Index).
+Previously, getting a trial or buying a license needed a few manual steps outside TYPO3. Now you can start a free trial or purchase an extension right from the TYPO3 backend using **T3Planet Shop**. Details are here: [Generating a License Key](/en/latest/License/GenerateLicenseKey/Index).
 
 This documentation covers:
 
@@ -28,4 +28,4 @@ If you are a premium customer and cannot find your license email, submit a suppo
 
 ## Sample license email
 
-![Sample license email](./images/Sample_mail_license.png)
+![Sample license email](images/Sample_mail_license.webp)

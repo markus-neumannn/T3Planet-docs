@@ -62,4 +62,4 @@ Below are the links for generating API keys for various AI models used in T3AL. 
 
 ## Figures
 
-![T3AL_Configuration](./images/Configuration1.png)
+![T3AL_Configuration](images/Configuration1.webp)

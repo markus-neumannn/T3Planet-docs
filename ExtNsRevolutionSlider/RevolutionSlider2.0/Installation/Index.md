@@ -12,7 +12,7 @@ sidebarTitle: "Installation"
 
 ## License Activation & Installation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 ## Include the TypoScript
 
@@ -33,7 +33,7 @@ To activate license and install this premium TYPO3 product, Please refer this do
    1. Switch to NITSAN > Slider Revolution
    2. Check "System Requirements" section at Dashboard, Please make sure to have all green-signals ;)
 
-![TYPO3-Revolution-Slider-System-Requirement](./images/TYPO3-Revolution-Slider-System-Requirement.png)
+![TYPO3-Revolution-Slider-System-Requirement](images/TYPO3-Revolution-Slider-System-Requirement.webp)
 
 ## How to Install TYPO3 Extension ns_revoltionslider
 
@@ -45,4 +45,4 @@ https://www.youtube.com/watch?v=_7ILu4lwU-k
 
 ## Figures
 
-![TYPO3-Revolution-Slider-Include-Template](./images/TYPO3-Revolution-Slider-Include-Template1.png)
+![TYPO3-Revolution-Slider-Include-Template](images/TYPO3-Revolution-Slider-Include-Template1.webp)

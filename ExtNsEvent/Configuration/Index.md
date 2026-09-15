@@ -10,6 +10,6 @@ sidebarTitle: "Configuration"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Index" href="/ExtNsEvent/Configuration/AddEvents/Index" />
-  <Card title="Index" href="/ExtNsEvent/Configuration/AddEventPlugin/Index" />
+  <Card title="Index" href="/en/latest/ExtNsEvent/Configuration/AddEvents/Index" />
+  <Card title="Index" href="/en/latest/ExtNsEvent/Configuration/AddEventPlugin/Index" />
 </CardGroup>

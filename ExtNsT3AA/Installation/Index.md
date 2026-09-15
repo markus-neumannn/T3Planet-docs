@@ -28,7 +28,7 @@ Follow the steps below in order. Choose **either** Non-Composer **or** Composer 
 
 <Info>
 If you are upgrading from an older version (**1.5.2** or earlier) to the latest release,
-follow [Reinstall After Upgrading](/ExtNsT3AA/ReInstallEverything/Index) instead of this installation guide.
+follow [Reinstall After Upgrading](/en/latest/ExtNsT3AA/ReInstallEverything/Index) instead of this installation guide.
 </Info>
 
 ## Before you start
@@ -83,7 +83,7 @@ composer require nitsan/ns-t3aa
 5. Confirm that AI Foundation (`nitsan/ns-t3af` / `EXT:ns_t3af`) is installed. If it is missing, install it using **Step 3 — Install AI Foundation**.
 
 Full license activation details:
-[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/License/LicenseActivation/Index)
+[https://docs.t3planet.de/en/latest/License/LicenseActivation/Index.html](/en/latest/License/LicenseActivation/Index)
 
 ## Step 3 — Install AI Foundation
 
@@ -115,7 +115,7 @@ Foundation and run AI features through those providers.
 your TYPO3 site use AI features **without storing or managing your own vendor
 API keys**.
 
-**Link for T3Planet Credits:** [T3Planet Credits Documentation](/ExtNsT3AF/T3Planet-Credit-System/Index)
+**Link for T3Planet Credits:** [T3Planet Credits Documentation](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ### Option 1 — Extension Manager (TER)
 
@@ -137,10 +137,10 @@ Then flush all TYPO3 caches.
 
 Helpful AI Foundation references:
 
-- [AI Foundation Installation](/ExtNsT3AF/Installation/Index)
-- [AI Foundation First Setup](/ExtNsT3AF/Installation/Index)
-- [AI Providers](/ExtNsT3AF/Configuration/AIProviders/Index)
-- [T3Planet Credits](/ExtNsT3AF/T3Planet-Credit-System/Index)
+- [AI Foundation Installation](/en/latest/ExtNsT3AF/Installation/Index)
+- [AI Foundation First Setup](/en/latest/ExtNsT3AF/Installation/Index)
+- [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
+- [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ## Step 4 — Run Database Analyzer
 
@@ -181,4 +181,4 @@ If all items above are true, installation is complete and you can start using T3
 ## Premium Version
 
 For license activation and premium feature access, see:
-[https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+[https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)

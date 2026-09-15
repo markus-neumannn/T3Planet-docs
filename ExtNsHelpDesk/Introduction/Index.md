@@ -22,8 +22,8 @@ The TYPO3 Help Desk Extension provides a dedicated support dashboard and portal,
 <Note>
 From **ns_helpdesk 14.0.0**, the dedicated Helpdesk backend module is removed.
 Include the Helpdesk TypoScript, then configure the extension in the Constant Editor.
-See [Include TypoScript](/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript) and
-[Constant Editor](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
+See [Include TypoScript](/en/latest/ExtNsHelpDesk/Installation/Index#ns-helpdesk-include-typoscript) and
+[Constant Editor](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
 </Note>
 
 ## Helpful Links

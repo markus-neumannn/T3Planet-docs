@@ -14,7 +14,7 @@ From **ns_helpdesk 14.0.0**, ticket statuses are no longer managed in the
 Helpdesk backend module.
 
 Set the **Default ticket status ID** in the Constant Editor. See
-[Constant Editor](/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
+[Constant Editor](/en/latest/ExtNsHelpDesk/GlobalSettings/Index#ns-helpdesk-constant-editor).
 
 Create or edit status records on the Helpdesk storage page (the **Global Storage PID**
 from global settings):

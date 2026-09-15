@@ -9,7 +9,7 @@ keywords:
 sidebarTitle: "Customization"
 ---
 
-For all customization related details, please refer here : [https://docs.t3planet.de/en/latest/ExtThemes/Customization/Index.html](/ExtThemes/Customization/Index)
+For all customization related details, please refer here : [https://docs.t3planet.de/en/latest/ExtThemes/Customization/Index.html](/en/latest/ExtThemes/Customization/Index)
 
 ## Enable/Disable Google font API Link to complaints with GDPR
 
@@ -71,4 +71,4 @@ To add **custom fonts** to your website, follow the steps below:
 Please disable the **Style Switcher** option from the **Layouts** section.
 </Warning>
 
-![Disable Style Switcher](images/DisableStyleSwitcher.png)
+![Disable Style Switcher](images/DisableStyleSwitcher.webp)

@@ -12,7 +12,7 @@ sidebarTitle: "Installation"
 
 ## License Activation & Installation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 <Warning>
 

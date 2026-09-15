@@ -37,4 +37,4 @@ for example `pages_get`, `content_list`, `table_schema`, and
 `write_table`.
 
 For how to confirm Credits traffic in the log, see
-[Dashboard & AI Usage](/ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index#t3planet-credits-ai-usage).
+[Dashboard & AI Usage](/en/latest/ExtNsT3AF/T3Planet-Credit-System/AIUsage/Index#t3planet-credits-ai-usage).

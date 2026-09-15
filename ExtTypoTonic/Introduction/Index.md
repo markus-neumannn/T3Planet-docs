@@ -75,5 +75,5 @@ See **typotonic-professional** for details.
 <Note>
 - Product: [https://t3planet.de/tonictypes](https://t3planet.de/tonictypes)
 - Get support: [https://t3planet.de/support](https://t3planet.de/support)
-- License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/License/Index)
+- License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 </Note>

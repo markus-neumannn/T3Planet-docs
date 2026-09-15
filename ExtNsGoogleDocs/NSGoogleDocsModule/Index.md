@@ -56,9 +56,9 @@ This tab lists complete logs of all the Google Docs imports have taken place in 
 
 ## Figures
 
-![Dashboard](./images/dashboard1.png)
+![Dashboard](images/dashboard1.webp)
 
-![Global Settings](./images/global_settings1.jpeg)
+![Global Settings](images/global_settings1.webp)
 
 ![Import Google Docs](images/import_google_docs2.webp)
 

@@ -73,11 +73,11 @@ When the scheduler runs to fetch new jobs and departments:
 - If new departments are found (compared to the previous data), they will **not be automatically selected**. You must manually add them from the plugin settings.
 </Note>
 
-![Department Filter](./images/Department_filter.png)
+![Department Filter](images/Department_filter.webp)
 
 - **Job Location Filter** Supports filtering by both *Office* and *Additional Office* locations.
 
-![Location Filter](./images/Location_filter.png)
+![Location Filter](images/Location_filter.webp)
 
 ![Select extension](./images/Customization4.webp)
 
@@ -99,7 +99,7 @@ When the scheduler runs to fetch new jobs and departments:
 
 **Step 2.** Create New Content Element > Insert Plugin > Personio Job Details
 
-![detail page](./images/detailpage_1.png)
+![detail page](images/detailpage_1.webp)
 
 **Dark Theme:** You can enable/Disable dark mode
 
@@ -143,7 +143,7 @@ You can configure Comapny id and Access token from your personio account,learn m
 
 ## 3.2 View
 
-![detail page](./images/applicationview_1.png)
+![detail page](images/applicationview_1.webp)
 
 **Dark theme:** You can enable or disble dark theme for application form page
 

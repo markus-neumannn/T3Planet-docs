@@ -10,10 +10,10 @@ sidebarTitle: "Open Streetmap"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/ExtNsOpenStreetMap/Introduction/Index" />
-  <Card title="Installation" href="/ExtNsOpenStreetMap/Installation/Index" />
-  <Card title="Update Version" href="/ExtNsOpenStreetMap/UpdateVersion/Index" />
-  <Card title="Configuration" href="/ExtNsOpenStreetMap/Configuration/Index" />
-  <Card title="Help & Support" href="/ExtNsOpenStreetMap/Support" />
-  <Card title="Get This Extension" href="/ExtNsOpenStreetMap/BuyNow" />
+  <Card title="Introduction" href="/en/latest/ExtNsOpenStreetMap/Introduction/Index" />
+  <Card title="Installation" href="/en/latest/ExtNsOpenStreetMap/Installation/Index" />
+  <Card title="Update Version" href="/en/latest/ExtNsOpenStreetMap/UpdateVersion/Index" />
+  <Card title="Configuration" href="/en/latest/ExtNsOpenStreetMap/Configuration/Index" />
+  <Card title="Help & Support" href="/en/latest/ExtNsOpenStreetMap/Support" />
+  <Card title="Get This Extension" href="/en/latest/ExtNsOpenStreetMap/BuyNow" />
 </CardGroup>

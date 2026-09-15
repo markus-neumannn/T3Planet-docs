@@ -21,7 +21,7 @@ sidebarTitle: "Installation"
 
 - To activate the license and complete the installation of this premium TYPO3 product, please follow the instructions in the documentation below:
 
-[License Activation & TYPO3 Installation Documentation](/License/Index)
+[License Activation & TYPO3 Installation Documentation](/en/latest/License/Index)
 
 ## Standard Template Installation
 
@@ -39,7 +39,7 @@ The site configuration is already preconfigured. If you want to overwrite or upd
 
 After installing the TYPO3 template extension, the **Page Tree** will be automatically created in the TYPO3 backend, containing all required pages and content.
 
-![Page Tree](./images/page_tree.png)
+![Page Tree](images/page_tree.webp)
 
 <Note>
 
@@ -49,4 +49,4 @@ After installation, it is important to configure the **correct page IDs** to ens
 
 ## Figures
 
-![Site Configuration](./images/how_to_configure_site1.png)
+![Site Configuration](images/how_to_configure_site1.webp)

@@ -55,7 +55,7 @@ Step 5. Include '[Nitsan] ns_hubspot' at the last place.
 
 # For Premium Version - License Activation
 
-To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/License/Index)
+To activate license and install this premium TYPO3 product, Please refer this documentation [License documentation](/en/latest/License/Index)
 
 ## How to Install TYPO3 Extension ns_hubspot
 
@@ -67,6 +67,6 @@ https://www.youtube.com/watch?v=_7ILu4lwU-k
 
 ## Figures
 
-![Install Extension](./images/install_ext2.png)
+![Install Extension](images/install_ext2.webp)
 
 ![Activate Typoscript](images/activate_typoscript1.webp)

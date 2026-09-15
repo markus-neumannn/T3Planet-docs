@@ -19,13 +19,13 @@ sidebarTitle: "Bootstrap"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation & setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/EXTBootstrap/Introduction/Index">
+  <Card title="Introduction" icon="book-open" href="/en/latest/EXTBootstrap/Introduction/Index">
     Overview, features, and system requirements.
   </Card>
-  <Card title="Installation" icon="download" href="/EXTBootstrap/Installation/Index">
+  <Card title="Installation" icon="download" href="/en/latest/EXTBootstrap/Installation/Index">
     Install the theme extension in your TYPO3 instance.
   </Card>
-  <Card title="Update Version" icon="refresh-cw" href="/EXTBootstrap/UpdateVersion/Index">
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/EXTBootstrap/UpdateVersion/Index">
     Upgrade to the latest theme version safely.
   </Card>
   </CardGroup>
@@ -35,16 +35,16 @@ sidebarTitle: "Bootstrap"
   <p className="t3-landing-eyebrow">Configure</p>
   <h2 className="t3-landing-section-title">Theme & content</h2>
   <CardGroup cols={2}>
-  <Card title="Theme Options" icon="settings" href="/EXTBootstrap/GlobalSettingsConfiguration/Index">
+  <Card title="Theme Options" icon="settings" href="/en/latest/EXTBootstrap/GlobalSettingsConfiguration/Index">
     Configure global theme settings and constants.
   </Card>
-  <Card title="Templates & Layouts" icon="layout-template" href="/EXTBootstrap/TemplatesLayouts/Index">
+  <Card title="Templates & Layouts" icon="layout-template" href="/en/latest/EXTBootstrap/TemplatesLayouts/Index">
     Assign frontend and backend page layouts.
   </Card>
-  <Card title="Custom Elements" icon="blocks" href="/EXTBootstrap/CustomElements/Index">
+  <Card title="Custom Elements" icon="blocks" href="/en/latest/EXTBootstrap/CustomElements/Index">
     Create and manage custom content elements.
   </Card>
-  <Card title="Localization" icon="languages" href="/EXTBootstrap/Localization/Index">
+  <Card title="Localization" icon="languages" href="/en/latest/EXTBootstrap/Localization/Index">
     Translate and localize your theme content.
   </Card>
   </CardGroup>
@@ -54,16 +54,16 @@ sidebarTitle: "Bootstrap"
   <p className="t3-landing-eyebrow">Optimize</p>
   <h2 className="t3-landing-section-title">Performance & customization</h2>
   <CardGroup cols={2}>
-  <Card title="Speed and Performance" icon="gauge" href="/EXTBootstrap/SpeedPerformance/Index">
+  <Card title="Speed and Performance" icon="gauge" href="/en/latest/EXTBootstrap/SpeedPerformance/Index">
     Optimize loading speed and Core Web Vitals.
   </Card>
-  <Card title="SEO (Search Engine Optimization)" icon="search" href="/EXTBootstrap/SEO/Index">
+  <Card title="SEO (Search Engine Optimization)" icon="search" href="/en/latest/EXTBootstrap/SEO/Index">
     Configure SEO settings for better search visibility.
   </Card>
-  <Card title="Customization" icon="palette" href="/EXTBootstrap/Customization/Index">
+  <Card title="Customization" icon="palette" href="/en/latest/EXTBootstrap/Customization/Index">
     Extend and customize templates without losing upgrades.
   </Card>
-  <Card title="Upgrade Guide" icon="arrow-up" href="/EXTBootstrap/UpgradeGuide/Index">
+  <Card title="Upgrade Guide" icon="arrow-up" href="/en/latest/EXTBootstrap/UpgradeGuide/Index">
     Step-by-step guide for upgrading your theme.
   </Card>
   </CardGroup>
@@ -73,10 +73,10 @@ sidebarTitle: "Bootstrap"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help & support</h2>
   <CardGroup cols={2}>
-  <Card title="Helpful Links" icon="link" href="/EXTBootstrap/HelpfulLinks/Index">
+  <Card title="Helpful Links" icon="link" href="/en/latest/EXTBootstrap/HelpfulLinks/Index">
     Quick links to demos, product pages, and tools.
   </Card>
-  <Card title="Help & Support" icon="life-buoy" href="/EXTBootstrap/HelpSupport/Index">
+  <Card title="Help & Support" icon="life-buoy" href="/en/latest/EXTBootstrap/HelpSupport/Index">
     Get help from the T3Planet support team.
   </Card>
   </CardGroup>
