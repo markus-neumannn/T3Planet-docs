@@ -1846,7 +1846,19 @@
       .catch(function () {});
   }
 
+
+  function hideMintlifyPoweredBy() {
+    try {
+      var nodes = document.querySelectorAll('a[href*="utm_campaign=poweredBy"]');
+      for (var i = 0; i < nodes.length; i++) {
+        var el = nodes[i];
+        if (el && el.parentNode) el.parentNode.removeChild(el);
+      }
+    } catch (eHide) {}
+  }
+
   function enhanceContentCritical() {
+    hideMintlifyPoweredBy();
     applyContentClasses();
     rewriteContentLinks();
     // Defer heavy iframes BEFORE the browser starts dozens of embed navigations.

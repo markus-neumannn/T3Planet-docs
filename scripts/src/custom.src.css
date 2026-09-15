@@ -6066,3 +6066,15 @@ html.dark .t3-home-landing > .t3-landing-section:first-of-type,
 .dark .t3-home-landing > .t3-landing-section:first-of-type {
   border-top-color: rgba(255,255,255,0.1);
 }
+
+/* Hide Mintlify "Powered by" footer badge site-wide */
+a[href*="utm_campaign=poweredBy"],
+a[href*="utm_campaign=poweredBy"] svg,
+footer a[href*="mintlify.com"][href*="utm_campaign=poweredBy"] {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+}
