@@ -1886,14 +1886,29 @@
 
   function ensureDocsBaseOnClick(e) {
     try {
+      if (e.defaultPrevented) return;
+      if (e.button != null && e.button !== 0) return;
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
       var t = e.target;
       while (t && t.tagName !== "A") t = t.parentElement;
-      if (!t) return;
+      if (!t || t.target === "_blank") return;
       var href = t.getAttribute("href");
-      if (!href || href[0] !== "/") return;
+      if (!href || href[0] !== "/" || href.indexOf("//") === 0) return;
       var next = withDocsBase(cleanRoute(href));
-      if (next && next !== href) t.setAttribute("href", next);
+      if (!next || next === href) return;
+      // Force corrected Host-at path before Mintlify SPA uses the bare href.
+      e.preventDefault();
+      e.stopPropagation();
+      t.setAttribute("href", next);
+      if (window.location && window.location.assign) window.location.assign(next);
+      else window.location.href = next;
     } catch (eClick) {}
+  }
+
+  function rewriteAllDocLinks() {
+    try {
+      rewriteLinksIn(document);
+    } catch (eAll) {}
   }
 
   function enhanceContentCritical() {
@@ -1901,6 +1916,12 @@
     if (!window.__t3DocsBaseClickBound) {
       window.__t3DocsBaseClickBound = 1;
       document.addEventListener("click", ensureDocsBaseOnClick, true);
+      document.addEventListener("mousedown", ensureDocsBaseOnClick, true);
+      rewriteAllDocLinks();
+      try {
+        var obs = new MutationObserver(function () { rewriteAllDocLinks(); });
+        obs.observe(document.documentElement, { childList: true, subtree: true });
+      } catch (eObs) {}
     }
     applyContentClasses();
     rewriteContentLinks();
