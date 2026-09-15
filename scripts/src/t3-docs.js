@@ -1938,7 +1938,7 @@
 
   function rewriteAllDocLinks() {
     try {
-      rewriteLinksIn(document);
+      rewriteLinksIn(contentRoot());
     } catch (eAll) {}
   }
 
