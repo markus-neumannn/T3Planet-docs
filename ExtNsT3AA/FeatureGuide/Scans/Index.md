@@ -54,7 +54,7 @@ License **scan page quota** applies: each page scanned in the run counts
 against **Pages remaining**. See [Dashboard](/en/latest/ExtNsT3AA/FeatureGuide/Dashboard/Index) for how
 quota works.
 
-## Scanner vs other Scanner-tab tools
+## Heading Scanner vs other Scanner-tab tools
 
 | Area | Role |
 | --- | --- |

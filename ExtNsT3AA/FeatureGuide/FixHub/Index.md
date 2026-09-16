@@ -28,15 +28,6 @@ If the board is empty, run a **Scanner** check first, then return here. Use
 
 Findings appear on this board after a completed **Scanner** run.
 
-## Board view
-
-| Column | Meaning |
-| --- | --- |
-| New | Not started |
-| In Progress | Work has started |
-| Completed | Fixed / verified / closed |
-
-
 ## Filters
 
 Use the toolbar to show only what you need:
