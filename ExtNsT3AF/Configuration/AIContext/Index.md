@@ -33,6 +33,15 @@ AI Context — brand profiles, completeness, and prompt variables.
 - **SEO keywords** — finance, banking, loans
 - **Language style** — German formal (Sie) or simple English
 
+## Content Rules
+
+**Content Rules** are writing instructions for the AI, for example:
+
+- Always: use the Oxford comma
+- Never: use slang
+
+They are added into the AI prompt as text.
+
 ## Why it matters
 
 Without context, AI output sounds generic. With context, text matches your brand and market. Every editor benefits without retyping instructions.
