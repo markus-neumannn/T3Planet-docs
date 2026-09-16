@@ -52,4 +52,4 @@ For the composer based instance, it is very imporatnt to Symlink all the assets 
 > Click on “Updates” and check system requirements. Please make sure to have all green-signals ;) If something is wrong then adjust your server according to needs.
 >
 >
-> [![TYPO3-Revolution-Slider-System-Check](./images/TYPO3-Revolution-Slider-System-Check1.webp)](../../../_images/TYPO3-Revolution-Slider-System-Check1.png)
+> [![TYPO3-Revolution-Slider-System-Check](./images/TYPO3-Revolution-Slider-System-Check1.webp)](./images/TYPO3-Revolution-Slider-System-Check1.webp)

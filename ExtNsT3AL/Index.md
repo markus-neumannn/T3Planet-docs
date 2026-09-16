@@ -34,7 +34,7 @@ sidebarTitle: "AI Localization"
   <CardGroup cols={2}>
   <Card title="AI Localization" icon="languages" href="/en/latest/ExtNsT3AL/AILocalization/Index" />
   <Card title="Manual Localization" icon="pen-line" href="/en/latest/ExtNsT3AL/StartManualLocalization/Index" />
-  <Card title="XLIFF Import & Export" icon="file-text" href="/en/latest/ExtNsT3AL/SeamlessXLIFFImport&Export/Index" />
+  <Card title="XLIFF Import & Export" icon="file-text" href="/en/latest/ExtNsT3AL/SeamlessXLIFFImportAndExport/Index" />
   <Card title="T3AL for Everyone" icon="bot" href="/en/latest/ExtNsT3AL/T3ALforEveryone/Index" />
   </CardGroup>
 </section>

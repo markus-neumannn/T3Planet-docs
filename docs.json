@@ -276,7 +276,7 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsT3AC/CustomLLMSupport/Index",
-                  "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+                  "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index",
                   "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index",
                   "ExtNsT3AC/RetrievalConfidenceThreshold/Index"
                 ]
@@ -357,7 +357,7 @@
               "ExtNsT3AL/AILocalization/Index",
               "ExtNsT3AL/StartManualLocalization/Index",
               "ExtNsT3AL/AILocalizationLogs/Index",
-              "ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+              "ExtNsT3AL/SeamlessXLIFFImportAndExport/Index",
               "ExtNsT3AL/UpdateGuide/Index",
               "ExtNsT3AL/KnownProblems/Index",
               "ExtNsT3AL/T3ALTerms(Glossary)/Index",
@@ -398,7 +398,7 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsT3AS/CustomLLMSupport/Index",
-                  "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+                  "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index",
                   "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index",
                   "ExtNsT3AS/RetrievalConfidenceThreshold/Index"
                 ]
@@ -5899,12 +5899,12 @@
       "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index"
     },
     {
-      "source": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index.html",
-      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index"
+      "source": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index.html",
+      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index"
     },
     {
-      "source": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM.html",
-      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index"
+      "source": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM.html",
+      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index"
     },
     {
       "source": "/ExtNsT3AC/FeatureGuide/AILogs/Index.html",
@@ -6267,12 +6267,12 @@
       "destination": "/ExtNsT3AL/Screenshots/Index"
     },
     {
-      "source": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index.html",
-      "destination": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index"
+      "source": "/ExtNsT3AL/SeamlessXLIFFImportAndExport/Index.html",
+      "destination": "/ExtNsT3AL/SeamlessXLIFFImportAndExport/Index"
     },
     {
-      "source": "/ExtNsT3AL/SeamlessXLIFFImport&Export.html",
-      "destination": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index"
+      "source": "/ExtNsT3AL/SeamlessXLIFFImportAndExport.html",
+      "destination": "/ExtNsT3AL/SeamlessXLIFFImportAndExport/Index"
     },
     {
       "source": "/ExtNsT3AL/StartManualLocalization/Index.html",
@@ -6363,12 +6363,12 @@
       "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index"
     },
     {
-      "source": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index.html",
-      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index"
+      "source": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index.html",
+      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index"
     },
     {
-      "source": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM.html",
-      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index"
+      "source": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM.html",
+      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index"
     },
     {
       "source": "/ExtNsT3AS/DatabaseChunking/Index.html",
@@ -7268,11 +7268,11 @@
     },
     {
       "source": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites%26SOWCustomLLM/Index",
-      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index"
+      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index"
     },
     {
       "source": "/ExtNsT3AL/SeamlessXLIFFImport%26Export/Index",
-      "destination": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index"
+      "destination": "/ExtNsT3AL/SeamlessXLIFFImportAndExport/Index"
     },
     {
       "source": "/ExtNsT3AL/T3ALTerms%28Glossary%29/Index",
@@ -7280,7 +7280,7 @@
     },
     {
       "source": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites%26SOWCustomLLM/Index",
-      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index"
+      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index"
     },
     {
       "source": "/history.html",
@@ -7505,6 +7505,30 @@
     {
       "source": "/ExtNsT3AA/SimplifiedText",
       "destination": "/ExtNsT3AA/FeatureGuide/SimplifiedText/Index"
+    },
+    {
+      "source": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index",
+      "destination": "/ExtNsT3AL/SeamlessXLIFFImportAndExport/Index"
+    },
+    {
+      "source": "/ExtNsT3AL/SeamlessXLIFFImport&Export/Index.html",
+      "destination": "/ExtNsT3AL/SeamlessXLIFFImportAndExport/Index"
+    },
+    {
+      "source": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index",
+      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index"
+    },
+    {
+      "source": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index.html",
+      "destination": "/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index"
+    },
+    {
+      "source": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index",
+      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index"
+    },
+    {
+      "source": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index.html",
+      "destination": "/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index"
     }
   ],
   "description": "Official T3Planet documentation for TYPO3 extensions, templates, AI solutions, licensing, and installation guides.",

@@ -15,9 +15,9 @@ This section also covers the T3AF backend modules used day to day: providers, co
 
 ## Two configuration areas
 
-**AI Providers** — **Path:**T3AF > AI Providers. API keys, models, and defaults.
+**AI Providers** — **Path:** T3AF > AI Providers. API keys, models, and defaults.
 
-**AI Features** — **Path:**T3AF > AI Features. Per-site cards for connected extensions. AI Foundation's own card is **Access & Notifications** (Basic Auth and quota email alerts). MCP options are on T3AF > MCP Server > Advanced.
+**AI Features** — **Path:** T3AF > AI Features. Per-site cards for connected extensions. AI Foundation's own card is **Access & Notifications** (Basic Auth and quota email alerts). MCP options are on T3AF > MCP Server > Advanced.
 
 ![AI Features cards including Access and Notifications](./images/ai-features-cards.webp)
 
@@ -33,9 +33,11 @@ This section also covers the T3AF backend modules used day to day: providers, co
 
 ## AI Providers (primary)
 
-**Path:**T3AF > AI Providers
+**Path:** T3AF > AI Providers
 
 Connect at least one provider, set a model, run Test connection, and mark exactly one row as Default.
+
+DeepL Translate, Google, OpenAI, Anthropic, Gemini, and Ollama are provider rows here — not a separate key list.
 
 Full field reference: [Provider fields](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index). Guide: [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 
@@ -55,13 +57,19 @@ Where a classic Extension Configuration form is still used for optional keys, op
 
 - `openai_admin_api_key` — Organization usage charts (not the chat API key)
 
-### HTTP Basic Auth (optional)
+### Access & Notifications (HTTP Basic Auth)
+
+**Path:** T3AF > AI Features → **Access & Notifications**
 
 ![Access and Notifications drawer with Basic Auth and email alerts](./images/access-notifications.webp)
 
-- `basicAuthEnabled` — Enable helper
-- `basicAuthUsername` — Username
-- `basicAuthPassword` — Password
+Access & Notifications — Basic Auth and API quota email alerts.
+
+- **Enable Basic Authentication Support** — Let AI Foundation fetch URLs protected by HTTP Basic Auth (`basicAuthEnabled`)
+- **Basic Auth Username** (`basicAuthUsername`)
+- **Basic Auth Password** (`basicAuthPassword`)
+- **Enable email notification on API quota or authentication errors**
+- **Notification email address** — Recipient for quota or auth-error emails
 
 ### MCP Server
 
@@ -74,7 +82,7 @@ Full guide: [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index)
 
 ## Per-feature providers
 
-**Path:**T3AF > AI Features
+**Path:** T3AF > AI Features
 
 Override the default provider per task: SEO, Pages, Content, Translation.
 

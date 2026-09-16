@@ -48,7 +48,7 @@ sidebarTitle: "AI Chatbot"
   <h2 className="t3-landing-section-title">Custom LLM & upgrades</h2>
   <CardGroup cols={2}>
   <Card title="Custom LLM Support" icon="cpu" href="/en/latest/ExtNsT3AC/CustomLLMSupport/Index" />
-  <Card title="Prerequisites & SOW" icon="clipboard-list" href="/en/latest/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisites&SOWCustomLLM/Index" />
+  <Card title="Prerequisites & SOW" icon="clipboard-list" href="/en/latest/ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index" />
   <Card title="Hosting Policy" icon="server" href="/en/latest/ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index" />
   <Card title="Reinstall After Upgrade" icon="wrench" href="/en/latest/ExtNsT3AC/ReInstallEverything/Index" />
   <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsT3AC/UpdateVersion/Index" />

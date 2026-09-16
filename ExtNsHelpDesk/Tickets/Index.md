@@ -29,7 +29,7 @@ Full plugin options: [Plugin Configurations](/en/latest/ExtNsHelpDesk/PluginConf
 Frontend look of the ticket listing page.
 </Note>
 
-![ns-helpdesk-typo3-ticket-listing-fe](Images/ns-helpdesk-typo3-ticket-listing-fe.webp)
+![ns-helpdesk-typo3-ticket-listing-fe](images/ns-helpdesk-typo3-ticket-listing-fe.webp)
 
 ## Ticket Detail
 
@@ -40,6 +40,6 @@ the ticket from the frontend.
 Frontend look of the ticket detail page.
 </Note>
 
-![ns-helpdesk-typo3-ticket-detail-fe1](Images/ns-helpdesk-typo3-ticket-detail-fe1.webp)
+![ns-helpdesk-typo3-ticket-detail-fe1](images/ns-helpdesk-typo3-ticket-detail-fe1.webp)
 
-![ns-helpdesk-typo3-ticket-detail-fe2](Images/ns-helpdesk-typo3-ticket-detail-fe2.webp)
+![ns-helpdesk-typo3-ticket-detail-fe2](images/ns-helpdesk-typo3-ticket-detail-fe2.webp)

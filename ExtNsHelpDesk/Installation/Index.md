@@ -36,7 +36,7 @@ In the TYPO3 backend you can use the extension manager (EM).
 
 **Step 4.** Get it from typo3.org: You can always get the current version from https://extensions.typo3.org/extension/ns_helpdesk/ by downloading either the t3x or zip version. Upload the file afterwards in the Extension Manager.
 
-![ns-helpdesk-typo3-install-extension](Images/ns-helpdesk-typo3-install-extension.webp)
+![ns-helpdesk-typo3-install-extension](images/ns-helpdesk-typo3-install-extension.webp)
 
 ## Include TypoScript {#ns-helpdesk-include-typoscript}
 

@@ -13,7 +13,7 @@ sidebarTitle: "AI Prompts"
 
 Central **prompt templates** for T3AF and connected extensions. Same prompt quality for every user and every extension.
 
-**Path:**T3AF > AI Prompts
+**Path:** T3AF > AI Prompts
 
 ![AI Prompts categories and prompt catalog overview](./images/ai-prompts.webp)
 

@@ -79,4 +79,4 @@ To add the plugin to your page, follow these steps:
 
 ## Figures
 
-![T3AI_Configuration](images/Constant1.webp)
+![T3AI_Configuration](images/constant1.webp)

@@ -17,7 +17,7 @@ sidebarTitle: "AI Usage & Logs"
 
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpqbgz0fn3qmo5oaq6j1t9?utm_source=link" loading="lazy" title="T3AF AI Usage Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-**Path:**T3AF > AI Usage
+**Path:** T3AF > AI Usage
 
 Follow this interactive walkthrough, then continue with the details below.
 
@@ -37,7 +37,7 @@ Compare usage trends on the [Dashboard](/en/latest/ExtNsT3AF/Configuration/Dashb
 
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpsdl20frlqmo521y5if8m?utm_source=link" loading="lazy" title="T3AF AI Logs Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-**Path:**T3AF > AI Logs
+**Path:** T3AF > AI Logs
 
 Follow this interactive walkthrough, then continue with the details below.
 
@@ -53,7 +53,7 @@ Per-request detail includes:
 
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpsi9d0frwqmo59f50ny8s?utm_source=link" loading="lazy" title="T3AF Scheduler and CLI Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-**Path:**T3AF > Scheduler & CLI
+**Path:** T3AF > Scheduler & CLI
 
 Follow this interactive walkthrough, then continue with the details below.
 

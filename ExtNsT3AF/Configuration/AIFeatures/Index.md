@@ -13,7 +13,7 @@ sidebarTitle: "AI Features"
 
 Assign **different AI providers** per task type. Use a fast cheap model for bulk SEO work and a premium model for important pages.
 
-**Path:**T3AF > AI Features
+**Path:** T3AF > AI Features
 
 ![AI Features cards for extension-level AI settings](./images/ai-feature.webp)
 

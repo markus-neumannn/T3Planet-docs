@@ -15,7 +15,7 @@ sidebarTitle: "MCP Tools"
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbpdgzl0f4zqmo5tbj5kbah?utm_source=link" loading="lazy" title="T3AF MCP Tools Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 The **MCP Tools** screen lists every tool an AI agent can call against your TYPO3 instance. Core tools ship with T3AF. Child extensions can register additional tools.
 
-**Path:**T3AF > MCP Tools
+**Path:** T3AF > MCP Tools
 
 Follow this interactive walkthrough, then continue with the details below.
 

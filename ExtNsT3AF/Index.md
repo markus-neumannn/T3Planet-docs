@@ -19,7 +19,7 @@ sidebarTitle: "AI Foundation"
 
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">Get started</p>
-  <h2 className="t3-landing-section-title">Installation & setup</h2>
+  <h2 className="t3-landing-section-title">Installation and setup</h2>
   <CardGroup cols={2}>
   <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsT3AF/Introduction/Index" />
   <Card title="Installation" icon="download" href="/en/latest/ExtNsT3AF/Installation/Index" />
@@ -43,7 +43,7 @@ sidebarTitle: "AI Foundation"
 
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">Integrate</p>
-  <h2 className="t3-landing-section-title">MCP & agents</h2>
+  <h2 className="t3-landing-section-title">MCP and agents</h2>
   <CardGroup cols={2}>
   <Card title="Integrations" icon="blocks" href="/en/latest/ExtNsT3AF/Integrations/Index" />
   <Card title="MCP Server" icon="server" href="/en/latest/ExtNsT3AF/Integrations/MCPServer/Index" />
@@ -65,7 +65,7 @@ sidebarTitle: "AI Foundation"
 
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">Resources</p>
-  <h2 className="t3-landing-section-title">Help & support</h2>
+  <h2 className="t3-landing-section-title">Help and support</h2>
   <CardGroup cols={2}>
   <Card title="DPA & GDPR" icon="shield" href="/en/latest/ExtNsT3AF/DPAandGDPR/Index" />
   <Card title="Troubleshooting" icon="triangle-alert" href="/en/latest/ExtNsT3AF/Troubleshooting/Index" />

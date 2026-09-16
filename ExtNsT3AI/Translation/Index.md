@@ -99,7 +99,7 @@ Configure these command options in the Scheduler task settings:
 - **batch-size** — Number of pages processed per batch within one run.
 - **limit** — Cap one run at N pending queue pages; the rest stay for the next scheduler tick. `0` = unlimited.
 
-![Scheduler options batch-size and limit for Manage Mass Translation](Images/mass_translation_scheduler_limit.webp)
+![Scheduler options batch-size and limit for Manage Mass Translation](images/mass_translation_scheduler_limit.webp)
 
 Example: set **batch-size** to `10` and **limit** to `10` so each scheduler run processes up to 10 pending pages in batches of 10. Remaining pending pages stay in the queue for the next tick.
 
@@ -349,25 +349,25 @@ When you localize a page and choose **Translate with DeepL**, the mapped DeepL g
 
 **Backend Image**
 
-![AI log](Images/Backend_Image.webp)
+![AI log](images/Backend_Image.webp)
 
 **Frontend image without preview mode**
 
-![Frontend image without preview](./Images/Frontend_without_Preview.webp)
+![Frontend image without preview](./images/Frontend_without_Preview.webp)
 
 
 
 **Backend Image**
 
-![Backend image](Images/Backend_Image.webp)
+![Backend image](images/Backend_Image.webp)
 
 **Preview mode image**
 
-![Preview mode image](./Images/Frontend_with_Preview.webp)
+![Preview mode image](./images/Frontend_with_Preview.webp)
 
 **Frontend image without preview mode**
 
-![Frontend image without preview](./Images/Frontend_without_Preview.webp)
+![Frontend image without preview](./images/Frontend_without_Preview.webp)
 
 ## Activate Translated Content
 
@@ -414,12 +414,27 @@ After translation, this feature controls how hidden content elements are handled
 
 Follow below steps to enable this feature.
 
-![AI log](./Images/activate.webp)
+![AI log](./images/activate.webp)
 
 1. Open the desired **Page** in TYPO3.
 2. Click **Edit Page Properties**.
 3. Navigate to the **T3AI** tab.
 4. Enable the **Activate All Content Elements** option.
+
+
+## FlexForm field keys to skip from AI translation (comma-separated)
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmoclot811hxfs2tq5kqtysxw?embed_v=2&utm_source=embed" loading="lazy" title="FlexForm field keys to skip Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+Define **FlexForm field keys to skip from AI translation** to exclude specific fields from being translated.
+
+Enter a comma-separated list of FlexForm field keys that should be ignored during the AI translation process.
+
+**How it works:**
+
+- The system reads the configured field keys.
+- During translation, matching FlexForm fields are skipped.
+- All other fields are translated normally by the AI.
 
 
 ## Interactive demos

@@ -15,7 +15,7 @@ sidebarTitle: "Dashboard"
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbp02gg0dysqmo5wfd0olu1?utm_source=link" loading="lazy" title="T3AF Dashboard Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 The Dashboard is your **control center** for AI health on this TYPO3 instance. Open it daily for a quick status check.
 
-**Path:**T3AF > Dashboard
+**Path:** T3AF > Dashboard
 
 Follow this interactive walkthrough, then continue with the details below.
 

@@ -15,7 +15,7 @@ sidebarTitle: "MCP Server"
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbp5q660ej4qmo546ztyk1h?utm_source=link" loading="lazy" title="T3AF MCP Server Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Connect external AI agents to TYPO3 through the **Model Context Protocol (MCP)**. Tools like **Cursor**, **Claude Desktop**, and **n8n** can read pages, inspect schema, and update records (with permissions).
 
-**Path:**T3AF > MCP Server
+**Path:** T3AF > MCP Server
 
 Follow this interactive walkthrough, then continue with the details below.
 

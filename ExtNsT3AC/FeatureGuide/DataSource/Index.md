@@ -285,6 +285,8 @@ Example of scheduler task output in the terminal.
 
 Example showing queue processing and training completion summary.
 
+### Extension settings used by training (AI Foundation → AI Features)
+
 These **T3CS / AI Chatbot & Search** settings are applied when the scheduler task is configured:
 
 - **Batch size** → `--batch-size` on the task
@@ -328,7 +330,7 @@ ddev typo3 t3af:history:cleanup 90
 
 The first command uses the default of **90** days. Setting `days` to `3` deletes usage history older than 3 days (CLI: `t3af:history:cleanup 3`).
 
-![Scheduler task t3af:history:cleanup with days argument set to 3](Images/t3af-history-cleanup.webp)
+![Scheduler task t3af:history:cleanup with days argument set to 3](images/t3af-history-cleanup.webp)
 
 *Configure **days** on the `t3af:history:cleanup` scheduler task. Default retention is 90 days when the argument is omitted.*
 

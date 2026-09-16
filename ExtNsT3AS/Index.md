@@ -47,7 +47,7 @@ sidebarTitle: "AI Search"
   <h2 className="t3-landing-section-title">Custom LLM & upgrades</h2>
   <CardGroup cols={2}>
   <Card title="Custom LLM Support" icon="cpu" href="/en/latest/ExtNsT3AS/CustomLLMSupport/Index" />
-  <Card title="Prerequisites & SOW" icon="clipboard-list" href="/en/latest/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisites&SOWCustomLLM/Index" />
+  <Card title="Prerequisites & SOW" icon="clipboard-list" href="/en/latest/ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index" />
   <Card title="Custom LLM Hosting" icon="server" href="/en/latest/ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index" />
   <Card title="Update Guide" icon="arrow-up" href="/en/latest/ExtNsT3AS/UpdateGuide/Index" />
   <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsT3AS/UpdateVersion/Index" />

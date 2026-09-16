@@ -39,7 +39,7 @@ You can control, among others:
 Frontend look of the ticket creation form.
 </Note>
 
-![ns-helpdesk-typo3-form-fe](Images/ns-helpdesk-typo3-form-fe.webp)
+![ns-helpdesk-typo3-form-fe](images/ns-helpdesk-typo3-form-fe.webp)
 
 ## Popup Form Settings
 
@@ -51,4 +51,4 @@ Set popup appearance, layout, title, and color, then save.
 Frontend look of the popup support form.
 </Note>
 
-![ns-helpdesk-typo3-popup-form-fe](Images/ns-helpdesk-typo3-popup-form-fe.webp)
+![ns-helpdesk-typo3-popup-form-fe](images/ns-helpdesk-typo3-popup-form-fe.webp)

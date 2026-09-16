@@ -6,7 +6,7 @@ keywords:
   - "T3Planet"
   - "T3AL"
   - "Seamless XLIFF Import & Export"
-  - "SeamlessXLIFFImport&Export"
+  - "SeamlessXLIFFImportAndExport"
 sidebarTitle: "Seamless XLIFF Import & Export"
 ---
 

@@ -15,7 +15,7 @@ sidebarTitle: "AI Context"
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbp3jz80eaiqmo5zuj6gb0e?utm_source=link" loading="lazy" title="T3AF AI Context Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Store your **brand profile** once. T3AF injects it into prompts for consistent, on-brand results across all connected extensions.
 
-**Path:**T3AF > AI Context
+**Path:** T3AF > AI Context
 
 Follow this interactive walkthrough, then continue with the details below.
 

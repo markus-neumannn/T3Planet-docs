@@ -109,7 +109,7 @@ Configure your chatbot to support multiple languages directly from the **Configu
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmjcqxd4f4g3gf6zpaxu4str4?embed_v=2&utm_source=embed" loading="lazy" title="Scheduler Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Use the **Scheduler** under the **Website** section of the **Training** tab to automate training tasks on large website datasets—ideal for frequent content updates or large-scale web crawling.
 
-## Sitemap Crwaling
+## Sitemap Crawling
 
 - To run the scheduler via CLI, use the command (1 is the ID of the scheduler):
 

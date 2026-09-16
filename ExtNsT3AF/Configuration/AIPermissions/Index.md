@@ -11,7 +11,7 @@ sidebarTitle: "AI Permissions"
 
 Guided setup wizard for TYPO3 backend usergroup AI permissions.
 
-**Path:**T3AF > AI Permissions
+**Path:** T3AF > AI Permissions
 
 Follow this interactive walkthrough, then continue with the details below.
 
