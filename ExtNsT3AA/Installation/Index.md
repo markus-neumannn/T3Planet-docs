@@ -66,17 +66,17 @@ Use this workflow when your TYPO3 project is managed with Composer:
 1. Check the T3Planet Composer repository configuration.
 2. Update the `only` parameter so the project can download T3AA:
 
-   .. code-block:: json
-
-      "only": [
-        "nitsan/ns-t3aa"
-      ]
+```json
+"only": [
+  "nitsan/ns-t3aa"
+]
+```
 
 3. Install the T3AA package:
 
-   .. code-block:: bash
-
-      composer require nitsan/ns-t3aa
+```bash
+composer require nitsan/ns-t3aa
+```
 
 4. Verify that the installation completed successfully.
 5. Confirm that AI Foundation (`nitsan/ns-t3af` / `EXT:ns_t3af`) is installed. If it is missing, install it using **Step 3 — Install AI Foundation**.

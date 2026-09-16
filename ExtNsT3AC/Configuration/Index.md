@@ -17,7 +17,7 @@ Helpful T3AF references:
 - [T3AF Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
 - [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
 - [AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index)
-- AI Prompts
+- [AI Prompts](/en/latest/ExtNsT3AF/Configuration/AIPrompts/Index)
 
 ## Step 1: Open AI Features in T3AF
 
@@ -102,18 +102,18 @@ Review this setup when you want to confirm the active provider, available models
 See also:
 
 - [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
-- MCP Server
-- MCP Tools
+- [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index)
+- [MCP Tools](/en/latest/ExtNsT3AF/Integrations/MCPTools/Index)
 
+### Chatbot visibility examples
 
-![Enable_chatbot_globally](./images/Enable_chatbot_globally.webp)
+![Enable chatbot globally](./images/Enable_chatbot_globally.webp)
 
+![Show chatbot](./images/Show_chatbot.webp)
 
-![Show_chatbot](./images/Show_chatbot.webp)
+### CSS examples
 
+![Internal CSS](./images/Internal_css.webp)
 
-![Internal_css](./images/Internal_css.webp)
-
-
-![External-chatbot](./images/External-chatbot.webp)
+![External chatbot](./images/External-chatbot.webp)
 

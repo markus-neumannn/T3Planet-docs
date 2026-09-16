@@ -26,7 +26,7 @@ It is **not** a separate scan engine. The engine that runs is still the
 6. Confirm pages show as **Pending** in the **Bulk Scans queue**.
 7. Create / enable a **T3AA Bulk Scans** (or **T3AA Monitor Scan**) task under
    **Admin Tools → Scheduler**.
-8. After the task runs, review findings in [Fix Hub](/en/latest/FixHub/Index)
+8. After the task runs, review findings in [Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index)
    and the [Dashboard](/en/latest/ExtNsT3AA/FeatureGuide/Dashboard/Index).
 
 ## Scan page quota
@@ -49,9 +49,9 @@ an interactive Scanner pass.
 
 ## CLI (integrators)
 
-::
-
-   vendor/bin/typo3 nst3aa:monitor:run
+```bash
+vendor/bin/typo3 nst3aa:monitor:run
+```
 
 ## Important notes
 

@@ -46,4 +46,4 @@ Following Galleries are available with this extension:
 
 ## Figures
 
-![Extension banner](images/ext_banner1.webp)
+![Extension banner](images/ext_banner1.jpg)

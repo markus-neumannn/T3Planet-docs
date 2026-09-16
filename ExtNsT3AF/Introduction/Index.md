@@ -15,13 +15,18 @@ sidebarTitle: "Introduction"
 
 ## Overview
 
-**T3AF** (`EXT:ns_t3af`) is T3Planet’s shared AI foundation for TYPO3. It is the central engine behind all T3Planet AI extensions.
+**AI Foundation** (`EXT:ns_t3af`) is T3Planet’s shared AI foundation for TYPO3. It is the central engine behind all T3Planet AI extensions.
 
-T3AF connects TYPO3 to AI models, manages API keys, exposes an MCP server for AI agents, and logs every request — so your team uses AI in a safe, consistent way. Editors work through connected extensions such as AI Assistant or AI Chatbot. Admins configure everything in the **T3AF** backend module group.
+AI Foundation connects TYPO3 to AI models, manages API keys, exposes an MCP server for AI agents, and logs every request — so your team uses AI in a safe, consistent way. Editors work through connected extensions such as AI Assistant or AI Chatbot. Admins configure everything in the **AI Foundation** backend module group.
+
+AI Foundation is OSS (GPL-2.0-or-later) for development and production.
+Activate with an OSS license key via **T3Planet Shop** >
+**AI Universe** > **AI Foundation** > **Start**.
 
 ### Key capabilities
 
 - **AI Providers** — Connect OpenAI, Claude, Gemini, and other vendors with encrypted API keys
+- **T3Planet Credits** — Optional add-on for AI usage without your own vendor API keys
 - **MCP Server** — Expose TYPO3 to Cursor, Claude Desktop, and other MCP clients
 - **AI Context** — Store brand voice once for on-brand AI output
 - **AI Prompts & Features** — Shared prompt templates and per-feature provider assignment
@@ -32,14 +37,14 @@ T3AF connects TYPO3 to AI models, manages API keys, exposes an MCP server for AI
 ### Helpful Links
 
 <Note>
-- Product: [https://t3planet.de/ai-foundation-fur-typo3](https://t3planet.de/ai-foundation-fur-typo3)
+- Product: [https://t3planet.de/en/ai-foundation-for-typo3](https://t3planet.de/en/ai-foundation-for-typo3)
 - Get support: [https://t3planet.de/support](https://t3planet.de/support)
 - License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
 </Note>
 
 ## Video Tutorials
 
-Use these interactive walkthroughs to learn **T3AF** setup and daily operation. Watch a demo, then return to the matching documentation page for full details.
+Use these interactive walkthroughs to learn **AI Foundation** setup and daily operation. Watch a demo, then return to the matching documentation page for full details.
 
 Follow the recommended order below and practice on a staging TYPO3 instance.
 
@@ -47,7 +52,7 @@ Follow the recommended order below and practice on a staging TYPO3 instance.
 
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbp02gg0dysqmo5wfd0olu1?utm_source=link" loading="lazy" title="T3AF Dashboard Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Start here for a high-level tour of the T3AF Dashboard.
+Start here for a high-level tour of the AI Foundation Dashboard.
 
 Next: [Dashboard](/en/latest/ExtNsT3AF/Configuration/Dashboard/Index)
 
@@ -55,7 +60,7 @@ Next: [Dashboard](/en/latest/ExtNsT3AF/Configuration/Dashboard/Index)
 
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbnnxgy0cp3qmo5e1ciofeq?utm_source=link" loading="lazy" title="T3AF Quick Setup Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Learn how to activate T3AF and complete first-time setup.
+Learn how to activate AI Foundation and complete first-time setup.
 
 Next: [Installation](/en/latest/ExtNsT3AF/Installation/Index)
 

@@ -10,7 +10,7 @@ sidebarTitle: "Introduction"
 
 ## NS T3AL
 
-![T3AL_banner](images/Banner.webp)
+![T3AL_banner](images/Banner.jpg)
 
 ## What Does the TYPO3 AL Localization Extension Do?
 

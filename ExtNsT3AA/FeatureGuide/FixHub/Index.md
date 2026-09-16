@@ -23,10 +23,6 @@ until completed. Fix Hub does **not** run the scan itself.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmu2a3j030m7cqmrxsj41amvz?utm_source=link" loading="lazy" title="T3AA Fix Hub Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-## Fix Hub board
-
-![Fix Hub board](../images/fixhub-board.webp)
-
 ## How to open Fix Hub
 
 1. Open **AI Accessibility**.

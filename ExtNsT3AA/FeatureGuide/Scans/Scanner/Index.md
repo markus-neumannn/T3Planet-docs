@@ -12,7 +12,7 @@ The **Scanner** is the interactive accessibility checker under
 **AI Accessibility → Scanner → Scanner**.
 
 It checks the HTML of pages in your selected **scope** (page + depth), then
-lists findings you can open in [Fix Hub](/en/latest/FixHub/Index).
+lists findings you can open in [Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index).
 
 ## How to run a scan
 

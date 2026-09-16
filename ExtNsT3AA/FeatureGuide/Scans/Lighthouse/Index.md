@@ -17,7 +17,7 @@ In older documentation this workflow was named **Speed Core Web Vital**. In the
 current product, use **Lighthouse**.
 
 Findings from a completed Lighthouse run can appear on the
-[Fix Hub](/en/latest/FixHub/Index) board (alongside Scanner findings).
+[Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index) board (alongside Scanner findings).
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmu2a1u8o0lzaqmrxpu3so1lv?utm_source=link" loading="lazy" title="T3AA Lighthouse Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
@@ -31,7 +31,7 @@ Findings from a completed Lighthouse run can appear on the
 5. Choose **Desktop** or **Mobile** (as offered).
 6. Click **Run Lighthouse Scan** and wait for results.
 7. Review category scores and accessibility audits.
-8. Continue remediation in [Fix Hub](/en/latest/FixHub/Index) when findings are
+8. Continue remediation in [Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index) when findings are
    listed there.
 
 ## What you get

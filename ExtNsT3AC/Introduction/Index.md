@@ -11,7 +11,7 @@ sidebarTitle: "T3AC - TYPO3 AI Chatbot Extension"
 
 ## EXT:ns_t3ac
 
-![Extension Banner](images/AC.webp)
+![Extension Banner](./images/AC.jpg)
 
 T3AC adds an AI-powered chatbot to TYPO3 so teams can answer user questions with trained project data.
 It supports chatbot configuration, training, data sources, usage tracking, and embedded chatbot delivery for supported websites.

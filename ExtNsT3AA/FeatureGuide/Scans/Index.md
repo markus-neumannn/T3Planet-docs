@@ -11,7 +11,7 @@ sidebarTitle: "Scanner"
 **Scanner** is the AI Accessibility area where you **check pages** for
 accessibility problems for the page selected in the TYPO3 page tree.
 
-**A scan reports findings.** [Fix Hub](/en/latest/FixHub/Index) is where you
+**A scan reports findings.** [Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index) is where you
 **track and close** the remediation work.
 
 The main tab is labelled **Scanner**. Inside it you will find:
@@ -22,10 +22,6 @@ The main tab is labelled **Scanner**. Inside it you will find:
   (not a separate scan engine)
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmu2a13j50luqqmrxl9rczxir?utm_source=link" loading="lazy" title="T3AA Scanner Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-
-## Scanner overview
-
-![Scanner overview](../images/scanner-overview.webp)
 
 ## How it works
 

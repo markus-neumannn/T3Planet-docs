@@ -15,7 +15,7 @@ Turn on T3Planet Credits from AI Foundation and manage limits and top-ups.
 ## Before you start
 
 - AI Foundation (`EXT:ns_t3af`) installed and active
-- Valid T3Planet license available (`EXT:ns_license`)
+- Valid OSS license key available (`EXT:ns_license`)
 - Server can reach the T3Planet API
 
 ## Activate Credits
@@ -36,7 +36,7 @@ After activation — T3Planet Credits active, balance panel, and
 Buy more credits.
 
 <Note>
-If Activate fails, check that your T3Planet license is valid, the server can
+If Activate fails, check that your OSS license key is valid, the server can
 reach the T3Planet API, and try again. See
 [Troubleshooting](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Troubleshooting/Index#t3planet-credits-troubleshooting) for common fixes.
 </Note>

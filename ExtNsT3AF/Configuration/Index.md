@@ -101,4 +101,4 @@ Full guide: [AI Label](/en/latest/ExtNsT3AF/Configuration/AILabel/Index)
 - After key rotation — run **Test connection** again
 - When adding a new child extension — check [AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index)
 - Before enabling MCP in production — read [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index) security section
-- After license renewal — confirm the extension license is still valid
+- After OSS license key renewal — confirm the key is still valid

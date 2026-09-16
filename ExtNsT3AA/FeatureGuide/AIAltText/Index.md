@@ -25,10 +25,6 @@ review; use File List when you are already editing specific files.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmu29ippl0kqlqmrxl4pixxby?utm_source=link" loading="lazy" title="T3AA AI Alt Text Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-## AI Alt Text module
-
-![AI Alt Text module](../images/ai-alt-text.webp)
-
 ## Steps — AI Alt Text module
 
 1. Configure an AI provider in **AI Foundation → AI Providers**.

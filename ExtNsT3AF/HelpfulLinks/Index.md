@@ -14,7 +14,7 @@ Official resources for **EXT:ns_t3af**.
 ## Product and documentation
 
 <Note>
-- T3Planet T3AF: [https://t3planet.de/ai-foundation-fur-typo3](https://t3planet.de/ai-foundation-fur-typo3)
+- T3Planet AI Foundation: [https://t3planet.de/en/ai-foundation-for-typo3](https://t3planet.de/en/ai-foundation-for-typo3)
 - Model Context Protocol: [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)
 - TYPO3 documentation: [https://docs.typo3.org/](https://docs.typo3.org/)
 - License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
@@ -22,7 +22,7 @@ Official resources for **EXT:ns_t3af**.
 
 ## API key portals
 
-Store keys only in T3AF > AI Providers. Never commit keys to Git.
+Store keys only in AI Foundation > AI Providers. Never commit keys to Git.
 
 - **OpenAI** — [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 - **Anthropic (Claude)** — [https://console.anthropic.com/](https://console.anthropic.com/)
@@ -54,7 +54,7 @@ Store keys only in T3AF > AI Providers. Never commit keys to Git.
 
 ## When to use which link
 
-- **Installing premium** — License activation URL above
+- **Activating your OSS license key** — **T3Planet Shop** > **AI Universe** > **AI Foundation** > **Start**
 - **Getting API keys** — Provider portals above, then [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index#ns-t3af-ai-providers)
 - **Developer integration** — [Developer Guide](/en/latest/ExtNsT3AF/DeveloperGuide/Index#ns-t3af-developer-guide) for `AiServiceInterface`
 - **MCP client setup** — Model Context Protocol site plus [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index#ns-t3af-mcp-server)

@@ -19,9 +19,9 @@ accessibility issues while editing in the RTE.
 2. Click the **Accessibility Check** control in the editor toolbar.
 3. Review the issues listed for the current content.
 4. If an image is missing alternative text, generate or enter alt text
-   (see [AI Alt Text](/en/latest/AIAltText/Index)), then save.
+   (see [AI Alt Text](/en/latest/ExtNsT3AA/FeatureGuide/AIAltText/Index)), then save.
 
 ## Important notes
 
 * This check runs in the editor context for the content you are editing.
-* For full-page website scans, use [Scanner](/en/latest/Scans/Index) instead.
+* For full-page website scans, use [Scanner](/en/latest/ExtNsT3AA/FeatureGuide/Scans/Index) instead.

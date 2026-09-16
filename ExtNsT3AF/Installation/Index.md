@@ -10,12 +10,15 @@ sidebarTitle: "Installation"
 
 ## Quick start
 
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbnnxgy0cp3qmo5e1ciofeq?utm_source=link" loading="lazy" title="T3AF Quick Setup Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 The recommended way to install this extension is via Composer.
 
+AI Foundation is 100% OSS (GPL-2.0-or-later). Activate it with an OSS
+license key. Use it on development and production.
+
 Install the license extension first (if it is not already present), then
-T3AF (`EXT:ns_t3af`):
+AI Foundation (`EXT:ns_t3af`):
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbnnxgy0cp3qmo5e1ciofeq?utm_source=link" loading="lazy" title="AI Foundation Quick Setup Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 Install via Composer
 
@@ -32,19 +35,19 @@ Classic TYPO3 sites can also install from the
 After installation:
 
 1. Activate the extensions in Admin Tools > Extensions.
-2. Open T3AF > Dashboard and confirm the module group is
+2. Open AI Foundation > Dashboard and confirm the module group is
 available.
-3. Connect providers and API keys in T3AF > AI Providers.
-4. Complete guided options with Quick Setup in the T3AF
+3. Connect providers and API keys in AI Foundation > AI Providers.
+4. Complete guided options with Quick Setup in the AI Foundation
 module header.
 5. Clear caches in Admin Tools > Maintenance.
 
 Follow this interactive walkthrough for Quick Setup, then continue with the
 details below.
 
-![T3AF Quick Setup wizard welcome step](./images/quick-setups.webp)
+![AI Foundation Quick Setup wizard welcome step](./images/quick-setups.webp)
 
-Quick Setup wizard — guided first-time configuration in the T3AF module.
+Quick Setup wizard — guided first-time configuration in the AI Foundation module.
 
 Continue with [Configuration](/en/latest/ExtNsT3AF/Configuration/Index#ns-t3af-configuration) for providers, MCP, and
 day-to-day module setup.
@@ -63,9 +66,9 @@ Ensure your system meets these requirements:
 
 ### Required Extensions
 
-Install and activate these extensions before T3AF:
+Install and activate these extensions before AI Foundation:
 
-- **ns_license** — License activation and premium feature validation
+- **ns_license** — License activation and license-key validation
 - **scheduler** — Background AI jobs and scheduled tasks
 - **workspaces** — Draft workspaces, MCP workflows, and safe content editing
 
@@ -74,8 +77,8 @@ not already enabled.
 
 ### Install the license extension
 
-`EXT:ns_license` must be installed first. T3AF depends on it for
-license checks. The extension is free on the
+`EXT:ns_license` must be installed first. AI Foundation depends on it for
+license checks. The extension is available on the
 [TYPO3 Extension Repository](https://extensions.typo3.org/extension/ns_license).
 
 Install ns_license via Composer
@@ -87,12 +90,12 @@ composer require nitsan/ns-license
 Or use Admin Tools > Extensions > Get Extensions, search for
 `ns_license`, install and activate it, then flush caches.
 
-### Install T3AF
+### Install AI Foundation
 
 `EXT:ns_t3af` must be installed after `EXT:ns_license`. Find it on the
 [TYPO3 Extension Repository](https://extensions.typo3.org/extension/ns_t3af).
 
-Install T3AF via Composer
+Install AI Foundation via Composer
 
 ```bash
 composer require nitsan/ns-t3af
@@ -101,13 +104,14 @@ composer require nitsan/ns-t3af
 Or use Admin Tools > Extensions > Get Extensions, search for
 `ns_t3af` (or **T3AF**), install and activate it, then flush caches.
 
-### Get your free license key
+### Activate your OSS license key
 
-A free license key is required to activate T3AF. After you install
-`EXT:ns_t3af`, get your free license key and enter it before you continue
-with configuration:
+An OSS license key is required to activate AI Foundation. After you install
+`EXT:ns_t3af`, go to **T3Planet Shop** backend module >
+**AI Universe** > **AI Foundation** and click **Start** before
+you continue with configuration.
 
-[https://t3planet.de/en/ai-foundation-for-typo3#c19775](https://t3planet.de/en/ai-foundation-for-typo3#c19775)
+Product page: [https://t3planet.de/en/ai-foundation-for-typo3](https://t3planet.de/en/ai-foundation-for-typo3)
 
 #### Activate the extension
 
@@ -143,7 +147,7 @@ Confirm that:
 
 - `ns_license` and `ns_t3af` are listed as active in
 Admin Tools > Extensions
-- The **T3AF** module group appears in the backend sidebar
+- The **AI Foundation** module group appears in the backend sidebar
 - **Analyze Database Structure** reports no pending changes for `ns_t3af`
 
 If the module is missing, flush caches and run
@@ -151,5 +155,5 @@ If the module is missing, flush caches and run
 
 ## Next steps
 
-Open T3AF > AI Providers to connect at least one provider,
+Open AI Foundation > AI Providers to connect at least one provider,
 then review [Configuration](/en/latest/ExtNsT3AF/Configuration/Index#ns-t3af-configuration).

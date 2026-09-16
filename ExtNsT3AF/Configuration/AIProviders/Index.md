@@ -12,7 +12,7 @@ sidebarTitle: "AI Providers"
 Providers represent connections to AI services. Each provider stores an adapter
 type, optional endpoint, encrypted credentials, models, and capability flags.
 
-**Path:** T3AF > AI Providers
+**Path:** AI Foundation > AI Providers
 
 Follow this interactive walkthrough, then continue with the details below.
 
@@ -23,9 +23,13 @@ default provider.
 
 Without at least one working provider, no AI feature runs.
 
+Alternatively, use [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index) when you
+want AI without configuring your own vendor API keys. Your Own API Keys stays
+the default.
+
 ## Adding a provider
 
-1. Open T3AF > AI Providers.
+1. Open AI Foundation > AI Providers.
 2. Click Add provider.
 3. Fill in the required fields:
   - **Display name** — Friendly label for your team (for example `OpenAI
@@ -40,7 +44,7 @@ and pricing fields.
 6. Enable Default on exactly one provider.
 
 <Tip>
-For first-time setup, use Quick Setup in the T3AF module
+For first-time setup, use Quick Setup in the AI Foundation module
 header. It walks through provider creation with fewer decisions.
 </Tip>
 
@@ -138,9 +142,79 @@ Fields below map to the AI Providers drawer and the
 
 ### Required
 
+<ResponseField name="identifier" type="string" required>
+Unique slug for programmatic access (for example `openai-prod`,
+`ollama-local`). Must be unique.
+</ResponseField>
+
+<ResponseField name="title" type="string" required>
+Display name shown in the backend and dropdowns.
+</ResponseField>
+
+<ResponseField name="adapter_type" type="string" required>
+Adapter protocol identifier, for example `symfony.openai` or
+`nst3af.openai_compatible`.
+</ResponseField>
+
 ### Connection
 
+<ResponseField name="api_key" type="string">
+API key for authentication. Stored as sodium ciphertext with an
+`enc:v1:` prefix — raw keys are never kept in the database. Required for
+cloud adapters; usually empty for local Ollama.
+</ResponseField>
+
+<ResponseField name="endpoint_url" type="string" default="Adapter default">
+Custom API base URL. Required for OpenAI-compatible and Ollama-style
+adapters when the default host is wrong for your network.
+</ResponseField>
+
+<ResponseField name="model_id" type="string">
+Default completion / chat model ID.
+</ResponseField>
+
+<ResponseField name="embedding_model_id" type="string">
+Default embedding model ID when embeddings are enabled.
+</ResponseField>
+
 ### Optional configuration
+
+<ResponseField name="capabilities" type="string list">
+Enabled capabilities: `chat`, `completion`, `embeddings`, `vision`,
+`streaming`, `tool_use`.
+</ResponseField>
+
+<ResponseField name="temperature" type="float" default="0.7">
+Default sampling temperature (`0.0`–`2.0`).
+</ResponseField>
+
+<ResponseField name="system_prompt" type="text">
+Optional provider-level system message prepended to requests.
+</ResponseField>
+
+<ResponseField name="is_default" type="bool" default="false">
+Mark as the global default. Keep exactly one default among enabled rows.
+</ResponseField>
+
+<ResponseField name="is_enabled" type="bool" default="true">
+Soft on/off switch without deleting the row.
+</ResponseField>
+
+<ResponseField name="priority" type="integer" default="50">
+Ordering hint (`0`–`100`) when multiple providers are listed.
+</ResponseField>
+
+<ResponseField name="be_groups" type="backend groups">
+Restrict this provider to selected backend groups. Empty means available to
+all groups.
+</ResponseField>
+
+<ResponseField name="privacy_level" type="string" default="standard">
+Logging privacy only — how much is stored in the local request log
+(`standard`, `reduced` without prompt fingerprint, or `none`). This
+does not redact or block prompts, brand context, or documents sent to the
+AI provider.
+</ResponseField>
 
 ### Governance and status
 

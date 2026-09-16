@@ -22,7 +22,7 @@ T3Planet Credits is T3Planet’s managed AI access in AI Foundation (`ns_t3af`):
 
 ## Requirements
 
-- A valid T3Planet license (`EXT:ns_license`)
+- A valid OSS license key (`EXT:ns_license`)
 - AI Foundation (`EXT:ns_t3af`) installed and active
 
 ## What’s covered

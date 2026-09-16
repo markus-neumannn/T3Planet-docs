@@ -9,17 +9,17 @@ keywords:
 sidebarTitle: "FAQ"
 ---
 
-Short answers about **T3AF** (`EXT:ns_t3af`).
+Short answers about **AI Foundation** (`EXT:ns_t3af`).
 
 ## General
 
-**What is T3AF?**
+**What is AI Foundation?**
 
 The shared AI foundation for T3Planet TYPO3 extensions. It manages providers, MCP, brand context, prompts, access roles, and usage in one backend module. See [Overview](/en/latest/ExtNsT3AF/Introduction/Index).
 
 **Does it include a frontend plugin?**
 
-No. T3AF is a backend foundation layer. Visitors see AI through child extensions such as AI Assistant or AI Chatbot.
+No. AI Foundation is a backend foundation layer. Visitors see AI through child extensions such as AI Assistant or AI Chatbot.
 
 **Which TYPO3 and PHP versions are supported?**
 
@@ -31,15 +31,31 @@ TYPO3 12.4–14.x with PHP 8.2 or higher. See [System Requirements](/en/latest/E
 
 With Composer (`composer require nitsan/ns-t3af`) or from the TYPO3 Extension Repository. See [Installation](/en/latest/ExtNsT3AF/Installation/Index).
 
+**How do I activate the OSS license key?**
+
+Open **T3Planet Shop** > **AI Universe** >
+**AI Foundation** and click **Start**. See
+[Installation](/en/latest/ExtNsT3AF/Installation/Index).
+
+**Is a commercial license required?**
+
+No. AI Foundation is OSS (GPL-2.0-or-later). Activate the OSS license key as
+described above. T3Planet Credits is optional and pays for AI usage only.
+
 **Composer reports a conflict with another MCP package.**
 
-Remove conflicting MCP server packages first, then install T3AF. See [Known Problems](/en/latest/ExtNsT3AF/Troubleshooting/KnownProblems/Index).
+Remove conflicting MCP server packages first, then install AI Foundation. See [Known Problems](/en/latest/ExtNsT3AF/Troubleshooting/KnownProblems/Index).
 
 ## Providers and MCP
 
 **Can I use local models such as Ollama?**
 
 Yes. Use the Ollama provider type or a custom OpenAI-compatible endpoint. See [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index).
+
+**What is T3Planet Credits?**
+
+An optional mode that uses a shared T3Planet credit balance instead of your
+own vendor API keys. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 **Test connection fails even with a valid key.**
 
@@ -53,7 +69,11 @@ Model Context Protocol connects AI clients such as Cursor to your TYPO3 instance
 
 **Where does request data go?**
 
-T3AF is self-hosted. Prompts and responses go from your server to the AI provider you configure, using your API keys. T3Planet is not in the AI data path. License validation only sends the license key and domain.
+AI Foundation is self-hosted. With **Your Own API Keys**, prompts and responses
+go from your server to the AI provider you configure. T3Planet is not in that
+AI data path. With [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index) active,
+billable AI calls go through T3Planet and use your credit balance. OSS license
+validation only sends the license key and domain.
 
 ## Still stuck?
 

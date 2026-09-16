@@ -19,7 +19,7 @@ Before digging into individual symptoms:
 
 ## Activation failed
 
-1. Check the T3Planet license is valid and assigned to this project
+1. Check the OSS license key is valid and assigned to this project
 2. Confirm the license domain matches the current site domain
 3. Check the server can reach the composer API
 4. Flush caches → retry Activate
