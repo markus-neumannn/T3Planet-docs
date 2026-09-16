@@ -37,7 +37,7 @@ sidebarTitle: "AI Accessibility"
   <Card title="Feature Guide" icon="map" href="/en/latest/ExtNsT3AA/FeatureGuide/Index" />
   <Card title="Dashboard" icon="layout-dashboard" href="/en/latest/ExtNsT3AA/FeatureGuide/Dashboard/Index" />
   <Card title="AI Alt Text" icon="image" href="/en/latest/ExtNsT3AA/FeatureGuide/AIAltText/Index" />
-  <Card title="Accessibility Widgets" icon="sliders" href="/en/latest/ExtNsT3AA/FeatureGuide/AccessibilityWidgets/Index" />
+  <Card title="Accessibility Widgets" icon="sliders-horizontal" href="/en/latest/ExtNsT3AA/FeatureGuide/AccessibilityWidgets/Index" />
   <Card title="Scanner" icon="scan" href="/en/latest/ExtNsT3AA/FeatureGuide/Scans/Index" />
   <Card title="Fix Hub" icon="wrench" href="/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index" />
   <Card title="AI Voiceover" icon="mic" href="/en/latest/ExtNsT3AA/FeatureGuide/AIVoiceover/Index" />
