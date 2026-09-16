@@ -11,8 +11,8 @@ sidebarTitle: "Scanner"
 **Scanner** is the AI Accessibility area where you **check pages** for
 accessibility problems for the page selected in the TYPO3 page tree.
 
-**A scan reports findings.** [Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index) is where you
-**track and close** the remediation work.
+Completed runs list findings for the selected scope. Continue remediation in
+[Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index) — assign, track, and close work there.
 
 The main tab is labelled **Scanner**. Inside it you will find:
 
@@ -29,7 +29,7 @@ The main tab is labelled **Scanner**. Inside it you will find:
 2. Select the page (or site root) to use as the scan root.
 3. Open the **Scanner** tab.
 4. Stay on the **Scanner** sub-tab.
-5. Confirm the site URL, set **Depth** and **Device**, then click
+5. Confirm the site URL, set **Depth**, then click
    **Run Accessibility Check**.
 6. When the run finishes, review the summary cards and issue list.
 7. Open a finding to continue in **Fix Hub**.
@@ -47,7 +47,8 @@ The Scanner checks the **HTML content** of pages in your selected scope
   choose depth, run (similar to TYPO3 LinkValidator).
 * The Scanner needs **no AI provider and no API key**.
 
-**A scan reports findings. Fix Hub is where work happens.**
+Open an issue from the results list to continue in
+[Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index).
 
 License **scan page quota** applies: each page scanned in the run counts
 against **Pages remaining**. See [Dashboard](/en/latest/ExtNsT3AA/FeatureGuide/Dashboard/Index) for how
@@ -65,13 +66,12 @@ quota works.
 
 * **Selected page** — from the page tree
 * **Depth** — this page only, 1–3 levels, or infinite
-* **Device** — Desktop, Mobile, or Both (where offered)
 * **Scan page quota** — pages scanned / remaining / license limit
 * Optional: add the current scope to the Bulk Scans queue
 
 ## After a scan
 
-* Findings appear on the **Fix Hub** board for the same scope
+* **Scanner** findings appear on the **Fix Hub** board for the same scope (not Lighthouse)
 * Dashboard tiles update from completed results
 * Re-run after publishing fixes to verify improvements
 

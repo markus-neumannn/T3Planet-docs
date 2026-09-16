@@ -23,11 +23,17 @@ You can generate AI alt text in **two ways**:
 Both paths write into TYPO3 file metadata. Use the module for coverage and
 review; use File List when you are already editing specific files.
 
+**AI generation** (drafts from the module, File List, or Mass AI File Meta) uses a
+configured provider under **AI Foundation → AI Providers**, with the matching
+options enabled under **AI Foundation → AI Features**. Opening the inventory and
+reviewing existing metadata does **not** call AI.
+
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmu29ippl0kqlqmrxl4pixxby?utm_source=link" loading="lazy" title="T3AA AI Alt Text Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Steps — AI Alt Text module
 
-1. Configure an AI provider in **AI Foundation → AI Providers**.
+1. Configure an AI provider in **AI Foundation → AI Providers** (required for
+   **Generate** / queue processing).
 2. Open **AI Accessibility → AI Alt Text**.
 3. Select a `fileadmin` folder in the left tree.
 4. Check tiles such as **Missing alt text** and **Awaiting review**.
@@ -106,8 +112,6 @@ Edit (TYPO3 file record).
 ## Important notes
 
 * Drafts are not finished until someone approves or edits them.
-* Opening the inventory reads metadata only; generation needs AI Foundation
-  provider configuration and feature access.
 * A valid T3AA license is required for generation.
 
 ## Additional demos

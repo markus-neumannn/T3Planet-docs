@@ -179,12 +179,32 @@ Updates `_static/t3-stats.json`, `_static/t3-stats-inline.js`, and hub Markdown.
 
 ## Deploy to Mintlify
 
-1. Connect this GitHub repo in the [Mintlify dashboard](https://dashboard.mintlify.com) (Nitsan / T3Planet workspace **nitsan-81630f36**).  
-2. Set deploy branch to **`master`**.  
-3. Push to GitHub → Mintlify builds, publishes, and reindexes search.  
-4. Confirm in dashboard **Activity** (Successful update) and spot-check the hosted URL.
+**Live URL:** https://docs.t3planet.de/en/latest  
+**Mintlify project:** T3Planet Docs (workspace **nitsan-81630f36**)
 
-> Production custom domain cutover (`docs.t3planet.de` → Mintlify) is configured in Mintlify **Domain setup** plus DNS. Until cutover, the Mintlify `.app` / `.site` host is the live Mintlify build.
+### Which GitHub repo updates live?
+
+Mintlify **Git settings** are connected to the Markus fork:
+
+| Remote | Repository | Role |
+|--------|------------|------|
+| `markus` | https://github.com/markus-neumannn/T3Planet-docs | **Live Mintlify source** (`master`) |
+| `origin` | https://github.com/nitsan-technologies/T3Planet-docs | Org / official mirror |
+
+Pushing only to `origin` does **not** update live docs while Git settings point at the fork.
+
+### Release steps
+
+1. Commit documentation as **Markus** (`248457632+markus-neumannn@users.noreply.github.com`).
+2. Validate locally: Node 20 + `mintlify validate` (+ preview on `:3001`).
+3. Push live source: `git push markus HEAD:master`
+4. Mirror to org when required: `git push origin HEAD:master`
+5. Confirm [Mintlify dashboard](https://dashboard.mintlify.com) → **Activity** (Successful update by Markus).
+6. Spot-check https://docs.t3planet.de/en/latest for the intended content (not HTTP 200 alone).
+
+If Activity does not move: use **Manual update** in the dashboard, or an empty trigger commit on **`markus`**.
+
+Full agent/runbook details: [`context.md`](./context.md).
 
 ---
 

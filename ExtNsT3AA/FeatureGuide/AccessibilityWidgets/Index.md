@@ -5,7 +5,7 @@ keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AA"
-sidebarTitle: "Widgets"
+sidebarTitle: "Accessibility Widgets"
 ---
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmu2a8y5d0mllqmrxp8jxg1ue?utm_source=link" loading="lazy" title="T3AA Accessibility Widgets Feature Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
@@ -25,8 +25,10 @@ In the TYPO3 backend you decide:
 * How the button and panel look (icon, size, color, position, layout)
 * Which tools and accessibility profiles are available
 
-Settings are saved per site in `config.yaml`. They do not change page content
+Settings are saved per site in `config.yaml`. It does not change page content
 in the database.
+
+![Enable Assistant Widget in AI Foundation General Settings](../images/enable-assistant-widget.webp)
 
 ## How to use it
 

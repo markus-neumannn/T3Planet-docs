@@ -1,0 +1,34 @@
+---
+description: T3Planet Mintlify deployment — which GitHub remote updates live docs
+alwaysApply: true
+---
+
+# Mintlify deployment (T3Planet Docs)
+
+Live site: https://docs.t3planet.de/en/latest  
+Mintlify project: **T3Planet Docs** (workspace **nitsan-81630f36**)
+
+## Connected GitHub (source of live builds)
+
+Mintlify Git settings point at the **Markus fork**, not the org repo:
+
+- Live source: `markus-neumannn/T3Planet-docs` branch `master`
+- Local remote name: **`markus`** → `https://github.com/markus-neumannn/T3Planet-docs.git`
+- Org mirror: **`origin`** → `https://github.com/nitsan-technologies/T3Planet-docs.git`
+
+**Pushing only to `origin` will NOT update live docs** while Git settings remain on the fork.
+
+For releases that must go live:
+
+1. Commit as **Markus** `<248457632+markus-neumannn@users.noreply.github.com>` (do not invent email).
+2. `git push markus HEAD:master` (required for Mintlify).
+3. Also `git push origin HEAD:master` when org sync is requested.
+4. Confirm Mintlify dashboard **Activity** + spot-check the live URL.
+
+Full procedure: see repo root `context.md`.
+
+## Local tooling
+
+- Node **20** for `mintlify` / `mint` (Node 25+ unsupported).
+- After nav/page count changes: `python3 scripts/compute_doc_stats.py`.
+- Do not commit `RST Format */` or `scripts/remigration/*` QA dumps unless explicitly requested.

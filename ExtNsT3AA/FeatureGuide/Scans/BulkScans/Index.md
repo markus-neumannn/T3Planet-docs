@@ -49,8 +49,23 @@ an interactive Scanner pass.
 
 ## CLI (integrators)
 
+Process the Bulk Scans queue from the command line (same command the Scheduler
+task runs). Use the form that matches your TYPO3 setup.
+
+### Composer setup
+
+From the project root:
+
 ```bash
 vendor/bin/typo3 nst3aa:monitor:run
+```
+
+### Non-Composer setup
+
+From the TYPO3 document root:
+
+```bash
+php typo3/sysext/core/bin/typo3 nst3aa:monitor:run
 ```
 
 ## Important notes

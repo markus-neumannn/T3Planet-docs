@@ -15,11 +15,17 @@ Use it when automated Scanner / Lighthouse runs are not enough — for example
 screen reader flow, keyboard usability, navigation logic, and form behaviour
 that need a specialist.
 
-## Steps
+The tab compares scanner coverage with human review. Use **Get a Quote** to
+open T3Planet support ([https://t3planet.de/support](https://t3planet.de/support))
+and request the managed service.
 
-1. Open **AI Accessibility**.
-2. Select your site root (or relevant page).
-3. Open the **Human Expert Audit** tab.
-4. Review the comparison of scanner coverage versus human review.
-5. Click **Get a Quote** to open T3Planet support
-   (`https://t3planet.de/support`) and request the managed service.
+## What automated tools miss
+
+| Issue type | Scanner | Human Expert |
+| --- | --- | --- |
+| Missing alt text | Detected | Detected + reviewed |
+| Color contrast | Detected | Detected + context |
+| Screen reader flow | Not detected | Fully reviewed |
+| Keyboard trap logic | Not detected | Fully reviewed |
+| Form usability (SR) | Not detected | Fully reviewed |
+| Cognitive load issues | Not detected | Fully reviewed |

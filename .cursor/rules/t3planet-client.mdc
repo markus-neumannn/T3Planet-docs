@@ -1,0 +1,51 @@
+---
+description: T3Planet docs audience, feedback style, and how to write Feature Guide content
+alwaysApply: true
+---
+
+# T3Planet client & documentation behavior
+
+## Audience
+
+Readers are **TYPO3 integrators and T3Planet customers** with backend experience. Do not write beginner “open the module / page tree” steps unless the page is explicitly introductory.
+
+Omit or remove sections like “How to open it” with generic backend navigation when the user says customers have TYPO3 knowledge.
+
+## Voice & content craft
+
+- Accurate, concise, no filler, no slogan/tagline lines (client rejects e.g. “A scan reports findings. Fix Hub is where work happens.”).
+- Prefer concrete remediation wording: findings → continue in Fix Hub.
+- Customer-facing names: **AI Foundation**, **AI Accessibility** (extension keys in backticks when helpful).
+- Supademo + short explanation often beats a duplicate full UI screenshot; add screenshots when the user attaches one for a major tool (e.g. Color contrast checker).
+- Complete frontmatter `description` strings — never truncate mid-word.
+- Important notes: do not mix license and AI-provider requirements if the client says that misleads; put provider needs in feature/setup prose.
+- Match the product: no “Choose Desktop or Mobile” if scans cover both; Fix Hub = Scanner issues only (not Lighthouse).
+- CLI for integrators: document **Composer** and **Non-Composer** commands.
+- Info pages (Human Expert Audit): explanation + tables OK; skip redundant Steps.
+
+## Local vs live
+
+- Edits default to **local workspace** only.
+- LAN preview: `http://<LAN-IP>:3000/` (fast proxy). Purge: `curl -s http://127.0.0.1:3000/__t3_cache_purge`.
+- **Live** is https://docs.t3planet.de/en/latest after Mintlify deploy from **`markus-neumannn/T3Planet-docs`** (`git push markus HEAD:master`).
+- Pushing **only** `origin` does not update live while Mintlify Git settings use the fork.
+- Tell the user clearly whether a fix is local-only or verified on live.
+
+## Typical user requests
+
+| Request | Action |
+|---------|--------|
+| Remove / rewrite one sentence | Surgical edit + cache purge; local-only unless deploy asked |
+| Remove screenshot on a live URL | Edit matching `.md`; keep Supademos unless asked to remove |
+| Fix missing Card icon | Valid Lucide names (`sliders-horizontal`, `type` — not `sliders`, `text`) |
+| Fix code block UI | Replace RST `::` / `code-block` with fenced `bash` / `json` |
+| Content tab / card list | 1–2 lines per card + link to related Feature Guide page |
+| Deploy / push / live | Markus commit → push `markus` (+ `origin` if asked) → verify Activity + live content |
+| Train / improve context | Update `context.md` + this rule |
+
+## Release discipline
+
+- `mintlify validate` on Node 20 before push.
+- Do not commit `RST Format */` or `scripts/remigration/*` QA artifacts unless asked.
+- After nav/page changes: `python3 scripts/compute_doc_stats.py`.
+- Full runbook: repo root `context.md`.

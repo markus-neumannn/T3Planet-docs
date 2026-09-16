@@ -1,17 +1,17 @@
 ---
-title: "CKEditor Accessibility Check using T3AA"
+title: "Accessibility Checker using T3AA"
 description: "T3AA integrates with CKEditor so you can check content and images for accessibility issues while editing in the RTE."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AA"
-sidebarTitle: "CKEditor Checker"
+sidebarTitle: "Accessibility Checker"
 ---
 
 T3AA integrates with CKEditor so you can check content and images for
 accessibility issues while editing in the RTE.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfwkejeo3bm410k81iqujedw?utm_source=link" loading="lazy" title="CKEditor Accessibility Check Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfwkejeo3bm410k81iqujedw?utm_source=link" loading="lazy" title="Accessibility Checker Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Steps
 

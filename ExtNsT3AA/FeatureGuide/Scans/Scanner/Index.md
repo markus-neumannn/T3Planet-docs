@@ -20,7 +20,7 @@ lists findings you can open in [Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHu
 2. Select a page in the page tree.
 3. Open the **Scanner** tab → **Scanner** sub-tab.
 4. Confirm the site URL shown for the selected page.
-5. Choose **Depth** and **Device**.
+5. Choose **Depth**.
 6. Optionally tick **Also add this scope to the Bulk Scans queue**.
 7. Click **Run Accessibility Check** and wait for results.
 8. Review summary cards and the issue list.
@@ -39,7 +39,6 @@ first. Details: [Dashboard](/en/latest/ExtNsT3AA/FeatureGuide/Dashboard/Index).
 * **Site URL** — frontend base URL of the selected site
 * **Selected page** — from the page tree
 * **Depth** — this page only, 1–3 levels, or infinite
-* **Device** — Desktop, Mobile, or Both (where offered)
 * **Run Accessibility Check** — starts the run
 
 Below the controls:
@@ -60,7 +59,7 @@ After a successful run:
 
 Footer guidance in the product:
 
-   **A scan reports; Fix Hub is where work happens.**
+   Open an issue from the results list to continue in [Fix Hub](/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index).
 
 ## Important notes
 

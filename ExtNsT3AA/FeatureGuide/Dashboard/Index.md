@@ -16,12 +16,6 @@ results and TYPO3 file metadata.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmu27amjl0g0nqmrxdjavphgz?embed_v=2&utm_source=embed" loading="lazy" title="T3AA Dashboard Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
-## How to open it
-
-1. Open **AI Accessibility**.
-2. Select a site root or page in the page tree.
-3. Stay on the **Dashboard** tab.
-
 Everything on this screen reports for the **selected page path**.
 
 <Note>
