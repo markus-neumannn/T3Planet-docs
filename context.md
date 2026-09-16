@@ -40,7 +40,7 @@ Use this when creating or rewriting Feature Guide / product pages. Learned from 
 | Page type | Preferred structure |
 |-----------|---------------------|
 | Feature overview (e.g. Content tab) | Short intro + **one section per UI card** (1–2 lines) + link to the dedicated Feature Guide page. No beginner “Steps: open module / page tree”. |
-| Info / sales-adjacent (e.g. Human Expert Audit) | What it is + when to use + optional comparison table. **No numbered Steps** unless the flow is non-obvious. |
+| Info / sales-adjacent (e.g. Human Expert) | What it is + when to use + optional comparison table. **No numbered Steps** unless the flow is non-obvious. |
 | Tool feature (e.g. Color contrast checker) | Treat as a **major capability**: purpose, how to open, screenshot if provided, what you can do. Prefer attached product screenshots for unique tools. |
 | Scanner / Fix Hub | Accurate source of findings: **Fix Hub = Scanner issues only** (product rule as of 2026-09). Do not invent slogans. |
 | CLI for integrators | Always document **both**: Composer (`vendor/bin/typo3 …`) and Non-Composer (`php typo3/sysext/core/bin/typo3 …`). |
@@ -234,7 +234,7 @@ Minimum for T3AA Feature Guide releases: Index cards (icons), pages where screen
 
 - Supademos: `<div className="t3-embed"><iframe … allow="clipboard-write; fullscreen" …></iframe></div>`
 - Prefer keeping Supademos when user removes **static screenshots** of the same screen.
-- Human Expert Audit: no Supademo on page when user requested removal.
+- Human Expert: no Supademo on page when user requested removal.
 
 ### RST → MD hygiene
 

@@ -17,7 +17,7 @@ Day-to-day workflows for the **AI Accessibility** module in T3AA (`EXT:ns_t3aa`)
   <Card title="Scanner" icon="scan" href="/en/latest/ExtNsT3AA/FeatureGuide/Scans/Index" />
   <Card title="Fix Hub" icon="wrench" href="/en/latest/ExtNsT3AA/FeatureGuide/FixHub/Index" />
   <Card title="Content" icon="file-text" href="/en/latest/ExtNsT3AA/FeatureGuide/Content/Index" />
-  <Card title="Human Expert Audit" icon="user-check" href="/en/latest/ExtNsT3AA/FeatureGuide/HumanExpertAudit/Index" />
+  <Card title="Human Expert" icon="user-check" href="/en/latest/ExtNsT3AA/FeatureGuide/HumanExpertAudit/Index" />
   <Card title="AI Voiceover" icon="mic" href="/en/latest/ExtNsT3AA/FeatureGuide/AIVoiceover/Index" />
   <Card title="AI Audio" icon="audio-lines" href="/en/latest/ExtNsT3AA/FeatureGuide/AIAudio/Index" />
   <Card title="Accessibility Checker" icon="accessibility" href="/en/latest/ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index" />

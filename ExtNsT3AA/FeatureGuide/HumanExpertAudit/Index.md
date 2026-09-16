@@ -1,14 +1,14 @@
 ---
-title: "Human Expert Audit"
-description: "**Human Expert Audit** is the managed human-review entry point inside AI Accessibility."
+title: "Human Expert"
+description: "**Human Expert** is the managed human-review entry point inside AI Accessibility."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AA"
-sidebarTitle: "Human Expert Audit"
+sidebarTitle: "Human Expert"
 ---
 
-**Human Expert Audit** is the managed human-review entry point inside
+**Human Expert** is the managed human-review entry point inside
 AI Accessibility.
 
 Use it when automated Scanner / Lighthouse runs are not enough — for example

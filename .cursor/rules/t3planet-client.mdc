@@ -21,7 +21,7 @@ Omit or remove sections like “How to open it” with generic backend navigatio
 - Important notes: do not mix license and AI-provider requirements if the client says that misleads; put provider needs in feature/setup prose.
 - Match the product: no “Choose Desktop or Mobile” if scans cover both; Fix Hub = Scanner issues only (not Lighthouse).
 - CLI for integrators: document **Composer** and **Non-Composer** commands.
-- Info pages (Human Expert Audit): explanation + tables OK; skip redundant Steps.
+- Info pages (Human Expert): explanation + tables OK; skip redundant Steps.
 
 ## Local vs live
 
