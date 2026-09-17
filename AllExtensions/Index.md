@@ -20,13 +20,23 @@ sidebarTitle: "TYPO3 Extensions"
       <kbd>⌘K</kbd>
     </button>
   </div>
-  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">782</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
+  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">784</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
 </div>
 <Tip>Open <strong>TYPO3 Extensions</strong> in the product menu at the top of the sidebar to jump to any extension by category.</Tip>
 <section className="t3-landing-section t3-extension-section">
+  <p className="t3-landing-eyebrow">Popular</p>
+  <div className="t3-extension-list">
+    <a className="t3-extension-row" href="/en/latest/ExtNsBackup/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="hard-drive" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Backup</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">System</span></span></a>
+    <a className="t3-extension-row" href="/en/latest/ExtNsCookiesHint/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="cookie" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Cookies</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Privacy</span></span></a>
+    <a className="t3-extension-row" href="/en/latest/ExtNsGoogleSiteKit/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="chart-column" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Google Site Kit</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Analytics</span></span></a>
+    <a className="t3-extension-row" href="/en/latest/ExtNsNewsSlider/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="images" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">News Slider</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">News</span></span></a>
+    <a className="t3-extension-row" href="/en/latest/ExtNsFAQ/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="circle-question-mark" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">FAQ</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Content</span></span></a>
+    <a className="t3-extension-row" href="/en/latest/ExtNsSharethis/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="share-2" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Sharethis</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Social</span></span></a>
+  </div>
+</section>
+<section className="t3-landing-section t3-extension-section">
   <p className="t3-landing-eyebrow">Analytics</p>
   <div className="t3-extension-list">
-    <a className="t3-extension-row" href="/en/latest/ExtNsGoogleSiteKit/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="chart-column" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Google Site Kit</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Analytics</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNsStatcounter/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="chart-line" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Statcounter</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Analytics</span></span></a>
   </div>
 </section>
@@ -49,7 +59,6 @@ sidebarTitle: "TYPO3 Extensions"
   <p className="t3-landing-eyebrow">Content</p>
   <div className="t3-extension-list">
     <a className="t3-extension-row" href="/en/latest/ExtNsEvent/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="calendar" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Event</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Content</span></span></a>
-    <a className="t3-extension-row" href="/en/latest/ExtNsFAQ/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="circle-question-mark" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">FAQ</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Content</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtTypoTonic/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="database" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">TypoTonic</span></span><span className="t3-extension-meta"><span className="t3-category-badge">Content</span></span></a>
 
     <a className="t3-extension-row" href="/en/latest/ExtNsTimeLine/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="clock" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Timeline</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Content</span></span></a>
@@ -88,7 +97,7 @@ sidebarTitle: "TYPO3 Extensions"
 <section className="t3-landing-section t3-extension-section">
   <p className="t3-landing-eyebrow">Maps</p>
   <div className="t3-extension-list">
-    <a className="t3-extension-row" href="/en/latest/ExtNsGoogleMap/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="map-pin" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Google Map</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Maps</span></span></a>
+        <a className="t3-extension-row" href="/en/latest/ExtNsGoogleMap/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="map-pin" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Google Map</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Maps</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNsOpenStreetMap/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="map" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Open Streetmap</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Maps</span></span></a>
   </div>
 </section>
@@ -118,7 +127,6 @@ sidebarTitle: "TYPO3 Extensions"
   <div className="t3-extension-list">
     <a className="t3-extension-row" href="/en/latest/ExtNsNewsAdvancedSearch/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="search" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">News Advance Search</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">News</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNsNewsSlickSlider/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="gallery-horizontal" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">News Slick</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">News</span></span></a>
-    <a className="t3-extension-row" href="/en/latest/ExtNsNewsSlider/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="images" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">News Slider</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">News</span></span></a>
   </div>
 </section>
 <section className="t3-landing-section t3-extension-section">
@@ -140,7 +148,6 @@ sidebarTitle: "TYPO3 Extensions"
   <p className="t3-landing-eyebrow">Privacy</p>
   <div className="t3-extension-list">
     <a className="t3-extension-row" href="/en/latest/ExtNsCookiebot/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="shield-check" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Cookiebot</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Privacy</span></span></a>
-    <a className="t3-extension-row" href="/en/latest/ExtNsCookiesHint/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="cookie" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Cookies</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Privacy</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNsCookieYes/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="cookie" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Cookieyes</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Privacy</span></span></a>
   </div>
 </section>
@@ -161,25 +168,23 @@ sidebarTitle: "TYPO3 Extensions"
   <p className="t3-landing-eyebrow">Social</p>
   <div className="t3-extension-list">
     <a className="t3-extension-row" href="/en/latest/ExtNsInstagram/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="camera" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Instagram</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Social</span></span></a>
-    <a className="t3-extension-row" href="/en/latest/ExtNsSharethis/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="share-2" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Sharethis</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Social</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNsSocialLogin/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="log-in" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Social Login</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Social</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNsTwitter/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="x" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Twitter</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Social</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNsWhatsapp/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="phone" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Whatsapp</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Social</span></span></a>
   </div>
 </section>
 <section className="t3-landing-section t3-extension-section">
-  <p className="t3-landing-eyebrow">Support</p>
-  <div className="t3-extension-list">
-    <a className="t3-extension-row" href="/en/latest/ExtNsHelpDesk/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="life-buoy" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Helpdesk</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Support</span></span></a>
-  </div>
-</section>
-<section className="t3-landing-section t3-extension-section">
   <p className="t3-landing-eyebrow">System</p>
   <div className="t3-extension-list">
-    <a className="t3-extension-row" href="/en/latest/ExtNsBackup/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="hard-drive" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Backup</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">System</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNsExtCompatibility/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="plug" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Ext Compatibility</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">System</span></span></a>
     <a className="t3-extension-row" href="/en/latest/ExtNitsanMaintenance/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="wrench" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Maintenance</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">System</span></span></a>
   </div>
 </section>
 
 </div>
+<section className="t3-landing-section t3-extension-section">
+  <p className="t3-landing-eyebrow">Support</p>
+  <div className="t3-extension-list">
+    <a className="t3-extension-row" href="/en/latest/ExtNsHelpDesk/Index"><span className="t3-extension-row-start"><span className="t3-icon-shell t3-extension-icon-shell"><Icon icon="life-buoy" size={18} className="t3-extension-icon" /></span><span className="t3-extension-name">Helpdesk</span></span><span className="t3-extension-meta"><span className="t3-extension-badge">Update</span><span className="t3-category-badge">Support</span></span></a>
+  </div>
+</section>

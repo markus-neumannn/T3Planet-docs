@@ -14,30 +14,17 @@ sidebarTitle: "TYPO3 Templates & Themes"
   <div className="t3-landing-hero t3-hero-large">
     <p className="t3-landing-eyebrow">TYPO3 Templates & Themes</p>
     <h1 className="t3-landing-title">All TYPO3 Templates & Themes</h1>
-    <p className="t3-landing-subtitle">Karma (business), Bootstrap, Shop (e-commerce), Avatar (portfolio), plus Ayu, Reva, Shiva, and ReactBootstrap.</p>
+    <p className="t3-landing-subtitle">Karma, Bootstrap, Shiva, Guru, Shri, Avatar, plus Ayu, Reva, Shop, ReactBootstrap, and more.</p>
     <button type="button" className="t3-search-trigger" data-t3-search-trigger aria-label="Search documentation...">
       <span>Search documentation...</span>
       <kbd>⌘K</kbd>
     </button>
   </div>
-  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">782</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
+  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">784</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
 </div>
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">Template catalog</p>
   <div className="t3-product-grid">
-    <a className="t3-product-card" href="/en/latest/ExtThemes/Index">
-      <div className="t3-product-card-header">
-        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="layout-template" size={22} className="t3-product-icon" /></span>
-        <div>
-          <h3 className="t3-product-name">TYPO3 Templates</h3>
-          <span className="t3-category-badge">Overview</span>
-        </div>
-      </div>
-      <p className="t3-product-desc">Central hub for all T3Planet TYPO3 theme documentation — installation, configuration, and customization.</p>
-      <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
-      </div>
-    </a>
     <a className="t3-product-card" href="/en/latest/EXTKarma/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="palette" size={22} className="t3-product-icon" /></span>
@@ -48,33 +35,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       </div>
       <p className="t3-product-desc">Premium business theme with content blocks, SEO tools, and full TYPO3 v13/v14 upgrade paths.</p>
       <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
-      </div>
-    </a>
-    <a className="t3-product-card" href="/en/latest/EXTAvatar/Index">
-      <div className="t3-product-card-header">
-        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="circle-user" size={22} className="t3-product-icon" /></span>
-        <div>
-          <h3 className="t3-product-name">Avatar</h3>
-          <span className="t3-category-badge">Portfolio</span>
-        </div>
-      </div>
-      <p className="t3-product-desc">Creative portfolio theme with Mask elements, editor guides, and performance optimization.</p>
-      <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
-      </div>
-    </a>
-    <a className="t3-product-card" href="/en/latest/EXTAyu/Index">
-      <div className="t3-product-card-header">
-        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="zap" size={22} className="t3-product-icon" /></span>
-        <div>
-          <h3 className="t3-product-name">Ayu</h3>
-          <span className="t3-category-badge">React</span>
-        </div>
-      </div>
-      <p className="t3-product-desc">Modern React.js-powered theme with preview features, demo site, and Mask-based elements.</p>
-      <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
       </div>
     </a>
     <a className="t3-product-card" href="/en/latest/EXTBootstrap/Index">
@@ -87,33 +48,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       </div>
       <p className="t3-product-desc">Bootstrap-based TYPO3 theme with custom elements, SEO configuration, and upgrade guides.</p>
       <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
-      </div>
-    </a>
-    <a className="t3-product-card" href="/en/latest/EXTReactBootstrap/Index">
-      <div className="t3-product-card-header">
-        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="square-code" size={22} className="t3-product-icon" /></span>
-        <div>
-          <h3 className="t3-product-name">ReactBootstrap</h3>
-          <span className="t3-category-badge">React + Bootstrap</span>
-        </div>
-      </div>
-      <p className="t3-product-desc">React.js and Bootstrap combined — custom elements, localization, and frontend build pipeline.</p>
-      <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
-      </div>
-    </a>
-    <a className="t3-product-card" href="/en/latest/EXTReva/Index">
-      <div className="t3-product-card-header">
-        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="sparkle" size={22} className="t3-product-icon" /></span>
-        <div>
-          <h3 className="t3-product-name">Reva</h3>
-          <span className="t3-category-badge">React</span>
-        </div>
-      </div>
-      <p className="t3-product-desc">Elegant React.js theme with preview, demo site, and comprehensive customization options.</p>
-      <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
       </div>
     </a>
     <a className="t3-product-card" href="/en/latest/EXTShiva/Index">
@@ -126,7 +61,98 @@ sidebarTitle: "TYPO3 Templates & Themes"
       </div>
       <p className="t3-product-desc">Feature-rich React.js theme with custom elements, localization, and performance tuning.</p>
       <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
+      </div>
+    </a>
+    <a className="t3-product-card" href="/en/latest/EXTGuru/Index">
+      <div className="t3-product-card-header">
+        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="sparkles" size={22} className="t3-product-icon" /></span>
+        <div>
+          <h3 className="t3-product-name">Guru</h3>
+          <span className="t3-category-badge">Multipurpose</span>
+        </div>
+      </div>
+      <p className="t3-product-desc">Responsive multipurpose TYPO3 template for agencies and modern websites.</p>
+      <div className="t3-product-links">
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
+      </div>
+    </a>
+    <a className="t3-product-card" href="/en/latest/EXTShri/Index">
+      <div className="t3-product-card-header">
+        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="gem" size={22} className="t3-product-icon" /></span>
+        <div>
+          <h3 className="t3-product-name">Shri</h3>
+          <span className="t3-category-badge">Business</span>
+        </div>
+      </div>
+      <p className="t3-product-desc">TYPO3 template with custom elements and ready-made pages for agency sites.</p>
+      <div className="t3-product-links">
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
+      </div>
+    </a>
+    <a className="t3-product-card" href="/en/latest/EXTAvatar/Index">
+      <div className="t3-product-card-header">
+        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="circle-user" size={22} className="t3-product-icon" /></span>
+        <div>
+          <h3 className="t3-product-name">Avatar</h3>
+          <span className="t3-category-badge">Portfolio</span>
+        </div>
+      </div>
+      <p className="t3-product-desc">Creative portfolio theme with Mask elements, editor guides, and performance optimization.</p>
+      <div className="t3-product-links">
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
+      </div>
+    </a>
+    <a className="t3-product-card" href="/en/latest/ExtThemes/Index">
+      <div className="t3-product-card-header">
+        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="layout-template" size={22} className="t3-product-icon" /></span>
+        <div>
+          <h3 className="t3-product-name">TYPO3 Templates</h3>
+          <span className="t3-category-badge">Overview</span>
+        </div>
+      </div>
+      <p className="t3-product-desc">Central hub for all T3Planet TYPO3 theme documentation — installation, configuration, and customization.</p>
+      <div className="t3-product-links">
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
+      </div>
+    </a>
+    <a className="t3-product-card" href="/en/latest/EXTAyu/Index">
+      <div className="t3-product-card-header">
+        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="zap" size={22} className="t3-product-icon" /></span>
+        <div>
+          <h3 className="t3-product-name">Ayu</h3>
+          <span className="t3-category-badge">React</span>
+        </div>
+      </div>
+      <p className="t3-product-desc">Modern React.js-powered theme with preview features, demo site, and Mask-based elements.</p>
+      <div className="t3-product-links">
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
+      </div>
+    </a>
+    <a className="t3-product-card" href="/en/latest/EXTReactBootstrap/Index">
+      <div className="t3-product-card-header">
+        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="square-code" size={22} className="t3-product-icon" /></span>
+        <div>
+          <h3 className="t3-product-name">ReactBootstrap</h3>
+          <span className="t3-category-badge">React + Bootstrap</span>
+        </div>
+      </div>
+      <p className="t3-product-desc">React.js and Bootstrap combined — custom elements, localization, and frontend build pipeline.</p>
+      <div className="t3-product-links">
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
+      </div>
+    </a>
+    <a className="t3-product-card" href="/en/latest/EXTReva/Index">
+      <div className="t3-product-card-header">
+        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="sparkle" size={22} className="t3-product-icon" /></span>
+        <div>
+          <h3 className="t3-product-name">Reva</h3>
+          <span className="t3-category-badge">React</span>
+        </div>
+      </div>
+      <p className="t3-product-desc">Elegant React.js theme with preview, demo site, and comprehensive customization options.</p>
+      <div className="t3-product-links">
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
       </div>
     </a>
     <a className="t3-product-card" href="/en/latest/EXTShop/Index">
@@ -139,7 +165,7 @@ sidebarTitle: "TYPO3 Templates & Themes"
       </div>
       <p className="t3-product-desc">TYPO3 e-commerce theme with shop configuration, product pages, and checkout setup.</p>
       <div className="t3-product-links">
-        <span className="t3-link-pill">View docs</span>
+        <span className="t3-link-pill"><Icon icon="book-open" size={14} /> View docs</span>
       </div>
     </a>
   </div>

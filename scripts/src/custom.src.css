@@ -4567,21 +4567,56 @@ body > div.fixed.z-999 {
   }
 }
 
-/* ---- Small laptops / mid desktop ---- */
+/* ---- Small laptops / mid desktop ----
+   Mintlify #content-area uses lg:-ml-12 + lg:pl-[5.7rem] so prose clears the
+   sticky sidebar. Never replace padding-left with a small gutter here — that
+   is what caused sidebar-over-content overlap at 1024–1279 (Cursor Simple
+   Browser / small laptops). */
 @media (min-width: 1024px) and (max-width: 1279px) {
   #content-area {
-    padding-left: 1.25rem !important;
+    /* Keep Mintlify compensatory left padding; only tighten the right gutter */
+    padding-left: 5.7rem !important;
     padding-right: 1.25rem !important;
   }
 
-  #sidebar,
+  /* Slightly narrower sidebar frees reading width without breaking the flex track */
+  #sidebar {
+    width: 15.5rem !important;
+    max-width: 15.5rem;
+  }
+
   #sidebar-content {
-    width: 15.5rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   article,
   .mdx-content {
     max-width: 44rem;
+  }
+
+  
+  /* Footer: Mintlify whitespace-nowrap columns overflow at mid widths */
+  #footer .whitespace-nowrap,
+  #footer [class*="whitespace-nowrap"] {
+    white-space: normal !important;
+  }
+  #footer {
+    overflow-x: clip;
+    max-width: 100%;
+  }
+
+/* Header: prevent top-nav label overflow at cramped mid widths */
+  #navbar nav ul.flex,
+  header nav ul.flex {
+    gap: 0.5rem !important;
+  }
+
+  #navbar nav ul.flex > li > a,
+  header nav ul.flex > li > a {
+    font-size: 0.75rem !important;
+    white-space: nowrap;
   }
 }
 

@@ -21,7 +21,7 @@ sidebarTitle: "AI Extensions"
       <kbd>⌘K</kbd>
     </button>
   </div>
-  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">782</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
+  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">784</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
 </div>
 <section className="t3-landing-section">
   <p className="t3-landing-eyebrow">All AI products</p>
@@ -85,21 +85,6 @@ sidebarTitle: "AI Extensions"
         <span className="t3-link-pill t3-link-pill-muted">Update</span>
       </div>
     </a>
-    <a className="t3-product-card" href="/en/latest/ExtNsT3AL/Index">
-      <div className="t3-product-card-header">
-        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="languages" size={22} className="t3-product-icon" /></span>
-        <div>
-          <h3 className="t3-product-name">AI Localization</h3>
-          <p className="t3-product-tagline">Localization</p>
-        </div>
-      </div>
-      <p className="t3-product-desc">Automate TYPO3 translations with AI localization, XLIFF workflows, and glossary support.</p>
-      <div className="t3-feature-tags"><span className="t3-feature-tag">AI translation</span><span className="t3-feature-tag">XLIFF import/export</span><span className="t3-feature-tag">Glossary</span></div>
-      <div className="t3-product-links">
-        <span className="t3-link-pill">Installation</span>
-        <span className="t3-link-pill t3-link-pill-muted">Update</span>
-      </div>
-    </a>
     <a className="t3-product-card" href="/en/latest/ExtNsT3AA/Index">
       <div className="t3-product-card-header">
         <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="accessibility" size={22} className="t3-product-icon" /></span>
@@ -110,6 +95,21 @@ sidebarTitle: "AI Extensions"
       </div>
       <p className="t3-product-desc">Improve accessibility with AI alt text, voiceover, CKEditor checks, and simplified text.</p>
       <div className="t3-feature-tags"><span className="t3-feature-tag">AI alt text</span><span className="t3-feature-tag">Voiceover</span><span className="t3-feature-tag">A11y checker</span></div>
+      <div className="t3-product-links">
+        <span className="t3-link-pill">Installation</span>
+        <span className="t3-link-pill t3-link-pill-muted">Update</span>
+      </div>
+    </a>
+    <a className="t3-product-card" href="/en/latest/ExtNsT3AL/Index">
+      <div className="t3-product-card-header">
+        <span className="t3-icon-shell t3-product-icon-shell"><Icon icon="languages" size={22} className="t3-product-icon" /></span>
+        <div>
+          <h3 className="t3-product-name">AI Localization</h3>
+          <p className="t3-product-tagline">Localization</p>
+        </div>
+      </div>
+      <p className="t3-product-desc">Automate TYPO3 translations with AI localization, XLIFF workflows, and glossary support.</p>
+      <div className="t3-feature-tags"><span className="t3-feature-tag">AI translation</span><span className="t3-feature-tag">XLIFF import/export</span><span className="t3-feature-tag">Glossary</span></div>
       <div className="t3-product-links">
         <span className="t3-link-pill">Installation</span>
         <span className="t3-link-pill t3-link-pill-muted">Update</span>

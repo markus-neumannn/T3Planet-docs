@@ -23,7 +23,7 @@ sidebarTitle: "Home"
       <kbd>⌘K</kbd>
     </button>
   </div>
-  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">782</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
+  <div className="t3-stats-bar"><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="pages">784</span><span className="t3-stat-label">Documentation pages</span></div><div className="t3-stat-card"><span className="t3-stat-value" data-t3-stat="products">68</span><span className="t3-stat-label">Products</span></div></div>
 </div>
 
 <CardGroup cols={4}>
@@ -34,7 +34,7 @@ sidebarTitle: "Home"
     AI Foundation, AI Assistant, AI Chatbot, AI Search, localization, accessibility, and more.
   </Card>
   <Card title="TYPO3 Templates & Themes" icon="layout-template" href="/en/latest/AllTemplates/Index">
-    Business, React.js, portfolio, and e-commerce themes — Karma, Bootstrap, Shop, and more.
+    Business, React.js, portfolio, and e-commerce themes — Karma, Bootstrap, Shiva, Guru, Shri, Avatar, and more.
   </Card>
   <Card title="TYPO3 Extensions" icon="puzzle" href="/en/latest/AllExtensions/Index">
     Comments, media, integrations, privacy, sliders, and more.
@@ -50,11 +50,12 @@ sidebarTitle: "Home"
     <a className="t3-view-all" href="/en/latest/AIFoundationExtensions/Index">View all →</a>
   </div>
   <CardGroup cols={3}>
+    <Card title="AI Foundation" icon="cpu" href="/en/latest/ExtNsT3AF/Index">Shared AI providers, permissions, and configuration.</Card>
     <Card title="AI Assistant" icon="sparkles" href="/en/latest/ExtNsT3AI/Index">Generate content, translations, and SEO with AI.</Card>
     <Card title="AI Chatbot" icon="message-circle" href="/en/latest/ExtNsT3AC/Index">AI chatbot trained on your TYPO3 content.</Card>
     <Card title="AI Search" icon="search" href="/en/latest/ExtNsT3AS/Index">Semantic search with embeddings and custom LLM.</Card>
-    <Card title="AI Localization" icon="languages" href="/en/latest/ExtNsT3AL/Index">Automated translations and XLIFF workflows.</Card>
     <Card title="AI Accessibility" icon="accessibility" href="/en/latest/ExtNsT3AA/Index">Alt text, voiceover, and a11y checks.</Card>
+    <Card title="AI Localization" icon="languages" href="/en/latest/ExtNsT3AL/Index">Automated translations and XLIFF workflows.</Card>
     <Card title="AI Builder" icon="blocks" href="/en/latest/ExtNsT3AB/Index">Build content elements and forms with AI.</Card>
   </CardGroup>
 </section>
@@ -70,12 +71,10 @@ sidebarTitle: "Home"
   <CardGroup cols={3}>
     <Card title="Karma" icon="palette" href="/en/latest/EXTKarma/Index">Premium business theme with content blocks.</Card>
     <Card title="Bootstrap" icon="grid-3x3" href="/en/latest/EXTBootstrap/Index">Bootstrap-based TYPO3 theme.</Card>
-    <Card title="Shop" icon="shopping-bag" href="/en/latest/EXTShop/Index">E-commerce theme with shop configuration.</Card>
-    <Card title="Ayu" icon="zap" href="/en/latest/EXTAyu/Index">React.js theme with preview features.</Card>
-    <Card title="Reva" icon="sparkle" href="/en/latest/EXTReva/Index">Elegant React.js theme.</Card>
     <Card title="Shiva" icon="mountain" href="/en/latest/EXTShiva/Index">Feature-rich React.js theme.</Card>
+    <Card title="Guru" icon="sparkles" href="/en/latest/EXTGuru/Index">Multipurpose TYPO3 template.</Card>
+    <Card title="Shri" icon="gem" href="/en/latest/EXTShri/Index">Universal TYPO3 template with custom elements.</Card>
     <Card title="Avatar" icon="circle-user" href="/en/latest/EXTAvatar/Index">Creative portfolio theme with Mask elements.</Card>
-    <Card title="ReactBootstrap" icon="panels-top-left" href="/en/latest/EXTReactBootstrap/Index">React.js and Bootstrap combined theme.</Card>
   </CardGroup>
 </section>
 
@@ -88,12 +87,12 @@ sidebarTitle: "Home"
     <a className="t3-view-all" href="/en/latest/AllExtensions/Index">View all →</a>
   </div>
   <CardGroup cols={3}>
-    <Card title="Revolution Slider" icon="images" href="/en/latest/ExtNsRevolutionSlider/Index">Premium slider for TYPO3 websites.</Card>
-    <Card title="Google Site Kit" icon="chart-column" href="/en/latest/ExtNsGoogleSiteKit/Index">Google Analytics and Search Console in TYPO3.</Card>
+    <Card title="Backup" icon="database" href="/en/latest/ExtNsBackup/Index">Schedule and restore TYPO3 backups.</Card>
+    <Card title="Cookies" icon="cookie" href="/en/latest/ExtNsCookiesHint/Index">Cookie consent and privacy notices for TYPO3.</Card>
+    <Card title="Google Site Kit" icon="chart-column" href="/en/latest/ExtNsGoogleSiteKit/Index">Google analytics and Search Console insights in TYPO3.</Card>
+    <Card title="News Slider" icon="newspaper" href="/en/latest/ExtNsNewsSlider/Index">News listings with slider presentation.</Card>
     <Card title="FAQ" icon="circle-question-mark" href="/en/latest/ExtNsFAQ/Index">FAQ management and frontend display.</Card>
-    <Card title="Gallery" icon="image" href="/en/latest/ExtNsGallery/Index">Image galleries and media management.</Card>
-    <Card title="Help Desk" icon="life-buoy" href="/en/latest/ExtNsHelpDesk/Index">Helpdesk and ticket system.</Card>
-    <Card title="CKEditor Pack" icon="file-text" href="/en/latest/ExtRTECKEditorPack/Index">Premium CKEditor tools for editors.</Card>
+    <Card title="Sharethis" icon="share-2" href="/en/latest/ExtNsSharethis/Index">Social share buttons for TYPO3 pages.</Card>
   </CardGroup>
 </section>
 
