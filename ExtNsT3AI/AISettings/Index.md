@@ -280,10 +280,6 @@ To grant more granular control, you can also allow specific features within a pa
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrabnhz30bh0qmhx012m66o5?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
----
-
-## Additional content from live docs
-
 ## Overview
 
 Use this area to confirm which T3AI features are available in your project and whether the shared AI Foundation setup is ready.

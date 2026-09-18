@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Twitter for Websites is a suite of tools bringing Twitter content and functionality to your website page with Like, Retweet and Reply etc., functionality to…"
+description: "Twitter for Websites is a suite of tools bringing Twitter content and functionality to your website page with Like, Retweet and Reply etc., functionality to your tweets directly from your TYPO3 website."
 keywords:
   - "TYPO3"
   - "T3Planet"

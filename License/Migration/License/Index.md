@@ -1,6 +1,6 @@
 ---
 title: "Migration to License System"
-description: "If you are old customers of T3Planet (means the customers who bought product(s) before launching of the new license system of T3Planet), then follow this ste…"
+description: "If you are old customers of T3Planet (means the customers who bought product(s) before launching of the new license system of T3Planet), then follow this step-by-step guide to migrate from your non-license to license based our TYPO3."
 keywords:
   - "TYPO3"
   - "T3Planet"
@@ -58,10 +58,6 @@ Manually remove folder from `rm -rf typo3conf/ext/extension_key`
 Follow step-by-step guide composer based installation guide at [documentation](/en/latest/License/LicenseActivation/Index#install-via-composer)
   </Step>
 </Steps>
-
----
-
-## Additional content from live docs
 
 ## Migration on Composer-based TYPO3 Instance
 

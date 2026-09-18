@@ -1,6 +1,6 @@
 ---
 title: "T3AC - TYPO3 AI Chatbot Extension"
-description: "T3AC adds an AIpowered chatbot to TYPO3 so teams can answer user questions with trained project data. It supports chatbot configuration, training, data sources, usage tracking,…"
+description: "T3AC adds an AI-powered chatbot to TYPO3 so teams can answer user questions with trained project data. It supports chatbot configuration, training, data sources, usage tracking, and embedded chatbot delivery for supported websites."
 keywords:
   - "TYPO3"
   - "T3Planet"

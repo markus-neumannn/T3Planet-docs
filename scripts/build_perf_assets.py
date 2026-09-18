@@ -45,8 +45,14 @@ def _strip_js_line_comment(line: str) -> str:
                 in_single = True
             elif ch == '"':
                 in_double = True
-            elif ch == "/" and nxt == "/" and (i == 0 or line[i - 1] != ":"):
+            elif (
+                ch == "/"
+                and nxt == "/"
+                and (i == 0 or line[i - 1] not in (":", "\\"))
+            ):
+                # Skip :// URLs and regexes like /^\// (backslash before slash)
                 return line[:i].rstrip()
+
             elif ch == "/" and nxt == "*":
                 # block comments handled globally; leave alone here
                 pass

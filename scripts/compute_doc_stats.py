@@ -216,6 +216,17 @@ def write_stats_inline_js(payload: dict) -> None:
         "window.next.router.__t3PrefetchGated=1;clearInterval(t);}"
         "catch(e){if(n>80)clearInterval(t);}},40);}catch(e){}})();"
     )
+    # Resume product-root loader on the destination page before t3-docs.min.js
+    # (hard reload after opening a product from the hub can take several seconds).
+    early_product_loader = (
+        "(function(){try{"
+        "var k='t3-product-root-nav';"
+        "if(!sessionStorage.getItem(k))return;"
+        "var h=document.documentElement;"
+        "h.classList.add('t3-product-root-loading','t3-nav-busy','t3-loader-on','t3-holding');"
+        "h.setAttribute('aria-busy','true');"
+        "}catch(e){}})();"
+    )
     STATS_INLINE_JS.write_text(
         "window.__T3_DOC_STATS__="
         + json.dumps(payload, separators=(",", ":"))
@@ -223,6 +234,8 @@ def write_stats_inline_js(payload: dict) -> None:
         + early_preconnect
         + "\n"
         + early_gate
+        + "\n"
+        + early_product_loader
         + "\n",
         encoding="utf-8",
     )

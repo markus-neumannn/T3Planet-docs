@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "All In One Timeline TYPO3 Extension lets you create stories, timeline, history, roadmap and what not with unlimited possibilities and 19 unique styles and la…"
+description: "All In One Timeline TYPO3 Extension lets you create stories, timeline, history, roadmap and what not with unlimited possibilities and 19 unique styles and layouts."
 keywords:
   - "TYPO3"
   - "T3Planet"

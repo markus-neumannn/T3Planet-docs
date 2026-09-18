@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Authentication at TYPO3 - simple though sufficiently powerful feature that provides Administrators & TYPO3 back-end users a way to restrict accessibility of…"
+description: "Authentication at TYPO3 - simple though sufficiently powerful feature that provides Administrators & TYPO3 back-end users a way to restrict accessibility of any page with only users having password can access page."
 keywords:
   - "TYPO3"
   - "T3Planet"

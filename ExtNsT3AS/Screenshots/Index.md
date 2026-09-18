@@ -34,8 +34,3 @@ Static backend screenshots are available on the product page:
 
 - [https://t3planet.de/t3as-typo3-erweiterung](https://t3planet.de/t3as-typo3-erweiterung)
 
-## Interactive demos
-
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/showcase/cmf3sjz7x01qpxy0i7npmk8qh?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-

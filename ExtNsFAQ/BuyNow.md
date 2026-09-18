@@ -1,6 +1,6 @@
 ---
 title: "Get This Extension"
-description: "Get Latest Version of this extension with more-features and free-support from https://t3planet.de/typo3-faq-erweiterung or for free version https://extension…"
+description: "Get Latest Version of this extension with more-features and free-support from https://t3planet.de/typo3-faq-erweiterung or for free version https://extensions.typo3.org/extension/ns_faq"
 keywords:
   - "TYPO3"
   - "T3Planet"

@@ -1,6 +1,6 @@
 ---
 title: "Data Processing Agreement (DPA) & General Data Protection Regulation (GDPR)"
-description: "This page describes GDPR-related questions about accessibility features (frontend widget, alt text, voiceover, PageSpeed, RTE audit) and the **technical da"
+description: "This page describes GDPR-related questions about accessibility features (frontend widget, alt text, voiceover, PageSpeed, RTE audit) and the **technical data-management capabilities** in T3AA."
 keywords:
   - "TYPO3"
   - "T3Planet"

@@ -1,6 +1,6 @@
 ---
 title: "AI Audio"
-description: "**AI Audio** converts text or an uploaded script into downloadable AI-generated audio files. This is separate from **AI Voiceover**, which attaches audio t"
+description: "**AI Audio** converts text or an uploaded script into downloadable AI-generated audio files. This is separate from **AI Voiceover**, which attaches audio to a page/blog and renders it with a frontend plugin."
 keywords:
   - "TYPO3"
   - "T3Planet"

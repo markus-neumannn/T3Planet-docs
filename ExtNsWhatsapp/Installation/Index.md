@@ -62,10 +62,6 @@ https://www.youtube.com/watch?v=SN5HoFQcDM4
 **Extension Via Composer**
 https://www.youtube.com/watch?v=_7ILu4lwU-k
 
----
-
-## Additional content from live docs
-
 ## Activate the TypoScript
 
 The extension ships some static TypoScript code which needs to be included.

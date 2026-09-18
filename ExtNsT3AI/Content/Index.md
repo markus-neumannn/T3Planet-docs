@@ -1,6 +1,6 @@
 ---
 title: "Content"
-description: "This feature adds an AI copilot to the TYPO3 Rich Text Editor RTE, making it easier for users to add and update content. The copilot offers helpful suggestions and simplifies…"
+description: "This feature adds an AI copilot to the TYPO3 Rich Text Editor (RTE), making it easier for users to add and update content. The copilot offers helpful suggestions and simplifies editing and formatting, improving the overall user experience."
 keywords:
   - "TYPO3"
   - "T3Planet"

@@ -27,7 +27,7 @@ Follow the steps below in order. Choose **either** Non-Composer **or** Composer 
 
 <Warning>
 If you are upgrading from an older version (**1.5.2** or earlier) to the latest release,
-follow [Reinstall After Upgrading](/en/latest/ReInstallEverything/Index) instead of this installation guide.
+follow [Reinstall After Upgrading](/en/latest/ExtNsT3AA/ReInstallEverything/Index) instead of this installation guide.
 </Warning>
 
 ## Before you start

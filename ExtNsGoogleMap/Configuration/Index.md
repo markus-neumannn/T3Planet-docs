@@ -10,7 +10,7 @@ sidebarTitle: "Configuration"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Add Google Map API" href="/en/latest/ExtNsGoogleMap/Configuration/AddMapAPI/Index" />
-  <Card title="Add Google Map Locations" href="/en/latest/ExtNsGoogleMap/Configuration/AddMapLocations/Index" />
-  <Card title="Add Google Map Plugin" href="/en/latest/ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index" />
+  <Card icon="key" title="Add Google Map API" href="/en/latest/ExtNsGoogleMap/Configuration/AddMapAPI/Index" />
+  <Card icon="map-pin" title="Add Google Map Locations" href="/en/latest/ExtNsGoogleMap/Configuration/AddMapLocations/Index" />
+  <Card icon="map" title="Add Google Map Plugin" href="/en/latest/ExtNsGoogleMap/Configuration/AddGoogleMapPlugin/Index" />
 </CardGroup>

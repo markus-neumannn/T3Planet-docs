@@ -10,5 +10,5 @@ sidebarTitle: "Configuration"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Cookie Hint Plugin Settings" href="/en/latest/ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index" />
+  <Card icon="cookie" title="Cookie Hint Plugin Settings" href="/en/latest/ExtNsCookiesHint/Configuration/ConfigureCookiesHintPlugin/Index" />
 </CardGroup>

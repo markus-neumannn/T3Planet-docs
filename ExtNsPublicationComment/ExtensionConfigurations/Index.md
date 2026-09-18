@@ -1,6 +1,6 @@
 ---
 title: "Extension Configurations"
-description: "First you need to install the publication extension from typo3 repository, After than install the ns_publication_comment that will enhance the detail view of…"
+description: "First you need to install the publication extension from typo3 repository, After than install the ns_publication_comment that will enhance the detail view of each publication within comment module."
 keywords:
   - "TYPO3"
   - "T3Planet"

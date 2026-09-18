@@ -1,6 +1,6 @@
 ---
 title: "Get This Extension"
-description: "Get Latest version of this extension with more-features and free-support from https://t3planet.de/typo3-lightbox-extension or for free version https://extens…"
+description: "Get Latest version of this extension with more-features and free-support from https://t3planet.de/typo3-lightbox-extension or for free version https://extensions.typo3.org/extension/ns_all_lightbox/"
 keywords:
   - "TYPO3"
   - "T3Planet"

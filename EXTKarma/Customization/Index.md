@@ -47,10 +47,6 @@ Disable Style Switcher from the Layouts section.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmmf0792y3waynr99pdtajlei?utm_source=embed" loading="lazy" title="Custom Fonts" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
----
-
-## Additional content from live docs
-
 ### How to Disable Google Fonts
 
 To disable **Google Fonts** on your website, follow the steps below:

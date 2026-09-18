@@ -10,11 +10,11 @@ sidebarTitle: "Hubspot"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/en/latest/ExtNsHubspot/Introduction/Index" />
-  <Card title="Installation" href="/en/latest/ExtNsHubspot/Installation/Index" />
-  <Card title="Update Version" href="/en/latest/ExtNsHubspot/UpdateVersion/Index" />
-  <Card title="Configuration- Free version" href="/en/latest/ExtNsHubspot/FreeVersionConfiguration/Index" />
-  <Card title="Configuration- Premium Version" href="/en/latest/ExtNsHubspot/PremiumVersionConfiguration/Index" />
-  <Card title="Help & Support" href="/en/latest/ExtNsHubspot/Support" />
-  <Card title="Get This Extension" href="/en/latest/ExtNsHubspot/BuyNow" />
+  <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsHubspot/Introduction/Index" />
+  <Card title="Installation" icon="download" href="/en/latest/ExtNsHubspot/Installation/Index" />
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsHubspot/UpdateVersion/Index" />
+  <Card title="Configuration- Free version" icon="settings" href="/en/latest/ExtNsHubspot/FreeVersionConfiguration/Index" />
+  <Card title="Configuration- Premium Version" icon="settings" href="/en/latest/ExtNsHubspot/PremiumVersionConfiguration/Index" />
+  <Card title="Help & Support" icon="life-buoy" href="/en/latest/ExtNsHubspot/Support" />
+  <Card title="Get This Extension" icon="shopping-cart" href="/en/latest/ExtNsHubspot/BuyNow" />
 </CardGroup>

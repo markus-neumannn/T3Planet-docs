@@ -11,6 +11,11 @@ sidebarTitle: "News Comment Backend Module"
 ---
 
 If "Set Approval by admin" is checked in Constants then Comments added by visitors will not be displayed automatically on News Page. Admin Can Approve comments from BE module.
+
+<Note>
+The **Comment Moderation module** is not available for TYPO3 version 11.
+</Note>
+
 Admin can approve comments by following ways:
 
 <Steps>

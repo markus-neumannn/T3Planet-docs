@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "One of the only TYPO3 extension is developed to integrate all the features of www.Sharethis.com which is one of the most popular third-party social media pla…"
+description: "One of the only TYPO3 extension is developed to integrate all the features of www.Sharethis.com which is one of the most popular third-party social media platform!"
 keywords:
   - "TYPO3"
   - "T3Planet"

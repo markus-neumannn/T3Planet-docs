@@ -31,11 +31,3 @@ The TYPO3 Google site kit is a powerful tool that integrates with typo3. It lets
 ## Figures
 
 ![Extension Banner](images/ext_banner3.webp)
-
----
-
-## Additional content from live docs
-
-## EXT:ns_google_sitekit
-
-![Extension Banner](images/ext_banner3.webp)

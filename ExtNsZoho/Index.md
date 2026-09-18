@@ -10,10 +10,10 @@ sidebarTitle: "Zoho"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Introduction" href="/en/latest/ExtNsZoho/Introduction/Index" />
-  <Card title="Installation" href="/en/latest/ExtNsZoho/Installation/Index" />
-  <Card title="Update Version" href="/en/latest/ExtNsZoho/UpdateVersion/Index" />
-  <Card title="Configuration" href="/en/latest/ExtNsZoho/Configuration/Index" />
-  <Card title="Help & Support" href="/en/latest/ExtNsZoho/Support" />
-  <Card title="Get This Extension" href="/en/latest/ExtNsZoho/BuyNow" />
+  <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsZoho/Introduction/Index" />
+  <Card title="Installation" icon="download" href="/en/latest/ExtNsZoho/Installation/Index" />
+  <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsZoho/UpdateVersion/Index" />
+  <Card title="Configuration" icon="settings" href="/en/latest/ExtNsZoho/Configuration/Index" />
+  <Card title="Help & Support" icon="life-buoy" href="/en/latest/ExtNsZoho/Support" />
+  <Card title="Get This Extension" icon="shopping-cart" href="/en/latest/ExtNsZoho/BuyNow" />
 </CardGroup>

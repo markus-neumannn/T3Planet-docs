@@ -35,10 +35,6 @@ For generating the Site and Secret key, please refer to the following link:
 
 ![Configuration4](./images/Friendlycaptcha_Configuration_4.webp)
 
----
-
-## Additional content from live docs
-
 ## Local & Staging Testing
 
 If you want to test this extension on a local server without an official domain or IP:

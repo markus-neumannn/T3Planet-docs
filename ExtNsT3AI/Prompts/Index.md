@@ -1,6 +1,6 @@
 ---
 title: "Prompts"
-description: "Make your TYPO3 site smarter with T3AI Chat Assistance. This feature allows you to engage in natural conversations with the improved ChatGPT Assistant right in the TYPO3 backend.…"
+description: "Make your TYPO3 site smarter with T3AI Chat Assistance. This feature allows you to engage in natural conversations with the improved ChatGPT Assistant right in the TYPO3 backend."
 keywords:
   - "TYPO3"
   - "T3Planet"
@@ -246,10 +246,6 @@ Effortlessly organise and manage AI Media prompts with the Prompts Manager. Keep
 ## Interactive demos
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraru3lk1h13qmhxc5zr98ut?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-
----
-
-## Additional content from live docs
 
 ## T3AI Prompts
 

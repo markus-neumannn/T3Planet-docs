@@ -1,6 +1,6 @@
 ---
 title: "T3AL Terms (Glossary)"
-description: "TYPO3 AI Localization Using artificial intelligence to automatically translate website content into different languages, making the process faster and more a…"
+description: "**TYPO3 AI Localization** Using artificial intelligence to automatically translate website content into different languages, making the process faster and more accurate."
 keywords:
   - "TYPO3"
   - "T3Planet"

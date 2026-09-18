@@ -1,6 +1,6 @@
 ---
 title: "Configurable Database Chunking for various types of Dataset Processing"
-description: "This feature provides configurable database chunking to efficiently process large datasets while maintaining optimal performance and stability. Instead of loading all records in…"
+description: "This feature provides configurable database chunking to efficiently process large datasets while maintaining optimal performance and stability."
 keywords:
   - "TYPO3"
   - "T3Planet"

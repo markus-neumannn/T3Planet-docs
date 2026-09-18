@@ -1,6 +1,6 @@
 ---
 title: "Get This Extension"
-description: "Get Latest Version of this extension with more-features and free-support from https://t3planet.de/typo3-helpdesk-extension and for free version https://exten…"
+description: "Get Latest Version of this extension with more-features and free-support from https://t3planet.de/typo3-helpdesk-extension and for free version https://extensions.typo3.org/extension/ns_helpdesk"
 keywords:
   - "TYPO3"
   - "T3Planet"

@@ -1,6 +1,6 @@
 ---
 title: "CKEditor AI"
-description: "The AI Chat feature provides a conversational AI assistant that supports content creation, editing, and ideation within CKEditor. It enables dynamic, multiturn interactions…"
+description: "The AI Chat feature provides a conversational AI assistant that supports content creation, editing, and ideation within CKEditor."
 keywords:
   - "TYPO3"
   - "T3Planet"

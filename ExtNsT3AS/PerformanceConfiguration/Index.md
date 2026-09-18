@@ -1,6 +1,6 @@
 ---
 title: "Performance Configuration Based on Database Size"
-description: "The extension’s performance depends on the amount of vector data stored in the database. As the number of vectors increases, PHP memory and execution limits must be adjusted to…"
+description: "The extension’s performance depends on the amount of vector data stored in the database. As the number of vectors increases, PHP memory and execution limits must be adjusted to prevent timeouts and memory issues."
 keywords:
   - "TYPO3"
   - "T3Planet"

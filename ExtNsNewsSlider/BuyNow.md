@@ -1,6 +1,6 @@
 ---
 title: "Get This Extension"
-description: "Get Latest Version of this extension with more-features and free-support from https://t3planet.de/typo3-news-slider-extension or for free version https://ext…"
+description: "Get Latest Version of this extension with more-features and free-support from https://t3planet.de/typo3-news-slider-extension or for free version https://extensions.typo3.org/extension/ns_news_slider/"
 keywords:
   - "TYPO3"
   - "T3Planet"

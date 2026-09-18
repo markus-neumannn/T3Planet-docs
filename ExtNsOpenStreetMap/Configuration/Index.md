@@ -10,7 +10,7 @@ sidebarTitle: "Configuration"
 ---
 
 <CardGroup cols={2}>
-  <Card title="Add OpenStreet Map Library" href="/en/latest/ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index" />
-  <Card title="Add OpenStreet Map Locations" href="/en/latest/ExtNsOpenStreetMap/Configuration/AddMapLocations/Index" />
-  <Card title="Add OpenStreet Map Plugin" href="/en/latest/ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index" />
+  <Card icon="library" title="Add OpenStreet Map Library" href="/en/latest/ExtNsOpenStreetMap/Configuration/AddMapLibrary/Index" />
+  <Card icon="map-pin" title="Add OpenStreet Map Locations" href="/en/latest/ExtNsOpenStreetMap/Configuration/AddMapLocations/Index" />
+  <Card icon="map" title="Add OpenStreet Map Plugin" href="/en/latest/ExtNsOpenStreetMap/Configuration/AddOpenStreetMapPlugin/Index" />
 </CardGroup>

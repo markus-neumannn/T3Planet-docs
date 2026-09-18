@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Comment Extension for Ext: Publications is a special TYPO3 comment extension developed for Publication TYPO3 extension that enables your website visitors to…"
+description: "Comment Extension for Ext: Publications is a special TYPO3 comment extension developed for Publication TYPO3 extension that enables your website visitors to leave comments on your website."
 keywords:
   - "TYPO3"
   - "T3Planet"

@@ -1,6 +1,6 @@
 ---
 title: "T3AS - TYPO3 AI Search Extension"
-description: "T3AS TYPO3 AI Search adds AIpowered search to your TYPO3 website. It works with your existing search setup — site content, Solr, kesearch, or indexedsearch — and returns direct…"
+description: "**T3AS (TYPO3 AI Search)** adds AI-powered search to your TYPO3 website. It works with your existing search setup — site content, Solr, ke_search, or indexed_search — and returns direct answers based on your trained data."
 keywords:
   - "TYPO3"
   - "T3Planet"

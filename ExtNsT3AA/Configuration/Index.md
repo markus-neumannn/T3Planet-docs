@@ -1,6 +1,6 @@
 ---
 title: "Configuration"
-description: "T3AA uses AI Foundation for shared provider setup, model selection, prompts, and core AI services. Complete the parent setup first, then review the T3AA-sp"
+description: "T3AA uses AI Foundation for shared provider setup, model selection, prompts, and core AI services. Complete the parent setup first, then review the T3AA-specific options below."
 keywords:
   - "TYPO3"
   - "T3Planet"

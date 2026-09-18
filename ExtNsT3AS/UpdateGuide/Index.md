@@ -1,6 +1,6 @@
 ---
 title: "Update Guide"
-description: "To update the T3AS Premium extension, please follow the official update documentation before upgrading your installation:…"
+description: "To update the **T3AS Premium** extension, please follow the official update documentation before upgrading your installation: https://docs.t3planet.de/en/latest/License/UpdateVersion/Index.html"
 keywords:
   - "TYPO3"
   - "T3Planet"

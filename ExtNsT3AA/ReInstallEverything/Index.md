@@ -17,7 +17,7 @@ Before starting the reinstallation process, ensure that you review and complete 
 
 Skipping or changing the sequence of these steps may result in configuration issues, missing functionality, or data inconsistencies.
 
-If you are performing a fresh installation or upgrade extension, please follow the instructions in the [Installation](/en/latest/Installation/Index) section.
+If you are performing a fresh installation or upgrade extension, please follow the instructions in the [Installation](/en/latest/ExtNsT3AA/Installation/Index) section.
 </Warning>
 
 ## Overview

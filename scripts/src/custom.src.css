@@ -675,7 +675,7 @@ main .mdx-content > svg,
 .t3-template-landing .card [data-component-part="card-icon"] + .w-full,
 .t3-home-landing .card [data-component-part="card-icon"] + .w-full,
 .t3-hub-landing .card [data-component-part="card-icon"] + .w-full {
-  margin-top: 0.65rem !important;
+  margin-top: 0.4rem !important;
 }
 
 /* Title itself — small breathing room when it follows icon block */
@@ -1895,7 +1895,7 @@ main {
 .t3-home-landing .card-group,
 .t3-hub-landing [data-component-part="card-group"],
 .t3-hub-landing .card-group {
-  grid-template-columns: repeat(4, minmax(11.5rem, 1fr)) !important;
+  grid-template-columns: repeat(2, minmax(11.5rem, 1fr)) !important;
 }
 
 .t3-home-landing [data-component-part="card-title"],
@@ -2102,6 +2102,24 @@ main {
 .t3-extension-row:hover {
   border-color: var(--t3-primary);
   background: var(--t3-primary-muted);
+}
+
+
+.t3-extension-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.t3-extension-desc {
+  display: block;
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  color: var(--foreground-muted, #64748b);
+  max-width: 52rem;
+}
+.dark .t3-extension-desc {
+  color: #94a3b8;
 }
 
 .t3-extension-name {
@@ -3354,6 +3372,58 @@ main,
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+/* Early product-root / hard-nav loading (set by t3-stats-inline.js before
+   #t3-nav-loader exists). Keeps feedback visible across slow mint reloads. */
+html.t3-product-root-loading {
+  cursor: progress;
+}
+html.t3-product-root-loading::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  pointer-events: all;
+  background: rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(12px) saturate(1.15);
+  -webkit-backdrop-filter: blur(12px) saturate(1.15);
+}
+html.dark.t3-product-root-loading::before,
+.dark html.t3-product-root-loading::before {
+  background: rgba(8, 12, 22, 0.55);
+}
+html.t3-product-root-loading::after {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 100000;
+  width: 10px;
+  height: 10px;
+  margin: -5px 0 0 -5px;
+  border-radius: 50%;
+  background: #0052ff;
+  box-shadow: 18px 0 0 #8eb6ff, -18px 0 0 #8eb6ff;
+  animation: t3-product-root-dots 0.9s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes t3-product-root-dots {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html.t3-product-root-loading::after {
+    animation: none;
+    opacity: 1;
+  }
 }
 
 .t3-nav-loader-panel {
@@ -5292,7 +5362,8 @@ html.t3-mobile-nav-open .t3-drawer-close {
 
   [data-component-part="card"],
   .card {
-    padding: 0.95rem 1rem !important;
+    /* padding owned by card-content-container — keep outer card padding 0 */
+    padding: 0 !important;
     border-radius: 0.85rem !important;
   }
 
@@ -6043,44 +6114,6 @@ iframe[data-t3-src] {
 /* Feedback: consistent home/hub card & section spacing */
 .t3-home-landing > [data-component-part="card-group"],
 .t3-home-landing > .card-group {
-  margin-bottom: 0.5rem !important;
-}
-.t3-home-landing > .t3-landing-section:first-of-type {
-  margin-top: 0.35rem !important;
-}
-.t3-home-landing .t3-landing-section,
-.t3-hub-landing .t3-landing-section {
-  margin-bottom: 1.75rem !important;
-}
-.t3-home-landing [data-component-part="card-title"],
-.t3-home-landing .card h2,
-.t3-home-landing .card h3,
-.t3-landing-section [data-component-part="card-title"],
-.t3-landing-section .card h2,
-.t3-landing-section .card h3 {
-  margin: 0 0 0.35rem !important;
-  min-height: 2.5em;
-}
-.t3-home-landing [data-component-part="card-content"],
-.t3-home-landing .card p,
-.t3-landing-section [data-component-part="card-content"],
-.t3-landing-section .card p {
-  margin-top: 0 !important;
-}
-.t3-home-landing .card [data-component-part="card-icon"] + .w-full,
-.t3-home-landing .card [data-component-part="card-icon"] + div,
-.t3-landing-section .card [data-component-part="card-icon"] + .w-full,
-.t3-landing-section .card [data-component-part="card-icon"] + div {
-  margin-top: 0.55rem !important;
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 0.35rem !important;
-}
-
-
-/* Feedback: clearer home section separation + dark-mode card spacing */
-.t3-home-landing > [data-component-part="card-group"],
-.t3-home-landing > .card-group {
   margin-bottom: 1.25rem !important;
 }
 .t3-home-landing > .t3-landing-section:first-of-type {
@@ -6088,22 +6121,260 @@ iframe[data-t3-src] {
   padding-top: 0.75rem !important;
   border-top: 1px solid var(--t3-border);
 }
-.t3-home-landing .t3-landing-section {
-  margin-bottom: 2rem !important;
+.t3-home-landing .t3-landing-section,
+.t3-hub-landing .t3-landing-section {
+  margin-bottom: 1.75rem !important;
 }
 .t3-home-landing .t3-section-header {
   margin-bottom: 0.85rem !important;
-}
-.t3-home-landing [data-component-part="card-title"],
-.t3-home-landing .card h2,
-.t3-home-landing .card h3 {
-  min-height: 2.6em;
-  margin: 0 0 0.4rem !important;
 }
 html.dark .t3-home-landing > .t3-landing-section:first-of-type,
 .dark .t3-home-landing > .t3-landing-section:first-of-type {
   border-top-color: rgba(255,255,255,0.1);
 }
+
+/* === Compact documentation cards (site-wide) ============================
+   Root cause of oversized index cards:
+   - Forced title min-height (2.5em / 2.6em) reserved ~2 title lines
+   - Large icon→title gap + inner padding on title-only cards
+   Content stays unchanged; tighten spacing only. */
+.t3-home-landing [data-component-part="card-group"],
+.t3-home-landing .card-group,
+.t3-hub-landing [data-component-part="card-group"],
+.t3-hub-landing .card-group,
+.t3-template-landing [data-component-part="card-group"],
+.t3-template-landing .card-group,
+.t3-landing-section [data-component-part="card-group"],
+.t3-landing-section .card-group {
+  gap: 0.75rem !important;
+  align-items: stretch !important;
+}
+
+.t3-home-landing .card,
+.t3-hub-landing .card,
+.t3-template-landing .card,
+.t3-landing-section .card,
+.t3-home-landing [data-component-part="card"],
+.t3-hub-landing [data-component-part="card"],
+.t3-template-landing [data-component-part="card"],
+.t3-landing-section [data-component-part="card"] {
+  min-height: 0 !important;
+  height: auto !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.t3-home-landing [data-component-part="card-content-container"],
+.t3-hub-landing [data-component-part="card-content-container"],
+.t3-template-landing [data-component-part="card-content-container"],
+.t3-landing-section [data-component-part="card-content-container"],
+.t3-home-landing .card > div.relative,
+.t3-hub-landing .card > div.relative,
+.t3-template-landing .card > div.relative,
+.t3-landing-section .card > div.relative {
+  padding: 0.7rem 0.85rem !important;
+  flex: 1 1 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+}
+
+/* Icon → title: compact but readable */
+.t3-home-landing .card [data-component-part="card-icon"] + .w-full,
+.t3-home-landing .card [data-component-part="card-icon"] + div,
+.t3-hub-landing .card [data-component-part="card-icon"] + .w-full,
+.t3-hub-landing .card [data-component-part="card-icon"] + div,
+.t3-template-landing .card [data-component-part="card-icon"] + .w-full,
+.t3-template-landing .card [data-component-part="card-icon"] + div,
+.t3-landing-section .card [data-component-part="card-icon"] + .w-full,
+.t3-landing-section .card [data-component-part="card-icon"] + div {
+  margin-top: 0.4rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.25rem !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+}
+
+.t3-home-landing [data-component-part="card-title"],
+.t3-home-landing .card h2,
+.t3-home-landing .card h3,
+.t3-hub-landing [data-component-part="card-title"],
+.t3-hub-landing .card h2,
+.t3-hub-landing .card h3,
+.t3-template-landing [data-component-part="card-title"],
+.t3-template-landing .card h2,
+.t3-template-landing .card h3,
+.t3-landing-section [data-component-part="card-title"],
+.t3-landing-section .card h2,
+.t3-landing-section .card h3 {
+  margin: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 1.35 !important;
+}
+
+/* Restore small title→description gap only when description exists */
+.t3-home-landing [data-component-part="card-title"] + [data-component-part="card-content"],
+.t3-home-landing .card h2 + p,
+.t3-home-landing .card h3 + p,
+.t3-hub-landing [data-component-part="card-title"] + [data-component-part="card-content"],
+.t3-hub-landing .card h2 + p,
+.t3-hub-landing .card h3 + p,
+.t3-template-landing [data-component-part="card-title"] + [data-component-part="card-content"],
+.t3-template-landing .card h2 + p,
+.t3-template-landing .card h3 + p,
+.t3-landing-section [data-component-part="card-title"] + [data-component-part="card-content"],
+.t3-landing-section .card h2 + p,
+.t3-landing-section .card h3 + p {
+  margin-top: 0.3rem !important;
+}
+
+.t3-home-landing [data-component-part="card-content"],
+.t3-home-landing .card p,
+.t3-hub-landing [data-component-part="card-content"],
+.t3-hub-landing .card p,
+.t3-template-landing [data-component-part="card-content"],
+.t3-template-landing .card p,
+.t3-landing-section [data-component-part="card-content"],
+.t3-landing-section .card p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 1023px) {
+  .t3-home-landing [data-component-part="card-content-container"],
+  .t3-hub-landing [data-component-part="card-content-container"],
+  .t3-template-landing [data-component-part="card-content-container"],
+  .t3-landing-section [data-component-part="card-content-container"],
+  .t3-home-landing .card > div.relative,
+  .t3-hub-landing .card > div.relative,
+  .t3-template-landing .card > div.relative,
+  .t3-landing-section .card > div.relative {
+    padding: 0.65rem 0.75rem !important;
+  }
+
+  .t3-home-landing .card,
+  .t3-hub-landing .card,
+  .t3-template-landing .card,
+  .t3-landing-section .card,
+  .t3-home-landing [data-component-part="card"],
+  .t3-hub-landing [data-component-part="card"],
+  .t3-template-landing [data-component-part="card"],
+  .t3-landing-section [data-component-part="card"] {
+    padding: 0 !important; /* avoid double padding with mobile .card padding rules */
+  }
+}
+
+/* Compact cards for non-landing Index pages (plain CardGroup without landing wrappers) */
+article .card,
+main .card,
+.mdx-content .card,
+article [data-component-part="card"],
+main [data-component-part="card"],
+.mdx-content [data-component-part="card"] {
+  min-height: 0 !important;
+  height: auto !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+article [data-component-part="card-group"],
+main [data-component-part="card-group"],
+.mdx-content [data-component-part="card-group"],
+article .card-group,
+main .card-group,
+.mdx-content .card-group {
+  gap: 0.75rem !important;
+  align-items: stretch !important;
+}
+
+article [data-component-part="card-content-container"],
+main [data-component-part="card-content-container"],
+.mdx-content [data-component-part="card-content-container"],
+article .card > div.relative,
+main .card > div.relative,
+.mdx-content .card > div.relative {
+  padding: 0.7rem 0.85rem !important;
+  flex: 1 1 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+}
+
+article .card [data-component-part="card-icon"] + .w-full,
+article .card [data-component-part="card-icon"] + div,
+main .card [data-component-part="card-icon"] + .w-full,
+main .card [data-component-part="card-icon"] + div,
+.mdx-content .card [data-component-part="card-icon"] + .w-full,
+.mdx-content .card [data-component-part="card-icon"] + div {
+  margin-top: 0.4rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.25rem !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+}
+
+article [data-component-part="card-title"],
+article .card h2,
+article .card h3,
+main [data-component-part="card-title"],
+main .card h2,
+main .card h3,
+.mdx-content [data-component-part="card-title"],
+.mdx-content .card h2,
+.mdx-content .card h3 {
+  margin: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 1.35 !important;
+}
+
+article [data-component-part="card-title"] + [data-component-part="card-content"],
+article .card h2 + p,
+article .card h3 + p,
+main [data-component-part="card-title"] + [data-component-part="card-content"],
+main .card h2 + p,
+main .card h3 + p,
+.mdx-content [data-component-part="card-title"] + [data-component-part="card-content"],
+.mdx-content .card h2 + p,
+.mdx-content .card h3 + p {
+  margin-top: 0.3rem !important;
+}
+
+article [data-component-part="card-content"],
+article .card p,
+main [data-component-part="card-content"],
+main .card p,
+.mdx-content [data-component-part="card-content"],
+.mdx-content .card p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 1023px) {
+  article [data-component-part="card-content-container"],
+  main [data-component-part="card-content-container"],
+  .mdx-content [data-component-part="card-content-container"],
+  article .card > div.relative,
+  main .card > div.relative,
+  .mdx-content .card > div.relative {
+    padding: 0.65rem 0.75rem !important;
+  }
+
+  article .card,
+  main .card,
+  .mdx-content .card,
+  article [data-component-part="card"],
+  main [data-component-part="card"],
+  .mdx-content [data-component-part="card"] {
+    padding: 0 !important;
+  }
+}
+
 
 /* Hide Mintlify "Powered by" footer badge site-wide */
 a[href*="utm_campaign=poweredBy"],
@@ -6191,3 +6462,273 @@ html.t3-supademo-fs .t3-embed[data-t3-supademo-embed] {
   }
 }
 
+/* ── Context-aware sidebar: hide sibling product trees ───────── */
+#sidebar-content li.t3-sidebar-context-hidden,
+#sidebar-content .t3-sidebar-context-hidden,
+#mobile-nav li.t3-sidebar-context-hidden,
+#mobile-nav .t3-sidebar-context-hidden {
+  display: none !important;
+}
+
+#sidebar-content li[data-t3-sidebar-active-product="1"] > button,
+#mobile-nav li[data-t3-sidebar-active-product="1"] > button {
+  font-weight: 600;
+}
+
+/* ── Product group root nav (Mintlify root groups are expand-only buttons) ── */
+#sidebar-content li[data-t3-root-nav="1"] > button[data-t3-product-root],
+#mobile-nav li[data-t3-root-nav="1"] > button[data-t3-product-root] {
+  cursor: pointer;
+}
+#sidebar-content li[data-t3-root-nav="1"] [data-t3-product-root-label],
+#mobile-nav li[data-t3-root-nav="1"] [data-t3-product-root-label] {
+  text-decoration: none;
+}
+#sidebar-content li[data-t3-root-nav="1"] > button[data-t3-product-root]:hover [data-t3-product-root-label],
+#mobile-nav li[data-t3-root-nav="1"] > button[data-t3-product-root]:hover [data-t3-product-root-label] {
+  color: inherit;
+}
+
+/* ── Back to all docs (product-focused sidebar, RTD parity) ──
+   Must beat #sidebar-content a { color: var(--t3-text-muted) !important } */
+#sidebar-content a.t3-docs-back,
+#mobile-nav a.t3-docs-back,
+a.t3-docs-back {
+  position: sticky;
+  top: 0.35rem;
+  z-index: 30;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.45rem;
+  width: calc(100% - 0.5rem);
+  margin: 0.35rem 0.25rem 0.65rem;
+  padding: 0.55rem 0.75rem !important;
+  border-radius: 0.55rem;
+  border: 1px solid rgba(15, 23, 42, 0.18);
+  border-left: 1px solid rgba(15, 23, 42, 0.18) !important;
+  background: #1e293b !important;
+  color: #f8fafc !important;
+  font-size: 0.875rem;
+  font-weight: 600 !important;
+  line-height: 1.25;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.12);
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  content-visibility: visible;
+  contain: none;
+  overflow: visible;
+  word-break: normal;
+  hyphens: manual;
+}
+#sidebar-content a.t3-docs-back:hover,
+#mobile-nav a.t3-docs-back:hover,
+a.t3-docs-back:hover {
+  background: #0f172a !important;
+  border-color: rgba(15, 23, 42, 0.35);
+  border-left-color: rgba(15, 23, 42, 0.35) !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.22);
+}
+#sidebar-content a.t3-docs-back:active,
+#mobile-nav a.t3-docs-back:active,
+a.t3-docs-back:active {
+  transform: translateY(1px);
+}
+#sidebar-content a.t3-docs-back:focus-visible,
+#mobile-nav a.t3-docs-back:focus-visible,
+a.t3-docs-back:focus-visible {
+  outline: 2px solid #0052ff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px #0052ff;
+}
+#sidebar-content a.t3-docs-back .t3-docs-back-icon,
+#mobile-nav a.t3-docs-back .t3-docs-back-icon,
+a.t3-docs-back .t3-docs-back-icon {
+  flex: 0 0 auto;
+  display: block;
+  color: inherit !important;
+  stroke: currentColor;
+}
+#sidebar-content a.t3-docs-back .t3-docs-back-label,
+#mobile-nav a.t3-docs-back .t3-docs-back-label,
+a.t3-docs-back .t3-docs-back-label,
+#sidebar-content a.t3-docs-back span,
+#mobile-nav a.t3-docs-back span {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: inherit !important;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: manual;
+}
+.dark #sidebar-content a.t3-docs-back,
+.dark #mobile-nav a.t3-docs-back,
+.dark a.t3-docs-back {
+  background: #e2e8f0 !important;
+  color: #0f172a !important;
+  border-color: rgba(226, 232, 240, 0.55);
+  border-left-color: rgba(226, 232, 240, 0.55) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.dark #sidebar-content a.t3-docs-back:hover,
+.dark #mobile-nav a.t3-docs-back:hover,
+.dark a.t3-docs-back:hover {
+  background: #f8fafc !important;
+  color: #020617 !important;
+  border-color: #f8fafc;
+  border-left-color: #f8fafc !important;
+}
+/* Never inherit active/page styles from sibling nav links */
+#sidebar-content a.t3-docs-back[aria-current="page"],
+#sidebar-content a.t3-docs-back.t3-sidebar-active,
+.dark #sidebar-content a.t3-docs-back[aria-current="page"],
+.dark #sidebar-content a.t3-docs-back.t3-sidebar-active {
+  background: #1e293b !important;
+  color: #f8fafc !important;
+  border-left-color: rgba(15, 23, 42, 0.18) !important;
+  font-weight: 600 !important;
+}
+.dark #sidebar-content a.t3-docs-back[aria-current="page"],
+.dark #sidebar-content a.t3-docs-back.t3-sidebar-active {
+  background: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+#mobile-nav a.t3-docs-back {
+  width: calc(100% - 0.75rem);
+  margin: 0.5rem 0.375rem 0.75rem;
+  min-height: 2.5rem;
+}
+@media (max-width: 390px) {
+  #sidebar-content a.t3-docs-back,
+  #mobile-nav a.t3-docs-back,
+  a.t3-docs-back {
+    font-size: 0.8125rem;
+    padding: 0.5rem 0.65rem !important;
+  }
+}
+
+
+/* Sidebar group icons: keep alignment on narrow viewports */
+@media (max-width: 1023px) {
+  #sidebar-content .sidebar-group-header,
+  #mobile-nav .sidebar-group-header {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.375rem;
+    min-height: 2.5rem;
+  }
+
+  #sidebar-content .sidebar-group-header .sidebar-group-icon,
+  #mobile-nav .sidebar-group-header .sidebar-group-icon,
+  #sidebar-content .sidebar-group-header svg,
+  #mobile-nav .sidebar-group-header svg {
+    flex-shrink: 0 !important;
+    width: 1rem !important;
+    height: 1rem !important;
+    min-width: 1rem !important;
+  }
+
+  #sidebar-content .sidebar-group-header .sidebar-title,
+  #mobile-nav .sidebar-group-header .sidebar-title {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
+
+/* Content heading permalink (#) icon: never overlap title on small screens */
+@media (max-width: 1023px) {
+  #content h1.group,
+  #content h2.group,
+  #content h3.group,
+  #content h4.group {
+    position: relative;
+  }
+
+  #content h1.group > .absolute,
+  #content h2.group > .absolute,
+  #content h3.group > .absolute,
+  #content h4.group > .absolute {
+    display: none !important;
+  }
+}
+
+/* ── Hub / landing title: fix Mintlify heading permalink icon ─
+   Mintlify injects an absolute -ml-10 anchor beside MDX h1/h2.
+   On hubs we already render a custom .t3-landing-title, and the
+   negative margin pulls the icon into/over the title on small screens.
+*/
+body:has(.t3-landing-title) #page-title {
+  /* Duplicate Mintlify chrome title when MDX landing H1 exists */
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.t3-landing-hero h1.group > .absolute,
+.t3-hub-landing h1.group > .absolute,
+.t3-template-landing h1.group > .absolute,
+.t3-home-landing h1.group > .absolute,
+h1.t3-landing-title.group > .absolute {
+  display: none !important;
+}
+
+/* Section headings inside hub landings: avoid -ml-10 overflow on narrow viewports */
+@media (max-width: 767px) {
+  .t3-hub-landing h2.group > .absolute,
+  .t3-template-landing h2.group > .absolute,
+  .t3-home-landing h2.group > .absolute,
+  .t3-hub-landing h3.group > .absolute,
+  .t3-template-landing h3.group > .absolute {
+    display: none !important;
+  }
+
+  /* Generic content heading anchors: don't paint outside the viewport */
+  #content h1.group > .absolute a[href^="#"],
+  #content h2.group > .absolute a[href^="#"],
+  #content h3.group > .absolute a[href^="#"] {
+    margin-left: 0 !important;
+  }
+
+  #content h1.group > .absolute,
+  #content h2.group > .absolute,
+  #content h3.group > .absolute {
+    left: 0 !important;
+    transform: none !important;
+    display: none !important;
+  }
+}
+
+
+/* Product/root group: transparent link over label; chevron (right ~28px) stays on button */
+li[data-t3-root-nav="1"] {
+  position: relative;
+}
+li[data-t3-root-nav="1"] > a.t3-product-root-link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 28px;
+  z-index: 5;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  color: transparent;
+  /* Near-invisible fill so hit-testing reliably targets the overlay, not the label span. */
+  background: rgba(0, 0, 0, 0.001);
+  pointer-events: auto !important;
+  cursor: pointer;
+}
+li[data-t3-root-nav="1"] > button[aria-expanded] {
+  position: relative;
+  z-index: 1;
+}

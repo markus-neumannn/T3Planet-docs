@@ -1,6 +1,6 @@
 ---
 title: "Configuration"
-description: "T3AC uses T3AF for provider setup, model selection, shared prompts, and core AI services. Complete the T3AF setup first, then return to T3AC for chatbotspecific…"
+description: "T3AC uses T3AF for provider setup, model selection, shared prompts, and core AI services. Complete the T3AF setup first, then return to T3AC for chatbot-specific configuration."
 keywords:
   - "TYPO3"
   - "T3Planet"

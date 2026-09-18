@@ -1,6 +1,6 @@
 ---
 title: "Get This Extension"
-description: "Get Latest Version of this extension with more-features and free-support from https://t3planet.de/typo3-personio-extension or for free version https://extens…"
+description: "Get Latest Version of this extension with more-features and free-support from https://t3planet.de/typo3-personio-extension or for free version https://extensions.typo3.org/extension/ns_personio"
 keywords:
   - "TYPO3"
   - "T3Planet"

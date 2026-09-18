@@ -55,9 +55,18 @@ WARM_PATHS = [
                 "/EXTKarma/Index",
                 "/EXTAvatar/Index",
                 "/ExtNsT3AI/Index",
+                "/ExtNsT3AI/Introduction/Index",
+                "/ExtNsT3AI/DPAandGDPR/Index",
                 "/ExtNsT3AA/Index",
+                "/ExtNsT3AA/Introduction/Index",
+                "/ExtNsT3AA/DPAandGDPR/Index",
+                "/ExtNsT3AA/AccessibilityWidgets/Index",
+                "/ExtNsT3AF/DPAandGDPR/Index",
+                "/ExtNsT3AF/Configuration/AIPermissions/Index",
                 "/ExtNsT3AC/Index",
+                "/ExtNsT3AC/DPAandGDPR/Index",
                 "/ExtNsT3AS/Index",
+                "/ExtNsT3AS/DPAandGDPR/Index",
                 "/ExtNsT3AL/Index",
                 "/ExtNsT3AB/Index",
                 "/ExtRTECKEditorPack/Index",
@@ -245,6 +254,54 @@ def _key(method: str, path: str) -> str:
     return hashlib.sha1(f"{method}:{path}".encode()).hexdigest()
 
 
+
+
+
+def _inject_t3_docs_scripts(body: bytes, content_type: str) -> bytes:
+    """Ensure T3 docs scripts + early product-root loader boot on local mint.
+
+    Live Mintlify embeds docs.json scripts; local mint often does not. Always
+    inject a synchronous head boot when a product-root hard-nav is pending so
+    the loader paints before deferred bundles.
+    """
+    ct = (content_type or "").lower()
+    if "text/html" not in ct or not body:
+        return body
+    nl = b"\n"
+    early_boot = (
+        b'<script data-t3-product-root-boot="1">(function(){try{var k=\'t3-product-root-nav\';'
+        b"if(!sessionStorage.getItem(k))return;"
+        b"var h=document.documentElement;"
+        b"h.classList.add('t3-product-root-loading','t3-nav-busy','t3-loader-on','t3-holding');"
+        b"h.setAttribute('aria-busy','true');"
+        b"}catch(e){}})();</script>"
+        + nl
+    )
+    low = body.lower()
+    # Synchronous boot in <head> (even when deferred scripts are already present).
+    if b'data-t3-product-root-boot=' not in body:
+        head_idx = low.find(b"</head>")
+        if head_idx != -1:
+            body = body[:head_idx] + early_boot + body[head_idx:]
+            low = body.lower()
+
+    if b"t3-docs.min.js" in body:
+        return body
+
+    scripts = (
+        b'<script src="/_static/t3-stats-inline.js" defer></script>'
+        + nl
+        + b'<script src="/_static/t3-docs.min.js" defer></script>'
+        + nl
+    )
+    idx = low.rfind(b"</body>")
+    if idx == -1:
+        idx = low.rfind(b"</html>")
+    if idx == -1:
+        return body + scripts
+    return body[:idx] + scripts + body[idx:]
+
+
 def _content_type(headers: list[tuple[str, str]]) -> str:
     for k, v in headers:
         if k.lower() == "content-type":
@@ -262,6 +319,7 @@ def _send_cached(
     expires: float | None = None,
 ) -> None:
     ct = _content_type(headers)
+    body = _inject_t3_docs_scripts(body, ct)
     handler.send_response(status)
     for k, v in headers:
         lk = k.lower()
@@ -379,28 +437,52 @@ def _revalidate_async(path: str) -> None:
     threading.Thread(target=run, name=f"t3-reval-{path[:24]}", daemon=True).start()
 
 
-def _warm_one(path: str) -> None:
-    try:
-        t0 = time.time()
-        # Never hold the upstream gate against interactive traffic.
-        # If mint is busy serving a user, skip and retry later via another warm.
-        res = _upstream("GET", path, {}, b"", block=False)
-        if res is None:
-            print(f"[cache-proxy] warm skipped {path} (busy)", flush=True)
+def _warm_one(path: str, *, retries: int = 3) -> None:
+    for attempt in range(1, retries + 1):
+        try:
+            t0 = time.time()
+            # Sequential warm may wait on the compile gate; do not skip as "busy"
+            # or hubs never get cached while interactive traffic holds the semaphore.
+            res = _upstream("GET", path, {}, b"", block=True)
+            if res is None:
+                print(f"[cache-proxy] warm skipped {path} (busy)", flush=True)
+                time.sleep(0.4 * attempt)
+                continue
+            status, headers, raw = res
+            ok = _store(path, status, headers, raw)
+            dt = time.time() - t0
+            print(f"[cache-proxy] warm {path} → {status} {len(raw)}B in {dt:.1f}s cached={ok}", flush=True)
+            time.sleep(0.15)  # let interactive traffic slip between warms
             return
-        status, headers, raw = res
-        ok = _store(path, status, headers, raw)
-        dt = time.time() - t0
-        print(f"[cache-proxy] warm {path} → {status} {len(raw)}B in {dt:.1f}s cached={ok}", flush=True)
-        time.sleep(0.15)  # let interactive traffic slip between warms
-    except Exception as exc:
-        print(f"[cache-proxy] warm failed {path}: {exc}", flush=True)
-        _reset_conn()
+        except Exception as exc:
+            print(f"[cache-proxy] warm failed {path} (try {attempt}/{retries}): {exc}", flush=True)
+            _reset_conn()
+            time.sleep(0.5 * attempt)
+
+
+def _wait_mint_ready(timeout_sec: float = 60.0) -> bool:
+    """Block background warm until mint accepts TCP (avoids startup race 502s)."""
+    deadline = time.time() + timeout_sec
+    host, port = _origin_parts()
+    while time.time() < deadline:
+        try:
+            conn = HTTPConnection(host, port, timeout=3)
+            conn.request("GET", "/")
+            resp = conn.getresponse()
+            resp.read(256)
+            conn.close()
+            if resp.status < 500:
+                return True
+        except Exception:
+            time.sleep(1.0)
+    return False
 
 
 def _warm_paths() -> None:
     """Compile + cache hub routes so the first human visit is already warm."""
-    time.sleep(1.0)
+    if not _wait_mint_ready():
+        print("[cache-proxy] mint not ready — skipping background warm", flush=True)
+        return
     print(f"[cache-proxy] warming {len(WARM_PATHS)} routes sequentially…", flush=True)
     for path in WARM_PATHS:
         _warm_one(path)
@@ -470,6 +552,19 @@ class Handler(BaseHTTPRequestHandler):
             from urllib.parse import parse_qs, urlsplit
 
             qs = parse_qs(urlsplit(path).query or "")
+            # Warm the full hub catalog in the background (used by start_fast_preview).
+            if (qs.get("all") or [""])[0] in ("1", "true", "yes"):
+                threading.Thread(target=_warm_paths, daemon=True).start()
+                import json as _json
+
+                payload = _json.dumps({"warming": "all", "count": len(WARM_PATHS)}).encode()
+                self.send_response(202)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+                return
             target = (qs.get("path") or ["/"])[0]
             if not target.startswith("/"):
                 target = "/" + target
@@ -571,6 +666,8 @@ class Handler(BaseHTTPRequestHandler):
                 )
                 return
 
+        if method != "HEAD":
+            raw = _inject_t3_docs_scripts(raw, ct)
         self.send_response(status)
         for k, v in resp_headers:
             if k.lower() in ("transfer-encoding", "connection", "content-length"):

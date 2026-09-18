@@ -10,6 +10,6 @@ sidebarTitle: "Configuration"
 ---
 
 <CardGroup cols={2}>
-  <Card title="1. General News System Settings" href="/en/latest/ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index" />
-  <Card title="2. Add Search Result" href="/en/latest/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index" />
+  <Card icon="settings" title="1. General News System Settings" href="/en/latest/ExtNsNewsAdvancedSearch/Configuration/AddNewsFormSystemPlugin/Index" />
+  <Card icon="search" title="2. Add Search Result" href="/en/latest/ExtNsNewsAdvancedSearch/Configuration/AddNewsListPlugin/Index" />
 </CardGroup>

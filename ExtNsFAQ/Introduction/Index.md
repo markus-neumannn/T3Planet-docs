@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Ultimate FAQ TYPO3 Extension is an easy-to-use and customizable extension to shape and display on your website a list of the most frequent customer questions…"
+description: "Ultimate FAQ TYPO3 Extension is an easy-to-use and customizable extension to shape and display on your website a list of the most frequent customer questions with answers."
 keywords:
   - "TYPO3"
   - "T3Planet"

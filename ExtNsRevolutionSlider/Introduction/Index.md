@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Are you looking to utilize the full visual editing power with simple drag and drop functionality just like WordPress for your TYPO3 website without any manua…"
+description: "Are you looking to utilize the full visual editing power with simple drag and drop functionality just like WordPress for your TYPO3 website without any manual configurations? You've got!"
 keywords:
   - "TYPO3"
   - "T3Planet"

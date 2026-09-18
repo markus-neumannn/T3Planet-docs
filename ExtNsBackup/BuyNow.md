@@ -1,6 +1,6 @@
 ---
 title: "Get This Extension"
-description: "Get Latest version of this extension with more-features and free-support from https://t3planet.de/typo3-sicherung-erweiterung or for free version https://t3p…"
+description: "Get Latest version of this extension with more-features and free-support from https://t3planet.de/typo3-sicherung-erweiterung or for free version https://t3planet.de/ns-backup-typo3-extension"
 keywords:
   - "TYPO3"
   - "T3Planet"

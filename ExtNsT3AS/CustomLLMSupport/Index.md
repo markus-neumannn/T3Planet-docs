@@ -1,6 +1,6 @@
 ---
 title: "Custom LLM Support"
-description: "Custom LLM Support provides a complete and scalable solution for integrating AI into TYPO3. From data ingestion and semantic embedding to vector search and secure API delivery,…"
+description: "Custom LLM Support provides a complete and scalable solution for integrating AI into TYPO3."
 keywords:
   - "TYPO3"
   - "T3Planet"

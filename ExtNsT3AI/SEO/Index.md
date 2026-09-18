@@ -232,10 +232,6 @@ Easily create SEO-friendly URLs with the AI Slug feature! T3AI helps you generat
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmr95o3j821g3qm3amu8k68ox?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
----
-
-## Additional content from live docs
-
 ## Mass SEO
 
 Mass SEO helps you fill in SEO data for many TYPO3 pages at the same time.
