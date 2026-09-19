@@ -445,6 +445,9 @@
       try {
         enhanceProductRootNav();
       } catch (eEnh) {}
+      try {
+        refreshProductRootOverlayBounds();
+      } catch (eB) {}
     }, 30);
     // Mintlify often remounts sidebar shortly after route settle
     setTimeout(function () {
@@ -461,8 +464,11 @@
 
   function observeSidebarProductContext() {
     if (sidebarContextObs) return;
-    var target = document.getElementById("navigation-items") || document.getElementById("sidebar-content");
-    if (!target || typeof MutationObserver !== "function") return;
+    if (typeof MutationObserver !== "function") return;
+    // Observe document.body — Mintlify/React remounts #navigation-items after
+    // hydration, which disconnects observers attached only to that node.
+    var target = document.body || document.documentElement;
+    if (!target) return;
     sidebarContextObs = new MutationObserver(function () {
       scheduleSidebarProductContext();
       try {
@@ -471,6 +477,25 @@
     });
     try {
       sidebarContextObs.observe(target, { childList: true, subtree: true });
+    } catch (eObs) {}
+  }
+
+  /** Re-apply overlays after React hydration wipes injected sidebar nodes. */
+  function recoverProductRootNavAfterHydration() {
+    try {
+      document.documentElement.classList.add("t3-sidebar-ready");
+    } catch (eReady) {}
+    try {
+      enhanceProductRootNav();
+    } catch (eEnh) {}
+    try {
+      refreshProductRootOverlayBounds();
+    } catch (eB) {}
+    try {
+      scheduleSidebarProductContext();
+    } catch (eCtx) {}
+    try {
+      observeSidebarProductContext();
     } catch (eObs) {}
   }
 
@@ -488,6 +513,26 @@
     // Ignore non-route ids
     if (id.indexOf(" ") !== -1) return "";
     return cleanRoute(id);
+  }
+
+  function syncProductRootOverlayBounds(li, link, btn) {
+    if (!li || !link || !btn) return;
+    try {
+      if (getComputedStyle(li).position === "static") li.style.position = "relative";
+      var liRect = li.getBoundingClientRect();
+      var btnRect = btn.getBoundingClientRect();
+      var top = Math.max(0, Math.round(btnRect.top - liRect.top));
+      var height = Math.max(28, Math.round(btnRect.height));
+      link.style.top = top + "px";
+      link.style.height = height + "px";
+      link.style.bottom = "auto";
+      link.style.left = "0";
+      link.style.right = "28px";
+    } catch (eSync) {}
+  }
+
+  function pathsEqualNav(a, b) {
+    return normalizeSidebarPath(a) === normalizeSidebarPath(b);
   }
 
   function isProductRootExpandButton(btn) {
@@ -587,9 +632,21 @@
             li.insertBefore(link, btn);
           }
           if (link.getAttribute("href") !== href) link.setAttribute("href", href);
+          // Bound overlay to the button row only — never cover nested page links.
+          syncProductRootOverlayBounds(li, link, btn);
         } catch (eLink) {}
       });
     });
+  }
+
+  function refreshProductRootOverlayBounds() {
+    try {
+      document.querySelectorAll("li[data-t3-root-nav='1']").forEach(function (li) {
+        var link = li.querySelector(":scope > a.t3-product-root-link");
+        var btn = li.querySelector(":scope > button[aria-expanded], button[aria-expanded]");
+        if (link && btn) syncProductRootOverlayBounds(li, link, btn);
+      });
+    } catch (eRef) {}
   }
 
   function bindProductRootNavClicks() {
@@ -635,7 +692,7 @@
         var href = cleanRoute(a.getAttribute("href") || "");
         if (!href || href[0] !== "/") return;
         if (href === "/Index") href = "/";
-        if (href === currentPath()) return;
+        if (pathsEqualNav(href, currentPath())) return;
         try {
           a.setAttribute("data-t3-root-armed", href);
         } catch (eArm) {}
@@ -1924,9 +1981,9 @@
   }
 
   function forceFullNavigation(target) {
-    target = cleanRoute(target || "");
+    target = withDocsBase(cleanRoute(target || ""));
     if (!target || target[0] !== "/") return;
-    if (target === currentPath()) return;
+    if (pathsEqualNav(target, currentPath())) return;
     // Mintlify/Next on local often ignores location.href/assign from the
     // homepage. pushState + reload works — call the native prototype so our
     // history patch (onRouteChange) cannot throw before reload.
@@ -1955,7 +2012,7 @@
     var go = cleanRoute(href || "");
     if (go === "/Index") go = "/";
     if (!go || go[0] !== "/") return;
-    if (go === currentPath()) return;
+    if (pathsEqualNav(go, currentPath())) return;
     try {
       pauseBackgroundWarmForUserNav();
     } catch (ePause) {}
@@ -2918,7 +2975,11 @@
   }
 
   function init() {
-    if (document.documentElement.dataset.t3DocsInit === "1") return;
+    if (document.documentElement.dataset.t3DocsInit === "1") {
+      // Init already ran; React may have remounted the sidebar — re-enhance only.
+      recoverProductRootNavAfterHydration();
+      return;
+    }
     document.documentElement.dataset.t3DocsInit = "1";
     canonicalizeIndexPath();
 
@@ -2966,12 +3027,15 @@
     bindPrefetchPointerDown();
     bindSearchTriggers();
 
-    window.addEventListener(
+      window.addEventListener(
       "resize",
       debounce(function () {
         syncNavbarHeight();
         applyOverlayBounds(holdEl);
         applyOverlayBounds(veilEl);
+        try {
+          refreshProductRootOverlayBounds();
+        } catch (eRb) {}
       }, 150),
       { passive: true }
     );
@@ -3028,6 +3092,28 @@
   bindHardNavClicks();
   bindProductRootNavClicks();
   window.__t3DocsNavBound = 1;
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
-  else init();
+  function bootInit() {
+    try {
+      init();
+    } catch (eBoot) {}
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", bootInit);
+  bootInit();
+  // React hydration (error #418 locally) remounts the sidebar and strips our
+  // injected overlays / html dataset. Re-enhance on a short schedule + body MO.
+  [0, 100, 300, 800, 1600, 3200, 5000].forEach(function (ms) {
+    setTimeout(function () {
+      try {
+        // If hydration wiped the init marker, allow a full re-init once.
+        if (!document.documentElement.dataset.t3DocsInit) {
+          try {
+            delete document.documentElement.dataset.t3DocsInit;
+          } catch (eDel) {}
+          bootInit();
+        } else {
+          recoverProductRootNavAfterHydration();
+        }
+      } catch (eRec) {}
+    }, ms);
+  });
 })();

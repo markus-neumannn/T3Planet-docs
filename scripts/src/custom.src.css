@@ -6708,7 +6708,9 @@ h1.t3-landing-title.group > .absolute {
 }
 
 
-/* Product/root group: transparent link over label; chevron (right ~28px) stays on button */
+/* Product/root group: link covers ONLY the header row (button), never nested children.
+   Using bottom:0 stretched the overlay over the entire expanded tree and stole
+   clicks from nested sidebar links (live bug: Integrations / Credits children). */
 li[data-t3-root-nav="1"] {
   position: relative;
 }
@@ -6716,14 +6718,15 @@ li[data-t3-root-nav="1"] > a.t3-product-root-link {
   position: absolute;
   left: 0;
   top: 0;
-  bottom: 0;
   right: 28px;
+  bottom: auto;
+  height: 2.25rem;
+  max-height: 2.75rem;
   z-index: 5;
   display: block;
   text-indent: -9999px;
   overflow: hidden;
   color: transparent;
-  /* Near-invisible fill so hit-testing reliably targets the overlay, not the label span. */
   background: rgba(0, 0, 0, 0.001);
   pointer-events: auto !important;
   cursor: pointer;

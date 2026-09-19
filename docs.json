@@ -84,7 +84,8 @@
               "License/Migration/Composer/Index",
               "License/SiteSets/Index",
               "License/HelpSupport/Index"
-            ]
+            ],
+            "root": "License/Index"
           }
         ]
       },
@@ -113,7 +114,8 @@
                   "ExtNsT3AF/Configuration/AILabel/Index",
                   "ExtNsT3AF/Configuration/AIUsageAndLogs/Index",
                   "ExtNsT3AF/Configuration/AIPermissions/Index"
-                ]
+                ],
+                "root": "ExtNsT3AF/Configuration/Index"
               },
               {
                 "group": "T3Planet Credits",
@@ -137,7 +139,8 @@
                   "ExtNsT3AF/Integrations/MCPServer/Index",
                   "ExtNsT3AF/Integrations/MCPTools/Index",
                   "ExtNsT3AF/Integrations/MCPTesting/Index"
-                ]
+                ],
+                "root": "ExtNsT3AF/Integrations/Index"
               },
               {
                 "group": "User Guide",
@@ -145,7 +148,8 @@
                 "pages": [
                   "ExtNsT3AF/UserGuide/Index",
                   "ExtNsT3AF/UserGuide/RolesAndDailyUse/Index"
-                ]
+                ],
+                "root": "ExtNsT3AF/UserGuide/Index"
               },
               {
                 "group": "Developer Guide",
@@ -160,7 +164,8 @@
                   "ExtNsT3AF/DeveloperGuide/FeatureProviderOverrides/Index",
                   "ExtNsT3AF/DeveloperGuide/CustomMcpTools/Index",
                   "ExtNsT3AF/DeveloperGuide/CustomAccessCatalogs/Index"
-                ]
+                ],
+                "root": "ExtNsT3AF/DeveloperGuide/Index"
               },
               {
                 "group": "Troubleshooting",
@@ -169,7 +174,8 @@
                   "ExtNsT3AF/Troubleshooting/Index",
                   "ExtNsT3AF/Troubleshooting/KnownProblems/Index",
                   "ExtNsT3AF/Troubleshooting/FAQ/Index"
-                ]
+                ],
+                "root": "ExtNsT3AF/Troubleshooting/Index"
               },
               "ExtNsT3AF/HelpfulLinks/Index",
               "ExtNsT3AF/Support/Index"
@@ -228,7 +234,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsT3AI/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsT3AI/UpdateVersion/Index"
               }
             ]
           },
@@ -255,7 +262,8 @@
                   "ExtNsT3AC/CustomLLMSupport/T3ACPrerequisitesAndSOWCustomLLM/Index",
                   "ExtNsT3AC/CustomLLMSupport/T3ACHostingPolicyforCustomLLM/Index",
                   "ExtNsT3AC/RetrievalConfidenceThreshold/Index"
-                ]
+                ],
+                "root": "ExtNsT3AC/CustomLLMSupport/Index"
               },
               {
                 "group": "Features",
@@ -269,14 +277,16 @@
                   "ExtNsT3AC/FeatureGuide/UsageAnalytics/Index",
                   "ExtNsT3AC/FeatureGuide/AILogs/Index",
                   "ExtNsT3AC/FeatureGuide/AIStatistics/Index"
-                ]
+                ],
+                "root": "ExtNsT3AC/FeatureGuide/Index"
               },
               {
                 "group": "Updates",
                 "expanded": false,
                 "pages": [
                   "ExtNsT3AC/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsT3AC/UpdateVersion/Index"
               }
             ]
           },
@@ -310,14 +320,16 @@
                   "ExtNsT3AS/CustomLLMSupport/T3ASPrerequisitesAndSOWCustomLLM/Index",
                   "ExtNsT3AS/CustomLLMSupport/T3ASHostingPolicyforCustomLLM/Index",
                   "ExtNsT3AS/RetrievalConfidenceThreshold/Index"
-                ]
+                ],
+                "root": "ExtNsT3AS/CustomLLMSupport/Index"
               },
               {
                 "group": "Updates",
                 "expanded": false,
                 "pages": [
                   "ExtNsT3AS/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsT3AS/UpdateVersion/Index"
               }
             ]
           },
@@ -348,7 +360,8 @@
                       "ExtNsT3AA/FeatureGuide/Scans/Scanner/Index",
                       "ExtNsT3AA/FeatureGuide/Scans/BulkScans/Index",
                       "ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index"
-                    ]
+                    ],
+                    "root": "ExtNsT3AA/FeatureGuide/Scans/Index"
                   },
                   "ExtNsT3AA/FeatureGuide/FixHub/Index",
                   "ExtNsT3AA/FeatureGuide/Content/Index",
@@ -357,7 +370,8 @@
                   "ExtNsT3AA/FeatureGuide/AIAudio/Index",
                   "ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index",
                   "ExtNsT3AA/FeatureGuide/SimplifiedText/Index"
-                ]
+                ],
+                "root": "ExtNsT3AA/FeatureGuide/Index"
               },
               "ExtNsT3AA/DPAandGDPR/Index",
               "ExtNsT3AA/UpdateGuide/Index",
@@ -369,7 +383,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsT3AA/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsT3AA/UpdateVersion/Index"
               }
             ]
           },
@@ -399,7 +414,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsT3AL/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsT3AL/UpdateVersion/Index"
               }
             ]
           },
@@ -428,7 +444,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsT3AB/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsT3AB/UpdateVersion/Index"
               }
             ]
           }
@@ -464,7 +481,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTKarma/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTKarma/UpdateVersion/Index"
               }
             ]
           },
@@ -491,7 +509,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTBootstrap/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTBootstrap/UpdateVersion/Index"
               }
             ]
           },
@@ -516,7 +535,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTShiva/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTShiva/UpdateVersion/Index"
               }
             ]
           },
@@ -525,14 +545,16 @@
             "expanded": false,
             "pages": [
               "EXTGuru/Index"
-            ]
+            ],
+            "root": "EXTGuru/Index"
           },
           {
             "group": "Shri",
             "expanded": false,
             "pages": [
               "EXTShri/Index"
-            ]
+            ],
+            "root": "EXTShri/Index"
           },
           {
             "group": "Avatar",
@@ -557,7 +579,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTAvatar/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTAvatar/UpdateVersion/Index"
               }
             ]
           },
@@ -582,7 +605,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTAyu/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTAyu/UpdateVersion/Index"
               }
             ]
           },
@@ -606,7 +630,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTReactBootstrap/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTReactBootstrap/UpdateVersion/Index"
               }
             ]
           },
@@ -631,7 +656,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTReva/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTReva/UpdateVersion/Index"
               }
             ]
           },
@@ -651,7 +677,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTShop/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTShop/UpdateVersion/Index"
               }
             ]
           },
@@ -720,7 +747,8 @@
                   "ExtTypoTonic/GettingStarted/CreatingADatatype/Index",
                   "ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index",
                   "ExtTypoTonic/GettingStarted/Templating/Index"
-                ]
+                ],
+                "root": "ExtTypoTonic/GettingStarted/Index"
               },
               {
                 "group": "Frontend Plugins",
@@ -728,7 +756,8 @@
                 "pages": [
                   "ExtTypoTonic/FrontendPlugins/Index",
                   "ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index"
-                ]
+                ],
+                "root": "ExtTypoTonic/FrontendPlugins/Index"
               },
               "ExtTypoTonic/ViewHelpers/Index",
               "ExtTypoTonic/Screenshots/Index",
@@ -753,7 +782,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsHubspot/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsHubspot/UpdateVersion/Index"
               }
             ]
           },
@@ -783,7 +813,8 @@
                   "ExtNsRevolutionSlider/RevolutionSlider3.0/Installation/Index",
                   "ExtNsRevolutionSlider/RevolutionSlider3.0/Configuration/Index",
                   "ExtNsRevolutionSlider/RevolutionSlider3.0/FAQ/Index"
-                ]
+                ],
+                "root": "ExtNsRevolutionSlider/RevolutionSlider3.0/Index"
               },
               {
                 "group": "Revolution Slider (Latest)",
@@ -794,14 +825,16 @@
                   "ExtNsRevolutionSlider/RevolutionSliderLatest/MigrationFrom3toLatest/Index",
                   "ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index",
                   "ExtNsRevolutionSlider/RevolutionSliderLatest/Configuration/Index"
-                ]
+                ],
+                "root": "ExtNsRevolutionSlider/RevolutionSliderLatest/Index"
               },
               {
                 "group": "Updates",
                 "expanded": false,
                 "pages": [
                   "ExtNsRevolutionSlider/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsRevolutionSlider/UpdateVersion/Index"
               }
             ]
           },
@@ -824,7 +857,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsNewsComments/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsNewsComments/UpdateVersion/Index"
               }
             ]
           },
@@ -847,7 +881,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsGoogleSiteKit/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsGoogleSiteKit/UpdateVersion/Index"
               }
             ]
           },
@@ -871,7 +906,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsBackup/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsBackup/UpdateVersion/Index"
               }
             ]
           },
@@ -893,7 +929,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsEvent/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsEvent/UpdateVersion/Index"
               }
             ]
           },
@@ -914,7 +951,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsFeedback/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsFeedback/UpdateVersion/Index"
               }
             ]
           },
@@ -941,7 +979,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsGallery/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsGallery/UpdateVersion/Index"
               }
             ]
           },
@@ -966,7 +1005,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsHelpDesk/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsHelpDesk/UpdateVersion/Index"
               }
             ]
           },
@@ -989,7 +1029,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsSocialLogin/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsSocialLogin/UpdateVersion/Index"
               }
             ]
           },
@@ -1008,7 +1049,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsWpMigration/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsWpMigration/UpdateVersion/Index"
               }
             ]
           },
@@ -1030,7 +1072,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsOpenStreetMap/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsOpenStreetMap/UpdateVersion/Index"
               }
             ]
           },
@@ -1049,7 +1092,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsAllLightbox/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsAllLightbox/UpdateVersion/Index"
               }
             ]
           },
@@ -1068,7 +1112,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNitsanMaintenance/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNitsanMaintenance/UpdateVersion/Index"
               }
             ]
           },
@@ -1090,7 +1135,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsFAQ/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsFAQ/UpdateVersion/Index"
               }
             ]
           },
@@ -1112,7 +1158,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsGoogleDocs/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsGoogleDocs/UpdateVersion/Index"
               }
             ]
           },
@@ -1136,7 +1183,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsNewsSlider/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsNewsSlider/UpdateVersion/Index"
               }
             ]
           },
@@ -1155,7 +1203,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsAllSliders/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsAllSliders/UpdateVersion/Index"
               }
             ]
           },
@@ -1174,7 +1223,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsPublicationComment/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsPublicationComment/UpdateVersion/Index"
               }
             ]
           },
@@ -1196,7 +1246,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsComments/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsComments/UpdateVersion/Index"
               }
             ]
           },
@@ -1216,7 +1267,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsNewsSlickSlider/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsNewsSlickSlider/UpdateVersion/Index"
               }
             ]
           },
@@ -1235,7 +1287,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsWhatsapp/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsWhatsapp/UpdateVersion/Index"
               }
             ]
           },
@@ -1254,7 +1307,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsTimeLine/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsTimeLine/UpdateVersion/Index"
               }
             ]
           },
@@ -1274,7 +1328,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsExtCompatibility/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsExtCompatibility/UpdateVersion/Index"
               }
             ]
           },
@@ -1296,7 +1351,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsGoogleMap/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsGoogleMap/UpdateVersion/Index"
               }
             ]
           },
@@ -1315,7 +1371,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsCookieYes/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsCookieYes/UpdateVersion/Index"
               }
             ]
           },
@@ -1334,7 +1391,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsCloudflare/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsCloudflare/UpdateVersion/Index"
               }
             ]
           },
@@ -1353,7 +1411,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsPWA/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsPWA/UpdateVersion/Index"
               }
             ]
           },
@@ -1374,7 +1433,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsFriendlyCaptcha/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsFriendlyCaptcha/UpdateVersion/Index"
               }
             ]
           },
@@ -1394,7 +1454,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsPersonio/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsPersonio/UpdateVersion/Index"
               }
             ]
           },
@@ -1413,7 +1474,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsZoho/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsZoho/UpdateVersion/Index"
               }
             ]
           },
@@ -1432,7 +1494,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsGridtoContainer/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsGridtoContainer/UpdateVersion/Index"
               }
             ]
           },
@@ -1451,7 +1514,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsAllChat/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsAllChat/UpdateVersion/Index"
               }
             ]
           },
@@ -1470,7 +1534,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsSharethis/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsSharethis/UpdateVersion/Index"
               }
             ]
           },
@@ -1489,7 +1554,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNitsanHellobar/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNitsanHellobar/UpdateVersion/Index"
               }
             ]
           },
@@ -1508,7 +1574,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsYoutube/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsYoutube/UpdateVersion/Index"
               }
             ]
           },
@@ -1527,7 +1594,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsDisqusComment/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsDisqusComment/UpdateVersion/Index"
               }
             ]
           },
@@ -1547,7 +1615,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsInstagram/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsInstagram/UpdateVersion/Index"
               }
             ]
           },
@@ -1566,7 +1635,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsCookiebot/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsCookiebot/UpdateVersion/Index"
               }
             ]
           },
@@ -1585,7 +1655,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsGuestbook/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsGuestbook/UpdateVersion/Index"
               }
             ]
           },
@@ -1606,7 +1677,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsNewsAdvancedSearch/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsNewsAdvancedSearch/UpdateVersion/Index"
               }
             ]
           },
@@ -1625,7 +1697,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsTwitter/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsTwitter/UpdateVersion/Index"
               }
             ]
           },
@@ -1644,7 +1717,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsSnow/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsSnow/UpdateVersion/Index"
               }
             ]
           },
@@ -1664,7 +1738,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsCookiesHint/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsCookiesHint/UpdateVersion/Index"
               }
             ]
           },
@@ -1683,7 +1758,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsFacebookComment/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsFacebookComment/UpdateVersion/Index"
               }
             ]
           },
@@ -1702,7 +1778,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsStatcounter/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsStatcounter/UpdateVersion/Index"
               }
             ]
           },
@@ -1733,7 +1810,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsLazyload/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsLazyload/UpdateVersion/Index"
               }
             ]
           },
@@ -1752,7 +1830,8 @@
                 "expanded": false,
                 "pages": [
                   "ExtNsProtectSite/UpdateVersion/Index"
-                ]
+                ],
+                "root": "ExtNsProtectSite/UpdateVersion/Index"
               }
             ]
           },
@@ -1771,7 +1850,8 @@
                 "expanded": false,
                 "pages": [
                   "EXTNsZohoCrm/UpdateVersion/Index"
-                ]
+                ],
+                "root": "EXTNsZohoCrm/UpdateVersion/Index"
               }
             ]
           }
