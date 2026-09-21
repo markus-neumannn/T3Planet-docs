@@ -732,58 +732,26 @@
             ]
           },
           {
-            "group": "TonicTypes",
-            "root": "ExtTypoTonic/Index",
+            "group": "News Comment",
+            "root": "ExtNsNewsComments/Index",
             "expanded": false,
             "pages": [
-              "ExtTypoTonic/Introduction/Index",
-              "ExtTypoTonic/Installation/Index",
-              {
-                "group": "Getting Started",
-                "expanded": false,
-                "pages": [
-                  "ExtTypoTonic/GettingStarted/Index",
-                  "ExtTypoTonic/GettingStarted/CreatingAField/Index",
-                  "ExtTypoTonic/GettingStarted/CreatingADatatype/Index",
-                  "ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index",
-                  "ExtTypoTonic/GettingStarted/Templating/Index"
-                ],
-                "root": "ExtTypoTonic/GettingStarted/Index"
-              },
-              {
-                "group": "Frontend Plugins",
-                "expanded": false,
-                "pages": [
-                  "ExtTypoTonic/FrontendPlugins/Index",
-                  "ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index"
-                ],
-                "root": "ExtTypoTonic/FrontendPlugins/Index"
-              },
-              "ExtTypoTonic/ViewHelpers/Index",
-              "ExtTypoTonic/Screenshots/Index",
-              "ExtTypoTonic/TypoTonicProfessional/Index",
-              "ExtTypoTonic/FAQ/Index",
-              "ExtTypoTonic/Support/Index"
-            ]
-          },
-          {
-            "group": "HubSpot",
-            "root": "ExtNsHubspot/Index",
-            "expanded": false,
-            "pages": [
-              "ExtNsHubspot/Introduction/Index",
-              "ExtNsHubspot/Installation/Index",
-              "ExtNsHubspot/FreeVersionConfiguration/Index",
-              "ExtNsHubspot/PremiumVersionConfiguration/Index",
-              "ExtNsHubspot/Support",
-              "ExtNsHubspot/BuyNow",
+              "ExtNsNewsComments/Introduction/Index",
+              "ExtNsNewsComments/Installation/Index",
+              "ExtNsNewsComments/NewsCommentModule/Index",
+              "ExtNsNewsComments/GlobalConfiguration/Index",
+              "ExtNsNewsComments/CommentPluginSettings/Index",
+              "ExtNsNewsComments/CommentModeration/Index",
+              "ExtNsNewsComments/ForDevelopers/Index",
+              "ExtNsNewsComments/Support",
+              "ExtNsNewsComments/BuyNow",
               {
                 "group": "Updates",
                 "expanded": false,
                 "pages": [
-                  "ExtNsHubspot/UpdateVersion/Index"
+                  "ExtNsNewsComments/UpdateVersion/Index"
                 ],
-                "root": "ExtNsHubspot/UpdateVersion/Index"
+                "root": "ExtNsNewsComments/UpdateVersion/Index"
               }
             ]
           },
@@ -839,30 +807,6 @@
             ]
           },
           {
-            "group": "News Comment",
-            "root": "ExtNsNewsComments/Index",
-            "expanded": false,
-            "pages": [
-              "ExtNsNewsComments/Introduction/Index",
-              "ExtNsNewsComments/Installation/Index",
-              "ExtNsNewsComments/NewsCommentModule/Index",
-              "ExtNsNewsComments/GlobalConfiguration/Index",
-              "ExtNsNewsComments/CommentPluginSettings/Index",
-              "ExtNsNewsComments/CommentModeration/Index",
-              "ExtNsNewsComments/ForDevelopers/Index",
-              "ExtNsNewsComments/Support",
-              "ExtNsNewsComments/BuyNow",
-              {
-                "group": "Updates",
-                "expanded": false,
-                "pages": [
-                  "ExtNsNewsComments/UpdateVersion/Index"
-                ],
-                "root": "ExtNsNewsComments/UpdateVersion/Index"
-              }
-            ]
-          },
-          {
             "group": "Site Kit by Google",
             "root": "ExtNsGoogleSiteKit/Index",
             "expanded": false,
@@ -883,6 +827,26 @@
                   "ExtNsGoogleSiteKit/UpdateVersion/Index"
                 ],
                 "root": "ExtNsGoogleSiteKit/UpdateVersion/Index"
+              }
+            ]
+          },
+          {
+            "group": "WordPress to TYPO3 Migration",
+            "root": "ExtNsWpMigration/Index",
+            "expanded": false,
+            "pages": [
+              "ExtNsWpMigration/Introduction/Index",
+              "ExtNsWpMigration/Installation/Index",
+              "ExtNsWpMigration/Configuration/Index",
+              "ExtNsWpMigration/Support",
+              "ExtNsWpMigration/BuyNow",
+              {
+                "group": "Updates",
+                "expanded": false,
+                "pages": [
+                  "ExtNsWpMigration/UpdateVersion/Index"
+                ],
+                "root": "ExtNsWpMigration/UpdateVersion/Index"
               }
             ]
           },
@@ -908,6 +872,62 @@
                   "ExtNsBackup/UpdateVersion/Index"
                 ],
                 "root": "ExtNsBackup/UpdateVersion/Index"
+              }
+            ]
+          },
+          {
+            "group": "TonicTypes",
+            "root": "ExtTypoTonic/Index",
+            "expanded": false,
+            "pages": [
+              "ExtTypoTonic/Introduction/Index",
+              "ExtTypoTonic/Installation/Index",
+              {
+                "group": "Getting Started",
+                "expanded": false,
+                "pages": [
+                  "ExtTypoTonic/GettingStarted/Index",
+                  "ExtTypoTonic/GettingStarted/CreatingAField/Index",
+                  "ExtTypoTonic/GettingStarted/CreatingADatatype/Index",
+                  "ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index",
+                  "ExtTypoTonic/GettingStarted/Templating/Index"
+                ],
+                "root": "ExtTypoTonic/GettingStarted/Index"
+              },
+              {
+                "group": "Frontend Plugins",
+                "expanded": false,
+                "pages": [
+                  "ExtTypoTonic/FrontendPlugins/Index",
+                  "ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index"
+                ],
+                "root": "ExtTypoTonic/FrontendPlugins/Index"
+              },
+              "ExtTypoTonic/ViewHelpers/Index",
+              "ExtTypoTonic/Screenshots/Index",
+              "ExtTypoTonic/TypoTonicProfessional/Index",
+              "ExtTypoTonic/FAQ/Index",
+              "ExtTypoTonic/Support/Index"
+            ]
+          },
+          {
+            "group": "HubSpot",
+            "root": "ExtNsHubspot/Index",
+            "expanded": false,
+            "pages": [
+              "ExtNsHubspot/Introduction/Index",
+              "ExtNsHubspot/Installation/Index",
+              "ExtNsHubspot/FreeVersionConfiguration/Index",
+              "ExtNsHubspot/PremiumVersionConfiguration/Index",
+              "ExtNsHubspot/Support",
+              "ExtNsHubspot/BuyNow",
+              {
+                "group": "Updates",
+                "expanded": false,
+                "pages": [
+                  "ExtNsHubspot/UpdateVersion/Index"
+                ],
+                "root": "ExtNsHubspot/UpdateVersion/Index"
               }
             ]
           },
@@ -1031,26 +1051,6 @@
                   "ExtNsSocialLogin/UpdateVersion/Index"
                 ],
                 "root": "ExtNsSocialLogin/UpdateVersion/Index"
-              }
-            ]
-          },
-          {
-            "group": "WordPress to TYPO3 Migration",
-            "root": "ExtNsWpMigration/Index",
-            "expanded": false,
-            "pages": [
-              "ExtNsWpMigration/Introduction/Index",
-              "ExtNsWpMigration/Installation/Index",
-              "ExtNsWpMigration/Configuration/Index",
-              "ExtNsWpMigration/Support",
-              "ExtNsWpMigration/BuyNow",
-              {
-                "group": "Updates",
-                "expanded": false,
-                "pages": [
-                  "ExtNsWpMigration/UpdateVersion/Index"
-                ],
-                "root": "ExtNsWpMigration/UpdateVersion/Index"
               }
             ]
           },

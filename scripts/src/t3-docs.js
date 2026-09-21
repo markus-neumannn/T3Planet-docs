@@ -57,6 +57,23 @@
     return base + href;
   }
 
+  /** Make doc hrefs correct for both Host-at (`/en/latest`) and local mint (`/`). */
+  function normalizeDocHref(href) {
+    href = cleanRoute(href || "");
+    if (!href || href[0] !== "/" || href[1] === "/") return href;
+    if (href === "/Index") href = "/";
+    var base = docsBasePath();
+    // Local mint: strip a baked-in /en/latest prefix from markdown links.
+    if (!base) {
+      if (href === DOCS_BASE) return "/";
+      if (href.indexOf(DOCS_BASE + "/") === 0) {
+        href = href.slice(DOCS_BASE.length) || "/";
+      }
+      return href;
+    }
+    return withDocsBase(href);
+  }
+
   var HUB_ROUTES = [
     "/",
     "/ExtNsT3AF/Index",
@@ -264,9 +281,9 @@
     try {
       var h = normalizeSidebarPath(sessionStorage.getItem(DOCS_LAST_HUB_KEY) || "");
       if (h === "/index" || h === "/Index") h = "/";
-      if (h && isSidebarHubPath(h)) return h;
+      if (h && isSidebarHubPath(h)) return normalizeDocHref(h);
     } catch (eGet) {}
-    return "/";
+    return normalizeDocHref("/");
   }
 
   function ensureDocsBackButton(root, visible) {
@@ -280,11 +297,11 @@
     root.classList.add("t3-docs-back-visible");
     var href = getDocsBackHref();
     if (existing) {
-      existing.setAttribute("href", href);
+      if (existing.getAttribute("href") !== href) existing.setAttribute("href", href);
       return;
     }
     var a = document.createElement("a");
-    a.href = href;
+    a.setAttribute("href", href);
     a.className = "t3-docs-back";
     a.setAttribute("data-t3-docs-back", "1");
     a.setAttribute("aria-label", "Back to all docs");
@@ -497,6 +514,10 @@
     try {
       observeSidebarProductContext();
     } catch (eObs) {}
+    try {
+      rewriteHubExtensionLinks();
+      rewriteLinksIn(document.getElementById("sidebar-content"));
+    } catch (eRew) {}
   }
 
   /**
@@ -1981,7 +2002,7 @@
   }
 
   function forceFullNavigation(target) {
-    target = withDocsBase(cleanRoute(target || ""));
+    target = normalizeDocHref(target || "");
     if (!target || target[0] !== "/") return;
     if (pathsEqualNav(target, currentPath())) return;
     // Mintlify/Next on local often ignores location.href/assign from the
@@ -2009,8 +2030,8 @@
    */
   function beginProductRootNav(href, opts) {
     opts = opts || {};
-    var go = cleanRoute(href || "");
-    if (go === "/Index") go = "/";
+    var go = normalizeDocHref(href || "");
+    if (go === "/Index") go = normalizeDocHref("/");
     if (!go || go[0] !== "/") return;
     if (pathsEqualNav(go, currentPath())) return;
     try {
@@ -2551,34 +2572,44 @@
 
   function rewriteLinksIn(root) {
     if (!root) return;
-    // Never rewrite Mintlify chrome/sidebar — Host-at + SPA nav break if we mutate those hrefs.
+    // Rewrite content + our custom back control. Mintlify chrome links are
+    // usually already Host-at aware; still normalize absolute doc paths.
     var links = root.querySelectorAll("a[href]");
     for (var i = 0; i < links.length; i++) {
       var a = links[i];
-      if (a.closest && (a.closest("#sidebar-content") || a.closest("#navbar") || a.closest("footer") || a.closest("[data-footer]") || a.closest("nav"))) {
-        continue;
-      }
       var href = a.getAttribute("href");
-      if (!href || href[0] !== "/" || href.charAt(0) === '/' && href.charAt(1) === '/' || href[0] === "#") continue;
-      // Already under Host-at base — leave alone
-      if (href === DOCS_BASE || href.indexOf(DOCS_BASE + "/") === 0) continue;
-      var next = cleanRoute(href);
-      next = withDocsBase(next);
-      if (next !== href) a.setAttribute("href", next);
+      if (!href || href[0] !== "/" || href[1] === "/" || href[0] === "#") continue;
+      var next = normalizeDocHref(href);
+      if (next && next !== href) a.setAttribute("href", next);
     }
   }
 
+  function rewriteHubExtensionLinks() {
+    try {
+      document
+        .querySelectorAll(
+          "a.t3-extension-row[href], .t3-category-nav a[href^='/'], a.t3-docs-back[href], [data-t3-docs-back='1'][href]"
+        )
+        .forEach(function (a) {
+          var href = a.getAttribute("href") || "";
+          var next = normalizeDocHref(href);
+          if (next && next !== href) a.setAttribute("href", next);
+        });
+    } catch (eHub) {}
+  }
+
   function rewriteStaticLinks() {
-    if (staticLinksDone) return;
+    if (staticLinksDone) {
+      rewriteHubExtensionLinks();
+      return;
+    }
     staticLinksDone = true;
     rewriteLinksIn(document.getElementById("navbar"));
     rewriteLinksIn(document.getElementById("sidebar-content"));
+    rewriteLinksIn(document.getElementById("mobile-nav"));
     rewriteLinksIn(document.getElementById("pagination"));
     rewriteLinksIn(document.querySelector("footer"));
-    document.querySelectorAll(".t3-category-nav a[href^='/']").forEach(function (a) {
-      var href = cleanRoute(a.getAttribute("href") || "");
-      if (href !== a.getAttribute("href")) a.setAttribute("href", href);
-    });
+    rewriteHubExtensionLinks();
   }
 
   function rewriteContentLinks() {
@@ -2637,16 +2668,14 @@
   }
 
   function ensureDocsBaseOnClick(e) {
-    // Soft rewrite only for in-content anchors; never hijack navigation.
+    // Soft rewrite absolute doc links before the browser follows them.
     try {
       var t = e.target;
       while (t && t.tagName !== "A") t = t.parentElement;
       if (!t) return;
-      if (t.closest && (t.closest("#sidebar-content") || t.closest("#navbar") || t.closest("footer") || t.closest("nav"))) return;
       var href = t.getAttribute("href");
-      if (!href || href[0] !== "/" || href.charAt(0) === '/' && href.charAt(1) === '/') return;
-      if (href === DOCS_BASE || href.indexOf(DOCS_BASE + "/") === 0) return;
-      var next = withDocsBase(cleanRoute(href));
+      if (!href || href[0] !== "/" || href[1] === "/") return;
+      var next = normalizeDocHref(href);
       if (next && next !== href) t.setAttribute("href", next);
     } catch (eClick) {}
   }
@@ -2666,6 +2695,9 @@
       // Content-only rewrite once; do not observe mutations (breaks Mintlify sidebar SPA).
       try { rewriteLinksIn(contentRoot()); } catch (eRew) {}
     }
+    try {
+      rewriteHubExtensionLinks();
+    } catch (eHub2) {}
     applyContentClasses();
     rewriteContentLinks();
     scheduleSidebarProductContext();
@@ -2921,12 +2953,32 @@
         if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
         var a = e.target.closest && e.target.closest('a[href^="/"]');
         if (!a) return;
+        // Normalize Host-at / local absolute paths before any nav handler.
+        try {
+          var rawHref = a.getAttribute("href") || "";
+          var normHref = normalizeDocHref(rawHref);
+          if (normHref && normHref !== rawHref) a.setAttribute("href", normHref);
+        } catch (eNorm) {}
+        // Custom "Back to all docs" — hard navigate with correct base path.
+        if (a.classList && (a.classList.contains("t3-docs-back") || a.getAttribute("data-t3-docs-back") === "1")) {
+          var goBack = normalizeDocHref(a.getAttribute("href") || "/");
+          if (goBack === "/Index") goBack = normalizeDocHref("/");
+          if (!goBack || goBack[0] !== "/") return;
+          if (pathsEqualNav(goBack, currentPath())) return;
+          e.preventDefault();
+          e.stopPropagation();
+          try {
+            e.stopImmediatePropagation();
+          } catch (eStopBack) {}
+          beginProductRootNav(goBack, { message: "Loading documentation" });
+          return;
+        }
         // Product-root overlays: handle BEFORE isInternalNavAnchor / SPA logic.
         if (a.classList && a.classList.contains("t3-product-root-link")) {
-          var goRoot = cleanRoute(a.getAttribute("data-t3-root-armed") || a.getAttribute("href") || "");
-          if (goRoot === "/Index") goRoot = "/";
+          var goRoot = normalizeDocHref(a.getAttribute("data-t3-root-armed") || a.getAttribute("href") || "");
+          if (goRoot === "/Index") goRoot = normalizeDocHref("/");
           if (!goRoot || goRoot[0] !== "/") return;
-          if (goRoot === currentPath()) return;
+          if (pathsEqualNav(goRoot, currentPath())) return;
           e.preventDefault();
           e.stopPropagation();
           try {
@@ -2937,10 +2989,11 @@
         }
         var href = isInternalNavAnchor(a);
         if (!href) return;
+        href = normalizeDocHref(href);
         if (href !== a.getAttribute("href")) a.setAttribute("href", href);
         if (isLocalMintDev()) {
-          var go = cleanRoute(href);
-          if (go === "/Index") go = "/";
+          var go = normalizeDocHref(href);
+          if (go === "/Index") go = normalizeDocHref("/");
           pendingNavHref = go;
           pauseBackgroundWarmForUserNav();
           e.preventDefault();
