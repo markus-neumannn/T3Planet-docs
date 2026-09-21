@@ -225,6 +225,14 @@ def write_stats_inline_js(payload: dict) -> None:
         "var h=document.documentElement;"
         "h.classList.add('t3-product-root-loading','t3-nav-busy','t3-loader-on','t3-holding');"
         "h.setAttribute('aria-busy','true');"
+        "setTimeout(function(){try{"
+        "var c=document.getElementById('content-area')||document.querySelector('main');"
+        "var ready=c&&((c.innerText||'').replace(/\\s+/g,' ').trim().length>40);"
+        "if(!(h.classList.contains('t3-holding')||h.classList.contains('t3-nav-busy')||h.classList.contains('t3-product-root-loading')))return;"
+        "h.classList.remove('t3-product-root-loading','t3-nav-busy','t3-loader-on','t3-holding');"
+        "h.removeAttribute('aria-busy');"
+        "try{sessionStorage.removeItem(k);}catch(e2){}"
+        "}catch(e3){}},8000);"
         "}catch(e){}})();"
     )
     STATS_INLINE_JS.write_text(

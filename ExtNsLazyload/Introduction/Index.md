@@ -11,7 +11,7 @@ sidebarTitle: "Introduction"
 
 ## NS Lazy Load
 
-![Extension Banner](images/lazy-load.jpg)
+![Extension Banner](images/lazy-load.webp)
 
 ## What does it do?
 

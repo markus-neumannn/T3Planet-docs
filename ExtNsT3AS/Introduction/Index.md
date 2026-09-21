@@ -11,7 +11,7 @@ sidebarTitle: "T3AS - TYPO3 AI Search Extension"
 
 ## EXT:ns_t3as
 
-![Extension Banner](images/T3AS.jpg)
+![Extension Banner](images/T3AS.webp)
 
 **T3AS (TYPO3 AI Search)** adds AI-powered search to your TYPO3 website. It works with your existing search setup — site content, Solr, ke_search, or indexed_search — and returns direct answers based on your trained data.
 

@@ -25,6 +25,8 @@ With this feature, you can select or deselect languages, or delete scheduled tra
 
 ## Manage Mass Translation
 
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakc1xg0vwcqmhxzehlh60d?embed_v=2&utm_source=embed" loading="lazy" title="Manage Mass Translation" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyv0zu149lqmgz7dxycp3b?embed_v=2&utm_source=embed" loading="lazy" title="Manage Mass Translation Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
@@ -69,6 +71,8 @@ Configure these command options in the Scheduler task settings:
 Example: set **batch-size** to `10` and **limit** to `10` so each scheduler run processes up to 10 pending pages in batches of 10. Remaining pending pages stay in the queue for the next tick.
 
 ## Mass Pages Translation
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmralcltn0ycwqmhx52pq7pre?embed_v=2&utm_source=embed" loading="lazy" title="Mass Translate Pages" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 
 Update numerous translated pages simultaneously. Refresh your website content using precise, current AI-driven translations.

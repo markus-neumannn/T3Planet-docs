@@ -1,6 +1,6 @@
 ---
 title: "Speed and Performance"
-description: "Speed and performance for T3 Karma"
+description: "Configure Theme Options cache and CSS/JS compression for T3 Karma."
 keywords:
   - "TYPO3"
   - "T3Planet"
@@ -12,17 +12,13 @@ sidebarTitle: "Speed and Performance"
 
 # Speed and Performance
 
+Use **Theme Options → Speed & Performance** to enable caching and to compress/merge CSS and JS.
+
 <div className="t3-embed">
   <iframe src="https://app.supademo.com/embed/cmmeyl7is3r4hnr99y6u8s0es" loading="lazy" title="Speed & Performance" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
 </div>
 
-To improve your website’s **speed and performance**, please configure the following options:
+In **NITSAN → Theme Options** on the site root, set:
 
-1. Go to **NITSAN → Theme Options**.
-
-2. Select the **Root/Main** page from the page tree.
-
-3. In the **Speed & Performance** section, configure the following options:
-
-   - **Cache Enable/Disable**
-   - **Compress & Merge CSS/JS**
+- **Cache Enable/Disable**
+- **Compress & Merge CSS/JS**

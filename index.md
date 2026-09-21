@@ -140,7 +140,7 @@ sidebarTitle: "Home"
     <p className="t3-cta-subtitle">Our support team can assist with installation, licensing, and configuration.</p>
   </div>
   <div className="t3-cta-actions">
-    <a className="t3-cta-btn t3-cta-btn-primary" href="https://t3planet.de/en/support">Contact support</a>
+    <a className="t3-cta-btn t3-cta-btn-primary" href="https://t3planet.de/support">Contact support</a>
     <a className="t3-cta-btn t3-cta-btn-secondary" href="https://t3planet.de/en/typo3-extensions">Browse extensions</a>
   </div>
 </div>

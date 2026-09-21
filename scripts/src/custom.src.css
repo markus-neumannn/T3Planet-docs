@@ -2528,15 +2528,22 @@ button.nav-dropdown-trigger,
   box-sizing: border-box;
 }
 
-#sidebar-content ul ul {
-  padding-left: 0 !important;
-  margin-left: 0 !important;
-  border-left: none !important;
+/* Nested nav hierarchy: indent subsections consistently (desktop + shared).
+   Previously forced to 0, which flattened section vs subsection spacing. */
+#sidebar-content ul ul,
+#mobile-nav ul ul {
+  padding-left: 0.7rem !important;
+  margin-left: 0.15rem !important;
+  margin-top: 0.15rem !important;
+  margin-bottom: 0.15rem !important;
+  border-left: 1px solid color-mix(in srgb, var(--t3-border) 78%, transparent);
 }
 
-#sidebar-content ul ul ul {
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+#sidebar-content ul ul ul,
+#mobile-nav ul ul ul {
+  padding-left: 0.6rem !important;
+  margin-left: 0.1rem !important;
+  border-left: 1px solid color-mix(in srgb, var(--t3-border) 55%, transparent);
 }
 
 /* Sidebar icons — hide page icons in nested menus; keep section + expand chevrons */
@@ -2605,7 +2612,9 @@ button.nav-dropdown-trigger,
 
 /* Fallback before sidebar-nav.js adds .t3-sidebar-expand-btn */
 #sidebar-content li > button[aria-expanded]:has(svg),
-#sidebar-content .t3-sidebar-expand-btn {
+#sidebar-content .t3-sidebar-expand-btn,
+#mobile-nav li > button[aria-expanded]:has(svg),
+#mobile-nav .t3-sidebar-expand-btn {
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
@@ -2614,8 +2623,12 @@ button.nav-dropdown-trigger,
   max-width: 100% !important;
   box-sizing: border-box !important;
   gap: 0 !important;
+  min-height: 2.125rem;
+  padding-top: 0.375rem !important;
+  padding-bottom: 0.375rem !important;
   padding-right: 1.5rem !important;
-  padding-left: 0.375rem !important;
+  padding-left: 0.625rem !important;
+  margin: 0.0625rem 0;
   font-size: 0.8125rem !important;
   font-weight: 500 !important;
   color: var(--t3-text-muted) !important;
@@ -2695,12 +2708,13 @@ button.nav-dropdown-trigger,
   transform: translateY(-50%) !important;
 }
 
-#sidebar-content a {
+#sidebar-content a:not(.t3-docs-back):not(.t3-product-root-link) {
   display: flex !important;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.4rem 0.625rem !important;
+  padding: 0.375rem 0.625rem !important;
   margin: 0.0625rem 0;
+  min-height: 2.125rem;
   border-radius: 0.4375rem;
   color: var(--t3-text-muted) !important;
   font-size: 0.8125rem;
@@ -2721,14 +2735,13 @@ button.nav-dropdown-trigger,
   hyphens: auto;
 }
 
-#sidebar-content a[data-t3-depth="1"] {
-  padding-left: 1rem !important;
+/* Depth attrs are optional; UL nesting is the source of truth for indent. */
+#sidebar-content a[data-t3-depth="1"],
+#sidebar-content a.t3-sidebar-nested {
   font-size: 0.78125rem;
 }
 
-#sidebar-content a[data-t3-depth="2"],
-#sidebar-content a.t3-sidebar-nested {
-  padding-left: 1.25rem !important;
+#sidebar-content a[data-t3-depth="2"] {
   font-size: 0.75rem;
 }
 
@@ -4126,9 +4139,8 @@ body > div.fixed.z-999 {
     -webkit-backdrop-filter: blur(8px);
   }
 
-  /* Section labels — scannable category hierarchy */
+  /* Section labels only — do NOT target expand/collapse nav buttons */
   #mobile-nav .sidebar-group-header,
-  #mobile-nav [class*="sidebar-group"] > button,
   #mobile-nav h2,
   #mobile-nav h3 {
     letter-spacing: 0.06em;
@@ -4136,44 +4148,47 @@ body > div.fixed.z-999 {
     font-weight: 700;
     font-size: 0.6875rem !important; /* 11px */
     line-height: 1.35 !important;
-    margin-top: 1.15rem !important;
-    margin-bottom: 0.4rem !important;
-    padding: 0.35rem 0.55rem !important;
+    margin-top: 0.85rem !important;
+    margin-bottom: 0.35rem !important;
+    padding: 0.3rem 0.55rem !important;
     color: color-mix(in srgb, var(--t3-muted, #64748b) 92%, #0f172a) !important;
     opacity: 0.95;
   }
 
   #mobile-nav .sidebar-group-header:first-child,
-  #mobile-nav [class*="sidebar-group"]:first-child > button,
   #mobile-nav h2:first-child,
   #mobile-nav h3:first-child {
     margin-top: 0.35rem !important;
   }
 
-  /* Subtle section breathing room */
+  /* Subtle section breathing room — keep equal, avoid large uneven gaps */
   #mobile-nav [class*="sidebar-group"] + [class*="sidebar-group"],
   #mobile-nav nav > div + div,
   #mobile-nav nav > ul + ul {
-    margin-top: 0.35rem;
-    padding-top: 0.35rem;
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
     border-top: 1px solid color-mix(in srgb, var(--t3-border) 70%, transparent);
   }
 
-  /* Touch-friendly nav rows — balanced mobile type */
-  #mobile-nav a,
+  /* Touch-friendly nav rows — same vertical rhythm at every depth.
+     Hierarchy comes from nested UL indent, not uneven min-heights. */
+  #mobile-nav a:not(.t3-docs-back):not(.t3-product-root-link),
   #mobile-nav button.group,
+  #mobile-nav li > button[aria-expanded],
   #mobile-nav .group.flex.items-start {
-    min-height: 2.65rem;
-    padding: 0.45rem 0.65rem !important;
-    border-radius: 0.6rem !important;
+    min-height: 2.5rem;
+    padding: 0.4rem 0.65rem !important;
+    margin: 0.0625rem 0;
+    border-radius: 0.55rem !important;
     line-height: 1.35;
-    font-size: 0.875rem !important; /* 14px — readable, not crowded */
+    font-size: 0.875rem !important; /* 14px */
     gap: 0.5rem !important;
     align-items: center !important;
   }
 
-  #mobile-nav a svg,
-  #mobile-nav button.group svg {
+  #mobile-nav a:not(.t3-product-root-link) svg,
+  #mobile-nav button.group svg,
+  #mobile-nav li > button[aria-expanded] svg {
     width: 1rem !important;
     height: 1rem !important;
     flex-shrink: 0 !important;
@@ -4181,16 +4196,19 @@ body > div.fixed.z-999 {
   }
 
   /* Parent expand rows — slightly stronger weight */
-  #mobile-nav button.group {
+  #mobile-nav button.group,
+  #mobile-nav li > button[aria-expanded] {
     font-weight: 550;
   }
 
-  #mobile-nav ul ul a,
-  #mobile-nav ul ul button.group {
+  /* Nested pages: same row height as parents; quieter type */
+  #mobile-nav ul ul a:not(.t3-product-root-link),
+  #mobile-nav ul ul button.group,
+  #mobile-nav ul ul li > button[aria-expanded] {
     font-size: 0.8125rem !important; /* 13px nested */
-    min-height: 2.4rem;
-    padding-top: 0.35rem !important;
-    padding-bottom: 0.35rem !important;
+    min-height: 2.5rem;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
     color: color-mix(in srgb, currentColor 88%, transparent);
   }
 
@@ -4208,18 +4226,20 @@ body > div.fixed.z-999 {
     color: var(--t3-link) !important;
   }
 
-  /* Nested indent clarity — aligned columns */
-  #mobile-nav ul ul a,
-  #mobile-nav ul ul button.group {
-    padding-left: 1.05rem !important;
-    margin-left: 0.35rem !important;
-    border-left: 1px solid color-mix(in srgb, var(--t3-border) 80%, transparent);
+  /* Nested indent owned by UL hierarchy (avoid double margin + padding). */
+  #mobile-nav ul ul a:not(.t3-product-root-link),
+  #mobile-nav ul ul button.group,
+  #mobile-nav ul ul li > button[aria-expanded] {
+    padding-left: 0.65rem !important;
+    margin-left: 0 !important;
+    border-left: none;
   }
 
-  #mobile-nav ul ul ul a,
-  #mobile-nav ul ul ul button.group {
-    padding-left: 1.45rem !important;
-    margin-left: 0.55rem !important;
+  #mobile-nav ul ul ul a:not(.t3-product-root-link),
+  #mobile-nav ul ul ul button.group,
+  #mobile-nav ul ul ul li > button[aria-expanded] {
+    padding-left: 0.65rem !important;
+    margin-left: 0 !important;
   }
 
   /* Compact top navbar on phones */
@@ -6715,7 +6735,7 @@ li[data-t3-root-nav="1"] {
   position: relative;
 }
 li[data-t3-root-nav="1"] > a.t3-product-root-link {
-  position: absolute;
+  position: absolute !important;
   left: 0;
   top: 0;
   right: 28px;
@@ -6723,11 +6743,15 @@ li[data-t3-root-nav="1"] > a.t3-product-root-link {
   height: 2.25rem;
   max-height: 2.75rem;
   z-index: 5;
-  display: block;
+  display: block !important;
   text-indent: -9999px;
   overflow: hidden;
-  color: transparent;
+  color: transparent !important;
   background: rgba(0, 0, 0, 0.001);
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  border: none !important;
   pointer-events: auto !important;
   cursor: pointer;
 }
@@ -6735,3 +6759,61 @@ li[data-t3-root-nav="1"] > button[aria-expanded] {
   position: relative;
   z-index: 1;
 }
+
+/* === T3 docs-back scroll shield === */
+/* Sticky pill alone left a top gap + uncovered band; scrolled nav text showed through.
+   Full-width sticky wrap paints an opaque shield from the scroll viewport top. */
+#sidebar-content .t3-docs-back-wrap,
+#mobile-nav .t3-docs-back-wrap,
+.t3-docs-back-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.35rem 0.15rem 0.55rem;
+  background: var(--t3-surface-elevated, #ffffff);
+  box-shadow: 0 10px 12px -8px color-mix(in srgb, var(--t3-surface-elevated, #ffffff) 92%, transparent);
+  isolation: isolate;
+}
+
+.dark #sidebar-content .t3-docs-back-wrap,
+.dark #mobile-nav .t3-docs-back-wrap,
+.dark .t3-docs-back-wrap {
+  background: var(--t3-surface-elevated, #0b1220);
+  box-shadow: 0 10px 12px -8px color-mix(in srgb, var(--t3-surface-elevated, #0b1220) 92%, transparent);
+}
+
+/* Back control itself is no longer sticky; the wrap owns sticky containment */
+#sidebar-content a.t3-docs-back,
+#mobile-nav a.t3-docs-back,
+a.t3-docs-back {
+  position: relative !important;
+  top: auto !important;
+  z-index: 1;
+  width: calc(100% - 0.35rem) !important;
+  margin: 0 0.1rem !important;
+}
+
+#sidebar-content.t3-docs-back-visible [data-component-part="scroll-area-viewport"],
+#mobile-nav.t3-docs-back-visible [data-component-part="scroll-area-viewport"] {
+  --scroll-area-fade-size: 0px;
+}
+
+/* Back shield must remain visible even if a context pass mis-tags it */
+#sidebar-content .t3-docs-back-wrap.t3-sidebar-context-hidden,
+#mobile-nav .t3-docs-back-wrap.t3-sidebar-context-hidden,
+.t3-docs-back-wrap.t3-sidebar-context-hidden,
+#sidebar-content a.t3-docs-back.t3-sidebar-context-hidden,
+#mobile-nav a.t3-docs-back.t3-sidebar-context-hidden {
+  display: block !important;
+}
+#sidebar-content a.t3-docs-back.t3-sidebar-context-hidden,
+#mobile-nav a.t3-docs-back.t3-sidebar-context-hidden {
+  display: inline-flex !important;
+}
+
+/* === /T3 docs-back scroll shield === */
+

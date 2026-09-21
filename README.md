@@ -7,7 +7,7 @@ Official **T3Planet** product documentation. This repository is the **Mintlify s
 | **GitHub** | [nitsan-technologies/T3Planet-docs](https://github.com/nitsan-technologies/T3Planet-docs) |
 | **Hosted Mintlify** | [nitsan-81630f36.mintlify.app](https://nitsan-81630f36.mintlify.app/) |
 | **Public docs (migration target)** | [docs.t3planet.de](https://docs.t3planet.de/) |
-| **Shop / support** | [t3planet.de](https://t3planet.de/en/) · [Support](https://t3planet.de/en/support) |
+| **Shop / support** | [t3planet.de](https://t3planet.de/en/) · [Support](https://t3planet.de/support) |
 
 Approx. **769** documentation pages across **68** products (counts are generated — see [Homepage stats](#homepage-stats-pages--products)).
 
@@ -84,7 +84,7 @@ Each extension usually documents installation, configuration, updates, and suppo
 2. Use the **sidebar** to pick a product, or the top nav: AI Extensions · Templates · Extensions · Get Started.  
 3. Use **search** (`⌘K` / `Ctrl+K`) for features, settings, or error messages.  
 4. Follow pages in order when learning a product: **Introduction → Installation → Configuration**.  
-5. For licenses and Shop issues, use **License** docs and [T3Planet Support](https://t3planet.de/en/support).  
+5. For licenses and Shop issues, use **License** docs and [T3Planet Support](https://t3planet.de/support).  
 6. Prefer **site package overrides** and the steps in the guide — do not invent paths or settings that are not documented.
 
 ---

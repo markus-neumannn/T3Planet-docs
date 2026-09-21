@@ -91,7 +91,7 @@ Detailed guides:
 ## Scanner areas
 
 <CardGroup cols={2}>
-  <Card title="Scanner" icon="scan-search" href="/en/latest/ExtNsT3AA/FeatureGuide/Scans/Scanner/Index" />
-  <Card title="Bulk Scans" icon="layers" href="/en/latest/ExtNsT3AA/FeatureGuide/Scans/BulkScans/Index" />
-  <Card title="Lighthouse" icon="gauge" href="/en/latest/ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index" />
+  <Card title="Scanner" icon="scan-search" href="/ExtNsT3AA/FeatureGuide/Scans/Scanner/Index" />
+  <Card title="Bulk Scans" icon="layers" href="/ExtNsT3AA/FeatureGuide/Scans/BulkScans/Index" />
+  <Card title="Lighthouse" icon="gauge" href="/ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index" />
 </CardGroup>

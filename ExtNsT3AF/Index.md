@@ -21,10 +21,10 @@ sidebarTitle: "AI Foundation"
   <p className="t3-landing-eyebrow">Get started</p>
   <h2 className="t3-landing-section-title">Installation and setup</h2>
   <CardGroup cols={2}>
-  <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsT3AF/Introduction/Index" />
-  <Card title="Installation" icon="download" href="/en/latest/ExtNsT3AF/Installation/Index" />
-  <Card title="Configuration" icon="settings" href="/en/latest/ExtNsT3AF/Configuration/Index" />
-  <Card title="Dashboard" icon="layout-dashboard" href="/en/latest/ExtNsT3AF/Configuration/Dashboard/Index" />
+  <Card title="Introduction" icon="book-open" href="/ExtNsT3AF/Introduction/Index" />
+  <Card title="Installation" icon="download" href="/ExtNsT3AF/Installation/Index" />
+  <Card title="Configuration" icon="settings" href="/ExtNsT3AF/Configuration/Index" />
+  <Card title="Dashboard" icon="layout-dashboard" href="/ExtNsT3AF/Configuration/Dashboard/Index" />
   </CardGroup>
 </section>
 
@@ -32,12 +32,12 @@ sidebarTitle: "AI Foundation"
   <p className="t3-landing-eyebrow">Configure</p>
   <h2 className="t3-landing-section-title">Core modules</h2>
   <CardGroup cols={2}>
-  <Card title="AI Providers" icon="plug" href="/en/latest/ExtNsT3AF/Configuration/AIProviders/Index" />
-  <Card title="AI Context" icon="building-2" href="/en/latest/ExtNsT3AF/Configuration/AIContext/Index" />
-  <Card title="AI Prompts" icon="message-square" href="/en/latest/ExtNsT3AF/Configuration/AIPrompts/Index" />
-  <Card title="AI Features" icon="sparkles" href="/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index" />
-  <Card title="AI Usage & Logs" icon="chart-column" href="/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index" />
-  <Card title="AI Permissions" icon="shield" href="/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index" />
+  <Card title="AI Providers" icon="plug" href="/ExtNsT3AF/Configuration/AIProviders/Index" />
+  <Card title="AI Context" icon="building-2" href="/ExtNsT3AF/Configuration/AIContext/Index" />
+  <Card title="AI Prompts" icon="message-square" href="/ExtNsT3AF/Configuration/AIPrompts/Index" />
+  <Card title="AI Features" icon="sparkles" href="/ExtNsT3AF/Configuration/AIFeatures/Index" />
+  <Card title="AI Usage & Logs" icon="chart-column" href="/ExtNsT3AF/Configuration/AIUsageAndLogs/Index" />
+  <Card title="AI Permissions" icon="shield" href="/ExtNsT3AF/Configuration/AIPermissions/Index" />
   </CardGroup>
 </section>
 
@@ -45,10 +45,10 @@ sidebarTitle: "AI Foundation"
   <p className="t3-landing-eyebrow">Integrate</p>
   <h2 className="t3-landing-section-title">MCP and agents</h2>
   <CardGroup cols={2}>
-  <Card title="Integrations" icon="blocks" href="/en/latest/ExtNsT3AF/Integrations/Index" />
-  <Card title="MCP Server" icon="server" href="/en/latest/ExtNsT3AF/Integrations/MCPServer/Index" />
-  <Card title="MCP Tools" icon="wrench" href="/en/latest/ExtNsT3AF/Integrations/MCPTools/Index" />
-  <Card title="MCP Testing" icon="flask-conical" href="/en/latest/ExtNsT3AF/Integrations/MCPTesting/Index" />
+  <Card title="Integrations" icon="blocks" href="/ExtNsT3AF/Integrations/Index" />
+  <Card title="MCP Server" icon="server" href="/ExtNsT3AF/Integrations/MCPServer/Index" />
+  <Card title="MCP Tools" icon="wrench" href="/ExtNsT3AF/Integrations/MCPTools/Index" />
+  <Card title="MCP Testing" icon="flask-conical" href="/ExtNsT3AF/Integrations/MCPTesting/Index" />
   </CardGroup>
 </section>
 
@@ -56,10 +56,10 @@ sidebarTitle: "AI Foundation"
   <p className="t3-landing-eyebrow">Use & extend</p>
   <h2 className="t3-landing-section-title">Guides</h2>
   <CardGroup cols={2}>
-  <Card title="User Guide" icon="users" href="/en/latest/ExtNsT3AF/UserGuide/Index" />
-  <Card title="Roles and Daily Use" href="/en/latest/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index" icon="user-cog" />
-  <Card title="Developer Guide" icon="code" href="/en/latest/ExtNsT3AF/DeveloperGuide/Index" />
-  <Card title="Architecture" icon="network" href="/en/latest/ExtNsT3AF/DeveloperGuide/Architecture/Index" />
+  <Card title="User Guide" icon="users" href="/ExtNsT3AF/UserGuide/Index" />
+  <Card title="Roles and Daily Use" href="/ExtNsT3AF/UserGuide/RolesAndDailyUse/Index" icon="user-cog" />
+  <Card title="Developer Guide" icon="code" href="/ExtNsT3AF/DeveloperGuide/Index" />
+  <Card title="Architecture" icon="network" href="/ExtNsT3AF/DeveloperGuide/Architecture/Index" />
   </CardGroup>
 </section>
 
@@ -67,12 +67,12 @@ sidebarTitle: "AI Foundation"
   <p className="t3-landing-eyebrow">Resources</p>
   <h2 className="t3-landing-section-title">Help and support</h2>
   <CardGroup cols={2}>
-  <Card title="DPA & GDPR" icon="shield" href="/en/latest/ExtNsT3AF/DPAandGDPR/Index" />
-  <Card title="Troubleshooting" icon="triangle-alert" href="/en/latest/ExtNsT3AF/Troubleshooting/Index" />
-  <Card title="Known Problems" icon="bug" href="/en/latest/ExtNsT3AF/Troubleshooting/KnownProblems/Index" />
-  <Card title="FAQ" icon="circle-help" href="/en/latest/ExtNsT3AF/Troubleshooting/FAQ/Index" />
-  <Card title="Helpful Links" icon="link" href="/en/latest/ExtNsT3AF/HelpfulLinks/Index" />
-  <Card title="Support" icon="life-buoy" href="/en/latest/ExtNsT3AF/Support/Index" />
+  <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AF/DPAandGDPR/Index" />
+  <Card title="Troubleshooting" icon="triangle-alert" href="/ExtNsT3AF/Troubleshooting/Index" />
+  <Card title="Known Problems" icon="bug" href="/ExtNsT3AF/Troubleshooting/KnownProblems/Index" />
+  <Card title="FAQ" icon="circle-help" href="/ExtNsT3AF/Troubleshooting/FAQ/Index" />
+  <Card title="Helpful Links" icon="link" href="/ExtNsT3AF/HelpfulLinks/Index" />
+  <Card title="Support" icon="life-buoy" href="/ExtNsT3AF/Support/Index" />
   </CardGroup>
 </section>
 

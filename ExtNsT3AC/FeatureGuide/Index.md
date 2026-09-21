@@ -11,7 +11,7 @@ sidebarTitle: "Feature Guide"
 
 ## Dashboard
 
-![Extension](images/Dashboard2.webp)
+![T3AC Dashboard](images/Dashboard2.webp)
 
 - View, activate, deactivate, and manage all created chatbots.
 - Create new chatbot instances.
@@ -83,7 +83,7 @@ After feeding the data, simply select and click *Train GPT*.
 
 If you’d like to use this chatbot on another domain, follow these simple steps:
 
-![Extension](images/T3AC_Embed.webp)
+![T3AC Embed](images/T3AC_Embed.webp)
 
 - Go to tab Embed
 - Click the Copy button to copy the embed code.

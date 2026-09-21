@@ -11,7 +11,7 @@ sidebarTitle: "Introduction"
 
 ## NS Facebook Comment
 
-![Extension Banner](images/ext-facebook-comment-banner.jpg)
+![Extension Banner](images/ext-facebook-comment-banner.webp)
 
 ## What does it do?
 

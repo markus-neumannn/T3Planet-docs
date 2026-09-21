@@ -9,9 +9,12 @@ keywords:
 sidebarTitle: "Auto Re-Translate Page"
 ---
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpfnj6801l3130u1i9exdl7?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 This feature Automatically translate pages and content from the site’s default language to all other languages, ensuring consistency,follow below steps to use this feature
 
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfpfnj6801l3130u1i9exdl7?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmramdz3d0zs0qmhxu84rlt2k?embed_v=2&utm_source=embed" loading="lazy" title="Auto Translate Page" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 - **Step 1** - go to page module
 - **Step 2** - Select the page & Click on edit page properties
 - **Step 3** - go to tab T3AI

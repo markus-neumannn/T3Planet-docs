@@ -274,6 +274,12 @@ def _inject_t3_docs_scripts(body: bytes, content_type: str) -> bytes:
         b"var h=document.documentElement;"
         b"h.classList.add('t3-product-root-loading','t3-nav-busy','t3-loader-on','t3-holding');"
         b"h.setAttribute('aria-busy','true');"
+        b"setTimeout(function(){try{"
+        b"if(!(h.classList.contains('t3-holding')||h.classList.contains('t3-nav-busy')||h.classList.contains('t3-product-root-loading')))return;"
+        b"h.classList.remove('t3-product-root-loading','t3-nav-busy','t3-loader-on','t3-holding');"
+        b"h.removeAttribute('aria-busy');"
+        b"try{sessionStorage.removeItem(k);}catch(e2){}"
+        b"}catch(e3){}},8000);"
         b"}catch(e){}})();</script>"
         + nl
     )

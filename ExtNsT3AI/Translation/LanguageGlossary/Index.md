@@ -9,11 +9,14 @@ keywords:
 sidebarTitle: "Language Glossary"
 ---
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyhrun13nbqmgzw4bkjqz0?embed_v=2&utm_source=embed" loading="lazy" title="Language Glossary Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-
 The **Glossary** feature lets you define source terms and their target-language replacements for AI translations.
 This keeps terminology consistent across pages and languages.
 
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmttyhrun13nbqmgzw4bkjqz0?embed_v=2&utm_source=embed" loading="lazy" title="Language Glossary Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmran3ygl11dgqmhx8kbvjcfc?embed_v=2&utm_source=embed" loading="lazy" title="Language Glossary" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Open it from **AI Assistant → Translation → Manage Glossary**.
 
 **How to Add Glossary Terms:**

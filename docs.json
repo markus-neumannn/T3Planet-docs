@@ -28,12 +28,8 @@
         "href": "/en/latest/AllExtensions/Index"
       },
       {
-        "label": "T3Planet.de",
-        "href": "https://t3planet.de/en/"
-      },
-      {
         "label": "Support",
-        "href": "https://t3planet.de/en/support"
+        "href": "https://t3planet.de/support"
       }
     ],
     "primary": {
@@ -7679,9 +7675,10 @@
     "metatags": {
       "og:site_name": "T3Planet Documentation",
       "og:type": "website",
-      "og:image": "https://t3planet.de/fileadmin/ns_theme_t3planet/Contact/T3Planet_OG_Image_en.png",
+      "og:image": "/_static/t3planet-docs-og.png",
       "twitter:card": "summary_large_image",
-      "twitter:site": "@t3planetde"
+      "twitter:site": "@t3planetde",
+      "twitter:image": "/_static/t3planet-docs-og.png"
     }
   },
   "metadata": {
@@ -7742,7 +7739,7 @@
         "items": [
           {
             "label": "Support",
-            "href": "https://t3planet.de/en/support"
+            "href": "https://t3planet.de/support"
           },
           {
             "label": "FAQ",

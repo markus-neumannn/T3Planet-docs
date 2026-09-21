@@ -87,12 +87,12 @@ Add and manage the sources of content that will be used for AI search, such as w
 1. Click **+ Add Source**.
 2. Choose the **type of source**, for example:
 
-   - **Sitemap XML** – Your sitemap URL(s) (e.g. `https://example.com/sitemap.xml`).
-   - **PDF Documents** – Folder path where PDFs are stored (and optionally upload PDFs).
-   - **TYPO3 Pages** – Content from specific TYPO3 pages.
-   - **Web Pages** – A website URL; optionally limit to a path (e.g. `https://example.com/blog/*`).
-   - **Q&A Pairs** – Manual question-and-answer content.
-   - **Indexed Search / Ke Search / Solr** – If the corresponding extensions are installed and indexed content is available.
+  - **Sitemap XML** – Your sitemap URL(s) (e.g. `https://example.com/sitemap.xml`).
+  - **PDF Documents** – Folder path where PDFs are stored (and optionally upload PDFs).
+  - **TYPO3 Pages** – Content from specific TYPO3 pages.
+  - **Web Pages** – A website URL; optionally limit to a path (e.g. `https://example.com/blog/*`).
+  - **Q&A Pairs** – Manual question-and-answer content.
+  - **Indexed Search / Ke Search / Solr** – If the corresponding extensions are installed and indexed content is available.
 
 3. Fill in the requested details (URLs, folder path, page selection, etc.) and give the source a **Name** (e.g. `Main Website`) and optional **Description**.
 4. Set **Sync interval**: how often content should be refreshed (e.g. **Hourly**, **Daily**, **Weekly**). **Custom** means no automatic schedule (manual sync only).
@@ -583,10 +583,10 @@ View log entries for the current site, including sync, training, and error event
 - **Max rows**: Set how many rows are shown per page (default: `50`).
 - **Entry count**: The page shows a summary like *Showing up to 50 of 745 entries per page*.
 - **Log table columns**:
-  - **Time**
-  - **Level**
-  - **User**
-  - **Details**
+- **Time**
+- **Level**
+- **User**
+- **Details**
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajs4hd0uedqmhxgmcj85tr?utm_source=link" loading="lazy" title="AI Logs Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
@@ -601,9 +601,9 @@ View AI API usage statistics for the current site.
 - **API Usage** summary for your search activity.
 - **API Requests** count.
 - **Tokens** usage details:
-  - **Total** tokens
-  - **Context** tokens
-  - **Generated** tokens
+- **Total** tokens
+- **Context** tokens
+- **Generated** tokens
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrajqtof0u80qmhxjqczjqef?utm_source=link" loading="lazy" title="AI Statistics Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 

@@ -9,9 +9,12 @@ keywords:
 sidebarTitle: "One-Click Page Translations"
 ---
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgwbd60vav130ug612bduz?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 This feature allows you to translate pages and their content elements from the default language to other languages.
 
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgwbd60vav130ug612bduz?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakfkin0w8pqmhxhm36f6l4?embed_v=2&utm_source=embed" loading="lazy" title="Translate Pages" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 There are two options for Translation
 
 - **Translate Page**: This option allows you to translate the page into the selected or all other languages, but it only translates the pages, not the content.

@@ -289,8 +289,10 @@
   function ensureDocsBackButton(root, visible) {
     if (!root) return;
     var existing = root.querySelector("[data-t3-docs-back=\"1\"]");
+    var existingWrap = root.querySelector("[data-t3-docs-back-wrap=\"1\"]");
     if (!visible) {
-      if (existing) existing.remove();
+      if (existingWrap) existingWrap.remove();
+      else if (existing) existing.remove();
       root.classList.remove("t3-docs-back-visible");
       return;
     }
@@ -298,8 +300,22 @@
     var href = getDocsBackHref();
     if (existing) {
       if (existing.getAttribute("href") !== href) existing.setAttribute("href", href);
+      // Upgrade legacy sticky <a> mounts into a full-width shield wrap.
+      if (!existingWrap && existing.parentNode) {
+        var upgradeWrap = document.createElement("div");
+        upgradeWrap.className = "t3-docs-back-wrap";
+        upgradeWrap.setAttribute("data-t3-docs-back-wrap", "1");
+        existing.parentNode.insertBefore(upgradeWrap, existing);
+        upgradeWrap.appendChild(existing);
+        existingWrap = upgradeWrap;
+      }
+      if (existingWrap) existingWrap.classList.remove("t3-sidebar-context-hidden");
+      existing.classList.remove("t3-sidebar-context-hidden");
       return;
     }
+    var wrap = document.createElement("div");
+    wrap.className = "t3-docs-back-wrap";
+    wrap.setAttribute("data-t3-docs-back-wrap", "1");
     var a = document.createElement("a");
     a.setAttribute("href", href);
     a.className = "t3-docs-back";
@@ -310,9 +326,10 @@
       '<path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>' +
       "</svg>" +
       '<span class="t3-docs-back-label">Back to all docs</span>';
+    wrap.appendChild(a);
     var mount = docsBackMount(root);
-    if (mount.firstChild) mount.insertBefore(a, mount.firstChild);
-    else mount.appendChild(a);
+    if (mount.firstChild) mount.insertBefore(wrap, mount.firstChild);
+    else mount.appendChild(wrap);
   }
 
   function findActiveProductLi(root, path) {
@@ -425,7 +442,16 @@
       var navItems = root.querySelector("#navigation-items") || root;
       Array.prototype.forEach.call(navItems.children, function (group) {
         if (!group || group.nodeType !== 1) return;
-        if (group.getAttribute("data-t3-docs-back") === "1") return;
+        // Never hide the Back control / sticky shield wrap.
+        if (
+          group.getAttribute("data-t3-docs-back") === "1" ||
+          group.getAttribute("data-t3-docs-back-wrap") === "1" ||
+          (group.classList && group.classList.contains("t3-docs-back-wrap")) ||
+          (group.querySelector && group.querySelector('[data-t3-docs-back="1"]'))
+        ) {
+          group.classList.remove("t3-sidebar-context-hidden");
+          return;
+        }
         if (group === activeLi || (activeLi && group.contains(activeLi))) {
           group.classList.remove("t3-sidebar-context-hidden");
           return;
@@ -446,7 +472,7 @@
       try {
         var vp = root.querySelector('[data-component-part="scroll-area-viewport"]') || root;
         if (vp && typeof vp.scrollTop === "number") vp.scrollTop = 0;
-        var backEl = root.querySelector('[data-t3-docs-back="1"]');
+        var backEl = root.querySelector('[data-t3-docs-back-wrap="1"]') || root.querySelector('[data-t3-docs-back="1"]');
         if (backEl && backEl.scrollIntoView) backEl.scrollIntoView({ block: "nearest" });
       } catch (eScroll) {}
     });
@@ -588,19 +614,21 @@
 
   function navigateToProductRoot(href, e, opts) {
     if (!href) return;
-    var go = cleanRoute(href);
-    if (go === "/Index") go = "/";
-    if (!go || go[0] !== "/") return;
-    if (go === currentPath()) return;
     opts = opts || {};
-    beginProductRootNav(go);
-    if (e && opts.cancelEvent) {
-      e.preventDefault();
-      e.stopPropagation();
+    var go = normalizeDocHref(cleanRoute(href) || "");
+    if (go === "/Index") go = normalizeDocHref("/");
+    if (!go || go[0] !== "/") return;
+    if (pathsEqualNav(go, currentPath())) return;
+    // Always cancel Mintlify expand/SPA so product docs hard-navigate instead of
+    // expanding the row or reloading the current hub page.
+    if (e) {
       try {
+        e.preventDefault();
+        e.stopPropagation();
         e.stopImmediatePropagation();
       } catch (eStop) {}
     }
+    beginProductRootNav(go, { message: "Opening documentation", immediate: true });
   }
   function enhanceProductRootNav(scope) {
     scope = scope || document;
@@ -701,6 +729,8 @@
     // Overlay <a.t3-product-root-link>: navigate on pointerdown.
     // Some Mintlify handlers preventDefault on pointerdown and suppress click;
     // show loader immediately, then hard-reload into the product docs.
+    // MUST cancel the event here — otherwise click also runs beginProductRootNav
+    // (bindHardNavClicks) and the product docs appear to open twice.
     document.addEventListener(
       "pointerdown",
       function (e) {
@@ -710,14 +740,19 @@
         if (!t || !t.closest) return;
         var a = t.closest("a.t3-product-root-link");
         if (!a) return;
-        var href = cleanRoute(a.getAttribute("href") || "");
+        var href = normalizeDocHref(a.getAttribute("href") || "");
         if (!href || href[0] !== "/") return;
-        if (href === "/Index") href = "/";
+        if (href === "/Index") href = normalizeDocHref("/");
         if (pathsEqualNav(href, currentPath())) return;
         try {
           a.setAttribute("data-t3-root-armed", href);
         } catch (eArm) {}
-        beginProductRootNav(href);
+        e.preventDefault();
+        e.stopPropagation();
+        try {
+          e.stopImmediatePropagation();
+        } catch (eStopPd) {}
+        beginProductRootNav(href, { message: "Opening documentation", immediate: true });
       },
       true
     );
@@ -729,7 +764,7 @@
         if (!e || e.button) return;
         var href = resolveProductRootFromEvent(e);
         if (!href) return;
-        navigateToProductRoot(href, e, { cancelEvent: false });
+        navigateToProductRoot(href, e);
       },
       true
     );
@@ -739,7 +774,7 @@
       function (e) {
         var href = resolveProductRootFromEvent(e);
         if (!href) return;
-        navigateToProductRoot(href, e, { cancelEvent: true });
+        navigateToProductRoot(href, e);
       },
       true
     );
@@ -1333,7 +1368,8 @@
 
   function hideNavLoader(immediate) {
     if (!loaderEl) {
-      document.documentElement.classList.remove("t3-loader-on", "t3-holding");
+      document.documentElement.classList.remove("t3-loader-on", "t3-holding", "t3-nav-busy", "t3-product-root-loading");
+      document.documentElement.removeAttribute("aria-busy");
       bindHoldScrollBlock(false);
       unlockPageScroll();
       return;
@@ -1342,7 +1378,9 @@
       loaderHideTimer = null;
       loaderEl.classList.remove("t3-nav-loader-active", "t3-nav-loader-exit");
       loaderEl.setAttribute("aria-hidden", "true");
-      document.documentElement.classList.remove("t3-loader-on", "t3-holding");
+      // t3-nav-busy also hides #content-area (opacity:0) — must clear with hold.
+      document.documentElement.classList.remove("t3-loader-on", "t3-holding", "t3-nav-busy", "t3-product-root-loading");
+      document.documentElement.removeAttribute("aria-busy");
       bindHoldScrollBlock(false);
       unlockPageScroll();
     }
@@ -1422,13 +1460,20 @@
   function contentLooksReady(root) {
     root = root || contentRoot();
     if (!root) return false;
-    // Ignore our own nav overlays if they ever land under the content root.
-    var cloneText = (root.innerText || "").replace(/\s+/g, " ").trim();
+    // Prefer textContent: innerText is "" when #content-area is display:none
+    // under t3-holding, which left short/stub pages blank forever.
+    var raw = (root.textContent || root.innerText || "").replace(/\s+/g, " ").trim();
     // Strip loader copy so "Loading page…" alone never counts as ready content.
-    var text = cloneText.replace(/Loading page[…\.]*/gi, "").replace(/\s+/g, " ").trim();
-    if (text.length >= 48) return true;
-    if (root.querySelector("h1, h2, img, pre, table, .mdx-content, article")) {
-      return text.length >= 12;
+    var text = raw
+      .replace(/Loading page[…\.]*/gi, "")
+      .replace(/Opening documentation[…\.]*/gi, "")
+      .replace(/Loading documentation[…\.]*/gi, "")
+      .replace(/Loading home[…\.]*/gi, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (text.length >= 36) return true;
+    if (root.querySelector("h1, h2, img, pre, table, .mdx-content, article, iframe, a")) {
+      return text.length >= 8;
     }
     return false;
   }
@@ -2005,22 +2050,24 @@
     target = normalizeDocHref(target || "");
     if (!target || target[0] !== "/") return;
     if (pathsEqualNav(target, currentPath())) return;
-    // Mintlify/Next on local often ignores location.href/assign from the
-    // homepage. pushState + reload works — call the native prototype so our
-    // history patch (onRouteChange) cannot throw before reload.
+    // One hard navigation only. Never pushState-then-reload: Mintlify treats
+    // pushState as an SPA open, then reload opens the same docs again.
+    var abs = target;
     try {
-      History.prototype.pushState.call(history, null, "", target);
-    } catch (ePush) {
-      try {
-        history.pushState(null, "", target);
-      } catch (ePush2) {}
+      abs = new URL(target, window.location.origin).href;
+    } catch (eUrl) {
+      abs = target;
     }
     try {
-      location.reload();
+      window.location.replace(abs);
       return;
-    } catch (eReload) {}
+    } catch (eRep) {}
     try {
-      window.location.href = target;
+      window.location.assign(abs);
+      return;
+    } catch (eAssign) {}
+    try {
+      window.location.href = abs;
     } catch (eHref) {}
   }
 
@@ -2034,6 +2081,17 @@
     if (go === "/Index") go = normalizeDocHref("/");
     if (!go || go[0] !== "/") return;
     if (pathsEqualNav(go, currentPath())) return;
+    // Idempotent only when a hard nav is already painting/loading.
+    // pendingNavHref alone is also set by prefetch (beginNavFromLink deferHold)
+    // and by the local hard-nav click path — that must NOT skip location.assign
+    // or navbar/HOME hub clicks appear as dead buttons.
+    try {
+      var hardInFlight =
+        document.documentElement.classList.contains("t3-nav-busy") ||
+        document.documentElement.classList.contains("t3-holding") ||
+        document.documentElement.classList.contains("t3-product-root-loading");
+      if (hardInFlight && pendingNavHref && pathsEqualNav(pendingNavHref, go)) return;
+    } catch (eDup) {}
     try {
       pauseBackgroundWarmForUserNav();
     } catch (ePause) {}
@@ -2061,6 +2119,37 @@
     }
   }
 
+  function forceClearStuckNavChrome() {
+    try {
+      clearProgressTimers();
+    } catch (eT) {}
+    try {
+      clearProductRootNavPending();
+    } catch (eC) {}
+    pendingNavHref = "";
+    userNavPriority = false;
+    progressVisible = false;
+    try {
+      document.documentElement.classList.remove(
+        "t3-product-root-loading",
+        "t3-nav-busy",
+        "t3-loader-on",
+        "t3-holding",
+        "t3-route-loading"
+      );
+      document.documentElement.removeAttribute("aria-busy");
+    } catch (eCls) {}
+    try {
+      hideNavLoader(true);
+    } catch (eH) {}
+    try {
+      hideVeil();
+    } catch (eV) {}
+    try {
+      releaseHold(true);
+    } catch (eR) {}
+  }
+
   function resumeProductRootLoaderIfNeeded() {
     var pending = "";
     try {
@@ -2071,6 +2160,13 @@
         if (document.documentElement.classList.contains("t3-product-root-loading")) {
           document.documentElement.classList.remove("t3-product-root-loading");
         }
+        // Early boot may leave holding/busy without a pending key (aborted nav).
+        if (
+          document.documentElement.classList.contains("t3-holding") ||
+          document.documentElement.classList.contains("t3-nav-busy")
+        ) {
+          if (contentLooksReady()) forceClearStuckNavChrome();
+        }
       } catch (eNo) {}
       return false;
     }
@@ -2080,8 +2176,20 @@
     try {
       progress(false);
     } catch (eDone) {
-      hideNavLoader(false);
+      forceClearStuckNavChrome();
     }
+    // Hard failsafe: never leave hub/product pages blank behind t3-holding.
+    setTimeout(function () {
+      try {
+        if (
+          document.documentElement.classList.contains("t3-holding") ||
+          document.documentElement.classList.contains("t3-nav-busy") ||
+          document.documentElement.classList.contains("t3-product-root-loading")
+        ) {
+          forceClearStuckNavChrome();
+        }
+      } catch (eFs) {}
+    }, 2500);
     return true;
   }
 
@@ -2257,21 +2365,27 @@
     } catch (eAdj) {}
   }
 
-  function bindLogoHomePrefetch() {
-    function isLogoHome(a) {
-      if (!a) return false;
-      var href = cleanRoute(a.getAttribute("href") || "");
-      if (href !== "/" && href !== "/Index") return false;
-      return !!(
+  function isLogoHomeAnchor(a) {
+    if (!a || !a.getAttribute) return false;
+    if (
+      !(
         a.querySelector("img.nav-logo, img[src*='t3planet'], img[alt*='logo'], img[alt*='Logo']") ||
         a.querySelector("span.sr-only")
-      );
+      )
+    ) {
+      return false;
     }
+    var href = normalizeDocHref(cleanRoute(a.getAttribute("href") || "") || "");
+    // docs.json uses /en/latest for Host-at; local mint must treat it as home (/).
+    return href === "/" || href === "/Index" || href === "/en/latest";
+  }
+
+  function bindLogoHomePrefetch() {
     document.addEventListener(
       "pointerenter",
       function (e) {
-        var a = e.target.closest && e.target.closest('a[href="/"], a[href="/Index"], a[href="/Index/"]');
-        if (!isLogoHome(a)) return;
+        var a = e.target.closest && e.target.closest("a[href]");
+        if (!isLogoHomeAnchor(a)) return;
         prefetchDocument("/");
         prefetchOnIntent("/");
       },
@@ -2280,8 +2394,8 @@
     document.addEventListener(
       "pointerdown",
       function (e) {
-        var a = e.target.closest && e.target.closest('a[href="/"], a[href="/Index"], a[href="/Index/"]');
-        if (!isLogoHome(a)) return;
+        var a = e.target.closest && e.target.closest("a[href]");
+        if (!isLogoHomeAnchor(a)) return;
         prefetchDocument("/");
       },
       { capture: true, passive: true }
@@ -2580,7 +2694,19 @@
       var href = a.getAttribute("href");
       if (!href || href[0] !== "/" || href[1] === "/" || href[0] === "#") continue;
       var next = normalizeDocHref(href);
-      if (next && next !== href) a.setAttribute("href", next);
+      if (next && next !== href) {
+        a.setAttribute("href", next);
+        href = next;
+      }
+      // Mintlify marks the primary navbar CTA (Get Started) as target=_blank
+      // even for internal /License routes. That skips hard-nav and looks like
+      // a dead button when the popup is blocked or ignored.
+      try {
+        if (a.getAttribute("target") === "_blank") {
+          a.removeAttribute("target");
+          if ((a.getAttribute("rel") || "").indexOf("noopener") !== -1) a.removeAttribute("rel");
+        }
+      } catch (eTarget) {}
     }
   }
 
@@ -2599,17 +2725,15 @@
   }
 
   function rewriteStaticLinks() {
-    if (staticLinksDone) {
-      rewriteHubExtensionLinks();
-      return;
-    }
-    staticLinksDone = true;
+    // Always re-normalize chrome links — Mintlify remounts the navbar with
+    // baked /en/latest logo href after our first pass (404 on local mint).
     rewriteLinksIn(document.getElementById("navbar"));
     rewriteLinksIn(document.getElementById("sidebar-content"));
     rewriteLinksIn(document.getElementById("mobile-nav"));
     rewriteLinksIn(document.getElementById("pagination"));
     rewriteLinksIn(document.querySelector("footer"));
     rewriteHubExtensionLinks();
+    staticLinksDone = true;
   }
 
   function rewriteContentLinks() {
@@ -2692,14 +2816,20 @@
     if (!window.__t3DocsBaseClickBound) {
       window.__t3DocsBaseClickBound = 1;
       document.addEventListener("click", ensureDocsBaseOnClick, true);
-      // Content-only rewrite once; do not observe mutations (breaks Mintlify sidebar SPA).
-      try { rewriteLinksIn(contentRoot()); } catch (eRew) {}
+      // Do NOT rewrite content hrefs before/during React hydration — mutating
+      // /en/latest → / locally causes React #418 and blank hub main panes.
+      // Click capture (ensureDocsBaseOnClick + bindHardNavClicks) normalizes.
     }
     try {
       rewriteHubExtensionLinks();
     } catch (eHub2) {}
     applyContentClasses();
-    rewriteContentLinks();
+    // Defer content href rewrite until after hydrate/paint.
+    idle(function () {
+      try {
+        rewriteContentLinks();
+      } catch (eDef) {}
+    }, 1800);
     scheduleSidebarProductContext();
     // Defer heavy iframes BEFORE the browser starts dozens of embed navigations.
     lazyIframes();
@@ -2767,9 +2897,17 @@
 
   
   function isInternalNavAnchor(a) {
-    if (!a || a.target === "_blank") return null;
+    if (!a) return null;
     var href = cleanRoute(a.getAttribute("href") || "");
+    // Internal doc routes must hard-nav even if Mintlify set target=_blank
+    // (primary CTA). External http(s) targets stay untouched elsewhere.
     if (!href || href[0] !== "/" || href[1] === "/") return null;
+    if (a.target === "_blank") {
+      try {
+        a.removeAttribute("target");
+        if ((a.getAttribute("rel") || "").indexOf("noopener") !== -1) a.removeAttribute("rel");
+      } catch (eBlank) {}
+    }
     var pathOnly = (href.split("#")[0].split("?")[0] || "/").replace(/\/$/, "") || "/";
     if (pathOnly === currentPath()) return null;
     // Skip static/asset downloads (not SPA doc routes)
@@ -2959,6 +3097,19 @@
           var normHref = normalizeDocHref(rawHref);
           if (normHref && normHref !== rawHref) a.setAttribute("href", normHref);
         } catch (eNorm) {}
+        // Brand logo → always hard-nav to docs home (never follow raw /en/latest
+        // which 404s on local mint behind the cache proxy).
+        if (isLogoHomeAnchor(a)) {
+          var goHome = normalizeDocHref("/");
+          if (pathsEqualNav(goHome, currentPath())) return;
+          e.preventDefault();
+          e.stopPropagation();
+          try {
+            e.stopImmediatePropagation();
+          } catch (eStopLogo) {}
+          beginProductRootNav(goHome, { message: "Loading home", immediate: true });
+          return;
+        }
         // Custom "Back to all docs" — hard navigate with correct base path.
         if (a.classList && (a.classList.contains("t3-docs-back") || a.getAttribute("data-t3-docs-back") === "1")) {
           var goBack = normalizeDocHref(a.getAttribute("href") || "/");
@@ -2970,10 +3121,12 @@
           try {
             e.stopImmediatePropagation();
           } catch (eStopBack) {}
-          beginProductRootNav(goBack, { message: "Loading documentation" });
+          beginProductRootNav(goBack, { message: "Loading documentation", immediate: true });
           return;
         }
         // Product-root overlays: handle BEFORE isInternalNavAnchor / SPA logic.
+        // pointerdown usually already started navigation and cancelled the event;
+        // if a click still arrives, only start nav when not already pending.
         if (a.classList && a.classList.contains("t3-product-root-link")) {
           var goRoot = normalizeDocHref(a.getAttribute("data-t3-root-armed") || a.getAttribute("href") || "");
           if (goRoot === "/Index") goRoot = normalizeDocHref("/");
@@ -2984,7 +3137,30 @@
           try {
             e.stopImmediatePropagation();
           } catch (eStop) {}
-          beginProductRootNav(goRoot);
+          // Skip only if pointerdown already started the hard nav for this href.
+          try {
+            var rootInFlight =
+              document.documentElement.classList.contains("t3-nav-busy") ||
+              document.documentElement.classList.contains("t3-holding") ||
+              document.documentElement.classList.contains("t3-product-root-loading");
+            if (rootInFlight && pendingNavHref && pathsEqualNav(pendingNavHref, goRoot)) return;
+          } catch (eRootDup) {}
+          beginProductRootNav(goRoot, { message: "Opening documentation", immediate: true });
+          return;
+        }
+        // Hub product cards (AI / Templates / Extensions grids): same immediate
+        // hard-nav as sidebar product roots so Mintlify SPA cannot "reload" the hub.
+        if (a.classList && a.classList.contains("t3-product-card")) {
+          var goCard = normalizeDocHref(a.getAttribute("href") || "");
+          if (goCard === "/Index") goCard = normalizeDocHref("/");
+          if (!goCard || goCard[0] !== "/") return;
+          if (pathsEqualNav(goCard, currentPath())) return;
+          e.preventDefault();
+          e.stopPropagation();
+          try {
+            e.stopImmediatePropagation();
+          } catch (eStopCard) {}
+          beginProductRootNav(goCard, { message: "Opening documentation", immediate: true });
           return;
         }
         var href = isInternalNavAnchor(a);
@@ -2994,15 +3170,18 @@
         if (isLocalMintDev()) {
           var go = normalizeDocHref(href);
           if (go === "/Index") go = normalizeDocHref("/");
-          pendingNavHref = go;
+          // Do not set pendingNavHref here — beginProductRootNav owns that.
+          // Setting it first made beginProductRootNav treat this as a duplicate
+          // and skip forceFullNavigation (dead navbar / HOME hub clicks).
           pauseBackgroundWarmForUserNav();
           e.preventDefault();
           e.stopPropagation();
           try {
             e.stopImmediatePropagation();
           } catch (eStop2) {}
-          // Same immediate loader as product hops — local mint compiles are slow.
-          beginProductRootNav(go, { message: "Loading page" });
+          // Immediate hard-nav locally — deferred rAF let Mintlify SPA win and
+          // made product/extension clicks feel like a same-page reload.
+          beginProductRootNav(go, { message: "Loading page", immediate: true });
           return;
         }
         beginNavFromLink(href);
@@ -3098,7 +3277,35 @@
     // Product-root hard reload: resume loader on destination until content ready.
     try {
       resumeProductRootLoaderIfNeeded();
-    } catch (eResume) {}
+    } catch (eResume) {
+      try {
+        forceClearStuckNavChrome();
+      } catch (eForce) {}
+    }
+    // Safety: if content is already present but hold/busy stuck, reveal it.
+    setTimeout(function () {
+      try {
+        if (
+          contentLooksReady() &&
+          (document.documentElement.classList.contains("t3-holding") ||
+            document.documentElement.classList.contains("t3-nav-busy") ||
+            document.documentElement.classList.contains("t3-product-root-loading"))
+        ) {
+          forceClearStuckNavChrome();
+        }
+      } catch (eSafe) {}
+    }, 400);
+    setTimeout(function () {
+      try {
+        if (
+          document.documentElement.classList.contains("t3-holding") ||
+          document.documentElement.classList.contains("t3-nav-busy") ||
+          document.documentElement.classList.contains("t3-product-root-loading")
+        ) {
+          forceClearStuckNavChrome();
+        }
+      } catch (eSafe2) {}
+    }, 6000);
 
     window.addEventListener("popstate", function () {
       // History nav may already be mid-swap — freeze if possible, else skeleton ASAP
@@ -3114,6 +3321,7 @@
     observeLateMedia();
     setTimeout(recoverEmptyDocOnce, 1200);
     bindMobileNavEnhancements();
+    bindTocExactScroll();
     bindLogoHomePrefetch();
     // Re-apply after Mintlify hydrates MDX images / embeds
     setTimeout(function () {
@@ -3137,6 +3345,124 @@
     }
   }
 
+
+  // ClickUp 86d4bcjmw: On-this-page TOC must land on the exact heading
+  // below the sticky header (~64–88px), and keep the URL hash.
+  function tocHeaderOffsetPx() {
+    var nav = document.getElementById("navbar") || document.querySelector("header");
+    var h = nav && nav.getBoundingClientRect ? nav.getBoundingClientRect().height : 0;
+    if (!h || h < 40) h = 72;
+    return Math.round(h + 12);
+  }
+
+  function findHeadingByHash(hash) {
+    if (!hash) return null;
+    var id = String(hash).replace(/^#/, "");
+    if (!id) return null;
+    var el = null;
+    try { el = document.getElementById(id); } catch (eId) {}
+    if (el) return el;
+    try { el = document.getElementById(decodeURIComponent(id)); } catch (eDec) {}
+    if (el) return el;
+    var nodes = document.querySelectorAll(
+      "h1[id],h2[id],h3[id],h4[id],.t3-landing-section-title[id],[id].t3-landing-section-title"
+    );
+    var want = id.toLowerCase();
+    for (var i = 0; i < nodes.length; i++) {
+      var nid = (nodes[i].id || "").toLowerCase();
+      if (nid === want) return nodes[i];
+    }
+    return null;
+  }
+
+  function scrollToHeadingExact(el, hash) {
+    if (!el) return false;
+    var offset = tocHeaderOffsetPx();
+    var top = 0;
+    try {
+      var rect = el.getBoundingClientRect();
+      top = (window.pageYOffset || document.documentElement.scrollTop || 0) + rect.top - offset;
+    } catch (eTop) {
+      return false;
+    }
+    if (top < 0) top = 0;
+    try { window.scrollTo({ top: top, behavior: "auto" }); }
+    catch (eScroll) { window.scrollTo(0, top); }
+    if (hash) {
+      try {
+        var clean = String(hash).indexOf("#") === 0 ? hash : "#" + hash;
+        if (location.hash !== clean) {
+          history.replaceState(null, "", location.pathname + location.search + clean);
+        }
+      } catch (eHash) {}
+    }
+    return true;
+  }
+
+  var tocClickBound = false;
+  var tocHashBound = false;
+
+  function bindTocExactScroll() {
+    if (!tocClickBound) {
+      tocClickBound = true;
+      document.addEventListener(
+        "click",
+        function (e) {
+          var a = e.target && e.target.closest ? e.target.closest("a[href*='#']") : null;
+          if (!a) return;
+          var href = a.getAttribute("href") || "";
+          var hashIdx = href.indexOf("#");
+          if (hashIdx === -1) return;
+          var hash = href.slice(hashIdx);
+          if (hash === "#" || hash.length < 2) return;
+          var pathPart = href.slice(0, hashIdx);
+          if (pathPart) {
+            try {
+              var u = new URL(a.href, location.href);
+              if (u.pathname.replace(/\/$/, "") !== location.pathname.replace(/\/$/, "")) return;
+            } catch (eUrl) {
+              return;
+            }
+          }
+          var el = findHeadingByHash(hash);
+          if (!el) return;
+          e.preventDefault();
+          if (e.stopPropagation) e.stopPropagation();
+          // Double-apply after Mintlify's own scroll settles
+          scrollToHeadingExact(el, hash);
+          setTimeout(function () { scrollToHeadingExact(el, hash); }, 50);
+          setTimeout(function () { scrollToHeadingExact(el, hash); }, 200);
+        },
+        true
+      );
+    }
+
+    function applyHashFromLocation() {
+      if (!location.hash || location.hash === "#") return;
+      var el = findHeadingByHash(location.hash);
+      if (!el) return;
+      scrollToHeadingExact(el, location.hash);
+      [30, 100, 250, 500, 900].forEach(function (ms) {
+        setTimeout(function () {
+          var again = findHeadingByHash(location.hash);
+          if (again) scrollToHeadingExact(again, location.hash);
+        }, ms);
+      });
+    }
+
+    if (!tocHashBound) {
+      tocHashBound = true;
+      window.addEventListener("hashchange", applyHashFromLocation);
+    }
+    document.documentElement.dataset.t3TocScrollBound = "1";
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", applyHashFromLocation);
+    } else {
+      applyHashFromLocation();
+    }
+    setTimeout(applyHashFromLocation, 600);
+  }
+
   gateLocalRscFetch();
   gateNextRouterPrefetch();
   // Bind nav interceptor immediately — do not wait for DOMContentLoaded/init.
@@ -3144,6 +3470,7 @@
   // to Mintlify SPA (stay on home / require second click).
   bindHardNavClicks();
   bindProductRootNavClicks();
+  bindTocExactScroll();
   window.__t3DocsNavBound = 1;
   function bootInit() {
     try {

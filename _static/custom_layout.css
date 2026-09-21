@@ -32,3 +32,13 @@
 .wy-menu-vertical li.toctree-l1.current a {
   background: #e8f0fe;
 }
+
+/* T3 TOC sticky-header scroll offset */
+html {
+  scroll-padding-top: 88px;
+}
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id],
+.t3-landing-section-title[id],
+[id].t3-landing-section-title {
+  scroll-margin-top: 88px;
+}

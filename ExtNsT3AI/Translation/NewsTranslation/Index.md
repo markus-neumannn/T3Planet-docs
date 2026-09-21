@@ -9,9 +9,12 @@ keywords:
 sidebarTitle: "News Translation"
 ---
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgbidb0v1k130u4y4ewz6p?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Expand your knowledge base with News Translations. Click ‘Translate with T3AI’ to get translated news directly in your backend.
 
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqgbidb0v1k130u4y4ewz6p?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrakzni30xkaqmhxdqvhvky7?embed_v=2&utm_source=embed" loading="lazy" title="News Translation" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 **Step 1** - Go to the List module and choose the storage folder from the News list. Then, select the news item you want.
 
 **Step 2** - **Localize Your Page in Your Preferred Language**

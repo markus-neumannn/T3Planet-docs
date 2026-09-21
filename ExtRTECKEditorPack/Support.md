@@ -18,4 +18,4 @@ Our TYPO3 experts can help with:
 - Custom feature requests
 
 Submit a request at [T3Planet Support](https://t3planet.de/support).
-You can also contact [T3Planet Support](https://t3planet.de/en/support).
+You can also contact [T3Planet Support](https://t3planet.de/support).

@@ -25,8 +25,13 @@ For more details, refer to the TYPO3 official documentation: [Standard FlexForm 
 Additionally, **Flux-based content elements** support translation only **after the content element has been created and saved at least once**.
 </Note>
 
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmmj3g9hy27jqzdh1s0clods6?embed_v=2&utm_source=embed" loading="lazy" title="T3AI - Flux Element Translation" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
+
+
 <Note>
-**DCE & FlexForm translation:** Translate DCE and other FlexForm fields with the sheet-aware field mapper. You do **not** need to enable **Map to TCA**.
+**Note:** This feature is available in **T3AI 14.5.0 and all later tags**.
+
+**DCE & FlexForm Translation:** Translate DCE and other FlexForm fields using the **sheet-aware field mapper**. Enabling **“Map to TCA” is not required**.
 </Note>
 
 
@@ -66,4 +71,4 @@ Enter a comma-separated list of FlexForm field keys that should be ignored durin
 
 
 
-Related setup for custom TCA tables: [Extend Records Translation](/en/latest/ExtNsT3AI/Translation/ExtendRecordsTranslation/Index).
+Related setup for custom TCA tables: [Extend Records Translation](/ExtNsT3AI/Translation/ExtendRecordsTranslation/Index).

@@ -15,9 +15,9 @@ This section also covers the T3AF backend modules used day to day: providers, co
 
 ## Two configuration areas
 
-**AI Providers** — **Path:** T3AF > AI Providers. API keys, models, and defaults.
+**AI Providers** — Path: T3AF > AI Providers. API keys, models, and defaults.
 
-**AI Features** — **Path:** T3AF > AI Features. Per-site cards for connected extensions. AI Foundation's own card is **Access & Notifications** (Basic Auth and quota email alerts). MCP options are on T3AF > MCP Server > Advanced.
+**AI Features** — Path: T3AF > AI Features. Per-site cards for connected extensions. AI Foundation's own card is **Access & Notifications** (Basic Auth and quota email alerts). MCP options are on T3AF > MCP Server > Advanced.
 
 ![AI Features cards including Access and Notifications](./images/ai-features-cards.webp)
 
@@ -33,7 +33,7 @@ This section also covers the T3AF backend modules used day to day: providers, co
 
 ## AI Providers (primary)
 
-**Path:** T3AF > AI Providers
+Path: T3AF > AI Providers
 
 Connect at least one provider, set a model, run Test connection, and mark exactly one row as Default.
 
@@ -59,7 +59,7 @@ Where a classic Extension Configuration form is still used for optional keys, op
 
 ### Access & Notifications (HTTP Basic Auth)
 
-**Path:** T3AF > AI Features → **Access & Notifications**
+Path: T3AF > AI Features → **Access & Notifications**
 
 ![Access and Notifications drawer with Basic Auth and email alerts](./images/access-notifications.webp)
 
@@ -82,7 +82,7 @@ Full guide: [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index)
 
 ## Per-feature providers
 
-**Path:** T3AF > AI Features
+Path: T3AF > AI Features
 
 Override the default provider per task: SEO, Pages, Content, Translation.
 
@@ -90,7 +90,7 @@ See [AI Features](/en/latest/ExtNsT3AF/Configuration/AIFeatures/Index).
 
 ## AI Label
 
-**Path:** T3AF > AI Label
+Path: T3AF > AI Label
 
 Record, confirm, and disclose AI-generated or AI-modified content for EU AI Act Article 50 workflows. Covers module tabs, settings, visitor labels, bulk actions, and evidence export.
 

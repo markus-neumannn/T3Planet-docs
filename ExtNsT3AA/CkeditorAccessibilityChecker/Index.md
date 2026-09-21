@@ -10,4 +10,4 @@ sidebarTitle: "CkeditorAccessibilityChecker"
 
 This topic now lives under the **Feature Guide**.
 
-<Card title="Open updated page" icon="arrow-right" href="/en/latest/ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index" />
+<Card title="Open updated page" icon="arrow-right" href="/ExtNsT3AA/FeatureGuide/CkeditorAccessibilityChecker/Index" />

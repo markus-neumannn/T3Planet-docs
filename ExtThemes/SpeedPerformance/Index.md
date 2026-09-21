@@ -1,10 +1,10 @@
 ---
 title: "Speed and Performance"
-description: "Speed and performance for ExtThemes"
+description: "Configure Theme Options cache and CSS/JS compression for T3 Themes."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "ExtThemes"
+  - "Themes"
   - "Speed and Performance"
   - "SpeedPerformance"
 sidebarTitle: "Speed and Performance"
@@ -12,12 +12,13 @@ sidebarTitle: "Speed and Performance"
 
 # Speed and Performance
 
-To improve speed and performance, Please configure following options.
+Use **Theme Options → Speed & Performance** to enable caching and to compress/merge CSS and JS.
 
-Step 1: Go to NITSAN > Theme Options
+<div className="t3-embed">
+  <iframe src="https://app.supademo.com/embed/cmmeyl7is3r4hnr99y6u8s0es" loading="lazy" title="Speed & Performance" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen ></iframe>
+</div>
 
-Step 2: Click on root/main page
+In **NITSAN → Theme Options** on the site root, set:
 
-Step 3: At Speed & Performance Section, You can check "Cache Enable/Disable" and "Compress & Merge CSS/JS"
-
-![T3Planet-TYPO3-Cache-Speed-Performance](./images/T3Terminal-TYPO3-Cache-Speed-Performance.webp)
+- **Cache Enable/Disable**
+- **Compress & Merge CSS/JS**
