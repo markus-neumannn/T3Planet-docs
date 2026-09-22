@@ -933,7 +933,14 @@
     trackMobileNavCloseButton(nav);
   }
 
+  // Ghost window only: block click-through reopen after drawer close.
+  // Live E2E showed 700ms lock + full-window force-dismiss made the menu
+  // feel dead (second tap required). Keep a short hard ghost, then allow open.
+  var MOBILE_NAV_CLOSE_COOLDOWN_MS = 280;
+  var MOBILE_NAV_GHOST_MS = 140;
   var mobileNavCloseCooldownUntil = 0;
+  var mobileNavGhostUntil = 0;
+  var mobileNavPendingOpen = false;
   var mobileNavSwallowBound = false;
   var mobileNavDismissLock = false;
 
@@ -1016,8 +1023,48 @@
     return true;
   }
 
+  function flushPendingMobileNavOpen() {
+    if (!mobileNavPendingOpen) return;
+    mobileNavPendingOpen = false;
+    if (document.getElementById("mobile-nav")) return;
+    var buttons = document.querySelectorAll("button");
+    for (var i = 0; i < buttons.length; i++) {
+      var btn = buttons[i];
+      if (!isMobileNavTrigger(btn)) continue;
+      try {
+        btn.click();
+      } catch (errClick) {}
+      return;
+    }
+  }
+
+  function notePendingMobileNavOpenFromEvent(e) {
+    if (!e) return;
+    if (Date.now() >= mobileNavCloseCooldownUntil) return;
+    // Hard ghost window: ignore (true click-through)
+    if (Date.now() < mobileNavGhostUntil) return;
+    if (isMobileNavTrigger(e.target)) {
+      mobileNavPendingOpen = true;
+      return;
+    }
+    // pointer-events:none on trigger → hit-test locked button rects
+    var locked = document.querySelectorAll(
+      'button[data-t3-nav-trigger-locked="1"]'
+    );
+    var x = e.clientX;
+    var y = e.clientY;
+    if (typeof x !== "number" || typeof y !== "number") return;
+    for (var i = 0; i < locked.length; i++) {
+      var r = locked[i].getBoundingClientRect();
+      if (x >= r.left && x <= r.right && y >= r.top && y <= r.bottom) {
+        mobileNavPendingOpen = true;
+        return;
+      }
+    }
+  }
+
   function swallowGhostClicks(ms) {
-    ms = ms || 450;
+    ms = ms || MOBILE_NAV_GHOST_MS;
     var until = Date.now() + ms;
     var blockTrigger = function (e) {
       if (Date.now() > until) {
@@ -1039,8 +1086,11 @@
   }
 
   function armMobileNavCloseCooldown(ms) {
-    ms = ms || 700;
+    ms = ms || MOBILE_NAV_CLOSE_COOLDOWN_MS;
+    var ghostMs = Math.min(MOBILE_NAV_GHOST_MS, ms);
+    mobileNavPendingOpen = false;
     mobileNavCloseCooldownUntil = Date.now() + ms;
+    mobileNavGhostUntil = Date.now() + ghostMs;
     document.documentElement.classList.add("t3-mobile-nav-closing");
     // Inline pointer-events beat React listeners (capture order can't)
     var disabled = [];
@@ -1052,12 +1102,23 @@
       btn.style.setProperty("pointer-events", "none", "important");
       btn.setAttribute("data-t3-nav-trigger-locked", "1");
     }
-    swallowGhostClicks(ms);
-    // Fresh React remounts of the hamburger lose inline locks — CSS class covers
-    // them, and this poll dismisses a ghost reopen after a successful close.
+    // Swallow only the short ghost window — not the full soft cooldown.
+    swallowGhostClicks(ghostMs);
+    // Soft-window taps on the hamburger queue an intentional reopen.
+    var pendingTap = function (e) {
+      if (Date.now() >= mobileNavCloseCooldownUntil) {
+        document.removeEventListener("pointerdown", pendingTap, true);
+        document.removeEventListener("touchend", pendingTap, true);
+        return;
+      }
+      notePendingMobileNavOpenFromEvent(e);
+    };
+    document.addEventListener("pointerdown", pendingTap, true);
+    document.addEventListener("touchend", pendingTap, true);
+    // Dismiss ghost remounts only during the hard ghost window.
     var sawClosed = false;
     var poll = setInterval(function () {
-      if (Date.now() >= mobileNavCloseCooldownUntil) {
+      if (Date.now() >= mobileNavGhostUntil) {
         clearInterval(poll);
         return;
       }
@@ -1068,7 +1129,7 @@
         setMobileNavOpen(false);
         dismissMintlifyMobileNav();
       }
-      // Re-lock any new trigger nodes Mintlify just mounted
+      // Re-lock any new trigger nodes Mintlify just mounted (ghost only)
       var more = document.querySelectorAll("button");
       for (var k = 0; k < more.length; k++) {
         var b2 = more[k];
@@ -1079,23 +1140,33 @@
         b2.setAttribute("data-t3-nav-trigger-locked", "1");
       }
     }, 32);
+    // Unlock hamburger after ghost so legitimate reopen works immediately.
     setTimeout(function () {
       clearInterval(poll);
-      if (Date.now() >= mobileNavCloseCooldownUntil - 10) {
-        document.documentElement.classList.remove("t3-mobile-nav-closing");
-      }
+      document.documentElement.classList.remove("t3-mobile-nav-closing");
       for (var j = 0; j < disabled.length; j++) {
         disabled[j].style.removeProperty("pointer-events");
         disabled[j].removeAttribute("data-t3-nav-trigger-locked");
       }
-    }, ms + 30);
+      if (mobileNavPendingOpen) flushPendingMobileNavOpen();
+    }, ghostMs + 30);
+    setTimeout(function () {
+      document.removeEventListener("pointerdown", pendingTap, true);
+      document.removeEventListener("touchend", pendingTap, true);
+      if (Date.now() >= mobileNavCloseCooldownUntil - 10) {
+        mobileNavCloseCooldownUntil = 0;
+        mobileNavGhostUntil = 0;
+      }
+      flushPendingMobileNavOpen();
+    }, ms + 40);
   }
 
   function setMobileNavOpen(open) {
-    // Ignore reopen while closing cooldown is active (click-through / ghost click)
-    if (open && Date.now() < mobileNavCloseCooldownUntil) {
+    // Only block reopen during the hard ghost window (click-through).
+    if (open && Date.now() < mobileNavGhostUntil) {
       return;
     }
+    if (open) mobileNavPendingOpen = false;
     document.documentElement.classList.toggle("t3-mobile-nav-open", !!open);
     if (open) {
       // Never clear the close-guard class here — only the cooldown timer may
@@ -1109,7 +1180,7 @@
 
   function closeMobileNav() {
     var nav = document.getElementById("mobile-nav");
-    armMobileNavCloseCooldown(700);
+    armMobileNavCloseCooldown();
     if (!nav) {
       setMobileNavOpen(false);
       return;
@@ -1142,7 +1213,7 @@
   function animateMobileNavFromRight(nav) {
     if (!nav) return;
     // Never re-enter / undo an in-progress close
-    if (Date.now() < mobileNavCloseCooldownUntil) return;
+    if (Date.now() < mobileNavGhostUntil) return;
     if (nav.classList.contains("t3-drawer-exiting")) return;
     var rect = nav.getBoundingClientRect();
     var stuckOffscreen =
@@ -1221,7 +1292,7 @@
 
   function enhanceMobileNav(nav) {
     if (!nav) return;
-    if (Date.now() < mobileNavCloseCooldownUntil) return;
+    if (Date.now() < mobileNavGhostUntil) return;
     dockMobileNavRight(nav);
     animateMobileNavFromRight(nav);
     if (nav.dataset.t3SwipeBound !== "1") bindMobileNavSwipe(nav);
@@ -1254,7 +1325,8 @@
       var open = !!nav;
       // During close cooldown: never re-enhance/animate. One throttled dismiss if
       // Mintlify remounted the drawer from a ghost hamburger tap.
-      if (Date.now() < mobileNavCloseCooldownUntil) {
+      // Only force-dismiss ghost remounts during the hard ghost window.
+      if (Date.now() < mobileNavGhostUntil) {
         setMobileNavOpen(false);
         if (open) dismissMintlifyMobileNav();
         return;
@@ -1284,7 +1356,7 @@
         if (!wrap) return;
         // Click on overlay area (not the drawer panel)
         if (wrap.contains(e.target) || (e.target.className && String(e.target.className).indexOf("backdrop") !== -1)) {
-          armMobileNavCloseCooldown(700);
+          armMobileNavCloseCooldown();
         }
       },
       true

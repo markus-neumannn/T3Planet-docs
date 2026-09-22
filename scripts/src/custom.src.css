@@ -2935,9 +2935,18 @@ body.t3-sidebar-desktop-collapsed .t3-sidebar-collapse-btn svg {
     --t3-navbar-height: 4rem;
   }
 
-  /* Mintlify uses pt-40 (10rem) for sidebar offset — causes large empty gap on mobile */
+  /* Mintlify mobile top offset leaves a huge blank band under the chrome.
+     Older builds: pt-40. Current live: pt-[calc(10rem+var(--banner-height,…))].
+     Zero both (and the flex-row-reverse wrapper) so landing/content starts tight. */
   #content-container > div[class*="pt-40"],
-  main#content-container > div[class*="pt-40"] {
+  #content-container > div[class*="pt-[calc"],
+  #content-container > div[class*="pt-[10rem"],
+  main#content-container > div[class*="pt-40"],
+  main#content-container > div[class*="pt-[calc"],
+  main#content-container > div[class*="pt-[10rem"],
+  #content-container > div.flex.flex-row-reverse.box-border,
+  main#content-container > div.flex.flex-row-reverse.box-border,
+  div.flex.flex-row-reverse.gap-12.box-border.w-full {
     padding-top: 0 !important;
   }
 
@@ -4034,7 +4043,7 @@ html.t3-holding footer {
 :root {
   --t3-touch: 44px;
   --t3-content-pad-x: clamp(1.1rem, 4vw, 1.75rem);
-  --t3-drawer-width: min(22.75rem, 92vw);
+  --t3-drawer-width: calc(100vw - 2.75rem);
   --t3-drawer-pad-x: 1rem;
   --t3-drawer-radius: 0;
   --t3-mobile-chrome: 3.5rem;
@@ -4582,7 +4591,7 @@ body > div.fixed.z-999 {
 @media (max-width: 374px) {
   :root {
     --t3-content-pad-x: 0.85rem;
-    --t3-drawer-width: min(20rem, calc(100vw - 3.5rem));
+    --t3-drawer-width: calc(100vw - 2.35rem);
   }
 
   article h1,
@@ -4658,18 +4667,17 @@ body > div.fixed.z-999 {
 }
 
 /* ---- Small laptops / mid desktop ----
-   Mintlify #content-area uses lg:-ml-12 + lg:pl-[5.7rem] so prose clears the
-   sticky sidebar. Never replace padding-left with a small gutter here — that
-   is what caused sidebar-over-content overlap at 1024–1279 (Cursor Simple
-   Browser / small laptops). */
+   Mintlify #content-area uses lg:-ml-12 + lg:pl-[23.7rem] so prose clears the
+   fixed sidebar. Never force a small padding-left here — 5.7rem caused
+   sidebar-over-content overlap at 1024–1279 (Chrome device mode / laptops). */
 @media (min-width: 1024px) and (max-width: 1279px) {
   #content-area {
-    /* Keep Mintlify compensatory left padding; only tighten the right gutter */
-    padding-left: 5.7rem !important;
+    /* Preserve Mintlify clearance; only tighten the right gutter */
+    padding-left: 23.7rem !important;
     padding-right: 1.25rem !important;
   }
 
-  /* Slightly narrower sidebar frees reading width without breaking the flex track */
+  /* Slightly narrower sidebar frees reading width; keep pl above in sync */
   #sidebar {
     width: 15.5rem !important;
     max-width: 15.5rem;
@@ -6062,20 +6070,18 @@ html.t3-mobile-nav-open #sidebar {
 @media (max-width: 430px) {
   html body #mobile-nav.t3-drawer-from-right,
   html body #mobile-nav {
-    width: calc(100vw - 3rem) !important;
-    max-width: calc(100vw - 3rem) !important;
+    width: calc(100vw - 2.5rem) !important; max-width: calc(100vw - 2.5rem) !important;
     min-width: 0 !important;
-    flex: 0 0 calc(100vw - 3rem) !important;
+    flex: 0 0 calc(100vw - 2.5rem) !important;
   }
 }
 
 @media (max-width: 360px) {
   html body #mobile-nav.t3-drawer-from-right,
   html body #mobile-nav {
-    width: calc(100vw - 3.25rem) !important;
-    max-width: calc(100vw - 3.25rem) !important;
+    width: calc(100vw - 2.5rem) !important; max-width: calc(100vw - 2.5rem) !important;
     min-width: 0 !important;
-    flex: 0 0 calc(100vw - 3.25rem) !important;
+    flex: 0 0 calc(100vw - 2.5rem) !important;
   }
 }
 
@@ -6817,3 +6823,466 @@ a.t3-docs-back {
 
 /* === /T3 docs-back scroll shield === */
 
+
+
+/* === T3 RESPONSIVE UX POLISH 2026-09-22 ==================================
+   Phone/tablet light+dark: tighter chrome, full-bleed drawer, solid scrim,
+   full-width nav rows. Complements prior mid-width pl + pt-[calc] fixes.
+   ======================================================================== */
+
+@media (max-width: 1023px) {
+  :root {
+    --t3-drawer-width: calc(100vw - 2.75rem);
+    --t3-drawer-pad-x: 0.9rem;
+    --t3-mobile-chrome: 3rem;
+    --t3-content-pad-x: clamp(0.9rem, 4vw, 1.35rem);
+  }
+
+  /* Dual-row Mintlify chrome was ~119px on iPhone SE — compress both rows */
+  #navbar {
+    min-height: 0 !important;
+  }
+
+  #navbar .max-w-8xl,
+  #navbar [class*="max-w-8xl"] {
+    min-height: 0 !important;
+  }
+
+  button.flex.items-center.h-14.py-4.px-5.lg\:hidden,
+  #content-area > button.lg\:hidden,
+  main button.lg\:hidden.w-full.text-left {
+    min-height: 2.65rem !important;
+    height: auto !important;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+    font-size: 0.78rem !important;
+    line-height: 1.25 !important;
+  }
+
+  /* Drawer: use almost full viewport; leave a peep only for the close control */
+  #mobile-nav {
+    width: var(--t3-drawer-width) !important;
+    max-width: var(--t3-drawer-width) !important;
+    min-width: 0 !important;
+    border-radius: 1rem 0 0 1rem !important;
+  }
+
+  /* Solid scrim — Mintlify dialog shells often ship transparent backgrounds */
+  html.t3-mobile-nav-open .fixed.inset-0.z-40.print\:hidden,
+  html.t3-mobile-nav-open .z-40.fixed.inset-0.overflow-y-auto.lg\:hidden,
+  html.t3-mobile-nav-open [class*="[--backdrop-opacity"] {
+    background: rgba(15, 23, 42, 0.52) !important;
+    backdrop-filter: blur(10px) saturate(1.1) !important;
+    -webkit-backdrop-filter: blur(10px) saturate(1.1) !important;
+  }
+
+  html.dark.t3-mobile-nav-open .fixed.inset-0.z-40.print\:hidden,
+  html.dark.t3-mobile-nav-open .z-40.fixed.inset-0.overflow-y-auto.lg\:hidden,
+  html.dark.t3-mobile-nav-open [class*="[--backdrop-opacity"] {
+    background: rgba(2, 6, 23, 0.72) !important;
+  }
+
+  /* Nav rows fill the drawer — avoid half-empty link columns */
+  #mobile-nav a:not(.t3-docs-back),
+  #mobile-nav button.group,
+  #mobile-nav li > button[aria-expanded],
+  #mobile-nav .group.flex.items-start,
+  #mobile-nav li > a {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  #mobile-nav a[aria-current="page"],
+  #mobile-nav a[aria-current="true"] {
+    width: 100% !important;
+  }
+
+  /* Soften oversized "Back to all docs" without losing affordance */
+  #mobile-nav a.t3-docs-back,
+  #mobile-nav .t3-docs-back,
+  #mobile-nav a[href="/"],
+  #mobile-nav button.t3-docs-back {
+    min-height: 2.65rem !important;
+    border-radius: 0.65rem !important;
+    font-size: 0.875rem !important;
+  }
+
+  /* Theme switch: kill focus-ring noise inside drawer */
+  #mobile-nav [aria-label="Theme preference"],
+  #mobile-nav [aria-label="Theme preference"]:focus,
+  #mobile-nav [aria-label="Theme preference"]:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  #mobile-nav .theme-preference-switch-option:focus,
+  #mobile-nav .theme-preference-switch-option:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--t3-accent) 55%, transparent) !important;
+    outline-offset: 1px;
+  }
+
+  /* Landing / docs: keep content tight under chrome */
+  #content.mdx-content.mt-8,
+  #content.mt-8 {
+    margin-top: 0.75rem !important;
+  }
+
+  .t3-category-nav {
+    margin-top: 0 !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .t3-hero-panel {
+    margin-top: 0 !important;
+  }
+}
+
+/* Phones: even fuller drawer */
+@media (max-width: 767px) {
+  :root {
+    --t3-drawer-width: calc(100vw - 2.5rem);
+  }
+
+  #mobile-nav {
+    border-radius: 0.85rem 0 0 0.85rem !important;
+  }
+}
+
+/* Extra-narrow: keep peep for close hit-target */
+@media (max-width: 374px) {
+  :root {
+    --t3-drawer-width: calc(100vw - 2.35rem);
+    --t3-content-pad-x: 0.8rem;
+  }
+}
+
+
+/* === T3 RESPONSIVE FORCE 2026-09-22b =====================================
+   Last-wins overrides for competing drawer widths + dual-row mobile chrome.
+   ======================================================================== */
+@media (max-width: 1023px) {
+  :root {
+    --t3-drawer-width: calc(100vw - 2.5rem) !important;
+  }
+
+  /* Kill every prior #mobile-nav width clamp in this cascade */
+  #mobile-nav,
+  #mobile-nav.t3-drawer-from-right,
+  #mobile-nav[data-headlessui-state],
+  #mobile-nav[data-open] {
+    width: calc(100vw - 2.5rem) !important;
+    max-width: calc(100vw - 2.5rem) !important;
+    min-width: 0 !important;
+  }
+
+  /* Compress Mintlify’s second chrome row (Navigation / page title strip).
+     It sits inside sticky #navbar and pushed total height to ~119px. */
+  #navbar button.lg\:hidden,
+  #navbar .lg\:hidden.h-14,
+  header#navbar button.flex.items-center.h-14 {
+    min-height: 2.5rem !important;
+    height: 2.5rem !important;
+    max-height: 2.5rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* Prefer single compact logo row when possible */
+  #navbar {
+    --t3-nav-row: 2.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #mobile-nav,
+  #mobile-nav.t3-drawer-from-right,
+  #mobile-nav[data-open] {
+    width: calc(100vw - 2.35rem) !important;
+    max-width: calc(100vw - 2.35rem) !important;
+  }
+}
+
+
+/* === T3 RESPONSIVE FORCE 2026-09-22c ===================================== */
+@media (max-width: 1023px) {
+  /* Highest-specificity drawer width — beat older calc(100vw - 3rem) clones */
+  html.t3-mobile-nav-open body #mobile-nav,
+  html.t3-mobile-nav-open body #mobile-nav.t3-drawer-from-right,
+  html body #mobile-nav.t3-drawer-from-right.t3-drawer-entered {
+    width: calc(100vw - 2.5rem) !important;
+    max-width: calc(100vw - 2.5rem) !important;
+    min-width: 0 !important;
+  }
+
+  /* Category pills: horizontal scroll instead of awkward 3-line wrap */
+  .t3-category-nav {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.45rem !important;
+    padding-bottom: 0.15rem;
+    margin-bottom: 0.85rem !important;
+    scrollbar-width: none;
+  }
+  .t3-category-nav::-webkit-scrollbar { display: none; }
+  .t3-category-nav a {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+  }
+
+  /* Hide desktop ⌘K affordance on touch layouts */
+  .t3-search-trigger kbd,
+  .t3-search-hint kbd,
+  .t3-hero-panel kbd,
+  button.t3-search-trigger kbd,
+  .t3-search-trigger .t3-kbd,
+  .t3-hero-panel .t3-kbd,
+  [data-t3-search] kbd {
+    display: none !important;
+  }
+
+  /* Drawer: less air under Back button */
+  #mobile-nav .t3-docs-back-wrap,
+  #mobile-nav a.t3-docs-back {
+    margin-bottom: 0.55rem !important;
+  }
+  #mobile-nav .sidebar-group-header:first-of-type,
+  #mobile-nav h2:first-of-type,
+  #mobile-nav [class*="sidebar-group"]:first-child {
+    margin-top: 0.35rem !important;
+  }
+
+  /* Keep FAB from covering card text */
+  .t3-home-landing,
+  .t3-hub-landing,
+  .t3-template-landing,
+  #content.mdx-content {
+    padding-bottom: 5.5rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  html.t3-mobile-nav-open body #mobile-nav,
+  html.t3-mobile-nav-open body #mobile-nav.t3-drawer-from-right,
+  html body #mobile-nav.t3-drawer-from-right.t3-drawer-entered {
+    width: calc(100vw - 2.35rem) !important;
+    max-width: calc(100vw - 2.35rem) !important;
+  }
+}
+
+
+/* flex-basis was locking drawer to 100vw-3rem inside .t3-drawer-right-wrap */
+@media (max-width: 1023px) {
+  html body #mobile-nav,
+  html body #mobile-nav.t3-drawer-from-right {
+    flex: 0 0 calc(100vw - 2.5rem) !important;
+  }
+}
+@media (max-width: 767px) {
+  html body #mobile-nav,
+  html body #mobile-nav.t3-drawer-from-right {
+    flex: 0 0 calc(100vw - 2.35rem) !important;
+  }
+}
+
+
+/* === T3 MOBILE THEME TOGGLE (rework) =====================================
+   Mintlify mobile classes force w-[4.5rem] h-[2.375rem] + bordered track.
+   Prior T3 pass enlarged that track further (#e8eef6 fill) → heavy “card”
+   around tiny icons. Rework: strip the track chrome; present as a compact
+   sun/moon icon pair aligned with the logo (desktop-like density).
+   ======================================================================== */
+@media (max-width: 1023px) {
+  /* Header: logo | icons — tight chrome, no oversized band */
+  #mobile-nav > div.flex.items-center.justify-between.mb-6,
+  #mobile-nav .flex.items-center.justify-between.mb-6 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 0.5rem !important;
+    min-height: 2rem !important;
+    margin: 0 0 0.75rem !important;
+    padding: 0 0 0.75rem !important;
+    border-bottom: 1px solid var(--t3-border, rgba(15, 23, 42, 0.1)) !important;
+    box-sizing: border-box !important;
+  }
+
+  .dark #mobile-nav > div.flex.items-center.justify-between.mb-6,
+  .dark #mobile-nav .flex.items-center.justify-between.mb-6 {
+    border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  #mobile-nav .flex.items-center.justify-between.mb-6 > a {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    max-width: calc(100% - 3.5rem) !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 0 !important;
+  }
+
+  #mobile-nav .flex.items-center.justify-between.mb-6 .nav-logo,
+  #mobile-nav .flex.items-center.justify-between.mb-6 img.nav-logo {
+    max-height: 1.35rem !important;
+    height: 1.35rem !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+
+  /*
+   * Icon-pair control — override Mintlify w-[4.5rem]/h-[2.375rem]/border.
+   * Visual weight ≈ two glyphs; hit area stays ≥32px via height.
+   */
+  #mobile-nav button[aria-label="Toggle dark mode"],
+  #mobile-nav button[aria-label="Toggle light mode"],
+  #mobile-nav button[aria-label*="Toggle dark mode" i],
+  #mobile-nav button[aria-label*="Toggle light mode" i],
+  #mobile-nav [aria-label="Theme preference"] {
+    flex: 0 0 auto !important;
+    position: relative !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 3rem !important;
+    min-width: 3rem !important;
+    max-width: 3rem !important;
+    height: 2rem !important;
+    min-height: 2rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+    z-index: 2 !important;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+  }
+
+  .dark #mobile-nav button[aria-label="Toggle dark mode"],
+  .dark #mobile-nav button[aria-label="Toggle light mode"],
+  .dark #mobile-nav button[aria-label*="Toggle dark mode" i],
+  .dark #mobile-nav button[aria-label*="Toggle light mode" i],
+  .dark #mobile-nav [aria-label="Theme preference"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  #mobile-nav button[aria-label="Toggle dark mode"]:hover,
+  #mobile-nav button[aria-label="Toggle light mode"]:hover,
+  #mobile-nav button[aria-label*="Toggle dark mode" i]:hover,
+  #mobile-nav [aria-label="Theme preference"]:hover {
+    background: rgba(15, 23, 42, 0.04) !important;
+  }
+
+  .dark #mobile-nav button[aria-label="Toggle dark mode"]:hover,
+  .dark #mobile-nav button[aria-label="Toggle light mode"]:hover,
+  .dark #mobile-nav button[aria-label*="Toggle dark mode" i]:hover {
+    background: rgba(255, 255, 255, 0.06) !important;
+  }
+
+  #mobile-nav button[aria-label="Toggle dark mode"]:focus-visible,
+  #mobile-nav button[aria-label="Toggle light mode"]:focus-visible,
+  #mobile-nav button[aria-label*="Toggle dark mode" i]:focus-visible,
+  #mobile-nav [aria-label="Theme preference"]:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--t3-accent, #0052ff) 70%, transparent) !important;
+    outline-offset: 2px !important;
+  }
+
+  /* Icon row — tight pair, not space-between across a wide track */
+  #mobile-nav button[aria-label="Toggle dark mode"] > div.z-10,
+  #mobile-nav button[aria-label="Toggle light mode"] > div.z-10,
+  #mobile-nav button[aria-label*="Toggle dark mode" i] > div.z-10 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.55rem !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    pointer-events: none;
+  }
+
+  #mobile-nav button[aria-label="Toggle dark mode"] svg,
+  #mobile-nav button[aria-label="Toggle light mode"] svg,
+  #mobile-nav button[aria-label*="Toggle dark mode" i] svg {
+    width: 1.125rem !important;
+    height: 1.125rem !important;
+    flex-shrink: 0 !important;
+    stroke: currentColor !important;
+    transition: color 0.15s ease, opacity 0.15s ease !important;
+  }
+
+  /* Light mode: sun active, moon muted */
+  #mobile-nav button[aria-label="Toggle dark mode"] > div.z-10 > svg:first-child,
+  #mobile-nav button[aria-label="Toggle light mode"] > div.z-10 > svg:first-child,
+  #mobile-nav button[aria-label*="Toggle dark mode" i] > div.z-10 > svg:first-child {
+    color: #0f172a !important;
+    opacity: 1 !important;
+  }
+
+  #mobile-nav button[aria-label="Toggle dark mode"] > div.z-10 > svg:last-child,
+  #mobile-nav button[aria-label="Toggle light mode"] > div.z-10 > svg:last-child,
+  #mobile-nav button[aria-label*="Toggle dark mode" i] > div.z-10 > svg:last-child {
+    color: #94a3b8 !important;
+    opacity: 0.55 !important;
+  }
+
+  /* Dark mode: moon active, sun muted */
+  .dark #mobile-nav button[aria-label="Toggle dark mode"] > div.z-10 > svg:first-child,
+  .dark #mobile-nav button[aria-label="Toggle light mode"] > div.z-10 > svg:first-child,
+  .dark #mobile-nav button[aria-label*="Toggle dark mode" i] > div.z-10 > svg:first-child {
+    color: #64748b !important;
+    opacity: 0.5 !important;
+  }
+
+  .dark #mobile-nav button[aria-label="Toggle dark mode"] > div.z-10 > svg:last-child,
+  .dark #mobile-nav button[aria-label="Toggle light mode"] > div.z-10 > svg:last-child,
+  .dark #mobile-nav button[aria-label*="Toggle dark mode" i] > div.z-10 > svg:last-child {
+    color: #f1f5f9 !important;
+    opacity: 1 !important;
+  }
+
+  /* Hide Mintlify sliding thumb — active state is icon weight only */
+  #mobile-nav button[aria-label="Toggle dark mode"] > div.absolute,
+  #mobile-nav button[aria-label="Toggle light mode"] > div.absolute,
+  #mobile-nav button[aria-label*="Toggle dark mode" i] > div.absolute {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+
+  .dark #mobile-nav button[aria-label="Toggle dark mode"] > div.absolute,
+  .dark #mobile-nav button[aria-label="Toggle light mode"] > div.absolute,
+  .dark #mobile-nav button[aria-label*="Toggle dark mode" i] > div.absolute {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    background: transparent !important;
+    transform: none !important;
+  }
+
+  /* Legacy dual-option control */
+  #mobile-nav .theme-preference-switch-option {
+    flex: 1 1 0 !important;
+    width: 1.5rem !important;
+    min-width: 1.5rem !important;
+    height: 1.5rem !important;
+    min-height: 1.5rem !important;
+    border-radius: 999px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: none !important;
+    background: transparent !important;
+  }
+}
