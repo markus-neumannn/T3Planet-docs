@@ -70,7 +70,7 @@ sidebarTitle: "AI Foundation"
   <Card title="DPA & GDPR" icon="shield" href="/ExtNsT3AF/DPAandGDPR/Index" />
   <Card title="Troubleshooting" icon="triangle-alert" href="/ExtNsT3AF/Troubleshooting/Index" />
   <Card title="Known Problems" icon="bug" href="/ExtNsT3AF/Troubleshooting/KnownProblems/Index" />
-  <Card title="FAQ" icon="circle-help" href="/ExtNsT3AF/Troubleshooting/FAQ/Index" />
+  <Card title="FAQ" icon="circle-question-mark" href="/ExtNsT3AF/Troubleshooting/FAQ/Index" />
   <Card title="Helpful Links" icon="link" href="/ExtNsT3AF/HelpfulLinks/Index" />
   <Card title="Support" icon="life-buoy" href="/ExtNsT3AF/Support/Index" />
   </CardGroup>

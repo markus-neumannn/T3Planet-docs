@@ -53,7 +53,7 @@ sidebarTitle: "AI Assistant"
   <Card title="Upgrade Guide" icon="arrow-up-right" href="/en/latest/ExtNsT3AI/UpgradeGuide/Index" />
   <Card title="Update Guide" icon="arrow-up" href="/en/latest/ExtNsT3AI/UpdateGuide/Index" />
   <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsT3AI/UpdateVersion/Index" />
-  <Card title="FAQ" icon="circle-help" href="/en/latest/ExtNsT3AI/FAQ/Index" />
+  <Card title="FAQ" icon="circle-question-mark" href="/en/latest/ExtNsT3AI/FAQ/Index" />
   <Card title="Known Problems" icon="triangle-alert" href="/en/latest/ExtNsT3AI/KnownProblems/Index" />
   <Card title="Appendix" icon="book" href="/en/latest/ExtNsT3AI/Appendix/Index" />
   <Card title="Releases" icon="tag" href="/en/latest/ExtNsT3AI/Releases/Index" />

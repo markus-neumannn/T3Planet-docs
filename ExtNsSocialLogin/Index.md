@@ -17,7 +17,7 @@ sidebarTitle: "Social Login"
   <Card title="Before Getting Started" icon="list-checks" href="/en/latest/ExtNsSocialLogin/BeforeGettingStarted/Index" />
   <Card title="Configuration" icon="settings" href="/en/latest/ExtNsSocialLogin/Configuration/Index" />
   <Card title="Update Version" icon="refresh-cw" href="/en/latest/ExtNsSocialLogin/UpdateVersion/Index" />
-  <Card title="FAQ" icon="circle-help" href="/en/latest/ExtNsSocialLogin/FAQ/Index" />
+  <Card title="FAQ" icon="circle-question-mark" href="/en/latest/ExtNsSocialLogin/FAQ/Index" />
   <Card title="Support" icon="life-buoy" href="/en/latest/ExtNsSocialLogin/Support" />
   <Card title="Get This Extension" icon="shopping-cart" href="/en/latest/ExtNsSocialLogin/BuyNow" />
 </CardGroup>

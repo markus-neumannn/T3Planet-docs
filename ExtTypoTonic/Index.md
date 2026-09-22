@@ -20,6 +20,6 @@ TypoTonic (extension key `tonic`) lets you build custom record types in the TYPO
   <Card title="ViewHelpers" icon="code" href="/en/latest/ExtTypoTonic/ViewHelpers/Index" />
   <Card title="Screenshots" icon="image" href="/en/latest/ExtTypoTonic/Screenshots/Index" />
   <Card title="TypoTonic Professional" icon="sparkles" href="/en/latest/ExtTypoTonic/TypoTonicProfessional/Index" />
-  <Card title="FAQ" icon="circle-help" href="/en/latest/ExtTypoTonic/FAQ/Index" />
+  <Card title="FAQ" icon="circle-question-mark" href="/en/latest/ExtTypoTonic/FAQ/Index" />
   <Card title="Support" icon="life-buoy" href="/en/latest/ExtTypoTonic/Support/Index" />
 </CardGroup>

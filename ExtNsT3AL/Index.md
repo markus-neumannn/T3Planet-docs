@@ -44,7 +44,7 @@ sidebarTitle: "AI Localization"
   <h2 className="t3-landing-section-title">Upgrades & optimization</h2>
   <CardGroup cols={2}>
   <Card title="Localization Logs" icon="sliders-horizontal" href="/en/latest/ExtNsT3AL/AILocalizationLogs/Index" />
-  <Card title="Video Tutorials" icon="play-circle" href="/en/latest/ExtNsT3AL/VideoTutorials/Index" />
+  <Card title="Video Tutorials" icon="circle-play" href="/en/latest/ExtNsT3AL/VideoTutorials/Index" />
   <Card title="Glossary" icon="message-square" href="/en/latest/ExtNsT3AL/T3ALTerms(Glossary)/Index" />
   </CardGroup>
 </section>

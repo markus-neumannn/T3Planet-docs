@@ -18,7 +18,7 @@ sidebarTitle: "Gallery"
   <Card title="Album View gallery" icon="images" href="/en/latest/ExtNsGallery/AlbumView/Index" />
   <Card title="Masonry gallery" icon="layout-grid" href="/en/latest/ExtNsGallery/MasonryView/Index" />
   <Card title="Mosaic View gallery" icon="layout-grid" href="/en/latest/ExtNsGallery/MosaicView/Index" />
-  <Card title="Isotope gallery at website?" icon="filter" href="/en/latest/ExtNsGallery/IsotopeView/Index" />
+  <Card title="Isotope gallery at website?" icon="list-filter" href="/en/latest/ExtNsGallery/IsotopeView/Index" />
   <Card title="Slider View gallery" icon="gallery-horizontal" href="/en/latest/ExtNsGallery/SliderView/Index" />
   <Card title="Google Search View" icon="search" href="/en/latest/ExtNsGallery/GoogleSearchView/Index" />
   <Card title="Zoom View" icon="zoom-in" href="/en/latest/ExtNsGallery/ZoomView/Index" />
