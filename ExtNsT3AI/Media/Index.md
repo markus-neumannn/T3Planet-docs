@@ -36,6 +36,8 @@ Your T3AI’s image generation capabilities are now even stronger with DALL-E in
 
 ## MidJourney AI Images
 
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmue6na4g09juqm4th7mc8v04?embed_v=2&utm_source=embed" loading="lazy" title="T3AI - Midjourney" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 Create any image you can imagine in seconds! With T3AI’s powerful integration with Midjourney AI, you can create high-quality images from simple text prompts for free. Just type a description of the image you want, and you’ll get amazing results.
 
 **Note: Before Starting AI image generation, you need to select folders from Your folder tree.**
