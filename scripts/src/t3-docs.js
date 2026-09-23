@@ -517,17 +517,144 @@
       try {
         enhanceProductRootNav();
       } catch (eEnhObs) {}
+      try {
+        scheduleNormalizeSidebarChevrons();
+      } catch (eChevObs) {}
     });
     try {
       sidebarContextObs.observe(target, { childList: true, subtree: true });
     } catch (eObs) {}
   }
 
+
+  /**
+   * Local Mintlify CLI still ships the old Heroicons-style expand chevron
+   * (viewBox "0 -9 3 24", path M0 0L3 3L0 6). Live Mintlify uses a Lucide
+   * chevron (viewBox 0 0 18 18). Our CSS sizes both to 15px, but the old path
+   * stretches and looks much heavier. Normalize every sidebar expand SVG to
+   * the live Lucide geometry so local/network matches production.
+   */
+  var SIDEBAR_CHEVRON_SVG =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" class="t3-sidebar-chevron size-3 transition-transform text-gray-400 group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400 shrink-0 w-2 h-[1lh] -mr-0.5">' +
+    '<path d="M6.5 2.75L12.75 9L6.5 15.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>' +
+    "</svg>";
+
+  function isLegacySidebarChevronSvg(svg) {
+    if (!svg || !svg.getAttribute) return false;
+    var vb = svg.getAttribute("viewBox") || "";
+    if (vb.indexOf("0 -9 3 24") !== -1 || vb.indexOf("0-9 3 24") !== -1) return true;
+    var path = svg.querySelector("path");
+    if (!path) return false;
+    var d = path.getAttribute("d") || "";
+    return d === "M0 0L3 3L0 6" || d.indexOf("M0 0L3 3L0 6") === 0;
+  }
+
+  function isLiveSidebarChevronSvg(svg) {
+    if (!svg || !svg.getAttribute) return false;
+    var vb = svg.getAttribute("viewBox") || "";
+    if (vb.replace(/\s+/g, " ").trim() !== "0 0 18 18") return false;
+    var path = svg.querySelector("path");
+    if (!path) return false;
+    var d = path.getAttribute("d") || "";
+    return d.indexOf("M6.5 2.75") === 0;
+  }
+
+  function normalizeSidebarChevrons(root) {
+    try {
+      root = root || document;
+      var scopes = [];
+      var sb = root.getElementById ? root.getElementById("sidebar-content") : null;
+      if (!sb && root.querySelector) sb = root.querySelector("#sidebar-content");
+      if (sb) scopes.push(sb);
+      var mobile = root.getElementById ? root.getElementById("mobile-nav") : null;
+      if (!mobile && root.querySelector) mobile = root.querySelector("#mobile-nav");
+      if (mobile) {
+        var msb = mobile.querySelector("#sidebar-content") || mobile;
+        if (msb && scopes.indexOf(msb) === -1) scopes.push(msb);
+      }
+      if (!scopes.length && root.querySelectorAll) {
+        // Fallback: any aria-expanded button chevrons in document
+        scopes.push(root);
+      }
+      scopes.forEach(function (scope) {
+        if (!scope || !scope.querySelectorAll) return;
+        scope.querySelectorAll("button[aria-expanded] svg").forEach(function (svg) {
+          if (!isLegacySidebarChevronSvg(svg)) {
+            // Still tag live/lucide chevrons for consistent CSS hooks.
+            if (isLiveSidebarChevronSvg(svg) && !svg.classList.contains("t3-sidebar-chevron")) {
+              svg.classList.add("t3-sidebar-chevron");
+            }
+            return;
+          }
+          var wrap = document.createElement("div");
+          wrap.innerHTML = SIDEBAR_CHEVRON_SVG;
+          var next = wrap.firstElementChild;
+          if (!next) return;
+          // Preserve expanded rotation class behavior via parent aria-expanded CSS.
+          if (svg.parentNode) svg.parentNode.replaceChild(next, svg);
+        });
+      });
+    } catch (eChev) {}
+  }
+
+  var chevronNormTimer = null;
+  var chevronClickBound = false;
+
+  function scheduleNormalizeSidebarChevrons() {
+    try {
+      if (chevronNormTimer) clearTimeout(chevronNormTimer);
+      chevronNormTimer = setTimeout(function () {
+        chevronNormTimer = null;
+        try {
+          normalizeSidebarChevrons();
+        } catch (eNorm) {}
+      }, 40);
+    } catch (eSch) {}
+  }
+
+  function bindSidebarChevronNormalize() {
+    if (chevronClickBound) return;
+    chevronClickBound = true;
+    try {
+      document.addEventListener(
+        "click",
+        function (ev) {
+          try {
+            var t = ev.target;
+            if (!t || !t.closest) return;
+            var btn = t.closest("#sidebar-content button[aria-expanded], #mobile-nav button[aria-expanded]");
+            if (!btn) return;
+            // Mintlify may remount legacy SVGs after expand/collapse — re-normalize shortly after.
+            scheduleNormalizeSidebarChevrons();
+            setTimeout(function () {
+              try {
+                normalizeSidebarChevrons();
+              } catch (eN2) {}
+            }, 120);
+            setTimeout(function () {
+              try {
+                normalizeSidebarChevrons();
+              } catch (eN3) {}
+            }, 350);
+          } catch (eClick) {}
+        },
+        true
+      );
+    } catch (eBind) {}
+  }
+
+
   /** Re-apply overlays after React hydration wipes injected sidebar nodes. */
   function recoverProductRootNavAfterHydration() {
     try {
       document.documentElement.classList.add("t3-sidebar-ready");
     } catch (eReady) {}
+    try {
+      normalizeSidebarChevrons();
+    } catch (eChevN) {}
+    try {
+      bindSidebarChevronNormalize();
+    } catch (eChevBind) {}
     try {
       enhanceProductRootNav();
     } catch (eEnh) {}
@@ -3318,6 +3445,20 @@
     canonicalCleanUrl();
     routePath = currentPath();
     document.documentElement.classList.add("t3-sidebar-ready");
+    try {
+      normalizeSidebarChevrons();
+    } catch (eChevInit) {}
+    try {
+      bindSidebarChevronNormalize();
+    } catch (eChevBindInit) {}
+    // Mintlify remounts legacy chevrons in waves after first paint / SPA soft-nav.
+    [80, 200, 450, 900, 1600].forEach(function (ms) {
+      setTimeout(function () {
+        try {
+          normalizeSidebarChevrons();
+        } catch (eChevWave) {}
+      }, ms);
+    });
     applyRouteClasses();
     scheduleSidebarProductContext();
     observeSidebarProductContext();

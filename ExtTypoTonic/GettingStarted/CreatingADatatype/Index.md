@@ -1,19 +1,19 @@
 ---
 title: "Creating a Datatype"
-description: "Creating a Datatype — TypoTonic (EXT:tonic) documentation."
+description: "Create a TonicTypes Datatype, assign fields, generate table and classes."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
 sidebarTitle: "Creating a Datatype"
 ---
 
-A Datatype describes one record type, for example "News" or "Event". It defines which fields the record uses and how it looks in the backend.
+A Datatype describes one record type (for example News or Event). It defines which fields the record uses and how it appears in the backend.
 
-Open the **List** module, click **Create new record**, and select **Datatype**.
-Create your fields first, or assign them to the Datatype later.
+Open the **List** module, click **Create new record**, and select **Datatype** under the **tonictypes** section.
+Create your fields first, or assign them later.
 
 ![Creating a new Datatype record in the TYPO3 list module](Images/new_datatype.webp)
 
@@ -25,28 +25,35 @@ Create your fields first, or assign them to the Datatype later.
 
 *General tab of a Datatype*
 
-- **Name** — The name of the Datatype, for example Movie, News, Job, or Address.
-- **Description** — A short text shown in the backend when editors create or edit records of this type.
-- **Tablename** — The database table name, generated automatically. If the table does not exist yet, or needs to be updated, click **Update Table** to run the Schema Migrator.
-- **According PHP Class** — The Domain Model and Repository generated for this Datatype. Click **Generate Class** or **Update Class** to create or refresh them.
+- **Name** — Datatype name (Movie, News, Job, Address, …).
+- **Description** — Shown when editors create or edit records of this type.
+- **Tablename** — Database table name (generated). Use **Update Table** to run the Schema Migrator when needed.
+- **According PHP Class** — Domain Model and Repository. Use **Generate Class** / **Update Class** to create or refresh them.
 
 ## Tab: Fields
 
-Assign the fields you created earlier to this Datatype.
-The order you assign them in is the order they appear in the record edit form.
+Assign fields to this Datatype. Assignment order is the order in the record edit form.
 
 ## Tab: Tab Configuration
 
-- **Disable 'General' Tab** — Hides the default General tab. Any field not assigned to a custom tab is then hidden too.
-- **Create tabs and assign fields** — Group fields into your own tabs. Palettes you configured on fields also appear inside the matching tab.
+- **Disable 'General' Tab** — Hides the default General tab (unassigned fields are hidden too).
+- **Create tabs and assign fields** — Custom tabs and palettes.
 
 ## Tab: Appearance
 
-- **Icon** — The icon shown for this Datatype in the backend, and in the page tree when a page's behaviour uses this Datatype.
-- **Color** — The background color shown while creating or editing a record of this type.
-- **Hide Records of this type in list** — Hides records of this type from backend lists. Useful when this Datatype is only used as an inline element inside another record.
-- **Hide Button to Add new Record** — Hides the toolbar button for creating a new record of this type on the selected page.
+- **Icon** — Backend icon (and page-tree icon when page behaviour uses this Datatype).
+- **Color** — Background while creating or editing a record.
+- **Hide Records of this type in list** — Useful for inline-only datatypes.
+- **Hide Button to Add new Record** — Hides the add button for this type on the selected page.
+- **Default hidden** — When enabled, new records of this Datatype start as **hidden/disabled** (`default_hidden`). Available in Core from 2.1.0.
+
+## Sharing datatypes between instances
+
+- **System > Export / Import** — Export or import datatype structures (fields, variables, table schema). This transfer module lives in **Core** from 2.1.0 (not Professional-only).
+- **Dashboard widget** — **Predefined Datatype Import** loads the bundled sample datatype.
+
+Professional-only field types in an import need `k3n/tonictypes_pro` installed on the target instance.
 
 ## Next Step
 
-Continue with [Creating a Template Variable](/en/latest/ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index) to add dynamic values to your templates, or skip ahead to [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index) to start rendering records in Fluid.
+Continue with [Creating a Template Variable](/en/latest/ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index), or [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index).

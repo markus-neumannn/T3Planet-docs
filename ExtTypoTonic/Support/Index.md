@@ -1,25 +1,27 @@
 ---
 title: "Support"
-description: "Support — TypoTonic (EXT:tonic) documentation."
+description: "Support contacts for TonicTypes Core and Professional — T3Planet integration vs vendor."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
 sidebarTitle: "Support"
 ---
 
-TypoTonic is an independent TYPO3 extension, developed and supported by keeen GmbH. T3Planet does not develop or license this extension.
+TonicTypes is developed by Keeen GmbH. T3Planet documents and integrates the product for customer projects but does not replace the vendor for product bugs or Professional licensing.
 
-## For TYPO3 Integration Questions
+## T3Planet integration help
 
-If you need help fitting TypoTonic into your T3Planet project, for example combining it with a T3Planet theme or another extension, contact our [Support Center](https://t3planet.de/support).
+For help fitting TonicTypes into a T3Planet project (theme, license activation, stacking with other T3Planet extensions), contact the [T3Planet Support Center](https://t3planet.de/support).
 
-## For Extension or Professional Version Questions
+License activation docs: [License](/en/latest/License/Index).
 
-For questions about the extension itself, bug reports, or the TypoTonic Professional add-on, contact the vendor directly:
+## Vendor / product support
 
-- Email: support@tonictypes.com
-- Official documentation: https://docs.typotonic.com/documentation
-- Contact form: https://docs.typotonic.com/contact
+For the extension itself, Professional features, or bug reports:
+
+- Email: [support@tonictypes.com](mailto:support@tonictypes.com)
+- Product site: [https://www.tonictypes.com](https://www.tonictypes.com)
+- Free extension (TER): [https://extensions.typo3.org/extension/tonictypes](https://extensions.typo3.org/extension/tonictypes)

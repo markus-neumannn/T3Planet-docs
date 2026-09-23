@@ -1,130 +1,174 @@
 ---
 title: "Installation"
-description: "Installation — TypoTonic (EXT:tonic) documentation."
+description: "Install TonicTypes Core (k3n/tonictypes) and optional Professional (k3n/tonictypes_pro) with Site Sets or TypoScript."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
 sidebarTitle: "Installation"
 ---
 
-<Note>
-The technical documentation for this extension uses the Composer package `aix/tonic` and the extension key `tonic`. The vendor is also rebranding the product as **TONICTYPES**, and its marketing pages reference a newer package name, `k3n/tonictypes`. Before you install, check the [TER extension page](https://extensions.typo3.org/extension/tonic) to confirm which package name and TYPO3 version range are current for your project.
-</Note>
+## Compatibility
 
-## Step 1 - Install the Extension
+- **TYPO3:** 12.4 – 14.9
+- **PHP:** 8.2 – 8.5
+- **Free Core:** Composer `k3n/tonictypes`, extension key `tonictypes`
+- **Professional:** Composer `k3n/tonictypes_pro`, extension key `tonictypes_pro` (requires Core 2.x, `nitsan/ns-license`, and `nitsan/ns-t3af`)
 
-Install the extension with Composer, or upload it manually with the Extension Manager.
+Free TonicTypes Extension: [https://extensions.typo3.org/extension/tonictypes](https://extensions.typo3.org/extension/tonictypes)
 
-::
+## Step 1 — Install Core
 
-    composer require aix/tonic
+### Composer (recommended)
 
-Once the extension is installed and the version matches your TYPO3 installation, it appears in your extension list.
+```bash
+composer require k3n/tonictypes
+```
 
-![TypoTonic extension listed in the TYPO3 Extension Manager](Images/extension_list.webp)
+### Extension Manager / ZIP
 
-*The extension in the TYPO3 Extension Manager after installation*
+Install from the [TER page for tonictypes](https://extensions.typo3.org/extension/tonictypes) if you do not use Composer.
 
-## Step 2 - Include the Static Template
+![TonicTypes extension listed in the TYPO3 Extension Manager](Images/extension_list.webp)
 
-TypoTonic needs its static template included in your site template.
-This adds the fields and configuration TypoTonic needs to work.
+*Extension Manager after installation*
 
-1. Open the **Template** module for your site's root page.
-1. Select **Info/Modify**, then **Edit the whole template record**.
-1. Switch to the **Includes** tab.
-1. Under **Include static (from extensions)**, add **[TypoTonic] General Configuration (tonic)**.
+## Step 2 — Activate configuration
 
-![Including the TypoTonic static template in the site template](./Images/static_template.webp)
+Use **either** Site Sets (recommended on TYPO3 v13+) **or** classic TypoScript static templates. You can combine them if you disable **Clear constants** / **Clear setup** on the root `sys_template` so Site Set TypoScript is not wiped.
 
-*Adding the TypoTonic static template under Includes*
+### Site Sets (recommended for TYPO3 v13+)
 
-## Step 3 - Clear the Caches
+In `config/sites/<identifier>/config.yaml` or via **Sites > Setup**:
 
-Clear all TYPO3 caches so your new TypoScript configuration is loaded.
+```yaml
+dependencies:
+  - k3n/tonictypes
+```
 
-## Additional Configuration
+With Professional installed:
 
-### Predefine Templates in TypoScript
+```yaml
+dependencies:
+  - k3n/tonictypes
+  - k3n/tonictypes_pro
+```
 
-You can predefine templates for the template selector in TypoScript instead of choosing a file manually every time.
-Add this to your root page TypoScript:
+Plugin options (cache lifetime, Fluid paths, variable names) are available under **Sites > Settings** and stay aligned with `plugin.tx_tonictypes.*` constants.
+
+List sets:
+
+```bash
+vendor/bin/typo3 site:sets:list
+```
+
+### TypoScript static template (classic)
+
+1. Open the **Template** module on the site root.
+1. **Info/Modify** → **Edit the whole template record** → **Includes**.
+1. Include **[Tonictypes] General Configuration**.
+1. For Professional, also include **[Tonictypes] Tonictypes Professional**.
+
+![Including the TonicTypes static template in the site template](./Images/static_template.webp)
+
+*Static template includes*
+
+## Step 3 — Clear caches
+
+Clear all TYPO3 caches after install or upgrade. After upgrading Core, also run **Analyze Database Structure**.
+
+## Install Professional (optional)
+
+Professional depends on Core. After Core is working:
+
+```bash
+composer require k3n/tonictypes_pro
+```
+
+Ensure `nitsan/ns-license` and `nitsan/ns-t3af` are available (declared dependencies of `k3n/tonictypes_pro`). Activate the Professional Site Set or static template as above, then clear caches.
+
+Details: [TonicTypes Professional](/en/latest/ExtTypoTonic/TypoTonicProfessional/Index).
+
+## Additional configuration
+
+### Predefine templates in TypoScript
 
 ```typoscript
-plugin.tx_tonic.templates {
+plugin.tx_tonictypes.templates {
     myTemplateIdentifier {
       group = General
-      icon = EXT:tonic/Resources/Public/Icons/Datatype/brick.png
+      icon = EXT:tonictypes/Resources/Public/Icons/Datatype/animal-dog.png
       name = My Test Template
-      file = EXT:tonic_templates/Resources/Private/Templates/tonic_test1.html
+      file = EXT:yourtemplateext/Resources/Private/Templates/Tonictypes/TemplateOne.html
     }
 }
 ```
 
-![Predefined template shown in the TypoTonic template selector](Images/template_selection.webp)
+![Predefined template shown in the TonicTypes template selector](Images/template_selection.webp)
 
-*A predefined template appearing in the template selector*
+*Predefined template in the selector*
 
-Once a template is predefined this way, you can render it in Fluid with the `Template.RenderViewHelper`. See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index) for the full syntax.
+Render with `dv:template.render`. See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index).
 
-### Toolbar Item (Professional Feature)
+### DocHeader “Add record” buttons (Professional)
 
-TypoTonic Professional adds a toolbar item for fast access to create and edit records.
-
-![TypoTonic Professional toolbar item in the TYPO3 backend](Images/toolbar_item.webp)
-
-*The Professional toolbar item*
-
-To turn the toolbar item off, add this to the User TSconfig:
+With Professional installed, show create buttons for selected datatypes in the list module DocHeader. Set Page TSconfig:
 
 ```typoscript
-options {
-    tonic {
-       disableTonicToolbarItem = 1
-    }
-}
-```
-
-### Frontend Record Editing (Professional Feature)
-
-TypoTonic Professional can also show an edit button on the frontend detail page, so logged-in backend users can jump straight to editing a record.
-
-![Frontend record edit button added by TypoTonic Professional](Images/record_edit_button.webp)
-
-*The frontend edit button, shown in the top-right corner of the page*
-
-Enable it with this User TSconfig:
-
-```typoscript
-options {
-    tonic {
-       enableRecordEditButton = 1
-    }
-}
-```
-
-### Add Record Creation Buttons to the DocHeader
-
-You can add "create new record" buttons for specific Datatypes to the list module's DocHeader.
-Add the Datatype UIDs to the Page TSconfig:
-
-```typoscript
-tx_tonic {
-   docHeaderDatatypes = 1,2,3
-}
+tx_tonictypes.docHeaderDatatypes = 1,2,3
 ```
 
 ![Record creation buttons added to the list module DocHeader](Images/docheader_datatypes.webp)
 
-*DocHeader buttons for creating new Datatype records*
+*DocHeader buttons for selected Datatype UIDs*
 
-<Note>
-This button is also added automatically when you configure the page's **Behaviour** setting with a Datatype.
-</Note>
+You can also enable this by selecting a datatype behaviour on the page. See [TonicTypes Professional](/en/latest/ExtTypoTonic/TypoTonicProfessional/Index).
 
-## Next Steps
+### Toolbar item (Professional)
 
-Continue with [Getting Started](/en/latest/ExtTypoTonic/GettingStarted/Index) to create your first field, Datatype, and record.
+Professional registers a backend toolbar item for recent records and quick create.
+
+![TonicTypes Professional toolbar item in the TYPO3 backend](Images/toolbar_item.webp)
+
+*Professional toolbar item*
+
+Disable per user / group with User TSconfig:
+
+```typoscript
+options.tonictypes.disableTonictypesToolbarItem = 1
+```
+
+### Frontend record edit button (Core)
+
+When a backend **admin** is logged in and previewing a detail view, Core can show a frontend edit button. Enable with User TSconfig:
+
+```typoscript
+options.tonictypes.enableRecordEditButton = 1
+```
+
+![Frontend record edit button](Images/record_edit_button.webp)
+
+*Edit button (admin backend session only — not for anonymous frontend users)*
+
+### Branding overrides (typically with Professional)
+
+```typoscript
+options.tonictypes.customSupportEmail = support@example.com
+options.tonictypes.customLogo = EXT:tonictypes/Resources/Public/Images/logo_tonictypes_pro.svg
+options.tonictypes.customLogoBright = EXT:tonictypes/Resources/Public/Images/logo_tonictypes_pro_bright.svg
+options.tonictypes.disableSupportMessage = 1
+options.tonictypes.disableTonictypesLogo = 1
+```
+
+## Upgrade notes (2.1.0+)
+
+- PHP 8.2 or higher
+- Use Professional with Core 2.1.0+ (datatype transfer module lives in Core)
+- Professional-only field types require `k3n/tonictypes_pro`
+- After upgrade: **Analyze Database Structure**, then clear all caches
+
+## Next steps
+
+Continue with [Getting Started](/en/latest/ExtTypoTonic/GettingStarted/Index).

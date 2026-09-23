@@ -2583,10 +2583,14 @@ button.nav-dropdown-trigger,
   background-color: var(--t3-primary-light) !important;
 }
 
-/* Expand/collapse chevrons — visible at every nesting level, aligned right */
+/* Expand/collapse chevrons — match live Lucide geometry (15px box, stroke 2).
+   Local Mintlify CLI still emits a legacy narrow viewBox chevron; JS replaces it.
+   Keep a compact CSS fallback so the legacy glyph never looks oversized. */
 #sidebar-content .t3-sidebar-expand-btn svg,
 #sidebar-content .t3-sidebar-expand-btn .t3-sidebar-chevron,
-#sidebar-content li > button[aria-expanded]:has(svg) svg {
+#sidebar-content li > button[aria-expanded]:has(svg) svg,
+#mobile-nav .t3-sidebar-expand-btn svg,
+#mobile-nav li > button[aria-expanded]:has(svg) svg {
   display: block !important;
   flex-shrink: 0;
   width: 15px !important;
@@ -2597,11 +2601,33 @@ button.nav-dropdown-trigger,
   max-height: 15px !important;
   font-size: 15px !important;
   line-height: 15px !important;
+  overflow: visible !important;
 }
 
 #sidebar-content .t3-sidebar-expand-btn svg path,
-#sidebar-content li > button[aria-expanded]:has(svg) svg path {
+#sidebar-content li > button[aria-expanded]:has(svg) svg path,
+#mobile-nav .t3-sidebar-expand-btn svg path,
+#mobile-nav li > button[aria-expanded]:has(svg) svg path {
   stroke-width: 2 !important;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Legacy Mintlify chevron (pre-replace) — visually match live weight */
+#sidebar-content button[aria-expanded] svg[viewBox="0 -9 3 24"],
+#mobile-nav button[aria-expanded] svg[viewBox="0 -9 3 24"] {
+  width: 8px !important;
+  height: 12px !important;
+  min-width: 8px !important;
+  min-height: 12px !important;
+  max-width: 8px !important;
+  max-height: 12px !important;
+  font-size: 8px !important;
+  line-height: 12px !important;
+}
+
+#sidebar-content button[aria-expanded] svg[viewBox="0 -9 3 24"] path,
+#mobile-nav button[aria-expanded] svg[viewBox="0 -9 3 24"] path {
+  stroke-width: 1.5 !important;
 }
 
 /* Top-level sections (Home, Get Started, AI Universe, etc.) — no chevron */

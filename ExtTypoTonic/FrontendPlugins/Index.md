@@ -1,26 +1,32 @@
 ---
 title: "Frontend Plugins"
-description: "Frontend Plugins — TypoTonic (EXT:tonic) documentation."
+description: "TonicTypes frontend plugins — List, Detail, Dynamic, and Plain."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
 sidebarTitle: "Frontend Plugins"
 ---
 
-TypoTonic includes a ready-to-use plugin for showing and listing records on the frontend.
-You can adjust its output to fit your needs without writing code.
+TonicTypes Core registers four frontend plugins under the **tonictypes** content-element group:
 
-Add the plugin through the **New content element** wizard, like any other TYPO3 plugin.
+| Plugin | Purpose |
+| --- | --- |
+| **List** | Multiple records → typically `{records}` |
+| **Detail** | One fixed record selected in the plugin → `{record}` |
+| **Dynamic** | One record resolved from the URL → `{record}` |
+| **Plain** | Fluid only (no record load) |
 
-![Selecting the TypoTonic Display Records plugin in the New Content Element wizard](Images/plugin_wizard.webp)
+Add them via the **New content element** wizard.
 
-*Selecting the Display Records plugin*
+![Selecting a TonicTypes plugin in the New Content Element wizard](Images/plugin_wizard.webp)
+
+*Selecting a TonicTypes plugin*
 
 <Note>
-Before the plugin's fields are fully available, select a **Record Storage Page** and save the content element once. This refreshes the form and shows the remaining settings.
+Before all FlexForm fields are available, select a **Record Storage Page** and save the content element once. This refreshes the form.
 </Note>
 
-   DisplayRecordsPlugin/Index
+Configuration details (filters, sorting, templates, overrides): [Plugin configuration](/en/latest/ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index).

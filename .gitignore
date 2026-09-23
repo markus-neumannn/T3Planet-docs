@@ -15,3 +15,6 @@ Live-docs/
 docs/
 docs/_build/
 docs-master/
+
+# Local workshop PPT/site — never deploy
+workshops/

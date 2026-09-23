@@ -1,18 +1,18 @@
 ---
 title: "Creating a Field"
-description: "Creating a Field — TypoTonic (EXT:tonic) documentation."
+description: "Create reusable TonicTypes fields before assigning them to a Datatype."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
 sidebarTitle: "Creating a Field"
 ---
 
-Fields are the building blocks of a Datatype. Create every field you need before you build the Datatype, or add them later.
+Fields are the building blocks of a Datatype. Create the fields you need before you build the Datatype, or add them later.
 
-Open the **List** module, click **Create new record**, and select **Field** under the **tonic** section.
+Open the **List** module, click **Create new record**, and select **Field** under the **tonictypes** section.
 
 ![Creating a new Field record in the TYPO3 list module](Images/new_field.webp)
 
@@ -22,8 +22,10 @@ Open the **List** module, click **Create new record**, and select **Field** unde
 
 ![Selecting the field type](Images/type_selection.webp)
 
-- **Type** — The type of the field, for example text, number, or select. This determines which further options are available.
-- **Field Configuration** — The configuration options for the chosen type. See the Field Types section of the official documentation for the options of each type.
+- **Type** — Field type (for example input, textarea, select). This controls which options appear next.
+- **Field Configuration** — Type-specific options.
+
+Core ships standard field types. Advanced types (DynamicInput, Inline, Flex, PassThrough, Datatype, TCA, Fluid, Content, UserFunc) require [TonicTypes Professional](/en/latest/ExtTypoTonic/TypoTonicProfessional/Index).
 
 ![General field configuration options](./Images/field_configuration_general.webp)
 
@@ -31,48 +33,42 @@ Open the **List** module, click **Create new record**, and select **Field** unde
 
 ## Tab: Frontend Settings
 
-- **Frontend Label** — The label shown for the field. TypoTonic also converts this label into a variable name automatically. The generated variable name is shown below the label field.
-- **Custom Variable Name** — A variable name of your own choice. Use this to override the automatically generated name. The variable is available in templates as `{record.yourvariable}`.
-- **Frontend Type Definition** — The type used when TypoTonic maps the stored value for the frontend. This also controls how the value is generated in the domain model.
-- **Is Object Storage** — Enable this when the field stores multiple values at once, for example an inline field. TypoTonic then puts the value into an Object Storage instead of a single value.
+- **Frontend Label** — Label shown for the field. TonicTypes also derives a variable name from it.
+- **Custom Variable Name** — Override the generated name. Available in templates as `{record.yourvariable}`.
+- **Frontend Type Definition** — Extbase/PHP type used when mapping the stored value for the frontend and domain model.
+- **Is Object Storage** — Enable when the field stores multiple values (for example inline). Values are wrapped in an ObjectStorage.
 
 ## Tab: Backend Settings
 
-- **Use as record title** — Uses this field's value as the backend title of the record. If you select this on several fields, configure a **Title Divider Character** on the Datatype's **Appearance** tab to combine them.
-- **Use value as path segment** — Uses this field's value to build the record's individual URL path segment.
-- **Searchable in Backend** — Includes this field when editors use the backend search.
-- **Exclude for non-admin users** — Hides the field from backend users unless they are an admin, or their user group has this field added as an allowed exclude field.
-- **Exclude from translations** — Hides the field in translated versions of the record.
-- **Palette** — Groups this field with other fields on the same palette, so they appear in the same row of the record edit form.
-- **Backend Description** — A short help text shown next to the field in the record edit form.
+- **Use as record title** — Use this field as the backend record title. Combine several title fields with a **Title Divider Character** on the Datatype **Appearance** tab.
+- **Use value as path segment** — Use this field for the record URL path segment.
+- **Searchable in Backend** — Include in backend search.
+- **Exclude for non-admin users** — Hide unless admin or allowed via exclude fields.
+- **Exclude from translations** — Hide on translated records.
+- **Palette** — Group fields on one row in the edit form.
+- **Backend Description** — Help text next to the field.
 
 ## Tab: Database Settings
 
-- **Database Type Definition** — The database column type. The default, **Inherit from Tca/Field Class**, generates a sensible column automatically. Only change this if you know exactly what you need.
-- **Is Index Field** — Adds a database index for this field the next time the Schema Migrator updates the database structure.
+- **Database Type Definition** — Column type. Default **Inherit from Tca/Field Class** is usually correct.
+- **Is Index Field** — Add a DB index on the next Schema Migrator run.
 
 ## Tab: Field Values
 
-Use this tab to define selectable values for the field, for example the options of a select box.
+Define selectable values (for example select options):
 
-- **Static Value** — A fixed text value. You can use Fluid code inside the value.
-- **Database Value** — A value fetched from the database with a query you configure.
-- **TypoScript** — A value generated from TypoScript, for example:
+- **Static Value** — Fixed text (Fluid allowed).
+- **Database Value** — Value from a configured query.
+- **TypoScript** — Value from TypoScript.
+- **Values of all records** — Existing values already used for this field.
 
-      10 = TEXT
-      10.value = My Option
-
-- **Values of all records** — Returns all existing values already used for this field.
-
-You can mark a value as **Is Default** to pre-select it, or as **Pretends to be an empty value** to create a select option with no stored value.
+Mark a value as **Is Default** or **Pretends to be an empty value** when needed.
 
 ## Tab: Display Conditions
 
-Use this tab to show or hide the field based on the value of another field.
-
-- **Request update** — Reloads the form whenever this field's value changes. Use this when a select box should change which other fields are visible.
-- **Display Conditions** — Written as `FIELD:2:IN:Selection 1,Selection2`, or using the FlexForm condition syntax.
+- **Request update** — Reload the form when this field changes.
+- **Display Conditions** — For example `FIELD:2:IN:Selection 1,Selection2`, or FlexForm condition syntax.
 
 ## Next Step
 
-Continue with [Creating a Datatype](/en/latest/ExtTypoTonic/GettingStarted/CreatingADatatype/Index) to assign your fields to a Datatype.
+Continue with [Creating a Datatype](/en/latest/ExtTypoTonic/GettingStarted/CreatingADatatype/Index).

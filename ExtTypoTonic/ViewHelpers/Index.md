@@ -1,151 +1,112 @@
 ---
 title: "ViewHelpers"
-description: "ViewHelpers — TypoTonic (EXT:tonic) documentation."
+description: "TonicTypes Fluid ViewHelpers (dv namespace) — template, datatype, record, link, filter, group."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
 sidebarTitle: "ViewHelpers"
 ---
 
-All TypoTonic ViewHelpers are available through the `t:` namespace. TypoTonic registers this namespace automatically once the extension is active.
+All Core ViewHelpers are available through the **`dv:`** namespace (`K3n\Tonictypes\ViewHelpers`). The namespace is registered automatically when EXT:tonictypes is active.
 
-To get autocompletion for the namespace in your IDE, add it to your template's `<html>` tag:
+IDE hint:
 
 ```html
 <html
     lang="en"
     data-namespace-typo3-fluid="true"
-    xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
-    xmlns:t="http://typo3.org/ns/Aix/Tonic/ViewHelpers">
-
-    ...Your Code here...
-
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    xmlns:dv="http://typo3.org/ns/K3n/Tonictypes/ViewHelpers">
 </html>
 ```
 
+ViewHelpers ship with **Core**. Professional does not add a separate ViewHelper package; it extends field types, MCP, toolbar, and related backend/frontend tooling.
+
 ## Template.RenderViewHelper
 
-Renders a template file, either a file you predefined in TypoScript, or a manual file path.
+Renders a predefined TypoScript template identifier or a file path.
 
-- **template** (string) — A file path, or a template identifier configured in `plugin.tx_tonic.templates`.
-- **arguments** (array) — Arguments passed into the rendered template.
-- **variables** (array) — IDs of additional Template Variables to inject.
-- **cache** (boolean) — Enables or disables caching of the output.
+- **template** (string) — Identifier under `plugin.tx_tonictypes.templates`, or a file path.
+- **arguments** (array) — Arguments passed into the template.
+- **variables** (array) — UIDs of additional Template Variables.
+- **cache** (boolean) — Cache output.
 - **lifetime** (int) — Cache lifetime in seconds.
-- **cacheIdentifier** (string) — A custom cache identifier.
+- **cacheIdentifier** (string) — Custom cache id.
 
 ```html
-{t:template.render(template:'movieMini',arguments:'{record:record}')}
+{dv:template.render(template:'movieMini',arguments:'{record:record}')}
 
-<t:template.render template="movieMini" arguments="{record:record}" variables="{0:12,1:35}" />
-<t:template.render template="fileadmin/templates/tonic/movies/mini.html" arguments="{record:record}" />
+<dv:template.render template="movieMini" arguments="{record:record}" variables="{0:12,1:35}" />
+<dv:template.render template="fileadmin/templates/tonictypes/movies/mini.html" arguments="{record:record}" />
 ```
 
 ## Datatype.GetViewHelper
 
-Fetches a Datatype by its UID.
+Fetches a Datatype by UID.
 
-- **uid** (int) — The UID of the Datatype.
-- **onlyEnabled** (boolean) — Fetches the Datatype only if it is enabled.
+- **uid** (int)
+- **onlyEnabled** (boolean)
 
-Returns: `Aix\\Tonic\\Domain\\Model\\Datatype`
+Returns: `K3n\Tonictypes\Domain\Model\Datatype`
 
 ```html
-{t:datatype.get(id:'1',onlyEnabled:'0')}
-
-<t:datatype.get uid="1" onlyEnabled="0" />
+<dv:datatype.get uid="1" onlyEnabled="0" />
 ```
 
 ## Record.GetViewHelper
 
-Fetches a record by its UID.
+Fetches a record by UID.
 
-- **uid** (int) — The UID of the record.
-- **datatype** (`Aix\\Tonic\\Domain\\Model\\Datatype`) — Limits the search to this Datatype.
-- **onlyEnabled** (boolean) — Fetches the record only if it is enabled.
+- **uid** (int)
+- **datatype** (`K3n\Tonictypes\Domain\Model\Datatype`)
+- **onlyEnabled** (boolean)
 
-Returns: `Aix\\Tonic\\Domain\\Model\\AbstractRecordModel`
+Returns: record model for that Datatype
 
 ```html
-{t:record.get(id:'1',datatype:datatype,onlyEnabled:'0')}
-
-<t:record.get uid="1" datatype="{datatype}" onlyEnabled="0" />
+<dv:record.get uid="1" datatype="{datatype}" onlyEnabled="0" />
 ```
 
 ## Link.RecordViewHelper
 
-Creates a link tag to a record's detail page. The detail page ID normally comes from the plugin, through `{detailPid}`.
-
-For additional link parameters, see the TYPO3 `f:link.page` ViewHelper.
+Link to a record detail page (typically `{detailPid}` from the plugin).
 
 ```html
-<t:link.record record="{record}" pageUid="{detailPid}">Link</t:link.record>
+<dv:link.record record="{record}" pageUid="{detailPid}">Link</dv:link.record>
 ```
 
 ## Uri.RecordViewHelper
 
-Creates a URL to a record's detail page. The detail page ID normally comes from the plugin, through `{detailPid}`.
-
-For additional link parameters, see the TYPO3 `f:uri.page` ViewHelper.
+URL only (same arguments as the link ViewHelper).
 
 ```html
-{t:uri.record(record:record,pageUid:detailPid)}
-
-<t:uri.record record="{record}" pageUid="{detailPid}" />
+<dv:uri.record record="{record}" pageUid="{detailPid}" />
 ```
 
 ## Filter.RecordsViewHelper
 
-Adds extra filter conditions to a list of records already injected into your template. Use this to build custom, dynamic filters in Fluid.
+Adds filter conditions to an already injected record list.
 
-### Basic filter structure
+- **condition** — `AND` or `OR`
+- **filters** / **rules** — field, operator, value
 
-- **condition** (string) — `AND` or `OR`.
-- **filters** (array) — A list of filter rules.
-
-### Each filter rule
-
-- **field** (string) — The field name to filter on.
-- **operator** (string) — See the operator table below.
-- **value** (mixed) — The value to compare against.
-
-### Operators
-
-- `equal` → `=`
-- `not_equal` → `!=`
-- `in` → `IN`
-- `not_in` → `NOT IN`
-- `less` → `<`
-- `less_or_equal` → `<=`
-- `greater` → `>`
-- `greater_or_equal` → `>=`
-- `between` → `BETWEEN`
-- `begins_with` → `LIKE 'xyz%'`
-- `not_begins_with` → `NOT LIKE 'xyz%'`
-- `contains` → `LIKE '%xyz%'`
-- `not_contains` → `NOT LIKE '%xyz%'`
-- `ends_with` → `LIKE '%xyz'`
-- `not_ends_with` → `NOT LIKE '%xyz'`
-- `is_empty` → `= ''`
-- `is_not_empty` → `!= ''`
-- `is_null` → `NULL`
-- `is_not_null` → `NOT NULL`
+Operators include: `equal`, `not_equal`, `in`, `not_in`, `less`, `less_or_equal`, `greater`, `greater_or_equal`, `between`, `begins_with`, `contains`, `ends_with`, `is_empty`, `is_null`, and their negations.
 
 ```html
-{t:filter.records(records:records,filters:{condition:'AND',rules:{0:{field:'title',operator:'contains',value:'sales'}}})}
-
-<t:filter.records records="{records}" filters="{condition:'AND',rules:{0:{field:'title',operator:'contains',value:'sales'}}}" />
+<dv:filter.records records="{records}" filters="{condition:'AND',rules:{0:{field:'title',operator:'contains',value:'sales'}}}" />
 ```
 
 ## Group.RecordsByPropertyViewHelper
 
-Groups a list of records by a property value. Returns a multidimensional array, grouped by the values found for the property you name.
+Groups records by a property. Returns a multidimensional array.
 
 ```html
-{t:group.recordsByProperty(records:records,property:'propertyName')}
-
-<t:group.records records="{records}" property="propertyName" />
+{dv:group.recordsByProperty(records:records,property:'propertyName')}
 ```
+
+## Other Core ViewHelpers
+
+Also available under `dv:` (same package): Backend link helpers (`dv:backend.*`), Format helpers (`dv:format.*`), String/Array helpers, and `dv:typo3.isVersion`.

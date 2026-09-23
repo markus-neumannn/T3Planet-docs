@@ -1,16 +1,16 @@
 ---
 title: "Screenshots"
-description: "Screenshots — TypoTonic (EXT:tonic) documentation."
+description: "Screenshots of TonicTypes datatypes, fields, plugins, and record editing."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
 sidebarTitle: "Screenshots"
 ---
 
-TypoTonic can build almost any kind of record. These screenshots show a few examples of what is possible.
+These screenshots illustrate typical TonicTypes (Core) workflows. UI branding may show older TypoTonic labels in places; behaviour matches current `tonictypes` / `tonictypes_pro`.
 
 ## Creating Datatypes
 
@@ -40,13 +40,13 @@ TypoTonic can build almost any kind of record. These screenshots show a few exam
 
 *Frontend Settings tab*
 
-## Display Records Plugin
+## Frontend plugins
 
-![Display Records plugin configuration](Images/plugin_display_records.webp)
+![TonicTypes plugin configuration](Images/plugin_display_records.webp)
 
-*Plugin configuration*
+*Plugin configuration (List / Detail / Dynamic / Plain)*
 
-![Preview of records rendered by the Display Records plugin](Images/plugin_preview.webp)
+![Preview of records rendered by a TonicTypes plugin](Images/plugin_preview.webp)
 
 *Frontend preview*
 

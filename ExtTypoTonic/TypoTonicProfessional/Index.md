@@ -1,56 +1,140 @@
 ---
-title: "TypoTonic Professional"
-description: "TypoTonic Professional — TypoTonic (EXT:tonic) documentation."
+title: "TonicTypes Professional"
+description: "TonicTypes Professional (EXT:tonictypes_pro) — advanced fields, MCP tools, toolbar, DocHeader, link handler."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
-sidebarTitle: "TypoTonic Professional"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
+sidebarTitle: "TonicTypes Professional"
 ---
 
-TypoTonic Professional is a separate, paid extension that adds extra tools for working with your data structures. It is sold and supported directly by the vendor, keeen GmbH, at [www.typotonic.com](https://www.typotonic.com). T3Planet does not sell or license this add-on.
+TonicTypes Professional (`k3n/tonictypes_pro`, extension key `tonictypes_pro`) extends [TonicTypes Core](/en/latest/ExtTypoTonic/Introduction/Index) with enterprise features. It is developed by Keeen GmbH and distributed for T3Planet projects with license activation via `ns_license`. T3Planet does not replace vendor support for the product itself.
 
-## What It Adds
+**Requires:** `k3n/tonictypes` 2.x · `nitsan/ns-license` · `nitsan/ns-t3af` · PHP 8.2–8.5 · TYPO3 12.4–14.9
 
-- A backend **toolbar item** for fast access to creating and editing records. See **typotonic-toolbar-item**.
-- A **frontend record edit button**, shown on a record's dynamic detail page, for quick access to edit that record. See **typotonic-frontend-edit-button**.
-- The option to set a custom logo and a custom support email for your customers.
-- Additional frontend plugins for filtering, sorting, pagination, and searching records.
+Product site: [https://www.tonictypes.com](https://www.tonictypes.com)
 
-## TypoTonic Components
+## Install and activate
 
-### Component 'API'
+```bash
+composer require k3n/tonictypes
+composer require k3n/tonictypes_pro
+```
 
-Build a custom REST API by configuring an endpoint, without writing PHP. It currently supports GET requests, and the vendor plans to extend it further.
+Site Sets:
 
-## TypoTonic Fields
+```yaml
+dependencies:
+  - k3n/tonictypes
+  - k3n/tonictypes_pro
+```
 
-### Field 'Content'
+Or include static templates **[Tonictypes] General Configuration** and **[Tonictypes] Tonictypes Professional**, then clear caches.
 
-Adds a page-module-like field to your Datatype. This lets you add TYPO3 content elements inside a record, similar to how you add them to a page. It works well for content-heavy records, such as blog articles.
+See [Installation](/en/latest/ExtTypoTonic/Installation/Index).
 
-![The Content field type in a TypoTonic record](Images/field_content.webp)
+## What Professional adds
 
-*The Content field, showing content elements inside a record*
+- Backend **toolbar item** for recent records and quick create
+- **DocHeader** “Add record” buttons for selected datatype UIDs
+- **Advanced field types** (see below)
+- **MCP tools** (via AI Foundation / `ns_t3af`) for datatype, field, and record management
+- **Link handler** for TonicTypes records in the TYPO3 link browser
+- Enhanced **routing** support (`Tonictypes` enhancer / `TonictypesMapper` aspect; Core also registers enhancers — Professional Xclasses `PageRouter` for fuller access)
+- **Form** extension hooks to prefill form fields in a TonicTypes record context
+- Removes “Buy Professional” messages when licensed
+- Branding User TSconfig (custom logo / support email)
 
-### Field 'Fluid'
+Datatype **export/import** lives in **Core** from 2.1.0 (`System > Export / Import`) — not Professional-only.
 
-Combines all of a record's information into a single generated field. TypoTonic generates the content when the record is saved, and stores it for use in filters, search, custom record titles, and other places.
+Separate filter / sort / pagination / search **plugins** are on the vendor roadmap; Core List plugins already support FlexForm filters and sorting.
 
-![The Fluid field type in a TypoTonic record](Images/field_fluid.webp)
+## Backend toolbar
 
-*The Fluid field*
+Professional registers a toolbar item for managing latest records and creating new ones.
 
-### Field 'User'
+Disable:
 
-Runs a custom PHP user function and stores its result in the field. You can pass your own parameters to the function through the field configuration.
+```typoscript
+options.tonictypes.disableTonictypesToolbarItem = 1
+```
 
-![The User field type in a TypoTonic record](Images/field_user.webp)
+Related options: `customSupportEmail`, `customLogo`, `customLogoBright`, `disableSupportMessage`, `disableTonictypesLogo`.
 
-*The User field*
+## DocHeader buttons
 
-<Note>
-TypoTonic Professional features and pricing are managed entirely by the vendor. For details, visit [www.typotonic.com](https://www.typotonic.com) or see the [FAQ](/en/latest/ExtTypoTonic/FAQ/Index).
-</Note>
+Page TSconfig:
+
+```typoscript
+tx_tonictypes.docHeaderDatatypes = 1,2,3
+```
+
+Or select a datatype behaviour on the page. See [Installation](/en/latest/ExtTypoTonic/Installation/Index).
+
+## Link handler
+
+Professional registers a link handler so editors can link to TonicTypes records from the link browser (`TCEMAIN.linkHandler.tonictypes`). Loaded via the Professional Site Set / Page TSconfig.
+
+## Advanced field types (Professional)
+
+These types are declared in Professional TypoScript (`plugin.tx_tonictypes.fieldtypes`) and are **not** available in Core alone:
+
+| Type key | Class purpose |
+| --- | --- |
+| `user` | UserFunc field — run custom PHP as a FormEngine field |
+| `content` | Inline TYPO3 content elements inside a record |
+| `fluid` | Generate/store Fluid-rendered HTML for titles, filters, search |
+| `flex` | FlexForm-based field |
+| `inline` | Inline related records |
+| `datatype` | Relation to another Datatype |
+| `dyninput` | DynamicInput — FlexForm-driven dynamic inputs |
+| `passthrough` | PassThrough TCA field |
+| `tca` | Raw / custom TCA configuration field |
+
+### Content
+
+Page-module-like content elements inside a record (for example blog-like bodies).
+
+![The Content field type in a TonicTypes record](Images/field_content.webp)
+
+### Fluid
+
+Combines record data into a generated field when the record is saved.
+
+![The Fluid field type in a TonicTypes record](Images/field_fluid.webp)
+
+### User (UserFunc)
+
+Runs a custom PHP user function and stores the result. Pass parameters through the field configuration.
+
+![The User field type in a TonicTypes record](Images/field_user.webp)
+
+Use UserFunc fields only with trusted PHP. Avoid exposing arbitrary code execution to untrusted editors.
+
+## MCP tools (Professional + AI Foundation)
+
+Professional registers MCP tools through `ns_t3af` (`NITSAN\NsT3AF\Contract\McpToolsExtensionCardProviderInterface`). Tools operate on datatypes, fields, and records:
+
+**Datatypes:** `tonictypes_datatype_list`, `tonictypes_datatype_get`, `tonictypes_datatype_create`, `tonictypes_datatype_update`, `tonictypes_datatype_delete`, `tonictypes_datatype_publish`
+
+**Fields:** `tonictypes_field_list`, `tonictypes_field_get`, `tonictypes_field_create`, `tonictypes_field_update`, `tonictypes_field_delete`
+
+**Records:** `tonictypes_record_list`, `tonictypes_record_get`, `tonictypes_record_create`, `tonictypes_record_update`, `tonictypes_record_delete`
+
+`tonictypes_datatype_publish` migrates the record table, generates TCA and model/repository classes, and clears caches. MCP create/update for records accepts field values as JSON (`dataJson`); some relation/file/content fields may need companion file/reference tools.
+
+Requires a working AI Foundation (`ns_t3af`) MCP setup and a valid license where applicable.
+
+## Upgrade notes (Professional 2.1.0)
+
+- PHP 8.2+
+- Pair with Core 2.1.0+ (transfer module moved to Core)
+- Clear all caches after upgrade
+
+## Vendor links
+
+- Shop / product: [https://www.tonictypes.com](https://www.tonictypes.com)
+- Free Core on TER: [https://extensions.typo3.org/extension/tonictypes](https://extensions.typo3.org/extension/tonictypes)
+- Support email: support@tonictypes.com

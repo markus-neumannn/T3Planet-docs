@@ -1,62 +1,56 @@
 ---
-title: "Display Records Plugin"
-description: "Display Records Plugin — TypoTonic (EXT:tonic) documentation."
+title: "Plugin configuration"
+description: "Configure TonicTypes List, Detail, Dynamic, and Plain plugins — storage, filters, sorting, templates."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
-sidebarTitle: "Display Records Plugin"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
+sidebarTitle: "Plugin configuration"
 ---
 
-This is the main plugin for showing TypoTonic records on the frontend. It can show a list of records, or the details of a single record.
+This page covers FlexForm settings shared across the Core frontend plugins (**List**, **Detail**, **Dynamic**, **Plain**).
 
-## Configuration
+## Plugin roles
 
-### Plugin Type
+- **List** — Multiple records injected into `{records}` (default variable name configurable).
+- **Detail** — One fixed record selected in the plugin → `{record}`.
+- **Dynamic** — One record chosen from the URL (detail listener) → `{record}`.
+- **Plain** — Renders Fluid without loading a record. Useful for custom markup or variables only.
 
-The Plugin Type decides what is injected into your Fluid template.
+## Datatype
 
-- **List** — Multiple records, injected into `{records}`.
-- **Detail** — One fixed record, selected in the plugin, injected into `{record}`.
-- **Dynamic Detail** — One record, chosen dynamically from a URL parameter, injected into `{record}`.
-- **Raw Fluid** — Renders Fluid code without loading any record. Useful for showing custom content or variables without a record context.
+Select which Datatype's records the plugin works with.
 
-### Datatype
+## Record
 
-Select which Datatype's records this plugin shows.
+Shown for single-record plugins such as **Detail**. Select the record to display.
 
-### Record
+## Page for Detail View
 
-Only shown for single-record plugin types, such as **Detail**. Select the specific record to show.
-
-### Page for Detail View
-
-Link a record to a detail page that contains a **Dynamic Detail** plugin.
-You can set the target page with a Fluid condition, so different conditions can link to different detail pages. A condition is valid when it is empty or evaluates to true.
-
-Link a record with the `t:link.record` ViewHelper:
+Link list items to a detail page that contains a **Dynamic** plugin.
+You can set the target page with a Fluid condition (empty or true = valid).
 
 ```html
-<t:link.record record="{record}" pageUid="{detailPid}" additionalParams="{paramOne:'One'}">{record.title}</t:link.record>
+<dv:link.record record="{record}" pageUid="{detailPid}" additionalParams="{paramOne:'One'}">{record.title}</dv:link.record>
 ```
 
-See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index) for all available ViewHelpers.
+See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index).
 
-### Record Storage Page
+## Record Storage Page
 
-Select the page where the records for this Datatype are stored.
+Select the page where records for this Datatype are stored.
 
-![Selecting the Record Storage Page in the Display Records plugin](Images/record_storage_page.webp)
+![Selecting the Record Storage Page](Images/record_storage_page.webp)
 
 *Selecting a Record Storage Page*
 
 ## Field/Value Filter Settings
 
-- **Available Markers** — Shows which markers are available in your Fluid filter code, based on the variables you selected for injection.
-- **Filter Condition** — Build a filter to control which records are shown. Filters modify the underlying database query.
-- **Condition for activating the filter (Fluid)** — A Fluid condition that decides when the filter is active. Leave it empty to always activate the filter.
+- **Available Markers** — Markers available in filter Fluid, based on injected variables.
+- **Filter Condition** — Controls which records are returned (modifies the query).
+- **Condition for activating the filter (Fluid)** — Empty = always active.
 
 ![Example of a Field/Value Filter configuration](Images/filters.webp)
 
@@ -64,32 +58,30 @@ Select the page where the records for this Datatype are stored.
 
 ## Repository Settings
 
-- **Limit** — The maximum number of records to show.
-- **Sorting** — Configure one or more sort orders. Each sorting can be activated through a variable, for example a GET parameter, so you can offer several sort options on the same page.
-- **Condition for activating the filter (Fluid)** — Same as above, a Fluid condition that decides when this sorting is active.
+- **Limit** — Maximum number of records.
+- **Sorting** — One or more sort orders; each can be activated via a variable (for example a GET parameter).
+- **Condition for activating the sorting (Fluid)** — When this sorting applies.
 
 ![Example sorting configuration using a GET parameter](Images/sorting.webp)
 
-*Example: sorting that changes direction based on a `?argument=title-down` parameter*
+*Example: sorting driven by a GET parameter*
 
 ## Template Settings
 
-- **Template Selection** — Choose how the template is rendered:
-
-  - **Debug Template** — Shows debug information. This is the default.
-  - **Select a custom template path** — Choose a Fluid file from your file system.
-  - **Enter custom fluid code** — Write Fluid code directly in the plugin.
-  - **Your configured template** — Shows any templates you predefined in TypoScript. See [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index).
-
-- **Render this Template without Sitetemplate** — Shows only this plugin's output, without the rest of the page template.
-- **Template Switch** — Use a different template when a Fluid condition matches, instead of the template selected above.
-- **Variable Injection** — Select which Template Variables are injected into the Fluid template. When a condition field is shown elsewhere in the plugin, this section tells you which variables you can use in it.
+- **Template Selection**
+  - **Debug Template** — Default debug output.
+  - **Select a custom template path** — Fluid file from the filesystem.
+  - **Enter custom fluid code** — Inline Fluid in the plugin.
+  - **Your configured template** — Templates predefined in TypoScript. See [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index).
+- **Render this Template without Sitetemplate** — Plugin output only.
+- **Template Switch** — Alternate template when a Fluid condition matches.
+- **Variable Injection** — Which Template Variables are injected.
 
 ## Overrides
 
-Overrides let a Template Variable replace a plugin setting automatically, whenever that variable has a value.
+A Template Variable can replace a plugin setting when that variable has a value.
 
 ## Developer Settings
 
-- **Debug** — Shows the SQL query used to fetch records, above the rendered page.
-- **Custom Headers** — Sends or overwrites response headers. Use this to output XML or JSON with a `Content-Type` header, or force a file download with `Content-Disposition`.
+- **Debug** — Show the SQL query above the rendered output.
+- **Custom Headers** — Set response headers (for example `Content-Type` for XML/JSON, or `Content-Disposition` for downloads).

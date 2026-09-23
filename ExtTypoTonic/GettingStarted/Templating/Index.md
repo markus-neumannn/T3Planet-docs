@@ -1,62 +1,63 @@
 ---
 title: "Templating"
-description: "Templating — TypoTonic (EXT:tonic) documentation."
+description: "Fluid templating for TonicTypes — dv namespace, variables, and predefined templates."
 keywords:
   - "TYPO3"
   - "T3Planet"
-  - "TypoTonic"
-  - "tonic"
-  - "TONICTYPES"
+  - "TonicTypes"
+  - "tonictypes"
+  - "tonictypes_pro"
 sidebarTitle: "Templating"
 ---
 
-TypoTonic renders your records with standard TYPO3 Fluid templates. This page lists the variables and namespace you need to know.
+TonicTypes renders records with standard TYPO3 Fluid templates.
 
 ## Namespace
 
-TypoTonic registers its Fluid namespace automatically once the extension is active.
-You do **not** need to add this line to your templates yourself:
+Core registers the Fluid namespace **`dv`** automatically (`K3n\Tonictypes\ViewHelpers`). You do not need to declare it manually.
+
+For IDE autocompletion:
 
 ```html
-{namespace t = Aix\Tonic\ViewHelpers}
+<html
+    lang="en"
+    data-namespace-typo3-fluid="true"
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    xmlns:dv="http://typo3.org/ns/K3n/Tonictypes/ViewHelpers">
+</html>
 ```
 
 ## Available Variables
 
-- **Records** — When a plugin injects a list of records, they are available as `{records}` by default. This marker name can be changed in the Tonic Constants.
-- **Record** — In a single-record context, the current record is available as `{record}`. This marker name can also be changed in the Tonic Constants.
-- **Field value** — Read a field's value with `{record.fieldname}`, for example `{record.myfield}`. The value type depends on the field's **Frontend Type Definition**, set on the **Frontend Settings** tab of the field. TYPO3's DataMapper processes the value before it reaches the template.
+- **Records** — List plugins inject `{records}` by default (name configurable via `plugin.tx_tonictypes` settings / Site Settings).
+- **Record** — Single-record context uses `{record}` by default.
+- **Field value** — `{record.fieldname}`. Type follows the field **Frontend Type Definition**.
 
-   Use `<f:debug>{record.fieldname}</f:debug>` to inspect a single value, or `<f:debug>{_all}</f:debug>` to see every variable available in the current template.
+Use `<f:debug>{record.fieldname}</f:debug>` or `<f:debug>{_all}</f:debug>` while developing.
 
 ## Predefining Templates in TypoScript
 
-You can predefine templates for the template selector instead of choosing a file manually every time.
-Add this to your root page TypoScript:
-
 ```typoscript
-plugin.tx_tonic.templates {
+plugin.tx_tonictypes.templates {
     myTemplateIdentifier {
       group = General
-      icon = EXT:tonic/Resources/Public/Icons/Datatype/brick.png
+      icon = EXT:tonictypes/Resources/Public/Icons/Datatype/animal-dog.png
       name = My Test Template
-      file = EXT:tonic_templates/Resources/Private/Templates/tonic_test1.html
+      file = EXT:yourtemplateext/Resources/Private/Templates/Tonictypes/TemplateOne.html
     }
 }
 ```
 
-![Predefined template shown in the TypoTonic template selector](Images/template_selection.webp)
+![Predefined template shown in the TonicTypes template selector](Images/template_selection.webp)
 
-*A predefined template appearing in the template selector*
-
-Once a template is predefined, render it in Fluid with the `Template.RenderViewHelper`:
+*Predefined template in the selector*
 
 ```html
-<t:template.render template="myTemplateIdentifier" arguments="{record:record}" />
+<dv:template.render template="myTemplateIdentifier" arguments="{record:record}" />
 ```
 
-See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index) for the full list of ViewHelpers and their arguments.
+See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index).
 
 ## Next Step
 
-Continue with [Frontend Plugins](/en/latest/ExtTypoTonic/FrontendPlugins/Index) to display your records on a page.
+Continue with [Frontend Plugins](/en/latest/ExtTypoTonic/FrontendPlugins/Index).
