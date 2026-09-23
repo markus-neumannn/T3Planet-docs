@@ -27,8 +27,8 @@ Omit or remove sections like “How to open it” with generic backend navigatio
 
 - Edits default to **local workspace** only.
 - LAN preview: `http://<LAN-IP>:3000/` (fast proxy). Purge: `curl -s http://127.0.0.1:3000/__t3_cache_purge`.
-- **Live** is https://docs.t3planet.de/en/latest after Mintlify deploy from **`markus-neumannn/T3Planet-docs`** (`git push markus HEAD:master`).
-- Pushing **only** `origin` does not update live while Mintlify Git settings use the fork.
+- **Live** is https://docs.t3planet.de/en/latest after Mintlify deploy from **`nitsan-technologies/T3Planet-docs`** (`git push origin HEAD:master`).
+- Do **not** push to `markus-neumannn/T3Planet-docs` for deployment.
 - Tell the user clearly whether a fix is local-only or verified on live.
 
 ## Typical user requests
@@ -40,7 +40,7 @@ Omit or remove sections like “How to open it” with generic backend navigatio
 | Fix missing Card icon | Valid Lucide names (`sliders-horizontal`, `type` — not `sliders`, `text`) |
 | Fix code block UI | Replace RST `::` / `code-block` with fenced `bash` / `json` |
 | Content tab / card list | 1–2 lines per card + link to related Feature Guide page |
-| Deploy / push / live | Markus commit → push `markus` (+ `origin` if asked) → verify Activity + live content |
+| Deploy / push / live | Markus commit → push `origin` only → verify Activity + live content |
 | Train / improve context | Update `context.md` + this rule |
 
 ## Release discipline

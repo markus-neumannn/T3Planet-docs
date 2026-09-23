@@ -92,7 +92,7 @@ Patterns observed from real tasks — follow them unless the user says otherwise
 | “Remove image on [live URL]” | Edit the matching `.md` under the product tree; confirm **local vs live** in the reply. |
 | “Add icon” on Feature Guide cards | Fix Lucide `icon=` on `<Card>` in `FeatureGuide/Index.md`; invalid names render **blank** on live. |
 | “Improve code snippet UI” | Replace RST leftovers (`::`, `.. code-block::`) with fenced blocks (` ```bash ` / ` ```json `). |
-| “Deploy / push / live” | Full release chain: local QA → Markus commit → **`git push markus`** (live) + **`origin`** if requested → Mintlify Activity → live URL proof. |
+| “Deploy / push / live” | Full release chain: local QA → Markus commit → **`git push origin HEAD:master`** (only) → Mintlify Activity → live URL proof. |
 | “Train context / deployment” | Update this `context.md` and `.cursor/rules/` so the next session does not repeat mistakes. |
 | Attached screenshot of Mintlify dashboard | Treat dashboard as source of truth for **which GitHub repo** is connected. |
 | “Start network / LAN preview” | Ensure `:3001` mint + `:3000` cache proxy; give `http://<LAN-IP>:3000/`; purge cache after edits. |
@@ -105,7 +105,7 @@ Patterns observed from real tasks — follow them unless the user says otherwise
 After edits, state clearly:
 
 - **Local** = files in this workspace; preview via **`:3000`** (LAN/fast proxy) or `:3001` (raw mint).
-- **Live** = https://docs.t3planet.de/en/latest after Mintlify deploy from **`markus`** remote.
+- **Live** = https://docs.t3planet.de/en/latest after Mintlify deploy from **`origin`** (`nitsan-technologies/T3Planet-docs`).
 
 Do not say “fixed on the site” until live HTML shows the change.
 
@@ -130,28 +130,28 @@ Do not say “fixed on the site” until live HTML shows the change.
 
 ## CRITICAL: which GitHub repo Mintlify deploys from
 
-Mintlify **Git settings** (verified dashboard, 2026-09-16):
+**Deploy only from the org repository** (updated 2026-09-23):
 
 | Setting | Value |
 |---------|--------|
-| Connected repository | **`markus-neumannn/T3Planet-docs`** |
+| Connected repository (required) | **`nitsan-technologies/T3Planet-docs`** |
 | Branch | **`master`** |
 | Live domain | `docs.t3planet.de/en/latest` |
-| Activity author on success | Often **Markus** |
+| Do not use | `markus-neumannn/T3Planet-docs` |
 
 ### Remotes
 
 ```text
-origin  https://github.com/nitsan-technologies/T3Planet-docs.git   # org / official mirror
-markus  https://github.com/markus-neumannn/T3Planet-docs.git      # Mintlify LIVE source
+origin  https://github.com/nitsan-technologies/T3Planet-docs.git   # ONLY deploy remote
 ```
+
+Do not configure or push a `markus` remote for live deploys.
 
 ### Deployment rule
 
-1. **`git push markus HEAD:master`** is **required** for live updates (while Git settings stay on the fork).
-2. **`git push origin HEAD:master`** syncs org repo; **does not** replace step 1 for live.
-3. Never force-push unless explicitly authorized.
-4. If live is stale after pushing `origin` only → push **`markus`** (incident 2026-09-16).
+1. **`git push origin HEAD:master`** updates GitHub and (when Mintlify Git is connected to this repo) triggers live.
+2. Never force-push unless explicitly authorized.
+3. If Mintlify Activity still shows `markus-neumannn/T3Planet-docs`, reconnect Git in the Mintlify dashboard to **`nitsan-technologies/T3Planet-docs`** before expecting live updates from `origin`.
 
 ### Verify live deploy (evidence-based)
 
@@ -200,16 +200,16 @@ Only commit when the user asks (or an explicit release task). Stage **docs only*
 
 ```bash
 git remote -v && git branch --show-current
-git push markus HEAD:master    # live
-git push origin HEAD:master    # org mirror when requested
+git push origin HEAD:master    # only deploy remote
 ```
 
-Verify: https://github.com/markus-neumannn/T3Planet-docs/commits/master (author Markus, files present).
+Verify: https://github.com/nitsan-technologies/T3Planet-docs/commits/master (author Markus, files present).
 
 ### Gate C — Mintlify
 
+Dashboard → **Git** must show **`nitsan-technologies/T3Planet-docs`** / `master`.  
 Dashboard → **Activity** → Successful update for the commit.  
-If stuck: **Manual update** or empty trigger commit pushed to **`markus`** only.
+If stuck: **Manual update** or empty trigger commit pushed to **`origin`** only.
 
 ### Gate D — Production QA
 
@@ -289,7 +289,7 @@ Remigration default: **local migrate + QA → stop for approval → then release
 - [ ] Audience-appropriate prose (TYPO3-professional, not beginner)
 - [ ] Local validate + preview OK
 - [ ] Commit author = Markus (if committing)
-- [ ] `git push markus HEAD:master` for live
+- [ ] `git push origin HEAD:master` for live
 - [ ] `git push origin HEAD:master` if org sync requested
 - [ ] Mintlify Activity Successful
 - [ ] Live URL shows intended content (specific checks, not just 200)
