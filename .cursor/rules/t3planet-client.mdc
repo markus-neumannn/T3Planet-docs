@@ -27,8 +27,8 @@ Omit or remove sections like “How to open it” with generic backend navigatio
 
 - Edits default to **local workspace** only.
 - LAN preview: `http://<LAN-IP>:3000/` (fast proxy). Purge: `curl -s http://127.0.0.1:3000/__t3_cache_purge`.
-- **Live** is https://docs.t3planet.de/en/latest after Mintlify deploy from **`nitsan-technologies/T3Planet-docs`** (`git push origin HEAD:master`).
-- Do **not** push to `markus-neumannn/T3Planet-docs` for deployment.
+- **Live** is https://docs.t3planet.de/en/latest after Mintlify deploy from **`nitsan-technologies/T3Planet-docs`** (`git push origin HEAD:master`, author **Markus**).
+- Do **not** use the Markus fork as the normal deploy remote. Emergency sync to the fork only if Mintlify Git is still on the fork and live is blocked (see `mintlify-deployment.mdc`).
 - Tell the user clearly whether a fix is local-only or verified on live.
 
 ## Typical user requests
@@ -49,3 +49,11 @@ Omit or remove sections like “How to open it” with generic backend navigatio
 - Do not commit `RST Format */` or `scripts/remigration/*` QA artifacts unless asked.
 - After nav/page changes: `python3 scripts/compute_doc_stats.py`.
 - Full runbook: repo root `context.md`.
+
+## TonicTypes product docs (2026-09-23)
+
+- Live/product path: **`TonicTypes/`** (not `ExtTypoTonic/`).
+- Professional page: **`TonicTypes/Professional/`** (not `TypoTonicProfessional`).
+- Old `/ExtTypoTonic/*` URLs must keep **redirects** in `docs.json` to `/TonicTypes/*`.
+- This doc set **leads with EXT:tonictypes_pro** (`k3n/tonictypes_pro`); Core (`k3n/tonictypes`) is required dependency, not the primary product framing.
+- After path renames: update `docs.json` nav, hub links (`AllExtensions`), internal `/en/latest/...` hrefs, then `python3 scripts/compute_doc_stats.py` + `mintlify validate`.

@@ -92,7 +92,7 @@ Patterns observed from real tasks — follow them unless the user says otherwise
 | “Remove image on [live URL]” | Edit the matching `.md` under the product tree; confirm **local vs live** in the reply. |
 | “Add icon” on Feature Guide cards | Fix Lucide `icon=` on `<Card>` in `FeatureGuide/Index.md`; invalid names render **blank** on live. |
 | “Improve code snippet UI” | Replace RST leftovers (`::`, `.. code-block::`) with fenced blocks (` ```bash ` / ` ```json `). |
-| “Deploy / push / live” | Full release chain: local QA → Markus commit → **`git push origin HEAD:master`** (only) → Mintlify Activity → live URL proof. |
+| “Deploy / push / live” | Local QA → commit as **Markus** → **`git push origin HEAD:master`** → Activity + **live content** proof. If live stale and Mintlify Git still on fork → emergency same-SHA sync (see deploy §4). |
 | “Train context / deployment” | Update this `context.md` and `.cursor/rules/` so the next session does not repeat mistakes. |
 | Attached screenshot of Mintlify dashboard | Treat dashboard as source of truth for **which GitHub repo** is connected. |
 | “Start network / LAN preview” | Ensure `:3001` mint + `:3000` cache proxy; give `http://<LAN-IP>:3000/`; purge cache after edits. |
@@ -147,11 +147,27 @@ origin  https://github.com/nitsan-technologies/T3Planet-docs.git   # ONLY deploy
 
 Do not configure or push a `markus` remote for live deploys.
 
+### Author vs repository
+
+| Concept | Value |
+|---------|--------|
+| Git **author name** for releases | **Markus** (required) |
+| Git **author email** | `248457632+markus-neumannn@users.noreply.github.com` |
+| Push **remote** | **`origin`** only → `nitsan-technologies/T3Planet-docs` |
+| Do not confuse | Markus **author** ≠ `markus-neumannn/T3Planet-docs` **fork** |
+
 ### Deployment rule
 
-1. **`git push origin HEAD:master`** updates GitHub and (when Mintlify Git is connected to this repo) triggers live.
+1. **`git push origin HEAD:master`** updates the org repo and (when Mintlify Git is connected to org) triggers live.
 2. Never force-push unless explicitly authorized.
-3. If Mintlify Activity still shows `markus-neumannn/T3Planet-docs`, reconnect Git in the Mintlify dashboard to **`nitsan-technologies/T3Planet-docs`** before expecting live updates from `origin`.
+3. Prefer Mintlify dashboard **Git** → connect **`nitsan-technologies/T3Planet-docs`** / `master` so live always follows `origin`.
+4. **Emergency live unblock (incident 2026-09-23):** if Activity still shows the Markus fork and `/new-path` is 404 on live while org already has the commit, temporarily push the **same SHA** to the fork (`git push markus origin/master:master`), poll live until content matches, then remove the `markus` remote again. Tell the user this was emergency-only.
+
+### Never push / never deploy
+
+- `workshops/` (local workshop PPT/site; gitignored)
+- `docs-master/` (already gitignored)
+- `scripts/remigration/*` QA dumps, `scripts/live_e2e_qa/*`, unless explicitly requested
 
 ### Verify live deploy (evidence-based)
 
@@ -208,8 +224,8 @@ Verify: https://github.com/nitsan-technologies/T3Planet-docs/commits/master (aut
 ### Gate C — Mintlify
 
 Dashboard → **Git** must show **`nitsan-technologies/T3Planet-docs`** / `master`.  
-Dashboard → **Activity** → Successful update for the commit.  
-If stuck: **Manual update** or empty trigger commit pushed to **`origin`** only.
+Dashboard → **Activity** → Successful update for the commit (author often Markus).  
+If stuck: **Manual update**, or emergency same-SHA sync to the fork only while Git is still on the fork (see Deployment rule §4), then reconnect Git to org.
 
 ### Gate D — Production QA
 
@@ -217,6 +233,23 @@ Minimum for T3AA Feature Guide releases: Index cards (icons), pages where screen
 
 ---
 
+
+## TonicTypes documentation paths (2026-09-23)
+
+| Item | Value |
+|------|--------|
+| Product folder / URL | **`TonicTypes/`** |
+| Old folder (redirect only) | `ExtTypoTonic/` → `/TonicTypes/` |
+| Professional page | **`TonicTypes/Professional/`** |
+| Old Professional URL | `…/TypoTonicProfessional/` → `/TonicTypes/Professional/` |
+| Primary product framing | **EXT:tonictypes_pro** (`k3n/tonictypes_pro`) |
+| Required dependency | Core **EXT:tonictypes** (`k3n/tonictypes`) — install order / shared plugins / ViewHelpers |
+| Live Index | https://docs.t3planet.de/en/latest/TonicTypes/Index/ |
+| ClickUp example | [86d4cb2rx](https://app.clickup.com/t/86d4cb2rx) rename + Pro focus |
+
+When renaming product trees: `git mv`, rewrite `/en/latest/...` hrefs + `docs.json` nav, add specific redirects **before** `/:path*` wildcards, run `compute_doc_stats.py`, `mintlify validate`, then deploy.
+
+---
 ## Documentation conventions (Mintlify)
 
 ### Links
@@ -276,7 +309,10 @@ Remigration default: **local migrate + QA → stop for approval → then release
 ## Do not
 
 - Push without user approval (except when explicit release/deploy task).
-- Push only to `origin` and call deployment done.
+- Push only to `origin` and call deployment done without checking live HTML (Mintlify may still be on the Markus fork).
+- Confuse Markus **commit author** with the `markus-neumannn/T3Planet-docs` fork.
+- Leave `ExtTypoTonic` URLs as primary after the TonicTypes rename (use redirects only).
+- Commit `workshops/` or `docs-master/`.
 - Force-push, invent emails, commit secrets or remigration noise.
 - Re-add removed screenshots or patronizing TYPO3 steps without user ask.
 - Hardcode homepage page/product counts (use `compute_doc_stats.py`).
@@ -304,3 +340,12 @@ Remigration default: **local migrate + QA → stop for approval → then release
 | `.cursor/rules/homepage-stats.mdc` | Stats regeneration |
 | `.cursor/rules/t3planet-client.mdc` | Audience + client workflow |
 | `scripts/qa-final/GITHUB_DEPLOYMENT_REPORT.md` | Historical fork vs org notes |
+
+## Lessons learned — 2026-09-23
+
+1. **Org-only deploy policy:** day-to-day remote is `origin` (`nitsan-technologies/T3Planet-docs`). Keep local `markus` remote removed unless emergency.
+2. **Live lag diagnosis:** org tip can be correct while live 404s a new path — Mintlify Activity “Connected repository” is the truth for which GitHub Mintlify builds.
+3. **TonicTypes rename:** folder + nav + redirects + Pro framing shipped as `5d8e875`; live needed fork sync until Mintlify Git points at org.
+4. **Workshop PPT** lives under `workshops/` and must never be committed or deployed with docs.
+5. **ClickUp docs tasks:** update status, leave evidence comment (commit SHA, live URLs, any Mintlify Git blocker).
+

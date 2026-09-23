@@ -15,15 +15,29 @@ Mintlify project: **T3Planet Docs** (workspace **nitsan-81630f36**)
 - Live / deploy source: **`nitsan-technologies/T3Planet-docs`** branch `master`
 - Local remote name: **`origin`** → `https://github.com/nitsan-technologies/T3Planet-docs.git`
 
-Do **not** use `markus-neumannn/T3Planet-docs` for deployment.
+Do **not** use `markus-neumannn/T3Planet-docs` as the normal deploy target.
 
 Mintlify dashboard **Git** settings must point at **`nitsan-technologies/T3Planet-docs`** (`master`). If Git settings still show the Markus fork, live will not follow `origin` pushes — reconnect Git in the Mintlify dashboard.
 
-For releases that must go live:
+### Author vs repository (do not confuse)
 
-1. Commit as **Markus** `<248457632+markus-neumannn@users.noreply.github.com>` (do not invent email).
-2. `git push origin HEAD:master` (required for Mintlify when Git is connected to the org repo).
-3. Confirm Mintlify dashboard **Activity** + spot-check the live URL.
+- **Commit author:** always **Markus** `<248457632+markus-neumannn@users.noreply.github.com>`
+- **Push remote:** always **`origin`** → `nitsan-technologies/T3Planet-docs`
+- Markus **name** ≠ Markus **fork repo**
+
+### Emergency live unblock (2026-09-23 lesson)
+
+If the user needs live **now** and Mintlify Activity still shows `markus-neumannn/T3Planet-docs`:
+
+1. Prefer reconnecting Mintlify Git to the org repo.
+2. If reconnect is blocked and live is urgent: temporarily `git remote add markus …`, `git push markus origin/master:master` (same SHA already on org), poll live until content matches, then `git remote remove markus`.
+3. Tell the user clearly this was an emergency sync because Mintlify Git was still on the fork.
+
+For normal releases:
+
+1. Commit as Markus (email above).
+2. `git push origin HEAD:master`
+3. Confirm Mintlify **Activity** + spot-check live HTML (not HTTP 200 alone).
 
 Full procedure: see repo root `context.md`.
 
@@ -32,4 +46,4 @@ Full procedure: see repo root `context.md`.
 - Node **20** for `mintlify` / `mint` (Node 25+ unsupported).
 - After nav/page count changes: `python3 scripts/compute_doc_stats.py`.
 - Do not commit `RST Format */` or `scripts/remigration/*` QA dumps unless explicitly requested.
-- Do not commit or push `workshops/` or `docs-master/`.
+- Do not commit or push `workshops/` or `docs-master/` (gitignore `workshops/`; `docs-master/` already ignored).
