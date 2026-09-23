@@ -7,10 +7,10 @@ keywords:
   - "TonicTypes"
   - "tonictypes"
   - "tonictypes_pro"
-sidebarTitle: "TonicTypes Professional"
+sidebarTitle: "Professional"
 ---
 
-TonicTypes Professional (`k3n/tonictypes_pro`, extension key `tonictypes_pro`) extends [TonicTypes Core](/en/latest/ExtTypoTonic/Introduction/Index) with enterprise features. It is developed by Keeen GmbH and distributed for T3Planet projects with license activation via `ns_license`. T3Planet does not replace vendor support for the product itself.
+TonicTypes Professional (`k3n/tonictypes_pro`, extension key `tonictypes_pro`) extends [TonicTypes Core](/en/latest/TonicTypes/Introduction/Index) with enterprise features. It is developed by Keeen GmbH and distributed for T3Planet projects with license activation via `ns_license`. T3Planet does not replace vendor support for the product itself.
 
 **Requires:** `k3n/tonictypes` 2.x · `nitsan/ns-license` · `nitsan/ns-t3af` · PHP 8.2–8.5 · TYPO3 12.4–14.9
 
@@ -33,7 +33,7 @@ dependencies:
 
 Or include static templates **[Tonictypes] General Configuration** and **[Tonictypes] Tonictypes Professional**, then clear caches.
 
-See [Installation](/en/latest/ExtTypoTonic/Installation/Index).
+See [Installation](/en/latest/TonicTypes/Installation/Index).
 
 ## What Professional adds
 
@@ -71,7 +71,7 @@ Page TSconfig:
 tx_tonictypes.docHeaderDatatypes = 1,2,3
 ```
 
-Or select a datatype behaviour on the page. See [Installation](/en/latest/ExtTypoTonic/Installation/Index).
+Or select a datatype behaviour on the page. See [Installation](/en/latest/TonicTypes/Installation/Index).
 
 ## Link handler
 

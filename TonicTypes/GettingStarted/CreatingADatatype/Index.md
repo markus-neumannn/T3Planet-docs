@@ -56,4 +56,4 @@ Professional-only field types in an import need `k3n/tonictypes_pro` installed o
 
 ## Next Step
 
-Continue with [Creating a Template Variable](/en/latest/ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index), or [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index).
+Continue with [Creating a Template Variable](/en/latest/TonicTypes/GettingStarted/CreatingATemplateVariable/Index), or [Templating](/en/latest/TonicTypes/GettingStarted/Templating/Index).

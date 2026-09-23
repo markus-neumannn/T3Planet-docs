@@ -56,8 +56,8 @@ plugin.tx_tonictypes.templates {
 <dv:template.render template="myTemplateIdentifier" arguments="{record:record}" />
 ```
 
-See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index).
+See [ViewHelpers](/en/latest/TonicTypes/ViewHelpers/Index).
 
 ## Next Step
 
-Continue with [Frontend Plugins](/en/latest/ExtTypoTonic/FrontendPlugins/Index).
+Continue with [Frontend Plugins](/en/latest/TonicTypes/FrontendPlugins/Index).

@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-description: "Install TonicTypes Core (k3n/tonictypes) and optional Professional (k3n/tonictypes_pro) with Site Sets or TypoScript."
+description: "Install TonicTypes Professional (k3n/tonictypes_pro) with required Core (k3n/tonictypes) using Site Sets or TypoScript."
 keywords:
   - "TYPO3"
   - "T3Planet"
@@ -10,6 +10,7 @@ keywords:
 sidebarTitle: "Installation"
 ---
 
+This documentation set focuses on **TonicTypes Professional** (`k3n/tonictypes_pro`). Core (`k3n/tonictypes`) is required and is covered here for install order and shared setup.
 ## Compatibility
 
 - **TYPO3:** 12.4 – 14.9
@@ -89,7 +90,7 @@ composer require k3n/tonictypes_pro
 
 Ensure `nitsan/ns-license` and `nitsan/ns-t3af` are available (declared dependencies of `k3n/tonictypes_pro`). Activate the Professional Site Set or static template as above, then clear caches.
 
-Details: [TonicTypes Professional](/en/latest/ExtTypoTonic/TypoTonicProfessional/Index).
+Details: [TonicTypes Professional](/en/latest/TonicTypes/Professional/Index).
 
 ## Additional configuration
 
@@ -110,7 +111,7 @@ plugin.tx_tonictypes.templates {
 
 *Predefined template in the selector*
 
-Render with `dv:template.render`. See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index).
+Render with `dv:template.render`. See [ViewHelpers](/en/latest/TonicTypes/ViewHelpers/Index).
 
 ### DocHeader “Add record” buttons (Professional)
 
@@ -124,7 +125,7 @@ tx_tonictypes.docHeaderDatatypes = 1,2,3
 
 *DocHeader buttons for selected Datatype UIDs*
 
-You can also enable this by selecting a datatype behaviour on the page. See [TonicTypes Professional](/en/latest/ExtTypoTonic/TypoTonicProfessional/Index).
+You can also enable this by selecting a datatype behaviour on the page. See [TonicTypes Professional](/en/latest/TonicTypes/Professional/Index).
 
 ### Toolbar item (Professional)
 
@@ -171,4 +172,4 @@ options.tonictypes.disableTonictypesLogo = 1
 
 ## Next steps
 
-Continue with [Getting Started](/en/latest/ExtTypoTonic/GettingStarted/Index).
+Continue with [Getting Started](/en/latest/TonicTypes/GettingStarted/Index).

@@ -873,37 +873,37 @@
           },
           {
             "group": "TonicTypes",
-            "root": "ExtTypoTonic/Index",
+            "root": "TonicTypes/Index",
             "expanded": false,
             "pages": [
-              "ExtTypoTonic/Introduction/Index",
-              "ExtTypoTonic/Installation/Index",
+              "TonicTypes/Introduction/Index",
+              "TonicTypes/Installation/Index",
               {
                 "group": "Getting Started",
                 "expanded": false,
                 "pages": [
-                  "ExtTypoTonic/GettingStarted/Index",
-                  "ExtTypoTonic/GettingStarted/CreatingAField/Index",
-                  "ExtTypoTonic/GettingStarted/CreatingADatatype/Index",
-                  "ExtTypoTonic/GettingStarted/CreatingATemplateVariable/Index",
-                  "ExtTypoTonic/GettingStarted/Templating/Index"
+                  "TonicTypes/GettingStarted/Index",
+                  "TonicTypes/GettingStarted/CreatingAField/Index",
+                  "TonicTypes/GettingStarted/CreatingADatatype/Index",
+                  "TonicTypes/GettingStarted/CreatingATemplateVariable/Index",
+                  "TonicTypes/GettingStarted/Templating/Index"
                 ],
-                "root": "ExtTypoTonic/GettingStarted/Index"
+                "root": "TonicTypes/GettingStarted/Index"
               },
               {
                 "group": "Frontend Plugins",
                 "expanded": false,
                 "pages": [
-                  "ExtTypoTonic/FrontendPlugins/Index",
-                  "ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index"
+                  "TonicTypes/FrontendPlugins/Index",
+                  "TonicTypes/FrontendPlugins/DisplayRecordsPlugin/Index"
                 ],
-                "root": "ExtTypoTonic/FrontendPlugins/Index"
+                "root": "TonicTypes/FrontendPlugins/Index"
               },
-              "ExtTypoTonic/ViewHelpers/Index",
-              "ExtTypoTonic/Screenshots/Index",
-              "ExtTypoTonic/TypoTonicProfessional/Index",
-              "ExtTypoTonic/FAQ/Index",
-              "ExtTypoTonic/Support/Index"
+              "TonicTypes/ViewHelpers/Index",
+              "TonicTypes/Screenshots/Index",
+              "TonicTypes/Professional/Index",
+              "TonicTypes/FAQ/Index",
+              "TonicTypes/Support/Index"
             ]
           },
           {
@@ -1856,6 +1856,62 @@
     ]
   },
   "redirects": [
+    {
+      "source": "/de/ExtTypoTonic/:path*",
+      "destination": "/TonicTypes/:path*"
+    },
+    {
+      "source": "/de/ExtTypoTonic",
+      "destination": "/TonicTypes/Index"
+    },
+    {
+      "source": "/de/ExtTypoTonic/Index",
+      "destination": "/TonicTypes/Index"
+    },
+    {
+      "source": "/ExtTypoTonic/:path*",
+      "destination": "/TonicTypes/:path*"
+    },
+    {
+      "source": "/ExtTypoTonic.html",
+      "destination": "/TonicTypes/Index"
+    },
+    {
+      "source": "/ExtTypoTonic",
+      "destination": "/TonicTypes/Index"
+    },
+    {
+      "source": "/ExtTypoTonic/Index.html",
+      "destination": "/TonicTypes/Index"
+    },
+    {
+      "source": "/ExtTypoTonic/Index",
+      "destination": "/TonicTypes/Index"
+    },
+    {
+      "source": "/TonicTypes/TypoTonicProfessional",
+      "destination": "/TonicTypes/Professional/Index"
+    },
+    {
+      "source": "/TonicTypes/TypoTonicProfessional/Index",
+      "destination": "/TonicTypes/Professional/Index"
+    },
+    {
+      "source": "/ExtTypoTonic/TypoTonicProfessional.html",
+      "destination": "/TonicTypes/Professional/Index"
+    },
+    {
+      "source": "/ExtTypoTonic/TypoTonicProfessional",
+      "destination": "/TonicTypes/Professional/Index"
+    },
+    {
+      "source": "/ExtTypoTonic/TypoTonicProfessional/Index.html",
+      "destination": "/TonicTypes/Professional/Index"
+    },
+    {
+      "source": "/ExtTypoTonic/TypoTonicProfessional/Index",
+      "destination": "/TonicTypes/Professional/Index"
+    },
     {
       "source": "/undefined",
       "destination": "/"

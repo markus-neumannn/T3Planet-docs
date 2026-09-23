@@ -289,8 +289,7 @@ Remigration default: **local migrate + QA → stop for approval → then release
 - [ ] Audience-appropriate prose (TYPO3-professional, not beginner)
 - [ ] Local validate + preview OK
 - [ ] Commit author = Markus (if committing)
-- [ ] `git push origin HEAD:master` for live
-- [ ] `git push origin HEAD:master` if org sync requested
+- [ ] `git push origin HEAD:master` for live (only deploy remote)
 - [ ] Mintlify Activity Successful
 - [ ] Live URL shows intended content (specific checks, not just 200)
 

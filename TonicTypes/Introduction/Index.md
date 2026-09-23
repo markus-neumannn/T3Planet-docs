@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Introduction to TonicTypes (EXT:tonictypes) — custom TCA record types without a dedicated extension."
+description: "Introduction to TonicTypes Professional (EXT:tonictypes_pro) and required Core — custom TCA record types without a dedicated extension."
 keywords:
   - "TYPO3"
   - "T3Planet"
@@ -12,7 +12,9 @@ sidebarTitle: "Introduction"
 
 ## What This Extension Does
 
-TonicTypes (extension key `tonictypes`, Composer `k3n/tonictypes`) lets you build your own record types directly in the TYPO3 backend. You configure fields and datatypes with TCA. There is no need to write a new extension for every content type.
+This documentation focuses on **TonicTypes Professional** (`tonictypes_pro` / `k3n/tonictypes_pro`). Professional requires free **TonicTypes Core** (`tonictypes` / `k3n/tonictypes`).
+
+Together they let you build your own record types directly in the TYPO3 backend. You configure fields and datatypes with TCA. There is no need to write a new extension for every content type.
 
 TonicTypes reads your configuration and generates the database table, TCA, and Extbase domain model and repository classes. The TYPO3 Schema Migrator creates the required database structure. After that, you create, edit, and list records the same way you already do in TYPO3.
 
@@ -54,7 +56,7 @@ Because every record type lives inside one extension, you maintain TonicTypes it
 1. Create records.
 1. Create Fluid templates (list and detail).
 1. Add a **List** / **Detail** / **Dynamic** / **Plain** plugin to a page.
-1. Optionally use [TonicTypes Professional](/en/latest/ExtTypoTonic/TypoTonicProfessional/Index) for advanced fields, MCP, toolbar, and related Pro features.
+1. Optionally use [TonicTypes Professional](/en/latest/TonicTypes/Professional/Index) for advanced fields, MCP, toolbar, and related Pro features.
 
 ## Core vs Professional
 
@@ -65,7 +67,7 @@ Because every record type lives inside one extension, you maintain TonicTypes it
 | Requires | PHP 8.2–8.5, TYPO3 12.4–14.9 | Core 2.x plus `ns_license` and `ns_t3af` |
 | Role | Datatypes, fields, plugins, export/import | Advanced field types, MCP tools, toolbar, DocHeader buttons, link handler, Form hooks |
 
-Professional requires Core. See [TonicTypes Professional](/en/latest/ExtTypoTonic/TypoTonicProfessional/Index).
+Professional requires Core. See [TonicTypes Professional](/en/latest/TonicTypes/Professional/Index).
 
 ## Helpful Links
 

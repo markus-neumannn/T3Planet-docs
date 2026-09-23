@@ -36,7 +36,7 @@ You can set the target page with a Fluid condition (empty or true = valid).
 <dv:link.record record="{record}" pageUid="{detailPid}" additionalParams="{paramOne:'One'}">{record.title}</dv:link.record>
 ```
 
-See [ViewHelpers](/en/latest/ExtTypoTonic/ViewHelpers/Index).
+See [ViewHelpers](/en/latest/TonicTypes/ViewHelpers/Index).
 
 ## Record Storage Page
 
@@ -72,7 +72,7 @@ Select the page where records for this Datatype are stored.
   - **Debug Template** — Default debug output.
   - **Select a custom template path** — Fluid file from the filesystem.
   - **Enter custom fluid code** — Inline Fluid in the plugin.
-  - **Your configured template** — Templates predefined in TypoScript. See [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index).
+  - **Your configured template** — Templates predefined in TypoScript. See [Templating](/en/latest/TonicTypes/GettingStarted/Templating/Index).
 - **Render this Template without Sitetemplate** — Plugin output only.
 - **Template Switch** — Alternate template when a Fluid condition matches.
 - **Variable Injection** — Which Template Variables are injected.

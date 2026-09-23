@@ -56,4 +56,4 @@ Use them for filters, search, sorting, or conditional template behaviour.
 
 ## Next Step
 
-Continue with [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index).
+Continue with [Templating](/en/latest/TonicTypes/GettingStarted/Templating/Index).

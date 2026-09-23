@@ -72,7 +72,7 @@ Folders such as `EXTAvatar/`, `EXTAyu/`, `EXTBootstrap/`, `EXTKarma/`, `EXTReact
 ### 4. TYPO3 Extensions
 
 Hub: `AllExtensions/`  
-Folders such as `ExtNsRevolutionSlider/`, `ExtRTECKEditorPack/`, `ExtNsBackup/`, `ExtNsGoogleSiteKit/`, `ExtTypoTonic/` (TonicTypes), cookies/privacy, comments, maps, and many more.
+Folders such as `ExtNsRevolutionSlider/`, `ExtRTECKEditorPack/`, `ExtNsBackup/`, `ExtNsGoogleSiteKit/`, `TonicTypes/` (TonicTypes), cookies/privacy, comments, maps, and many more.
 
 Each extension usually documents installation, configuration, updates, and support links.
 
@@ -169,7 +169,7 @@ Updates `_static/t3-stats.json`, `_static/t3-stats-inline.js`, and hub Markdown.
 | `AIFoundationExtensions/` | AI Universe hub |
 | `AllTemplates/` · `AllExtensions/` | Catalog hubs |
 | `License/` | License & installation |
-| `ExtNsT3AF/` … / `ExtTypoTonic/` … | Product documentation trees |
+| `ExtNsT3AF/` … / `TonicTypes/` … | Product documentation trees |
 | `custom.css` | Custom UI styling |
 | `_static/` | Logos, favicon, `t3-docs.min.js`, stats |
 | `.mintignore` | Files/folders excluded from Mintlify publish |

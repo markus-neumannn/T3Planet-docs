@@ -29,4 +29,4 @@ Add them via the **New content element** wizard.
 Before all FlexForm fields are available, select a **Record Storage Page** and save the content element once. This refreshes the form.
 </Note>
 
-Configuration details (filters, sorting, templates, overrides): [Plugin configuration](/en/latest/ExtTypoTonic/FrontendPlugins/DisplayRecordsPlugin/Index).
+Configuration details (filters, sorting, templates, overrides): [Plugin configuration](/en/latest/TonicTypes/FrontendPlugins/DisplayRecordsPlugin/Index).

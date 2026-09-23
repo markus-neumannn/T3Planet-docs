@@ -33,7 +33,7 @@ TonicTypes is a TYPO3 extension (`k3n/tonictypes`, key `tonictypes`) that lets y
 composer require k3n/tonictypes
 ```
 
-Then add Site Set `k3n/tonictypes` or include **[Tonictypes] General Configuration**, and clear caches. Full steps: [Installation](/en/latest/ExtTypoTonic/Installation/Index).
+Then add Site Set `k3n/tonictypes` or include **[Tonictypes] General Configuration**, and clear caches. Full steps: [Installation](/en/latest/TonicTypes/Installation/Index).
 
 ### Which TYPO3 / PHP versions are supported?
 
@@ -43,7 +43,7 @@ TYPO3 12.4–14.9 and PHP 8.2–8.5 (Core and Professional 2.1.x).
 
 ### How do I use my own templates?
 
-Predefine templates under `plugin.tx_tonictypes.templates`, then select them in a plugin or render with `dv:template.render`. See [Templating](/en/latest/ExtTypoTonic/GettingStarted/Templating/Index).
+Predefine templates under `plugin.tx_tonictypes.templates`, then select them in a plugin or render with `dv:template.render`. See [Templating](/en/latest/TonicTypes/GettingStarted/Templating/Index).
 
 ### Which Fluid namespace should I use?
 
@@ -61,4 +61,4 @@ On a Datatype, **Default hidden** makes newly created records start disabled unt
 
 ## Didn't find your question?
 
-Vendor support for the extension and Professional: see [Support](/en/latest/ExtTypoTonic/Support/Index).
+Vendor support for the extension and Professional: see [Support](/en/latest/TonicTypes/Support/Index).

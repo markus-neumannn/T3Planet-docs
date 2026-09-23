@@ -25,7 +25,7 @@ Open the **List** module, click **Create new record**, and select **Field** unde
 - **Type** — Field type (for example input, textarea, select). This controls which options appear next.
 - **Field Configuration** — Type-specific options.
 
-Core ships standard field types. Advanced types (DynamicInput, Inline, Flex, PassThrough, Datatype, TCA, Fluid, Content, UserFunc) require [TonicTypes Professional](/en/latest/ExtTypoTonic/TypoTonicProfessional/Index).
+Core ships standard field types. Advanced types (DynamicInput, Inline, Flex, PassThrough, Datatype, TCA, Fluid, Content, UserFunc) require [TonicTypes Professional](/en/latest/TonicTypes/Professional/Index).
 
 ![General field configuration options](./Images/field_configuration_general.webp)
 
@@ -71,4 +71,4 @@ Mark a value as **Is Default** or **Pretends to be an empty value** when needed.
 
 ## Next Step
 
-Continue with [Creating a Datatype](/en/latest/ExtTypoTonic/GettingStarted/CreatingADatatype/Index).
+Continue with [Creating a Datatype](/en/latest/TonicTypes/GettingStarted/CreatingADatatype/Index).
