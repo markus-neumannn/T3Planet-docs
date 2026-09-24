@@ -9,7 +9,7 @@ keywords:
 sidebarTitle: "Privacy"
 ---
 
-When **T3Planet Credits** mode is enabled, completion, streaming, and embedding requests are sent to the T3Planet composer API (`Charge`, `Stream`, and `Embed` endpoints).
+When **AI Credits** mode is enabled, completion, streaming, and embedding requests are sent to the T3Planet composer API (`Charge`, `Stream`, and `Embed` endpoints).
 
 ## Data sent to T3Planet
 
@@ -34,8 +34,4 @@ Ensure your site's privacy policy mentions third-party AI processing when credit
 
 ## Request log privacy (Your Own API Keys)
 
-When using your own API keys, request log detail is controlled by governance privacy levels
-(`standard`, `reduced`, and `none`) on provider records and by UserTSconfig
-`nst3af.privacyLevel`. Per-user budgets use `nst3af.budget.*` keys (for example
-`nst3af.budget.maxCost` and `nst3af.budget.maxTokens`). See [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index)
-documentation for full details.
+When using your own API keys, request log detail is controlled by governance privacy levels (`standard`, `reduced`, and `none`) on provider records and by UserTSconfig `nst3af.privacyLevel`. Per-user budgets use `nst3af.budget.*` keys (for example `nst3af.budget.maxCost` and `nst3af.budget.maxTokens`). See [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index) documentation for full details.

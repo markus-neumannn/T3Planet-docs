@@ -25,7 +25,7 @@ Remove other MCP server packages (`marekskopal/typo3-mcp-server`, `hn/typo3-mcp-
 
 **Credits ON but AI fails**
 
-Click **Activate** again after enabling the toggle. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
+Click **Activate** again after enabling the toggle. See [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
 
 **Test connection fails**
 
@@ -81,7 +81,7 @@ Include:
 - `ns_t3af` extension version
 - Steps to reproduce
 - Exact error message
-- Provider mode (BYOK vs T3Planet Credits)
+- Provider mode (BYOK vs AI Credits)
 - Whether MCP is enabled
 
 Submit via [Support](/en/latest/ExtNsT3AF/Support/Index) or [https://t3planet.de/support](https://t3planet.de/support)

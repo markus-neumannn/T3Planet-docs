@@ -18,7 +18,7 @@ Video guides help admins and managers learn **T3AF** setup and daily operation. 
 1. **What is T3AF?** — Everyone. Start here for the big picture.
 2. **Install and activate** — Admins. Pair with [Installation](/en/latest/ExtNsT3AF/Installation/Index).
 3. **Configure AI providers** — Admins. Pair with [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index).
-4. **T3Planet Credits vs Your Own API Keys** — Admins. Pair with [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
+4. **AI Credits vs Your Own API Keys** — Admins. Pair with [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
 5. **MCP Server — connect Cursor** — Admins and developers. Pair with [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
 6. **AI Permissions** — Admins. Pair with [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Index).
 7. **Usage logs and cost control** — Admins and managers. Pair with [AI Usage & Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index).
@@ -26,7 +26,7 @@ Video guides help admins and managers learn **T3AF** setup and daily operation. 
 ## Where to find videos
 
 <Note>
-- T3Planet YouTube: [https://www.youtube.com/@T3Planet](https://www.youtube.com/@T3Planet)
+  - T3Planet YouTube: [https://www.youtube.com/@T3Planet](https://www.youtube.com/@T3Planet)
 </Note>
 
 Enable **English subtitles** on YouTube if needed. Simple English is used in most T3Planet videos.

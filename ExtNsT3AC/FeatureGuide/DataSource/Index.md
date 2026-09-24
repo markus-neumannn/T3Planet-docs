@@ -205,7 +205,7 @@ From the Dashboard you can open the TYPO3 Scheduler and locate the automatic tra
 When the scheduler runs this task for a site, it:
 
 1. **Syncs** enabled data sources for that site (crawl or refresh content into the **training queue**).
-2. **Trains** pending queue items (chunks content and **generates embeddings** via your configured AI provider or T3Planet Credits).
+2. **Trains** pending queue items (chunks content and **generates embeddings** via your configured AI provider or AI Credits).
 3. **Cleans up** old completed/failed queue rows according to the retention setting (optional archive to CSV).
 
 <Note>
@@ -335,4 +335,3 @@ The first command uses the default of **90** days. Setting `days` to `3` deletes
 *Configure **days** on the `t3af:history:cleanup` scheduler task. Default retention is 90 days when the argument is omitted.*
 
 More options for other AI Foundation scheduler commands (MCP cleanup, and so on) are listed under **AI Foundation → Scheduler & CLI** in the TYPO3 backend.
-

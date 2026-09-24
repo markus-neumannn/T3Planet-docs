@@ -54,7 +54,7 @@ See [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
 You need at least one of these before AI features work:
 
 - **AI provider API key** — BYOK (Bring Your Own Key) mode
-- **T3Planet Credits** — Managed billing mode (see [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index))
+- **AI Credits** — Managed billing mode (see [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index))
 - **DeepL / Google keys** — Optional, for translation settings in Extension Configuration
 
 ## Pre-install checklist

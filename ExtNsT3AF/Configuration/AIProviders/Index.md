@@ -23,9 +23,7 @@ default provider.
 
 Without at least one working provider, no AI feature runs.
 
-Alternatively, use [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index) when you
-want AI without configuring your own vendor API keys. Your Own API Keys stays
-the default.
+Alternatively, use [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index) when you want AI without configuring your own vendor API keys. Your Own API Keys stays the default.
 
 ## Adding a provider
 
@@ -255,4 +253,3 @@ vision).
 </Note>
 
 More links: [Helpful Links](/en/latest/ExtNsT3AF/HelpfulLinks/Index#ns-t3af-helpful-links)
-

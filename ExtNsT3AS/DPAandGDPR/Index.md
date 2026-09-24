@@ -54,7 +54,7 @@ Administrators should consider and document:
 - Data retention and deletion (`t3af:history:cleanup`, Usage Analytics)
 - Browser storage (`nsT3AsRecentSearches`)
 - Data sent to the AI provider (query + RAG context + system instructions)
-- BYOK vs T3Planet Credits — see [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
+- BYOK vs AI Credits — see [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 - Provider DPA / no model training (not controlled inside the extension)
 - Microphone / Web Speech as a separate processing topic
 
@@ -75,7 +75,7 @@ This documentation describes technical data-management capabilities. It does not
 | How long are records retained? | Until they are deleted — manually in Usage Analytics, or by `t3af:history:cleanup` when a Scheduler task is set up. There is no hard expiry on each row by itself. |
 | Logging via AI Foundation? | Separate from T3AS history. AI Usage stores a **SHA-256 prompt fingerprint**, tokens, and timing — not the full query or answer. Privacy level can reduce or stop AI Usage rows; it does **not** stop T3AS history. See [AI Usage & Logs](/en/latest/ExtNsT3AF/Configuration/AIUsageAndLogs/Index) and [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index) (privacy level). |
 | Extra processors besides the LLM? | The configured AI Foundation provider (and its embedding endpoint). T3Planet is an additional processor **only if Credits is enabled**. |
-| What is the difference between BYOK and T3Planet Credits? | **BYOK (default):** customer server → configured AI provider. T3Planet is not on this path. **Credits (optional):** billable calls go via T3Planet. Prompts/inputs may be stored in T3Planet billing records. Licence activation (`ns_license`) is separate from the AI search answer path. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index). |
+| What is the difference between BYOK and AI Credits? | **BYOK (default):** customer server → configured AI provider. T3Planet is not on this path. **Credits (optional):** billable calls go via T3Planet. Prompts/inputs may be stored in T3Planet billing records. Licence activation (`ns_license`) is separate from the AI search answer path. See [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index). |
 | Microphone / Web Speech? | The search UI may use the browser **Web Speech** API. The browser may process audio via third parties. There is no product off-switch today. |
 | MCP? | If AI Foundation MCP is enabled, T3AS tools can run search and indexing operations through connected clients. That is backend/editor access, not public-visitor processing. Restrict MCP as an access-control topic. See [MCP Server](/en/latest/ExtNsT3AF/Integrations/MCPServer/Index). |
 

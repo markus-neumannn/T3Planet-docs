@@ -37,7 +37,7 @@ No. AI Foundation is 100% free and open source (GPL-2.0-or-later). There is no l
 
 **Is a commercial license required?**
 
-No. T3Planet Credits is optional and pays for AI usage only.
+No. AI Credits is optional and pays for AI usage only.
 
 **Composer reports a conflict with another MCP package.**
 
@@ -49,10 +49,9 @@ Remove conflicting MCP server packages first, then install AI Foundation. See [K
 
 Yes. Use the Ollama provider type or a custom OpenAI-compatible endpoint. See [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index).
 
-**What is T3Planet Credits?**
+**What is AI Credits?**
 
-An optional mode that uses a shared T3Planet credit balance instead of your
-own vendor API keys. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
+An optional add-on that uses a prepaid credit balance on your AI Credits account instead of your own vendor API keys. Your Own API Keys stays the default. See [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 **Test connection fails even with a valid key.**
 
@@ -66,10 +65,7 @@ Model Context Protocol connects AI clients such as Cursor to your TYPO3 instance
 
 **Where does request data go?**
 
-AI Foundation is self-hosted. With **Your Own API Keys**, prompts and responses
-go from your server to the AI provider you configure. T3Planet is not in that
-AI data path. With [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index) active,
-billable AI calls go through T3Planet and use your credit balance. AI Foundation itself has no licence check and sends nothing to T3Planet.
+AI Foundation is self-hosted. With **Your Own API Keys**, prompts and responses go from your server to the AI provider you configure. T3Planet is not in that AI data path. With [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index) active, billable AI calls go through T3Planet and use your credit balance. Outside AI Credits mode, AI Foundation has no licence check and sends nothing to T3Planet.
 
 ## Still stuck?
 

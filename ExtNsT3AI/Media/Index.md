@@ -15,10 +15,9 @@ Use **T3AI Media** to create AI images, then save results into a selected filead
 ## Requirements
 
 - Select a **fileadmin folder** in the folder tree of the Media dialog before you generate. Saved images go into that folder.
-- AI Foundation must provide image generation access through a configured **Provider** or active **T3Planet Credits**. For Unsplash, Openverse, Pixabay, and Pexels, also configure the matching **Provider** access for your installation.
+- AI Foundation must provide image generation access through a configured **Provider** or active **AI Credits**. For Unsplash, Openverse, Pixabay, and Pexels, also configure the matching **Provider** access for your installation.
 
-
-See [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index), [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index), [AI Settings](/en/latest/ExtNsT3AI/AISettings/Index), and [Configuration](/en/latest/ExtNsT3AI/Configuration/Index).
+See [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index), [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index), [AI Settings](/en/latest/ExtNsT3AI/AISettings/Index), and [Configuration](/en/latest/ExtNsT3AI/Configuration/Index).
 
 ## Available features
 

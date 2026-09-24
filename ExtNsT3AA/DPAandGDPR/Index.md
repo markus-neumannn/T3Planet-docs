@@ -26,9 +26,7 @@ This page describes GDPR-related questions about accessibility features
 - PageSpeed: **Google PageSpeed Insights API** when a key is set (page URL
   sent from the backend). See
   [Lighthouse](/en/latest/ExtNsT3AA/FeatureGuide/Scans/Lighthouse/Index).
-- LLM text features (simplify, and similar) follow T3AF **BYOK vs Credits**.
-  See [Simplified Text](/en/latest/ExtNsT3AA/FeatureGuide/SimplifiedText/Index) and
-  [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
+- LLM text features (simplify, and similar) follow T3AF **BYOK vs Credits**. See [Simplified Text](/en/latest/ExtNsT3AA/FeatureGuide/SimplifiedText/Index) and [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 - ElevenLabs is **own-keys only**.
 
 ## Data Processing Agreement (DPA) Considerations
@@ -93,7 +91,7 @@ See [AI Alt Text](/en/latest/ExtNsT3AA/FeatureGuide/AIAltText/Index).
 - Credits mode can route OpenAI TTS via T3Planet; ElevenLabs is not
   supported in Credits mode
 
-See [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
+See [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 | **Question:** IP / cookies / FE users of website visitors?
 | **Answer:** T3AA **does not store** visitor IP, cookies, or frontend-user IDs as dedicated database fields for the widget. Widget preferences stay in the browser.
