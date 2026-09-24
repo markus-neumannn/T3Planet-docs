@@ -15,7 +15,7 @@ sidebarTitle: "Introduction"
 
 ## What does it do?
 
-Do you want to add a cookies consent popup in your TYPO3 website? The European Union’s cookie law requires websites to get user consent to set any cookies on their website. As a TYPO3 website owner, your website may be using cookies as well. The Cookie Hint plugin will assist you in making your website GDPR compliant.
+Do you want to add a cookies consent popup in your TYPO3 website? The European Union’s cookie law requires websites to get user consent to set any cookies on their website. As a TYPO3 website owner, your website may be using cookies as well. The Cookie Hint plugin adds a cookie notice to your website. It is one building block for cookie consent; whether your site meets GDPR requirements depends on your full setup, so check it with your data protection officer.
 
 ## Helpful Links
 
