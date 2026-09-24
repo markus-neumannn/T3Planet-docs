@@ -19,7 +19,7 @@ Together they let you build your own record types directly in the TYPO3 backend.
 TonicTypes reads your configuration and generates the database table, TCA, and Extbase domain model and repository classes. The TYPO3 Schema Migrator creates the required database structure. After that, you create, edit, and list records the same way you already do in TYPO3.
 
 <Note>
-**TonicTypes** is the current product name (successor to **TypoTonic** / extension key `tonic`). This documentation uses **TonicTypes** for the free Core package (`k3n/tonictypes`) and **TonicTypes Professional** for the paid add-on (`k3n/tonictypes_pro`).
+**TonicTypes** is the current product name (successor to **TypoTonic** / extension keys `tonic` and `dataviewer`). This documentation uses **TonicTypes** for the free Core package (`k3n/tonictypes`) and **TonicTypes Professional** for the paid add-on (`k3n/tonictypes_pro`).
 </Note>
 
 ## Free TonicTypes Extension
@@ -72,7 +72,6 @@ Professional requires Core. See [TonicTypes Professional](/en/latest/TonicTypes/
 ## Helpful Links
 
 - Free extension (TER): [https://extensions.typo3.org/extension/tonictypes](https://extensions.typo3.org/extension/tonictypes)
-- Product / shop: [https://www.tonictypes.com](https://www.tonictypes.com)
 - T3Planet product page: [https://t3planet.de/tonictypes](https://t3planet.de/tonictypes)
 - T3Planet support: [https://t3planet.de/support](https://t3planet.de/support)
 - License activation: [License](/en/latest/License/Index)

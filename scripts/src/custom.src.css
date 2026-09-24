@@ -5797,7 +5797,7 @@ html.t3-mobile-nav-open .t3-drawer-close {
 @media (min-width: 1024px) {
   #footer.advanced-footer,
   footer#footer {
-    margin-top: 2.5rem;
+    margin-top: 1rem !important;
   }
 }
 
@@ -5821,7 +5821,7 @@ html.t3-mobile-nav-open .t3-drawer-close {
   }
 
   #footer > div {
-    padding: 1.75rem 1.25rem 5rem !important; /* bottom room for FAB only here */
+    padding: 1.5rem 1.25rem 3rem !important; /* FAB clearance without huge empty band */
     gap: 1.5rem !important;
     max-width: 100% !important;
   }
@@ -7311,4 +7311,95 @@ a.t3-docs-back {
     border: none !important;
     background: transparent !important;
   }
+}
+
+/* === T3 FOOTER FLUSH SPACING 2026-09-24 ================================
+   Live-style footer: no empty band above/below.
+   Causes removed:
+   - Mintlify #content.mb-14 (~56px)
+   - Chat-assistant sticky spacer (~86px) + ::before 200px fade
+   - Oversized footer margin-top on desktop (was 2.5rem)
+   - Landing padding-bottom xl (3rem)
+   ===================================================================== */
+
+/* Collapse Mintlify prose bottom gutter (all viewports) */
+#content.mdx-content,
+#content.prose,
+.mdx-content#content,
+#content {
+  margin-bottom: 0 !important;
+}
+
+/* Kill in-flow height of Ask-Assistant sticky dock (live marks it
+   .invisible but visibility:hidden still reserves ~86px). */
+#content-area > div.sticky.bottom-0,
+#content-area > div[class*="sticky"][class*="bottom-0"] {
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  border: 0 !important;
+}
+
+#content-area .chat-assistant-floating-input,
+#content-area .chat-assistant-floating-input::before {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Pagination sits close to footer */
+#pagination,
+[data-component-part="pagination"],
+nav[aria-label*="pagination" i] {
+  margin-top: 1.25rem !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Footer flush to preceding content */
+#footer.advanced-footer,
+footer#footer,
+#footer {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Compact inner footer padding (override Mintlify py-28) */
+#footer > div {
+  padding-top: 2rem !important;
+  padding-bottom: 1.25rem !important;
+}
+
+@media (min-width: 768px) {
+  #footer > div {
+    padding-top: 2.25rem !important;
+    padding-bottom: 1.35rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  #footer > div {
+    padding-top: 2.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+}
+
+/* Landing pages: stop leftover breath under CTA */
+.t3-home-landing,
+.t3-hub-landing,
+.t3-template-landing {
+  padding-bottom: 0.75rem !important;
+  margin-bottom: 0 !important;
+}
+
+.t3-cta-banner {
+  margin-bottom: 0 !important;
 }

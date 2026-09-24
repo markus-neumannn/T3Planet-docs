@@ -11,6 +11,7 @@ sidebarTitle: "Revolution Slider"
 
 <CardGroup cols={2}>
   <Card title="Introduction" icon="book-open" href="/en/latest/ExtNsRevolutionSlider/Introduction/Index" />
+  <Card title="Installation" icon="download" href="/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/Installation/Index" />
   <Card title="Known Issues" icon="bug" href="/en/latest/ExtNsRevolutionSlider/KnownIssues/Index" />
   <Card title="Slider Revolution Latest (>= v12)" icon="gallery-horizontal" href="/en/latest/ExtNsRevolutionSlider/RevolutionSliderLatest/Index" />
   <Card title="Slider Revolution v3" icon="gallery-horizontal" href="/en/latest/ExtNsRevolutionSlider/RevolutionSlider3.0/Index" />

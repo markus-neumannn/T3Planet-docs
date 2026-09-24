@@ -1,0 +1,30 @@
+---
+description: Production deploy safety — no force push, no excluded paths, verify live
+alwaysApply: true
+---
+
+# Deployment safety (T3Planet Docs)
+
+When deploying or when the user says **start deployment** / **deploy docs**, follow `docs/deployment/deploy.md` and `.cursor/skills/t3planet-deploy/SKILL.md`.
+
+## Must
+
+1. Inspect remote, branch, identity, and full diff before commit.
+2. Push only to `origin` → `nitsan-technologies/T3Planet-docs` (`master`) unless operator redirects.
+3. Commit as **Markus** `<248457632+markus-neumannn@users.noreply.github.com>` (author env OK; do not forge tokens).
+4. Stage an explicit file list; verify `git diff --cached --name-only`.
+5. Re-verify Mintlify Git connection before claiming live updated.
+6. Run post-deploy live QA; report with evidence.
+7. Use `NOT VERIFIED` when a check could not be done.
+
+## Must not
+
+1. Force push.
+2. Expose credentials, tokens, or `.env`.
+3. Blind `git add .` / `git add -A`.
+4. Stage, commit, push, or deploy **`docs-master/`** or **`workshops/`**.
+5. Delete/reset those excluded trees.
+6. Claim PASS from GitHub push alone.
+7. Silently reconnect or rewrite Mintlify project settings.
+
+Mintlify still on `markus-neumannn/t3planet-docs` while pushing org-only → live will lag; prefer reconnect, emergency fork sync only if authorized and urgent (see `mintlify-deployment.mdc`).

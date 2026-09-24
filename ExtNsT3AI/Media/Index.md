@@ -1,157 +1,158 @@
 ---
 title: "T3AI Media"
-description: "Make AIgenerated images, audio, and videos quickly and easily. Use trusted tools like DALLE, MidJourney, Stability AI, Unsplash, Openverse, and Pixabay to create your media."
+description: "Generate AI images in T3AI Media with OpenAI, MidJourney, Stability AI, Unsplash, Openverse, Pixabay, and Pexels. Configure an AI provider or use T3Planet Credits for generation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AI"
   - "T3AI Media"
+  - "T3Planet Credits"
 sidebarTitle: "T3AI Media"
 ---
 
-Make AI-generated images, audio, and videos quickly and easily. Use trusted tools like DALL-E, MidJourney, Stability AI, Unsplash, Openverse, and Pixabay to create your media.
+Use **T3AI Media** to create AI images, then save results into a selected fileadmin folder.
 
-## DALL-E AI Images
+## Requirements
+
+- Select a **fileadmin folder** in the folder tree of the Media dialog before you generate. Saved images go into that folder.
+- AI Foundation must provide image generation access through a configured **Provider** or active **T3Planet Credits**. For Unsplash, Openverse, Pixabay, and Pexels, also configure the matching **Provider** access for your installation.
 
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkhpxd0z50130uzyzl117z?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Your T3AI’s image generation capabilities are now even stronger with DALL-E integration. Create high-quality AI-generated images with just one click!
+See [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index), [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index), [AI Settings](/en/latest/ExtNsT3AI/AISettings/Index), and [Configuration](/en/latest/ExtNsT3AI/Configuration/Index).
 
-**Note: Before Starting AI image generation, you need to select folders from Your folder tree.**
+## Available features
 
-**Step 1** : Navigate to Your T3AI Module and select the Media tab.
+| Feature | Media card action |
+| --- | --- |
+| DALL-E AI Image | **Create AI Image** |
+| MidJourney | **Build AI Image** |
+| Stability AI | **Craft AI Image** |
+| Unsplash | **Get AI Image** |
+| Openverse | **Access Image** |
+| Pixabay | **Collect Image** |
+| Pexels | **Get Image** |
 
-**Step 2** : Open the “ Dall-E AI images“ module.
+Shared action in the dialog: **Explore Images**.
 
-**Step 3** : Enter the AI image prompt describing the image you want to create.
+## DALL-E AI Image {#dall-e-ai-images}
 
-- Choose the image style, like realistic or sketch.
-- Select the image size that fits your needs.
-- Enter the number of image results you want to generate.
-- Click the “Generate AI Image” button.
+Generate images from a text prompt with DALL-E. Results appear in the dialog so you can save them to the selected folder.
 
-**Step 4** : Select the image you want to save. Additionally, you can sort the images in either row or list format.
+### How to use
 
-**Step 5** : Click the “Save Image” button, and your AI-generated image will be saved in the appropriate folder.
+1. Open **AI Assistant** and select the **Media** tab.
+2. Click **Create AI Image**.
+3. Select the target folder in the folder tree.
+4. Enter your prompt in the image prompt field.
+5. Click **Explore Images**.
+6. Review the results, then click **Save** to store the selected image in the folder.
+7. Close the dialog with **Cancel** when you are finished.
+
+### Demo
+
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraqpvtz1crwqmhxktl7vjx2?embed_v=2&utm_source=embed" loading="lazy" title="DALL-E AI Image" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## MidJourney AI Images
 
+Generate images from a text prompt with MidJourney. Enter a prompt, run **Explore Images**, and save the result to the selected folder.
+
+### How to use
+
+1. Open **AI Assistant** and select the **Media** tab.
+2. Click **Build AI Image**.
+3. Select the target folder in the folder tree.
+4. Enter your prompt (placeholder: **Type your prompt here**).
+5. Click **Explore Images**.
+6. Review the generated images and save the one you need.
+
+### Demo
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmue6na4g09juqm4th7mc8v04?embed_v=2&utm_source=embed" loading="lazy" title="T3AI - Midjourney" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Create any image you can imagine in seconds! With T3AI’s powerful integration with Midjourney AI, you can create high-quality images from simple text prompts for free. Just type a description of the image you want, and you’ll get amazing results.
-
-**Note: Before Starting AI image generation, you need to select folders from Your folder tree.**
-
-**Step 1** : Navigate to Your T3AI Module and select the Media tab.
-
-**Step 2** : Open the **“MidJourney“** module.
-
-**Step 3** : Enter the AI image prompt describing the image you want to create.
-
-- Click the **“Generate AI Image”** button.
-
-**Step 4** : Select the image you want to save. Additionally, you can sort the images in either row or list format.
-
-**Step 5** : Click the “Save Image” button, and your AI-generated image will be saved in the appropriate folder.
 
 ## Stability AI Images
 
+Generate images from a text prompt with Stability AI. Use **Craft AI Image**, then **Explore Images**, and save the result.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqklmcs0za6130urytvd8w4?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Create cutting-edge AI images and videos with advanced AI technology. Stability AI media can do it with one click!
+### How to use
 
-**Step 1** : Navigate to Your T3AI Module and select the Media tab.
+1. Open **AI Assistant** and select the **Media** tab.
+2. Click **Craft AI Image**.
+3. Select the target folder in the folder tree.
+4. Enter your image prompt.
+5. Click **Explore Images**.
+6. Click **Save** to store the generated image.
 
-**Step 2** : Open the **“Stability“** module.
+### Demo
 
-![Manage glossary](./images/media-8.webp)
-
-**Step 3** : Enter the AI image prompt describing the image you want to create.
-
-> Click the **“Generate AI Image”** button.
-
-**Step 4** : Select the image you want to save. Additionally, you can sort the images in either row or list format.
-
-**Step 5** : Click the “Save Image” button, and your AI-generated image will be saved in the appropriate folder.
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraqyvk01egeqmhxy26psv3d?embed_v=2&utm_source=embed" loading="lazy" title="Stability AI" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Unsplash AI
 
+Generate images with Unsplash from a text prompt, then save selected results to the selected folder.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkmi8z0zb6130utw8gvpbm?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Looking for a collection of stock images? Explore a diverse selection of AI-generated images, perfect for any project or theme. Easily integrated into your work, these images are ready to enhance your creativity.
+### How to use
 
-**Step 1** : Navigate to Your T3AI Module and select the Media tab.
+1. Open **AI Assistant** and select the **Media** tab.
+2. Click **Get AI Image**.
+3. Select the target folder in the folder tree.
+4. Enter your image prompt.
+5. Click **Explore Images**.
+6. Review the results and save the image you want.
 
-**Step 2** : Open the **“Unsplash“** module.
+### Demo
 
-**Step 3** : Enter the AI image prompt describing the image you want to create.
-
-- Click the **“Generate AI Image”** button.
-
-**Step 4** : Select the image you want to save. Additionally, you can sort the images in either row or list format.
-
-**Step 5** : Click the **“Save Image”** button, and your AI-generated image will be saved in the appropriate folder.
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrar00ng1el4qmhxadb8be0z?embed_v=2&utm_source=embed" loading="lazy" title="Unsplash" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Openverse AI
 
+Generate images with Openverse from a text prompt and save selected results to the selected folder.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqknksy0zda130u8yqeb2jx?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Discover a vast collection of freely licensed media. Easily search for and use images, audio, and videos from Openverse for all your creative projects. Whether you’re working on a website, presentation, or any other project, Openverse provides high-quality resources that are easy to integrate and use.
+### How to use
 
-**Step 1** : Navigate to Your T3AI Module and select the Media tab.
+1. Open **AI Assistant** and select the **Media** tab.
+2. Click **Access Image**.
+3. Select the target folder in the folder tree.
+4. Enter your image prompt.
+5. Optionally click the lightbulb icon to refine the prompt.
+6. Select a value in the **Size** dropdown (for example **Small**).
+7. Set the number of images in the **Use Default** dropdown.
+8. Click **Explore Images**.
 
-**Step 2** : Open the [**](#id1)“Openverse“* module.
+### Demo
 
-**Step 3** : Enter the AI image prompt describing the image you want to create.
-
-- Add Proper Image size & Number of images you want to create.
-- Click the **“Generate AI Image”** button.
-
-**Step 4** : Select the image you want to save. Additionally, you can sort the images in either row or list format.
-
-**Step 5** : Click the **“Save Image”** button, and your AI-generated image will be saved in the appropriate folder.
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmuf5hlb30mdaqmg17z3ayqg3?embed_v=2&utm_source=embed" loading="lazy" title="T3AI - Openverse" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Pixabay
 
+Generate images with Pixabay from a text prompt and save selected results to the selected folder.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkoe5s0zeo130uin27pkh8?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Choose from a wide variety of images and videos to fit any project with Pixabay integration. Whether you’re designing a website, creating a presentation, or working on a marketing campaign, Pixabay offers a rich collection of high-quality media that’s easy to access and use in your projects.
+### How to use
 
-**Step 1** : Navigate to Your T3AI Module and select the Media tab.
+1. Open **AI Assistant** and select the **Media** tab.
+2. Click **Collect Image**.
+3. Select the target folder in the folder tree.
+4. Enter your image prompt (placeholder: **Type your prompt here**).
+5. Set the number of images in the **Use Default** dropdown.
+6. Click **Explore Images**.
 
-**Step 2** : Open the **“Pixabay“** module
+### Demo
 
-**Step 3** : Enter the AI image prompt describing the image you want to create.
-
-- Add Proper Image size & Number of images you want to create.
-- Select the Number of images you want to create.
-
-**Step 4** : Select the image you want to save. Additionally, you can sort the images in either row or list format.
-
-**Step 5** : Click the **“Save Image”** button, and your AI-generated image will be saved in the appropriate folder.
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmuf66m0s0n2yqmg1lhmk9e3s?embed_v=2&utm_source=embed" loading="lazy" title="T3AI - Pixabay" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 
 ## Pexels
 
+Generate images with Pexels from a text prompt and save selected results to the selected folder.
 
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmfqkpjae0zga130uix5y1g49?embed_v=2&utm_source=embed" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Generate and use high-quality, free stock photos from Pexels to easily enhance your content. Whether you’re working on a blog, social media post, or any other project, Pexels provides a wide selection of beautiful images that can be seamlessly integrated to make your content stand out.
+### How to use
 
-**Step 1** : Navigate to Your T3AI Module and select the Media tab.
+1. Open **AI Assistant** and select the **Media** tab.
+2. Click **Get Image**.
+3. Select the target folder in the folder tree.
+4. Enter your image prompt.
+5. Select a value in the **Size** dropdown.
+6. Set the number of images in the **Use Default** dropdown.
+7. Click **Explore Images**.
 
-**Step 2** : Open the **“Pexels“** module.
+### Demo
 
-**Step 3** : Enter the AI image prompt describing the image you want to create.
-
-- Add Proper Image size & Number of images you want to create.
-- Select the Number of images you want to create.
-
-**Step 4** : Select the image you want to save. Additionally, you can sort the images in either row or list format.
-
-**Step 5** : Click the **“Save Image”** button, and your AI-generated image will be saved in the appropriate folder.
-
-## Interactive demos
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmraqyvk01egeqmhxy26psv3d?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-
-<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrar00ng1el4qmhxadb8be0z?utm_source=link" loading="lazy" title="AI Co pilot" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-
+<div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmuf687a00n8hqmg1ac4afhqa?embed_v=2&utm_source=embed" loading="lazy" title="T3AI - Pexels" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
