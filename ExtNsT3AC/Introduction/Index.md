@@ -26,8 +26,8 @@ For the shared setup, see:
 
 ### System Requirements
 
-- TYPO3 v11 - v13
-- PHP v8.2 - v8.4
+- TYPO3 v12 – v14 (same range as AI Foundation)
+- PHP 8.2 or higher
 
 **Required TYPO3 Extensions:**
 
