@@ -10,8 +10,8 @@ sidebarTitle: "System Requirements"
 
 Here are the requirements to install, configure, and use T3AA.
 
-- PHP v7.4 - v8.4
-- TYPO3 v11 - v13
+- TYPO3 v12 – v14 (12.4 LTS, 13.4 LTS, 14.x)
+- PHP 8.2 or higher
 - EXT:backend
 - EXT:filelist
 - EXT:dashboard

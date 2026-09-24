@@ -32,8 +32,8 @@ Instead of only showing a list of links, visitors get a clear answer with option
 
 ### System Requirements
 
-- TYPO3 v12 – v13
-- PHP v8.2 – v8.4
+- TYPO3 v12 – v14 (same range as AI Foundation)
+- PHP 8.2 or higher
 
 **Required extensions:**
 

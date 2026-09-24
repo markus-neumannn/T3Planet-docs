@@ -9,10 +9,10 @@ keywords:
 sidebarTitle: "System Requirements"
 ---
 
-Here is the pre-requeist to install, configure and use T3AI TYPO3 AI extension.
+Here are the requirements to install, configure and use T3AI. T3AI follows the AI Universe range of AI Foundation.
 
-- PHP v7.4 - v8.4
-- TYPO3 v11 - v13
+- TYPO3 v12 – v14 (12.4 LTS, 13.4 LTS, 14.x)
+- PHP 8.2 or higher
 - EXT:backend
 - EXT:filelist
 - EXT:dashboard
