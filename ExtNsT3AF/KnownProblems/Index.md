@@ -13,7 +13,7 @@ Known issues for **EXT:ns_t3af** (June 2026). Check release notes for fixes in n
 
 ## Installation
 
-**``extension:setup`` fails on non-Composer install**
+**`extension:setup` fails on non-Composer install**
 
 Run autoload merge in Install Tool. Confirm PHP 8.2 or higher. Ensure `scheduler` and `workspaces` are active.
 
@@ -33,7 +33,7 @@ Check model ID, API key, and outbound HTTPS. Verify the model exists on your ven
 
 **Empty token after activate**
 
-Verify license domain matches site URL. Re-save license keys at [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
+Check that the server can reach the T3Planet API over HTTPS, flush caches, then click **Activate** again. No licence key is involved.
 
 ## MCP
 
@@ -41,7 +41,7 @@ Verify license domain matches site URL. Re-save license keys at [https://docs.t3
 
 Wrap the command so the working directory is correct:
 
-```
+```text
 bash -lc 'cd /project && ddev exec php vendor/bin/typo3 ns_t3af:mcp:serve --no-startup-message -u admin -w 0'
 ```
 
@@ -49,7 +49,7 @@ bash -lc 'cd /project && ddev exec php vendor/bin/typo3 ns_t3af:mcp:serve --no-s
 
 Check backend user permissions and active workspace. User needs rights on the target table.
 
-**``write_table`` creates hidden records**
+**`write_table` creates hidden records**
 
 Set `hidden=0` after create, or adjust permissions. Test in draft workspace `1` first.
 
@@ -63,7 +63,7 @@ Incorrect for current `ns_t3af`. Use TYPO3 12.4+ and PHP 8.2+. See [System Requi
 
 Flush all caches. Confirm extension is active. Re-run:
 
-```
+```text
 vendor/bin/typo3 extension:setup -e ns_t3af
 vendor/bin/typo3 cache:flush
 ```

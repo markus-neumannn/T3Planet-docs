@@ -31,16 +31,13 @@ TYPO3 12.4–14.x with PHP 8.2 or higher. See [System Requirements](/en/latest/E
 
 With Composer (`composer require nitsan/ns-t3af`) or from the TYPO3 Extension Repository. See [Installation](/en/latest/ExtNsT3AF/Installation/Index).
 
-**How do I activate the OSS license key?**
+**Do I need a licence key?**
 
-Open **T3Planet Shop** > **AI Universe** >
-**AI Foundation** and click **Start**. See
-[Installation](/en/latest/ExtNsT3AF/Installation/Index).
+No. AI Foundation is 100% free and open source (GPL-2.0-or-later). There is no licence key, no registration and no activation, on any domain, production included.
 
 **Is a commercial license required?**
 
-No. AI Foundation is OSS (GPL-2.0-or-later). Activate the OSS license key as
-described above. T3Planet Credits is optional and pays for AI usage only.
+No. T3Planet Credits is optional and pays for AI usage only.
 
 **Composer reports a conflict with another MCP package.**
 
@@ -72,8 +69,7 @@ Model Context Protocol connects AI clients such as Cursor to your TYPO3 instance
 AI Foundation is self-hosted. With **Your Own API Keys**, prompts and responses
 go from your server to the AI provider you configure. T3Planet is not in that
 AI data path. With [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index) active,
-billable AI calls go through T3Planet and use your credit balance. OSS license
-validation only sends the license key and domain.
+billable AI calls go through T3Planet and use your credit balance. AI Foundation itself has no licence check and sends nothing to T3Planet.
 
 ## Still stuck?
 

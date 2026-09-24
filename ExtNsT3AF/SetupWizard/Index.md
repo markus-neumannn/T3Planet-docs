@@ -11,7 +11,7 @@ sidebarTitle: "Quick Setup"
 
 ## Purpose
 
-The Quick Setup wizard guides you through first-time configuration. **Go live in 7 steps.**
+The Quick Setup wizard guides you through first-time configuration in 8 steps. Every step can be skipped and configured later from the matching module tab.
 
 **Path:** T3AF → Quick Setup
 
@@ -24,25 +24,27 @@ The Quick Setup wizard guides you through first-time configuration. **Go live in
 ## Before you start
 
 - TYPO3 admin login
-- T3Planet license key (see [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index))
-- Decision: Your Own API Keys (BYOK) or T3Planet Credits
-- About 15 minutes
+- Decision: Your Own API Keys (BYOK, the default) or AI Credits
+- No licence key: AI Foundation is free and open source
+- A few minutes
 
 ## Wizard steps
 
-**Step 1 — Welcome** — Overview of what T3AF does.
+**Step 1 — Welcome** — Overview of what will be configured.
 
-**Step 2 — License** — Verify your T3Planet license key.
+**Step 2 — Mode** — Choose **Your Own API Keys** or **AI Credits**.
 
-**Step 3 — Provider** — Add your first AI provider (API key and model).
+**Step 3 — Provider** — Pick the AI provider that powers your extensions.
 
-**Step 4 — Test connection** — Confirm the test is green before continuing.
+**Step 4 — API Key** — Enter the key for that provider.
 
-**Step 5 — Credits** — Choose BYOK or T3Planet Credits.
+**Step 5 — Extensions** — Enable the AI extensions you use.
 
-**Step 6 — MCP** — Optionally enable the MCP server.
+**Step 6 — Context** — Set a brand context profile.
 
-**Step 7 — Complete** — Summary and links to next tasks.
+**Step 7 — MCP** — Optionally enable the MCP server.
+
+**Step 8 — Done** — Summary and links to next tasks.
 
 ## Why use the wizard
 

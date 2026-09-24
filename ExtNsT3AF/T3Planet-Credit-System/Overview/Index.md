@@ -22,8 +22,8 @@ T3Planet Credits is T3Planet’s managed AI access in AI Foundation (`ns_t3af`):
 
 ## Requirements
 
-- A valid OSS license key (`EXT:ns_license`)
 - AI Foundation (`EXT:ns_t3af`) installed and active
+- Your name and email to start the account (no licence key)
 
 ## What’s covered
 
@@ -48,12 +48,12 @@ When Credits is active, it can cover:
 
 - **Selected** — Credits card chosen; token not yet issued. Complete
 Activate to finish setup.
-- **Active** — License available and token ready. AI can run through Credits.
+- **Active** — Account connected and token ready. AI can run through Credits.
 
 ## When to use Credits
 
 - You want AI without managing vendor keys
-- You want one shared credit pool
+- You want one credit balance across all your installs
 
 Use Own API Keys when you already manage vendor keys yourself.
 
