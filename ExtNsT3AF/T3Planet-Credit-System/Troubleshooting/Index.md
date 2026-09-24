@@ -19,10 +19,11 @@ Before digging into individual symptoms:
 
 ## Activation failed
 
-1. Check the OSS license key is valid and assigned to this project
-2. Confirm the license domain matches the current site domain
-3. Check the server can reach the composer API
+1. Check the server can reach the T3Planet API (outbound HTTPS)
 4. Flush caches → retry Activate
+3. Still failing? Open [Support](/en/latest/ExtNsT3AF/Support/Index) with the exact error text
+
+No licence key or domain registration is involved in activation.
 
 ## Balance missing
 

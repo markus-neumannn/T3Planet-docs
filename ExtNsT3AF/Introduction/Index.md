@@ -19,9 +19,7 @@ sidebarTitle: "Introduction"
 
 AI Foundation connects TYPO3 to AI models, manages API keys, exposes an MCP server for AI agents, and logs every request — so your team uses AI in a safe, consistent way. Editors work through connected extensions such as AI Assistant or AI Chatbot. Admins configure everything in the **AI Foundation** backend module group.
 
-AI Foundation is OSS (GPL-2.0-or-later) for development and production.
-Activate with an OSS license key via **T3Planet Shop** >
-**AI Universe** > **AI Foundation** > **Start**.
+AI Foundation is 100% free and open source (GPL-2.0-or-later) for development and production. No licence key, no registration and no activation: install it and start configuring.
 
 ### Key capabilities
 
@@ -39,7 +37,7 @@ Activate with an OSS license key via **T3Planet Shop** >
 <Note>
 - Product: [https://t3planet.de/en/ai-foundation-for-typo3](https://t3planet.de/en/ai-foundation-for-typo3)
 - Get support: [https://t3planet.de/support](https://t3planet.de/support)
-- License activation: [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
+- Installation: [Install AI Foundation](/en/latest/ExtNsT3AF/Installation/Index)
 </Note>
 
 ## Video Tutorials
@@ -60,7 +58,7 @@ Next: [Dashboard](/en/latest/ExtNsT3AF/Configuration/Dashboard/Index)
 
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmrbnnxgy0cp3qmo5e1ciofeq?utm_source=link" loading="lazy" title="T3AF Quick Setup Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
-Learn how to activate AI Foundation and complete first-time setup.
+Learn how to install AI Foundation and complete first-time setup.
 
 Next: [Installation](/en/latest/ExtNsT3AF/Installation/Index)
 

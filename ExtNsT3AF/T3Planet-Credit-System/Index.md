@@ -28,10 +28,10 @@ On **AI Providers** choose **Your Own API Keys** or **T3Planet Credits**.
 
 - Optional add-on for AI Foundation
 - Pays for AI usage only
-- Does not replace the OSS license key
+- No licence key needed: start it with your name and email, which creates your account
 - Credits are used only when billable AI requests run through T3Planet
-- You'll receive 50 credits once upon signup
-- One shared credit balance for this installation
+- 50 free trial credits, once per account
+- One balance on your account, usable on any install (development, staging and production)
 - Balance on the Dashboard and AI Providers Credits panel
 - Usage history in **AI Usage** (provider `t3planet_credits`)
 
@@ -51,10 +51,9 @@ When Credits is active, billable AI requests go to T3Planet and reduce your cred
 
 ## Licensing and billing
 
-- AI Foundation is 100% OSS (GPL-2.0-or-later)
-- Activate the OSS license key via **T3Planet Shop** > **AI Universe** > **AI Foundation** > **Start**
-- T3Planet Credits covers AI usage only
-- Credits never replace the OSS license key
+- AI Foundation is 100% free and open source (GPL-2.0-or-later), with no licence key
+- T3Planet Credits covers AI usage only and is never a licence
+- No licence key is needed to start or spend credits
 - Plan credits never roll over
 
 ## Where to configure it
