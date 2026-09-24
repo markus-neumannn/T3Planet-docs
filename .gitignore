@@ -12,6 +12,8 @@ visual-regression/
 
 # Local Sphinx clone / legacy build — never publish (bloated pages + huge tree)
 Live-docs/
+!docs/deployment/
+!docs/deployment/**
 docs/
 docs/_build/
 docs-master/
