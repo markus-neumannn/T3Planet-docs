@@ -68,7 +68,7 @@ composer clear-cache
 ```python
 composer update nitsan/ns-license
 
-vendor/bin/typo3 typo3 extension:setup
+vendor/bin/typo3 extension:setup
 ```
 
 **Step 5.** Run Composer Command
@@ -94,7 +94,7 @@ composer req nitsan/ns-revolution-slider --with-all-dependencies
 ```
 
 ```python
-vendor/bin/typo3 typo3 extension:setup
+vendor/bin/typo3 extension:setup
 ```
 
 <Note>
@@ -111,8 +111,8 @@ To migrate Asset path please follow below Steps,
 
 **Step 2:** Click on Run Upgrade wizard
 
-> [![TYPO3-Revolution-Slider](./images/Upgarde_wizard.webp)](./images/Upgarde_wizard.webp)
+> ![TYPO3-Revolution-Slider](./images/Upgarde_wizard.webp)
 
 **Step 3:** Click on Execute Button
 
-> [![TYPO3-Revolution-Slider](./images/Migrate_asset_path.webp)](./images/Migrate_asset_path.webp)
+> ![TYPO3-Revolution-Slider](./images/Migrate_asset_path.webp)
