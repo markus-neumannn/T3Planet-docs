@@ -10,11 +10,11 @@ sidebarTitle: "Overview"
 
 ## Purpose
 
-Explain what T3Planet Credits is and when to use it.
+Explain what AI Credits is and when to use it.
 
 ## What it is
 
-T3Planet Credits is T3Planet’s managed AI access in AI Foundation (`ns_t3af`):
+AI Credits is T3Planet’s managed AI access in AI Foundation (`ns_t3af`):
 
 - You do **not** need your own OpenAI / Anthropic / similar keys for billable AI
 - AI Foundation sends those calls to T3Planet
@@ -37,7 +37,7 @@ When Credits is active, it can cover:
 
 ## Own API Keys vs Credits
 
-|  | Own API Keys | T3Planet Credits |
+|  | Own API Keys | AI Credits |
 | --- | --- | --- |
 | Your API keys | Required | Not used for AI calls |
 | Who runs AI | Vendor API (direct) | T3Planet |
@@ -69,7 +69,7 @@ Opening modules or only switching the card does **not** use credits.
 **Turn on**
 
 1. Open AI Foundation > AI Providers
-2. Choose T3Planet Credits
+2. Choose AI Credits
 3. Click Activate if shown
 4. Success message → page reload
 

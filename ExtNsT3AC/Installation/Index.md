@@ -120,13 +120,13 @@ Use this mode when you want to connect your own AI vendor accounts. You store
 and manage your API keys (for example OpenAI, Anthropic, Gemini) in AI
 Foundation and run AI features through those providers.
 
-**T3Planet Credits**
+**AI Credits**
 
-**T3Planet Credits** is T3Planet’s managed AI access for AI Foundation. It lets
+**AI Credits** is T3Planet’s managed AI access for AI Foundation. It lets
 your TYPO3 site use AI features **without storing or managing your own vendor
 API keys**.
 
-**Link for T3Planet Credits:** [T3Planet Credits Documentation](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
+**Link for AI Credits:** [AI Credits Documentation](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ### Option 1 — Extension Manager (TER)
 
@@ -151,7 +151,7 @@ Helpful AI Foundation references:
 - [AI Foundation Installation](/en/latest/ExtNsT3AF/Installation/Index)
 - [AI Foundation Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
 - [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
-- [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
+- [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ## Premium Version
 

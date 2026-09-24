@@ -1,28 +1,28 @@
 ---
-title: "T3Planet Credits"
-description: "T3Planet Credits — managed AI access for AI Foundation without storing your own vendor API keys."
+title: "AI Credits"
+description: "AI Credits: optional managed AI access for AI Foundation, without storing your own vendor API keys. No licence key needed."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "ExtNsT3AF"
   - "Credits"
   - "BYOK"
-sidebarTitle: "T3Planet Credits"
+sidebarTitle: "AI Credits"
 ---
 
-**T3Planet Credits** is T3Planet’s managed AI access for AI Foundation. Use it when you want AI features **without storing or managing your own vendor API keys**.
+**AI Credits** is T3Planet’s managed AI access for AI Foundation. Use it when you want AI features **without storing or managing your own vendor API keys**.
 
 When Credits is active, billable AI requests go to T3Planet. T3Planet runs the AI work and reduces your credit balance. In **AI Usage**, those requests are stored with provider id `t3planet_credits`.
 
 **Path:** **AI Foundation > AI Providers**
 
 <Note>
-On **AI Providers** choose **Your Own API Keys** or **T3Planet Credits**.
+On **AI Providers** choose **Your Own API Keys** or **AI Credits**.
 </Note>
 
-![AI Foundation Dashboard in T3Planet Credits mode with balance, credit burn, and spend by extension](images/t3planet-credits-dashboard.webp)
+![AI Foundation Dashboard in AI Credits mode with balance, credit burn, and spend by extension](images/t3planet-credits-dashboard.webp)
 
-*Dashboard — **T3Planet Credits** mode with remaining balance, credit burn over time, and spend by extension.*
+*Dashboard — **AI Credits** mode with remaining balance, credit burn over time, and spend by extension.*
 
 ## What it is
 
@@ -41,25 +41,25 @@ On **AI Providers** choose **Your Own API Keys** or **T3Planet Credits**.
 - Not required when you use your own API keys
 - Not a license for AI Foundation
 
-## BYOK vs T3Planet Credits
+## BYOK vs AI Credits
 
 **BYOK / Your Own API Keys (default)** — Your TYPO3 server sends prompts directly to the provider you configure.
 
-**T3Planet Credits (optional)** — T3Planet routes your content to third-party model providers on your behalf. Credits pay for usage only.
+**AI Credits (optional)** — T3Planet routes your content to third-party model providers on your behalf. Credits pay for usage only.
 
 When Credits is active, billable AI requests go to T3Planet and reduce your credit balance. Saved BYOK providers stay in the database and return when you switch back to **Your Own API Keys**.
 
 ## Licensing and billing
 
 - AI Foundation is 100% free and open source (GPL-2.0-or-later), with no licence key
-- T3Planet Credits covers AI usage only and is never a licence
+- AI Credits covers AI usage only and is never a licence
 - No licence key is needed to start or spend credits
 - Plan credits never roll over
 
 ## Where to configure it
 
 1. Open **AI Foundation > AI Providers**.
-2. Choose **T3Planet Credits**.
+2. Choose **AI Credits**.
 3. Complete **Activate** if shown.
 
 Default stays **Own API Keys** until you select Credits and finish activation.

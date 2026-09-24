@@ -19,7 +19,7 @@ sidebarTitle: "Get This Extension"
 
 - Multi-provider AI gateway (OpenAI, Claude, Gemini, Mistral, and more)
 - Encrypted API key storage
-- Optional T3Planet Credits billing
+- Optional AI Credits billing
 - MCP server for AI agents (Cursor, Claude Desktop, n8n)
 - AI Context, Prompts, and per-feature provider settings
 - Usage charts, request logs, and governance controls

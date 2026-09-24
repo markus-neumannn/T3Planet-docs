@@ -43,7 +43,7 @@ Check model ID spelling, outbound HTTPS, and vendor service status. See [Known P
 
 **Toggle is ON but AI fails.**
 
-Click **Activate** after enabling credits. The toggle alone is not enough. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
+Click **Activate** after enabling credits. The toggle alone is not enough. See [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
 
 **Own keys vs credits?**
 

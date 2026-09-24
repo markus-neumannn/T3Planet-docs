@@ -22,9 +22,7 @@ image generation) and describes **technical data-management capabilities**.
   separate processor. See [Translation](/en/latest/ExtNsT3AI/Translation/Index).
 - Disable unused image/stock features (DALL-E, MidJourney, Stability,
   Unsplash, Openverse, Pixabay, Pexels). See [Media](/en/latest/ExtNsT3AI/Media/Index).
-- All LLM traffic goes through AI Foundation — same **BYOK vs Credits**
-  choice as T3AF. See
-  [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
+- All LLM traffic goes through AI Foundation — same **BYOK vs Credits** choice as T3AF. See [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 ## Data Processing Agreement (DPA) Considerations
 

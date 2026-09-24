@@ -19,7 +19,7 @@ The Dashboard is your **control center** for AI health on this TYPO3 instance. O
 
 - **Provider status** — Connected, failed, or not tested
 - **Default provider** — Active model name
-- **T3Planet Credits** — Balance and plan (if credits mode is enabled)
+- **AI Credits** — Balance and plan (if credits mode is enabled)
 - **Recent usage** — Last requests and token count
 - **Quick actions** — Links to AI Providers, MCP Server, and Quick Setup
 
@@ -27,7 +27,7 @@ The Dashboard is your **control center** for AI health on this TYPO3 instance. O
 
 1. Open Dashboard
 2. Confirm provider status is **green**
-3. Check credit balance if you use T3Planet Credits
+3. Check credit balance if you use AI Credits
 4. Skim **AI Logs** if usage looks unusual — see [AI Usage & Logs](/en/latest/ExtNsT3AF/AIUsageAndLogs/Index)
 
 ## Status meanings

@@ -50,7 +50,7 @@ Pick a model that supports what you need. **Test connection** validates your cho
 
 **Your Own API Keys (BYOK)** — Pay the vendor directly. This is the default mode.
 
-**T3Planet Credits** — Toggle in AI Providers, then click **Activate**. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
+**AI Credits** — Toggle in AI Providers, then click **Activate**. See [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
 
 ## Troubleshooting
 
@@ -72,11 +72,11 @@ Pick a model that supports what you need. **Test connection** validates your cho
 ## Where to get API keys
 
 <Note>
-- OpenAI: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
-- Anthropic: [https://console.anthropic.com/](https://console.anthropic.com/)
-- Google Gemini: [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-- Mistral: [https://console.mistral.ai/](https://console.mistral.ai/)
-- Azure OpenAI: [https://portal.azure.com/](https://portal.azure.com/)
+  - OpenAI: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+  - Anthropic: [https://console.anthropic.com/](https://console.anthropic.com/)
+  - Google Gemini: [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+  - Mistral: [https://console.mistral.ai/](https://console.mistral.ai/)
+  - Azure OpenAI: [https://portal.azure.com/](https://portal.azure.com/)
 </Note>
 
 More links: [Helpful Links](/en/latest/ExtNsT3AF/HelpfulLinks/Index)

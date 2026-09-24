@@ -24,7 +24,7 @@ AI Foundation is 100% free and open source (GPL-2.0-or-later) for development an
 ### Key capabilities
 
 - **AI Providers** — Connect OpenAI, Claude, Gemini, and other vendors with encrypted API keys
-- **T3Planet Credits** — Optional add-on for AI usage without your own vendor API keys
+- **AI Credits** — Optional add-on for AI usage without your own vendor API keys
 - **MCP Server** — Expose TYPO3 to Cursor, Claude Desktop, and other MCP clients
 - **AI Context** — Store brand voice once for on-brand AI output
 - **AI Prompts & Features** — Shared prompt templates and per-feature provider assignment

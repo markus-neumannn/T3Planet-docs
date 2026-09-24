@@ -1,19 +1,19 @@
 ---
-title: "T3Planet Credits"
-description: "T3Planet Credits for EXT:ns_t3af (T3AF)."
+title: "AI Credits"
+description: "AI Credits for EXT:ns_t3af (T3AF)."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AF"
   - "ns_t3af"
-sidebarTitle: "T3Planet Credits"
+sidebarTitle: "AI Credits"
 ---
 
 ## Purpose
 
-T3Planet Credits is optional billing for T3AF — **one balance on your account**, usable on any install, simple activation, no licence key. Use it when you do not want separate vendor API accounts.
+AI Credits is optional billing for T3AF — **one balance on your account**, usable on any install, simple activation, no licence key. Use it when you do not want separate vendor API accounts.
 
-**Path:** T3AF → AI Providers → T3Planet Credits
+**Path:** T3AF → AI Providers → AI Credits
 
 ## How it works
 
@@ -28,7 +28,7 @@ T3Planet Credits is optional billing for T3AF — **one balance on your account*
 
 **Your Own API Keys (BYOK)** — Add provider keys in [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index). Billing goes directly to OpenAI, Anthropic, or other vendors. Best for agencies that already have vendor accounts.
 
-**T3Planet Credits** — Toggle plus **Activate**. Billing uses T3Planet packages. Best for fast start and simple budget control.
+**AI Credits** — Toggle plus **Activate**. Billing uses T3Planet packages. Best for fast start and simple budget control.
 
 When credits are **off**, local provider keys are used normally.
 
