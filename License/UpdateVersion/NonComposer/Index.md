@@ -18,13 +18,13 @@ What's minor version update? It means, if you want to update product with securi
 
 ### Step 1. Update New Version
 
-- Go to NITSAN > T3Planet License
+- Go to Admin Tools > T3Planet Shop (older versions: NITSAN > T3Planet License)
 - Click on "Check for Updates" button
 - If new version available then click on "Update to X.X.X" button of your particular product.
 
 ### Step 2. System Update & Flush Cache
 
-- Go to Admin Tools > Maintenance > Anaylze Database (if any)
+- Go to Admin Tools > Maintenance > Analyze Database (if any)
 - Go to Admin Tools > Maintenance > Dump Autoload
 - Go to Admin Tools > Maintenance > Flush Cache
 
@@ -40,13 +40,13 @@ Go to Admin Tools > Extensions > De-Activate the extension.
 
 ### Step 2. Update New Version
 
-- Go to Admin Tools > T3Planet License
+- Go to Admin Tools > T3Planet Shop
 - Click on "Check for Updates" button
 - If new version available then click on "Update to X.X.X" button of your particular product.
 
 ### Step 3. Update Dependent TYPO3 Extensions
 
-Go to Extensions Manager and Update all third party dependent TYPO3 extensions to your purcahsed TYPO3 extension.
+Go to Extensions Manager and Update all third party dependent TYPO3 extensions to your purchased TYPO3 extension.
 
 ### Step 4. Activate Extension
 
@@ -54,7 +54,7 @@ Go to Admin Tools > Extensions > Activate the extension.
 
 ### Step 5. System Update & Flush Cache
 
-- Go to Admin Tools > Maintenance > Anaylze Database (if any)
+- Go to Admin Tools > Maintenance > Analyze Database (if any)
 - Go to Admin Tools > Maintenance > Dump Autoload
 - Go to Admin Tools > Maintenance > Flush Cache
 

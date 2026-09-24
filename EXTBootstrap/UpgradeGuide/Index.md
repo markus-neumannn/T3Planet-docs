@@ -16,7 +16,7 @@ This product's greater then v6.2.0 is major breaking changes to migrate from out
 
 <Steps>
   <Step title="Step 1">
-Go to NITSAN > License Manager > Update to latest version of EXT.ns_theme_bootstrap
+Go to Admin Tools > T3Planet Shop (older versions: NITSAN > License Manager) > Update to latest version of EXT.ns_theme_bootstrap
   </Step>
   <Step title="Step 2">
 Update EXT.ns_basetheme atleast v11.5.0

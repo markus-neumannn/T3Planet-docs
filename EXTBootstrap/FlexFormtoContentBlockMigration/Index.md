@@ -16,7 +16,7 @@ sidebarTitle: "Migration Guide:FlexForm to Content Block"
 
 From version **13.1.0** onwards, this product introduces major changes by migrating from outdated **FlexForm-based elements** to modern **Content Blocks (EXT)**. Please follow the step-by-step migration guide below.
 
-1. Go to **Admin Tools → T3planet License** and update **T3Bootstrap Theme (EXT)** to the latest version.
+1. Go to **Admin Tools → T3Planet Shop** and update **T3Bootstrap Theme (EXT)** to the latest version.
 2. Make sure the **Content Blocks extension (EXT)** is installed, as it is required for this migration.
 3. Go to **Admin Tools → Maintenance** module and clear the cache. Also, click on the **Dump Autoload** button.
   For composer-based TYPO3 installations, run the following command:

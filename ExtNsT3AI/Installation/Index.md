@@ -17,7 +17,7 @@ T3AI needs **AI Foundation** (`EXT:ns_t3af`). AI Foundation connects your AI pro
 
 You will install and activate these pieces:
 
-1. **License Manager** (`EXT:ns_license`) — unlocks your Premium download
+1. **T3Planet Shop** (`EXT:ns_license`) — unlocks your Premium download
 2. **T3AI** (`EXT:ns_t3ai`) — the AI Assistant extension
 3. **AI Foundation** (`EXT:ns_t3af`) — shared AI engine used by T3AI
 4. **Database updates** — so TYPO3 creates the required tables
@@ -42,11 +42,11 @@ Make sure you have:
 
 Looking for the Free version instead? Jump to [For Free Version](#t3ai-free-version) at the end of this page.
 
-## Step 1 — Install the License Manager
+## Step 1 — Install the T3Planet Shop
 
 Install the latest version of `EXT:ns_license` before continuing.
 
-The License Manager controls access to T3Planet Premium packages and is required to download and activate T3AI.
+The T3Planet Shop controls access to T3Planet Premium packages and is required to download and activate T3AI.
 
 ## Step 2 — Activate the License
 
@@ -56,7 +56,7 @@ Pick the path that matches your project.
 
 Use this workflow when your project installs T3Planet extensions from the TYPO3 backend:
 
-1. Open **Admin tools** → **T3planet License Manager**.
+1. Open **Admin tools** → **T3Planet Shop**.
 2. Enter your T3AI license key.
 3. Activate the license.
 4. Confirm that the latest T3AI package is downloaded.

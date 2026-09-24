@@ -16,7 +16,7 @@ T3AA needs **AI Foundation** (`EXT:ns_t3af`). AI Foundation connects your AI pro
 
 You will install and activate these pieces:
 
-1. **License Manager** (`EXT:ns_license`) — unlocks your Premium download
+1. **T3Planet Shop** (`EXT:ns_license`) — unlocks your Premium download
 2. **T3AA** (`EXT:ns_t3aa`) — the Accessibility Assistant extension
 3. **AI Foundation** (`EXT:ns_t3af`) — shared AI engine used by T3AA
 4. **Database updates** — so TYPO3 creates the required tables
@@ -39,11 +39,11 @@ Make sure you have:
 - Decided whether your project uses **Composer** or the **TYPO3 Extension Manager**
 - An AI provider account/API key ready (for example OpenAI) for Step 5
 
-## Step 1 — Install the License Manager
+## Step 1 — Install the T3Planet Shop
 
 Install the latest version of `EXT:ns_license` before continuing.
 
-The License Manager controls access to T3Planet Premium packages and is required to download and activate T3AA.
+The T3Planet Shop controls access to T3Planet Premium packages and is required to download and activate T3AA.
 
 ## Step 2 — Activate the License
 
@@ -53,7 +53,7 @@ Pick the path that matches your project.
 
 Use this workflow when your project installs T3Planet extensions from the TYPO3 backend:
 
-1. Open **Admin tools** → **T3planet License Manager**.
+1. Open **Admin tools** → **T3Planet Shop**.
 2. Enter your T3AA license key.
 3. Activate the license.
 4. Confirm that the latest T3AA package is downloaded.
