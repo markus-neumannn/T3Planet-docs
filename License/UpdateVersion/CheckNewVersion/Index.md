@@ -31,7 +31,7 @@ Otherwise, you can check whether a new update is available for your purchased TY
 
 <Steps>
   <Step title="Step 1">
-Go to Admin Tools > T3Planet License.
+Go to Admin Tools > T3Planet Shop.
   </Step>
   <Step title="Step 2">
 Find your purchased product in the list and check whether the `New Version Available` message is shown.

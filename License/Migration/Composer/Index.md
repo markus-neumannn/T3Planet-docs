@@ -33,7 +33,7 @@ For EXT:ns_revolution_slider TYPO3 extension, please follow special migration gu
 
 **Step 1.** Remove your TYPO3 extensions
 
-```python
+```bash
 composer remove nitsan/EXTENSION-NAME
 composer dump-autoload
 composer clear-cache
@@ -41,22 +41,22 @@ composer clear-cache
 
 **Step 2.** Manually remove existing TYPO3 Extensions Folder & Symlink
 
-```python
+```bash
 rm -rf typo3conf/ext/extension_key
-rm -rf exensions/EXTENSION-NAME
+rm -rf extensions/EXTENSION-NAME
 ```
 
 **Step 3.** Update EXT:ns_license
 
-```python
+```bash
 composer update nitsan/ns-license
 
-vendor/bin/typo3 typo3 extension:setup
+vendor/bin/typo3 extension:setup
 ```
 
 **Step 4.** Run Composer Command
 
-```python
+```bash
 composer config repositories.nitsan '{
    "type": "composer",
    "url": "https://composer.t3planet.cloud",
@@ -64,16 +64,16 @@ composer config repositories.nitsan '{
 }'
 ```
 
-```python
+```bash
 composer config http-basic.composer.t3planet.cloud USERNAME LICENSE-KEY
 ```
 
-```python
+```bash
 composer req nitsan/EXTENSION-NAME --with-all-dependencies
 ```
 
-```python
-vendor/bin/typo3 typo3 extension:setup
+```bash
+vendor/bin/typo3 extension:setup
 ```
 
 <Note>
