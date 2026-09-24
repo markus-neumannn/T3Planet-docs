@@ -21,9 +21,9 @@ Append one entry per production release.
 <!-- entries below -->
 
 ### 2026-09-24 — Media / TonicTypes / footer / deploy SOP
-- Commit:  (release tip; content  + SOP  + gitignore fixes)
-- Push remote:  →  ()
-- Mintlify connected repo (Activity screenshot / emergency path): still  — **emergency same-SHA sync** to fork used so live updated
-- Live URL check: markers OK (, footer CSS rule)
-- QA summary: sitemap HTTP crawl + Playwright search/responsive/theme + changed-page regression
-- Final status: PASS WITH NON-BLOCKING WARNINGS (Mintlify Git still on fork; reconnect recommended)
+- Commit tip: `36cf8f0` (content `105c568`, SOP `0f3974d`, gitignore `018a601`/`58ec5b0`)
+- Push remote: `origin` → `nitsan-technologies/T3Planet-docs` (`master`)
+- Mintlify connected repo: Activity still showed `markus-neumannn/t3planet-docs` — emergency same-SHA sync to fork so live updated
+- Live URL check: markers OK (`tonictypes_em_search_free`, footer CSS rule)
+- QA: sitemap 841 routes (834×200, 7×308 redirects, 0 blank); Playwright search/responsive/theme + changed-page regression
+- Final status: PASS WITH NON-BLOCKING WARNINGS (reconnect Mintlify Git to org repo)
