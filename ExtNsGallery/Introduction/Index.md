@@ -38,7 +38,7 @@ Following Galleries are available with this extension:
 <Note>
 
 - **Product:** https://t3planet.de/ns-gallery-typo3-extension
-- **TYPO3 Backend Live Demo:** https://demo.t3terminal.com/live-typo3/t3t-extensions/typo3/?TYPO3_AUTOLOGIN_USER=editor-gallery
+- **TYPO3 Backend Live Demo:** [https://demo.t3planet.de/t3-extensions/typo3/?TYPO3_AUTOLOGIN_USER=editor-gallery](https://demo.t3planet.de/t3-extensions/typo3/?TYPO3_AUTOLOGIN_USER=editor-gallery)
 - **Front End Demo:** https://demo.t3planet.de//t3t-extensions/gallery
 - To make any domain-related changes or whitelist any development and staging domains, please reach our support center: https://t3planet.de/support
 

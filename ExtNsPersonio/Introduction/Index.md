@@ -23,7 +23,7 @@ ns_personio is TYPO3 extension that brings Personio job vacancies right to your 
 
 - Product:https://t3planet.de/typo3-personio-extension
 - **Front End Demo:** https://demo.t3planet.de//t3t-extensions/ns-personio
-- **Typo3 Back End Demo:** https://demo.t3terminal.com/live-typo3/t3t-extensions/typo3/?TYPO3_AUTOLOGIN_USER=editor-ns-personio
+- **Typo3 Back End Demo:** [https://demo.t3planet.de/t3-extensions/typo3/?TYPO3_AUTOLOGIN_USER=editor-ns-personio](https://demo.t3planet.de/t3-extensions/typo3/?TYPO3_AUTOLOGIN_USER=editor-ns-personio)
 - To make any domain-related changes or whitelist any development and staging domains, please reach our support center: https://t3planet.de/support
 
 </Note>
