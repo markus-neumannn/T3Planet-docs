@@ -1,12 +1,12 @@
 ---
 title: "T3AI Media"
-description: "Generate AI images in T3AI Media with OpenAI, MidJourney, Stability AI, Unsplash, Openverse, Pixabay, and Pexels. Configure an AI provider or use T3Planet Credits for generation."
+description: "Generate AI images in T3AI Media with OpenAI, MidJourney, Stability AI, Unsplash, Openverse, Pixabay, and Pexels. Configure an AI provider or use AI Credits for generation."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AI"
   - "T3AI Media"
-  - "T3Planet Credits"
+  - "AI Credits"
 sidebarTitle: "T3AI Media"
 ---
 

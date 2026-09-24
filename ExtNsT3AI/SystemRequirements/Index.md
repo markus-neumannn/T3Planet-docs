@@ -1,6 +1,6 @@
 ---
 title: "System Requirements"
-description: "Here is the prerequeist to install, configure and use T3AI TYPO3 AI extension."
+description: "Requirements to install, configure and use T3AI: TYPO3 v12 to v14 and PHP 8.2 or higher, with AI Foundation."
 keywords:
   - "TYPO3"
   - "T3Planet"
