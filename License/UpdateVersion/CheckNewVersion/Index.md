@@ -11,7 +11,7 @@ sidebarTitle: "Latest Version"
 
 # How to know the Latest Version?
 
-Whenever a new version is released by T3Planet for your TYPO3 product, you can directly check it in the License BE module.
+Whenever T3Planet releases a new version of your TYPO3 product, you can check it directly in the T3Planet Shop module.
 
 Click on “Get Updates” first. If a new version is available, you will then see an “Update to x.x.x” button to install the latest version
 
