@@ -29,12 +29,12 @@ Activate a license key, bind it to your domain, and monitor license health from 
 
 ## License Statistics View
 
-You can typically review:
+Each extension card in T3Planet Shop shows:
 
-- Active install/license status
-- Expiry and renewal information
-- Usage/download-related statistics
-- Extension metadata, such as rating/documentation links
+- License status and expiry
+- Rating and download count
+- A **Documentation** link
+- The actions for that card: `Update to X.X.X` when a new version is available, `Deactivate`, `Detail`, and `Repair` when the installation needs it
 
 <Note>
 If activation fails, verify that the registered domain matches the current TYPO3 instance URL and that the key has not expired.

@@ -24,6 +24,10 @@ This documentation covers:
 - Renewing or purchasing licenses after trial
 - Exploring other T3Planet products and services
 
+The **Website Builder** tab in T3Planet Shop is a link to T3Planet's TYPO3 SaaS offer ([https://t3planet.de/en/typo3-saas](https://t3planet.de/en/typo3-saas)). It is not a separate licensing feature.
+
+**Where to find the module:** in TYPO3 v14 open **System → T3Planet Shop**; in v12 and v13 it is under **Admin Tools → T3Planet Shop**. T3Planet Shop is the module previously called License Manager.
+
 If you are a premium customer and cannot find your license email, submit a support request: [https://t3planet.de/support](https://t3planet.de/support)
 
 ## Sample license email
