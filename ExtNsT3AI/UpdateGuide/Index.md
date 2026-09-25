@@ -21,13 +21,13 @@ Uninstall `EXT:ns_t3ai` from your TYPO3 installation before proceeding with the 
 
 **Step 2 — Update EXT:ns_license**
 
-Make sure the latest version of the License Manager extension is installed. Update `EXT:ns_license` first before downloading the new T3AI version.
+Make sure the latest version of the T3Planet Shop extension is installed. Update `EXT:ns_license` first before downloading the new T3AI version.
 
 **Step 3 — Re-activate your license**
 
 **Without Composer**
 
-Go to **Admin Tools** → **License Manager**, remove the existing license key, enter the license key again, and activate it. The new extension version will be downloaded automatically.
+Go to **Admin Tools** → **T3Planet Shop**, remove the existing license key, enter the license key again, and activate it. The new extension version will be downloaded automatically.
 
 **With Composer**
 

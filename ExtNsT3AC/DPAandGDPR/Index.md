@@ -54,7 +54,7 @@ Administrators should consider and document:
 - Rate limiting may hash the client IP independently of the history toggle
 - Data retention and deletion
 - Data sent to the AI provider (messages + RAG context; not IP/UA/cookies in the LLM payload)
-- BYOK vs T3Planet Credits — see [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
+- BYOK vs AI Credits — see [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 - Provider DPA / no model training
 
 <Note>

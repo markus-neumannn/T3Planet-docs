@@ -13,14 +13,14 @@ sidebarTitle: "What Does It Do?"
 
 T3AF is **shared infrastructure**. It does not replace your CMS — it makes AI reliable inside TYPO3.
 
-Child extensions and MCP agents send requests to T3AF. T3AF routes them to your configured AI provider or to T3Planet Credits. The provider (OpenAI, Claude, Gemini, Mistral, and others) returns the result. Every call is logged.
+Child extensions and MCP agents send requests to T3AF. T3AF routes them to your configured AI provider or to AI Credits. The provider (OpenAI, Claude, Gemini, Mistral, and others) returns the result. Every call is logged.
 
-```
+```text
 Your extensions / MCP agents
          ↓
    T3AF (ns_t3af)
          ↓
-   AI provider OR T3Planet Credits
+   AI provider OR AI Credits
          ↓
    OpenAI · Claude · Gemini · Mistral · …
 ```
@@ -132,7 +132,7 @@ Full reference: [Developer Guide](/en/latest/ExtNsT3AF/DeveloperGuide/Index)
 - **TYPO3** — 12.4 LTS, 13.4 LTS, or 14.x
 - **PHP** — 8.2 or higher (8.3 recommended)
 - **System extensions** — `workspaces` and `scheduler`
-- **Billing** — API key or T3Planet Credits (at least one)
+- **Billing** — API key or AI Credits (at least one)
 - **Composer** — Recommended for TYPO3 installs
 
 See [System Requirements](/en/latest/ExtNsT3AF/SystemRequirements/Index) for full details.

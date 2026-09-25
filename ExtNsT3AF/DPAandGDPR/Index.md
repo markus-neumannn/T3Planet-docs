@@ -26,7 +26,7 @@ Visitors only hit AI through child extensions (T3AS, T3AC, T3AA).
 
 - **Your Own API Keys (BYOK)** — default. AI traffic: customer server →
   configured provider. T3Planet is not on this path.
-- **T3Planet Credits** — optional. Billable calls go to T3Planet
+- **AI Credits** — optional. Billable calls go to T3Planet
   (`/API/AI/*`). Prompts/inputs may be stored in T3Planet billing records
   (`meta_json`) for support, fraud prevention, and cost reconciliation.
 - **AI Logs cleanup** — `t3af:ai-logs:cleanup`, default **90 days**, not
@@ -47,7 +47,7 @@ for T3AF activation.
 Premium extensions that depend on AI Foundation use `ns_license` for their
 own licence management. That is separate from the AI request path.
 
-### T3Planet Credits — optional
+### AI Credits — optional
 
 When Credits is enabled, billable calls (`complete`, `stream`, `embed`,
 and related billed features) go to the T3Planet composer API
@@ -61,7 +61,7 @@ What may be transmitted in Credits mode:
   (`meta_json`) for support, fraud prevention, and cost reconciliation —
   see T3Planet terms and DPA
 
-More details: [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
+More details: [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 ## Logging privacy level
 
@@ -158,7 +158,7 @@ provider setting. This does not change what is sent to the AI provider.
 
 **Answer:** Feature key, request metadata, site domain, optional contact; prompts/inputs may be stored by T3Planet for billing. Do not enable Credits for a minimisation setup.
 
-See [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
+See [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index).
 
 **Question:** MCP?
 

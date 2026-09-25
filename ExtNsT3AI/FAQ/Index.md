@@ -14,7 +14,7 @@ sidebarTitle: "FAQ"
 **Is T3AI available as a free TYPO3 extension?**
 
 No. T3AI is a premium extension. It is not distributed through TER. You can
-evaluate it with the 30-day trial, then activate a production license.
+evaluate it with the 30-day trial, then buy a license for your production domain.
 
 **What does T3AI require to run?**
 

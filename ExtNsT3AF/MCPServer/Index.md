@@ -30,12 +30,12 @@ Connect external AI agents to TYPO3 through the **Model Context Protocol (MCP)**
 
 ## Health check
 
-```
+```text
 curl -sS -o /dev/null -w "%{http_code}" https://your-site.com/mcp
 # Expect: 401 (auth required = good)
 ```
 
-```
+```text
 curl -sS https://your-site.com/.well-known/oauth-authorization-server/mcp
 # Expect: JSON 200
 ```
@@ -51,7 +51,7 @@ curl -sS https://your-site.com/.well-known/oauth-authorization-server/mcp
 Set in the MCP Server top bar:
 
 - **Context** — Agent reads TYPO3; AI runs outside TYPO3
-- **Native** — TYPO3 runs AI on the server (uses provider or T3Planet Credits)
+- **Native** — TYPO3 runs AI on the server (uses provider or AI Credits)
 
 ## Core tools (v1)
 
@@ -71,7 +71,7 @@ MCP edits respect the active workspace. Test writes in workspace `1` before live
 
 ## Cursor example (stdio / DDEV)
 
-```
+```text
 {
   "mcpServers": {
     "typo3": {
@@ -103,5 +103,5 @@ MCP edits respect the active workspace. Test writes in workspace `1` before live
 - Team has not completed [AI Providers](/en/latest/ExtNsT3AF/AIProviders/Index) setup
 
 <Note>
-- MCP protocol: [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)
+  - MCP protocol: [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/)
 </Note>

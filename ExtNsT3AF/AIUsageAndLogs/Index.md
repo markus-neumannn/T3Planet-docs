@@ -21,7 +21,7 @@ Shows:
 
 - **Request count** — Total AI calls in the selected period
 - **Tokens** — Input and output volume
-- **Credits** — Consumption when T3Planet Credits is active
+- **Credits** — Consumption when AI Credits is active
 - **By extension** — Which extension called AI (T3AI, T3AC, and others)
 - **By feature** — For example `seo.meta_description`
 - **Time range** — Day, week, or month
@@ -48,7 +48,7 @@ Per-request detail includes:
 
 Background jobs and CLI commands. Example:
 
-```
+```text
 vendor/bin/typo3 ns_t3af:cache:flush
 ```
 
@@ -65,7 +65,7 @@ Log detail depends on [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPerm
 ## Weekly admin habit
 
 1. Open AI Usage → check trend vs last week
-2. Compare to T3Planet Credits balance if applicable
+2. Compare to AI Credits balance if applicable
 3. Scan AI Logs for repeated failures (same user, same feature)
 4. Escalate persistent errors to [Support](/en/latest/ExtNsT3AF/Support/Index) with log details
 

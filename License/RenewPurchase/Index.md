@@ -22,8 +22,8 @@ Move from trial to paid licensing, or renew an existing paid license, from T3Pla
 ## Steps
 
 1. In `[T3Planet Shop]`, open the extension card that is expiring or in trial.
-2. Click `[Buy]` Button
-3. Complete checkout on the redirected shop/payment page.
+2. Click `[Buy Now]`. On catalogue cards the button also shows the price.
+3. Complete the secure checkout on t3planet.shop.
 4. Retrieve the updated license key from email or account portal (if needed).
 5. Confirm active status and validity in T3Planet Shop.
 

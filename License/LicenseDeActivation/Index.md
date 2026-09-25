@@ -21,9 +21,9 @@ To de-activate or de-register your purchased license key from your TYPO3 instanc
 
 **Step 1.** Login to your TYPO3 Instance
 
-**Step 2.** Switch to Admin Tools > T3Planet Shop.
+**Step 2.** Open **System → T3Planet Shop** (TYPO3 v12/v13: **Admin Tools → T3Planet Shop**).
 
-**Step 3.** Click on "Deactivate License" of your particular purchased TYPO3 product.
+**Step 3.** Click `Deactivate` on the card of the product you want to move.
 
 <div className="t3-embed"><iframe src="https://app.supademo.com/embed/cmn4aw73y0ooaz3qm7owt0691?embed_v=2&utm_source=embed" loading="lazy" title="License De-Activation Demo" allow="clipboard-write; fullscreen" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></div>
 

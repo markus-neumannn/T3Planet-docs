@@ -19,7 +19,7 @@ These extensions do **not** change how your website looks on the frontend by the
 
 You will install and activate these pieces:
 
-1. **License Manager** (`EXT:ns_license`) — unlocks your Premium download
+1. **T3Planet Shop** (`EXT:ns_license`) — unlocks your Premium download
 2. **T3AS** (`EXT:ns_t3as`) — the AI Search extension (and related packages such as T3CS where required)
 3. **AI Foundation** (`EXT:ns_t3af`) — shared AI engine used by T3AS (free on TER)
 4. **Database updates** — so TYPO3 creates the required tables
@@ -50,11 +50,11 @@ Make sure you have:
 - Decided whether your project uses **Composer** or the **TYPO3 Extension Manager**
 - An AI provider account/API key ready (for example OpenAI) for Step 6
 
-## Step 1 — Install the License Manager
+## Step 1 — Install the T3Planet Shop
 
 Install the latest version of `EXT:ns_license` before continuing.
 
-The License Manager controls access to T3Planet Premium packages and is required to download and activate T3AS.
+The T3Planet Shop controls access to T3Planet Premium packages and is required to download and activate T3AS.
 
 ## Step 2 — Activate the License
 
@@ -64,7 +64,7 @@ Pick the path that matches your project.
 
 Use this workflow when your project installs T3Planet extensions from the TYPO3 backend:
 
-1. Open **Admin tools** → **T3planet License Manager**.
+1. Open **Admin tools** → **T3Planet Shop**.
 2. Enter your T3AS license key.
 3. Activate the license.
 4. Confirm that the latest T3AS package is downloaded.
@@ -120,13 +120,13 @@ Use this mode when you want to connect your own AI vendor accounts. You store
 and manage your API keys (for example OpenAI, Anthropic, Gemini) in AI
 Foundation and run AI features through those providers.
 
-**T3Planet Credits**
+**AI Credits**
 
-**T3Planet Credits** is T3Planet’s managed AI access for AI Foundation. It lets
+**AI Credits** is T3Planet’s managed AI access for AI Foundation. It lets
 your TYPO3 site use AI features **without storing or managing your own vendor
 API keys**.
 
-**Link for T3Planet Credits:** [T3Planet Credits Documentation](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
+**Link for AI Credits:** [AI Credits Documentation](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ### Option 1 — Extension Manager (TER)
 
@@ -151,7 +151,7 @@ Helpful AI Foundation references:
 - [AI Foundation Installation](/en/latest/ExtNsT3AF/Installation/Index)
 - [AI Foundation Configuration](/en/latest/ExtNsT3AF/Configuration/Index)
 - [AI Providers](/en/latest/ExtNsT3AF/Configuration/AIProviders/Index)
-- [T3Planet Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
+- [AI Credits](/en/latest/ExtNsT3AF/T3Planet-Credit-System/Index)
 
 ## Premium Version
 

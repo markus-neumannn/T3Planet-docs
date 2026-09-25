@@ -1,22 +1,19 @@
 ---
-title: "T3Planet Credits (v1.1+)"
-description: "Developer reference for T3Planet Credits integration."
+title: "AI Credits (v1.1+)"
+description: "Developer reference for AI Credits integration."
 keywords:
   - "TYPO3"
   - "T3Planet"
   - "T3AF"
-  - "T3Planet Credits (v1.1+)"
-sidebarTitle: "T3Planet Credits"
+  - "AI Credits (v1.1+)"
+sidebarTitle: "AI Credits"
 ---
 
-When **T3Planet Credits** mode is active, `AiServiceInterface` routes
-`complete()`, `stream()`, and `embed()` through the T3Planet composer API
-(`Charge` / `Stream` / `Embed`). Billing is **token-based on the server**
-— there are no fixed credits per `feature_key` in `Features.php`.
+When **AI Credits** mode is active, `AiServiceInterface` routes `complete()`, `stream()`, and `embed()` through the T3Planet composer API (`Charge` / `Stream` / `Embed`). Billing is **token-based on the server** — there are no fixed credits per `feature_key` in `Features.php`.
 
 ## Credit mode changes (streaming)
 
-The following applies when credits mode is **on** (see [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index) for activation):
+The following applies when credits mode is **on** (see [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index) for activation):
 
 - **`POST /API/AI/Charge.php`** — `AiServiceInterface::complete()` returns `AiResponse` plus `CreditsUsage`.
 - **`POST /API/AI/Stream.php`** — `AiServiceInterface::stream()` returns incremental `string` chunks; read `StreamSummary` via `getReturn()`.
@@ -29,24 +26,16 @@ When credits mode is **off**, `stream()` uses local adapters unchanged (generato
 
 ## Token billing model
 
-- The server debits **after** upstream AI using actual token usage:
-  `credits = max(1, ceil(total_tokens / tokens_per_credit))`.
+- The server debits **after** upstream AI using actual token usage: `credits = max(1, ceil(total_tokens / tokens_per_credit))`.
 - **Charge / Stream:** `total_tokens = tokens_input + tokens_output`.
 - **Embed:** `total_tokens = tokens_input`.
-- Default **1 credit = 1000 tokens** (overridable server-side via
-  `tokens_per_credit` in the API `pricing` object).
+- Default **1 credit = 1000 tokens** (overridable server-side via `tokens_per_credit` in the API `pricing` object).
 
-Do **not** hardcode per-feature credit costs in child extensions. Use
-[Pre-submit estimate (child extensions)](#pre-submit-estimate-child-extensions) before submit and read
-`CreditsUsage` after the call for the **actual** debit.
+Do **not** hardcode per-feature credit costs in child extensions. Use [Pre-submit estimate (child extensions)](#pre-submit-estimate-child-extensions) before submit and read `CreditsUsage` after the call for the **actual** debit.
 
 ## Pre-submit estimate (child extensions)
 
-Before calling `complete()`, `stream()`, or `embed()`, call **Estimate.php** with the
-same `feature_key` and `meta_json` you will send to Charge/Stream/Embed. Use
-`endpoint` `charge` for completion and streaming; `embed` for embeddings. The
-response `estimated_credits` is approximate (shown as “≈ X credits”), not
-guaranteed.
+Before calling `complete()`, `stream()`, or `embed()`, call **Estimate.php** with the same `feature_key` and `meta_json` you will send to Charge/Stream/Embed. Use `endpoint` `charge` for completion and streaming; `embed` for embeddings. The response `estimated_credits` is approximate (shown as “≈ X credits”), not guaranteed.
 
 Inject the public service:
 
@@ -108,10 +97,7 @@ final class SeoGenerator
 
 ## Feature key mapping (all extensions)
 
-Child extensions keep their own telemetry keys in `AiOptions::featureKey` (for example
-`seo.meta_description` or `translation.openai`). In credits mode,
-`CreditsFeatureKeyMapper` maps them to composer `ns_ai_feature_cost.feature_key` values
-(`seo_meta_description`, `content_translation`, …) immediately before Charge / Stream / Embed.
+Child extensions keep their own telemetry keys in `AiOptions::featureKey` (for example `seo.meta_description` or `translation.openai`). In credits mode, `CreditsFeatureKeyMapper` maps them to composer `ns_ai_feature_cost.feature_key` values (`seo_meta_description`, `content_translation`, …) immediately before Charge / Stream / Embed.
 
 The original caller key is copied to `meta_json.client_feature_key` for cross-extension analytics.
 
@@ -123,13 +109,11 @@ $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['ns_t3af']['creditsFeatureKeyAliases']['m
 ];
 ```
 
-Catalog constants live in `CreditsFeatureKeyCatalog`. Stream requests always bill as `stream`;
-embed requests as `embedding`.
+Catalog constants live in `CreditsFeatureKeyCatalog`. Stream requests always bill as `stream`; embed requests as `embedding`.
 
 ## Streaming (Stream.php)
 
-Inject `AiServiceInterface` only — routing is handled by `T3PlanetCreditAiService` and
-`ProxyAiExecutor`.
+Inject `AiServiceInterface` only — routing is handled by `T3PlanetCreditAiService` and `ProxyAiExecutor`.
 
 ```php
 use NITSAN\NsT3AF\Api\AiOptions;
@@ -184,18 +168,13 @@ final class StreamingSeoTitle
 - **`usage`** — Mandatory settlement; builds `StreamSummary` and `CreditsUsage`.
 - **`done`** — Optional; the stream may end after `usage` only.
 
-If any `token` was received but the connection ends without `usage`, the client throws
-`CreditsApiException` — never treat that as success.
+If any `token` was received but the connection ends without `usage`, the client throws `CreditsApiException` — never treat that as success.
 
-Pre-stream errors (JSON, not SSE) use the same codes as Charge (402 insufficient credits,
-409 `stream_in_progress`, 422 `feature_unknown`, etc.).
+Pre-stream errors (JSON, not SSE) use the same codes as Charge (402 insufficient credits, 409 `stream_in_progress`, 422 `feature_unknown`, etc.).
 
 ## Abort on cancel
 
-When the user cancels, closes the tab, or the PHP request aborts (`connection_aborted()`),
-`ProxyAiExecutor` stops reading SSE and calls `POST /API/AI/Abort.php` with the same
-`request_uuid` (within a few seconds). The server returns proportional `cost_units` /
-`credits` for partial output; the client may store a receipt row for the dashboard.
+When the user cancels, closes the tab, or the PHP request aborts (`connection_aborted()`), `ProxyAiExecutor` stops reading SSE and calls `POST /API/AI/Abort.php` with the same `request_uuid` (within a few seconds). The server returns proportional `cost_units` / `credits` for partial output; the client may store a receipt row for the dashboard.
 
 Call **Abort** explicitly only if you implement custom cancel UX outside `AiServiceInterface`.
 
@@ -209,19 +188,14 @@ Do **not** send embed-only `inputs[]` in `meta_json` for Stream.
 
 ## Caller attribution (Charge / Stream / Embed / Estimate)
 
-Always set `extensionKey` on `AiOptions` (e.g. `ns_news_comments`). In credits
-mode, `CreditsMetaJsonBuilder` adds these fields to `meta_json` (and duplicates
-`extension_key` at the top level of the API body for forward-compatible servers):
+Always set `extensionKey` on `AiOptions` (e.g. `ns_news_comments`). In credits mode, `CreditsMetaJsonBuilder` adds these fields to `meta_json` (and duplicates `extension_key` at the top level of the API body for forward-compatible servers):
 
 - `extension_key` — TYPO3 extension that initiated the call (not the license product).
 - `feature_label`, `request_source`, `content_entity_type`, `content_entity_uid` when set.
 
-For manual estimates, pass the same `AiOptions` as the 4th argument to
-`CreditsEstimateService::estimate()` or call
-`CreditsMetaJsonBuilder::withAttribution($meta, $options)`.
+For manual estimates, pass the same `AiOptions` as the 4th argument to `CreditsEstimateService::estimate()` or call `CreditsMetaJsonBuilder::withAttribution($meta, $options)`.
 
-Until the license server persists `caller_extension_key`, the usage UI may still show
-`extension_key` from `ns_product_license` (the product tied to `license_key_used`).
+Until the license server persists `caller_extension_key`, the usage UI may still show `extension_key` from `ns_product_license` (the product tied to `license_key_used`).
 
 ## Backend module JavaScript (optional)
 
@@ -234,67 +208,43 @@ if (result?.estimate_label) {
 }
 ```
 
-Requires TYPO3 backend AJAX route `nst3af_credits_estimate` and an active
-credits session.
+Requires TYPO3 backend AJAX route `nst3af_credits_estimate` and an active credits session.
 
 ## After Charge / Stream / Embed
 
-Read `AiResponse::$credits`, `EmbeddingResponse::$credits`, or
-`StreamSummary::$credits` (`CreditsUsage`):
+Read `AiResponse::$credits`, `EmbeddingResponse::$credits`, or `StreamSummary::$credits` (`CreditsUsage`):
 
 - `charged` — actual credits debited (`charged.amount` from API).
 - `tokensTotal`, `tokensInput`, `tokensOutput` — from the API response.
 - `pricing` — shared `pricing` object when present.
 
-Display copy using `CreditsPricing::footnote()` when you need a static hint
-(e.g. “1 credit ≈ 1,000 tokens (min 1 credit per request)”).
+Display copy using `CreditsPricing::footnote()` when you need a static hint (e.g. “1 credit ≈ 1,000 tokens (min 1 credit per request)”).
 
 ## Features catalog
 
-`Features.php` lists `feature_key`, `label`, `default_model`,
-`default_backend`, `sort` — **not** fixed `cost` fields. Use it for
-routing and UI labels only.
+`Features.php` lists `feature_key`, `label`, `default_model`, `default_backend`, `sort` — **not** fixed `cost` fields. Use it for routing and UI labels only.
 
 ## Purchase / checkout
 
-Product checkout URLs come from `Products.php` with `redirect_to` set to
-your TYPO3 backend return URL. Use `checkout_url` **as returned** — do not
-append extra Pabbly query parameters client-side. The client rewrites Pabbly
-custom fields named `cf_credittoken*` to the install **Bearer token** (from
-`RuntimeSettingsService::getTokenPlain()`), not the license key.
+Product checkout URLs come from `Products.php` with `redirect_to` set to your TYPO3 backend return URL. Use `checkout_url` **as returned** — do not append extra Pabbly query parameters client-side. The client rewrites Pabbly custom fields named `cf_credittoken*` to the install **Bearer token** (from `RuntimeSettingsService::getTokenPlain()`), not the license key.
 
-Checkout opens in a TYPO3 backend modal iframe. The host must allow embedding
-(`frame-ancestors` / CSP) and its checkout API (e.g. `/api/user/checksteps`)
-must accept requests from the embedded checkout page. A **403** on that API is
-returned by **t3planet.shop**, not TYPO3 — fix on the shop/API side or use
-**Open in new tab** in the modal until embedding is supported.
-`Configuration/ContentSecurityPolicies.php` extends backend `frame-src` and
-`connect-src` for T3Planet/Pabbly hosts.
+Checkout opens in a TYPO3 backend modal iframe. The host must allow embedding (`frame-ancestors` / CSP) and its checkout API (e.g. `/api/user/checksteps`) must accept requests from the embedded checkout page. A **403** on that API is returned by **t3planet.shop**, not TYPO3 — fix on the shop/API side or use **Open in new tab** in the modal until embedding is supported. `Configuration/ContentSecurityPolicies.php` extends backend `frame-src` and `connect-src` for T3Planet/Pabbly hosts.
 
 ## CLI, scheduler, and `domain_mismatch`
 
-Every Charge / Stream / Embed body includes `domain`. The license server only
-accepts hostnames registered for that install. Backend HTTP requests use
-`HTTP_HOST` (unchanged). **CLI and scheduler** contexts have no web request; without
-a stored hostname the client previously fell back to `localhost` and the API
-returned `domain_mismatch`.
+Every Charge / Stream / Embed body includes `domain`. The license server only accepts hostnames registered for that install. Backend HTTP requests use `HTTP_HOST` (unchanged). **CLI and scheduler** contexts have no web request; without a stored hostname the client previously fell back to `localhost` and the API returned `domain_mismatch`.
 
-`CreditsDomainResolver` (since v1.1+) resolves hostname in this order when
-`HTTP_HOST` is empty:
+`CreditsDomainResolver` (since v1.1+) resolves hostname in this order when `HTTP_HOST` is empty:
 
-1. `credits_domain` in `tx_nst3af_runtime_setting` (set at token activation
-   and on the first backend request with a real host)
-1. `$GLOBALS['TYPO3_CONF_VARS']['SYS']['reverseProxyBaseUrl']`
-1. First site configuration with an absolute `base` URL (`https://host/`)
-1. `DDEV_PRIMARY_URL` in DDEV containers
-1. Extension Configuration `t3planetCreditsDomain` (optional override)
+1. `credits_domain` in `tx_nst3af_runtime_setting` (set at token activation and on the first backend request with a real host)
+2. `$GLOBALS['TYPO3_CONF_VARS']['SYS']['reverseProxyBaseUrl']`
+3. First site configuration with an absolute `base` URL (`https://host/`)
+4. `DDEV_PRIMARY_URL` in DDEV containers
+5. Extension Configuration `t3planetCreditsDomain` (optional override)
 
-**After upgrading:** open any backend module once (or re-activate Credits) so
-`credits_domain` is persisted, or set `base: 'https://your-production-host/'`
-in site config. Child extensions (t3cs, t3as, …) do not pass `domain` manually —
-inject `AiServiceInterface` and call `embed()` / `complete()` as in the backend.
+**After upgrading:** open any backend module once (or re-activate Credits) so `credits_domain` is persisted, or set `base: 'https://your-production-host/'` in site config. Child extensions (t3cs, t3as, …) do not pass `domain` manually — inject `AiServiceInterface` and call `embed()` / `complete()` as in the backend.
 
 ## Further reading
 
-- [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index) — product overview
-- [Privacy — T3Planet Credits](/en/latest/ExtNsT3AF/Privacy/Index) — data sent when credits mode is on
+- [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index) — product overview
+- [Privacy — AI Credits](/en/latest/ExtNsT3AF/Privacy/Index) — data sent when credits mode is on

@@ -19,7 +19,7 @@ sidebarTitle: "Get This Extension"
 
 - Multi-provider AI gateway (OpenAI, Claude, Gemini, Mistral, and more)
 - Encrypted API key storage
-- Optional T3Planet Credits billing
+- Optional AI Credits billing
 - MCP server for AI agents (Cursor, Claude Desktop, n8n)
 - AI Context, Prompts, and per-feature provider settings
 - Usage charts, request logs, and governance controls
@@ -27,13 +27,12 @@ sidebarTitle: "Get This Extension"
 
 ## Where to get it
 
-- Product page: [https://t3planet.de/ai-foundtion-fur-typo3](https://t3planet.de/ai-foundtion-fur-typo3)
-- Contact: [https://t3planet.de/kontakt](https://t3planet.de/kontakt)
+AI Foundation is 100% free and open source (GPL-2.0-or-later). No purchase and no licence key.
 
-## Quick start after purchase
+- Product page: [https://t3planet.de/en/ai-foundation-for-typo3](https://t3planet.de/en/ai-foundation-for-typo3)
+- TYPO3 Extension Repository: [https://extensions.typo3.org/extension/ns_t3af](https://extensions.typo3.org/extension/ns_t3af)
+- GitHub: [https://github.com/nitsan-technologies/ns_t3af](https://github.com/nitsan-technologies/ns_t3af)
 
-After purchase, activate your T3Planet license and install the premium package by following the license documentation:
+## Quick start
 
-[https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
-
-Then continue with [Installation](/en/latest/ExtNsT3AF/Installation/Index) and run [Quick Setup](/en/latest/ExtNsT3AF/SetupWizard/Index).
+Install with `composer require nitsan/ns-t3af`, then continue with [Installation](/en/latest/ExtNsT3AF/Installation/Index) and run [Quick Setup](/en/latest/ExtNsT3AF/SetupWizard/Index).

@@ -15,6 +15,10 @@ Install **T3Planet Shop** (`ns_license`), then start a free trial, purchase a li
 
 For trial and purchase from the backend, see [Generating a License Key](/en/latest/License/GenerateLicenseKey/Index).
 
+<Note>
+  **Where to find the module:** in TYPO3 v14 open **System → T3Planet Shop**. In TYPO3 v12 and v13 it is under **Admin Tools → T3Planet Shop**. T3Planet Shop is the module previously called License Manager.
+</Note>
+
 ## Install via Extension Manager
 
 Get **T3Planet Shop** (`ns_license`) from the TYPO3 Extension Repository (TER): [https://extensions.typo3.org/extension/ns_license](https://extensions.typo3.org/extension/ns_license)
@@ -27,7 +31,7 @@ Get **T3Planet Shop** (`ns_license`) from the TYPO3 Extension Repository (TER): 
 
 ![DownloadExtension](./images/DownloadExtension.webp)
 
-**Step 3.** Switch to Admin Tools > T3Planet Shop. Start a free trial, purchase, or add your license key.
+**Step 3.** Open **T3Planet Shop**. Start a free trial, purchase, or add your license key.
 
 ![License Management](images/LicenseModule.webp)
 
@@ -67,6 +71,8 @@ For the backend flow, see [Generating a License Key](/en/latest/License/Generate
 - `Staging Domain`
 - `Production Domain`
 
+One license key covers your local, staging and production environments. Only production domains count towards your license tier.
+
 **Step 9.** Click `Send verification code`.
 
 **Step 10.** Enter the `Verification code` and click `Confirm & get my license key`.
@@ -77,7 +83,7 @@ For the backend flow, see [Generating a License Key](/en/latest/License/Generate
 
 After you receive your license key, you can activate the extension in TYPO3:
 
-**Step 12.** Go to Admin Tools > T3Planet Shop > Add Your License Key (paste your key).
+**Step 12.** Open **T3Planet Shop** and paste your key into the `License Key` field.
 
 **Step 13.** Click `Activate License & Download Extension` and then activate the purchased extension in Admin Tools > Extensions.
 
@@ -85,25 +91,25 @@ After you receive your license key, you can activate the extension in TYPO3:
 
 **Step 1.** Install EXT:ns_license (T3Planet Shop)
 
-```python
+```bash
 composer require nitsan/ns-license
 
 vendor/bin/typo3 extension:setup
 ```
 
-**Step 2.** Go to TYPO3 Backend > T3Planet Shop. Start a free trial, purchase, browse products, or add your license key.
+**Step 2.** Open **T3Planet Shop** in the TYPO3 backend. Start a free trial, purchase, browse products, or add your license key.
 
 ![License Management](images/LicenseModule.webp)
 
 ![License Activated](./images/LicenseActivated.webp)
 
-**Step 4.** Run Composer Command
+**Step 3.** Run the Composer commands
 
 <Note>
 We have already sent the license key & composer credentials (like username, license key) via Email. If you need any help, then write to our support team [https://t3planet.de/support](https://t3planet.de/support)
 </Note>
 
-```python
+```bash
 composer config repositories.t3planet '{
    "type": "composer",
    "url": "https://composer.t3planet.cloud",
@@ -115,8 +121,8 @@ composer config repositories.t3planet '{
 
 If installing the extension **ns_t3ai** package, use the following command:
 
-```python
-composer config repositories.nitsan '{
+```bash
+composer config repositories.t3planet '{
    "type": "composer",
    "url": "https://composer.t3planet.cloud",
    "only": ["nitsan/ns-t3ai"]
@@ -131,23 +137,23 @@ If you don’t know the exact ``<PACKAGE-NAME>``, check the **composer.json** fi
 "name": "nitsan/ns-t3ai"
 ```
 
-```python
+```bash
 composer config http-basic.composer.t3planet.cloud <USERNAME> <LICENSE-KEY>
 ```
 
-```python
+```bash
 composer req nitsan/<PACKAGE-NAME> --with-all-dependencies
 ```
 
-```python
+```bash
 vendor/bin/typo3 extension:setup
 ```
 
 <Warning>
-If you are installing EXT:ns_revolution_slider with TYPO3 >= v11 composer-based TYPO3 instance, Please don’t forget to run the below commands.
+If you are installing EXT:ns_revolution_slider in a Composer-based TYPO3 instance (v11 or newer), also run the command below.
 </Warning>
 
-```python
+```bash
 vendor/bin/typo3 nsrevolution:setup
 ```
 
@@ -155,7 +161,7 @@ vendor/bin/typo3 nsrevolution:setup
 
 If you want to install multiple premium TYPO3 extensions in your single TYPO3 instance, you can use our multiple dedicated Composer servers which support up to 99 extensions. Follow the steps below:
 
-```python
+```bash
 composer config repositories.t3planet1 '{
    "type": "composer",
    "url": "https://composer1.t3planet.cloud",
@@ -163,15 +169,15 @@ composer config repositories.t3planet1 '{
 }'
 ```
 
-```python
+```bash
 composer config http-basic.composer1.t3planet.cloud <USERNAME> <LICENSE-KEY>
 ```
 
-```python
+```bash
 composer req nitsan/<PACKAGE-NAME> --with-all-dependencies
 ```
 
-```python
+```bash
 vendor/bin/typo3 extension:setup
 ```
 
@@ -187,9 +193,9 @@ To add more extensions, you can repeat the same steps with the following changes
 
 To migrate from a **Free Trial** license to a **Premium** license, follow the steps below:
 
-**Step 1:** Go to the **T3Planet Shop** module.
+**Step 1:** Open the **T3Planet Shop** module.
 
-**Step 2:** Deactivate and delete the existing license key (Free Trial license key), or use **Buy** on the trial card when available.
+**Step 2:** Click **Buy Now** on the trial card, or deactivate and delete the existing Free Trial license key.
 
 **Step 3:** Enter the new **Premium license key** (received via email), if not already applied via backend purchase.
 

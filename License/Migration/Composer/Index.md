@@ -13,7 +13,7 @@ sidebarTitle: "Migration To New Composer"
 
 Good news! Team T3Planet proudly launches a new composer-way installation, heaven for our beloved TYPO3 customers and their TYPO3 team.
 
-In the past, we used the concept of **composer vcs + local :@dev`** TYPO3 extension installation and manually downloaded the latest version from the TYPO3 backend license manager module. It was challenging to install, update & maintain the version of your premium TYPO3 extensions.
+In the past, we used the concept of **composer vcs + local `:@dev`** TYPO3 extension installation and manually downloaded the latest version from the TYPO3 backend license manager module. It was challenging to install, update & maintain the version of your premium TYPO3 extensions.
 
 Our new composer way of TYPO3 extensions installation is just like official composer-things like packagist.org & packagist.com
 
@@ -33,47 +33,47 @@ For EXT:ns_revolution_slider TYPO3 extension, please follow special migration gu
 
 **Step 1.** Remove your TYPO3 extensions
 
-```python
-composer remove nitsan/EXTENSION-NAME
+```bash
+composer remove nitsan/<PACKAGE-NAME>
 composer dump-autoload
 composer clear-cache
 ```
 
 **Step 2.** Manually remove existing TYPO3 Extensions Folder & Symlink
 
-```python
+```bash
 rm -rf typo3conf/ext/extension_key
-rm -rf exensions/EXTENSION-NAME
+rm -rf extensions/<PACKAGE-NAME>
 ```
 
 **Step 3.** Update EXT:ns_license
 
-```python
+```bash
 composer update nitsan/ns-license
 
-vendor/bin/typo3 typo3 extension:setup
+vendor/bin/typo3 extension:setup
 ```
 
 **Step 4.** Run Composer Command
 
-```python
-composer config repositories.nitsan '{
+```bash
+composer config repositories.t3planet '{
    "type": "composer",
    "url": "https://composer.t3planet.cloud",
-   "only": ["nitsan/EXTENSION-NAME"]
+   "only": ["nitsan/<PACKAGE-NAME>"]
 }'
 ```
 
-```python
-composer config http-basic.composer.t3planet.cloud USERNAME LICENSE-KEY
+```bash
+composer config http-basic.composer.t3planet.cloud <USERNAME> <LICENSE-KEY>
 ```
 
-```python
-composer req nitsan/EXTENSION-NAME --with-all-dependencies
+```bash
+composer req nitsan/<PACKAGE-NAME> --with-all-dependencies
 ```
 
-```python
-vendor/bin/typo3 typo3 extension:setup
+```bash
+vendor/bin/typo3 extension:setup
 ```
 
 <Note>

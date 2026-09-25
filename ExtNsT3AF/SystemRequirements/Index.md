@@ -27,9 +27,9 @@ This page lists what your server and TYPO3 instance need before you install **EX
 
 ## Composer / package dependencies
 
-T3AF is distributed as a T3Planet premium extension package. Do not use a public `composer require` command unless you have access to the required private package source.
+T3AF is free and open source, published on the TYPO3 Extension Repository and on Packagist. Install it with `composer require nitsan/ns-t3af`.
 
-**Depends on:**`nitsan/ns-license`, `typo3/cms-workspaces`, `typo3/cms-scheduler`
+**Depends on:** `typo3/cms-workspaces`, `typo3/cms-scheduler`
 
 **Conflicts with:** other MCP server packages (`marekskopal/typo3-mcp-server`, `hn/typo3-mcp-server`, and similar). Remove conflicting packages before install.
 
@@ -54,16 +54,16 @@ See [MCP Server](/en/latest/ExtNsT3AF/MCPServer/Index).
 You need at least one of these before AI features work:
 
 - **AI provider API key** — BYOK (Bring Your Own Key) mode
-- **T3Planet Credits** — Managed billing mode (see [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index))
+- **AI Credits** — Managed billing mode (see [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index))
 - **DeepL / Google keys** — Optional, for translation settings in Extension Configuration
 
 ## Pre-install checklist
 
-- TYPO3 12.4+ with the supported T3Planet package installation workflow
+- TYPO3 12.4+ (Composer or TER installation)
 - PHP 8.2+ with extensions `mbstring`, `json`, `openssl`, `curl`
 - HTTPS on production
 - Scheduler cron active (every minute)
 - API key or credits plan ready
-- T3Planet license key for premium install — see [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index)
+- No licence key needed for AI Foundation
 
 When you are ready, continue with [Installation](/en/latest/ExtNsT3AF/Installation/Index).

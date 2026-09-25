@@ -43,13 +43,13 @@ Check model ID spelling, outbound HTTPS, and vendor service status. See [Known P
 
 **Toggle is ON but AI fails.**
 
-Click **Activate** after enabling credits. The toggle alone is not enough. See [T3Planet Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
+Click **Activate** after enabling credits. The toggle alone is not enough. See [AI Credits](/en/latest/ExtNsT3AF/T3PlanetCredits/Index).
 
 **Own keys vs credits?**
 
 **Own keys** — you pay the vendor directly (OpenAI, Anthropic, and so on).
 
-**Credits** — you pay T3Planet; one pool for the whole install.
+**Credits** — you pay T3Planet; one balance on your account, usable on any install.
 
 **Zero balance error.**
 
@@ -81,13 +81,13 @@ Depends on [AI Permissions](/en/latest/ExtNsT3AF/Configuration/AIPermissions/Ind
 
 ## Installation
 
-**How do I install the premium version?**
+**How do I install it? Is there a premium version?**
 
-Follow [https://docs.t3planet.de/en/latest/License/Index.html](/en/latest/License/Index) then [Installation](/en/latest/ExtNsT3AF/Installation/Index).
+There is one version and it is free and open source, with no licence key. Run `composer require nitsan/ns-t3af` or install from the TYPO3 Extension Repository. See [Installation](/en/latest/ExtNsT3AF/Installation/Index).
 
 **Composer conflict with another MCP package.**
 
-Remove conflicting MCP server packages before installing T3AF through your T3Planet Premium Composer repository. See [Known Problems](/en/latest/ExtNsT3AF/KnownProblems/Index).
+Remove conflicting MCP server packages before installing `nitsan/ns-t3af`. See [Known Problems](/en/latest/ExtNsT3AF/KnownProblems/Index).
 
 ## Still stuck?
 

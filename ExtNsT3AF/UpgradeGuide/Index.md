@@ -19,7 +19,7 @@ Safe upgrades for **EXT:ns_t3af**. Always test on staging before production.
 
 ## Upgrade commands
 
-```
+```text
 composer update nitsan/ns-t3af
 vendor/bin/typo3 extension:setup -e ns_t3af
 vendor/bin/typo3 upgrade:run
@@ -30,7 +30,7 @@ vendor/bin/typo3 cache:flush
 
 If you upgrade from v1 with API keys in Extension Configuration:
 
-```
+```text
 vendor/bin/typo3 upgrade:run ns_t3afMigrateExtConfProviders
 ```
 
@@ -42,7 +42,7 @@ This moves legacy API keys into the AI Providers table. Then verify providers in
 - Provider Test connection returns green
 - MCP shows online (if you use MCP)
 - AI Logs show no new errors after a test request
-- T3Planet Credits still active (if used) — click **Activate** again if needed
+- AI Credits still active (if used) — click **Activate** again if needed
 
 ## Rollback
 
