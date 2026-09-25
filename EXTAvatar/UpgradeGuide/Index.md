@@ -16,7 +16,7 @@ This product's greater then v3.3.0 is major breaking changes to migrate from out
 
 <Steps>
   <Step title="Step 1">
-Go to Admin Tools > T3Planet Shop (older versions: NITSAN > License Manager) > Update to latest version of EXT.ns_theme_t3avatar
+Open System → T3Planet Shop (TYPO3 v12/v13: Admin Tools → T3Planet Shop; older versions: NITSAN > License Manager) and update to latest version of EXT.ns_theme_t3avatar
   </Step>
   <Step title="Step 2">
 Update EXT.ns_basetheme atleast v11.5.x

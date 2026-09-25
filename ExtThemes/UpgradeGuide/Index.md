@@ -18,7 +18,7 @@ sidebarTitle: "Upgrade Guide TYPO3 v10 to v12"
 
 Latest version of TYPO3 templates products have major breaking changes to migrate from outdated EXT.gridelements to modern EXT.container. Please take a look at the step-by-step migration guide below.
 
-**Step 1.** Go to Admin Tools > T3Planet Shop (older versions: NITSAN > License Manager) > Update to latest version of EXT.ns_theme_name
+**Step 1.** Open System → T3Planet Shop (TYPO3 v12/v13: Admin Tools → T3Planet Shop; older versions: NITSAN > License Manager) and update to latest version of EXT.ns_theme_name
 
 **Step 2.** Update EXT.ns_basetheme atleast version
 
@@ -60,7 +60,7 @@ That’s it! All the grids are migrated (structure and data) from EXT.gridelemen
 
 From version **13.1.0** onwards, this product introduces major changes by migrating from outdated **FlexForm-based elements** to modern **Content Blocks (EXT)**. Please follow the step-by-step migration guide below.
 
-1. Go to **Admin Tools → T3Planet Shop** and update **Theme (EXT)** to the latest version.
+1. Open **System → T3Planet Shop** (TYPO3 v12/v13: Admin Tools → T3Planet Shop) and update **Theme (EXT)** to the latest version.
 2. Make sure the **Content Blocks extension (EXT)** is installed, as it is required for this migration.
 3. Go to **Admin Tools → Maintenance** module and clear the cache. Also, click on the **Dump Autoload** button.
   For composer-based TYPO3 installations, run the following command:
