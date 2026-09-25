@@ -10,8 +10,21 @@ docs/_build/
 # Local clone of live Sphinx RST + built HTML (~470MB) — reference only, never publish.
 Live-docs/
 
-# Internal tooling — not published docs
+# Internal tooling — not published docs (Git-only; agents/CI still read these)
 scripts/
+.cursor/
+.cursor/**
+docs/deployment/
+docs/deployment/**
+
+# Root agent / ops runbooks — must NOT become public docs pages
+# (were live at /AGENTS and /context and indexed in sitemap + llms-full)
+AGENTS.md
+AGENTS
+context.md
+context
+README.md
+README
 
 # Visual regression testing (testing only — not published)
 visual-regression/
@@ -32,3 +45,4 @@ rtd-mintlify-url-comparison.md
 
 # Local recovery snapshots — never publish
 backup/
+backup/**
