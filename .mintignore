@@ -19,6 +19,7 @@ docs/deployment/**
 
 # Root agent / ops runbooks — must NOT become public docs pages
 # (were live at /AGENTS and /context and indexed in sitemap + llms-full)
+# Root AGENTS.md/context.md removed; full copies live under .cursor/ and docs/deployment/
 AGENTS.md
 AGENTS
 context.md
