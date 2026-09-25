@@ -29,3 +29,6 @@ broken-url-report.md
 product-url-diff-report.md
 url-mismatches-only.md
 rtd-mintlify-url-comparison.md
+
+# Local recovery snapshots — never publish
+backup/
